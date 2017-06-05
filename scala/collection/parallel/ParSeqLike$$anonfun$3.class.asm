@@ -16,9 +16,6 @@ public final class scala/collection/parallel/ParSeqLike$$anonfun$3 extends scala
   // access flags 0x12
   private final Lscala/collection/parallel/CombinerFactory; cfactory$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/parallel/ParSeq; that$1
 

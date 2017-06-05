@@ -17,9 +17,6 @@ public final class scala/collection/immutable/Stream$$anonfun$scala$collection$i
   // access flags 0x12
   private final I len$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/immutable/Stream; these$1
 

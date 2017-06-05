@@ -13,9 +13,6 @@ public final class scala/util/control/Exception$$anonfun$unwrapping$1 extends sc
   // access flags 0x12
   private final Lscala/collection/Seq; exceptions$3
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/Seq;)V
     ALOAD 0

@@ -14,9 +14,6 @@ public final class scala/sys/process/ProcessBuilderImpl$Simple$$anonfun$2 extend
   // access flags 0x11
   public final Ljava/lang/Process; process$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessBuilderImpl$Simple;Lscala/sys/process/ProcessIO;Ljava/lang/Process;)V
     ALOAD 0

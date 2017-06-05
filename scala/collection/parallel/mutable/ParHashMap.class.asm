@@ -62,6 +62,9 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
   // access flags 0x82
   private transient I seedvalue
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x82
   private transient [I sizemap
 

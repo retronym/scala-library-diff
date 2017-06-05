@@ -11,9 +11,6 @@ public final class scala/util/PropertiesTrait$$anonfun$envOrSome$1 extends scala
   // access flags 0x11
   public final Lscala/Option; alt$2
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/util/PropertiesTrait;Lscala/Option;)V
     ALOAD 0

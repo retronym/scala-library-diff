@@ -13,9 +13,6 @@ public final class scala/collection/parallel/FutureTasks$$anonfun$scala$collecti
   // access flags 0x11
   public final Lscala/concurrent/ExecutionContext; ec$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/parallel/FutureTasks;Lscala/concurrent/ExecutionContext;)V
     ALOAD 0

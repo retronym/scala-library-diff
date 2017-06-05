@@ -9,8 +9,8 @@ public abstract class scala/reflect/ManifestFactory$PhantomManifest extends scal
   // access flags 0x9
   public static INNERCLASS scala/reflect/ManifestFactory$ClassTypeManifest scala/reflect/ManifestFactory ClassTypeManifest
 
-  // access flags 0x12
-  private final I hashCode
+  // access flags 0x92
+  private final transient I hashCode
 
   // access flags 0x12
   private final Ljava/lang/String; toString

@@ -8,9 +8,6 @@ public final class scala/reflect/ClassManifestDeprecatedApis$$anonfun$subargs$1 
   // access flags 0x11
   public final INNERCLASS scala/reflect/ClassManifestDeprecatedApis$$anonfun$subargs$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/reflect/ClassTag<TT;>;)V
   // declaration: void <init>(scala.reflect.ClassTag<T>)

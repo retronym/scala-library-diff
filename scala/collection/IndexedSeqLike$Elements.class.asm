@@ -16,6 +16,9 @@ public class scala/collection/IndexedSeqLike$Elements extends scala/collection/A
   // access flags 0x2
   private I index
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1756321872811029277
+
   // access flags 0x1
   // signature (Lscala/collection/IndexedSeqLike<TA;TRepr;>;II)V
   // declaration: void <init>(scala.collection.IndexedSeqLike<A, Repr>, int, int)

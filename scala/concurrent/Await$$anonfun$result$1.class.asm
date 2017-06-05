@@ -14,9 +14,6 @@ public final class scala/concurrent/Await$$anonfun$result$1 extends scala/runtim
   // access flags 0x12
   private final Lscala/concurrent/Awaitable; awaitable$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/concurrent/Awaitable;Lscala/concurrent/duration/Duration;)V
     ALOAD 0

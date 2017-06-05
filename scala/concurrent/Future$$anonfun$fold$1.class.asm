@@ -11,9 +11,6 @@ public final class scala/concurrent/Future$$anonfun$fold$1 extends scala/runtime
   // access flags 0x12
   private final Lscala/Function2; op$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/Object; zero$1
 

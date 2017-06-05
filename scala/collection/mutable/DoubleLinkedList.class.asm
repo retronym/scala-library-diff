@@ -25,6 +25,9 @@ public class scala/collection/mutable/DoubleLinkedList extends scala/collection/
   // declaration: scala.collection.mutable.Seq
   private Lscala/collection/mutable/Seq; prev
 
+  // access flags 0x19
+  public final static J serialVersionUID = -8144992287952814767
+
   // access flags 0x1
   // signature ()V
   // declaration: void <init>()

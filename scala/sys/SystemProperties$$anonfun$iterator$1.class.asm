@@ -10,9 +10,6 @@ public final class scala/sys/SystemProperties$$anonfun$iterator$1 extends scala/
   // access flags 0x11
   public final INNERCLASS scala/sys/SystemProperties$$anonfun$iterator$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/sys/SystemProperties;)V
     ALOAD 0

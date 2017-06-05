@@ -15,9 +15,6 @@ public final class scala/Enumeration$ValueSet$$anonfun$iterator$1 extends scala/
   // access flags 0x1012
   private final synthetic Lscala/Enumeration$ValueSet; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Enumeration$ValueSet;)V
     ALOAD 1

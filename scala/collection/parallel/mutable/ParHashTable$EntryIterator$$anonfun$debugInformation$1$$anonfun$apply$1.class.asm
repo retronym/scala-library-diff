@@ -12,9 +12,6 @@ public final class scala/collection/parallel/mutable/ParHashTable$EntryIterator$
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashTable$EntryIterator$$anonfun$debugInformation$1$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParHashTable<TK;TEntry;>.EntryIterator<TT;TIterRepr;>.$anonfun$debugInformation$1;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParHashTable<K, Entry>.EntryIterator<T, IterRepr>.$anonfun$debugInformation$1)

@@ -10,9 +10,6 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2$
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2$$anonfun$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParHashSetCombiner<TT;>.$anon$2;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParHashSetCombiner<T>.$anon$2)

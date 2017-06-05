@@ -43,6 +43,9 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
   // access flags 0x82
   private transient I seedvalue
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x82
   private transient [I sizemap
 

@@ -8,9 +8,6 @@ public final class scala/sys/SystemProperties$$anonfun$help$1 extends scala/runt
   // access flags 0x19
   public final static INNERCLASS scala/sys/SystemProperties$$anonfun$help$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

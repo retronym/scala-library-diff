@@ -12,9 +12,6 @@ public final class scala/collection/TraversableLike$$anonfun$head$1$$anonfun$app
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableLike$$anonfun$head$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/Object; x$5
 

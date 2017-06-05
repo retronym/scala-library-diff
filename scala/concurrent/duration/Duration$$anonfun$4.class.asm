@@ -10,9 +10,6 @@ public final class scala/concurrent/duration/Duration$$anonfun$4 extends scala/r
   // access flags 0x11
   public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

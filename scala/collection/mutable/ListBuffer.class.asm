@@ -27,6 +27,9 @@ public final class scala/collection/mutable/ListBuffer extends scala/collection/
   // declaration: scala.collection.immutable.List<A>
   private Lscala/collection/immutable/List; scala$collection$mutable$ListBuffer$$start
 
+  // access flags 0x19
+  public final static J serialVersionUID = 3419063961353022662
+
   // access flags 0x1
   // signature <B:Ljava/lang/Object;>(TB;Lscala/Function2<TA;TB;TB;>;)TB;
   // declaration: B $colon$bslash<B>(B, scala.Function2<A, B, B>)

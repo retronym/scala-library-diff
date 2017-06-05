@@ -10,9 +10,6 @@ public final class scala/collection/immutable/Range$Double$$anonfun$apply$1 exte
   // access flags 0x19
   public final static INNERCLASS scala/collection/immutable/Range$Double$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

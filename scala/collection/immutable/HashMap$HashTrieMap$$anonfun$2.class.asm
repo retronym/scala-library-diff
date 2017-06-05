@@ -10,9 +10,6 @@ public final class scala/collection/immutable/HashMap$HashTrieMap$$anonfun$2 ext
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/HashMap$HashTrieMap$$anonfun$2 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/HashMap$HashTrieMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.immutable.HashMap$HashTrieMap<A, B>)

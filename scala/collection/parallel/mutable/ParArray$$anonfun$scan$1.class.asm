@@ -18,9 +18,6 @@ public final class scala/collection/parallel/mutable/ParArray$$anonfun$scan$1 ex
   // access flags 0x12
   private final Lscala/Function2; op$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final [Ljava/lang/Object; targetarr$1
 

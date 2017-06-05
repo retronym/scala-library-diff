@@ -15,9 +15,6 @@ public final class scala/collection/SeqViewLike$Reversed$$anonfun$createReversed
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; lst$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/SeqViewLike<TA;TColl;TThis;>.Reversed;)V
   // declaration: void <init>(scala.collection.SeqViewLike<A, Coll, This>.Reversed)

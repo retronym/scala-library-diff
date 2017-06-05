@@ -18,9 +18,6 @@ public final class scala/collection/parallel/ParIterableLike$$anonfun$6 extends 
   // access flags 0x12
   private final Lscala/collection/generic/CanBuildFrom; bf$5
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/GenTraversableOnce; that$1
 

@@ -13,9 +13,6 @@ public final class scala/collection/parallel/ForkJoinTasks$$anonfun$execute$2 ex
   // access flags 0x12
   private final Lscala/collection/parallel/ForkJoinTasks$WrappedTask; fjtask$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/parallel/ForkJoinTasks;Lscala/collection/parallel/ForkJoinTasks$WrappedTask;)V
     ALOAD 0

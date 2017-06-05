@@ -13,9 +13,6 @@ public final class scala/collection/SortedMap$Default$$anonfun$$minus$2 extends 
   // access flags 0x12
   private final Lscala/collection/mutable/Builder; b$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/SortedMap$Default<TA;TB;>;)V
   // declaration: void <init>(scala.collection.SortedMap$Default<A, B>)

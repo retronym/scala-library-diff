@@ -11,9 +11,6 @@ public final class scala/collection/immutable/DefaultMap$$anonfun$$minus$2 exten
   // access flags 0x12
   private final Lscala/collection/mutable/Builder; b$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/DefaultMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.immutable.DefaultMap<A, B>)

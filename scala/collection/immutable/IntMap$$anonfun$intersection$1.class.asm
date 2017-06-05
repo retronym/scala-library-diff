@@ -8,9 +8,6 @@ public final class scala/collection/immutable/IntMap$$anonfun$intersection$1 ext
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$intersection$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/IntMap<TT;>;)V
   // declaration: void <init>(scala.collection.immutable.IntMap<T>)

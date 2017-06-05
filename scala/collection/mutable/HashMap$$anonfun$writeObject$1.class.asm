@@ -11,9 +11,6 @@ public final class scala/collection/mutable/HashMap$$anonfun$writeObject$1 exten
   // access flags 0x12
   private final Ljava/io/ObjectOutputStream; out$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/HashMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.mutable.HashMap<A, B>)

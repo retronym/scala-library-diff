@@ -16,9 +16,6 @@ public final class scala/collection/immutable/Stream$StreamWithFilter$$anonfun$s
   // access flags 0x12
   private final Lscala/Function1; f$3
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; tail$1
 

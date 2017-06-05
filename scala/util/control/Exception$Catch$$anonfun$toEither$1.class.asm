@@ -10,9 +10,6 @@ public final class scala/util/control/Exception$Catch$$anonfun$toEither$1 extend
   // access flags 0x11
   public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$toEither$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/util/control/Exception$Catch<TT;>;)V
   // declaration: void <init>(scala.util.control.Exception$Catch<T>)

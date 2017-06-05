@@ -16,9 +16,6 @@ public final class scala/util/Try$WithFilter$$anonfun$withFilter$1 extends scala
   // access flags 0x12
   private final Lscala/Function1; q$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/util/Try<TT;>.WithFilter;)V
   // declaration: void <init>(scala.util.Try<T>.WithFilter)

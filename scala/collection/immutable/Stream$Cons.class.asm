@@ -12,6 +12,9 @@ public final class scala/collection/immutable/Stream$Cons extends scala/collecti
   // declaration: A
   private final Ljava/lang/Object; hd
 
+  // access flags 0x19
+  public final static J serialVersionUID = -602202424901551803
+
   // access flags 0x42
   // signature Lscala/Function0<Lscala/collection/immutable/Stream<TA;>;>;
   // declaration: scala.Function0<scala.collection.immutable.Stream<A>>

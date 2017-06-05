@@ -13,9 +13,6 @@ public final class scala/collection/parallel/ParSeqLike$Updated$$anonfun$split$1
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParSeqLike$Updated; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParSeqLike<TT;TRepr;TSequential;>.Updated<TU;TThat;>;)V
   // declaration: void <init>(scala.collection.parallel.ParSeqLike<T, Repr, Sequential>.Updated<U, That>)

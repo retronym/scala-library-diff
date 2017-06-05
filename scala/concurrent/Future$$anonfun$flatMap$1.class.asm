@@ -23,9 +23,6 @@ public final class scala/concurrent/Future$$anonfun$flatMap$1 extends scala/runt
   // access flags 0x11
   public final Lscala/concurrent/impl/Promise$DefaultPromise; p$4
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/concurrent/Future<TT;>;)V
   // declaration: void <init>(scala.concurrent.Future<T>)

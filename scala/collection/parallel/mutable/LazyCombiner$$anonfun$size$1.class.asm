@@ -8,9 +8,6 @@ public final class scala/collection/parallel/mutable/LazyCombiner$$anonfun$size$
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/LazyCombiner$$anonfun$size$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/LazyCombiner<TElem;TTo;TBuff;>;)V
   // declaration: void <init>(scala.collection.parallel.mutable.LazyCombiner<Elem, To, Buff>)

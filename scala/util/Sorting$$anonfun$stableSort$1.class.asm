@@ -11,9 +11,6 @@ public final class scala/util/Sorting$$anonfun$stableSort$1 extends scala/runtim
   // access flags 0x12
   private final Lscala/math/Ordering; eta$0$1$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/math/Ordering;)V
     ALOAD 0

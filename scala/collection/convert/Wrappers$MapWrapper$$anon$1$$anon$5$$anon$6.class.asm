@@ -176,20 +176,22 @@ public final class scala/collection/convert/Wrappers$MapWrapper$$anon$1$$anon$5$
   // access flags 0x1
   public hashCode()I
     GETSTATIC scala/util/hashing/package$.MODULE$ : Lscala/util/hashing/package$;
+    GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 0
     GETFIELD scala/collection/convert/Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6.k$1 : Ljava/lang/Object;
-    INVOKEVIRTUAL java/lang/Object.hashCode ()I
+    INVOKEVIRTUAL scala/runtime/ScalaRunTime$.hash (Ljava/lang/Object;)I
     INVOKEVIRTUAL scala/util/hashing/package$.byteswap32 (I)I
     GETSTATIC scala/util/hashing/package$.MODULE$ : Lscala/util/hashing/package$;
+    GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 0
     GETFIELD scala/collection/convert/Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6.v$1 : Ljava/lang/Object;
-    INVOKEVIRTUAL java/lang/Object.hashCode ()I
+    INVOKEVIRTUAL scala/runtime/ScalaRunTime$.hash (Ljava/lang/Object;)I
     INVOKEVIRTUAL scala/util/hashing/package$.byteswap32 (I)I
     BIPUSH 16
     ISHL
     IADD
     IRETURN
-    MAXSTACK = 3
+    MAXSTACK = 4
     MAXLOCALS = 1
 
   // access flags 0x1

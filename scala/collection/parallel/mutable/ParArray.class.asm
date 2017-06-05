@@ -65,6 +65,9 @@ public class scala/collection/parallel/mutable/ParArray implements scala/collect
   // access flags 0x82
   private transient [Ljava/lang/Object; scala$collection$parallel$mutable$ParArray$$array
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x1
   // signature <S:Ljava/lang/Object;>(TS;Lscala/Function2<TT;TS;TS;>;)TS;
   // declaration: S $colon$bslash<S>(S, scala.Function2<T, S, S>)

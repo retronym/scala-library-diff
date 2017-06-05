@@ -13,9 +13,6 @@ public final class scala/concurrent/Future$$anonfun$fallbackTo$1$$anonfun$apply$
   // access flags 0x1012
   private final synthetic Lscala/concurrent/Future$$anonfun$fallbackTo$1; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/util/Failure; x4$1
 

@@ -16,9 +16,6 @@ public final class scala/collection/immutable/NumericRange$$anon$1$$anonfun$cont
   // access flags 0x12
   private final Ljava/lang/Object; el$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/NumericRange<TT;>.$anon$1;)V
   // declaration: void <init>(scala.collection.immutable.NumericRange<T>.$anon$1)

@@ -23,9 +23,6 @@ public final class scala/collection/TraversableOnce$$anonfun$minBy$1 extends sca
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; minF$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/TraversableOnce<TA;>;)V
   // declaration: void <init>(scala.collection.TraversableOnce<A>)

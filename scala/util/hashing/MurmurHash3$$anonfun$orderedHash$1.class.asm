@@ -17,9 +17,6 @@ public final class scala/util/hashing/MurmurHash3$$anonfun$orderedHash$1 extends
   // access flags 0x12
   private final Lscala/runtime/IntRef; n$2
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/util/hashing/MurmurHash3;Lscala/runtime/IntRef;Lscala/runtime/IntRef;)V
     ALOAD 1

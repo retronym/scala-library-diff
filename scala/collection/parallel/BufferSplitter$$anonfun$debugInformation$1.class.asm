@@ -11,9 +11,6 @@ public final class scala/collection/parallel/BufferSplitter$$anonfun$debugInform
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/BufferSplitter; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/BufferSplitter<TT;>;)V
   // declaration: void <init>(scala.collection.parallel.BufferSplitter<T>)

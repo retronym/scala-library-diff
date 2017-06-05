@@ -10,9 +10,6 @@ public final class scala/sys/process/BasicIO$$anonfun$processErrFully$1$$anonfun
   // access flags 0x11
   public final INNERCLASS scala/sys/process/BasicIO$$anonfun$processErrFully$1$$anonfun$apply$4 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/String; x$1$1
 

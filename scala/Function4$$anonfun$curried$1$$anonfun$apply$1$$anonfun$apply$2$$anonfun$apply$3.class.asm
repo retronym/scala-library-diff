@@ -17,9 +17,6 @@ public final class scala/Function4$$anonfun$curried$1$$anonfun$apply$1$$anonfun$
   // access flags 0x1012
   private final synthetic Lscala/Function4$$anonfun$curried$1$$anonfun$apply$1$$anonfun$apply$2; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/Object; x3$1
 

@@ -21,6 +21,9 @@ public class scala/collection/immutable/HashMap extends scala/collection/immutab
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/HashMap$SerializationProxy scala/collection/immutable/HashMap SerializationProxy
 
+  // access flags 0x19
+  public final static J serialVersionUID = 2
+
   // access flags 0x1
   // signature (TA;)Lscala/collection/immutable/HashMap<TA;TB;>;
   // declaration: scala.collection.immutable.HashMap<A, B> $minus(A)

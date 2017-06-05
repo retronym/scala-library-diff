@@ -17,6 +17,9 @@ public class scala/collection/immutable/Stack extends scala/collection/AbstractS
   // declaration: scala.collection.immutable.List<A>
   private final Lscala/collection/immutable/List; elems
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1976480595012942526
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/List<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.List<A>)

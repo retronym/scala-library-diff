@@ -13,9 +13,6 @@ public final class scala/collection/mutable/HashTable$Contents$$anonfun$debugInf
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/HashTable$Contents; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/HashTable$Contents<TA;TEntry;>;)V
   // declaration: void <init>(scala.collection.mutable.HashTable$Contents<A, Entry>)

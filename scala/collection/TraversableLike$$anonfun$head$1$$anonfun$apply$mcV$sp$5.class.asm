@@ -15,9 +15,6 @@ public final class scala/collection/TraversableLike$$anonfun$head$1$$anonfun$app
   // access flags 0x1012
   private final synthetic Lscala/collection/TraversableLike$$anonfun$head$1; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/TraversableLike<TA;TRepr;>.$anonfun$head$1;)V
   // declaration: void <init>(scala.collection.TraversableLike<A, Repr>.$anonfun$head$1)

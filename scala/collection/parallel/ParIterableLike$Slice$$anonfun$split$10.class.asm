@@ -13,9 +13,6 @@ public final class scala/collection/parallel/ParIterableLike$Slice$$anonfun$spli
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParIterableLike$Slice; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParIterableLike<TT;TRepr;TSequential;>.Slice<TU;TThis;>;)V
   // declaration: void <init>(scala.collection.parallel.ParIterableLike<T, Repr, Sequential>.Slice<U, This>)

@@ -10,9 +10,6 @@ public final class scala/collection/parallel/ThreadPoolTasks$$anonfun$execute$1 
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anonfun$execute$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/parallel/ThreadPoolTasks$WrappedTask; t$1
 

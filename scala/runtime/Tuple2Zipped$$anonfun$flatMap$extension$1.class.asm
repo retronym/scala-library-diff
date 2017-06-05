@@ -20,9 +20,6 @@ public final class scala/runtime/Tuple2Zipped$$anonfun$flatMap$extension$1 exten
   // access flags 0x12
   private final Ljava/lang/Object; nonLocalReturnKey2$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/mutable/Builder;Lscala/collection/Iterator;Lscala/Function2;Ljava/lang/Object;)V
     ALOAD 0

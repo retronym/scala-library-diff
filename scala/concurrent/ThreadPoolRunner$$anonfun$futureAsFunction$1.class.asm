@@ -8,9 +8,6 @@ public final class scala/concurrent/ThreadPoolRunner$$anonfun$futureAsFunction$1
   // access flags 0x11
   public final INNERCLASS scala/concurrent/ThreadPoolRunner$$anonfun$futureAsFunction$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/util/concurrent/Future; x$1
 

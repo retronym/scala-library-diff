@@ -11,9 +11,6 @@ public final class scala/collection/TraversableOnce$$anonfun$reduceRight$1 exten
   // access flags 0x12
   private final Lscala/Function2; op$4
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/TraversableOnce<TA;>;)V
   // declaration: void <init>(scala.collection.TraversableOnce<A>)

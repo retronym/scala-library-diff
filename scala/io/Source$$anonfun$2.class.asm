@@ -23,9 +23,6 @@ public final class scala/io/Source$$anonfun$2 extends scala/runtime/AbstractFunc
   // access flags 0x12
   private final Lscala/Function0; reset$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Ljava/io/InputStream;ILscala/Function0;Lscala/Function0;Lscala/io/Codec;)V
     ALOAD 0

@@ -8,9 +8,6 @@ public final class scala/util/control/Exception$$anonfun$1 extends scala/runtime
   // access flags 0x19
   public final static INNERCLASS scala/util/control/Exception$$anonfun$1 scala/util/control/Exception null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

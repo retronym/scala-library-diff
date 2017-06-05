@@ -19,6 +19,9 @@ public class scala/collection/mutable/HashSet extends scala/collection/mutable/A
   // access flags 0x82
   private transient I seedvalue
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x82
   private transient [I sizemap
 

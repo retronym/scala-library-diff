@@ -15,9 +15,6 @@ public final class scala/collection/IterableViewLike$$anonfun$sliding$1 extends 
   // access flags 0x1012
   private final synthetic Lscala/collection/IterableViewLike; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/IterableViewLike<TA;TColl;TThis;>;)V
   // declaration: void <init>(scala.collection.IterableViewLike<A, Coll, This>)

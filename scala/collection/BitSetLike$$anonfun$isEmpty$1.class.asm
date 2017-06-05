@@ -9,9 +9,6 @@ public final class scala/collection/BitSetLike$$anonfun$isEmpty$1 extends scala/
   // access flags 0x1012
   private final synthetic Lscala/collection/BitSetLike; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/BitSetLike<TThis;>;)V
   // declaration: void <init>(scala.collection.BitSetLike<This>)

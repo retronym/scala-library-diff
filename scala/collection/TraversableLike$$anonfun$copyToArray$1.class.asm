@@ -17,9 +17,6 @@ public final class scala/collection/TraversableLike$$anonfun$copyToArray$1 exten
   // access flags 0x11
   public final Lscala/runtime/IntRef; i$3
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x11
   public final Ljava/lang/Object; xs$1
 

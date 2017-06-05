@@ -6,9 +6,6 @@ public final class scala/sys/process/ProcessCreation$$anonfun$apply$1 extends sc
   // access flags 0x11
   public final INNERCLASS scala/sys/process/ProcessCreation$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Z value$1
 

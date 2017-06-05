@@ -10,9 +10,6 @@ public final class scala/collection/parallel/IterableSplitter$Zipped$$anonfun$6 
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/IterableSplitter$Zipped$$anonfun$6 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/IterableSplitter<TT;>.Zipped<TS;>;)V
   // declaration: void <init>(scala.collection.parallel.IterableSplitter<T>.Zipped<S>)

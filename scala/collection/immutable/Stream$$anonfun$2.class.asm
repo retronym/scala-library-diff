@@ -11,9 +11,6 @@ public final class scala/collection/immutable/Stream$$anonfun$2 extends scala/ru
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; result$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/Stream<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.Stream<A>)

@@ -21,6 +21,9 @@ public class scala/collection/immutable/Queue extends scala/collection/AbstractS
   // declaration: scala.collection.immutable.List<A>
   private final Lscala/collection/immutable/List; out
 
+  // access flags 0x19
+  public final static J serialVersionUID = -7622936493364270175
+
   // access flags 0x1
   // signature <B:Ljava/lang/Object;That:Ljava/lang/Object;>(TB;Lscala/collection/generic/CanBuildFrom<Lscala/collection/immutable/Queue<TA;>;TB;TThat;>;)TThat;
   // declaration: That $colon$plus<B, That>(B, scala.collection.generic.CanBuildFrom<scala.collection.immutable.Queue<A>, B, That>)

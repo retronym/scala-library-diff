@@ -16,9 +16,6 @@ public final class scala/collection/TraversableViewLike$Filtered$$anonfun$foreac
   // access flags 0x12
   private final Lscala/Function1; f$5
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.Filtered;)V
   // declaration: void <init>(scala.collection.TraversableViewLike<A, Coll, This>.Filtered)

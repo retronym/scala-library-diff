@@ -20,6 +20,9 @@ public class scala/collection/mutable/LinkedList extends scala/collection/mutabl
   // declaration: scala.collection.mutable.Seq
   private Lscala/collection/mutable/Seq; next
 
+  // access flags 0x19
+  public final static J serialVersionUID = -7308240733518833071
+
   // access flags 0x1
   // signature ()V
   // declaration: void <init>()

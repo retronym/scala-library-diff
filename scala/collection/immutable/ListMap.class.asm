@@ -13,6 +13,9 @@ public class scala/collection/immutable/ListMap extends scala/collection/immutab
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/ListMap$$anonfun$$plus$plus$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 301002838095710379
+
   // access flags 0x1
   // signature (TA;)Lscala/collection/immutable/ListMap<TA;TB;>;
   // declaration: scala.collection.immutable.ListMap<A, B> $minus(A)

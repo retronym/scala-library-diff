@@ -11,9 +11,6 @@ public final class scala/collection/parallel/immutable/ParVector$ParVectorIterat
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; remvector$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/mutable/ArrayBuffer; splitted$1
 

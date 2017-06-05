@@ -15,9 +15,6 @@ public final class scala/concurrent/Future$$anonfun$sequence$1$$anonfun$apply$10
   // access flags 0x12
   private final Lscala/collection/mutable/Builder; r$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/concurrent/Future$$anonfun$sequence$1$$anonfun$apply$10;Lscala/collection/mutable/Builder;)V
     ALOAD 0

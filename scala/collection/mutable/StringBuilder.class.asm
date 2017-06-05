@@ -5,6 +5,9 @@
 public final class scala/collection/mutable/StringBuilder extends scala/collection/mutable/AbstractSeq  implements java/lang/CharSequence scala/collection/mutable/IndexedSeq scala/collection/immutable/StringLike scala/collection/mutable/Builder scala/Serializable  {
 
 
+  // access flags 0x19
+  public final static J serialVersionUID = -8525408645367278351
+
   // access flags 0x12
   private final Ljava/lang/StringBuilder; underlying
 

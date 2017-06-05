@@ -10,9 +10,6 @@ public final class scala/collection/generic/IsTraversableOnce$$anon$1$$anonfun$1
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/IsTraversableOnce$$anon$1$$anonfun$1 scala/collection/generic/IsTraversableOnce$$anon$1 null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/generic/IsTraversableOnce$$anon$1;)V
     ALOAD 0

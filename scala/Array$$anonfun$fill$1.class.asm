@@ -17,9 +17,6 @@ public final class scala/Array$$anonfun$fill$1 extends scala/runtime/AbstractFun
   // access flags 0x12
   private final I n2$9
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(ILscala/Function0;Lscala/reflect/ClassTag;)V
     ALOAD 0

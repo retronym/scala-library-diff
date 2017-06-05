@@ -16,9 +16,6 @@ public final class scala/collection/mutable/LinkedHashSet$$anonfun$readObject$1 
   // access flags 0x12
   private final Ljava/io/ObjectInputStream; in$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/LinkedHashSet<TA;>;)V
   // declaration: void <init>(scala.collection.mutable.LinkedHashSet<A>)

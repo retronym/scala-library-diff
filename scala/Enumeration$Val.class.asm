@@ -13,6 +13,9 @@ public class scala/Enumeration$Val extends scala/Enumeration$Value  {
   // access flags 0x11
   public final I scala$Enumeration$Val$$i
 
+  // access flags 0x19
+  public final static J serialVersionUID = -3501153230598116017
+
   // access flags 0x1
   public <init>(Lscala/Enumeration;ILjava/lang/String;)V
     ALOAD 0

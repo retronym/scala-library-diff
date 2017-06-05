@@ -17,6 +17,9 @@ public class scala/collection/immutable/ListMap$Node extends scala/collection/im
   // declaration: A
   private final Ljava/lang/Object; key
 
+  // access flags 0x19
+  public final static J serialVersionUID = -6453056603889598734
+
   // access flags 0x12
   // signature TB1;
   // declaration: B1

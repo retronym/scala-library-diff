@@ -14,9 +14,6 @@ public final class scala/collection/mutable/DoubleLinkedListLike$$anonfun$update
   // access flags 0x12
   private final I n$2
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/DoubleLinkedListLike<TA;TThis;>;)V
   // declaration: void <init>(scala.collection.mutable.DoubleLinkedListLike<A, This>)

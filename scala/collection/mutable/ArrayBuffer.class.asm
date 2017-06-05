@@ -13,6 +13,9 @@ public class scala/collection/mutable/ArrayBuffer extends scala/collection/mutab
   // access flags 0x12
   private final I initialSize
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1529165946227428979
+
   // access flags 0x2
   private I size0
 

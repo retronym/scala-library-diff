@@ -8,9 +8,6 @@ public final class scala/collection/GenMapLike$$anonfun$liftedTree1$1$1 extends 
   // access flags 0x11
   public final INNERCLASS scala/collection/GenMapLike$$anonfun$liftedTree1$1$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/GenMap; x2$1
 

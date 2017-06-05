@@ -12,6 +12,9 @@ public class scala/collection/immutable/List$SerializationProxy implements java/
   // declaration: scala.collection.immutable.List<A>
   private transient Lscala/collection/immutable/List; orig
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/List<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.List<A>)

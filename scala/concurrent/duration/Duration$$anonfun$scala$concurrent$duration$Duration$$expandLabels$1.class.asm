@@ -8,9 +8,6 @@ public final class scala/concurrent/duration/Duration$$anonfun$scala$concurrent$
   // access flags 0x19
   public final static INNERCLASS scala/concurrent/duration/Duration$$anonfun$scala$concurrent$duration$Duration$$expandLabels$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

@@ -20,9 +20,6 @@ public final class scala/collection/parallel/ParSeqLike$$anonfun$startsWith$2 ex
   // access flags 0x12
   private final I offset$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParSeqLike<TT;TRepr;TSequential;>;)V
   // declaration: void <init>(scala.collection.parallel.ParSeqLike<T, Repr, Sequential>)

@@ -14,9 +14,6 @@ public final class scala/PartialFunction$$anonfun$runWith$1 extends scala/runtim
   // access flags 0x12
   private final Lscala/Function1; action$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/PartialFunction<TA;TB;>;)V
   // declaration: void <init>(scala.PartialFunction<A, B>)

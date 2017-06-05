@@ -13,9 +13,6 @@ public final class scala/concurrent/Future$$anonfun$sequence$1 extends scala/run
   // access flags 0x11
   public final Lscala/concurrent/ExecutionContext; executor$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/concurrent/ExecutionContext;)V
     ALOAD 0

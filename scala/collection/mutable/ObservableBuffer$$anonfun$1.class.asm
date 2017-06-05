@@ -11,9 +11,6 @@ public final class scala/collection/mutable/ObservableBuffer$$anonfun$1 extends 
   // access flags 0x12
   private final Lscala/runtime/IntRef; curr$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/ObservableBuffer<TA;>;)V
   // declaration: void <init>(scala.collection.mutable.ObservableBuffer<A>)

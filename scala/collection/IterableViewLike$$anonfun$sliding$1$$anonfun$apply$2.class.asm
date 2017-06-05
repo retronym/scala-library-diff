@@ -10,9 +10,6 @@ public final class scala/collection/IterableViewLike$$anonfun$sliding$1$$anonfun
   // access flags 0x11
   public final INNERCLASS scala/collection/IterableViewLike$$anonfun$sliding$1$$anonfun$apply$2 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/Seq; x$2
 

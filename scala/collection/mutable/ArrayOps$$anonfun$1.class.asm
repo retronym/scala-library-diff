@@ -11,9 +11,6 @@ public final class scala/collection/mutable/ArrayOps$$anonfun$1 extends scala/ru
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/ArrayOps; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/ArrayOps<TT;>;)V
   // declaration: void <init>(scala.collection.mutable.ArrayOps<T>)

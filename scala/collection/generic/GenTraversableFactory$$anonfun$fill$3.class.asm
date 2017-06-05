@@ -23,9 +23,6 @@ public final class scala/collection/generic/GenTraversableFactory$$anonfun$fill$
   // access flags 0x12
   private final I n4$2
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/generic/GenTraversableFactory<TCC;>;)V
   // declaration: void <init>(scala.collection.generic.GenTraversableFactory<CC>)

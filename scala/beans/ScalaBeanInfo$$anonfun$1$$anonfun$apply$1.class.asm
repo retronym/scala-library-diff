@@ -13,9 +13,6 @@ public final class scala/beans/ScalaBeanInfo$$anonfun$1$$anonfun$apply$1 extends
   // access flags 0x12
   private final Ljava/lang/reflect/Method; m$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/beans/ScalaBeanInfo$$anonfun$1;Ljava/lang/reflect/Method;)V
     ALOAD 0

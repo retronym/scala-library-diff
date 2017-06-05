@@ -13,9 +13,6 @@ public final class scala/collection/DebugUtils$$anonfun$buildString$1 extends sc
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; output$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/runtime/ObjectRef;)V
     ALOAD 0

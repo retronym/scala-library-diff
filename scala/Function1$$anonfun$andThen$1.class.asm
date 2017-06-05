@@ -14,9 +14,6 @@ public final class scala/Function1$$anonfun$andThen$1 extends scala/runtime/Abst
   // access flags 0x12
   private final Lscala/Function1; g$2
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/Function1<TT1;TR;>;)V
   // declaration: void <init>(scala.Function1<T1, R>)

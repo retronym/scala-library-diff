@@ -11,9 +11,6 @@ public final class scala/sys/process/BasicIO$$anonfun$input$1 extends scala/runt
   // access flags 0x12
   private final Z connect$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Z)V
     ALOAD 0

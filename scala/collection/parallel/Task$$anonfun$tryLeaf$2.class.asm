@@ -9,9 +9,6 @@ public final class scala/collection/parallel/Task$$anonfun$tryLeaf$2 extends sca
   // access flags 0x1011
   public final synthetic Lscala/collection/parallel/Task; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/Task<TR;TTp;>;)V
   // declaration: void <init>(scala.collection.parallel.Task<R, Tp>)

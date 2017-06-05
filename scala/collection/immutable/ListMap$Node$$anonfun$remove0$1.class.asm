@@ -10,9 +10,6 @@ public final class scala/collection/immutable/ListMap$Node$$anonfun$remove0$1 ex
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/ListMap$Node$$anonfun$remove0$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/ListMap<TA;TB;>.Node<TB1;>;)V
   // declaration: void <init>(scala.collection.immutable.ListMap<A, B>.Node<B1>)

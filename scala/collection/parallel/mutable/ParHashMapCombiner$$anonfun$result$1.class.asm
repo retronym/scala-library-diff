@@ -13,9 +13,6 @@ public final class scala/collection/parallel/mutable/ParHashMapCombiner$$anonfun
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/mutable/ParHashMapCombiner; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/runtime/VolatileObjectRef; table$module$1
 

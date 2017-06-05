@@ -11,9 +11,6 @@ public final class scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTim
   // access flags 0x12
   private final I maxElements$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(I)V
     ALOAD 0

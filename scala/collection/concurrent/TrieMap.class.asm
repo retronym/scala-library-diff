@@ -29,6 +29,9 @@ public final class scala/collection/concurrent/TrieMap implements scala/collecti
   // declaration: java.util.concurrent.atomic.AtomicReferenceFieldUpdater<scala.collection.concurrent.TrieMap<K, V>, java.lang.Object>
   private Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater; rootupdater
 
+  // access flags 0x19
+  public final static J serialVersionUID = -6402774413839597105
+
   // access flags 0x1
   // signature <B:Ljava/lang/Object;>(TB;Lscala/Function2<Lscala/Tuple2<TK;TV;>;TB;TB;>;)TB;
   // declaration: B $colon$bslash<B>(B, scala.Function2<scala.Tuple2<K, V>, B, B>)

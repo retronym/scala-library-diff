@@ -8,9 +8,6 @@ public final class scala/math/BigDecimal$$anonfun$equals$1 extends scala/runtime
   // access flags 0x11
   public final INNERCLASS scala/math/BigDecimal$$anonfun$equals$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x11
   public final Lscala/math/BigInt; x3$1
 

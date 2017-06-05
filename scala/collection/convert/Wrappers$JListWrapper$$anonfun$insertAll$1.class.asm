@@ -13,9 +13,6 @@ public final class scala/collection/convert/Wrappers$JListWrapper$$anonfun$inser
   // access flags 0x12
   private final Ljava/util/List; ins$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/convert/Wrappers$JListWrapper<TA;>;)V
   // declaration: void <init>(scala.collection.convert.Wrappers$JListWrapper<A>)

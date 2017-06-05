@@ -10,9 +10,6 @@ public final class scala/collection/Iterator$ConcatIterator$$anonfun$$plus$plus$
   // access flags 0x11
   public final INNERCLASS scala/collection/Iterator$ConcatIterator$$anonfun$$plus$plus$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/Function0; that$1
 

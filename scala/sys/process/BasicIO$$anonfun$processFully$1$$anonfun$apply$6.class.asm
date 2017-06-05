@@ -13,9 +13,6 @@ public final class scala/sys/process/BasicIO$$anonfun$processFully$1$$anonfun$ap
   // access flags 0x12
   private final Ljava/io/BufferedReader; reader$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/sys/process/BasicIO$$anonfun$processFully$1;Ljava/io/BufferedReader;)V
     ALOAD 0

@@ -14,9 +14,6 @@ public final class scala/math/Ordering$$anonfun$by$1 extends scala/runtime/Abstr
   // access flags 0x12
   private final Lscala/math/Ordering; ord$3
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Function1;Lscala/math/Ordering;)V
     ALOAD 0

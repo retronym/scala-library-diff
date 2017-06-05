@@ -14,9 +14,6 @@ public final class scala/collection/parallel/mutable/ParHashMap$$anonfun$readObj
   // access flags 0x12
   private final Ljava/io/ObjectInputStream; in$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParHashMap<TK;TV;>;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParHashMap<K, V>)

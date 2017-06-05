@@ -56,6 +56,9 @@ public abstract class scala/Enumeration implements scala/Serializable  {
   // access flags 0xC2
   private volatile transient Z scala$Enumeration$$vsetDefined
 
+  // access flags 0x19
+  public final static J serialVersionUID = 8476000850333817230
+
   // access flags 0x82
   private transient Lscala/Enumeration$ValueSet; vset
 

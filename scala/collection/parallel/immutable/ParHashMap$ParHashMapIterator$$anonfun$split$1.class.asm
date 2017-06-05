@@ -13,9 +13,6 @@ public final class scala/collection/parallel/immutable/ParHashMap$ParHashMapIter
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/immutable/ParHashMap$ParHashMapIterator; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/immutable/ParHashMap<TK;TV;>.ParHashMapIterator;)V
   // declaration: void <init>(scala.collection.parallel.immutable.ParHashMap<K, V>.ParHashMapIterator)

@@ -1,4 +1,5 @@
 package scala.reflect
+@scala.SerialVersionUID { val value = 1None }
 abstract class AnyValManifest[T <: scala.AnyVal] extends scala.AnyRef with scala.reflect.Manifest[T] with scala.Equals {
   override val toString: scala.Predef.String = { /* compiled code */ }
   def this(toString: scala.Predef.String) = { /* compiled code */ }

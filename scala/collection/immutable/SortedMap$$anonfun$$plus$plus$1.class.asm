@@ -8,9 +8,6 @@ public final class scala/collection/immutable/SortedMap$$anonfun$$plus$plus$1 ex
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/SortedMap$$anonfun$$plus$plus$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/SortedMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.immutable.SortedMap<A, B>)

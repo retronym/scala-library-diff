@@ -43,6 +43,9 @@ public class scala/util/matching/Regex implements scala/Serializable  {
   // declaration: scala.collection.Seq<java.lang.String>
   public final Lscala/collection/Seq; scala$util$matching$Regex$$groupNames
 
+  // access flags 0x19
+  public final static J serialVersionUID = -2094783597747625537
+
   // access flags 0x1
   // signature (Ljava/util/regex/Pattern;Lscala/collection/Seq<Ljava/lang/String;>;)V
   // declaration: void <init>(java.util.regex.Pattern, scala.collection.Seq<java.lang.String>)

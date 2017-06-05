@@ -10,9 +10,6 @@ public final class scala/collection/parallel/IterableSplitter$Taken$$anonfun$3 e
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/IterableSplitter$Taken$$anonfun$3 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/IterableSplitter<TT;>.Taken;)V
   // declaration: void <init>(scala.collection.parallel.IterableSplitter<T>.Taken)

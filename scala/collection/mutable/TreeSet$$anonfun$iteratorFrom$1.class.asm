@@ -11,9 +11,6 @@ public final class scala/collection/mutable/TreeSet$$anonfun$iteratorFrom$1 exte
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/TreeSet; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/Some; x2$1
 

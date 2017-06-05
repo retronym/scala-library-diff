@@ -10,9 +10,6 @@ public final class scala/collection/MapLike$MappedValues$$anonfun$iterator$2 ext
   // access flags 0x11
   public final INNERCLASS scala/collection/MapLike$MappedValues$$anonfun$iterator$2 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/MapLike<TA;TB;TThis;>.MappedValues<TC;>;)V
   // declaration: void <init>(scala.collection.MapLike<A, B, This>.MappedValues<C>)

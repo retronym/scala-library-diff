@@ -16,9 +16,6 @@ public final class scala/collection/mutable/FlatHashTable$$anonfun$checkConsiste
   // access flags 0x11
   public final I i$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/FlatHashTable<TA;>.$anonfun$checkConsistent$1;)V
   // declaration: void <init>(scala.collection.mutable.FlatHashTable<A>.$anonfun$checkConsistent$1)

@@ -14,9 +14,6 @@ public final class scala/util/control/Exception$Finally$$anonfun$and$1 extends s
   // access flags 0x11
   public final Lscala/Function0; other$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/util/control/Exception$Finally;Lscala/Function0;)V
     ALOAD 1

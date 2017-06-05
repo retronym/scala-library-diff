@@ -10,9 +10,6 @@ public final class scala/sys/Prop$IntProp$$anonfun$$lessinit$greater$3 extends s
   // access flags 0x19
   public final static INNERCLASS scala/sys/Prop$IntProp$$anonfun$$lessinit$greater$3 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

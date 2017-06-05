@@ -15,9 +15,6 @@ public final class scala/concurrent/Future$$anonfun$zip$1$$anonfun$apply$7 exten
   // access flags 0x1012
   private final synthetic Lscala/concurrent/Future$$anonfun$zip$1; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x11
   public final Lscala/util/Success; x2$2
 

@@ -11,9 +11,6 @@ public final class scala/collection/parallel/mutable/ParArray$$anonfun$fromTrave
   // access flags 0x12
   private final Lscala/collection/parallel/mutable/ResizableParArrayCombiner; cb$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/parallel/mutable/ResizableParArrayCombiner;)V
     ALOAD 0

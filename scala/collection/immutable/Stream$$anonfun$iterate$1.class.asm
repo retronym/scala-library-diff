@@ -11,9 +11,6 @@ public final class scala/collection/immutable/Stream$$anonfun$iterate$1 extends 
   // access flags 0x12
   private final Lscala/Function1; f$6
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/Object; start$2
 

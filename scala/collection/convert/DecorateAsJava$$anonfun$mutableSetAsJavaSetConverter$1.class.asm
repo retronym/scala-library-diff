@@ -13,9 +13,6 @@ public final class scala/collection/convert/DecorateAsJava$$anonfun$mutableSetAs
   // access flags 0x12
   private final Lscala/collection/mutable/Set; s$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/convert/DecorateAsJava;Lscala/collection/mutable/Set;)V
     ALOAD 0

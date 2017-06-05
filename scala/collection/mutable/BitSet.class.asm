@@ -8,6 +8,9 @@ public class scala/collection/mutable/BitSet extends scala/collection/mutable/Ab
   // access flags 0x2
   private [J elems
 
+  // access flags 0x19
+  public final static J serialVersionUID = 8483111450368547763
+
   // access flags 0x1
   public $amp(Lscala/collection/BitSet;)Lscala/collection/BitSetLike;
     ALOAD 0

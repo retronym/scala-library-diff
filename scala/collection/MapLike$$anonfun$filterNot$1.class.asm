@@ -14,9 +14,6 @@ public final class scala/collection/MapLike$$anonfun$filterNot$1 extends scala/r
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; res$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/MapLike<TA;TB;TThis;>;)V
   // declaration: void <init>(scala.collection.MapLike<A, B, This>)

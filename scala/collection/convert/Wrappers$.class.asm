@@ -148,6 +148,9 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
   // access flags 0x42
   private volatile Lscala/collection/convert/Wrappers$SeqWrapper$; SeqWrapper$module
 
+  // access flags 0x19
+  public final static J serialVersionUID = -5857859809262781311
+
   // access flags 0x9
   public static <clinit>()V
     NEW scala/collection/convert/Wrappers$

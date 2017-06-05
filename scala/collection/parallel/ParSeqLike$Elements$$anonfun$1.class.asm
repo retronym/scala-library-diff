@@ -8,9 +8,6 @@ public final class scala/collection/parallel/ParSeqLike$Elements$$anonfun$1 exte
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParSeqLike$Elements$$anonfun$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParSeqLike<TT;TRepr;TSequential;>.Elements;)V
   // declaration: void <init>(scala.collection.parallel.ParSeqLike<T, Repr, Sequential>.Elements)

@@ -8,9 +8,6 @@ public final class scala/collection/parallel/FutureTasks$$anonfun$exec$1 extends
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/FutureTasks$$anonfun$exec$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/parallel/FutureTasks;)V
     ALOAD 0

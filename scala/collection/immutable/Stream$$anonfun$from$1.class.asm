@@ -8,9 +8,6 @@ public final class scala/collection/immutable/Stream$$anonfun$from$1 extends sca
   // access flags 0x19
   public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$from$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final I start$1
 

@@ -8,9 +8,6 @@ public final class scala/PartialFunction$$anonfun$2 extends scala/runtime/Abstra
   // access flags 0x19
   public final static INNERCLASS scala/PartialFunction$$anonfun$2 scala/PartialFunction null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

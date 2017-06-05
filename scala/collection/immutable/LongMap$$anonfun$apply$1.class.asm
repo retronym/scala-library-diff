@@ -8,9 +8,6 @@ public final class scala/collection/immutable/LongMap$$anonfun$apply$1 extends s
   // access flags 0x19
   public final static INNERCLASS scala/collection/immutable/LongMap$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

@@ -14,6 +14,9 @@ public class scala/collection/immutable/TreeSet implements scala/collection/immu
   // declaration: scala.math.Ordering<A>
   private final Lscala/math/Ordering; ordering
 
+  // access flags 0x19
+  public final static J serialVersionUID = -5685982407650748405
+
   // access flags 0x12
   // signature Lscala/collection/immutable/RedBlackTree$Tree<TA;Lscala/runtime/BoxedUnit;>;
   // declaration: scala.collection.immutable.RedBlackTree$Tree<A, scala.runtime.BoxedUnit>

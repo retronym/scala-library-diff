@@ -10,9 +10,6 @@ public final class scala/collection/parallel/SeqSplitter$Zipped$$anonfun$psplit$
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/SeqSplitter$Zipped$$anonfun$psplit$3 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/SeqSplitter<TT;>.Zipped<TS;>;)V
   // declaration: void <init>(scala.collection.parallel.SeqSplitter<T>.Zipped<S>)

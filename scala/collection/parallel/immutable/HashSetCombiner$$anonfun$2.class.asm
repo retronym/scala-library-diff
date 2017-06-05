@@ -10,9 +10,6 @@ public final class scala/collection/parallel/immutable/HashSetCombiner$$anonfun$
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anonfun$2 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/immutable/HashSetCombiner<TT;>;)V
   // declaration: void <init>(scala.collection.parallel.immutable.HashSetCombiner<T>)

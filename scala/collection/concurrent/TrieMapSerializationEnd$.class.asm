@@ -6,6 +6,9 @@ public final class scala/collection/concurrent/TrieMapSerializationEnd$ implemen
   // access flags 0x19
   public final static Lscala/collection/concurrent/TrieMapSerializationEnd$; MODULE$
 
+  // access flags 0x19
+  public final static J serialVersionUID = -7237891413820527142
+
   // access flags 0x9
   public static <clinit>()V
     NEW scala/collection/concurrent/TrieMapSerializationEnd$

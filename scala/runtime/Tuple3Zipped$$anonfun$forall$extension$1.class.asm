@@ -11,9 +11,6 @@ public final class scala/runtime/Tuple3Zipped$$anonfun$forall$extension$1 extend
   // access flags 0x12
   private final Lscala/Function3; f$5
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Function3;)V
     ALOAD 0

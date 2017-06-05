@@ -18,9 +18,6 @@ public final class scala/math/BigDecimal$$anonfun$until$1 extends scala/runtime/
   // access flags 0x12
   private final Lscala/math/BigDecimal; end$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/math/BigDecimal;Lscala/math/BigDecimal;)V
     ALOAD 1

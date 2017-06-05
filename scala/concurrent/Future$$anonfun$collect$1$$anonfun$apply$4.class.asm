@@ -10,9 +10,6 @@ public final class scala/concurrent/Future$$anonfun$collect$1$$anonfun$apply$4 e
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$collect$1$$anonfun$apply$4 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/concurrent/Future<TT;>.$anonfun$collect$1;)V
   // declaration: void <init>(scala.concurrent.Future<T>.$anonfun$collect$1)

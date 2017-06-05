@@ -20,9 +20,6 @@ public final class scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 exten
   // access flags 0x12
   private final Ljava/lang/Object; nonLocalReturnKey5$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/Iterator;Lscala/collection/Iterator;Lscala/Function3;Ljava/lang/Object;)V
     ALOAD 0

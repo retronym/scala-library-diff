@@ -8,9 +8,6 @@ public final class scala/util/control/Exception$$anonfun$scala$util$control$Exce
   // access flags 0x19
   public final static INNERCLASS scala/util/control/Exception$$anonfun$scala$util$control$Exception$$wouldMatch$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/Throwable; x$15
 

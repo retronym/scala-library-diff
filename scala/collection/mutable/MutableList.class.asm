@@ -20,6 +20,9 @@ public class scala/collection/mutable/MutableList extends scala/collection/mutab
   // access flags 0x2
   private I len
 
+  // access flags 0x19
+  public final static J serialVersionUID = 5938451523372603072
+
   // access flags 0x1
   // signature (TA;TA;Lscala/collection/Seq<TA;>;)Lscala/collection/generic/Growable<TA;>;
   // declaration: scala.collection.generic.Growable<A> $plus$eq(A, A, scala.collection.Seq<A>)

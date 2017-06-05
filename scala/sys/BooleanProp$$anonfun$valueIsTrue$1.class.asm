@@ -8,9 +8,6 @@ public final class scala/sys/BooleanProp$$anonfun$valueIsTrue$1 extends scala/ru
   // access flags 0x19
   public final static INNERCLASS scala/sys/BooleanProp$$anonfun$valueIsTrue$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

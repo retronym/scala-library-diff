@@ -13,9 +13,6 @@ public final class scala/Function21$$anonfun$curried$1 extends scala/runtime/Abs
   // access flags 0x1011
   public final synthetic Lscala/Function21; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/Function21<TT1;TT2;TT3;TT4;TT5;TT6;TT7;TT8;TT9;TT10;TT11;TT12;TT13;TT14;TT15;TT16;TT17;TT18;TT19;TT20;TT21;TR;>;)V
   // declaration: void <init>(scala.Function21<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, R>)

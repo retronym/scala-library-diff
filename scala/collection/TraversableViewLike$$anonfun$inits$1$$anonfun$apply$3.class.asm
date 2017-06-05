@@ -13,9 +13,6 @@ public final class scala/collection/TraversableViewLike$$anonfun$inits$1$$anonfu
   // access flags 0x12
   private final Lscala/collection/Seq; as$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.$anonfun$inits$1;)V
   // declaration: void <init>(scala.collection.TraversableViewLike<A, Coll, This>.$anonfun$inits$1)

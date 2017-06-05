@@ -16,6 +16,9 @@ public class scala/collection/immutable/HashSet$SerializationProxy implements sc
   // declaration: scala.collection.immutable.HashSet<A>
   private transient Lscala/collection/immutable/HashSet; scala$collection$immutable$HashSet$SerializationProxy$$orig
 
+  // access flags 0x19
+  public final static J serialVersionUID = 2
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/HashSet<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.HashSet<A>)

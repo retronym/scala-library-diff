@@ -8,9 +8,6 @@ public final class scala/collection/parallel/immutable/ParIterable$$anonfun$toSe
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/immutable/ParIterable$$anonfun$toSeq$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/immutable/ParIterable<TT;>;)V
   // declaration: void <init>(scala.collection.parallel.immutable.ParIterable<T>)

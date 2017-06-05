@@ -11,9 +11,6 @@ public final class scala/collection/DefaultMap$$anonfun$$minus$1 extends scala/r
   // access flags 0x12
   private final Ljava/lang/Object; key$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/DefaultMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.DefaultMap<A, B>)

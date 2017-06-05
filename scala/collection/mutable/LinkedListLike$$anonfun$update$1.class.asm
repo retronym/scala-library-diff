@@ -8,9 +8,6 @@ public final class scala/collection/mutable/LinkedListLike$$anonfun$update$1 ext
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/LinkedListLike$$anonfun$update$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/Object; x$3
 

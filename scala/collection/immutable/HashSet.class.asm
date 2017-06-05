@@ -17,6 +17,9 @@ public class scala/collection/immutable/HashSet extends scala/collection/Abstrac
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/HashSet$SerializationProxy scala/collection/immutable/HashSet SerializationProxy
 
+  // access flags 0x19
+  public final static J serialVersionUID = 2
+
   // access flags 0x1
   // signature (TA;)Lscala/collection/immutable/HashSet<TA;>;
   // declaration: scala.collection.immutable.HashSet<A> $minus(A)

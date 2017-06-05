@@ -8,9 +8,6 @@ public final class scala/collection/immutable/Stack$$anonfun$pushAll$1 extends s
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stack$$anonfun$pushAll$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/Stack<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.Stack<A>)

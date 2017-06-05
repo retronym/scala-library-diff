@@ -15,9 +15,6 @@ public final class scala/concurrent/Future$$anonfun$flatMap$1$$anonfun$apply$3 e
   // access flags 0x1012
   private final synthetic Lscala/concurrent/Future$$anonfun$flatMap$1; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/concurrent/Future<TT;>.$anonfun$flatMap$1;)V
   // declaration: void <init>(scala.concurrent.Future<T>.$anonfun$flatMap$1)

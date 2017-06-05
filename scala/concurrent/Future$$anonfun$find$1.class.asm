@@ -14,9 +14,6 @@ public final class scala/concurrent/Future$$anonfun$find$1 extends scala/runtime
   // access flags 0x12
   private final Lscala/Function1; search$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/concurrent/ExecutionContext;Lscala/Function1;)V
     ALOAD 0

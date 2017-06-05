@@ -11,9 +11,6 @@ public final class scala/Function10$$anonfun$tupled$1 extends scala/runtime/Abst
   // access flags 0x1012
   private final synthetic Lscala/Function10; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/Function10<TT1;TT2;TT3;TT4;TT5;TT6;TT7;TT8;TT9;TT10;TR;>;)V
   // declaration: void <init>(scala.Function10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, R>)

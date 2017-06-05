@@ -16,9 +16,6 @@ public final class scala/Responder$$anonfun$loopWhile$1 extends scala/runtime/Ab
   // access flags 0x12
   private final Lscala/Responder; r$2
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Function0;Lscala/Responder;)V
     ALOAD 0

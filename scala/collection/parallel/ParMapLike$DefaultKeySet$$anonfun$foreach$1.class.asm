@@ -10,9 +10,6 @@ public final class scala/collection/parallel/ParMapLike$DefaultKeySet$$anonfun$f
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParMapLike$DefaultKeySet$$anonfun$foreach$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParMapLike<TK;TV;TRepr;TSequential;>.DefaultKeySet;)V
   // declaration: void <init>(scala.collection.parallel.ParMapLike<K, V, Repr, Sequential>.DefaultKeySet)

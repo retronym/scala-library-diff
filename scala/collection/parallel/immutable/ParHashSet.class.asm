@@ -36,6 +36,9 @@ public class scala/collection/parallel/immutable/ParHashSet implements scala/col
   // access flags 0xC2
   private volatile transient Lscala/collection/parallel/TaskSupport; scala$collection$parallel$ParIterableLike$$_tasksupport
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x12
   // signature Lscala/collection/immutable/HashSet<TT;>;
   // declaration: scala.collection.immutable.HashSet<T>

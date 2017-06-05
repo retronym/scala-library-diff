@@ -15,6 +15,9 @@ public class scala/collection/mutable/History extends scala/collection/mutable/A
   // access flags 0x12
   private final I maxHistory
 
+  // access flags 0x19
+  public final static J serialVersionUID = 5219213543849892588
+
   // access flags 0x1
   // signature ()V
   // declaration: void <init>()

@@ -13,9 +13,6 @@ public final class scala/collection/convert/DecorateAsScala$$anonfun$dictionaryA
   // access flags 0x12
   private final Ljava/util/Dictionary; p$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/convert/DecorateAsScala;Ljava/util/Dictionary;)V
     ALOAD 0

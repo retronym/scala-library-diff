@@ -17,6 +17,9 @@ public abstract class scala/Enumeration$Value implements scala/math/Ordered scal
   // access flags 0x12
   private final Lscala/Enumeration; scala$Enumeration$$outerEnum
 
+  // access flags 0x19
+  public final static J serialVersionUID = 7091335633555234129
+
   // access flags 0x1
   public $greater(Ljava/lang/Object;)Z
     ALOAD 0

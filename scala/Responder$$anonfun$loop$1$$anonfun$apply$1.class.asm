@@ -10,9 +10,6 @@ public final class scala/Responder$$anonfun$loop$1$$anonfun$apply$1 extends scal
   // access flags 0x11
   public final INNERCLASS scala/Responder$$anonfun$loop$1$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Responder$$anonfun$loop$1;)V
     ALOAD 0

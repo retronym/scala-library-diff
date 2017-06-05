@@ -13,9 +13,6 @@ public final class scala/sys/process/ProcessBuilderImpl$AbstractBuilder$$anonfun
   // access flags 0x11
   public final Lscala/sys/process/Process; process$2
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x11
   public final Lscala/sys/process/BasicIO$Streamed; streamed$1
 

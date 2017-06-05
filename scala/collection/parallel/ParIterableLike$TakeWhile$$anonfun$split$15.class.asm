@@ -13,9 +13,6 @@ public final class scala/collection/parallel/ParIterableLike$TakeWhile$$anonfun$
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParIterableLike$TakeWhile; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParIterableLike<TT;TRepr;TSequential;>.TakeWhile<TU;TThis;>;)V
   // declaration: void <init>(scala.collection.parallel.ParIterableLike<T, Repr, Sequential>.TakeWhile<U, This>)

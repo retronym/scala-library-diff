@@ -11,9 +11,6 @@ public final class scala/io/Source$$anonfun$fromIterable$1 extends scala/runtime
   // access flags 0x12
   private final Lscala/collection/Iterable; iterable$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/Iterable;)V
     ALOAD 0

@@ -14,9 +14,6 @@ public final class scala/collection/SeqLike$$anonfun$sorted$1 extends scala/runt
   // access flags 0x12
   private final Lscala/runtime/IntRef; i$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/SeqLike<TA;TRepr;>;)V
   // declaration: void <init>(scala.collection.SeqLike<A, Repr>)

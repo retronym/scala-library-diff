@@ -8,9 +8,6 @@ public final class scala/collection/Iterator$$anonfun$copyToArray$1 extends scal
   // access flags 0x11
   public final INNERCLASS scala/collection/Iterator$$anonfun$copyToArray$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x11
   public final I start$4
 

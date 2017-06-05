@@ -15,9 +15,6 @@ public final class scala/Enumeration$$anonfun$scala$Enumeration$$populateNameMap
   // access flags 0x1012
   private final synthetic Lscala/Enumeration; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Enumeration;)V
     ALOAD 1

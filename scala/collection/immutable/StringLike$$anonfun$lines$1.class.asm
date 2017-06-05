@@ -8,9 +8,6 @@ public final class scala/collection/immutable/StringLike$$anonfun$lines$1 extend
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$lines$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/StringLike<TRepr;>;)V
   // declaration: void <init>(scala.collection.immutable.StringLike<Repr>)

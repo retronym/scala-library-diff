@@ -13,9 +13,6 @@ public final class scala/beans/ScalaBeanInfo$$anonfun$1 extends scala/runtime/Ab
   // access flags 0x1012
   private final synthetic Lscala/beans/ScalaBeanInfo; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/beans/ScalaBeanInfo;)V
     ALOAD 1

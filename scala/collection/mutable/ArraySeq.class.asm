@@ -17,6 +17,9 @@ public class scala/collection/mutable/ArraySeq extends scala/collection/mutable/
   // access flags 0x12
   private final I length
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1530165946227428979
+
   // access flags 0x1
   // signature (I)V
   // declaration: void <init>(int)

@@ -13,9 +13,6 @@ public final class scala/sys/process/ProcessImpl$PipedProcesses$$anonfun$5 exten
   // access flags 0x1012
   private final synthetic Lscala/sys/process/ProcessImpl$PipedProcesses; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessImpl$PipedProcesses;)V
     ALOAD 1

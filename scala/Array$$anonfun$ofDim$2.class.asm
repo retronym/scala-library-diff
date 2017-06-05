@@ -17,9 +17,6 @@ public final class scala/Array$$anonfun$ofDim$2 extends scala/runtime/AbstractFu
   // access flags 0x12
   private final I n3$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(IILscala/reflect/ClassTag;)V
     ALOAD 0

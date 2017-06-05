@@ -11,9 +11,6 @@ public final class scala/collection/mutable/ArrayStack$$anonfun$$plus$plus$eq$1 
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/ArrayStack; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/ArrayStack<TT;>;)V
   // declaration: void <init>(scala.collection.mutable.ArrayStack<T>)

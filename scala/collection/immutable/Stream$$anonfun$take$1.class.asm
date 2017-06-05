@@ -8,9 +8,6 @@ public final class scala/collection/immutable/Stream$$anonfun$take$1 extends sca
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$take$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/Stream<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.Stream<A>)

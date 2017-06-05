@@ -15,9 +15,6 @@ public final class scala/collection/parallel/ParSeqLike$Elements$$anonfun$psplit
   // access flags 0x1011
   public final synthetic Lscala/collection/parallel/ParSeqLike$Elements; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParSeqLike<TT;TRepr;TSequential;>.Elements;)V
   // declaration: void <init>(scala.collection.parallel.ParSeqLike<T, Repr, Sequential>.Elements)

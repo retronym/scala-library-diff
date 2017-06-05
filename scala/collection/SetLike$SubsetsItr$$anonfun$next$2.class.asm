@@ -16,9 +16,6 @@ public final class scala/collection/SetLike$SubsetsItr$$anonfun$next$2 extends s
   // access flags 0x12
   private final Lscala/collection/mutable/Builder; buf$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/SetLike<TA;TThis;>.SubsetsItr;)V
   // declaration: void <init>(scala.collection.SetLike<A, This>.SubsetsItr)

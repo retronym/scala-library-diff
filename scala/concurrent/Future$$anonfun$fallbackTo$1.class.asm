@@ -18,9 +18,6 @@ public final class scala/concurrent/Future$$anonfun$fallbackTo$1 extends scala/r
   // access flags 0x11
   public final Lscala/concurrent/Promise; p$8
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/concurrent/Future; that$2
 

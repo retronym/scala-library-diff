@@ -13,9 +13,6 @@ public final class scala/collection/SeqLike$PermutationsItr$$anonfun$2$$anonfun$
   // access flags 0x1011
   public final synthetic Lscala/collection/SeqLike$PermutationsItr$$anonfun$2; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/SeqLike<TA;TRepr;>.PermutationsItr$$anonfun$2;)V
   // declaration: void <init>(scala.collection.SeqLike<A, Repr>.PermutationsItr$$anonfun$2)

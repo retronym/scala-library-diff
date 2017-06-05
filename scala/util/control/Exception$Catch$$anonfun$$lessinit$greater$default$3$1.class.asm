@@ -10,9 +10,6 @@ public final class scala/util/control/Exception$Catch$$anonfun$$lessinit$greater
   // access flags 0x19
   public final static INNERCLASS scala/util/control/Exception$Catch$$anonfun$$lessinit$greater$default$3$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>()V
     ALOAD 0

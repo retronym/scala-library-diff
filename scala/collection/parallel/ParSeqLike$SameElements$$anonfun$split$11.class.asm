@@ -13,9 +13,6 @@ public final class scala/collection/parallel/ParSeqLike$SameElements$$anonfun$sp
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParSeqLike$SameElements; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParSeqLike<TT;TRepr;TSequential;>.SameElements<TU;>;)V
   // declaration: void <init>(scala.collection.parallel.ParSeqLike<T, Repr, Sequential>.SameElements<U>)

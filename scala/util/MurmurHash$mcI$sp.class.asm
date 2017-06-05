@@ -1,5 +1,6 @@
 // class version 50.0 (50)
-// access flags 0x21
+// DEPRECATED
+// access flags 0x20021
 // signature Lscala/util/MurmurHash<Ljava/lang/Object;>;Lscala/Function1$mcVI$sp;
 // declaration: scala/util/MurmurHash$mcI$sp extends scala.util.MurmurHash<java.lang.Object> implements scala.Function1$mcVI$sp
 public class scala/util/MurmurHash$mcI$sp extends scala/util/MurmurHash  implements scala/Function1$mcVI$sp  {

@@ -13,9 +13,6 @@ public final class scala/collection/mutable/Publisher$$anonfun$publish$1$$anonfu
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/Publisher$$anonfun$publish$1; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/Publisher<TEvt;>.$anonfun$publish$1;)V
   // declaration: void <init>(scala.collection.mutable.Publisher<Evt>.$anonfun$publish$1)

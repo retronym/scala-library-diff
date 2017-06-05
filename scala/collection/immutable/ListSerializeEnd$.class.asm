@@ -6,6 +6,9 @@ public final class scala/collection/immutable/ListSerializeEnd$ implements scala
   // access flags 0x19
   public final static Lscala/collection/immutable/ListSerializeEnd$; MODULE$
 
+  // access flags 0x19
+  public final static J serialVersionUID = -8476791151975527571
+
   // access flags 0x9
   public static <clinit>()V
     NEW scala/collection/immutable/ListSerializeEnd$

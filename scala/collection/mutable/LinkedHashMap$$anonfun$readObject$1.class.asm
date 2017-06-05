@@ -14,9 +14,6 @@ public final class scala/collection/mutable/LinkedHashMap$$anonfun$readObject$1 
   // access flags 0x12
   private final Ljava/io/ObjectInputStream; in$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/LinkedHashMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.mutable.LinkedHashMap<A, B>)

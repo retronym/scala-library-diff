@@ -14,9 +14,6 @@ public final class scala/collection/immutable/List$$anonfun$flatMap$1 extends sc
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; h$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; t$1
 

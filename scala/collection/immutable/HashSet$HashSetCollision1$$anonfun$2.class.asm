@@ -16,9 +16,6 @@ public final class scala/collection/immutable/HashSet$HashSetCollision1$$anonfun
   // access flags 0x12
   private final I level$3
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/immutable/HashSet; that$3
 

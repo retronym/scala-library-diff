@@ -11,9 +11,6 @@ public final class scala/collection/mutable/TreeSet$$anonfun$2 extends scala/run
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/TreeSet; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/TreeSet<TA;>;)V
   // declaration: void <init>(scala.collection.mutable.TreeSet<A>)

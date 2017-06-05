@@ -8,6 +8,9 @@ public final class scala/collection/immutable/Nil$ extends scala/collection/immu
   // access flags 0x19
   public final static Lscala/collection/immutable/Nil$; MODULE$
 
+  // access flags 0x19
+  public final static J serialVersionUID = -8256821097970055419
+
   // access flags 0x9
   public static <clinit>()V
     NEW scala/collection/immutable/Nil$

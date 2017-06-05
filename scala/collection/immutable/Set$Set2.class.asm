@@ -21,6 +21,9 @@ public class scala/collection/immutable/Set$Set2 extends scala/collection/Abstra
   // declaration: A
   private final Ljava/lang/Object; elem2
 
+  // access flags 0x19
+  public final static J serialVersionUID = -6443011234944830092
+
   // access flags 0x1
   // signature (TA;)Lscala/collection/immutable/Set<TA;>;
   // declaration: scala.collection.immutable.Set<A> $minus(A)

@@ -14,9 +14,6 @@ public final class scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$1 exte
   // access flags 0x11
   public final Lscala/concurrent/SyncVar; code$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessImpl$CompoundProcess;Lscala/concurrent/SyncVar;)V
     ALOAD 1

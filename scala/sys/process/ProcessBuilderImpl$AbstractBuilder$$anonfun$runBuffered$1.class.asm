@@ -17,9 +17,6 @@ public final class scala/sys/process/ProcessBuilderImpl$AbstractBuilder$$anonfun
   // access flags 0x11
   public final Lscala/sys/process/ProcessLogger; log$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessBuilderImpl$AbstractBuilder;Lscala/sys/process/ProcessLogger;Z)V
     ALOAD 1

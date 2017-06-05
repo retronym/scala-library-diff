@@ -9,9 +9,6 @@ public final class scala/util/Random$$anonfun$nextString$1 extends scala/runtime
   // access flags 0x1011
   public final synthetic Lscala/util/Random; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/util/Random;)V
     ALOAD 1

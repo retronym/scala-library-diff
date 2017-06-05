@@ -16,9 +16,6 @@ public final class scala/collection/parallel/immutable/ParRange$ParRangeIterator
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; rleft$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/collection/parallel/immutable/ParRange$ParRangeIterator;Lscala/runtime/ObjectRef;)V
     ALOAD 1

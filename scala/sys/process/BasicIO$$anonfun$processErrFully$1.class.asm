@@ -13,9 +13,6 @@ public final class scala/sys/process/BasicIO$$anonfun$processErrFully$1 extends 
   // access flags 0x12
   private final Lscala/sys/process/ProcessLogger; log$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessLogger;)V
     ALOAD 0

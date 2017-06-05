@@ -5,8 +5,11 @@
 public abstract class scala/reflect/AnyValManifest implements scala/reflect/Manifest  {
 
 
-  // access flags 0x12
-  private final I hashCode
+  // access flags 0x92
+  private final transient I hashCode
+
+  // access flags 0x19
+  public final static J serialVersionUID = 1
 
   // access flags 0x12
   private final Ljava/lang/String; toString

@@ -11,9 +11,6 @@ public final class scala/collection/immutable/List$$anonfun$toStream$1 extends s
   // access flags 0x1012
   private final synthetic Lscala/collection/immutable/List; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/List<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.List<A>)

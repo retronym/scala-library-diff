@@ -8,9 +8,6 @@ public final class scala/collection/parallel/mutable/ParHashSet$$anonfun$readObj
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashSet$$anonfun$readObject$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParHashSet<TT;>;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParHashSet<T>)

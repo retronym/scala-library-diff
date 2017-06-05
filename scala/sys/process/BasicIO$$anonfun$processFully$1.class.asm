@@ -13,9 +13,6 @@ public final class scala/sys/process/BasicIO$$anonfun$processFully$1 extends sca
   // access flags 0x12
   private final Lscala/Function1; processLine$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Function1;)V
     ALOAD 0

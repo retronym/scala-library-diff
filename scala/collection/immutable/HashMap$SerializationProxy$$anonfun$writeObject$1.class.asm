@@ -10,9 +10,6 @@ public final class scala/collection/immutable/HashMap$SerializationProxy$$anonfu
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/HashMap$SerializationProxy$$anonfun$writeObject$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/immutable/HashMap$SerializationProxy<TA;TB;>;)V
   // declaration: void <init>(scala.collection.immutable.HashMap$SerializationProxy<A, B>)

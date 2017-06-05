@@ -13,9 +13,6 @@ public final class scala/collection/SeqLike$CombinationsItr$$anonfun$4$$anonfun$
   // access flags 0x1011
   public final synthetic Lscala/collection/SeqLike$CombinationsItr$$anonfun$4; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/SeqLike<TA;TRepr;>.CombinationsItr$$anonfun$4;)V
   // declaration: void <init>(scala.collection.SeqLike<A, Repr>.CombinationsItr$$anonfun$4)

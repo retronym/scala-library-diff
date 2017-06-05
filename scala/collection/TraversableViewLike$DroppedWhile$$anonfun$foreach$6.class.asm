@@ -19,9 +19,6 @@ public final class scala/collection/TraversableViewLike$DroppedWhile$$anonfun$fo
   // access flags 0x12
   private final Lscala/runtime/BooleanRef; go$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.DroppedWhile;)V
   // declaration: void <init>(scala.collection.TraversableViewLike<A, Coll, This>.DroppedWhile)

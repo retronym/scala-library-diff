@@ -18,6 +18,9 @@ public class scala/collection/immutable/HashMap$SerializationProxy implements sc
   // declaration: scala.collection.immutable.HashMap<A, B>
   private transient Lscala/collection/immutable/HashMap; scala$collection$immutable$HashMap$SerializationProxy$$orig
 
+  // access flags 0x19
+  public final static J serialVersionUID = 2
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/HashMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.immutable.HashMap<A, B>)

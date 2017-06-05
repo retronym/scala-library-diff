@@ -11,9 +11,6 @@ public final class scala/collection/immutable/PagedSeq$$anonfun$fromStrings$1 ex
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; current$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/collection/Iterator; source$2
 

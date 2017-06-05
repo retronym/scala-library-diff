@@ -11,9 +11,6 @@ public final class scala/collection/mutable/UnrolledBuffer$$anonfun$writeObject$
   // access flags 0x12
   private final Ljava/io/ObjectOutputStream; out$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/mutable/UnrolledBuffer<TT;>;)V
   // declaration: void <init>(scala.collection.mutable.UnrolledBuffer<T>)

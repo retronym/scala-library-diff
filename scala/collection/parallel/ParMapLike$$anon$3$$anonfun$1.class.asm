@@ -13,9 +13,6 @@ public final class scala/collection/parallel/ParMapLike$$anon$3$$anonfun$1 exten
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParMapLike$$anon$3; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParMapLike$$anon$3;)V
   // declaration: void <init>(scala.collection.parallel.ParMapLike$$anon$3)

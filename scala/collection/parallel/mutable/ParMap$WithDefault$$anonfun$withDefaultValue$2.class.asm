@@ -13,9 +13,6 @@ public final class scala/collection/parallel/mutable/ParMap$WithDefault$$anonfun
   // access flags 0x12
   private final Ljava/lang/Object; d$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParMap$WithDefault<TK;TV;>;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParMap$WithDefault<K, V>)

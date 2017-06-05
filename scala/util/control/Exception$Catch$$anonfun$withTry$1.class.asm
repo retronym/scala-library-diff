@@ -13,9 +13,6 @@ public final class scala/util/control/Exception$Catch$$anonfun$withTry$1 extends
   // access flags 0x12
   private final Lscala/Function0; body$3
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/util/control/Exception$Catch<TT;>;)V
   // declaration: void <init>(scala.util.control.Exception$Catch<T>)

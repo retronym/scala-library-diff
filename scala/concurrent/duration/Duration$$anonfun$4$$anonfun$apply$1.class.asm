@@ -12,9 +12,6 @@ public final class scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$
   // access flags 0x11
   public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$1 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Lscala/Tuple2; x1$1
 

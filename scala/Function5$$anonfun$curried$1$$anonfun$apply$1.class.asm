@@ -13,9 +13,6 @@ public final class scala/Function5$$anonfun$curried$1$$anonfun$apply$1 extends s
   // access flags 0x1012
   private final synthetic Lscala/Function5$$anonfun$curried$1; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x12
   private final Ljava/lang/Object; x1$1
 

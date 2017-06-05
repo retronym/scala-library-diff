@@ -23,6 +23,9 @@ public class scala/collection/mutable/UnrolledBuffer extends scala/collection/mu
   // declaration: scala.collection.mutable.UnrolledBuffer$Unrolled<T>
   private transient Lscala/collection/mutable/UnrolledBuffer$Unrolled; scala$collection$mutable$UnrolledBuffer$$headptr
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x82
   private transient I sz
 

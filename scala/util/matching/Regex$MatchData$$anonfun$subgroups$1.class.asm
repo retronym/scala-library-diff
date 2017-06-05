@@ -13,9 +13,6 @@ public final class scala/util/matching/Regex$MatchData$$anonfun$subgroups$1 exte
   // access flags 0x1012
   private final synthetic Lscala/util/matching/Regex$MatchData; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/util/matching/Regex$MatchData;)V
     ALOAD 1

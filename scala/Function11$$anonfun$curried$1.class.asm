@@ -13,9 +13,6 @@ public final class scala/Function11$$anonfun$curried$1 extends scala/runtime/Abs
   // access flags 0x1011
   public final synthetic Lscala/Function11; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/Function11<TT1;TT2;TT3;TT4;TT5;TT6;TT7;TT8;TT9;TT10;TT11;TR;>;)V
   // declaration: void <init>(scala.Function11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, R>)

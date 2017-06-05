@@ -44,6 +44,9 @@ public class scala/collection/parallel/immutable/ParRange implements scala/colle
   // access flags 0xC2
   private volatile transient Lscala/collection/parallel/TaskSupport; scala$collection$parallel$ParIterableLike$$_tasksupport
 
+  // access flags 0x19
+  public final static J serialVersionUID = 1
+
   // access flags 0x1
   // signature <S:Ljava/lang/Object;>(TS;Lscala/Function2<Ljava/lang/Object;TS;TS;>;)TS;
   // declaration: S $colon$bslash<S>(S, scala.Function2<java.lang.Object, S, S>)

@@ -10,9 +10,6 @@ public final class scala/collection/parallel/ParSeqLike$Corresponds$$anonfun$spl
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParSeqLike$Corresponds$$anonfun$split$15 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParSeqLike<TT;TRepr;TSequential;>.Corresponds<TS;>;)V
   // declaration: void <init>(scala.collection.parallel.ParSeqLike<T, Repr, Sequential>.Corresponds<S>)

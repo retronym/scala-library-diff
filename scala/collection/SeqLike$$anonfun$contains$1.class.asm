@@ -11,9 +11,6 @@ public final class scala/collection/SeqLike$$anonfun$contains$1 extends scala/ru
   // access flags 0x12
   private final Ljava/lang/Object; elem$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/SeqLike<TA;TRepr;>;)V
   // declaration: void <init>(scala.collection.SeqLike<A, Repr>)

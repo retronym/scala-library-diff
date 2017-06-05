@@ -19,6 +19,9 @@ public class scala/collection/mutable/ArrayStack extends scala/collection/mutabl
   // access flags 0x2
   private [Ljava/lang/Object; scala$collection$mutable$ArrayStack$$table
 
+  // access flags 0x19
+  public final static J serialVersionUID = 8565219180626620510
+
   // access flags 0x1
   // signature (TT;TT;Lscala/collection/Seq<TT;>;)Lscala/collection/generic/Growable<TT;>;
   // declaration: scala.collection.generic.Growable<T> $plus$eq(T, T, scala.collection.Seq<T>)

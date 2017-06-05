@@ -16,9 +16,6 @@ public final class scala/collection/parallel/ParSeqLike$$anonfun$updated$1 exten
   // access flags 0x12
   private final Lscala/collection/generic/CanBuildFrom; bf$3
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParSeqLike<TT;TRepr;TSequential;>;)V
   // declaration: void <init>(scala.collection.parallel.ParSeqLike<T, Repr, Sequential>)

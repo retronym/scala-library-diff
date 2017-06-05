@@ -35,6 +35,9 @@ public class scala/collection/immutable/Range extends scala/collection/AbstractS
   // access flags 0x12
   private final I numRangeElements
 
+  // access flags 0x19
+  public final static J serialVersionUID = 7618862778670199309
+
   // access flags 0x12
   private final I start
 

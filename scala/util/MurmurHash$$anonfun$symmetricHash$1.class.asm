@@ -20,9 +20,6 @@ public final class scala/util/MurmurHash$$anonfun$symmetricHash$1 extends scala/
   // access flags 0x12
   private final Lscala/runtime/IntRef; n$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;)V
     ALOAD 0

@@ -11,9 +11,6 @@ public final class scala/io/BufferedSource$$anonfun$iter$1$$anonfun$apply$mcI$sp
   // access flags 0x1011
   public final synthetic Lscala/io/BufferedSource$$anonfun$iter$1; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/io/BufferedSource$$anonfun$iter$1;)V
     ALOAD 1

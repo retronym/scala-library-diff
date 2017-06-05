@@ -8,9 +8,6 @@ public final class scala/collection/generic/GenTraversableFactory$$anonfun$conca
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/GenTraversableFactory$$anonfun$concat$2 null null
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/generic/GenTraversableFactory<TCC;>;)V
   // declaration: void <init>(scala.collection.generic.GenTraversableFactory<CC>)

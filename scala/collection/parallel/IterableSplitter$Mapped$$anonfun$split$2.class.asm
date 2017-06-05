@@ -13,9 +13,6 @@ public final class scala/collection/parallel/IterableSplitter$Mapped$$anonfun$sp
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/IterableSplitter$Mapped; $outer
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   // signature (Lscala/collection/parallel/IterableSplitter<TT;>.Mapped<TS;>;)V
   // declaration: void <init>(scala.collection.parallel.IterableSplitter<T>.Mapped<S>)

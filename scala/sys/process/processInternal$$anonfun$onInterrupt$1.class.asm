@@ -11,9 +11,6 @@ public final class scala/sys/process/processInternal$$anonfun$onInterrupt$1 exte
   // access flags 0x12
   private final Lscala/Function0; handler$1
 
-  // access flags 0x19
-  public final static J serialVersionUID = 0
-
   // access flags 0x1
   public <init>(Lscala/Function0;)V
     ALOAD 0
