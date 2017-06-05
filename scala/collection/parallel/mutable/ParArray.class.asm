@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParSeq<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/mutable/ParArray;>;Lscala/collection/parallel/ParSeqLike<TT;Lscala/collection/parallel/mutable/ParArray<TT;>;Lscala/collection/mutable/ArraySeq<TT;>;>;Lscala/Serializable;
-// declaration: scala/collection/parallel/mutable/ParArray<T> implements scala.collection.parallel.mutable.ParSeq<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.mutable.ParArray>, scala.collection.parallel.ParSeqLike<T, scala.collection.parallel.mutable.ParArray<T>, scala.collection.mutable.ArraySeq<T>>, scala.Serializable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParSeq<TT;>;Lscala/Serializable;
+// declaration: scala/collection/parallel/mutable/ParArray<T> implements scala.collection.parallel.mutable.ParSeq<T>, scala.Serializable
 public class scala/collection/parallel/mutable/ParArray implements scala/collection/parallel/mutable/ParSeq scala/Serializable  {
 
   // access flags 0x1

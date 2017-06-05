@@ -65,9 +65,9 @@ public final class scala/math/BigDecimal extends scala/math/ScalaNumber  impleme
     ALOAD 1
     INVOKEVIRTUAL scala/math/BigDecimal.bigDecimal ()Ljava/math/BigDecimal;
     INVOKEVIRTUAL java/math/BigDecimal.divideAndRemainder (Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;
-    ASTORE 3
+    ASTORE 5
     GETSTATIC scala/Array$.MODULE$ : Lscala/Array$;
-    ALOAD 3
+    ALOAD 5
     INVOKEVIRTUAL scala/Array$.unapplySeq (Ljava/lang/Object;)Lscala/Option;
     ASTORE 2
     ALOAD 2
@@ -83,27 +83,31 @@ public final class scala/math/BigDecimal extends scala/math/ScalaNumber  impleme
     INVOKEINTERFACE scala/collection/SeqLike.lengthCompare (I)I
     ICONST_0
     IF_ICMPNE L0
-    NEW scala/Tuple2
-    DUP
-    NEW scala/math/BigDecimal
-    DUP
     ALOAD 2
     INVOKEVIRTUAL scala/Option.get ()Ljava/lang/Object;
     CHECKCAST scala/collection/SeqLike
     ICONST_0
     INVOKEINTERFACE scala/collection/SeqLike.apply (I)Ljava/lang/Object;
     CHECKCAST java/math/BigDecimal
-    ALOAD 0
-    INVOKEVIRTUAL scala/math/BigDecimal.mc ()Ljava/math/MathContext;
-    INVOKESPECIAL scala/math/BigDecimal.<init> (Ljava/math/BigDecimal;Ljava/math/MathContext;)V
-    NEW scala/math/BigDecimal
-    DUP
+    ASTORE 3
     ALOAD 2
     INVOKEVIRTUAL scala/Option.get ()Ljava/lang/Object;
     CHECKCAST scala/collection/SeqLike
     ICONST_1
     INVOKEINTERFACE scala/collection/SeqLike.apply (I)Ljava/lang/Object;
     CHECKCAST java/math/BigDecimal
+    ASTORE 4
+    NEW scala/Tuple2
+    DUP
+    NEW scala/math/BigDecimal
+    DUP
+    ALOAD 3
+    ALOAD 0
+    INVOKEVIRTUAL scala/math/BigDecimal.mc ()Ljava/math/MathContext;
+    INVOKESPECIAL scala/math/BigDecimal.<init> (Ljava/math/BigDecimal;Ljava/math/MathContext;)V
+    NEW scala/math/BigDecimal
+    DUP
+    ALOAD 4
     ALOAD 0
     INVOKEVIRTUAL scala/math/BigDecimal.mc ()Ljava/math/MathContext;
     INVOKESPECIAL scala/math/BigDecimal.<init> (Ljava/math/BigDecimal;Ljava/math/MathContext;)V
@@ -112,11 +116,11 @@ public final class scala/math/BigDecimal extends scala/math/ScalaNumber  impleme
    L0
     NEW scala/MatchError
     DUP
-    ALOAD 3
+    ALOAD 5
     INVOKESPECIAL scala/MatchError.<init> (Ljava/lang/Object;)V
     ATHROW
     MAXSTACK = 7
-    MAXLOCALS = 4
+    MAXLOCALS = 6
 
   // access flags 0x1
   public $greater(Lscala/math/BigDecimal;)Z
@@ -392,7 +396,7 @@ public final class scala/math/BigDecimal extends scala/math/ScalaNumber  impleme
     GOTO L1
    L0
     ALOAD 0
-    INVOKEVIRTUAL scala/math/BigDecimal.isValidDouble ()Z
+    INVOKEVIRTUAL scala/math/BigDecimal.isDecimalDouble ()Z
     IFEQ L2
     GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 0

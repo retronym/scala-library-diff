@@ -1,8 +1,8 @@
 // class version 50.0 (50)
 // DEPRECATED
 // access flags 0x20601
-// signature <A:Ljava/lang/Object;This::Lscala/collection/mutable/Seq<TA;>;:Lscala/collection/mutable/DoubleLinkedListLike<TA;TThis;>;>Ljava/lang/Object;Lscala/collection/mutable/SeqLike<TA;TThis;>;Lscala/collection/mutable/LinkedListLike<TA;TThis;>;
-// declaration: scala/collection/mutable/DoubleLinkedListLike<A, This extends scala.collection.mutable.Seq<A>, scala.collection.mutable.DoubleLinkedListLike<A, This>> extends scala.collection.mutable.SeqLike<A, This>, scala.collection.mutable.LinkedListLike<A, This>
+// signature <A:Ljava/lang/Object;This::Lscala/collection/mutable/Seq<TA;>;:Lscala/collection/mutable/DoubleLinkedListLike<TA;TThis;>;>Ljava/lang/Object;Lscala/collection/mutable/LinkedListLike<TA;TThis;>;
+// declaration: scala/collection/mutable/DoubleLinkedListLike<A, This extends scala.collection.mutable.Seq<A>, scala.collection.mutable.DoubleLinkedListLike<A, This>> extends scala.collection.mutable.LinkedListLike<A, This>
 public abstract interface scala/collection/mutable/DoubleLinkedListLike implements scala/collection/mutable/LinkedListLike  {
 
   // access flags 0x11

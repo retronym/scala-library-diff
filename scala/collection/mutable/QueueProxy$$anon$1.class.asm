@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Lscala/collection/mutable/Queue<TA;>;Lscala/collection/mutable/QueueProxy<TA;>;
-// declaration: scala/collection/mutable/QueueProxy$$anon$1 extends scala.collection.mutable.Queue<A> implements scala.collection.mutable.QueueProxy<A>
+// signature Ljava/lang/Object;Lscala/collection/mutable/QueueProxy<TA;>;
+// declaration: scala/collection/mutable/QueueProxy$$anon$1 implements scala.collection.mutable.QueueProxy<A>
 public final class scala/collection/mutable/QueueProxy$$anon$1 extends scala/collection/mutable/Queue  implements scala/collection/mutable/QueueProxy  {
 
   OUTERCLASS scala/collection/mutable/QueueProxy clone ()Lscala/collection/mutable/Queue;

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/SortedSet<TA;>;Lscala/collection/SortedSetLike<TA;Lscala/collection/immutable/TreeSet<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/TreeSet<A> implements scala.collection.immutable.SortedSet<A>, scala.collection.SortedSetLike<A, scala.collection.immutable.TreeSet<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/SortedSet<TA;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/TreeSet<A> implements scala.collection.immutable.SortedSet<A>, scala.Serializable
 public class scala/collection/immutable/TreeSet implements scala/collection/immutable/SortedSet scala/Serializable  {
 
   // access flags 0x409
@@ -850,11 +850,14 @@ public class scala/collection/immutable/TreeSet implements scala/collection/immu
     ALOAD 0
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/TreeSet.size ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     INVOKEVIRTUAL scala/collection/immutable/TreeSet.take (I)Lscala/collection/immutable/TreeSet;
     ARETURN
-    MAXSTACK = 3
+    MAXSTACK = 5
     MAXLOCALS = 2
 
   // access flags 0x1041
@@ -2175,11 +2178,14 @@ public class scala/collection/immutable/TreeSet implements scala/collection/immu
     ALOAD 0
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/TreeSet.size ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     INVOKEVIRTUAL scala/collection/immutable/TreeSet.drop (I)Lscala/collection/immutable/TreeSet;
     ARETURN
-    MAXSTACK = 3
+    MAXSTACK = 5
     MAXLOCALS = 2
 
   // access flags 0x1041

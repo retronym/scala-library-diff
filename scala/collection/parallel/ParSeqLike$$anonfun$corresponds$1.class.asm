@@ -12,6 +12,9 @@ public final class scala/collection/parallel/ParSeqLike$$anonfun$corresponds$1 e
   // access flags 0x12
   private final Lscala/Function2; p$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/collection/GenSeq; that$5
 

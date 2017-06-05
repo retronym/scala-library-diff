@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/AbstractSet<TA;>;Lscala/collection/Set<TA;>;Lscala/Serializable;
-// declaration: scala/collection/MapLike$DefaultKeySet extends scala.collection.AbstractSet<A> implements scala.collection.Set<A>, scala.Serializable
+// signature Lscala/collection/AbstractSet<TA;>;Lscala/Serializable;
+// declaration: scala/collection/MapLike$DefaultKeySet extends scala.collection.AbstractSet<A> implements scala.Serializable
 public class scala/collection/MapLike$DefaultKeySet extends scala/collection/AbstractSet  implements scala/Serializable  {
 
   // access flags 0x1

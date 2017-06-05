@@ -11,6 +11,9 @@ public final class scala/Responder$$anonfun$run$1 extends scala/runtime/Abstract
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; result$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/runtime/ObjectRef;)V
     ALOAD 0

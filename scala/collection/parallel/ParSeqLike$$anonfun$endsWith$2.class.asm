@@ -17,6 +17,9 @@ public final class scala/collection/parallel/ParSeqLike$$anonfun$endsWith$2 exte
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParSeqLike; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/collection/GenSeq; that$4
 

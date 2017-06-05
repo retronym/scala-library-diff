@@ -11,6 +11,9 @@ public final class scala/collection/mutable/MapLike$$anonfun$clear$1 extends sca
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/MapLike; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/MapLike<TA;TB;TThis;>;)V
   // declaration: void <init>(scala.collection.mutable.MapLike<A, B, This>)

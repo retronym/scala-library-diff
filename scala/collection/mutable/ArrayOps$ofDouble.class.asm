@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Ljava/lang/Object;Lscala/collection/mutable/ArrayOps<Ljava/lang/Object;>;Lscala/collection/mutable/ArrayLike<Ljava/lang/Object;[D>;
-// declaration: scala/collection/mutable/ArrayOps$ofDouble implements scala.collection.mutable.ArrayOps<java.lang.Object>, scala.collection.mutable.ArrayLike<java.lang.Object, double[]>
+// signature Ljava/lang/Object;Lscala/collection/mutable/ArrayOps<Ljava/lang/Object;>;
+// declaration: scala/collection/mutable/ArrayOps$ofDouble implements scala.collection.mutable.ArrayOps<java.lang.Object>
 public final class scala/collection/mutable/ArrayOps$ofDouble implements scala/collection/mutable/ArrayOps  {
 
   // access flags 0x19

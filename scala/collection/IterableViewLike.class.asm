@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/IterableView<TA;TColl;>;:Lscala/collection/IterableViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/Iterable<TA;>;Lscala/collection/IterableLike<TA;TThis;>;Lscala/collection/TraversableView<TA;TColl;>;Lscala/collection/TraversableViewLike<TA;TColl;TThis;>;
-// declaration: scala/collection/IterableViewLike<A, Coll, This extends scala.collection.IterableView<A, Coll>, scala.collection.IterableViewLike<A, Coll, This>> extends scala.collection.Iterable<A>, scala.collection.IterableLike<A, This>, scala.collection.TraversableView<A, Coll>, scala.collection.TraversableViewLike<A, Coll, This>
+// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/IterableView<TA;TColl;>;:Lscala/collection/IterableViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/Iterable<TA;>;Lscala/collection/TraversableView<TA;TColl;>;
+// declaration: scala/collection/IterableViewLike<A, Coll, This extends scala.collection.IterableView<A, Coll>, scala.collection.IterableViewLike<A, Coll, This>> extends scala.collection.Iterable<A>, scala.collection.TraversableView<A, Coll>
 public abstract interface scala/collection/IterableViewLike implements scala/collection/Iterable scala/collection/TraversableView  {
 
   // access flags 0x601

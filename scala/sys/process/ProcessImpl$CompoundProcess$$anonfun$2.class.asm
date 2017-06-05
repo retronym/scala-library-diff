@@ -8,6 +8,9 @@ public final class scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$2 exte
   // access flags 0x11
   public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x11
   public final Ljava/lang/Thread; thread$1
 

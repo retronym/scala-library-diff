@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/collection/mutable/LinearSeq<TA;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/mutable/MutableList<TA;>;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/MutableList;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/mutable/MutableList<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/MutableList<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.LinearSeq<A>, scala.collection.LinearSeqOptimized<A, scala.collection.mutable.MutableList<A>>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.MutableList>, scala.collection.mutable.Builder<A, scala.collection.mutable.MutableList<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/collection/mutable/LinearSeq<TA;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/mutable/MutableList<TA;>;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/mutable/MutableList<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/MutableList<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.LinearSeq<A>, scala.collection.LinearSeqOptimized<A, scala.collection.mutable.MutableList<A>>, scala.collection.mutable.Builder<A, scala.collection.mutable.MutableList<A>>, scala.Serializable
 public class scala/collection/mutable/MutableList extends scala/collection/mutable/AbstractSeq  implements scala/collection/mutable/LinearSeq scala/collection/LinearSeqOptimized scala/collection/mutable/Builder scala/Serializable  {
 
   // access flags 0x1

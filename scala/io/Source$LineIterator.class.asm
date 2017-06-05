@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/AbstractIterator<Ljava/lang/String;>;Lscala/collection/Iterator<Ljava/lang/String;>;
-// declaration: scala/io/Source$LineIterator extends scala.collection.AbstractIterator<java.lang.String> implements scala.collection.Iterator<java.lang.String>
+// signature Lscala/collection/AbstractIterator<Ljava/lang/String;>;
+// declaration: scala/io/Source$LineIterator extends scala.collection.AbstractIterator<java.lang.String>
 public class scala/io/Source$LineIterator extends scala/collection/AbstractIterator  {
 
   // access flags 0x1

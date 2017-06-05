@@ -17,6 +17,9 @@ public final class scala/sys/process/ProcessImpl$Future$$anonfun$apply$1 extends
   // access flags 0x11
   public final Lscala/concurrent/SyncVar; result$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessImpl$Future$;Lscala/Function0;Lscala/concurrent/SyncVar;)V
     ALOAD 1

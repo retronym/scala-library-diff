@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/concurrent/Map<TK;TV;>;Lscala/collection/mutable/MapLike<TK;TV;Lscala/collection/concurrent/TrieMap<TK;TV;>;>;Lscala/collection/CustomParallelizable<Lscala/Tuple2<TK;TV;>;Lscala/collection/parallel/mutable/ParTrieMap<TK;TV;>;>;Lscala/Serializable;
-// declaration: scala/collection/concurrent/TrieMap<K, V> implements scala.collection.concurrent.Map<K, V>, scala.collection.mutable.MapLike<K, V, scala.collection.concurrent.TrieMap<K, V>>, scala.collection.CustomParallelizable<scala.Tuple2<K, V>, scala.collection.parallel.mutable.ParTrieMap<K, V>>, scala.Serializable
+// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/concurrent/Map<TK;TV;>;Lscala/collection/CustomParallelizable<Lscala/Tuple2<TK;TV;>;Lscala/collection/parallel/mutable/ParTrieMap<TK;TV;>;>;Lscala/Serializable;
+// declaration: scala/collection/concurrent/TrieMap<K, V> implements scala.collection.concurrent.Map<K, V>, scala.collection.CustomParallelizable<scala.Tuple2<K, V>, scala.collection.parallel.mutable.ParTrieMap<K, V>>, scala.Serializable
 public final class scala/collection/concurrent/TrieMap implements scala/collection/concurrent/Map scala/collection/CustomParallelizable scala/Serializable  {
 
   // access flags 0x19

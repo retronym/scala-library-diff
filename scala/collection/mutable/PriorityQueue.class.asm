@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractIterable<TA;>;Lscala/collection/mutable/Iterable<TA;>;Lscala/collection/generic/GenericOrderedTraversableTemplate<TA;Lscala/collection/mutable/PriorityQueue;>;Lscala/collection/IterableLike<TA;Lscala/collection/mutable/PriorityQueue<TA;>;>;Lscala/collection/generic/Growable<TA;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/mutable/PriorityQueue<TA;>;>;Lscala/Serializable;Lscala/Cloneable;
-// declaration: scala/collection/mutable/PriorityQueue<A> extends scala.collection.mutable.AbstractIterable<A> implements scala.collection.mutable.Iterable<A>, scala.collection.generic.GenericOrderedTraversableTemplate<A, scala.collection.mutable.PriorityQueue>, scala.collection.IterableLike<A, scala.collection.mutable.PriorityQueue<A>>, scala.collection.generic.Growable<A>, scala.collection.mutable.Builder<A, scala.collection.mutable.PriorityQueue<A>>, scala.Serializable, scala.Cloneable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractIterable<TA;>;Lscala/collection/generic/GenericOrderedTraversableTemplate<TA;Lscala/collection/mutable/PriorityQueue;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/mutable/PriorityQueue<TA;>;>;Lscala/Serializable;Lscala/Cloneable;
+// declaration: scala/collection/mutable/PriorityQueue<A> extends scala.collection.mutable.AbstractIterable<A> implements scala.collection.generic.GenericOrderedTraversableTemplate<A, scala.collection.mutable.PriorityQueue>, scala.collection.mutable.Builder<A, scala.collection.mutable.PriorityQueue<A>>, scala.Serializable, scala.Cloneable
 public class scala/collection/mutable/PriorityQueue extends scala/collection/mutable/AbstractIterable  implements scala/collection/generic/GenericOrderedTraversableTemplate scala/collection/mutable/Builder scala/Serializable scala/Cloneable  {
 
   // access flags 0x1

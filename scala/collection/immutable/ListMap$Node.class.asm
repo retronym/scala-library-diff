@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <B1:Ljava/lang/Object;>Lscala/collection/immutable/ListMap<TA;TB1;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/ListMap$Node<B1> extends scala.collection.immutable.ListMap<A, B1> implements scala.Serializable
+// signature <B1:Ljava/lang/Object;>Lscala/collection/immutable/ListMap<TA;TB1;>;
+// declaration: scala/collection/immutable/ListMap$Node<B1> extends scala.collection.immutable.ListMap<A, B1>
 public class scala/collection/immutable/ListMap$Node extends scala/collection/immutable/ListMap  {
 
   // access flags 0x1

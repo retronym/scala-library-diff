@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <B:Ljava/lang/Object;>Lscala/collection/immutable/List<TB;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/immutable/$colon$colon<B> extends scala.collection.immutable.List<B> implements scala.Product, scala.Serializable
+// signature <B:Ljava/lang/Object;>Lscala/collection/immutable/List<TB;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/$colon$colon<B> extends scala.collection.immutable.List<B> implements scala.Serializable
 public final class scala/collection/immutable/$colon$colon extends scala/collection/immutable/List  implements scala/Serializable  {
 
 
@@ -9,6 +9,9 @@ public final class scala/collection/immutable/$colon$colon extends scala/collect
   // signature TB;
   // declaration: B
   private final Ljava/lang/Object; head
+
+  // access flags 0x19
+  public final static J serialVersionUID = 509929039250432923
 
   // access flags 0x2
   // signature Lscala/collection/immutable/List<TB;>;

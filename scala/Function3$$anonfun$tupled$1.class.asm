@@ -11,6 +11,9 @@ public final class scala/Function3$$anonfun$tupled$1 extends scala/runtime/Abstr
   // access flags 0x1012
   private final synthetic Lscala/Function3; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/Function3<TT1;TT2;TT3;TR;>;)V
   // declaration: void <init>(scala.Function3<T1, T2, T3, R>)

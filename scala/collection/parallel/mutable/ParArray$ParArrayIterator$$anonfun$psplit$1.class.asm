@@ -13,6 +13,9 @@ public final class scala/collection/parallel/mutable/ParArray$ParArrayIterator$$
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/mutable/ParArray$ParArrayIterator; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/runtime/IntRef; traversed$1
 

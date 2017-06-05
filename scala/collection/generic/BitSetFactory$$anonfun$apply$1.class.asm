@@ -8,6 +8,9 @@ public final class scala/collection/generic/BitSetFactory$$anonfun$apply$1 exten
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/BitSetFactory$$anonfun$apply$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/generic/BitSetFactory<TColl;>;)V
   // declaration: void <init>(scala.collection.generic.BitSetFactory<Coll>)

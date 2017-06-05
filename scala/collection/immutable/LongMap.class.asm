@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <T:Ljava/lang/Object;>Lscala/collection/immutable/AbstractMap<Ljava/lang/Object;TT;>;Lscala/collection/immutable/Map<Ljava/lang/Object;TT;>;Lscala/collection/immutable/MapLike<Ljava/lang/Object;TT;Lscala/collection/immutable/LongMap<TT;>;>;
-// declaration: scala/collection/immutable/LongMap<T> extends scala.collection.immutable.AbstractMap<java.lang.Object, T> implements scala.collection.immutable.Map<java.lang.Object, T>, scala.collection.immutable.MapLike<java.lang.Object, T, scala.collection.immutable.LongMap<T>>
+// signature <T:Ljava/lang/Object;>Lscala/collection/immutable/AbstractMap<Ljava/lang/Object;TT;>;
+// declaration: scala/collection/immutable/LongMap<T> extends scala.collection.immutable.AbstractMap<java.lang.Object, T>
 public abstract class scala/collection/immutable/LongMap extends scala/collection/immutable/AbstractMap  {
 
   // access flags 0x9

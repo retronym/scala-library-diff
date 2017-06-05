@@ -11,6 +11,9 @@ public final class scala/collection/SeqViewLike$$anonfun$union$1 extends scala/r
   // access flags 0x1012
   private final synthetic Lscala/collection/SeqViewLike; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/collection/GenSeq; that$4
 

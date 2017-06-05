@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/AbstractIterable<TB;>;Lscala/collection/Iterable<TB;>;Lscala/Serializable;
-// declaration: scala/collection/MapLike$DefaultValuesIterable extends scala.collection.AbstractIterable<B> implements scala.collection.Iterable<B>, scala.Serializable
+// signature Lscala/collection/AbstractIterable<TB;>;Lscala/Serializable;
+// declaration: scala/collection/MapLike$DefaultValuesIterable extends scala.collection.AbstractIterable<B> implements scala.Serializable
 public class scala/collection/MapLike$DefaultValuesIterable extends scala/collection/AbstractIterable  implements scala/Serializable  {
 
   // access flags 0x1

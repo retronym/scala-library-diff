@@ -1,4 +1,5 @@
 package scala
+@scala.SerialVersionUID { val value = -114498752079829388None }
 sealed abstract class Option[+A] extends scala.AnyRef with scala.Product with scala.Serializable {
  this: scala.Option[A] =>
   def this() = { /* compiled code */ }

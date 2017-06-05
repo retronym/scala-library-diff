@@ -16,6 +16,9 @@ public abstract class scala/collection/SeqViewLike$Sliced$class {
   // access flags 0x9
   public static apply(Lscala/collection/SeqViewLike$Sliced;I)Ljava/lang/Object;
     ILOAD 1
+    ICONST_0
+    IF_ICMPLT L0
+    ILOAD 1
     ALOAD 0
     INVOKEINTERFACE scala/collection/SeqViewLike$Sliced.from ()I
     IADD

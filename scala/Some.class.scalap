@@ -1,4 +1,5 @@
 package scala
+@scala.SerialVersionUID { val value = 1234815782226070388None }
 final case class Some[+A](x: A) extends scala.Option[A] with scala.Product with scala.Serializable {
   val x: A = { /* compiled code */ }
   def isEmpty: scala.Boolean = { /* compiled code */ }

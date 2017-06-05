@@ -10,6 +10,9 @@ public final class scala/PartialFunction$$anon$1$$anonfun$3 extends scala/runtim
   // access flags 0x11
   public final INNERCLASS scala/PartialFunction$$anon$1$$anonfun$3 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/PartialFunction$$anon$1;)V
     ALOAD 0

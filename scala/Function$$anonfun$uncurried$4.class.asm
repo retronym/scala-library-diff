@@ -11,6 +11,9 @@ public final class scala/Function$$anonfun$uncurried$4 extends scala/runtime/Abs
   // access flags 0x12
   private final Lscala/Function1; f$4
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Function1;)V
     ALOAD 0

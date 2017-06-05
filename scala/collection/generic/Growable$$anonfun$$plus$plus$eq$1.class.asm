@@ -11,6 +11,9 @@ public final class scala/collection/generic/Growable$$anonfun$$plus$plus$eq$1 ex
   // access flags 0x1012
   private final synthetic Lscala/collection/generic/Growable; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/generic/Growable<TA;>;)V
   // declaration: void <init>(scala.collection.generic.Growable<A>)

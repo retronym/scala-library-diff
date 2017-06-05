@@ -13,6 +13,9 @@ public final class scala/collection/convert/DecorateAsJava$$anonfun$mapAsJavaCon
   // access flags 0x12
   private final Lscala/collection/concurrent/Map; m$3
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/convert/DecorateAsJava;Lscala/collection/concurrent/Map;)V
     ALOAD 0

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;This::Lscala/collection/mutable/BufferLike<TA;TThis;>;:Lscala/collection/mutable/Buffer<TA;>;>Ljava/lang/Object;Lscala/collection/generic/Growable<TA;>;Lscala/collection/generic/Shrinkable<TA;>;Lscala/collection/script/Scriptable<TA;>;Lscala/collection/generic/Subtractable<TA;TThis;>;Lscala/collection/mutable/SeqLike<TA;TThis;>;Lscala/Cloneable;
-// declaration: scala/collection/mutable/BufferLike<A, This extends scala.collection.mutable.BufferLike<A, This>, scala.collection.mutable.Buffer<A>> extends scala.collection.generic.Growable<A>, scala.collection.generic.Shrinkable<A>, scala.collection.script.Scriptable<A>, scala.collection.generic.Subtractable<A, This>, scala.collection.mutable.SeqLike<A, This>, scala.Cloneable
+// signature <A:Ljava/lang/Object;This::Lscala/collection/mutable/BufferLike<TA;TThis;>;:Lscala/collection/mutable/Buffer<TA;>;>Ljava/lang/Object;Lscala/collection/generic/Growable<TA;>;Lscala/collection/generic/Shrinkable<TA;>;Lscala/collection/script/Scriptable<TA;>;Lscala/collection/generic/Subtractable<TA;TThis;>;Lscala/collection/mutable/SeqLike<TA;TThis;>;
+// declaration: scala/collection/mutable/BufferLike<A, This extends scala.collection.mutable.BufferLike<A, This>, scala.collection.mutable.Buffer<A>> extends scala.collection.generic.Growable<A>, scala.collection.generic.Shrinkable<A>, scala.collection.script.Scriptable<A>, scala.collection.generic.Subtractable<A, This>, scala.collection.mutable.SeqLike<A, This>
 public abstract interface scala/collection/mutable/BufferLike implements scala/collection/generic/Growable scala/collection/generic/Shrinkable scala/collection/script/Scriptable scala/collection/generic/Subtractable scala/collection/mutable/SeqLike  {
 
   // access flags 0x11

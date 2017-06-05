@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/SortedSet<TA;>;Lscala/collection/SortedSetLike<TA;Lscala/collection/mutable/SortedSet<TA;>;>;Lscala/collection/mutable/Set<TA;>;Lscala/collection/mutable/SetLike<TA;Lscala/collection/mutable/SortedSet<TA;>;>;
-// declaration: scala/collection/mutable/SortedSet<A> extends scala.collection.SortedSet<A>, scala.collection.SortedSetLike<A, scala.collection.mutable.SortedSet<A>>, scala.collection.mutable.Set<A>, scala.collection.mutable.SetLike<A, scala.collection.mutable.SortedSet<A>>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/SortedSet<TA;>;Lscala/collection/mutable/Set<TA;>;
+// declaration: scala/collection/mutable/SortedSet<A> extends scala.collection.SortedSet<A>, scala.collection.mutable.Set<A>
 public abstract interface scala/collection/mutable/SortedSet implements scala/collection/SortedSet scala/collection/mutable/Set  {
 
 

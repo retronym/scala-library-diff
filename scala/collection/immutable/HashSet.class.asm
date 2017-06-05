@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSet<TA;>;Lscala/collection/immutable/Set<TA;>;Lscala/collection/generic/GenericSetTemplate<TA;Lscala/collection/immutable/HashSet;>;Lscala/collection/SetLike<TA;Lscala/collection/immutable/HashSet<TA;>;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/immutable/ParHashSet<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/HashSet<A> extends scala.collection.AbstractSet<A> implements scala.collection.immutable.Set<A>, scala.collection.generic.GenericSetTemplate<A, scala.collection.immutable.HashSet>, scala.collection.SetLike<A, scala.collection.immutable.HashSet<A>>, scala.collection.CustomParallelizable<A, scala.collection.parallel.immutable.ParHashSet<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSet<TA;>;Lscala/collection/immutable/Set<TA;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/immutable/ParHashSet<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/HashSet<A> extends scala.collection.AbstractSet<A> implements scala.collection.immutable.Set<A>, scala.collection.CustomParallelizable<A, scala.collection.parallel.immutable.ParHashSet<A>>, scala.Serializable
 public class scala/collection/immutable/HashSet extends scala/collection/AbstractSet  implements scala/collection/immutable/Set scala/collection/CustomParallelizable scala/Serializable  {
 
   // access flags 0x9

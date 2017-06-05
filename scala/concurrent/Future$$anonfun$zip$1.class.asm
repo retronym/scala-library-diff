@@ -18,6 +18,9 @@ public final class scala/concurrent/Future$$anonfun$zip$1 extends scala/runtime/
   // access flags 0x11
   public final Lscala/concurrent/Promise; p$7
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/concurrent/Future; that$1
 

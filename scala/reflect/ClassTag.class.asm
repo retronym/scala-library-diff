@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/reflect/ClassManifestDeprecatedApis<TT;>;Lscala/Equals;Lscala/Serializable;
-// declaration: scala/reflect/ClassTag<T> extends scala.reflect.ClassManifestDeprecatedApis<T>, scala.Equals, scala.Serializable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/reflect/ClassManifestDeprecatedApis<TT;>;Lscala/Equals;
+// declaration: scala/reflect/ClassTag<T> extends scala.reflect.ClassManifestDeprecatedApis<T>, scala.Equals
 public abstract interface scala/reflect/ClassTag implements scala/reflect/ClassManifestDeprecatedApis scala/Equals  {
 
 

@@ -1,8 +1,8 @@
 // class version 50.0 (50)
 // DEPRECATED
 // access flags 0x20021
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/collection/mutable/LinearSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/LinkedList;>;Lscala/collection/mutable/LinkedListLike<TA;Lscala/collection/mutable/LinkedList<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/LinkedList<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.LinearSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.LinkedList>, scala.collection.mutable.LinkedListLike<A, scala.collection.mutable.LinkedList<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/collection/mutable/LinearSeq<TA;>;Lscala/collection/mutable/LinkedListLike<TA;Lscala/collection/mutable/LinkedList<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/LinkedList<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.LinearSeq<A>, scala.collection.mutable.LinkedListLike<A, scala.collection.mutable.LinkedList<A>>, scala.Serializable
 public class scala/collection/mutable/LinkedList extends scala/collection/mutable/AbstractSeq  implements scala/collection/mutable/LinearSeq scala/collection/mutable/LinkedListLike scala/Serializable  {
 
   // access flags 0x1

@@ -1,4 +1,5 @@
 package scala.collection.immutable
+@scala.SerialVersionUID { val value = 509929039250432923None }
 final case class ::[B](head: B, tl: scala.collection.immutable.List[B]) extends scala.collection.immutable.List[B] with scala.Product with scala.Serializable {
   override val head: B = { /* compiled code */ }
   private[scala] var tl: scala.collection.immutable.List[B] = { /* compiled code */ }

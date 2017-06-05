@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/AbstractSet<Lscala/Enumeration$Value;>;Lscala/collection/immutable/SortedSet<Lscala/Enumeration$Value;>;Lscala/collection/SortedSetLike<Lscala/Enumeration$Value;Lscala/Enumeration$ValueSet;>;Lscala/Serializable;
-// declaration: scala/Enumeration$ValueSet extends scala.collection.AbstractSet<scala.Enumeration$Value> implements scala.collection.immutable.SortedSet<scala.Enumeration$Value>, scala.collection.SortedSetLike<scala.Enumeration$Value, scala.Enumeration$ValueSet>, scala.Serializable
+// signature Lscala/collection/AbstractSet<Lscala/Enumeration$Value;>;Lscala/collection/immutable/SortedSet<Lscala/Enumeration$Value;>;Lscala/Serializable;
+// declaration: scala/Enumeration$ValueSet extends scala.collection.AbstractSet<scala.Enumeration$Value> implements scala.collection.immutable.SortedSet<scala.Enumeration$Value>, scala.Serializable
 public class scala/Enumeration$ValueSet extends scala/collection/AbstractSet  implements scala/collection/immutable/SortedSet scala/Serializable  {
 
   // access flags 0x401

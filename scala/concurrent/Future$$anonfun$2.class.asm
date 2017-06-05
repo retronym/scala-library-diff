@@ -17,6 +17,9 @@ public final class scala/concurrent/Future$$anonfun$2 extends scala/runtime/Abst
   // access flags 0x12
   private final Lscala/concurrent/Promise; result$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Function1;Lscala/concurrent/Promise;Ljava/util/concurrent/atomic/AtomicInteger;)V
     ALOAD 0

@@ -11,6 +11,9 @@ public final class scala/collection/mutable/BufferLike$$anonfun$$less$less$1 ext
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/Buffer; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (TThis;)V
   // declaration: void <init>(This)

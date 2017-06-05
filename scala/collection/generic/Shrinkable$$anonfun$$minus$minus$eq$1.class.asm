@@ -11,6 +11,9 @@ public final class scala/collection/generic/Shrinkable$$anonfun$$minus$minus$eq$
   // access flags 0x1012
   private final synthetic Lscala/collection/generic/Shrinkable; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/generic/Shrinkable<TA;>;)V
   // declaration: void <init>(scala.collection.generic.Shrinkable<A>)

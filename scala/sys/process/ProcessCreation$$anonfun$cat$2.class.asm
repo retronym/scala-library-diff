@@ -8,6 +8,9 @@ public final class scala/sys/process/ProcessCreation$$anonfun$cat$2 extends scal
   // access flags 0x11
   public final INNERCLASS scala/sys/process/ProcessCreation$$anonfun$cat$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessCreation;)V
     ALOAD 0

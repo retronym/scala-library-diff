@@ -11,6 +11,9 @@ public final class scala/collection/GenSeqLike$$anonfun$indexOf$1 extends scala/
   // access flags 0x12
   private final Ljava/lang/Object; elem$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/GenSeqLike<TA;TRepr;>;)V
   // declaration: void <init>(scala.collection.GenSeqLike<A, Repr>)

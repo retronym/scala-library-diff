@@ -11,6 +11,9 @@ public final class scala/concurrent/Future$$anonfun$filter$1 extends scala/runti
   // access flags 0x12
   private final Lscala/Function1; p$12
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/concurrent/Future<TT;>;)V
   // declaration: void <init>(scala.concurrent.Future<T>)

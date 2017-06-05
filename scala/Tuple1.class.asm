@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T1:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Product1<TT1;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/Tuple1<T1> implements scala.Product1<T1>, scala.Product, scala.Serializable
+// signature <T1:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Product1<TT1;>;Lscala/Serializable;
+// declaration: scala/Tuple1<T1> implements scala.Product1<T1>, scala.Serializable
 public class scala/Tuple1 implements scala/Product1 scala/Serializable  {
 
 

@@ -8,6 +8,9 @@ public final class scala/collection/immutable/StreamIterator$$anonfun$toStream$1
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/StreamIterator$$anonfun$toStream$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/StreamIterator<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.StreamIterator<A>)

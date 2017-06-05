@@ -10,6 +10,9 @@ public final class scala/collection/parallel/SeqSplitter$Taken$$anonfun$psplit$1
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/SeqSplitter$Taken$$anonfun$psplit$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/SeqSplitter<TT;>.Taken;)V
   // declaration: void <init>(scala.collection.parallel.SeqSplitter<T>.Taken)

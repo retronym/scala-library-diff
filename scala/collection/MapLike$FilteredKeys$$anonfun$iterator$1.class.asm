@@ -13,6 +13,9 @@ public final class scala/collection/MapLike$FilteredKeys$$anonfun$iterator$1 ext
   // access flags 0x1012
   private final synthetic Lscala/collection/MapLike$FilteredKeys; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/MapLike<TA;TB;TThis;>.FilteredKeys;)V
   // declaration: void <init>(scala.collection.MapLike<A, B, This>.FilteredKeys)

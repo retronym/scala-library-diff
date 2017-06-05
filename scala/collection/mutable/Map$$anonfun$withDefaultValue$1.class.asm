@@ -11,6 +11,9 @@ public final class scala/collection/mutable/Map$$anonfun$withDefaultValue$1 exte
   // access flags 0x12
   private final Ljava/lang/Object; d$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/Map<TA;TB;>;)V
   // declaration: void <init>(scala.collection.mutable.Map<A, B>)

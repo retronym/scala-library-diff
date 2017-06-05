@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/Product;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/List;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/immutable/List<TA;>;>;Ljava/io/Serializable;
-// declaration: scala/collection/immutable/List<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.Product, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.List>, scala.collection.LinearSeqOptimized<A, scala.collection.immutable.List<A>>, java.io.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/Product;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/immutable/List<TA;>;>;Ljava/io/Serializable;
+// declaration: scala/collection/immutable/List<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.Product, scala.collection.LinearSeqOptimized<A, scala.collection.immutable.List<A>>, java.io.Serializable
 public abstract class scala/collection/immutable/List extends scala/collection/AbstractSeq  implements scala/collection/immutable/LinearSeq scala/Product scala/collection/LinearSeqOptimized java/io/Serializable  {
 
   // access flags 0x19
@@ -18,6 +18,9 @@ public abstract class scala/collection/immutable/List extends scala/collection/A
   public final INNERCLASS scala/collection/immutable/List$$anonfun$foldRight$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
+
+  // access flags 0x19
+  public final static J serialVersionUID = -6084104484083858598
 
   // access flags 0x1
   // signature <B:Ljava/lang/Object;>(TB;)Lscala/collection/immutable/List<TB;>;
@@ -190,80 +193,80 @@ public abstract class scala/collection/immutable/List extends scala/collection/A
     GOTO L2
    L1
     ALOAD 0
-    ASTORE 7
+    ASTORE 3
     ACONST_NULL
-    ASTORE 8
+    ASTORE 4
    L3
     ALOAD 1
-    ALOAD 7
+    ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.head ()Ljava/lang/Object;
     GETSTATIC scala/collection/immutable/List$.MODULE$ : Lscala/collection/immutable/List$;
     INVOKEVIRTUAL scala/collection/immutable/List$.partialNotApplied ()Lscala/Function1;
     INVOKEINTERFACE scala/PartialFunction.applyOrElse (Ljava/lang/Object;Lscala/Function1;)Ljava/lang/Object;
-    ASTORE 3
-    ALOAD 3
+    ASTORE 5
+    ALOAD 5
     GETSTATIC scala/collection/immutable/List$.MODULE$ : Lscala/collection/immutable/List$;
     INVOKEVIRTUAL scala/collection/immutable/List$.partialNotApplied ()Lscala/Function1;
     IF_ACMPEQ L4
     NEW scala/collection/immutable/$colon$colon
     DUP
-    ALOAD 3
+    ALOAD 5
     GETSTATIC scala/collection/immutable/Nil$.MODULE$ : Lscala/collection/immutable/Nil$;
     INVOKESPECIAL scala/collection/immutable/$colon$colon.<init> (Ljava/lang/Object;Lscala/collection/immutable/List;)V
-    ASTORE 8
+    ASTORE 4
    L4
-    ALOAD 7
+    ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List
     DUP
-    ASTORE 7
+    ASTORE 3
     GETSTATIC scala/collection/immutable/Nil$.MODULE$ : Lscala/collection/immutable/Nil$;
     IF_ACMPNE L5
-    ALOAD 8
+    ALOAD 4
     IFNONNULL L6
     GETSTATIC scala/collection/immutable/Nil$.MODULE$ : Lscala/collection/immutable/Nil$;
     GOTO L7
    L6
-    ALOAD 8
+    ALOAD 4
    L7
     ARETURN
    L5
-    ALOAD 8
+    ALOAD 4
     IFNULL L3
-    ALOAD 8
+    ALOAD 4
     ASTORE 6
    L8
     ALOAD 1
-    ALOAD 7
+    ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.head ()Ljava/lang/Object;
     GETSTATIC scala/collection/immutable/List$.MODULE$ : Lscala/collection/immutable/List$;
     INVOKEVIRTUAL scala/collection/immutable/List$.partialNotApplied ()Lscala/Function1;
     INVOKEINTERFACE scala/PartialFunction.applyOrElse (Ljava/lang/Object;Lscala/Function1;)Ljava/lang/Object;
-    ASTORE 4
-    ALOAD 4
+    ASTORE 7
+    ALOAD 7
     GETSTATIC scala/collection/immutable/List$.MODULE$ : Lscala/collection/immutable/List$;
     INVOKEVIRTUAL scala/collection/immutable/List$.partialNotApplied ()Lscala/Function1;
     IF_ACMPEQ L9
     NEW scala/collection/immutable/$colon$colon
     DUP
-    ALOAD 4
+    ALOAD 7
     GETSTATIC scala/collection/immutable/Nil$.MODULE$ : Lscala/collection/immutable/Nil$;
     INVOKESPECIAL scala/collection/immutable/$colon$colon.<init> (Ljava/lang/Object;Lscala/collection/immutable/List;)V
-    ASTORE 5
+    ASTORE 8
     ALOAD 6
-    ALOAD 5
+    ALOAD 8
     INVOKEVIRTUAL scala/collection/immutable/$colon$colon.tl_$eq (Lscala/collection/immutable/List;)V
-    ALOAD 5
+    ALOAD 8
     ASTORE 6
    L9
-    ALOAD 7
+    ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List
-    ASTORE 7
-    ALOAD 7
+    ASTORE 3
+    ALOAD 3
     GETSTATIC scala/collection/immutable/Nil$.MODULE$ : Lscala/collection/immutable/Nil$;
     IF_ACMPNE L8
-    ALOAD 8
+    ALOAD 4
     GOTO L2
    L0
     ALOAD 0

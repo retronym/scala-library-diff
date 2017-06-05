@@ -16,6 +16,9 @@ public final class scala/Responder$$anon$4$$anonfun$respond$3 extends scala/runt
   // access flags 0x12
   private final Lscala/Function1; k$3
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/Responder<TA;>.$anon$4;)V
   // declaration: void <init>(scala.Responder<A>.$anon$4)

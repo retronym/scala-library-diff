@@ -17,6 +17,9 @@ public final class scala/collection/IterableLike$$anonfun$takeRight$1 extends sc
   // access flags 0x12
   private final Lscala/collection/Iterator; lead$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/IterableLike<TA;TRepr;>;)V
   // declaration: void <init>(scala.collection.IterableLike<A, Repr>)

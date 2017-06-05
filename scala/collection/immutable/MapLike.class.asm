@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;This::Lscala/collection/immutable/MapLike<TA;TB;TThis;>;:Lscala/collection/immutable/Map<TA;TB;>;>Ljava/lang/Object;Lscala/collection/MapLike<TA;TB;TThis;>;Lscala/collection/Parallelizable<Lscala/Tuple2<TA;TB;>;Lscala/collection/parallel/immutable/ParMap<TA;TB;>;>;
-// declaration: scala/collection/immutable/MapLike<A, B, This extends scala.collection.immutable.MapLike<A, B, This>, scala.collection.immutable.Map<A, B>> extends scala.collection.MapLike<A, B, This>, scala.collection.Parallelizable<scala.Tuple2<A, B>, scala.collection.parallel.immutable.ParMap<A, B>>
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;This::Lscala/collection/immutable/MapLike<TA;TB;TThis;>;:Lscala/collection/immutable/Map<TA;TB;>;>Ljava/lang/Object;Lscala/collection/MapLike<TA;TB;TThis;>;
+// declaration: scala/collection/immutable/MapLike<A, B, This extends scala.collection.immutable.MapLike<A, B, This>, scala.collection.immutable.Map<A, B>> extends scala.collection.MapLike<A, B, This>
 public abstract interface scala/collection/immutable/MapLike implements scala/collection/MapLike  {
 
   // access flags 0x11

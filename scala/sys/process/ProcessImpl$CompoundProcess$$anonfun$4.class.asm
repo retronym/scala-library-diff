@@ -13,6 +13,9 @@ public final class scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$4 exte
   // access flags 0x12
   private final Lscala/Function0; destroyImpl$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessImpl$CompoundProcess;Lscala/Function0;)V
     ALOAD 0

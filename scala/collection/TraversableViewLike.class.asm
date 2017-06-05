@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/TraversableView<TA;TColl;>;:Lscala/collection/TraversableViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/Traversable<TA;>;Lscala/collection/TraversableLike<TA;TThis;>;Lscala/collection/ViewMkString<TA;>;
-// declaration: scala/collection/TraversableViewLike<A, Coll, This extends scala.collection.TraversableView<A, Coll>, scala.collection.TraversableViewLike<A, Coll, This>> extends scala.collection.Traversable<A>, scala.collection.TraversableLike<A, This>, scala.collection.ViewMkString<A>
+// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/TraversableView<TA;TColl;>;:Lscala/collection/TraversableViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/Traversable<TA;>;Lscala/collection/ViewMkString<TA;>;
+// declaration: scala/collection/TraversableViewLike<A, Coll, This extends scala.collection.TraversableView<A, Coll>, scala.collection.TraversableViewLike<A, Coll, This>> extends scala.collection.Traversable<A>, scala.collection.ViewMkString<A>
 public abstract interface scala/collection/TraversableViewLike implements scala/collection/Traversable scala/collection/ViewMkString  {
 
   // access flags 0x601

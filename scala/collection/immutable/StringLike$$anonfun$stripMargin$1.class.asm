@@ -14,6 +14,9 @@ public final class scala/collection/immutable/StringLike$$anonfun$stripMargin$1 
   // access flags 0x12
   private final C marginChar$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/StringLike<TRepr;>;)V
   // declaration: void <init>(scala.collection.immutable.StringLike<Repr>)

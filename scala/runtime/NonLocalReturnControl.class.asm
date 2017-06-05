@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Object;>Ljava/lang/Throwable;Lscala/util/control/ControlThrowable;
-// declaration: scala/runtime/NonLocalReturnControl<T> extends java.lang.Throwable implements scala.util.control.ControlThrowable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/util/control/ControlThrowable;
+// declaration: scala/runtime/NonLocalReturnControl<T> implements scala.util.control.ControlThrowable
 public class scala/runtime/NonLocalReturnControl extends java/lang/Throwable  implements scala/util/control/ControlThrowable  {
 
 

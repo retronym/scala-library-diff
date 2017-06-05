@@ -11,6 +11,9 @@ public final class scala/collection/immutable/StringLike$$anonfun$format$1 exten
   // access flags 0x1012
   private final synthetic Lscala/collection/immutable/StringLike; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/StringLike<TRepr;>;)V
   // declaration: void <init>(scala.collection.immutable.StringLike<Repr>)

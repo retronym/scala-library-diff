@@ -13,6 +13,9 @@ public final class scala/Function3$$anonfun$curried$1 extends scala/runtime/Abst
   // access flags 0x1011
   public final synthetic Lscala/Function3; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/Function3<TT1;TT2;TT3;TR;>;)V
   // declaration: void <init>(scala.Function3<T1, T2, T3, R>)

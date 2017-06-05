@@ -107,6 +107,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofBoolean extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofBoolean): scala.collection.mutable.WrappedArray[scala.Boolean] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofBoolean)(repr: scala.Array[scala.Boolean]): scala.collection.mutable.WrappedArray[scala.Boolean] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofBoolean): scala.collection.mutable.ArrayBuilder.ofBoolean = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofBoolean): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofBoolean)(index: scala.Int): scala.Boolean = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofBoolean)(index: scala.Int, elem: scala.Boolean): scala.Unit = { /* compiled code */ }
@@ -115,6 +118,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofByte extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofByte): scala.collection.mutable.WrappedArray[scala.Byte] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofByte)(repr: scala.Array[scala.Byte]): scala.collection.mutable.WrappedArray[scala.Byte] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofByte): scala.collection.mutable.ArrayBuilder.ofByte = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofByte): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofByte)(index: scala.Int): scala.Byte = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofByte)(index: scala.Int, elem: scala.Byte): scala.Unit = { /* compiled code */ }
@@ -123,6 +129,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofChar extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofChar): scala.collection.mutable.WrappedArray[scala.Char] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofChar)(repr: scala.Array[scala.Char]): scala.collection.mutable.WrappedArray[scala.Char] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofChar): scala.collection.mutable.ArrayBuilder.ofChar = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofChar): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofChar)(index: scala.Int): scala.Char = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofChar)(index: scala.Int, elem: scala.Char): scala.Unit = { /* compiled code */ }
@@ -131,6 +140,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofDouble extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofDouble): scala.collection.mutable.WrappedArray[scala.Double] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofDouble)(repr: scala.Array[scala.Double]): scala.collection.mutable.WrappedArray[scala.Double] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofDouble): scala.collection.mutable.ArrayBuilder.ofDouble = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofDouble): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofDouble)(index: scala.Int): scala.Double = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofDouble)(index: scala.Int, elem: scala.Double): scala.Unit = { /* compiled code */ }
@@ -139,6 +151,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofFloat extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofFloat): scala.collection.mutable.WrappedArray[scala.Float] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofFloat)(repr: scala.Array[scala.Float]): scala.collection.mutable.WrappedArray[scala.Float] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofFloat): scala.collection.mutable.ArrayBuilder.ofFloat = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofFloat): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofFloat)(index: scala.Int): scala.Float = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofFloat)(index: scala.Int, elem: scala.Float): scala.Unit = { /* compiled code */ }
@@ -147,6 +162,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofInt extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofInt): scala.collection.mutable.WrappedArray[scala.Int] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofInt)(repr: scala.Array[scala.Int]): scala.collection.mutable.WrappedArray[scala.Int] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofInt): scala.collection.mutable.ArrayBuilder.ofInt = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofInt): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofInt)(index: scala.Int): scala.Int = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofInt)(index: scala.Int, elem: scala.Int): scala.Unit = { /* compiled code */ }
@@ -155,6 +173,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofLong extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofLong): scala.collection.mutable.WrappedArray[scala.Long] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofLong)(repr: scala.Array[scala.Long]): scala.collection.mutable.WrappedArray[scala.Long] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofLong): scala.collection.mutable.ArrayBuilder.ofLong = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofLong): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofLong)(index: scala.Int): scala.Long = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofLong)(index: scala.Int, elem: scala.Long): scala.Unit = { /* compiled code */ }
@@ -163,6 +184,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofRef extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T]): scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+    final def toCollection$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T])(repr: scala.Array[T]): scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+    final def newBuilder$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T]): scala.collection.mutable.ArrayBuilder.ofRef[T] = { /* compiled code */ }
     final def length$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T]): scala.Int = { /* compiled code */ }
     final def apply$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T])(index: scala.Int): T = { /* compiled code */ }
     final def update$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T])(index: scala.Int, elem: T): scala.Unit = { /* compiled code */ }
@@ -171,6 +195,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofShort extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofShort): scala.collection.mutable.WrappedArray[scala.Short] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofShort)(repr: scala.Array[scala.Short]): scala.collection.mutable.WrappedArray[scala.Short] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofShort): scala.collection.mutable.ArrayBuilder.ofShort = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofShort): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofShort)(index: scala.Int): scala.Short = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofShort)(index: scala.Int, elem: scala.Short): scala.Unit = { /* compiled code */ }
@@ -179,6 +206,9 @@ object ArrayOps extends scala.AnyRef {
   }
   object ofUnit extends scala.AnyRef {
     def this() = { /* compiled code */ }
+    final def thisCollection$extension($this: scala.collection.mutable.ArrayOps.ofUnit): scala.collection.mutable.WrappedArray[scala.Unit] = { /* compiled code */ }
+    final def toCollection$extension($this: scala.collection.mutable.ArrayOps.ofUnit)(repr: scala.Array[scala.Unit]): scala.collection.mutable.WrappedArray[scala.Unit] = { /* compiled code */ }
+    final def newBuilder$extension($this: scala.collection.mutable.ArrayOps.ofUnit): scala.collection.mutable.ArrayBuilder.ofUnit = { /* compiled code */ }
     final def length$extension($this: scala.collection.mutable.ArrayOps.ofUnit): scala.Int = { /* compiled code */ }
     final def apply$extension($this: scala.collection.mutable.ArrayOps.ofUnit)(index: scala.Int): scala.Unit = { /* compiled code */ }
     final def update$extension($this: scala.collection.mutable.ArrayOps.ofUnit)(index: scala.Int, elem: scala.Unit): scala.Unit = { /* compiled code */ }

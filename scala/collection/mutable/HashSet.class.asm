@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/collection/mutable/Set<TA;>;Lscala/collection/generic/GenericSetTemplate<TA;Lscala/collection/mutable/HashSet;>;Lscala/collection/mutable/SetLike<TA;Lscala/collection/mutable/HashSet<TA;>;>;Lscala/collection/mutable/FlatHashTable<TA;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/mutable/ParHashSet<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/HashSet<A> extends scala.collection.mutable.AbstractSet<A> implements scala.collection.mutable.Set<A>, scala.collection.generic.GenericSetTemplate<A, scala.collection.mutable.HashSet>, scala.collection.mutable.SetLike<A, scala.collection.mutable.HashSet<A>>, scala.collection.mutable.FlatHashTable<A>, scala.collection.CustomParallelizable<A, scala.collection.parallel.mutable.ParHashSet<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/collection/mutable/FlatHashTable<TA;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/mutable/ParHashSet<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/HashSet<A> extends scala.collection.mutable.AbstractSet<A> implements scala.collection.mutable.FlatHashTable<A>, scala.collection.CustomParallelizable<A, scala.collection.parallel.mutable.ParHashSet<A>>, scala.Serializable
 public class scala/collection/mutable/HashSet extends scala/collection/mutable/AbstractSet  implements scala/collection/mutable/FlatHashTable scala/collection/CustomParallelizable scala/Serializable  {
 
   // access flags 0x9

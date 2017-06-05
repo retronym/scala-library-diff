@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Lscala/collection/generic/GenTraversableFactory<Lscala/collection/Iterable;>;Lscala/collection/generic/TraversableFactory<Lscala/collection/Iterable;>;
-// declaration: scala/collection/Iterable$ extends scala.collection.generic.GenTraversableFactory<scala.collection.Iterable> implements scala.collection.generic.TraversableFactory<scala.collection.Iterable>
+// signature Ljava/lang/Object;Lscala/collection/generic/TraversableFactory<Lscala/collection/Iterable;>;
+// declaration: scala/collection/Iterable$ implements scala.collection.generic.TraversableFactory<scala.collection.Iterable>
 public final class scala/collection/Iterable$ extends scala/collection/generic/GenTraversableFactory  implements scala/collection/generic/TraversableFactory  {
 
   // access flags 0x1

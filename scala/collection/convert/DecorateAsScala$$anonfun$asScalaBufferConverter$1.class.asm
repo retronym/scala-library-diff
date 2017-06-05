@@ -13,6 +13,9 @@ public final class scala/collection/convert/DecorateAsScala$$anonfun$asScalaBuff
   // access flags 0x12
   private final Ljava/util/List; l$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/convert/DecorateAsScala;Ljava/util/List;)V
     ALOAD 0

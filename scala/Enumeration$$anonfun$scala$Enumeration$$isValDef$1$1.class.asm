@@ -11,6 +11,9 @@ public final class scala/Enumeration$$anonfun$scala$Enumeration$$isValDef$1$1 ex
   // access flags 0x12
   private final Ljava/lang/reflect/Method; m$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Enumeration;Ljava/lang/reflect/Method;)V
     ALOAD 0

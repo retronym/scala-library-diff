@@ -11,6 +11,9 @@ public final class scala/util/matching/Regex$Match$$anonfun$ends$1 extends scala
   // access flags 0x1011
   public final synthetic Lscala/util/matching/Regex$Match; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/util/matching/Regex$Match;)V
     ALOAD 1

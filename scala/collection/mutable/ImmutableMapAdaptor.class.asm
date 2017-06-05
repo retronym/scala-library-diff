@@ -1,8 +1,8 @@
 // class version 50.0 (50)
 // DEPRECATED
 // access flags 0x20021
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/collection/mutable/Map<TA;TB;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/ImmutableMapAdaptor<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.collection.mutable.Map<A, B>, scala.Serializable
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/ImmutableMapAdaptor<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.Serializable
 public class scala/collection/mutable/ImmutableMapAdaptor extends scala/collection/mutable/AbstractMap  implements scala/Serializable  {
 
   // access flags 0x11

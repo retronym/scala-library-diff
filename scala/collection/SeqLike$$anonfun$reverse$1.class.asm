@@ -8,6 +8,9 @@ public final class scala/collection/SeqLike$$anonfun$reverse$1 extends scala/run
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$$anonfun$reverse$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; xs$1
 

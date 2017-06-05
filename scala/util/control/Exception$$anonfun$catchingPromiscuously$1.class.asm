@@ -10,6 +10,9 @@ public final class scala/util/control/Exception$$anonfun$catchingPromiscuously$1
   // access flags 0x11
   public final INNERCLASS scala/util/control/Exception$$anonfun$catchingPromiscuously$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>()V
     ALOAD 0

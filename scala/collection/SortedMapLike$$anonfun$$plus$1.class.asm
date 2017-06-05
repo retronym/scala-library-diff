@@ -11,6 +11,9 @@ public final class scala/collection/SortedMapLike$$anonfun$$plus$1 extends scala
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; m$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/SortedMapLike<TA;TB;TThis;>;)V
   // declaration: void <init>(scala.collection.SortedMapLike<A, B, This>)

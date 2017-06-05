@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/AbstractIterator<Ljava/lang/String;>;Lscala/collection/Iterator<Ljava/lang/String;>;Lscala/util/matching/Regex$MatchData;
-// declaration: scala/util/matching/Regex$MatchIterator extends scala.collection.AbstractIterator<java.lang.String> implements scala.collection.Iterator<java.lang.String>, scala.util.matching.Regex$MatchData
+// signature Lscala/collection/AbstractIterator<Ljava/lang/String;>;Lscala/util/matching/Regex$MatchData;
+// declaration: scala/util/matching/Regex$MatchIterator extends scala.collection.AbstractIterator<java.lang.String> implements scala.util.matching.Regex$MatchData
 public class scala/util/matching/Regex$MatchIterator extends scala/collection/AbstractIterator  implements scala/util/matching/Regex$MatchData  {
 
   // access flags 0x609

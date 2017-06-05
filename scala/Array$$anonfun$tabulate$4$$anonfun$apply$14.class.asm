@@ -16,6 +16,9 @@ public final class scala/Array$$anonfun$tabulate$4$$anonfun$apply$14 extends sca
   // access flags 0x12
   private final I i1$4
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Array$$anonfun$tabulate$4;I)V
     ALOAD 1

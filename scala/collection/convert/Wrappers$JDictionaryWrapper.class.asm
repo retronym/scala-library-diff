@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/collection/mutable/Map<TA;TB;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/convert/Wrappers$JDictionaryWrapper<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.collection.mutable.Map<A, B>, scala.Product, scala.Serializable
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/Product;Lscala/Serializable;
+// declaration: scala/collection/convert/Wrappers$JDictionaryWrapper<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.Product, scala.Serializable
 public class scala/collection/convert/Wrappers$JDictionaryWrapper extends scala/collection/mutable/AbstractMap  implements scala/Product scala/Serializable  {
 
   // access flags 0x1

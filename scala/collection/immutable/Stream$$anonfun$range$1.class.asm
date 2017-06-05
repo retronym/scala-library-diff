@@ -19,6 +19,9 @@ public final class scala/collection/immutable/Stream$$anonfun$range$1 extends sc
   // access flags 0x12
   private final Lscala/math/Integral; num$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Ljava/lang/Object; start$3
 

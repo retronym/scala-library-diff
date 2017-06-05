@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TT;>;Lscala/collection/mutable/Buffer<TT;>;Lscala/collection/mutable/BufferLike<TT;Lscala/collection/mutable/UnrolledBuffer<TT;>;>;Lscala/collection/generic/GenericClassTagTraversableTemplate<TT;Lscala/collection/mutable/UnrolledBuffer;>;Lscala/collection/mutable/Builder<TT;Lscala/collection/mutable/UnrolledBuffer<TT;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/UnrolledBuffer<T> extends scala.collection.mutable.AbstractBuffer<T> implements scala.collection.mutable.Buffer<T>, scala.collection.mutable.BufferLike<T, scala.collection.mutable.UnrolledBuffer<T>>, scala.collection.generic.GenericClassTagTraversableTemplate<T, scala.collection.mutable.UnrolledBuffer>, scala.collection.mutable.Builder<T, scala.collection.mutable.UnrolledBuffer<T>>, scala.Serializable
+// signature <T:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TT;>;Lscala/collection/generic/GenericClassTagTraversableTemplate<TT;Lscala/collection/mutable/UnrolledBuffer;>;Lscala/collection/mutable/Builder<TT;Lscala/collection/mutable/UnrolledBuffer<TT;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/UnrolledBuffer<T> extends scala.collection.mutable.AbstractBuffer<T> implements scala.collection.generic.GenericClassTagTraversableTemplate<T, scala.collection.mutable.UnrolledBuffer>, scala.collection.mutable.Builder<T, scala.collection.mutable.UnrolledBuffer<T>>, scala.Serializable
 public class scala/collection/mutable/UnrolledBuffer extends scala/collection/mutable/AbstractBuffer  implements scala/collection/generic/GenericClassTagTraversableTemplate scala/collection/mutable/Builder scala/Serializable  {
 
   // access flags 0x11

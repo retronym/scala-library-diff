@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/AVLTree<TA;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/mutable/Node<A> implements scala.collection.mutable.AVLTree<A>, scala.Product, scala.Serializable
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/AVLTree<TA;>;Lscala/Product;
+// declaration: scala/collection/mutable/Node<A> implements scala.collection.mutable.AVLTree<A>, scala.Product
 public class scala/collection/mutable/Node implements scala/collection/mutable/AVLTree scala/Product  {
 
 

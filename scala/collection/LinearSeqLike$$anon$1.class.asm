@@ -8,9 +8,6 @@ public final class scala/collection/LinearSeqLike$$anon$1 extends scala/collecti
   // access flags 0x11
   public final INNERCLASS scala/collection/LinearSeqLike$$anon$1 null null
 
-  // access flags 0x1012
-  private final synthetic Lscala/collection/LinearSeqLike; $outer
-
   // access flags 0x2
   // signature TRepr;
   // declaration: Repr
@@ -20,14 +17,6 @@ public final class scala/collection/LinearSeqLike$$anon$1 extends scala/collecti
   // signature (TRepr;)V
   // declaration: void <init>(Repr)
   public <init>(Lscala/collection/LinearSeqLike;)V
-    ALOAD 1
-    IFNONNULL L0
-    ACONST_NULL
-    ATHROW
-   L0
-    ALOAD 0
-    ALOAD 1
-    PUTFIELD scala/collection/LinearSeqLike$$anon$1.$outer : Lscala/collection/LinearSeqLike;
     ALOAD 0
     INVOKESPECIAL scala/collection/AbstractIterator.<init> ()V
     ALOAD 0
@@ -111,13 +100,13 @@ public final class scala/collection/LinearSeqLike$$anon$1 extends scala/collecti
     ASTORE 1
     ALOAD 0
     ALOAD 0
-    GETFIELD scala/collection/LinearSeqLike$$anon$1.$outer : Lscala/collection/LinearSeqLike;
-    INVOKEINTERFACE scala/collection/LinearSeqLike.newBuilder ()Lscala/collection/mutable/Builder;
-    INVOKEINTERFACE scala/collection/mutable/Builder.result ()Ljava/lang/Object;
+    INVOKESPECIAL scala/collection/LinearSeqLike$$anon$1.these ()Lscala/collection/LinearSeqLike;
+    ICONST_0
+    INVOKEINTERFACE scala/collection/LinearSeqLike.take (I)Ljava/lang/Object;
     CHECKCAST scala/collection/LinearSeqLike
     INVOKESPECIAL scala/collection/LinearSeqLike$$anon$1.these_$eq (Lscala/collection/LinearSeqLike;)V
     ALOAD 1
     ARETURN
-    MAXSTACK = 2
+    MAXSTACK = 3
     MAXLOCALS = 2
 }

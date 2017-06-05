@@ -16,6 +16,9 @@ public final class scala/collection/MapLike$FilteredKeys$$anonfun$foreach$1 exte
   // access flags 0x12
   private final Lscala/Function1; f$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/MapLike<TA;TB;TThis;>.FilteredKeys;)V
   // declaration: void <init>(scala.collection.MapLike<A, B, This>.FilteredKeys)

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/math/ScalaNumericAnyConversions;Lscala/Proxy$Typed<TT;>;Lscala/runtime/OrderedProxy<TT;>;
-// declaration: scala/runtime/ScalaNumberProxy<T> extends scala.math.ScalaNumericAnyConversions, scala.Proxy$Typed<T>, scala.runtime.OrderedProxy<T>
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/math/ScalaNumericAnyConversions;Lscala/runtime/OrderedProxy<TT;>;
+// declaration: scala/runtime/ScalaNumberProxy<T> extends scala.math.ScalaNumericAnyConversions, scala.runtime.OrderedProxy<T>
 public abstract interface scala/runtime/ScalaNumberProxy implements scala/math/ScalaNumericAnyConversions scala/runtime/OrderedProxy  {
 
 

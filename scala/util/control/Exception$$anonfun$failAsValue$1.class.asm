@@ -10,6 +10,9 @@ public final class scala/util/control/Exception$$anonfun$failAsValue$1 extends s
   // access flags 0x11
   public final INNERCLASS scala/util/control/Exception$$anonfun$failAsValue$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/Function0; value$1
 

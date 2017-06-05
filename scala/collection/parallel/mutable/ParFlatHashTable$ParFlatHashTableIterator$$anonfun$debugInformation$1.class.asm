@@ -13,6 +13,9 @@ public final class scala/collection/parallel/mutable/ParFlatHashTable$ParFlatHas
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/mutable/ParFlatHashTable$ParFlatHashTableIterator; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParFlatHashTable<TT;>.ParFlatHashTableIterator;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParFlatHashTable<T>.ParFlatHashTableIterator)

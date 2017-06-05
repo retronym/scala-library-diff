@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TT;>;Lscala/collection/mutable/Seq<TT;>;Lscala/collection/mutable/SeqLike<TT;Lscala/collection/mutable/ArrayStack<TT;>;>;Lscala/collection/generic/GenericTraversableTemplate<TT;Lscala/collection/mutable/ArrayStack;>;Lscala/collection/mutable/Cloneable<Lscala/collection/mutable/ArrayStack<TT;>;>;Lscala/collection/mutable/Builder<TT;Lscala/collection/mutable/ArrayStack<TT;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/ArrayStack<T> extends scala.collection.mutable.AbstractSeq<T> implements scala.collection.mutable.Seq<T>, scala.collection.mutable.SeqLike<T, scala.collection.mutable.ArrayStack<T>>, scala.collection.generic.GenericTraversableTemplate<T, scala.collection.mutable.ArrayStack>, scala.collection.mutable.Cloneable<scala.collection.mutable.ArrayStack<T>>, scala.collection.mutable.Builder<T, scala.collection.mutable.ArrayStack<T>>, scala.Serializable
+// signature <T:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TT;>;Lscala/collection/mutable/Builder<TT;Lscala/collection/mutable/ArrayStack<TT;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/ArrayStack<T> extends scala.collection.mutable.AbstractSeq<T> implements scala.collection.mutable.Builder<T, scala.collection.mutable.ArrayStack<T>>, scala.Serializable
 public class scala/collection/mutable/ArrayStack extends scala/collection/mutable/AbstractSeq  implements scala/collection/mutable/Builder scala/Serializable  {
 
   // access flags 0x11

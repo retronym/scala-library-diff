@@ -13,6 +13,9 @@ public final class scala/collection/immutable/RedBlackTree$$anonfun$1 extends sc
   // access flags 0x12
   private final Z leftMost$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Z)V
     ALOAD 0

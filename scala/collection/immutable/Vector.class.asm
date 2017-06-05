@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/IndexedSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/Vector;>;Lscala/collection/IndexedSeqLike<TA;Lscala/collection/immutable/Vector<TA;>;>;Lscala/collection/immutable/VectorPointer<TA;>;Lscala/Serializable;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/immutable/ParVector<TA;>;>;
-// declaration: scala/collection/immutable/Vector<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.IndexedSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.Vector>, scala.collection.IndexedSeqLike<A, scala.collection.immutable.Vector<A>>, scala.collection.immutable.VectorPointer<A>, scala.Serializable, scala.collection.CustomParallelizable<A, scala.collection.parallel.immutable.ParVector<A>>
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/IndexedSeq<TA;>;Lscala/collection/immutable/VectorPointer<TA;>;Lscala/Serializable;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/immutable/ParVector<TA;>;>;
+// declaration: scala/collection/immutable/Vector<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.IndexedSeq<A>, scala.collection.immutable.VectorPointer<A>, scala.Serializable, scala.collection.CustomParallelizable<A, scala.collection.parallel.immutable.ParVector<A>>
 public final class scala/collection/immutable/Vector extends scala/collection/AbstractSeq  implements scala/collection/immutable/IndexedSeq scala/collection/immutable/VectorPointer scala/Serializable scala/collection/CustomParallelizable  {
 
   // access flags 0x11

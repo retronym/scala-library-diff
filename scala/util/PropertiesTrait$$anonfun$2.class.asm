@@ -8,6 +8,9 @@ public final class scala/util/PropertiesTrait$$anonfun$2 extends scala/runtime/A
   // access flags 0x11
   public final INNERCLASS scala/util/PropertiesTrait$$anonfun$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/util/PropertiesTrait;)V
     ALOAD 0

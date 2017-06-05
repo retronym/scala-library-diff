@@ -13,6 +13,9 @@ public final class scala/collection/mutable/HashMap$$anon$2$$anonfun$foreach$3 e
   // access flags 0x12
   private final Lscala/Function1; f$3
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/HashMap<TA;TB;>.$anon$2;)V
   // declaration: void <init>(scala.collection.mutable.HashMap<A, B>.$anon$2)

@@ -15,6 +15,9 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anonfun
   // access flags 0x12
   private final Lscala/runtime/IntRef; leftinserts$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   // signature Lscala/collection/parallel/mutable/ParHashSetCombiner$AddingFlatHashTable;
   // declaration: scala.collection.parallel.mutable.ParHashSetCombiner$AddingFlatHashTable

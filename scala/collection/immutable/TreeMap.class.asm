@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/SortedMap<TA;TB;>;Lscala/collection/SortedMapLike<TA;TB;Lscala/collection/immutable/TreeMap<TA;TB;>;>;Lscala/collection/immutable/MapLike<TA;TB;Lscala/collection/immutable/TreeMap<TA;TB;>;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/TreeMap<A, B> implements scala.collection.immutable.SortedMap<A, B>, scala.collection.SortedMapLike<A, B, scala.collection.immutable.TreeMap<A, B>>, scala.collection.immutable.MapLike<A, B, scala.collection.immutable.TreeMap<A, B>>, scala.Serializable
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/SortedMap<TA;TB;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/TreeMap<A, B> implements scala.collection.immutable.SortedMap<A, B>, scala.Serializable
 public class scala/collection/immutable/TreeMap implements scala/collection/immutable/SortedMap scala/Serializable  {
 
   // access flags 0x409
@@ -954,11 +954,14 @@ public class scala/collection/immutable/TreeMap implements scala/collection/immu
     ALOAD 0
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/TreeMap.size ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     INVOKEVIRTUAL scala/collection/immutable/TreeMap.take (I)Lscala/collection/immutable/TreeMap;
     ARETURN
-    MAXSTACK = 3
+    MAXSTACK = 5
     MAXLOCALS = 2
 
   // access flags 0x1041
@@ -2465,11 +2468,14 @@ public class scala/collection/immutable/TreeMap implements scala/collection/immu
     ALOAD 0
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/TreeMap.size ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     INVOKEVIRTUAL scala/collection/immutable/TreeMap.drop (I)Lscala/collection/immutable/TreeMap;
     ARETURN
-    MAXSTACK = 3
+    MAXSTACK = 5
     MAXLOCALS = 2
 
   // access flags 0x1041

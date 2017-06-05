@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TK;TV;>;Lscala/collection/mutable/Map<TK;TV;>;Lscala/collection/mutable/MapLike<TK;TV;Lscala/collection/mutable/AnyRefMap<TK;TV;>;>;
-// declaration: scala/collection/mutable/AnyRefMap<K, V> extends scala.collection.mutable.AbstractMap<K, V> implements scala.collection.mutable.Map<K, V>, scala.collection.mutable.MapLike<K, V, scala.collection.mutable.AnyRefMap<K, V>>
+// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TK;TV;>;
+// declaration: scala/collection/mutable/AnyRefMap<K, V> extends scala.collection.mutable.AbstractMap<K, V>
 public final class scala/collection/mutable/AnyRefMap extends scala/collection/mutable/AbstractMap  {
 
   // access flags 0x11

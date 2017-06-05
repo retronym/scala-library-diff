@@ -8,6 +8,9 @@ public final class scala/collection/mutable/HashMap$$anonfun$iterator$1 extends 
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/HashMap$$anonfun$iterator$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/HashMap<TA;TB;>;)V
   // declaration: void <init>(scala.collection.mutable.HashMap<A, B>)

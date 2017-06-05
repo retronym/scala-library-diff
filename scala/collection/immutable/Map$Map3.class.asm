@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/immutable/AbstractMap<TA;TB;>;Lscala/collection/immutable/Map<TA;TB;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/Map$Map3<A, B> extends scala.collection.immutable.AbstractMap<A, B> implements scala.collection.immutable.Map<A, B>, scala.Serializable
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/immutable/AbstractMap<TA;TB;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/Map$Map3<A, B> extends scala.collection.immutable.AbstractMap<A, B> implements scala.Serializable
 public class scala/collection/immutable/Map$Map3 extends scala/collection/immutable/AbstractMap  implements scala/Serializable  {
 
   // access flags 0x9

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParMap<TK;TV;>;Lscala/collection/generic/GenericParMapTemplate<TK;TV;Lscala/collection/parallel/mutable/ParHashMap;>;Lscala/collection/parallel/mutable/ParMapLike<TK;TV;Lscala/collection/parallel/mutable/ParHashMap<TK;TV;>;Lscala/collection/mutable/HashMap<TK;TV;>;>;Lscala/collection/parallel/mutable/ParHashTable<TK;Lscala/collection/mutable/DefaultEntry<TK;TV;>;>;Lscala/Serializable;
-// declaration: scala/collection/parallel/mutable/ParHashMap<K, V> implements scala.collection.parallel.mutable.ParMap<K, V>, scala.collection.generic.GenericParMapTemplate<K, V, scala.collection.parallel.mutable.ParHashMap>, scala.collection.parallel.mutable.ParMapLike<K, V, scala.collection.parallel.mutable.ParHashMap<K, V>, scala.collection.mutable.HashMap<K, V>>, scala.collection.parallel.mutable.ParHashTable<K, scala.collection.mutable.DefaultEntry<K, V>>, scala.Serializable
+// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParMap<TK;TV;>;Lscala/collection/parallel/mutable/ParHashTable<TK;Lscala/collection/mutable/DefaultEntry<TK;TV;>;>;Lscala/Serializable;
+// declaration: scala/collection/parallel/mutable/ParHashMap<K, V> implements scala.collection.parallel.mutable.ParMap<K, V>, scala.collection.parallel.mutable.ParHashTable<K, scala.collection.mutable.DefaultEntry<K, V>>, scala.Serializable
 public class scala/collection/parallel/mutable/ParHashMap implements scala/collection/parallel/mutable/ParMap scala/collection/parallel/mutable/ParHashTable scala/Serializable  {
 
   // access flags 0x9

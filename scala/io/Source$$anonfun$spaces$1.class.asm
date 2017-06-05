@@ -6,6 +6,9 @@ public final class scala/io/Source$$anonfun$spaces$1 extends scala/runtime/Abstr
   // access flags 0x11
   public final INNERCLASS scala/io/Source$$anonfun$spaces$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/io/Source;)V
     ALOAD 0

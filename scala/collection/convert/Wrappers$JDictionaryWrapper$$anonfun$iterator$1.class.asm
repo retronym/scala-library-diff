@@ -13,6 +13,9 @@ public final class scala/collection/convert/Wrappers$JDictionaryWrapper$$anonfun
   // access flags 0x1012
   private final synthetic Lscala/collection/convert/Wrappers$JDictionaryWrapper; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/convert/Wrappers$JDictionaryWrapper<TA;TB;>;)V
   // declaration: void <init>(scala.collection.convert.Wrappers$JDictionaryWrapper<A, B>)

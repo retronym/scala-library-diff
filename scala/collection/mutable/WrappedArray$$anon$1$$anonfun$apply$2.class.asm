@@ -10,6 +10,9 @@ public final class scala/collection/mutable/WrappedArray$$anon$1$$anonfun$apply$
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/WrappedArray$$anon$1$$anonfun$apply$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/mutable/WrappedArray$$anon$1;)V
     ALOAD 0

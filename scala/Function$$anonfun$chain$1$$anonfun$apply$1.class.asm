@@ -10,6 +10,9 @@ public final class scala/Function$$anonfun$chain$1$$anonfun$apply$1 extends scal
   // access flags 0x11
   public final INNERCLASS scala/Function$$anonfun$chain$1$$anonfun$apply$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Function$$anonfun$chain$1;)V
     ALOAD 0

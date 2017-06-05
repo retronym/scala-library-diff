@@ -11,6 +11,9 @@ public final class scala/collection/immutable/Stream$$anonfun$flatten$1 extends 
   // access flags 0x12
   private final Lscala/Function1; asTraversable$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; st$1
 

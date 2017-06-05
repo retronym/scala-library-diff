@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;Repr::Lscala/collection/mutable/MapLike<TA;TB;TRepr;>;:Lscala/collection/mutable/Map<TA;TB;>;>Ljava/lang/Object;Lscala/collection/mutable/Map<TA;TB;>;Lscala/collection/mutable/MapLike<TA;TB;TRepr;>;
-// declaration: scala/collection/convert/Wrappers$JMapWrapperLike<A, B, Repr extends scala.collection.mutable.MapLike<A, B, Repr>, scala.collection.mutable.Map<A, B>> extends scala.collection.mutable.Map<A, B>, scala.collection.mutable.MapLike<A, B, Repr>
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;Repr::Lscala/collection/mutable/MapLike<TA;TB;TRepr;>;:Lscala/collection/mutable/Map<TA;TB;>;>Ljava/lang/Object;Lscala/collection/mutable/Map<TA;TB;>;
+// declaration: scala/collection/convert/Wrappers$JMapWrapperLike<A, B, Repr extends scala.collection.mutable.MapLike<A, B, Repr>, scala.collection.mutable.Map<A, B>> extends scala.collection.mutable.Map<A, B>
 public abstract interface scala/collection/convert/Wrappers$JMapWrapperLike implements scala/collection/mutable/Map  {
 
   // access flags 0x601

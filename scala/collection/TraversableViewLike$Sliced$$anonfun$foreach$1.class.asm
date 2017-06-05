@@ -22,6 +22,9 @@ public final class scala/collection/TraversableViewLike$Sliced$$anonfun$foreach$
   // access flags 0x12
   private final Ljava/lang/Object; nonLocalReturnKey2$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.Sliced;)V
   // declaration: void <init>(scala.collection.TraversableViewLike<A, Coll, This>.Sliced)

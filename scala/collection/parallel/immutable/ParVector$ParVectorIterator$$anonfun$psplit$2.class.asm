@@ -10,6 +10,9 @@ public final class scala/collection/parallel/immutable/ParVector$ParVectorIterat
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/immutable/ParVector$ParVectorIterator$$anonfun$psplit$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/immutable/ParVector<TT;>.ParVectorIterator;)V
   // declaration: void <init>(scala.collection.parallel.immutable.ParVector<T>.ParVectorIterator)

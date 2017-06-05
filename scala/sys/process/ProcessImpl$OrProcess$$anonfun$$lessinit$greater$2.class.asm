@@ -8,6 +8,9 @@ public final class scala/sys/process/ProcessImpl$OrProcess$$anonfun$$lessinit$gr
   // access flags 0x11
   public final INNERCLASS scala/sys/process/ProcessImpl$OrProcess$$anonfun$$lessinit$greater$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/Process$;)V
     ALOAD 0

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <V:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<Ljava/lang/Object;TV;>;Lscala/collection/mutable/Map<Ljava/lang/Object;TV;>;Lscala/collection/mutable/MapLike<Ljava/lang/Object;TV;Lscala/collection/mutable/LongMap<TV;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/LongMap<V> extends scala.collection.mutable.AbstractMap<java.lang.Object, V> implements scala.collection.mutable.Map<java.lang.Object, V>, scala.collection.mutable.MapLike<java.lang.Object, V, scala.collection.mutable.LongMap<V>>, scala.Serializable
+// signature <V:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<Ljava/lang/Object;TV;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/LongMap<V> extends scala.collection.mutable.AbstractMap<java.lang.Object, V> implements scala.Serializable
 public final class scala/collection/mutable/LongMap extends scala/collection/mutable/AbstractMap  implements scala/Serializable  {
 
   // access flags 0x11

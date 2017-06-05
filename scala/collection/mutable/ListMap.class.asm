@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/collection/mutable/Map<TA;TB;>;Lscala/collection/mutable/MapLike<TA;TB;Lscala/collection/mutable/ListMap<TA;TB;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/ListMap<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.collection.mutable.Map<A, B>, scala.collection.mutable.MapLike<A, B, scala.collection.mutable.ListMap<A, B>>, scala.Serializable
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/ListMap<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.Serializable
 public class scala/collection/mutable/ListMap extends scala/collection/mutable/AbstractMap  implements scala/Serializable  {
 
   // access flags 0x11

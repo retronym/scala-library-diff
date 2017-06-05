@@ -595,16 +595,19 @@ public abstract class scala/collection/LinearSeqOptimized$class {
     CHECKCAST scala/collection/LinearSeq
     ASTORE 2
     ALOAD 0
+    ALOAD 2
+    IF_ACMPEQ L1
+    ALOAD 0
     ASTORE 5
     ALOAD 2
     ASTORE 6
-   L1
+   L2
     ALOAD 5
     INVOKEINTERFACE scala/collection/LinearSeqOptimized.isEmpty ()Z
-    IFNE L2
+    IFNE L3
     ALOAD 6
     INVOKEINTERFACE scala/collection/LinearSeq.isEmpty ()Z
-    IFNE L2
+    IFNE L3
     ALOAD 5
     INVOKEINTERFACE scala/collection/LinearSeqOptimized.head ()Ljava/lang/Object;
     ALOAD 6
@@ -613,38 +616,38 @@ public abstract class scala/collection/LinearSeqOptimized$class {
     DUP
     ASTORE 3
     ALOAD 4
-    IF_ACMPNE L3
+    IF_ACMPNE L4
     ICONST_1
-    GOTO L4
-   L3
+    GOTO L5
+   L4
     ALOAD 3
-    IFNONNULL L5
+    IFNONNULL L6
     ICONST_0
-    GOTO L4
-   L5
+    GOTO L5
+   L6
     ALOAD 3
     INSTANCEOF java/lang/Number
-    IFEQ L6
+    IFEQ L7
     ALOAD 3
     CHECKCAST java/lang/Number
     ALOAD 4
     INVOKESTATIC scala/runtime/BoxesRunTime.equalsNumObject (Ljava/lang/Number;Ljava/lang/Object;)Z
-    GOTO L4
-   L6
+    GOTO L5
+   L7
     ALOAD 3
     INSTANCEOF java/lang/Character
-    IFEQ L7
+    IFEQ L8
     ALOAD 3
     CHECKCAST java/lang/Character
     ALOAD 4
     INVOKESTATIC scala/runtime/BoxesRunTime.equalsCharObject (Ljava/lang/Character;Ljava/lang/Object;)Z
-    GOTO L4
-   L7
+    GOTO L5
+   L8
     ALOAD 3
     ALOAD 4
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-   L4
-    IFEQ L2
+   L5
+    IFEQ L3
     ALOAD 5
     INVOKEINTERFACE scala/collection/LinearSeqOptimized.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/LinearSeqOptimized
@@ -653,27 +656,34 @@ public abstract class scala/collection/LinearSeqOptimized$class {
     INVOKEINTERFACE scala/collection/LinearSeq.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/LinearSeq
     ASTORE 6
-    GOTO L1
-   L2
+    GOTO L2
+   L3
     ALOAD 5
     INVOKEINTERFACE scala/collection/LinearSeqOptimized.isEmpty ()Z
-    IFEQ L8
+    IFEQ L9
     ALOAD 6
     INVOKEINTERFACE scala/collection/LinearSeq.isEmpty ()Z
-    IFEQ L8
+    IFEQ L9
     ICONST_1
-    GOTO L9
-   L8
-    ICONST_0
-   L9
-    ISTORE 7
     GOTO L10
+   L9
+    ICONST_0
+   L10
+    IFEQ L11
+   L1
+    ICONST_1
+    GOTO L12
+   L11
+    ICONST_0
+   L12
+    ISTORE 7
+    GOTO L13
    L0
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/LinearSeqOptimized.scala$collection$LinearSeqOptimized$$super$sameElements (Lscala/collection/GenIterable;)Z
     ISTORE 7
-   L10
+   L13
     ILOAD 7
     IRETURN
     MAXSTACK = 2

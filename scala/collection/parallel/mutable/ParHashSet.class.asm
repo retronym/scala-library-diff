@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParSet<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/mutable/ParHashSet;>;Lscala/collection/parallel/mutable/ParSetLike<TT;Lscala/collection/parallel/mutable/ParHashSet<TT;>;Lscala/collection/mutable/HashSet<TT;>;>;Lscala/collection/parallel/mutable/ParFlatHashTable<TT;>;Lscala/Serializable;
-// declaration: scala/collection/parallel/mutable/ParHashSet<T> implements scala.collection.parallel.mutable.ParSet<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.mutable.ParHashSet>, scala.collection.parallel.mutable.ParSetLike<T, scala.collection.parallel.mutable.ParHashSet<T>, scala.collection.mutable.HashSet<T>>, scala.collection.parallel.mutable.ParFlatHashTable<T>, scala.Serializable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParSet<TT;>;Lscala/collection/parallel/mutable/ParFlatHashTable<TT;>;Lscala/Serializable;
+// declaration: scala/collection/parallel/mutable/ParHashSet<T> implements scala.collection.parallel.mutable.ParSet<T>, scala.collection.parallel.mutable.ParFlatHashTable<T>, scala.Serializable
 public class scala/collection/parallel/mutable/ParHashSet implements scala/collection/parallel/mutable/ParSet scala/collection/parallel/mutable/ParFlatHashTable scala/Serializable  {
 
   // access flags 0x9

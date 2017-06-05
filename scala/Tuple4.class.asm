@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T1:Ljava/lang/Object;T2:Ljava/lang/Object;T3:Ljava/lang/Object;T4:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Product4<TT1;TT2;TT3;TT4;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/Tuple4<T1, T2, T3, T4> implements scala.Product4<T1, T2, T3, T4>, scala.Product, scala.Serializable
+// signature <T1:Ljava/lang/Object;T2:Ljava/lang/Object;T3:Ljava/lang/Object;T4:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Product4<TT1;TT2;TT3;TT4;>;Lscala/Serializable;
+// declaration: scala/Tuple4<T1, T2, T3, T4> implements scala.Product4<T1, T2, T3, T4>, scala.Serializable
 public class scala/Tuple4 implements scala/Product4 scala/Serializable  {
 
 

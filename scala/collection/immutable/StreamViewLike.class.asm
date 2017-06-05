@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/immutable/StreamView<TA;TColl;>;:Lscala/collection/immutable/StreamViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/SeqView<TA;TColl;>;Lscala/collection/SeqViewLike<TA;TColl;TThis;>;
-// declaration: scala/collection/immutable/StreamViewLike<A, Coll, This extends scala.collection.immutable.StreamView<A, Coll>, scala.collection.immutable.StreamViewLike<A, Coll, This>> extends scala.collection.SeqView<A, Coll>, scala.collection.SeqViewLike<A, Coll, This>
+// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/immutable/StreamView<TA;TColl;>;:Lscala/collection/immutable/StreamViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/SeqView<TA;TColl;>;
+// declaration: scala/collection/immutable/StreamViewLike<A, Coll, This extends scala.collection.immutable.StreamView<A, Coll>, scala.collection.immutable.StreamViewLike<A, Coll, This>> extends scala.collection.SeqView<A, Coll>
 public abstract interface scala/collection/immutable/StreamViewLike implements scala/collection/SeqView  {
 
   // access flags 0x601

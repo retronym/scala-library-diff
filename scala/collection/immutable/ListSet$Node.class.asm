@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/immutable/ListSet<TA;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/ListSet$Node extends scala.collection.immutable.ListSet<A> implements scala.Serializable
+// signature Lscala/collection/immutable/ListSet<TA;>;
+// declaration: scala/collection/immutable/ListSet$Node extends scala.collection.immutable.ListSet<A>
 public class scala/collection/immutable/ListSet$Node extends scala/collection/immutable/ListSet  {
 
   // access flags 0x1

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;This::Lscala/collection/mutable/SeqLike<TA;TThis;>;:Lscala/collection/mutable/Seq<TA;>;>Ljava/lang/Object;Lscala/collection/SeqLike<TA;TThis;>;Lscala/collection/mutable/Cloneable<TThis;>;Lscala/collection/Parallelizable<TA;Lscala/collection/parallel/mutable/ParSeq<TA;>;>;
-// declaration: scala/collection/mutable/SeqLike<A, This extends scala.collection.mutable.SeqLike<A, This>, scala.collection.mutable.Seq<A>> extends scala.collection.SeqLike<A, This>, scala.collection.mutable.Cloneable<This>, scala.collection.Parallelizable<A, scala.collection.parallel.mutable.ParSeq<A>>
+// signature <A:Ljava/lang/Object;This::Lscala/collection/mutable/SeqLike<TA;TThis;>;:Lscala/collection/mutable/Seq<TA;>;>Ljava/lang/Object;Lscala/collection/SeqLike<TA;TThis;>;Lscala/collection/mutable/Cloneable<TThis;>;
+// declaration: scala/collection/mutable/SeqLike<A, This extends scala.collection.mutable.SeqLike<A, This>, scala.collection.mutable.Seq<A>> extends scala.collection.SeqLike<A, This>, scala.collection.mutable.Cloneable<This>
 public abstract interface scala/collection/mutable/SeqLike implements scala/collection/SeqLike scala/collection/mutable/Cloneable  {
 
   // access flags 0x11

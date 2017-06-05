@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Ljava/lang/Object;Lscala/collection/mutable/AVLTree<Lscala/runtime/Nothing$;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/mutable/Leaf$ implements scala.collection.mutable.AVLTree<scala.runtime.Nothing$>, scala.Product, scala.Serializable
+// signature Ljava/lang/Object;Lscala/collection/mutable/AVLTree<Lscala/runtime/Nothing$;>;Lscala/Product;
+// declaration: scala/collection/mutable/Leaf$ implements scala.collection.mutable.AVLTree<scala.runtime.Nothing$>, scala.Product
 public final class scala/collection/mutable/Leaf$ implements scala/collection/mutable/AVLTree scala/Product  {
 
 

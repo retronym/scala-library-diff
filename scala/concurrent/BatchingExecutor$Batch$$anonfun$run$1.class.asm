@@ -14,6 +14,9 @@ public final class scala/concurrent/BatchingExecutor$Batch$$anonfun$run$1 extend
   // access flags 0x12
   private final Lscala/concurrent/BlockContext; prevBlockContext$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/concurrent/BatchingExecutor$Batch;Lscala/concurrent/BlockContext;)V
     ALOAD 1

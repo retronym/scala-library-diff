@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/immutable/AbstractMap<Ljava/lang/Object;Lscala/runtime/Nothing$;>;Lscala/collection/immutable/Map<Ljava/lang/Object;Lscala/runtime/Nothing$;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/Map$EmptyMap$ extends scala.collection.immutable.AbstractMap<java.lang.Object, scala.runtime.Nothing$> implements scala.collection.immutable.Map<java.lang.Object, scala.runtime.Nothing$>, scala.Serializable
+// signature Lscala/collection/immutable/AbstractMap<Ljava/lang/Object;Lscala/runtime/Nothing$;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/Map$EmptyMap$ extends scala.collection.immutable.AbstractMap<java.lang.Object, scala.runtime.Nothing$> implements scala.Serializable
 public class scala/collection/immutable/Map$EmptyMap$ extends scala/collection/immutable/AbstractMap  implements scala/Serializable  {
 
   // access flags 0x9

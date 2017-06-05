@@ -8,6 +8,9 @@ public final class scala/App$$anonfun$main$1 extends scala/runtime/AbstractFunct
   // access flags 0x11
   public final INNERCLASS scala/App$$anonfun$main$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/App;)V
     ALOAD 0

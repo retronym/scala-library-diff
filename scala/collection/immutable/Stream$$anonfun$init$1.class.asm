@@ -11,6 +11,9 @@ public final class scala/collection/immutable/Stream$$anonfun$init$1 extends sca
   // access flags 0x1012
   private final synthetic Lscala/collection/immutable/Stream; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/Stream<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.Stream<A>)

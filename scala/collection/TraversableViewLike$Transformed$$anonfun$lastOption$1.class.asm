@@ -16,6 +16,9 @@ public final class scala/collection/TraversableViewLike$Transformed$$anonfun$las
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; result$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.Transformed<TB;>;)V
   // declaration: void <init>(scala.collection.TraversableViewLike<A, Coll, This>.Transformed<B>)

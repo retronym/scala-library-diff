@@ -8,6 +8,9 @@ public final class scala/collection/mutable/ArrayStack$$anonfun$1 extends scala/
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>()V
     ALOAD 0

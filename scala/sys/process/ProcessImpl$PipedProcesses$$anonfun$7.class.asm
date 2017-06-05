@@ -16,6 +16,9 @@ public final class scala/sys/process/ProcessImpl$PipedProcesses$$anonfun$7 exten
   // access flags 0x12
   private final Lscala/concurrent/SyncVar; currentSource$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessImpl$PipedProcesses;Lscala/concurrent/SyncVar;)V
     ALOAD 1

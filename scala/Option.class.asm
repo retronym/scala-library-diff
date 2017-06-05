@@ -11,6 +11,9 @@ public abstract class scala/Option implements scala/Product scala/Serializable  
   // access flags 0x11
   public final INNERCLASS scala/Option$$anonfun$orNull$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = -114498752079829388
+
   // access flags 0x1
   // signature ()V
   // declaration: void <init>()

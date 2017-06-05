@@ -13,6 +13,9 @@ public final class scala/collection/immutable/LongMap$$anonfun$unionWith$1 exten
   // access flags 0x12
   private final Lscala/Function3; f$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/collection/immutable/LongMap$Tip; x6$1
 

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/reflect/Manifest<TT;>;Lscala/Equals;
-// declaration: scala/reflect/AnyValManifest<T> implements scala.reflect.Manifest<T>, scala.Equals
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/reflect/Manifest<TT;>;
+// declaration: scala/reflect/AnyValManifest<T> implements scala.reflect.Manifest<T>
 public abstract class scala/reflect/AnyValManifest implements scala/reflect/Manifest  {
 
 

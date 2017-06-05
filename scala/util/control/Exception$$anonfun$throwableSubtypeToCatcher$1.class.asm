@@ -11,6 +11,9 @@ public final class scala/util/control/Exception$$anonfun$throwableSubtypeToCatch
   // access flags 0x12
   private final Lscala/PartialFunction; pf$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/PartialFunction;)V
     ALOAD 0

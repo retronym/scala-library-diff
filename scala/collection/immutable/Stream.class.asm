@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/Stream;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/immutable/Stream<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/Stream<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.Stream>, scala.collection.LinearSeqOptimized<A, scala.collection.immutable.Stream<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/immutable/Stream<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/Stream<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.collection.LinearSeqOptimized<A, scala.collection.immutable.Stream<A>>, scala.Serializable
 public abstract class scala/collection/immutable/Stream extends scala/collection/AbstractSeq  implements scala/collection/immutable/LinearSeq scala/collection/LinearSeqOptimized scala/Serializable  {
 
   // access flags 0x9

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenSeq<TT;>;Lscala/collection/parallel/mutable/ParIterable<TT;>;Lscala/collection/parallel/ParSeq<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/mutable/ParSeq;>;Lscala/collection/parallel/ParSeqLike<TT;Lscala/collection/parallel/mutable/ParSeq<TT;>;Lscala/collection/mutable/Seq<TT;>;>;
-// declaration: scala/collection/parallel/mutable/ParSeq<T> extends scala.collection.GenSeq<T>, scala.collection.parallel.mutable.ParIterable<T>, scala.collection.parallel.ParSeq<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.mutable.ParSeq>, scala.collection.parallel.ParSeqLike<T, scala.collection.parallel.mutable.ParSeq<T>, scala.collection.mutable.Seq<T>>
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParIterable<TT;>;Lscala/collection/parallel/ParSeq<TT;>;
+// declaration: scala/collection/parallel/mutable/ParSeq<T> extends scala.collection.parallel.mutable.ParIterable<T>, scala.collection.parallel.ParSeq<T>
 public abstract interface scala/collection/parallel/mutable/ParSeq implements scala/collection/parallel/mutable/ParIterable scala/collection/parallel/ParSeq  {
 
 

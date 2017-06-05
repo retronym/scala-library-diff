@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Lscala/collection/immutable/List<Lscala/runtime/Nothing$;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/immutable/Nil$ extends scala.collection.immutable.List<scala.runtime.Nothing$> implements scala.Product, scala.Serializable
+// signature Lscala/collection/immutable/List<Lscala/runtime/Nothing$;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/Nil$ extends scala.collection.immutable.List<scala.runtime.Nothing$> implements scala.Serializable
 public final class scala/collection/immutable/Nil$ extends scala/collection/immutable/List  implements scala/Serializable  {
 
 

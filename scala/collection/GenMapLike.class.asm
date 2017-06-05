@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;Repr:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenIterableLike<Lscala/Tuple2<TA;TB;>;TRepr;>;Lscala/Equals;Lscala/collection/Parallelizable<Lscala/Tuple2<TA;TB;>;Lscala/collection/parallel/ParMap<TA;TB;>;>;
-// declaration: scala/collection/GenMapLike<A, B, Repr> extends scala.collection.GenIterableLike<scala.Tuple2<A, B>, Repr>, scala.Equals, scala.collection.Parallelizable<scala.Tuple2<A, B>, scala.collection.parallel.ParMap<A, B>>
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;Repr:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenIterableLike<Lscala/Tuple2<TA;TB;>;TRepr;>;Lscala/Equals;
+// declaration: scala/collection/GenMapLike<A, B, Repr> extends scala.collection.GenIterableLike<scala.Tuple2<A, B>, Repr>, scala.Equals
 public abstract interface scala/collection/GenMapLike implements scala/collection/GenIterableLike scala/Equals  {
 
   // access flags 0x11

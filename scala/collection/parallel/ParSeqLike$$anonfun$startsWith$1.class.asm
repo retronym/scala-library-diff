@@ -12,6 +12,9 @@ public final class scala/collection/parallel/ParSeqLike$$anonfun$startsWith$1 ex
   // access flags 0x12
   private final I offset$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/collection/GenSeq; that$2
 

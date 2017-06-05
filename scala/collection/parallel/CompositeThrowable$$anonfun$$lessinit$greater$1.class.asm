@@ -10,6 +10,9 @@ public final class scala/collection/parallel/CompositeThrowable$$anonfun$$lessin
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/CompositeThrowable$$anonfun$$lessinit$greater$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>()V
     ALOAD 0

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParMap<TK;TV;>;Lscala/collection/generic/GenericParMapTemplate<TK;TV;Lscala/collection/parallel/mutable/ParTrieMap;>;Lscala/collection/parallel/mutable/ParMapLike<TK;TV;Lscala/collection/parallel/mutable/ParTrieMap<TK;TV;>;Lscala/collection/concurrent/TrieMap<TK;TV;>;>;Lscala/collection/parallel/mutable/ParTrieMapCombiner<TK;TV;>;Lscala/Serializable;
-// declaration: scala/collection/parallel/mutable/ParTrieMap<K, V> implements scala.collection.parallel.mutable.ParMap<K, V>, scala.collection.generic.GenericParMapTemplate<K, V, scala.collection.parallel.mutable.ParTrieMap>, scala.collection.parallel.mutable.ParMapLike<K, V, scala.collection.parallel.mutable.ParTrieMap<K, V>, scala.collection.concurrent.TrieMap<K, V>>, scala.collection.parallel.mutable.ParTrieMapCombiner<K, V>, scala.Serializable
+// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParMap<TK;TV;>;Lscala/collection/parallel/mutable/ParTrieMapCombiner<TK;TV;>;Lscala/Serializable;
+// declaration: scala/collection/parallel/mutable/ParTrieMap<K, V> implements scala.collection.parallel.mutable.ParMap<K, V>, scala.collection.parallel.mutable.ParTrieMapCombiner<K, V>, scala.Serializable
 public final class scala/collection/parallel/mutable/ParTrieMap implements scala/collection/parallel/mutable/ParMap scala/collection/parallel/mutable/ParTrieMapCombiner scala/Serializable  {
 
   // access flags 0x1

@@ -25,6 +25,9 @@ public abstract class scala/collection/mutable/IndexedSeqView$Sliced$class {
   // access flags 0x9
   public static update(Lscala/collection/mutable/IndexedSeqView$Sliced;ILjava/lang/Object;)V
     ILOAD 1
+    ICONST_0
+    IF_ICMPLT L0
+    ILOAD 1
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/IndexedSeqView$Sliced.from ()I
     IADD

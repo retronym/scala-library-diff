@@ -13,6 +13,9 @@ public final class scala/collection/SortedMapLike$$anon$2$$anonfun$iteratorFrom$
   // access flags 0x1012
   private final synthetic Lscala/collection/SortedMapLike$$anon$2; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/SortedMapLike<TA;TB;TThis;>.$anon$2;)V
   // declaration: void <init>(scala.collection.SortedMapLike<A, B, This>.$anon$2)

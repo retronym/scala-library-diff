@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <R:Ljava/lang/Object;Tp:Ljava/lang/Object;>Lscala/concurrent/forkjoin/RecursiveAction;Lscala/collection/parallel/ForkJoinTasks$WrappedTask<TR;TTp;>;Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask<TR;TTp;>;
-// declaration: scala/collection/parallel/AdaptiveWorkStealingForkJoinTasks$WrappedTask<R, Tp> extends scala.concurrent.forkjoin.RecursiveAction implements scala.collection.parallel.ForkJoinTasks$WrappedTask<R, Tp>, scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask<R, Tp>
+// signature <R:Ljava/lang/Object;Tp:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/ForkJoinTasks$WrappedTask<TR;TTp;>;Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask<TR;TTp;>;
+// declaration: scala/collection/parallel/AdaptiveWorkStealingForkJoinTasks$WrappedTask<R, Tp> implements scala.collection.parallel.ForkJoinTasks$WrappedTask<R, Tp>, scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask<R, Tp>
 public class scala/collection/parallel/AdaptiveWorkStealingForkJoinTasks$WrappedTask extends scala/concurrent/forkjoin/RecursiveAction  implements scala/collection/parallel/ForkJoinTasks$WrappedTask scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask  {
 
   // access flags 0x601

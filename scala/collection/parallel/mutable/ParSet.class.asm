@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenSet<TT;>;Lscala/collection/parallel/mutable/ParIterable<TT;>;Lscala/collection/parallel/ParSet<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/mutable/ParSet;>;Lscala/collection/parallel/mutable/ParSetLike<TT;Lscala/collection/parallel/mutable/ParSet<TT;>;Lscala/collection/mutable/Set<TT;>;>;
-// declaration: scala/collection/parallel/mutable/ParSet<T> extends scala.collection.GenSet<T>, scala.collection.parallel.mutable.ParIterable<T>, scala.collection.parallel.ParSet<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.mutable.ParSet>, scala.collection.parallel.mutable.ParSetLike<T, scala.collection.parallel.mutable.ParSet<T>, scala.collection.mutable.Set<T>>
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/mutable/ParIterable<TT;>;Lscala/collection/parallel/ParSet<TT;>;Lscala/collection/parallel/mutable/ParSetLike<TT;Lscala/collection/parallel/mutable/ParSet<TT;>;Lscala/collection/mutable/Set<TT;>;>;
+// declaration: scala/collection/parallel/mutable/ParSet<T> extends scala.collection.parallel.mutable.ParIterable<T>, scala.collection.parallel.ParSet<T>, scala.collection.parallel.mutable.ParSetLike<T, scala.collection.parallel.mutable.ParSet<T>, scala.collection.mutable.Set<T>>
 public abstract interface scala/collection/parallel/mutable/ParSet implements scala/collection/parallel/mutable/ParIterable scala/collection/parallel/ParSet scala/collection/parallel/mutable/ParSetLike  {
 
 

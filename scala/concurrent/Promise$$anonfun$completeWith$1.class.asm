@@ -11,6 +11,9 @@ public final class scala/concurrent/Promise$$anonfun$completeWith$1 extends scal
   // access flags 0x1012
   private final synthetic Lscala/concurrent/Promise; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/concurrent/Promise<TT;>;)V
   // declaration: void <init>(scala.concurrent.Promise<T>)

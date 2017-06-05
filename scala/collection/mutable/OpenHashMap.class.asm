@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <Key:Ljava/lang/Object;Value:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TKey;TValue;>;Lscala/collection/mutable/Map<TKey;TValue;>;Lscala/collection/mutable/MapLike<TKey;TValue;Lscala/collection/mutable/OpenHashMap<TKey;TValue;>;>;
-// declaration: scala/collection/mutable/OpenHashMap<Key, Value> extends scala.collection.mutable.AbstractMap<Key, Value> implements scala.collection.mutable.Map<Key, Value>, scala.collection.mutable.MapLike<Key, Value, scala.collection.mutable.OpenHashMap<Key, Value>>
+// signature <Key:Ljava/lang/Object;Value:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TKey;TValue;>;
+// declaration: scala/collection/mutable/OpenHashMap<Key, Value> extends scala.collection.mutable.AbstractMap<Key, Value>
 public class scala/collection/mutable/OpenHashMap extends scala/collection/mutable/AbstractMap  {
 
   // access flags 0x11

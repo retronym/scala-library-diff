@@ -9,6 +9,9 @@ public final class scala/math/BigDecimal$$anonfun$isValidInt$1 extends scala/run
   // access flags 0x1011
   public final synthetic Lscala/math/BigDecimal; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/math/BigDecimal;)V
     ALOAD 1

@@ -15,6 +15,9 @@ public final class scala/concurrent/Future$$anonfun$zip$1$$anonfun$apply$7$$anon
   // access flags 0x1012
   private final synthetic Lscala/concurrent/Future$$anonfun$zip$1$$anonfun$apply$7; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/concurrent/Future<TT;>.$anonfun$zip$1$$anonfun$apply$7;)V
   // declaration: void <init>(scala.concurrent.Future<T>.$anonfun$zip$1$$anonfun$apply$7)

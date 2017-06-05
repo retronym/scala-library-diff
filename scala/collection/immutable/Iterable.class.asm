@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Traversable<TA;>;Lscala/collection/Iterable<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/Iterable;>;Lscala/collection/IterableLike<TA;Lscala/collection/immutable/Iterable<TA;>;>;Lscala/collection/Parallelizable<TA;Lscala/collection/parallel/immutable/ParIterable<TA;>;>;
-// declaration: scala/collection/immutable/Iterable<A> extends scala.collection.immutable.Traversable<A>, scala.collection.Iterable<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.Iterable>, scala.collection.IterableLike<A, scala.collection.immutable.Iterable<A>>, scala.collection.Parallelizable<A, scala.collection.parallel.immutable.ParIterable<A>>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Traversable<TA;>;Lscala/collection/Iterable<TA;>;
+// declaration: scala/collection/immutable/Iterable<A> extends scala.collection.immutable.Traversable<A>, scala.collection.Iterable<A>
 public abstract interface scala/collection/immutable/Iterable implements scala/collection/immutable/Traversable scala/collection/Iterable  {
 
 

@@ -11,6 +11,9 @@ public final class scala/util/PropertiesTrait$$anonfun$4 extends scala/runtime/A
   // access flags 0x1012
   private final synthetic Lscala/util/PropertiesTrait; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/util/PropertiesTrait;)V
     ALOAD 1

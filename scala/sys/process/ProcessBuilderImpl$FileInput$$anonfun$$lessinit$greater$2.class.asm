@@ -13,6 +13,9 @@ public final class scala/sys/process/ProcessBuilderImpl$FileInput$$anonfun$$less
   // access flags 0x12
   private final Ljava/io/File; file$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessBuilder$;Ljava/io/File;)V
     ALOAD 0

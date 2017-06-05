@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TA;>;Lscala/collection/mutable/Buffer<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/ListBuffer;>;Lscala/collection/mutable/BufferLike<TA;Lscala/collection/mutable/ListBuffer<TA;>;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/immutable/List<TA;>;>;Lscala/collection/generic/SeqForwarder<TA;>;Ljava/io/Serializable;
-// declaration: scala/collection/mutable/ListBuffer<A> extends scala.collection.mutable.AbstractBuffer<A> implements scala.collection.mutable.Buffer<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.ListBuffer>, scala.collection.mutable.BufferLike<A, scala.collection.mutable.ListBuffer<A>>, scala.collection.mutable.Builder<A, scala.collection.immutable.List<A>>, scala.collection.generic.SeqForwarder<A>, java.io.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TA;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/immutable/List<TA;>;>;Lscala/collection/generic/SeqForwarder<TA;>;Ljava/io/Serializable;
+// declaration: scala/collection/mutable/ListBuffer<A> extends scala.collection.mutable.AbstractBuffer<A> implements scala.collection.mutable.Builder<A, scala.collection.immutable.List<A>>, scala.collection.generic.SeqForwarder<A>, java.io.Serializable
 public final class scala/collection/mutable/ListBuffer extends scala/collection/mutable/AbstractBuffer  implements scala/collection/mutable/Builder scala/collection/generic/SeqForwarder java/io/Serializable  {
 
   // access flags 0x11

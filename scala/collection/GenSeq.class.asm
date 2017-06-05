@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenSeqLike<TA;Lscala/collection/GenSeq<TA;>;>;Lscala/collection/GenIterable<TA;>;Lscala/Equals;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/GenSeq;>;
-// declaration: scala/collection/GenSeq<A> extends scala.collection.GenSeqLike<A, scala.collection.GenSeq<A>>, scala.collection.GenIterable<A>, scala.Equals, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.GenSeq>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenSeqLike<TA;Lscala/collection/GenSeq<TA;>;>;Lscala/collection/GenIterable<TA;>;
+// declaration: scala/collection/GenSeq<A> extends scala.collection.GenSeqLike<A, scala.collection.GenSeq<A>>, scala.collection.GenIterable<A>
 public abstract interface scala/collection/GenSeq implements scala/collection/GenSeqLike scala/collection/GenIterable  {
 
 

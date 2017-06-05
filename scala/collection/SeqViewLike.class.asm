@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/SeqView<TA;TColl;>;:Lscala/collection/SeqViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/Seq<TA;>;Lscala/collection/SeqLike<TA;TThis;>;Lscala/collection/IterableView<TA;TColl;>;Lscala/collection/IterableViewLike<TA;TColl;TThis;>;
-// declaration: scala/collection/SeqViewLike<A, Coll, This extends scala.collection.SeqView<A, Coll>, scala.collection.SeqViewLike<A, Coll, This>> extends scala.collection.Seq<A>, scala.collection.SeqLike<A, This>, scala.collection.IterableView<A, Coll>, scala.collection.IterableViewLike<A, Coll, This>
+// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;This::Lscala/collection/SeqView<TA;TColl;>;:Lscala/collection/SeqViewLike<TA;TColl;TThis;>;>Ljava/lang/Object;Lscala/collection/Seq<TA;>;Lscala/collection/IterableView<TA;TColl;>;
+// declaration: scala/collection/SeqViewLike<A, Coll, This extends scala.collection.SeqView<A, Coll>, scala.collection.SeqViewLike<A, Coll, This>> extends scala.collection.Seq<A>, scala.collection.IterableView<A, Coll>
 public abstract interface scala/collection/SeqViewLike implements scala/collection/Seq scala/collection/IterableView  {
 
   // access flags 0x601

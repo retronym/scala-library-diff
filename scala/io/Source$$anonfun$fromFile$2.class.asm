@@ -17,6 +17,9 @@ public final class scala/io/Source$$anonfun$fromFile$2 extends scala/runtime/Abs
   // access flags 0x12
   private final Ljava/io/File; file$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Ljava/io/File;ILscala/io/Codec;)V
     ALOAD 0

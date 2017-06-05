@@ -13,6 +13,9 @@ public final class scala/collection/convert/DecorateAsScala$$anonfun$asScalaIter
   // access flags 0x12
   private final Ljava/util/Iterator; i$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/convert/DecorateAsScala;Ljava/util/Iterator;)V
     ALOAD 0

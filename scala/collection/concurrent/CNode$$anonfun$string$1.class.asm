@@ -11,6 +11,9 @@ public final class scala/collection/concurrent/CNode$$anonfun$string$1 extends s
   // access flags 0x12
   private final I lev$3
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/concurrent/CNode<TK;TV;>;)V
   // declaration: void <init>(scala.collection.concurrent.CNode<K, V>)

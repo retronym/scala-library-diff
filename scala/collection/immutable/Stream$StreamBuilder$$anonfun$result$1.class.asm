@@ -10,6 +10,9 @@ public final class scala/collection/immutable/Stream$StreamBuilder$$anonfun$resu
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$StreamBuilder$$anonfun$result$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/Stream$StreamBuilder<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.Stream$StreamBuilder<A>)

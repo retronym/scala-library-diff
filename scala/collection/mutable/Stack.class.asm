@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/collection/mutable/Seq<TA;>;Lscala/collection/mutable/SeqLike<TA;Lscala/collection/mutable/Stack<TA;>;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/Stack;>;Lscala/collection/mutable/Cloneable<Lscala/collection/mutable/Stack<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/Stack<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.Seq<A>, scala.collection.mutable.SeqLike<A, scala.collection.mutable.Stack<A>>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.Stack>, scala.collection.mutable.Cloneable<scala.collection.mutable.Stack<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/Stack<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.Serializable
 public class scala/collection/mutable/Stack extends scala/collection/mutable/AbstractSeq  implements scala/Serializable  {
 
   // access flags 0x9

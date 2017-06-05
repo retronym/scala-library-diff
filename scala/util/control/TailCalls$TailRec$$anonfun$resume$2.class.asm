@@ -20,6 +20,9 @@ public final class scala/util/control/TailCalls$TailRec$$anonfun$resume$2 extend
   // access flags 0x11
   public final INNERCLASS scala/util/control/TailCalls$TailRec$$anonfun$flatMap$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/util/control/TailCalls$Cont; x4$1
 

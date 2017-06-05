@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Lscala/collection/mutable/Stack<TA;>;Lscala/collection/mutable/StackProxy<TA;>;
-// declaration: scala/collection/mutable/StackProxy$$anon$1 extends scala.collection.mutable.Stack<A> implements scala.collection.mutable.StackProxy<A>
+// signature Ljava/lang/Object;Lscala/collection/mutable/StackProxy<TA;>;
+// declaration: scala/collection/mutable/StackProxy$$anon$1 implements scala.collection.mutable.StackProxy<A>
 public final class scala/collection/mutable/StackProxy$$anon$1 extends scala/collection/mutable/Stack  implements scala/collection/mutable/StackProxy  {
 
   OUTERCLASS scala/collection/mutable/StackProxy clone ()Lscala/collection/mutable/Stack;

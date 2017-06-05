@@ -13,6 +13,9 @@ public final class scala/collection/immutable/HashSet$SerializationProxy$$anonfu
   // access flags 0x12
   private final Ljava/io/ObjectOutputStream; out$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/HashSet$SerializationProxy<TA;TB;>;)V
   // declaration: void <init>(scala.collection.immutable.HashSet$SerializationProxy<A, B>)

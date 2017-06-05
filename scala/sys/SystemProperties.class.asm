@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/mutable/AbstractMap<Ljava/lang/String;Ljava/lang/String;>;Lscala/collection/mutable/Map<Ljava/lang/String;Ljava/lang/String;>;
-// declaration: scala/sys/SystemProperties extends scala.collection.mutable.AbstractMap<java.lang.String, java.lang.String> implements scala.collection.mutable.Map<java.lang.String, java.lang.String>
+// signature Lscala/collection/mutable/AbstractMap<Ljava/lang/String;Ljava/lang/String;>;
+// declaration: scala/sys/SystemProperties extends scala.collection.mutable.AbstractMap<java.lang.String, java.lang.String>
 public class scala/sys/SystemProperties extends scala/collection/mutable/AbstractMap  {
 
   // access flags 0x11

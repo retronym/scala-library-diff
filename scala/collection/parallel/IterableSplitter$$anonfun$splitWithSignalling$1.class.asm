@@ -11,6 +11,9 @@ public final class scala/collection/parallel/IterableSplitter$$anonfun$splitWith
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/IterableSplitter; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/IterableSplitter<TT;>;)V
   // declaration: void <init>(scala.collection.parallel.IterableSplitter<T>)

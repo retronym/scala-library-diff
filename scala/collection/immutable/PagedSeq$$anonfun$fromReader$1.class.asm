@@ -8,6 +8,9 @@ public final class scala/collection/immutable/PagedSeq$$anonfun$fromReader$1 ext
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromReader$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Ljava/io/Reader; source$3
 

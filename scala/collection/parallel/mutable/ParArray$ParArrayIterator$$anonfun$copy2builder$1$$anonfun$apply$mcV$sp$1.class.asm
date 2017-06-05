@@ -13,6 +13,9 @@ public final class scala/collection/parallel/mutable/ParArray$ParArrayIterator$$
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$copy2builder$1; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParArray<TT;>.ParArrayIterator$$anonfun$copy2builder$1;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParArray<T>.ParArrayIterator$$anonfun$copy2builder$1)

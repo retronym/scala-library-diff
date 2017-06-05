@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Ljava/lang/Object;Lscala/collection/mutable/ArrayOps<Lscala/runtime/BoxedUnit;>;Lscala/collection/mutable/ArrayLike<Lscala/runtime/BoxedUnit;[Lscala/runtime/BoxedUnit;>;
-// declaration: scala/collection/mutable/ArrayOps$ofUnit implements scala.collection.mutable.ArrayOps<scala.runtime.BoxedUnit>, scala.collection.mutable.ArrayLike<scala.runtime.BoxedUnit, scala.runtime.BoxedUnit[]>
+// signature Ljava/lang/Object;Lscala/collection/mutable/ArrayOps<Lscala/runtime/BoxedUnit;>;
+// declaration: scala/collection/mutable/ArrayOps$ofUnit implements scala.collection.mutable.ArrayOps<scala.runtime.BoxedUnit>
 public final class scala/collection/mutable/ArrayOps$ofUnit implements scala/collection/mutable/ArrayOps  {
 
   // access flags 0x19

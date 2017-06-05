@@ -11,6 +11,9 @@ public final class scala/collection/TraversableOnce$$anonfun$max$1 extends scala
   // access flags 0x12
   private final Lscala/math/Ordering; cmp$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/TraversableOnce<TA;>;)V
   // declaration: void <init>(scala.collection.TraversableOnce<A>)

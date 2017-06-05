@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/AbstractMap<TA;TB;>;Lscala/collection/Map<TA;TB;>;Lscala/Serializable;
-// declaration: scala/collection/Map$WithDefault<A, B> extends scala.collection.AbstractMap<A, B> implements scala.collection.Map<A, B>, scala.Serializable
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/AbstractMap<TA;TB;>;Lscala/Serializable;
+// declaration: scala/collection/Map$WithDefault<A, B> extends scala.collection.AbstractMap<A, B> implements scala.Serializable
 public abstract class scala/collection/Map$WithDefault extends scala/collection/AbstractMap  implements scala/Serializable  {
 
   // access flags 0x409

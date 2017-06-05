@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <B:Ljava/lang/Object;>Lscala/collection/AbstractIterator<Lscala/collection/Seq<TB;>;>;Lscala/collection/Iterator<Lscala/collection/Seq<TB;>;>;
-// declaration: scala/collection/Iterator$GroupedIterator<B> extends scala.collection.AbstractIterator<scala.collection.Seq<B>> implements scala.collection.Iterator<scala.collection.Seq<B>>
+// signature <B:Ljava/lang/Object;>Lscala/collection/AbstractIterator<Lscala/collection/Seq<TB;>;>;
+// declaration: scala/collection/Iterator$GroupedIterator<B> extends scala.collection.AbstractIterator<scala.collection.Seq<B>>
 public class scala/collection/Iterator$GroupedIterator extends scala/collection/AbstractIterator  {
 
   // access flags 0x1

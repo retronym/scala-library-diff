@@ -1,8 +1,8 @@
 // class version 50.0 (50)
 // DEPRECATED
 // access flags 0x20021
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/collection/mutable/Set<TA;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/ImmutableSetAdaptor<A> extends scala.collection.mutable.AbstractSet<A> implements scala.collection.mutable.Set<A>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/ImmutableSetAdaptor<A> extends scala.collection.mutable.AbstractSet<A> implements scala.Serializable
 public class scala/collection/mutable/ImmutableSetAdaptor extends scala/collection/mutable/AbstractSet  implements scala/Serializable  {
 
 

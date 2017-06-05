@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature Lscala/collection/AbstractSet<Ljava/lang/Object;>;Lscala/collection/immutable/SortedSet<Ljava/lang/Object;>;Lscala/collection/BitSet;Lscala/collection/BitSetLike<Lscala/collection/immutable/BitSet;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/BitSet extends scala.collection.AbstractSet<java.lang.Object> implements scala.collection.immutable.SortedSet<java.lang.Object>, scala.collection.BitSet, scala.collection.BitSetLike<scala.collection.immutable.BitSet>, scala.Serializable
+// signature Lscala/collection/AbstractSet<Ljava/lang/Object;>;Lscala/collection/immutable/SortedSet<Ljava/lang/Object;>;Lscala/collection/BitSet;Lscala/Serializable;
+// declaration: scala/collection/immutable/BitSet extends scala.collection.AbstractSet<java.lang.Object> implements scala.collection.immutable.SortedSet<java.lang.Object>, scala.collection.BitSet, scala.Serializable
 public abstract class scala/collection/immutable/BitSet extends scala/collection/AbstractSet  implements scala/collection/immutable/SortedSet scala/collection/BitSet scala/Serializable  {
 
   // access flags 0x9

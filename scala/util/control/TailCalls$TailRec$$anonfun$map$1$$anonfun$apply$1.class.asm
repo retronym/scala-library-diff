@@ -22,6 +22,9 @@ public final class scala/util/control/TailCalls$TailRec$$anonfun$map$1$$anonfun$
   // access flags 0x12
   private final Ljava/lang/Object; a$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/util/control/TailCalls$TailRec<TA;>.$anonfun$map$1;)V
   // declaration: void <init>(scala.util.control.TailCalls$TailRec<A>.$anonfun$map$1)

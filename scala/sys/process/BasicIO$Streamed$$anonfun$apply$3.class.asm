@@ -18,6 +18,9 @@ public final class scala/sys/process/BasicIO$Streamed$$anonfun$apply$3 extends s
   // access flags 0x12
   private final Ljava/util/concurrent/LinkedBlockingQueue; q$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(ZLjava/util/concurrent/LinkedBlockingQueue;)V
     ALOAD 0

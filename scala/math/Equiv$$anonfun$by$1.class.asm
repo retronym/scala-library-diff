@@ -14,6 +14,9 @@ public final class scala/math/Equiv$$anonfun$by$1 extends scala/runtime/Abstract
   // access flags 0x12
   private final Lscala/Function1; f$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Function1;Lscala/math/Equiv;)V
     ALOAD 0

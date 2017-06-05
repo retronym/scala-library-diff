@@ -13,6 +13,9 @@ public final class scala/collection/immutable/SortedMap$$anon$1$$anonfun$iterato
   // access flags 0x1012
   private final synthetic Lscala/collection/immutable/SortedMap$$anon$1; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/SortedMap<TA;TB;>.$anon$1;)V
   // declaration: void <init>(scala.collection.immutable.SortedMap<A, B>.$anon$1)

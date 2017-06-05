@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <T1:Ljava/lang/Object;R:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Function1<TT1;TR;>;Lscala/PartialFunction<TT1;TR;>;
-// declaration: scala/runtime/AbstractPartialFunction<T1, R> implements scala.Function1<T1, R>, scala.PartialFunction<T1, R>
+// signature <T1:Ljava/lang/Object;R:Ljava/lang/Object;>Ljava/lang/Object;Lscala/PartialFunction<TT1;TR;>;
+// declaration: scala/runtime/AbstractPartialFunction<T1, R> implements scala.PartialFunction<T1, R>
 public abstract class scala/runtime/AbstractPartialFunction implements scala/PartialFunction  {
 
 

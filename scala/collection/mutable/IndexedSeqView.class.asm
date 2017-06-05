@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/IndexedSeq<TA;>;Lscala/collection/mutable/IndexedSeqOptimized<TA;Lscala/collection/mutable/IndexedSeqView<TA;TColl;>;>;Lscala/collection/SeqView<TA;TColl;>;Lscala/collection/SeqViewLike<TA;TColl;Lscala/collection/mutable/IndexedSeqView<TA;TColl;>;>;
-// declaration: scala/collection/mutable/IndexedSeqView<A, Coll> extends scala.collection.mutable.IndexedSeq<A>, scala.collection.mutable.IndexedSeqOptimized<A, scala.collection.mutable.IndexedSeqView<A, Coll>>, scala.collection.SeqView<A, Coll>, scala.collection.SeqViewLike<A, Coll, scala.collection.mutable.IndexedSeqView<A, Coll>>
+// signature <A:Ljava/lang/Object;Coll:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/IndexedSeq<TA;>;Lscala/collection/mutable/IndexedSeqOptimized<TA;Lscala/collection/mutable/IndexedSeqView<TA;TColl;>;>;Lscala/collection/SeqView<TA;TColl;>;
+// declaration: scala/collection/mutable/IndexedSeqView<A, Coll> extends scala.collection.mutable.IndexedSeq<A>, scala.collection.mutable.IndexedSeqOptimized<A, scala.collection.mutable.IndexedSeqView<A, Coll>>, scala.collection.SeqView<A, Coll>
 public abstract interface scala/collection/mutable/IndexedSeqView implements scala/collection/mutable/IndexedSeq scala/collection/mutable/IndexedSeqOptimized scala/collection/SeqView  {
 
   // access flags 0x601

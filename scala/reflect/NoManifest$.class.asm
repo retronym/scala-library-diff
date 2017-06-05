@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Ljava/lang/Object;Lscala/reflect/OptManifest<Lscala/runtime/Nothing$;>;Lscala/Serializable;
-// declaration: scala/reflect/NoManifest$ implements scala.reflect.OptManifest<scala.runtime.Nothing$>, scala.Serializable
+// signature Ljava/lang/Object;Lscala/reflect/OptManifest<Lscala/runtime/Nothing$;>;
+// declaration: scala/reflect/NoManifest$ implements scala.reflect.OptManifest<scala.runtime.Nothing$>
 public final class scala/reflect/NoManifest$ implements scala/reflect/OptManifest  {
 
 

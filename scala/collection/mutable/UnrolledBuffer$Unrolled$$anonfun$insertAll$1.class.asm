@@ -13,6 +13,9 @@ public final class scala/collection/mutable/UnrolledBuffer$Unrolled$$anonfun$ins
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; curr$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/UnrolledBuffer$Unrolled<TT;>;)V
   // declaration: void <init>(scala.collection.mutable.UnrolledBuffer$Unrolled<T>)

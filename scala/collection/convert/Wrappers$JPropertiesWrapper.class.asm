@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/mutable/AbstractMap<Ljava/lang/String;Ljava/lang/String;>;Lscala/collection/mutable/Map<Ljava/lang/String;Ljava/lang/String;>;Lscala/collection/mutable/MapLike<Ljava/lang/String;Ljava/lang/String;Lscala/collection/convert/Wrappers$JPropertiesWrapper;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/convert/Wrappers$JPropertiesWrapper extends scala.collection.mutable.AbstractMap<java.lang.String, java.lang.String> implements scala.collection.mutable.Map<java.lang.String, java.lang.String>, scala.collection.mutable.MapLike<java.lang.String, java.lang.String, scala.collection.convert.Wrappers$JPropertiesWrapper>, scala.Product, scala.Serializable
+// signature Lscala/collection/mutable/AbstractMap<Ljava/lang/String;Ljava/lang/String;>;Lscala/Product;Lscala/Serializable;
+// declaration: scala/collection/convert/Wrappers$JPropertiesWrapper extends scala.collection.mutable.AbstractMap<java.lang.String, java.lang.String> implements scala.Product, scala.Serializable
 public class scala/collection/convert/Wrappers$JPropertiesWrapper extends scala/collection/mutable/AbstractMap  implements scala/Product scala/Serializable  {
 
   // access flags 0x1

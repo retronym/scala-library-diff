@@ -14,6 +14,9 @@ public final class scala/collection/SeqViewLike$$anonfun$sortWith$1 extends scal
   // access flags 0x12
   private final Lscala/Function2; lt$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/SeqViewLike<TA;TColl;TThis;>;)V
   // declaration: void <init>(scala.collection.SeqViewLike<A, Coll, This>)

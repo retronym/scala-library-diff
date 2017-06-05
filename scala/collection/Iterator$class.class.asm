@@ -276,13 +276,28 @@ public abstract class scala/collection/Iterator$class {
 
   // access flags 0x9
   public static drop(Lscala/collection/Iterator;I)Lscala/collection/Iterator;
-    ALOAD 0
+    ICONST_0
+    ISTORE 2
+   L0
+    ILOAD 2
     ILOAD 1
-    LDC 2147483647
-    INVOKEINTERFACE scala/collection/Iterator.slice (II)Lscala/collection/Iterator;
+    IF_ICMPGE L1
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/Iterator.hasNext ()Z
+    IFEQ L1
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/Iterator.next ()Ljava/lang/Object;
+    POP
+    ILOAD 2
+    ICONST_1
+    IADD
+    ISTORE 2
+    GOTO L0
+   L1
+    ALOAD 0
     ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 2
+    MAXSTACK = 2
+    MAXLOCALS = 3
 
   // access flags 0x9
   public static dropWhile(Lscala/collection/Iterator;Lscala/Function1;)Lscala/collection/Iterator;

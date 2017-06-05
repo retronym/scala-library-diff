@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/immutable/ParMap<TK;TV;>;Lscala/collection/generic/GenericParMapTemplate<TK;TV;Lscala/collection/parallel/immutable/ParHashMap;>;Lscala/collection/parallel/ParMapLike<TK;TV;Lscala/collection/parallel/immutable/ParHashMap<TK;TV;>;Lscala/collection/immutable/HashMap<TK;TV;>;>;Lscala/Serializable;
-// declaration: scala/collection/parallel/immutable/ParHashMap<K, V> implements scala.collection.parallel.immutable.ParMap<K, V>, scala.collection.generic.GenericParMapTemplate<K, V, scala.collection.parallel.immutable.ParHashMap>, scala.collection.parallel.ParMapLike<K, V, scala.collection.parallel.immutable.ParHashMap<K, V>, scala.collection.immutable.HashMap<K, V>>, scala.Serializable
+// signature <K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/immutable/ParMap<TK;TV;>;Lscala/Serializable;
+// declaration: scala/collection/parallel/immutable/ParHashMap<K, V> implements scala.collection.parallel.immutable.ParMap<K, V>, scala.Serializable
 public class scala/collection/parallel/immutable/ParHashMap implements scala/collection/parallel/immutable/ParMap scala/Serializable  {
 
   // access flags 0x9

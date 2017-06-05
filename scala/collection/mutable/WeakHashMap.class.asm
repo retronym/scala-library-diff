@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/convert/Wrappers$JMapWrapper<TA;TB;>;Lscala/collection/convert/Wrappers$JMapWrapperLike<TA;TB;Lscala/collection/mutable/WeakHashMap<TA;TB;>;>;
-// declaration: scala/collection/mutable/WeakHashMap<A, B> extends scala.collection.convert.Wrappers$JMapWrapper<A, B> implements scala.collection.convert.Wrappers$JMapWrapperLike<A, B, scala.collection.mutable.WeakHashMap<A, B>>
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/convert/Wrappers$JMapWrapper<TA;TB;>;
+// declaration: scala/collection/mutable/WeakHashMap<A, B> extends scala.collection.convert.Wrappers$JMapWrapper<A, B>
 public class scala/collection/mutable/WeakHashMap extends scala/collection/convert/Wrappers$JMapWrapper  {
 
   // access flags 0x1

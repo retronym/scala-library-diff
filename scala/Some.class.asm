@@ -1,9 +1,12 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <A:Ljava/lang/Object;>Lscala/Option<TA;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/Some<A> extends scala.Option<A> implements scala.Product, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/Option<TA;>;
+// declaration: scala/Some<A> extends scala.Option<A>
 public final class scala/Some extends scala/Option  {
 
+
+  // access flags 0x19
+  public final static J serialVersionUID = 1234815782226070388
 
   // access flags 0x12
   // signature TA;

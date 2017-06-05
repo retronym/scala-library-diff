@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/collection/mutable/IndexedSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/ArraySeq;>;Lscala/collection/mutable/IndexedSeqOptimized<TA;Lscala/collection/mutable/ArraySeq<TA;>;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/mutable/ParArray<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/ArraySeq<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.IndexedSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.ArraySeq>, scala.collection.mutable.IndexedSeqOptimized<A, scala.collection.mutable.ArraySeq<A>>, scala.collection.CustomParallelizable<A, scala.collection.parallel.mutable.ParArray<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSeq<TA;>;Lscala/collection/mutable/IndexedSeq<TA;>;Lscala/collection/mutable/IndexedSeqOptimized<TA;Lscala/collection/mutable/ArraySeq<TA;>;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/mutable/ParArray<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/ArraySeq<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.IndexedSeq<A>, scala.collection.mutable.IndexedSeqOptimized<A, scala.collection.mutable.ArraySeq<A>>, scala.collection.CustomParallelizable<A, scala.collection.parallel.mutable.ParArray<A>>, scala.Serializable
 public class scala/collection/mutable/ArraySeq extends scala/collection/mutable/AbstractSeq  implements scala/collection/mutable/IndexedSeq scala/collection/mutable/IndexedSeqOptimized scala/collection/CustomParallelizable scala/Serializable  {
 
   // access flags 0x11

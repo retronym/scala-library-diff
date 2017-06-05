@@ -11,6 +11,9 @@ public final class scala/Function$$anonfun$tupled$4 extends scala/runtime/Abstra
   // access flags 0x12
   private final Lscala/Function5; f$8
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Function5;)V
     ALOAD 0

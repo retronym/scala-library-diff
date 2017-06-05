@@ -14,6 +14,9 @@ public final class scala/collection/immutable/Stream$$anonfun$fill$1 extends sca
   // access flags 0x12
   private final I n$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(ILscala/Function0;)V
     ALOAD 0

@@ -13,6 +13,9 @@ public final class scala/collection/mutable/OpenHashMap$$anonfun$growTable$1 ext
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/OpenHashMap; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/OpenHashMap<TKey;TValue;>;)V
   // declaration: void <init>(scala.collection.mutable.OpenHashMap<Key, Value>)

@@ -13,6 +13,9 @@ public final class scala/Option$$anonfun$orNull$1 extends scala/runtime/Abstract
   // access flags 0x11
   public final Lscala/Predef$$less$colon$less; ev$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/Option<TA;>;)V
   // declaration: void <init>(scala.Option<A>)

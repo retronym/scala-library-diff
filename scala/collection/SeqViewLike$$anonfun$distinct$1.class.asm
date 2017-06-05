@@ -11,6 +11,9 @@ public final class scala/collection/SeqViewLike$$anonfun$distinct$1 extends scal
   // access flags 0x1012
   private final synthetic Lscala/collection/SeqViewLike; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/SeqViewLike<TA;TColl;TThis;>;)V
   // declaration: void <init>(scala.collection.SeqViewLike<A, Coll, This>)

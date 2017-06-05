@@ -318,18 +318,18 @@ public class scala/collection/immutable/PagedSeq extends scala/collection/Abstra
     GETFIELD scala/collection/immutable/PagedSeq.start : I
     ISUB
     IF_ICMPGE L0
-    ALOAD 0
     ILOAD 1
     ALOAD 0
     GETFIELD scala/collection/immutable/PagedSeq.start : I
     IADD
+    ISTORE 2
+    ILOAD 2
+    ICONST_0
+    IF_ICMPLT L1
+    ILOAD 2
+    ALOAD 0
+    ILOAD 2
     INVOKESPECIAL scala/collection/immutable/PagedSeq.page (I)Lscala/collection/immutable/Page;
-    ASTORE 2
-    ILOAD 1
-    ALOAD 0
-    GETFIELD scala/collection/immutable/PagedSeq.start : I
-    IADD
-    ALOAD 2
     INVOKEVIRTUAL scala/collection/immutable/Page.end ()I
     IF_ICMPGE L1
     ICONST_1
@@ -384,7 +384,18 @@ public class scala/collection/immutable/PagedSeq extends scala/collection/Abstra
     ALOAD 0
     INVOKESPECIAL scala/collection/immutable/PagedSeq.latest ()Lscala/collection/immutable/Page;
     INVOKEVIRTUAL scala/collection/immutable/Page.isLast ()Z
-    IFEQ L1
+    IFNE L1
+    ALOAD 0
+    INVOKESPECIAL scala/collection/immutable/PagedSeq.latest ()Lscala/collection/immutable/Page;
+    INVOKEVIRTUAL scala/collection/immutable/Page.end ()I
+    ALOAD 0
+    GETFIELD scala/collection/immutable/PagedSeq.end : I
+    IF_ICMPGE L1
+    ALOAD 0
+    INVOKESPECIAL scala/collection/immutable/PagedSeq.addMore ()Lscala/collection/immutable/Page;
+    POP
+    GOTO L0
+   L1
     GETSTATIC scala/runtime/RichInt$.MODULE$ : Lscala/runtime/RichInt$;
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
     ALOAD 0
@@ -400,11 +411,6 @@ public class scala/collection/immutable/PagedSeq extends scala/collection/Abstra
     GETFIELD scala/collection/immutable/PagedSeq.start : I
     ISUB
     IRETURN
-   L1
-    ALOAD 0
-    INVOKESPECIAL scala/collection/immutable/PagedSeq.addMore ()Lscala/collection/immutable/Page;
-    POP
-    GOTO L0
     MAXSTACK = 3
     MAXLOCALS = 3
 

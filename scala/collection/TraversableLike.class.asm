@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;Repr:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/generic/HasNewBuilder<TA;TRepr;>;Lscala/collection/generic/FilterMonadic<TA;TRepr;>;Lscala/collection/TraversableOnce<TA;>;Lscala/collection/GenTraversableLike<TA;TRepr;>;Lscala/collection/Parallelizable<TA;Lscala/collection/parallel/ParIterable<TA;>;>;
-// declaration: scala/collection/TraversableLike<A, Repr> extends scala.collection.generic.HasNewBuilder<A, Repr>, scala.collection.generic.FilterMonadic<A, Repr>, scala.collection.TraversableOnce<A>, scala.collection.GenTraversableLike<A, Repr>, scala.collection.Parallelizable<A, scala.collection.parallel.ParIterable<A>>
+// signature <A:Ljava/lang/Object;Repr:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/generic/HasNewBuilder<TA;TRepr;>;Lscala/collection/generic/FilterMonadic<TA;TRepr;>;Lscala/collection/TraversableOnce<TA;>;Lscala/collection/GenTraversableLike<TA;TRepr;>;
+// declaration: scala/collection/TraversableLike<A, Repr> extends scala.collection.generic.HasNewBuilder<A, Repr>, scala.collection.generic.FilterMonadic<A, Repr>, scala.collection.TraversableOnce<A>, scala.collection.GenTraversableLike<A, Repr>
 public abstract interface scala/collection/TraversableLike implements scala/collection/generic/HasNewBuilder scala/collection/generic/FilterMonadic scala/collection/TraversableOnce scala/collection/GenTraversableLike  {
 
   // access flags 0x11

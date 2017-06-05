@@ -13,6 +13,9 @@ public final class scala/Enumeration$$anonfun$withName$1 extends scala/runtime/A
   // access flags 0x12
   private final Ljava/lang/String; s$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Enumeration;Ljava/lang/String;)V
     ALOAD 0

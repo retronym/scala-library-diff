@@ -18,6 +18,9 @@ public final class scala/runtime/FractionalProxy$$anonfun$until$1 extends scala/
   // access flags 0x12
   private final Ljava/lang/Object; end$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/runtime/FractionalProxy<TT;>;)V
   // declaration: void <init>(scala.runtime.FractionalProxy<T>)

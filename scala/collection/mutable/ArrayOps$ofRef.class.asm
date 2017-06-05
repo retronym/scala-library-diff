@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/ArrayOps<TT;>;Lscala/collection/mutable/ArrayLike<TT;[TT;>;
-// declaration: scala/collection/mutable/ArrayOps$ofRef<T> implements scala.collection.mutable.ArrayOps<T>, scala.collection.mutable.ArrayLike<T, T[]>
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/ArrayOps<TT;>;
+// declaration: scala/collection/mutable/ArrayOps$ofRef<T> implements scala.collection.mutable.ArrayOps<T>
 public final class scala/collection/mutable/ArrayOps$ofRef implements scala/collection/mutable/ArrayOps  {
 
   // access flags 0x19

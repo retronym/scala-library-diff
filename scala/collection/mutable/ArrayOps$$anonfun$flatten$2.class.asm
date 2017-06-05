@@ -14,6 +14,9 @@ public final class scala/collection/mutable/ArrayOps$$anonfun$flatten$2 extends 
   // access flags 0x12
   private final Lscala/collection/mutable/ArrayBuilder; b$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/ArrayOps<TT;>;)V
   // declaration: void <init>(scala.collection.mutable.ArrayOps<T>)

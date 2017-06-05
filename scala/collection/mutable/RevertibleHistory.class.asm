@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <Evt::Lscala/collection/mutable/Undoable;Pub:Ljava/lang/Object;>Lscala/collection/mutable/History<TEvt;TPub;>;Lscala/collection/mutable/Undoable;Lscala/Serializable;
-// declaration: scala/collection/mutable/RevertibleHistory<Evt extends scala.collection.mutable.Undoable, Pub> extends scala.collection.mutable.History<Evt, Pub> implements scala.collection.mutable.Undoable, scala.Serializable
+// signature <Evt::Lscala/collection/mutable/Undoable;Pub:Ljava/lang/Object;>Lscala/collection/mutable/History<TEvt;TPub;>;Lscala/collection/mutable/Undoable;
+// declaration: scala/collection/mutable/RevertibleHistory<Evt extends scala.collection.mutable.Undoable, Pub> extends scala.collection.mutable.History<Evt, Pub> implements scala.collection.mutable.Undoable
 public class scala/collection/mutable/RevertibleHistory extends scala/collection/mutable/History  implements scala/collection/mutable/Undoable  {
 
 

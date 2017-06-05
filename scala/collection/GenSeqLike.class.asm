@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;Repr:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenIterableLike<TA;TRepr;>;Lscala/Equals;Lscala/collection/Parallelizable<TA;Lscala/collection/parallel/ParSeq<TA;>;>;
-// declaration: scala/collection/GenSeqLike<A, Repr> extends scala.collection.GenIterableLike<A, Repr>, scala.Equals, scala.collection.Parallelizable<A, scala.collection.parallel.ParSeq<A>>
+// signature <A:Ljava/lang/Object;Repr:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenIterableLike<TA;TRepr;>;Lscala/Equals;
+// declaration: scala/collection/GenSeqLike<A, Repr> extends scala.collection.GenIterableLike<A, Repr>, scala.Equals
 public abstract interface scala/collection/GenSeqLike implements scala/collection/GenIterableLike scala/Equals  {
 
   // access flags 0x11

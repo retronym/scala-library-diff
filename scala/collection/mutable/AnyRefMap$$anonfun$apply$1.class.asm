@@ -11,6 +11,9 @@ public final class scala/collection/mutable/AnyRefMap$$anonfun$apply$1 extends s
   // access flags 0x12
   private final Lscala/collection/mutable/AnyRefMap; arm$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/mutable/AnyRefMap;)V
     ALOAD 0

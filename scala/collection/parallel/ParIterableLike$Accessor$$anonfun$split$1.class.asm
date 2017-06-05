@@ -13,6 +13,9 @@ public final class scala/collection/parallel/ParIterableLike$Accessor$$anonfun$s
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParIterableLike$Accessor; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParIterableLike<TT;TRepr;TSequential;>.Accessor<TR;TTp;>;)V
   // declaration: void <init>(scala.collection.parallel.ParIterableLike<T, Repr, Sequential>.Accessor<R, Tp>)

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T1:Ljava/lang/Object;T2:Ljava/lang/Object;T3:Ljava/lang/Object;T4:Ljava/lang/Object;T5:Ljava/lang/Object;T6:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Product6<TT1;TT2;TT3;TT4;TT5;TT6;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/Tuple6<T1, T2, T3, T4, T5, T6> implements scala.Product6<T1, T2, T3, T4, T5, T6>, scala.Product, scala.Serializable
+// signature <T1:Ljava/lang/Object;T2:Ljava/lang/Object;T3:Ljava/lang/Object;T4:Ljava/lang/Object;T5:Ljava/lang/Object;T6:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Product6<TT1;TT2;TT3;TT4;TT5;TT6;>;Lscala/Serializable;
+// declaration: scala/Tuple6<T1, T2, T3, T4, T5, T6> implements scala.Product6<T1, T2, T3, T4, T5, T6>, scala.Serializable
 public class scala/Tuple6 implements scala/Product6 scala/Serializable  {
 
 

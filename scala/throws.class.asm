@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Throwable;>Lscala/annotation/Annotation;Lscala/annotation/StaticAnnotation;
-// declaration: scala/throws<T extends java.lang.Throwable> extends scala.annotation.Annotation implements scala.annotation.StaticAnnotation
+// signature <T:Ljava/lang/Throwable;>Ljava/lang/Object;Lscala/annotation/StaticAnnotation;
+// declaration: scala/throws<T extends java.lang.Throwable> implements scala.annotation.StaticAnnotation
 public class scala/throws extends scala/annotation/Annotation  implements scala/annotation/StaticAnnotation  {
 
 

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/Queue;>;Lscala/collection/LinearSeqLike<TA;Lscala/collection/immutable/Queue<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/Queue<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.Queue>, scala.collection.LinearSeqLike<A, scala.collection.immutable.Queue<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/Queue<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.Serializable
 public class scala/collection/immutable/Queue extends scala/collection/AbstractSeq  implements scala/collection/immutable/LinearSeq scala/Serializable  {
 
   // access flags 0x9

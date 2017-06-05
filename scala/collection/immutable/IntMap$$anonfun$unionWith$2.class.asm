@@ -13,6 +13,9 @@ public final class scala/collection/immutable/IntMap$$anonfun$unionWith$2 extend
   // access flags 0x12
   private final Lscala/Function3; f$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/collection/immutable/IntMap$Tip; x8$1
 

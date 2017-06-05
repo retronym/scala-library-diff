@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Seq<TA;>;Lscala/collection/LinearSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/LinearSeq;>;Lscala/collection/LinearSeqLike<TA;Lscala/collection/immutable/LinearSeq<TA;>;>;
-// declaration: scala/collection/immutable/LinearSeq<A> extends scala.collection.immutable.Seq<A>, scala.collection.LinearSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.LinearSeq>, scala.collection.LinearSeqLike<A, scala.collection.immutable.LinearSeq<A>>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Seq<TA;>;Lscala/collection/LinearSeq<TA;>;
+// declaration: scala/collection/immutable/LinearSeq<A> extends scala.collection.immutable.Seq<A>, scala.collection.LinearSeq<A>
 public abstract interface scala/collection/immutable/LinearSeq implements scala/collection/immutable/Seq scala/collection/LinearSeq  {
 
 

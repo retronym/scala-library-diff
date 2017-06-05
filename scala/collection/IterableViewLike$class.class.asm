@@ -54,11 +54,14 @@ public abstract class scala/collection/IterableViewLike$class {
     ALOAD 0
     INVOKEINTERFACE scala/collection/IterableViewLike.thisSeq ()Lscala/collection/Seq;
     INVOKEINTERFACE scala/collection/Seq.length ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     INVOKEINTERFACE scala/collection/IterableViewLike.take (I)Lscala/collection/IterableView;
     ARETURN
-    MAXSTACK = 3
+    MAXSTACK = 5
     MAXLOCALS = 2
 
   // access flags 0x9
@@ -269,11 +272,14 @@ public abstract class scala/collection/IterableViewLike$class {
     ALOAD 0
     INVOKEINTERFACE scala/collection/IterableViewLike.thisSeq ()Lscala/collection/Seq;
     INVOKEINTERFACE scala/collection/Seq.length ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     INVOKEINTERFACE scala/collection/IterableViewLike.drop (I)Lscala/collection/IterableView;
     ARETURN
-    MAXSTACK = 3
+    MAXSTACK = 5
     MAXLOCALS = 2
 
   // access flags 0x9

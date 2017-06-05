@@ -11,6 +11,9 @@ public final class scala/sys/SystemProperties$$anonfun$get$1 extends scala/runti
   // access flags 0x12
   private final Ljava/lang/String; key$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/SystemProperties;Ljava/lang/String;)V
     ALOAD 0

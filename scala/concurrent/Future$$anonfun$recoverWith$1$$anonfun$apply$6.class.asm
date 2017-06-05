@@ -13,6 +13,9 @@ public final class scala/concurrent/Future$$anonfun$recoverWith$1$$anonfun$apply
   // access flags 0x1012
   private final synthetic Lscala/concurrent/Future$$anonfun$recoverWith$1; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/concurrent/Future<TT;>.$anonfun$recoverWith$1;)V
   // declaration: void <init>(scala.concurrent.Future<T>.$anonfun$recoverWith$1)

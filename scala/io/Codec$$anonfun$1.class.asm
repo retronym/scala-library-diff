@@ -8,6 +8,9 @@ public final class scala/io/Codec$$anonfun$1 extends scala/runtime/AbstractFunct
   // access flags 0x11
   public final INNERCLASS scala/io/Codec$$anonfun$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/io/Codec;)V
     ALOAD 0

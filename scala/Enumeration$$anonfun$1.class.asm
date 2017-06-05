@@ -16,6 +16,9 @@ public final class scala/Enumeration$$anonfun$1 extends scala/runtime/AbstractFu
   // access flags 0x12
   private final [Ljava/lang/reflect/Field; fields$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Enumeration;[Ljava/lang/reflect/Field;)V
     ALOAD 1

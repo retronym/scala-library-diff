@@ -24,6 +24,9 @@ public final class scala/collection/immutable/HashMap$HashMapCollision1$$anonfun
   // access flags 0x12
   private final Lscala/collection/immutable/HashMap$Merger; merger$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/HashMap$HashMapCollision1<TA;TB;>;)V
   // declaration: void <init>(scala.collection.immutable.HashMap$HashMapCollision1<A, B>)

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Map<TA;TB;>;Lscala/collection/SortedMap<TA;TB;>;Lscala/collection/immutable/MapLike<TA;TB;Lscala/collection/immutable/SortedMap<TA;TB;>;>;Lscala/collection/SortedMapLike<TA;TB;Lscala/collection/immutable/SortedMap<TA;TB;>;>;
-// declaration: scala/collection/immutable/SortedMap<A, B> extends scala.collection.immutable.Map<A, B>, scala.collection.SortedMap<A, B>, scala.collection.immutable.MapLike<A, B, scala.collection.immutable.SortedMap<A, B>>, scala.collection.SortedMapLike<A, B, scala.collection.immutable.SortedMap<A, B>>
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Map<TA;TB;>;Lscala/collection/SortedMap<TA;TB;>;
+// declaration: scala/collection/immutable/SortedMap<A, B> extends scala.collection.immutable.Map<A, B>, scala.collection.SortedMap<A, B>
 public abstract interface scala/collection/immutable/SortedMap implements scala/collection/immutable/Map scala/collection/SortedMap  {
 
   // access flags 0x11

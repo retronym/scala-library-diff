@@ -25,6 +25,9 @@ public final class scala/Array$$anonfun$tabulate$3 extends scala/runtime/Abstrac
   // access flags 0x12
   private final I n4$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(IIILscala/Function4;Lscala/reflect/ClassTag;)V
     ALOAD 0

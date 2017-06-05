@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/AugmentedIterableIterator<TT;>;Lscala/collection/parallel/Splitter<TT;>;Lscala/collection/generic/Signalling;Lscala/collection/generic/DelegatedSignalling;
-// declaration: scala/collection/parallel/IterableSplitter<T> extends scala.collection.parallel.AugmentedIterableIterator<T>, scala.collection.parallel.Splitter<T>, scala.collection.generic.Signalling, scala.collection.generic.DelegatedSignalling
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/AugmentedIterableIterator<TT;>;Lscala/collection/parallel/Splitter<TT;>;Lscala/collection/generic/DelegatedSignalling;
+// declaration: scala/collection/parallel/IterableSplitter<T> extends scala.collection.parallel.AugmentedIterableIterator<T>, scala.collection.parallel.Splitter<T>, scala.collection.generic.DelegatedSignalling
 public abstract interface scala/collection/parallel/IterableSplitter implements scala/collection/parallel/AugmentedIterableIterator scala/collection/parallel/Splitter scala/collection/generic/DelegatedSignalling  {
 
   // access flags 0x1

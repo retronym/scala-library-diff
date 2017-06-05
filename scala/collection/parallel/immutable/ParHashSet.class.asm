@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/immutable/ParSet<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/immutable/ParHashSet;>;Lscala/collection/parallel/ParSetLike<TT;Lscala/collection/parallel/immutable/ParHashSet<TT;>;Lscala/collection/immutable/HashSet<TT;>;>;Lscala/Serializable;
-// declaration: scala/collection/parallel/immutable/ParHashSet<T> implements scala.collection.parallel.immutable.ParSet<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.immutable.ParHashSet>, scala.collection.parallel.ParSetLike<T, scala.collection.parallel.immutable.ParHashSet<T>, scala.collection.immutable.HashSet<T>>, scala.Serializable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/immutable/ParSet<TT;>;Lscala/Serializable;
+// declaration: scala/collection/parallel/immutable/ParHashSet<T> implements scala.collection.parallel.immutable.ParSet<T>, scala.Serializable
 public class scala/collection/parallel/immutable/ParHashSet implements scala/collection/parallel/immutable/ParSet scala/Serializable  {
 
   // access flags 0x601

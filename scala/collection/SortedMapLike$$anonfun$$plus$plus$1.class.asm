@@ -8,6 +8,9 @@ public final class scala/collection/SortedMapLike$$anonfun$$plus$plus$1 extends 
   // access flags 0x11
   public final INNERCLASS scala/collection/SortedMapLike$$anonfun$$plus$plus$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/SortedMapLike<TA;TB;TThis;>;)V
   // declaration: void <init>(scala.collection.SortedMapLike<A, B, This>)

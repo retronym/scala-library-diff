@@ -9,6 +9,9 @@ public final class scala/collection/parallel/mutable/ParHashMap$$anonfun$1 exten
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/mutable/ParHashMap; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/mutable/ParHashMap<TK;TV;>;)V
   // declaration: void <init>(scala.collection.parallel.mutable.ParHashMap<K, V>)

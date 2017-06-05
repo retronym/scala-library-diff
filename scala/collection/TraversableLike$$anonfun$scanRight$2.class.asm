@@ -11,6 +11,9 @@ public final class scala/collection/TraversableLike$$anonfun$scanRight$2 extends
   // access flags 0x11
   public final Lscala/collection/mutable/Builder; b$7
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/TraversableLike<TA;TRepr;>;)V
   // declaration: void <init>(scala.collection.TraversableLike<A, Repr>)

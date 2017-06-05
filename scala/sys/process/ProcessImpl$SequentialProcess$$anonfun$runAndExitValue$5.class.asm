@@ -17,6 +17,9 @@ public final class scala/sys/process/ProcessImpl$SequentialProcess$$anonfun$runA
   // access flags 0x1011
   public final synthetic Lscala/sys/process/ProcessImpl$SequentialProcess; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessImpl$SequentialProcess;)V
     ALOAD 1

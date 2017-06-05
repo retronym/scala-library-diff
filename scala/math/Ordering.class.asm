@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Ljava/util/Comparator<TT;>;Lscala/math/PartialOrdering<TT;>;Lscala/Serializable;
-// declaration: scala/math/Ordering<T> extends java.util.Comparator<T>, scala.math.PartialOrdering<T>, scala.Serializable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Ljava/util/Comparator<TT;>;Lscala/math/PartialOrdering<TT;>;
+// declaration: scala/math/Ordering<T> extends java.util.Comparator<T>, scala.math.PartialOrdering<T>
 public abstract interface scala/math/Ordering implements java/util/Comparator scala/math/PartialOrdering  {
 
   // access flags 0x1

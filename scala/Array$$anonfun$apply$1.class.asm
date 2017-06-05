@@ -12,6 +12,9 @@ public final class scala/Array$$anonfun$apply$1 extends scala/runtime/AbstractFu
   // access flags 0x12
   private final Lscala/runtime/IntRef; i$6
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>([ILscala/runtime/IntRef;)V
     ALOAD 0

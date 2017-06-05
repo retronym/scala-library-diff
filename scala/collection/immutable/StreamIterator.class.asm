@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractIterator<TA;>;Lscala/collection/Iterator<TA;>;
-// declaration: scala/collection/immutable/StreamIterator<A> extends scala.collection.AbstractIterator<A> implements scala.collection.Iterator<A>
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractIterator<TA;>;
+// declaration: scala/collection/immutable/StreamIterator<A> extends scala.collection.AbstractIterator<A>
 public final class scala/collection/immutable/StreamIterator extends scala/collection/AbstractIterator  {
 
   // access flags 0x1

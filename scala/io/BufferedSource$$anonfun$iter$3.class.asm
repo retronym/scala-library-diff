@@ -8,6 +8,9 @@ public final class scala/io/BufferedSource$$anonfun$iter$3 extends scala/runtime
   // access flags 0x11
   public final INNERCLASS scala/io/BufferedSource$$anonfun$iter$3 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/io/BufferedSource;)V
     ALOAD 0

@@ -11,6 +11,9 @@ public final class scala/collection/generic/BitOperations$Int$$anonfun$bits$1 ex
   // access flags 0x12
   private final I num$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/generic/BitOperations$Int;I)V
     ALOAD 0

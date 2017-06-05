@@ -1,4 +1,5 @@
 package scala
+@scala.SerialVersionUID { val value = 5066590221178148012None }
 case object None extends scala.Option[scala.Nothing] with scala.Product with scala.Serializable {
   def isEmpty: scala.Boolean = { /* compiled code */ }
   def get: scala.Nothing = { /* compiled code */ }

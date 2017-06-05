@@ -13,6 +13,9 @@ public final class scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$3 exte
   // access flags 0x12
   private final Lscala/concurrent/SyncVar; code$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Ljava/lang/Thread; thread$1
 

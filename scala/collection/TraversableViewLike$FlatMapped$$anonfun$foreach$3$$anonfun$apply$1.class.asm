@@ -15,6 +15,9 @@ public final class scala/collection/TraversableViewLike$FlatMapped$$anonfun$fore
   // access flags 0x1012
   private final synthetic Lscala/collection/TraversableViewLike$FlatMapped$$anonfun$foreach$3; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.FlatMapped<TB;>.$anonfun$foreach$3;)V
   // declaration: void <init>(scala.collection.TraversableViewLike<A, Coll, This>.FlatMapped<B>.$anonfun$foreach$3)

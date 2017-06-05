@@ -14,6 +14,9 @@ public final class scala/sys/process/ProcessBuilderImpl$ThreadBuilder$$anonfun$1
   // access flags 0x12
   private final Lscala/sys/process/ProcessIO; io$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/concurrent/SyncVar; success$1
 

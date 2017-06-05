@@ -8,6 +8,9 @@ public final class scala/StringContext$$anonfun$s$1 extends scala/runtime/Abstra
   // access flags 0x11
   public final INNERCLASS scala/StringContext$$anonfun$s$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/StringContext;)V
     ALOAD 0

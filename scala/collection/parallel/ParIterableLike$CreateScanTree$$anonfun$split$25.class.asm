@@ -10,6 +10,9 @@ public final class scala/collection/parallel/ParIterableLike$CreateScanTree$$ano
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$CreateScanTree$$anonfun$split$25 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParIterableLike<TT;TRepr;TSequential;>.CreateScanTree<TU;>;)V
   // declaration: void <init>(scala.collection.parallel.ParIterableLike<T, Repr, Sequential>.CreateScanTree<U>)

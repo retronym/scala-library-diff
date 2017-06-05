@@ -15,6 +15,9 @@ public final class scala/collection/parallel/FutureTasks$$anonfun$scala$collecti
   // access flags 0x12
   private final Lscala/collection/parallel/Task; firstTask$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/parallel/FutureTasks$$anonfun$scala$collection$parallel$FutureTasks$$compute$1$2$$anonfun$apply$1;Lscala/collection/parallel/Task;)V
     ALOAD 0

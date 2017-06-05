@@ -15,6 +15,9 @@ public final class scala/util/matching/Regex$Groups$$anonfun$unapplySeq$4 extend
   // access flags 0x12
   private final Lscala/util/matching/Regex$Match; m$4
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/util/matching/Regex$Match;)V
     ALOAD 0

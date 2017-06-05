@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenSet<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/immutable/ParSet;>;Lscala/collection/parallel/ParSet<TT;>;Lscala/collection/parallel/immutable/ParIterable<TT;>;Lscala/collection/parallel/ParSetLike<TT;Lscala/collection/parallel/immutable/ParSet<TT;>;Lscala/collection/immutable/Set<TT;>;>;
-// declaration: scala/collection/parallel/immutable/ParSet<T> extends scala.collection.GenSet<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.immutable.ParSet>, scala.collection.parallel.ParSet<T>, scala.collection.parallel.immutable.ParIterable<T>, scala.collection.parallel.ParSetLike<T, scala.collection.parallel.immutable.ParSet<T>, scala.collection.immutable.Set<T>>
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/ParSet<TT;>;Lscala/collection/parallel/immutable/ParIterable<TT;>;
+// declaration: scala/collection/parallel/immutable/ParSet<T> extends scala.collection.parallel.ParSet<T>, scala.collection.parallel.immutable.ParIterable<T>
 public abstract interface scala/collection/parallel/immutable/ParSet implements scala/collection/parallel/ParSet scala/collection/parallel/immutable/ParIterable  {
 
 

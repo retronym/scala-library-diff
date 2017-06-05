@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/Seq<TB;>;Lscala/collection/IterableViewLike<TA;TColl;TThis;>.Transformed<TB;>;Lscala/collection/SeqViewLike<TA;TColl;TThis;>.Transformed<TB;>;
-// declaration: scala/collection/SeqViewLike$AbstractTransformed<B> implements scala.collection.Seq<B>, scala.collection.IterableViewLike<A, Coll, This>.Transformed<B>, scala.collection.SeqViewLike<A, Coll, This>.Transformed<B>
+// signature <B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/SeqViewLike<TA;TColl;TThis;>.Transformed<TB;>;
+// declaration: scala/collection/SeqViewLike$AbstractTransformed<B> implements scala.collection.SeqViewLike<A, Coll, This>.Transformed<B>
 public abstract class scala/collection/SeqViewLike$AbstractTransformed implements scala/collection/SeqViewLike$Transformed  {
 
   // access flags 0x601

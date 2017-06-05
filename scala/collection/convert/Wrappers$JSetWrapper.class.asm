@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/collection/mutable/Set<TA;>;Lscala/collection/mutable/SetLike<TA;Lscala/collection/convert/Wrappers$JSetWrapper<TA;>;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/convert/Wrappers$JSetWrapper<A> extends scala.collection.mutable.AbstractSet<A> implements scala.collection.mutable.Set<A>, scala.collection.mutable.SetLike<A, scala.collection.convert.Wrappers$JSetWrapper<A>>, scala.Product, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/Product;Lscala/Serializable;
+// declaration: scala/collection/convert/Wrappers$JSetWrapper<A> extends scala.collection.mutable.AbstractSet<A> implements scala.Product, scala.Serializable
 public class scala/collection/convert/Wrappers$JSetWrapper extends scala/collection/mutable/AbstractSet  implements scala/Product scala/Serializable  {
 
   // access flags 0x1

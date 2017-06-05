@@ -13,6 +13,9 @@ public final class scala/collection/Iterator$GroupedIterator$$anonfun$padding$1 
   // access flags 0x1012
   private final synthetic Lscala/collection/Iterator$GroupedIterator; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/Iterator<TA;>.GroupedIterator<TB;>;)V
   // declaration: void <init>(scala.collection.Iterator<A>.GroupedIterator<B>)

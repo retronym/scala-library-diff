@@ -11,6 +11,9 @@ public final class scala/collection/parallel/AugmentedIterableIterator$$anonfun$
   // access flags 0x12
   private final Lscala/collection/parallel/Combiner; cb$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/AugmentedIterableIterator<TT;>;)V
   // declaration: void <init>(scala.collection.parallel.AugmentedIterableIterator<T>)

@@ -6,6 +6,9 @@ public final class scala/sys/process/BasicIO$$anonfun$1 extends scala/runtime/Ab
   // access flags 0x11
   public final INNERCLASS scala/sys/process/BasicIO$$anonfun$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>()V
     ALOAD 0

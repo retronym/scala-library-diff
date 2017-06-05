@@ -11,6 +11,9 @@ public final class scala/collection/immutable/Stream$$anonfun$continually$1 exte
   // access flags 0x12
   private final Lscala/Function0; elem$3
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/Function0;)V
     ALOAD 0

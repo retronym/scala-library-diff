@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/IndexedSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/ResizableArray;>;Lscala/collection/mutable/IndexedSeqOptimized<TA;Lscala/collection/mutable/ResizableArray<TA;>;>;
-// declaration: scala/collection/mutable/ResizableArray<A> extends scala.collection.mutable.IndexedSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.ResizableArray>, scala.collection.mutable.IndexedSeqOptimized<A, scala.collection.mutable.ResizableArray<A>>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/IndexedSeq<TA;>;Lscala/collection/mutable/IndexedSeqOptimized<TA;Lscala/collection/mutable/ResizableArray<TA;>;>;
+// declaration: scala/collection/mutable/ResizableArray<A> extends scala.collection.mutable.IndexedSeq<A>, scala.collection.mutable.IndexedSeqOptimized<A, scala.collection.mutable.ResizableArray<A>>
 public abstract interface scala/collection/mutable/ResizableArray implements scala/collection/mutable/IndexedSeq scala/collection/mutable/IndexedSeqOptimized  {
 
 

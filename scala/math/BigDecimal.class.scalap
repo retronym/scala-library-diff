@@ -13,7 +13,7 @@ final class BigDecimal extends scala.math.ScalaNumber with scala.math.ScalaNumer
   def isValidLong: scala.Boolean = { /* compiled code */ }
   @scala.deprecated("What constitutes validity is unclear.  Use `isExactFloat`, `isBinaryFloat`, or `isDecimalFloat` instead.")
   def isValidFloat: scala.Boolean = { /* compiled code */ }
-  @scala.deprecated("Validity has two distinct meanings.  Use `isExactBinaryDouble` or `equivalentToDouble` instead.")
+  @scala.deprecated("Validity has distinct meanings.  Use `isExactDouble`, `isBinaryDouble`, or `isDecimalDouble` instead.")
   def isValidDouble: scala.Boolean = { /* compiled code */ }
   def isDecimalDouble: scala.Boolean = { /* compiled code */ }
   def isDecimalFloat: scala.Boolean = { /* compiled code */ }

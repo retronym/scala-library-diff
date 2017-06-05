@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature Lscala/collection/mutable/AbstractSet<Ljava/lang/Object;>;Lscala/collection/mutable/SortedSet<Ljava/lang/Object;>;Lscala/collection/BitSet;Lscala/collection/BitSetLike<Lscala/collection/mutable/BitSet;>;Lscala/collection/mutable/SetLike<Ljava/lang/Object;Lscala/collection/mutable/BitSet;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/BitSet extends scala.collection.mutable.AbstractSet<java.lang.Object> implements scala.collection.mutable.SortedSet<java.lang.Object>, scala.collection.BitSet, scala.collection.BitSetLike<scala.collection.mutable.BitSet>, scala.collection.mutable.SetLike<java.lang.Object, scala.collection.mutable.BitSet>, scala.Serializable
+// signature Lscala/collection/mutable/AbstractSet<Ljava/lang/Object;>;Lscala/collection/mutable/SortedSet<Ljava/lang/Object;>;Lscala/collection/BitSet;Lscala/Serializable;
+// declaration: scala/collection/mutable/BitSet extends scala.collection.mutable.AbstractSet<java.lang.Object> implements scala.collection.mutable.SortedSet<java.lang.Object>, scala.collection.BitSet, scala.Serializable
 public class scala/collection/mutable/BitSet extends scala/collection/mutable/AbstractSet  implements scala/collection/mutable/SortedSet scala/collection/BitSet scala/Serializable  {
 
 
@@ -25,6 +25,8 @@ public class scala/collection/mutable/BitSet extends scala/collection/mutable/Ab
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL scala/collection/mutable/BitSet.nwords ()I
+    ICONST_1
+    ISUB
     INVOKEVIRTUAL scala/collection/mutable/BitSet.ensureCapacity (I)V
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
     ASTORE 2
@@ -131,6 +133,8 @@ public class scala/collection/mutable/BitSet extends scala/collection/mutable/Ab
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL scala/collection/mutable/BitSet.nwords ()I
+    ICONST_1
+    ISUB
     INVOKEVIRTUAL scala/collection/mutable/BitSet.ensureCapacity (I)V
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
     ASTORE 2
@@ -239,6 +243,8 @@ public class scala/collection/mutable/BitSet extends scala/collection/mutable/Ab
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL scala/collection/mutable/BitSet.nwords ()I
+    ICONST_1
+    ISUB
     INVOKEVIRTUAL scala/collection/mutable/BitSet.ensureCapacity (I)V
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
     ASTORE 2
@@ -502,6 +508,8 @@ public class scala/collection/mutable/BitSet extends scala/collection/mutable/Ab
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL scala/collection/mutable/BitSet.nwords ()I
+    ICONST_1
+    ISUB
     INVOKEVIRTUAL scala/collection/mutable/BitSet.ensureCapacity (I)V
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
     ASTORE 2

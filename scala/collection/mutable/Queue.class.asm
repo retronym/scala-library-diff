@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/MutableList<TA;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/mutable/Queue<TA;>;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/Queue;>;Lscala/collection/mutable/Cloneable<Lscala/collection/mutable/Queue<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/Queue<A> extends scala.collection.mutable.MutableList<A> implements scala.collection.LinearSeqOptimized<A, scala.collection.mutable.Queue<A>>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.Queue>, scala.collection.mutable.Cloneable<scala.collection.mutable.Queue<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/MutableList<TA;>;
+// declaration: scala/collection/mutable/Queue<A> extends scala.collection.mutable.MutableList<A>
 public class scala/collection/mutable/Queue extends scala/collection/mutable/MutableList  {
 
   // access flags 0x1

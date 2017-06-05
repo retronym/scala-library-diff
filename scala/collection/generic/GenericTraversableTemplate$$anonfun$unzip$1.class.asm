@@ -17,6 +17,9 @@ public final class scala/collection/generic/GenericTraversableTemplate$$anonfun$
   // access flags 0x12
   private final Lscala/collection/mutable/Builder; b2$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/generic/GenericTraversableTemplate<TA;TCC;>;)V
   // declaration: void <init>(scala.collection.generic.GenericTraversableTemplate<A, CC>)

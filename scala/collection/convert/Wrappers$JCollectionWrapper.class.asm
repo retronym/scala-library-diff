@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractIterable<TA;>;Lscala/collection/Iterable<TA;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/convert/Wrappers$JCollectionWrapper<A> extends scala.collection.AbstractIterable<A> implements scala.collection.Iterable<A>, scala.Product, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractIterable<TA;>;Lscala/Product;Lscala/Serializable;
+// declaration: scala/collection/convert/Wrappers$JCollectionWrapper<A> extends scala.collection.AbstractIterable<A> implements scala.Product, scala.Serializable
 public class scala/collection/convert/Wrappers$JCollectionWrapper extends scala/collection/AbstractIterable  implements scala/Product scala/Serializable  {
 
   // access flags 0x1

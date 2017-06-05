@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x421
-// signature <B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/Traversable<TB;>;Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.Transformed<TB;>;
-// declaration: scala/collection/TraversableViewLike$AbstractTransformed<B> implements scala.collection.Traversable<B>, scala.collection.TraversableViewLike<A, Coll, This>.Transformed<B>
+// signature <B:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.Transformed<TB;>;
+// declaration: scala/collection/TraversableViewLike$AbstractTransformed<B> implements scala.collection.TraversableViewLike<A, Coll, This>.Transformed<B>
 public abstract class scala/collection/TraversableViewLike$AbstractTransformed implements scala/collection/TraversableViewLike$Transformed  {
 
   // access flags 0x409

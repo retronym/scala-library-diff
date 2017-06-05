@@ -15,6 +15,9 @@ public final class scala/collection/parallel/ParMapLike$$anon$2$$anonfun$splitte
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/ParMapLike$$anon$2; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/ParMapLike<TK;TV;TRepr;TSequential;>.$anon$2;)V
   // declaration: void <init>(scala.collection.parallel.ParMapLike<K, V, Repr, Sequential>.$anon$2)

@@ -16,6 +16,9 @@ public final class scala/collection/mutable/OpenHashMap$$anonfun$retain$1 extend
   // access flags 0x12
   private final Lscala/Function2; f$4
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/OpenHashMap<TKey;TValue;>;)V
   // declaration: void <init>(scala.collection.mutable.OpenHashMap<Key, Value>)

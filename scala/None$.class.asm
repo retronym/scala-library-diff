@@ -1,12 +1,15 @@
 // class version 50.0 (50)
 // access flags 0x31
-// signature Lscala/Option<Lscala/runtime/Nothing$;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/None$ extends scala.Option<scala.runtime.Nothing$> implements scala.Product, scala.Serializable
+// signature Lscala/Option<Lscala/runtime/Nothing$;>;
+// declaration: scala/None$ extends scala.Option<scala.runtime.Nothing$>
 public final class scala/None$ extends scala/Option  {
 
 
   // access flags 0x19
   public final static Lscala/None$; MODULE$
+
+  // access flags 0x19
+  public final static J serialVersionUID = 5066590221178148012
 
   // access flags 0x9
   public static <clinit>()V

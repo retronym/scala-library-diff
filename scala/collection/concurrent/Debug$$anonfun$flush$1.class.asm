@@ -8,6 +8,9 @@ public final class scala/collection/concurrent/Debug$$anonfun$flush$1 extends sc
   // access flags 0x11
   public final INNERCLASS scala/collection/concurrent/Debug$$anonfun$flush$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>()V
     ALOAD 0

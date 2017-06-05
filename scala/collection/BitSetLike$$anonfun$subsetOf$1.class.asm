@@ -12,6 +12,9 @@ public final class scala/collection/BitSetLike$$anonfun$subsetOf$1 extends scala
   // access flags 0x12
   private final Lscala/collection/BitSet; other$5
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/BitSetLike<TThis;>;)V
   // declaration: void <init>(scala.collection.BitSetLike<This>)

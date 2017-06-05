@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/immutable/ParSeq<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/immutable/ParVector;>;Lscala/collection/parallel/ParSeqLike<TT;Lscala/collection/parallel/immutable/ParVector<TT;>;Lscala/collection/immutable/Vector<TT;>;>;Lscala/Serializable;
-// declaration: scala/collection/parallel/immutable/ParVector<T> implements scala.collection.parallel.immutable.ParSeq<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.immutable.ParVector>, scala.collection.parallel.ParSeqLike<T, scala.collection.parallel.immutable.ParVector<T>, scala.collection.immutable.Vector<T>>, scala.Serializable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/immutable/ParSeq<TT;>;Lscala/Serializable;
+// declaration: scala/collection/parallel/immutable/ParVector<T> implements scala.collection.parallel.immutable.ParSeq<T>, scala.Serializable
 public class scala/collection/parallel/immutable/ParVector implements scala/collection/parallel/immutable/ParSeq scala/Serializable  {
 
   // access flags 0x601

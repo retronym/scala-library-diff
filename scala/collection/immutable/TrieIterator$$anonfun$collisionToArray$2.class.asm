@@ -8,6 +8,9 @@ public final class scala/collection/immutable/TrieIterator$$anonfun$collisionToA
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/TrieIterator$$anonfun$collisionToArray$2 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/TrieIterator<TT;>;)V
   // declaration: void <init>(scala.collection.immutable.TrieIterator<T>)

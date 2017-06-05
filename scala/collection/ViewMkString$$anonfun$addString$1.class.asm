@@ -17,6 +17,9 @@ public final class scala/collection/ViewMkString$$anonfun$addString$1 extends sc
   // access flags 0x12
   private final Ljava/lang/String; sep$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/ViewMkString<TA;>;)V
   // declaration: void <init>(scala.collection.ViewMkString<A>)

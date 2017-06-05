@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Iterable<TA;>;Lscala/collection/Seq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/Seq;>;Lscala/collection/SeqLike<TA;Lscala/collection/immutable/Seq<TA;>;>;Lscala/collection/Parallelizable<TA;Lscala/collection/parallel/immutable/ParSeq<TA;>;>;
-// declaration: scala/collection/immutable/Seq<A> extends scala.collection.immutable.Iterable<A>, scala.collection.Seq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.Seq>, scala.collection.SeqLike<A, scala.collection.immutable.Seq<A>>, scala.collection.Parallelizable<A, scala.collection.parallel.immutable.ParSeq<A>>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Iterable<TA;>;Lscala/collection/Seq<TA;>;
+// declaration: scala/collection/immutable/Seq<A> extends scala.collection.immutable.Iterable<A>, scala.collection.Seq<A>
 public abstract interface scala/collection/immutable/Seq implements scala/collection/immutable/Iterable scala/collection/Seq  {
 
 

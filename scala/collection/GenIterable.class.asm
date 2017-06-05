@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenIterableLike<TA;Lscala/collection/GenIterable<TA;>;>;Lscala/collection/GenTraversable<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/GenIterable;>;
-// declaration: scala/collection/GenIterable<A> extends scala.collection.GenIterableLike<A, scala.collection.GenIterable<A>>, scala.collection.GenTraversable<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.GenIterable>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenIterableLike<TA;Lscala/collection/GenIterable<TA;>;>;Lscala/collection/GenTraversable<TA;>;
+// declaration: scala/collection/GenIterable<A> extends scala.collection.GenIterableLike<A, scala.collection.GenIterable<A>>, scala.collection.GenTraversable<A>
 public abstract interface scala/collection/GenIterable implements scala/collection/GenIterableLike scala/collection/GenTraversable  {
 
 

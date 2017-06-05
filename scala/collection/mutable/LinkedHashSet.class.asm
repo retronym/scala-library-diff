@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/collection/mutable/Set<TA;>;Lscala/collection/generic/GenericSetTemplate<TA;Lscala/collection/mutable/LinkedHashSet;>;Lscala/collection/mutable/SetLike<TA;Lscala/collection/mutable/LinkedHashSet<TA;>;>;Lscala/collection/mutable/HashTable<TA;Lscala/collection/mutable/LinkedHashSet$Entry<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/LinkedHashSet<A> extends scala.collection.mutable.AbstractSet<A> implements scala.collection.mutable.Set<A>, scala.collection.generic.GenericSetTemplate<A, scala.collection.mutable.LinkedHashSet>, scala.collection.mutable.SetLike<A, scala.collection.mutable.LinkedHashSet<A>>, scala.collection.mutable.HashTable<A, scala.collection.mutable.LinkedHashSet$Entry<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractSet<TA;>;Lscala/collection/mutable/HashTable<TA;Lscala/collection/mutable/LinkedHashSet$Entry<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/LinkedHashSet<A> extends scala.collection.mutable.AbstractSet<A> implements scala.collection.mutable.HashTable<A, scala.collection.mutable.LinkedHashSet$Entry<A>>, scala.Serializable
 public class scala/collection/mutable/LinkedHashSet extends scala/collection/mutable/AbstractSet  implements scala/collection/mutable/HashTable scala/Serializable  {
 
   // access flags 0x9

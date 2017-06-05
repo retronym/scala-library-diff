@@ -84,11 +84,14 @@ public abstract class scala/collection/IndexedSeqOptimized$class {
     ICONST_0
     ALOAD 0
     INVOKEINTERFACE scala/collection/IndexedSeqOptimized.length ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     INVOKEINTERFACE scala/collection/IndexedSeqOptimized.slice (II)Ljava/lang/Object;
     ARETURN
-    MAXSTACK = 4
+    MAXSTACK = 6
     MAXLOCALS = 2
 
   // access flags 0x9
@@ -1067,13 +1070,16 @@ public abstract class scala/collection/IndexedSeqOptimized$class {
     ALOAD 0
     ALOAD 0
     INVOKEINTERFACE scala/collection/IndexedSeqOptimized.length ()I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 1
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
     ISUB
     ALOAD 0
     INVOKEINTERFACE scala/collection/IndexedSeqOptimized.length ()I
     INVOKEINTERFACE scala/collection/IndexedSeqOptimized.slice (II)Ljava/lang/Object;
     ARETURN
-    MAXSTACK = 3
+    MAXSTACK = 5
     MAXLOCALS = 2
 
   // access flags 0x9

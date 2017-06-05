@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/GenIterable<TT;>;Lscala/collection/parallel/ParIterable<TT;>;Lscala/collection/generic/GenericParTemplate<TT;Lscala/collection/parallel/immutable/ParIterable;>;Lscala/collection/parallel/ParIterableLike<TT;Lscala/collection/parallel/immutable/ParIterable<TT;>;Lscala/collection/immutable/Iterable<TT;>;>;Lscala/Immutable;
-// declaration: scala/collection/parallel/immutable/ParIterable<T> extends scala.collection.GenIterable<T>, scala.collection.parallel.ParIterable<T>, scala.collection.generic.GenericParTemplate<T, scala.collection.parallel.immutable.ParIterable>, scala.collection.parallel.ParIterableLike<T, scala.collection.parallel.immutable.ParIterable<T>, scala.collection.immutable.Iterable<T>>, scala.Immutable
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/parallel/ParIterable<TT;>;Lscala/Immutable;
+// declaration: scala/collection/parallel/immutable/ParIterable<T> extends scala.collection.parallel.ParIterable<T>, scala.Immutable
 public abstract interface scala/collection/parallel/immutable/ParIterable implements scala/collection/parallel/ParIterable scala/Immutable  {
 
   // access flags 0x11

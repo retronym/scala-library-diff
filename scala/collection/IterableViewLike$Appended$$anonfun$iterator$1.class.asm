@@ -13,6 +13,9 @@ public final class scala/collection/IterableViewLike$Appended$$anonfun$iterator$
   // access flags 0x1012
   private final synthetic Lscala/collection/IterableViewLike$Appended; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/IterableViewLike<TA;TColl;TThis;>.Appended<TB;>;)V
   // declaration: void <init>(scala.collection.IterableViewLike<A, Coll, This>.Appended<B>)

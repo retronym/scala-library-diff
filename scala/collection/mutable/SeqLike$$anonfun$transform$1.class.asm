@@ -17,6 +17,9 @@ public final class scala/collection/mutable/SeqLike$$anonfun$transform$1 extends
   // access flags 0x12
   private final Lscala/runtime/IntRef; i$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/SeqLike<TA;TThis;>;)V
   // declaration: void <init>(scala.collection.mutable.SeqLike<A, This>)

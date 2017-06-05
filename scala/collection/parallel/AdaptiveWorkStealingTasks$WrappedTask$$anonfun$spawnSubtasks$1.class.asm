@@ -13,6 +13,9 @@ public final class scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTa
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; last$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask<TR;TTp;>;)V
   // declaration: void <init>(scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask<R, Tp>)

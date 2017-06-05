@@ -11,6 +11,9 @@ public final class scala/collection/SeqViewLike$$anonfun$padTo$1 extends scala/r
   // access flags 0x12
   private final Ljava/lang/Object; elem$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/SeqViewLike<TA;TColl;TThis;>;)V
   // declaration: void <init>(scala.collection.SeqViewLike<A, Coll, This>)

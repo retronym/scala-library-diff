@@ -19,6 +19,9 @@ public final class scala/collection/TraversableViewLike$TakenWhile$$anonfun$fore
   // access flags 0x12
   private final Ljava/lang/Object; nonLocalReturnKey3$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/TraversableViewLike<TA;TColl;TThis;>.TakenWhile;)V
   // declaration: void <init>(scala.collection.TraversableViewLike<A, Coll, This>.TakenWhile)

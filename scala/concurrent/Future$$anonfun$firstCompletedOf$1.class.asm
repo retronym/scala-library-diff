@@ -14,6 +14,9 @@ public final class scala/concurrent/Future$$anonfun$firstCompletedOf$1 extends s
   // access flags 0x12
   private final Lscala/concurrent/ExecutionContext; executor$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/concurrent/ExecutionContext;Lscala/Function1;)V
     ALOAD 0

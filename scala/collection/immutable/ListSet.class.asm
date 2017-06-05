@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSet<TA;>;Lscala/collection/immutable/Set<TA;>;Lscala/collection/generic/GenericSetTemplate<TA;Lscala/collection/immutable/ListSet;>;Lscala/collection/SetLike<TA;Lscala/collection/immutable/ListSet<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/ListSet<A> extends scala.collection.AbstractSet<A> implements scala.collection.immutable.Set<A>, scala.collection.generic.GenericSetTemplate<A, scala.collection.immutable.ListSet>, scala.collection.SetLike<A, scala.collection.immutable.ListSet<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSet<TA;>;Lscala/collection/immutable/Set<TA;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/ListSet<A> extends scala.collection.AbstractSet<A> implements scala.collection.immutable.Set<A>, scala.Serializable
 public class scala/collection/immutable/ListSet extends scala/collection/AbstractSet  implements scala/collection/immutable/Set scala/Serializable  {
 
   // access flags 0x1

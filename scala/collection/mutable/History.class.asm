@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <Evt:Ljava/lang/Object;Pub:Ljava/lang/Object;>Lscala/collection/mutable/AbstractIterable<Lscala/Tuple2<TPub;TEvt;>;>;Lscala/collection/mutable/Subscriber<TEvt;TPub;>;Lscala/collection/mutable/Iterable<Lscala/Tuple2<TPub;TEvt;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/History<Evt, Pub> extends scala.collection.mutable.AbstractIterable<scala.Tuple2<Pub, Evt>> implements scala.collection.mutable.Subscriber<Evt, Pub>, scala.collection.mutable.Iterable<scala.Tuple2<Pub, Evt>>, scala.Serializable
+// signature <Evt:Ljava/lang/Object;Pub:Ljava/lang/Object;>Lscala/collection/mutable/AbstractIterable<Lscala/Tuple2<TPub;TEvt;>;>;Lscala/collection/mutable/Subscriber<TEvt;TPub;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/History<Evt, Pub> extends scala.collection.mutable.AbstractIterable<scala.Tuple2<Pub, Evt>> implements scala.collection.mutable.Subscriber<Evt, Pub>, scala.Serializable
 public class scala/collection/mutable/History extends scala/collection/mutable/AbstractIterable  implements scala/collection/mutable/Subscriber scala/Serializable  {
 
   // access flags 0x11

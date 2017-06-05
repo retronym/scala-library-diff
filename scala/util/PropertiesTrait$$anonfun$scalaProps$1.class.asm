@@ -9,6 +9,9 @@ public final class scala/util/PropertiesTrait$$anonfun$scalaProps$1 extends scal
   // access flags 0x11
   public final Ljava/util/Properties; props$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x11
   public final Ljava/io/InputStream; stream$1
 

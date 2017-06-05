@@ -21,6 +21,9 @@ public final class scala/collection/immutable/Stream$$anonfun$flatMap$1 extends 
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; nonEmptyPrefix$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/immutable/Stream<TA;>;)V
   // declaration: void <init>(scala.collection.immutable.Stream<A>)

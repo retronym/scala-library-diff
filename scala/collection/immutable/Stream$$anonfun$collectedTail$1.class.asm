@@ -16,6 +16,9 @@ public final class scala/collection/immutable/Stream$$anonfun$collectedTail$1 ex
   // access flags 0x12
   private final Lscala/PartialFunction; pf$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x12
   private final Lscala/collection/immutable/Stream; stream$1
 

@@ -11,6 +11,9 @@ public final class scala/collection/parallel/immutable/LazyParVectorCombiner$$an
   // access flags 0x12
   private final Lscala/collection/immutable/VectorBuilder; rvb$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/immutable/LazyParVectorCombiner<TT;>;)V
   // declaration: void <init>(scala.collection.parallel.immutable.LazyParVectorCombiner<T>)

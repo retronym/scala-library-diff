@@ -13,6 +13,9 @@ public final class scala/collection/parallel/AdaptiveWorkStealingForkJoinTasks$W
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/AdaptiveWorkStealingForkJoinTasks$WrappedTask; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/AdaptiveWorkStealingForkJoinTasks$WrappedTask<TR;TTp;>;)V
   // declaration: void <init>(scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$WrappedTask<R, Tp>)

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Iterable<TA;>;Lscala/collection/Set<TA;>;Lscala/collection/generic/GenericSetTemplate<TA;Lscala/collection/immutable/Set;>;Lscala/collection/SetLike<TA;Lscala/collection/immutable/Set<TA;>;>;Lscala/collection/Parallelizable<TA;Lscala/collection/parallel/immutable/ParSet<TA;>;>;
-// declaration: scala/collection/immutable/Set<A> extends scala.collection.immutable.Iterable<A>, scala.collection.Set<A>, scala.collection.generic.GenericSetTemplate<A, scala.collection.immutable.Set>, scala.collection.SetLike<A, scala.collection.immutable.Set<A>>, scala.collection.Parallelizable<A, scala.collection.parallel.immutable.ParSet<A>>
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/immutable/Iterable<TA;>;Lscala/collection/Set<TA;>;
+// declaration: scala/collection/immutable/Set<A> extends scala.collection.immutable.Iterable<A>, scala.collection.Set<A>
 public abstract interface scala/collection/immutable/Set implements scala/collection/immutable/Iterable scala/collection/Set  {
 
   // access flags 0x9

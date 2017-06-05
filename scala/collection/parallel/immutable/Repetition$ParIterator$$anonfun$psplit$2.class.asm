@@ -13,6 +13,9 @@ public final class scala/collection/parallel/immutable/Repetition$ParIterator$$a
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/immutable/Repetition$ParIterator; $outer
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/parallel/immutable/Repetition<TT;>.ParIterator;)V
   // declaration: void <init>(scala.collection.parallel.immutable.Repetition<T>.ParIterator)

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <A:Ljava/lang/Object;This::Lscala/collection/SetLike<TA;TThis;>;:Lscala/collection/Set<TA;>;>Ljava/lang/Object;Lscala/collection/IterableLike<TA;TThis;>;Lscala/collection/GenSetLike<TA;TThis;>;Lscala/collection/generic/Subtractable<TA;TThis;>;Lscala/collection/Parallelizable<TA;Lscala/collection/parallel/ParSet<TA;>;>;
-// declaration: scala/collection/SetLike<A, This extends scala.collection.SetLike<A, This>, scala.collection.Set<A>> extends scala.collection.IterableLike<A, This>, scala.collection.GenSetLike<A, This>, scala.collection.generic.Subtractable<A, This>, scala.collection.Parallelizable<A, scala.collection.parallel.ParSet<A>>
+// signature <A:Ljava/lang/Object;This::Lscala/collection/SetLike<TA;TThis;>;:Lscala/collection/Set<TA;>;>Ljava/lang/Object;Lscala/collection/IterableLike<TA;TThis;>;Lscala/collection/GenSetLike<TA;TThis;>;Lscala/collection/generic/Subtractable<TA;TThis;>;
+// declaration: scala/collection/SetLike<A, This extends scala.collection.SetLike<A, This>, scala.collection.Set<A>> extends scala.collection.IterableLike<A, This>, scala.collection.GenSetLike<A, This>, scala.collection.generic.Subtractable<A, This>
 public abstract interface scala/collection/SetLike implements scala/collection/IterableLike scala/collection/GenSetLike scala/collection/generic/Subtractable  {
 
   // access flags 0x11

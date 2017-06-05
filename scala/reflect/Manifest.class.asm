@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x601
-// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/reflect/ClassTag<TT;>;Lscala/Equals;
-// declaration: scala/reflect/Manifest<T> extends scala.reflect.ClassTag<T>, scala.Equals
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;Lscala/reflect/ClassTag<TT;>;
+// declaration: scala/reflect/Manifest<T> extends scala.reflect.ClassTag<T>
 public abstract interface scala/reflect/Manifest implements scala/reflect/ClassTag  {
 
 

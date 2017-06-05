@@ -11,6 +11,9 @@ public final class scala/sys/SystemProperties$$anonfun$$plus$eq$1 extends scala/
   // access flags 0x12
   private final Lscala/Tuple2; kv$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/SystemProperties;Lscala/Tuple2;)V
     ALOAD 0

@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TA;>;Lscala/collection/mutable/Buffer<TA;>;Lscala/Product;Lscala/Serializable;
-// declaration: scala/collection/convert/Wrappers$JListWrapper<A> extends scala.collection.mutable.AbstractBuffer<A> implements scala.collection.mutable.Buffer<A>, scala.Product, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TA;>;Lscala/Product;Lscala/Serializable;
+// declaration: scala/collection/convert/Wrappers$JListWrapper<A> extends scala.collection.mutable.AbstractBuffer<A> implements scala.Product, scala.Serializable
 public class scala/collection/convert/Wrappers$JListWrapper extends scala/collection/mutable/AbstractBuffer  implements scala/Product scala/Serializable  {
 
   // access flags 0x1

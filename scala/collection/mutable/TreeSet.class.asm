@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/SortedSet<TA;>;Lscala/collection/mutable/SetLike<TA;Lscala/collection/mutable/TreeSet<TA;>;>;Lscala/collection/SortedSetLike<TA;Lscala/collection/mutable/TreeSet<TA;>;>;Lscala/collection/mutable/Set<TA;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/TreeSet<A> implements scala.collection.mutable.SortedSet<A>, scala.collection.mutable.SetLike<A, scala.collection.mutable.TreeSet<A>>, scala.collection.SortedSetLike<A, scala.collection.mutable.TreeSet<A>>, scala.collection.mutable.Set<A>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/collection/mutable/SortedSet<TA;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/TreeSet<A> implements scala.collection.mutable.SortedSet<A>, scala.Serializable
 public class scala/collection/mutable/TreeSet implements scala/collection/mutable/SortedSet scala/Serializable  {
 
   // access flags 0x409

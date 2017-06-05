@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractIterator<TA;>;Lscala/collection/Iterator<TA;>;Lscala/collection/immutable/VectorPointer<TA;>;
-// declaration: scala/collection/immutable/VectorIterator<A> extends scala.collection.AbstractIterator<A> implements scala.collection.Iterator<A>, scala.collection.immutable.VectorPointer<A>
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractIterator<TA;>;Lscala/collection/immutable/VectorPointer<TA;>;
+// declaration: scala/collection/immutable/VectorIterator<A> extends scala.collection.AbstractIterator<A> implements scala.collection.immutable.VectorPointer<A>
 public class scala/collection/immutable/VectorIterator extends scala/collection/AbstractIterator  implements scala/collection/immutable/VectorPointer  {
 
 

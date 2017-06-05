@@ -16,6 +16,9 @@ public final class scala/collection/mutable/ArrayOps$$anonfun$transpose$1 extend
   // access flags 0x11
   public final [Lscala/collection/mutable/ArrayBuilder; bs$1
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   // signature (Lscala/collection/mutable/ArrayOps<TT;>;)V
   // declaration: void <init>(scala.collection.mutable.ArrayOps<T>)

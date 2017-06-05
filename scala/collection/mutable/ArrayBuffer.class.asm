@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TA;>;Lscala/collection/mutable/Buffer<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/mutable/ArrayBuffer;>;Lscala/collection/mutable/BufferLike<TA;Lscala/collection/mutable/ArrayBuffer<TA;>;>;Lscala/collection/mutable/IndexedSeqOptimized<TA;Lscala/collection/mutable/ArrayBuffer<TA;>;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/mutable/ArrayBuffer<TA;>;>;Lscala/collection/mutable/ResizableArray<TA;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/mutable/ParArray<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/ArrayBuffer<A> extends scala.collection.mutable.AbstractBuffer<A> implements scala.collection.mutable.Buffer<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.ArrayBuffer>, scala.collection.mutable.BufferLike<A, scala.collection.mutable.ArrayBuffer<A>>, scala.collection.mutable.IndexedSeqOptimized<A, scala.collection.mutable.ArrayBuffer<A>>, scala.collection.mutable.Builder<A, scala.collection.mutable.ArrayBuffer<A>>, scala.collection.mutable.ResizableArray<A>, scala.collection.CustomParallelizable<A, scala.collection.parallel.mutable.ParArray<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/mutable/AbstractBuffer<TA;>;Lscala/collection/mutable/Builder<TA;Lscala/collection/mutable/ArrayBuffer<TA;>;>;Lscala/collection/mutable/ResizableArray<TA;>;Lscala/collection/CustomParallelizable<TA;Lscala/collection/parallel/mutable/ParArray<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/ArrayBuffer<A> extends scala.collection.mutable.AbstractBuffer<A> implements scala.collection.mutable.Builder<A, scala.collection.mutable.ArrayBuffer<A>>, scala.collection.mutable.ResizableArray<A>, scala.collection.CustomParallelizable<A, scala.collection.parallel.mutable.ParArray<A>>, scala.Serializable
 public class scala/collection/mutable/ArrayBuffer extends scala/collection/mutable/AbstractBuffer  implements scala/collection/mutable/Builder scala/collection/mutable/ResizableArray scala/collection/CustomParallelizable scala/Serializable  {
 
   // access flags 0x1
@@ -647,37 +647,33 @@ public class scala/collection/mutable/ArrayBuffer extends scala/collection/mutab
     ATHROW
    L1
     ALOAD 2
-    INVOKEINTERFACE scala/collection/Traversable.toList ()Lscala/collection/immutable/List;
-    ASTORE 3
-    ALOAD 3
-    INVOKEVIRTUAL scala/collection/immutable/List.length ()I
-    ISTORE 4
-    ALOAD 0
+    INVOKEINTERFACE scala/collection/Traversable.size ()I
+    ISTORE 3
     ALOAD 0
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.size0 ()I
-    ILOAD 4
+    ILOAD 3
     IADD
+    ISTORE 4
+    ALOAD 0
+    ILOAD 4
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.ensureSize (I)V
     ALOAD 0
     ILOAD 1
     ILOAD 1
-    ILOAD 4
+    ILOAD 3
     IADD
     ALOAD 0
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.size0 ()I
     ILOAD 1
     ISUB
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.copy (III)V
-    ALOAD 3
+    ALOAD 2
     ALOAD 0
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.array ()[Ljava/lang/Object;
     ILOAD 1
-    INVOKEVIRTUAL scala/collection/immutable/List.copyToArray (Ljava/lang/Object;I)V
+    INVOKEINTERFACE scala/collection/Traversable.copyToArray (Ljava/lang/Object;I)V
     ALOAD 0
-    ALOAD 0
-    INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.size0 ()I
     ILOAD 4
-    IADD
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.size0_$eq (I)V
     RETURN
     MAXSTACK = 5

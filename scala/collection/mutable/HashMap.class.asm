@@ -1,7 +1,7 @@
 // class version 50.0 (50)
 // access flags 0x21
-// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/collection/mutable/Map<TA;TB;>;Lscala/collection/mutable/MapLike<TA;TB;Lscala/collection/mutable/HashMap<TA;TB;>;>;Lscala/collection/mutable/HashTable<TA;Lscala/collection/mutable/DefaultEntry<TA;TB;>;>;Lscala/collection/CustomParallelizable<Lscala/Tuple2<TA;TB;>;Lscala/collection/parallel/mutable/ParHashMap<TA;TB;>;>;Lscala/Serializable;
-// declaration: scala/collection/mutable/HashMap<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.collection.mutable.Map<A, B>, scala.collection.mutable.MapLike<A, B, scala.collection.mutable.HashMap<A, B>>, scala.collection.mutable.HashTable<A, scala.collection.mutable.DefaultEntry<A, B>>, scala.collection.CustomParallelizable<scala.Tuple2<A, B>, scala.collection.parallel.mutable.ParHashMap<A, B>>, scala.Serializable
+// signature <A:Ljava/lang/Object;B:Ljava/lang/Object;>Lscala/collection/mutable/AbstractMap<TA;TB;>;Lscala/collection/mutable/HashTable<TA;Lscala/collection/mutable/DefaultEntry<TA;TB;>;>;Lscala/collection/CustomParallelizable<Lscala/Tuple2<TA;TB;>;Lscala/collection/parallel/mutable/ParHashMap<TA;TB;>;>;Lscala/Serializable;
+// declaration: scala/collection/mutable/HashMap<A, B> extends scala.collection.mutable.AbstractMap<A, B> implements scala.collection.mutable.HashTable<A, scala.collection.mutable.DefaultEntry<A, B>>, scala.collection.CustomParallelizable<scala.Tuple2<A, B>, scala.collection.parallel.mutable.ParHashMap<A, B>>, scala.Serializable
 public class scala/collection/mutable/HashMap extends scala/collection/mutable/AbstractMap  implements scala/collection/mutable/HashTable scala/collection/CustomParallelizable scala/Serializable  {
 
   // access flags 0x11

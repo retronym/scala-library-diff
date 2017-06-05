@@ -15,6 +15,23 @@ public abstract class scala/collection/SeqViewLike$FlatMapped$class {
 
   // access flags 0x9
   public static apply(Lscala/collection/SeqViewLike$FlatMapped;I)Ljava/lang/Object;
+    ILOAD 1
+    ICONST_0
+    IF_ICMPLT L0
+    ILOAD 1
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/SeqViewLike$FlatMapped.scala$collection$SeqViewLike$FlatMapped$$$outer ()Lscala/collection/SeqViewLike;
+    INVOKEINTERFACE scala/collection/SeqViewLike.length ()I
+    IF_ICMPLT L1
+   L0
+    NEW java/lang/IndexOutOfBoundsException
+    DUP
+    ILOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToInteger (I)Ljava/lang/Integer;
+    INVOKEVIRTUAL java/lang/Object.toString ()Ljava/lang/String;
+    INVOKESPECIAL java/lang/IndexOutOfBoundsException.<init> (Ljava/lang/String;)V
+    ATHROW
+   L1
     ALOAD 0
     ILOAD 1
     ICONST_0

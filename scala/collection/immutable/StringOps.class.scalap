@@ -12,6 +12,9 @@ final class StringOps extends scala.AnyVal with scala.collection.immutable.Strin
 }
 object StringOps extends scala.AnyRef {
   def this() = { /* compiled code */ }
+  final def thisCollection$extension($this: scala.collection.immutable.StringOps): scala.collection.immutable.WrappedString = { /* compiled code */ }
+  final def toCollection$extension($this: scala.collection.immutable.StringOps)(repr: scala.Predef.String): scala.collection.immutable.WrappedString = { /* compiled code */ }
+  final def newBuilder$extension($this: scala.collection.immutable.StringOps): scala.collection.mutable.StringBuilder = { /* compiled code */ }
   final def apply$extension($this: scala.collection.immutable.StringOps)(index: scala.Int): scala.Char = { /* compiled code */ }
   final def slice$extension($this: scala.collection.immutable.StringOps)(from: scala.Int, until: scala.Int): scala.Predef.String = { /* compiled code */ }
   final def toString$extension($this: scala.collection.immutable.StringOps)(): scala.Predef.String = { /* compiled code */ }

@@ -10,6 +10,9 @@ public final class scala/collection/generic/IsSeqLike$$anon$1$$anonfun$1 extends
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/IsSeqLike$$anon$1$$anonfun$1 null null
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/collection/generic/IsSeqLike$$anon$1;)V
     ALOAD 0

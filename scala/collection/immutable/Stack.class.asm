@@ -1,8 +1,8 @@
 // class version 50.0 (50)
 // DEPRECATED
 // access flags 0x20021
-// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/collection/generic/GenericTraversableTemplate<TA;Lscala/collection/immutable/Stack;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/immutable/Stack<TA;>;>;Lscala/Serializable;
-// declaration: scala/collection/immutable/Stack<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.immutable.Stack>, scala.collection.LinearSeqOptimized<A, scala.collection.immutable.Stack<A>>, scala.Serializable
+// signature <A:Ljava/lang/Object;>Lscala/collection/AbstractSeq<TA;>;Lscala/collection/immutable/LinearSeq<TA;>;Lscala/collection/LinearSeqOptimized<TA;Lscala/collection/immutable/Stack<TA;>;>;Lscala/Serializable;
+// declaration: scala/collection/immutable/Stack<A> extends scala.collection.AbstractSeq<A> implements scala.collection.immutable.LinearSeq<A>, scala.collection.LinearSeqOptimized<A, scala.collection.immutable.Stack<A>>, scala.Serializable
 public class scala/collection/immutable/Stack extends scala/collection/AbstractSeq  implements scala/collection/immutable/LinearSeq scala/collection/LinearSeqOptimized scala/Serializable  {
 
   // access flags 0x11

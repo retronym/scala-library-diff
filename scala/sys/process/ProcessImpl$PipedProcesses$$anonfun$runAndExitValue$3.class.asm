@@ -23,6 +23,9 @@ public final class scala/sys/process/ProcessImpl$PipedProcesses$$anonfun$runAndE
   // access flags 0x12
   private final Lscala/sys/process/Process; second$2
 
+  // access flags 0x19
+  public final static J serialVersionUID = 0
+
   // access flags 0x1
   public <init>(Lscala/sys/process/ProcessImpl$PipedProcesses;Lscala/concurrent/SyncVar;Lscala/concurrent/SyncVar;Lscala/sys/process/Process;Lscala/sys/process/Process;)V
     ALOAD 1
