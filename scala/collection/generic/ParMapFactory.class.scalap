@@ -1,0 +1,12 @@
+package scala.collection.generic
+abstract class ParMapFactory[CC[X, Y] <: scala.collection.parallel.ParMap[X, Y] with scala.collection.parallel.ParMapLike[X, Y, CC[X, Y], _]] extends scala.collection.generic.GenMapFactory[CC] with scala.collection.generic.GenericParMapCompanion[CC] {
+  def this() = { /* compiled code */ }
+  type MapColl = CC[_, _]
+  override def newBuilder[K, V]: scala.collection.mutable.Builder[scala.Tuple2[K, V], CC[K, V]] = { /* compiled code */ }
+  def newCombiner[K, V]: scala.collection.parallel.Combiner[scala.Tuple2[K, V], CC[K, V]]
+  class CanCombineFromMap[K, V] extends scala.AnyRef with scala.collection.generic.CanCombineFrom[CC[_, _], scala.Tuple2[K, V], CC[K, V]] {
+    def this() = { /* compiled code */ }
+    def apply(from: MapColl): scala.collection.parallel.Combiner[scala.Tuple2[K, V], CC[K, V]] = { /* compiled code */ }
+    def apply(): scala.collection.parallel.Combiner[scala.Tuple2[K, V], CC[K, V]] = { /* compiled code */ }
+  }
+}

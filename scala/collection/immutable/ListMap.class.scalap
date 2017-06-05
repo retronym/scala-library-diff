@@ -1,0 +1,36 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The semantics of immutable collections makes inheriting from ListMap error-prone.")
+@scala.SerialVersionUID { val value = 301002838095710379None }
+class ListMap[A, +B] extends scala.collection.immutable.AbstractMap[A, B] with scala.collection.immutable.Map[A, B] with scala.collection.immutable.MapLike[A, B, scala.collection.immutable.ListMap[A, B]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def empty: scala.collection.immutable.ListMap[A, scala.Nothing] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def get(key: A): scala.Option[B] = { /* compiled code */ }
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.immutable.ListMap[A, B1] = { /* compiled code */ }
+  def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.immutable.ListMap[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](elem1: scala.Tuple2[A, B1], elem2: scala.Tuple2[A, B1], elems: scala.Tuple2[A, B1]*): scala.collection.immutable.ListMap[A, B1] = { /* compiled code */ }
+  override def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.immutable.ListMap[A, B1] = { /* compiled code */ }
+  def -(key: A): scala.collection.immutable.ListMap[A, B] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  protected def key: A = { /* compiled code */ }
+  protected def value: B = { /* compiled code */ }
+  protected def next: scala.collection.immutable.ListMap[A, B] = { /* compiled code */ }
+  @scala.SerialVersionUID { val value = -6453056603889598734None }
+  protected class Node[B1 >: B] extends scala.collection.immutable.ListMap[A, B1] with scala.Serializable {
+    protected override val key: A = { /* compiled code */ }
+    protected override val value: B1 = { /* compiled code */ }
+    def this(key: A, value: B1) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def isEmpty: scala.Boolean = { /* compiled code */ }
+    override def apply(k: A): B1 = { /* compiled code */ }
+    override def get(k: A): scala.Option[B1] = { /* compiled code */ }
+    override def updated[B2 >: B1](k: A, v: B2): scala.collection.immutable.ListMap[A, B2] = { /* compiled code */ }
+    override def -(k: A): scala.collection.immutable.ListMap[A, B1] = { /* compiled code */ }
+    protected override def next: scala.collection.immutable.ListMap[A, B1] = { /* compiled code */ }
+  }
+}
+object ListMap extends scala.collection.generic.ImmutableMapFactory[scala.collection.immutable.ListMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.immutable.ListMap[A, B]] = { /* compiled code */ }
+  def empty[A, B]: scala.collection.immutable.ListMap[A, B] = { /* compiled code */ }
+}

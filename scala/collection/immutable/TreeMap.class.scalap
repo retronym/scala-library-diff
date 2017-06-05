@@ -1,0 +1,52 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The implementation details of immutable tree maps make inheriting from them unwise.")
+class TreeMap[A, +B] extends scala.AnyRef with scala.collection.immutable.SortedMap[A, B] with scala.collection.SortedMapLike[A, B, scala.collection.immutable.TreeMap[A, B]] with scala.collection.immutable.MapLike[A, B, scala.collection.immutable.TreeMap[A, B]] with scala.Serializable {
+  implicit val ordering: scala.Ordering[A] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def this()(implicit ordering: scala.Ordering[A]) = { /* compiled code */ }
+  override def rangeImpl(from: scala.Option[A], until: scala.Option[A]): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def range(from: A, until: A): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def from(from: A): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def to(to: A): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def until(until: A): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def firstKey: A = { /* compiled code */ }
+  override def lastKey: A = { /* compiled code */ }
+  override def compare(k0: A, k1: A): scala.Int = { /* compiled code */ }
+  override def head: scala.Tuple2[A, B] = { /* compiled code */ }
+  override def headOption: scala.Option[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def last: scala.Tuple2[A, B] = { /* compiled code */ }
+  override def lastOption: scala.Option[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def tail: scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def init: scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def drop(n: scala.Int): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def take(n: scala.Int): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def dropRight(n: scala.Int): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def takeRight(n: scala.Int): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[scala.collection.immutable.TreeMap[A, B], scala.collection.immutable.TreeMap[A, B]] = { /* compiled code */ }
+  override def dropWhile(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean]): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean]): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def span(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean]): scala.Tuple2[scala.collection.immutable.TreeMap[A, B], scala.collection.immutable.TreeMap[A, B]] = { /* compiled code */ }
+  override def empty: scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.immutable.TreeMap[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.immutable.TreeMap[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](elem1: scala.Tuple2[A, B1], elem2: scala.Tuple2[A, B1], elems: scala.Tuple2[A, B1]*): scala.collection.immutable.TreeMap[A, B1] = { /* compiled code */ }
+  override def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.immutable.TreeMap[A, B1] = { /* compiled code */ }
+  def insert[B1 >: B](key: A, value: B1): scala.collection.immutable.TreeMap[A, B1] = { /* compiled code */ }
+  def -(key: A): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  override def get(key: A): scala.Option[B] = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def iteratorFrom(start: A): scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def keysIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def keysIteratorFrom(start: A): scala.collection.Iterator[A] = { /* compiled code */ }
+  override def valuesIterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  override def valuesIteratorFrom(start: A): scala.collection.Iterator[B] = { /* compiled code */ }
+  override def contains(key: A): scala.Boolean = { /* compiled code */ }
+  override def isDefinedAt(key: A): scala.Boolean = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+}
+object TreeMap extends scala.collection.generic.ImmutableSortedMapFactory[scala.collection.immutable.TreeMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def empty[A, B](implicit ord: scala.Ordering[A]): scala.collection.immutable.TreeMap[A, B] = { /* compiled code */ }
+  implicit def canBuildFrom[A, B](implicit ord: scala.Ordering[A]): scala.collection.generic.CanBuildFrom[scala.collection.generic.SortedMapFactory.Coll, scala.Tuple2[A, B], scala.collection.immutable.TreeMap[A, B]] = { /* compiled code */ }
+}

@@ -1,0 +1,45 @@
+package scala.util.hashing
+private[hashing] class MurmurHash3 extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def mix(hash: scala.Int, data: scala.Int): scala.Int = { /* compiled code */ }
+  final def mixLast(hash: scala.Int, data: scala.Int): scala.Int = { /* compiled code */ }
+  final def finalizeHash(hash: scala.Int, length: scala.Int): scala.Int = { /* compiled code */ }
+  final def productHash(x: scala.Product, seed: scala.Int): scala.Int = { /* compiled code */ }
+  final def stringHash(str: scala.Predef.String, seed: scala.Int): scala.Int = { /* compiled code */ }
+  final def unorderedHash(xs: scala.TraversableOnce[scala.Any], seed: scala.Int): scala.Int = { /* compiled code */ }
+  final def orderedHash(xs: scala.TraversableOnce[scala.Any], seed: scala.Int): scala.Int = { /* compiled code */ }
+  final def arrayHash[@scala.specialized T](a: scala.Array[T], seed: scala.Int): scala.Int = { /* compiled code */ }
+  final def bytesHash(data: scala.Array[scala.Byte], seed: scala.Int): scala.Int = { /* compiled code */ }
+  final def listHash(xs: scala.collection.immutable.List[_], seed: scala.Int): scala.Int = { /* compiled code */ }
+}
+object MurmurHash3 extends scala.util.hashing.MurmurHash3 {
+  def this() = { /* compiled code */ }
+  final val arraySeed: scala.Int = { /* compiled code */ }
+  final val stringSeed: scala.Int = { /* compiled code */ }
+  final val productSeed: scala.Int = { /* compiled code */ }
+  final val symmetricSeed: scala.Int = { /* compiled code */ }
+  final val traversableSeed: scala.Int = { /* compiled code */ }
+  final val seqSeed: scala.Int = { /* compiled code */ }
+  final val mapSeed: scala.Int = { /* compiled code */ }
+  final val setSeed: scala.Int = { /* compiled code */ }
+  def arrayHash[@scala.specialized T](a: scala.Array[T]): scala.Int = { /* compiled code */ }
+  def bytesHash(data: scala.Array[scala.Byte]): scala.Int = { /* compiled code */ }
+  def orderedHash(xs: scala.TraversableOnce[scala.Any]): scala.Int = { /* compiled code */ }
+  def productHash(x: scala.Product): scala.Int = { /* compiled code */ }
+  def stringHash(x: scala.Predef.String): scala.Int = { /* compiled code */ }
+  def unorderedHash(xs: scala.TraversableOnce[scala.Any]): scala.Int = { /* compiled code */ }
+  def seqHash(xs: scala.collection.Seq[_]): scala.Int = { /* compiled code */ }
+  def mapHash(xs: scala.collection.Map[_, _]): scala.Int = { /* compiled code */ }
+  def setHash(xs: scala.collection.Set[_]): scala.Int = { /* compiled code */ }
+  class ArrayHashing[@scala.specialized T] extends scala.AnyRef with scala.util.hashing.Hashing[scala.Array[T]] {
+    @scala.specialized
+    def this() = { /* compiled code */ }
+    def hash(a: scala.Array[T]): scala.Int = { /* compiled code */ }
+  }
+  def arrayHashing[@scala.specialized T]: scala.util.hashing.MurmurHash3.ArrayHashing[T] = { /* compiled code */ }
+  def bytesHashing: scala.AnyRef with scala.util.hashing.Hashing[scala.Array[scala.Byte]] = { /* compiled code */ }
+  def orderedHashing: scala.AnyRef with scala.util.hashing.Hashing[scala.TraversableOnce[scala.Any]] = { /* compiled code */ }
+  def productHashing: scala.AnyRef with scala.util.hashing.Hashing[scala.Product] = { /* compiled code */ }
+  def stringHashing: scala.AnyRef with scala.util.hashing.Hashing[scala.Predef.String] = { /* compiled code */ }
+  def unorderedHashing: scala.AnyRef with scala.util.hashing.Hashing[scala.TraversableOnce[scala.Any]] = { /* compiled code */ }
+}

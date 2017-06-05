@@ -1,0 +1,157 @@
+package scala.math
+@scala.annotation.implicitNotFound("No implicit Ordering defined for ${T}.")
+trait Ordering[T] extends java.lang.Object with java.util.Comparator[T] with scala.math.PartialOrdering[T] with scala.Serializable {
+ this: scala.math.Ordering[T] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def tryCompare(x: T, y: T): scala.Some[scala.Int] = { /* compiled code */ }
+  def compare(x: T, y: T): scala.Int
+  override def lteq(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  override def gteq(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  override def lt(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  override def gt(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  override def equiv(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  def max(x: T, y: T): T = { /* compiled code */ }
+  def min(x: T, y: T): T = { /* compiled code */ }
+  override def reverse: scala.math.Ordering[T] = { /* compiled code */ }
+  def on[U](f: scala.Function1[U, T]): scala.math.Ordering[U] = { /* compiled code */ }
+  class Ops extends scala.AnyRef {
+    def this(lhs: T) = { /* compiled code */ }
+    def <(rhs: T): scala.Boolean = { /* compiled code */ }
+    def <=(rhs: T): scala.Boolean = { /* compiled code */ }
+    def >(rhs: T): scala.Boolean = { /* compiled code */ }
+    def >=(rhs: T): scala.Boolean = { /* compiled code */ }
+    def equiv(rhs: T): scala.Boolean = { /* compiled code */ }
+    def max(rhs: T): T = { /* compiled code */ }
+    def min(rhs: T): T = { /* compiled code */ }
+  }
+  implicit def mkOrderingOps(lhs: T): scala.math.Ordering.Ops = { /* compiled code */ }
+}
+object Ordering extends scala.AnyRef with scala.math.LowPriorityOrderingImplicits with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def apply[T](implicit ord: scala.math.Ordering[T]): scala.math.Ordering[T] = { /* compiled code */ }
+  trait ExtraImplicits extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    implicit def seqDerivedOrdering[CC[X] <: scala.collection.Seq[X], T](implicit ord: scala.math.Ordering[T]): scala.math.Ordering[CC[T]] = { /* compiled code */ }
+    implicit def infixOrderingOps[T](x: T)(implicit ord: scala.math.Ordering[T]): scala.math.Ordering.Ops = { /* compiled code */ }
+  }
+  object Implicits extends scala.AnyRef with scala.math.Ordering.ExtraImplicits {
+    def this() = { /* compiled code */ }
+  }
+  def fromLessThan[T](cmp: scala.Function2[T, T, scala.Boolean]): scala.math.Ordering[T] = { /* compiled code */ }
+  def by[T, S](f: scala.Function1[T, S])(implicit ord: scala.math.Ordering[S]): scala.math.Ordering[T] = { /* compiled code */ }
+  trait UnitOrdering extends java.lang.Object with scala.math.Ordering[scala.Unit] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Unit, y: scala.Unit): scala.Int = { /* compiled code */ }
+  }
+  implicit object Unit extends java.lang.Object with scala.math.Ordering.UnitOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait BooleanOrdering extends java.lang.Object with scala.math.Ordering[scala.Boolean] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Boolean, y: scala.Boolean): scala.Int = { /* compiled code */ }
+  }
+  implicit object Boolean extends java.lang.Object with scala.math.Ordering.BooleanOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait ByteOrdering extends java.lang.Object with scala.math.Ordering[scala.Byte] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Byte, y: scala.Byte): scala.Int = { /* compiled code */ }
+  }
+  implicit object Byte extends java.lang.Object with scala.math.Ordering.ByteOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait CharOrdering extends java.lang.Object with scala.math.Ordering[scala.Char] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Char, y: scala.Char): scala.Int = { /* compiled code */ }
+  }
+  implicit object Char extends java.lang.Object with scala.math.Ordering.CharOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait ShortOrdering extends java.lang.Object with scala.math.Ordering[scala.Short] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Short, y: scala.Short): scala.Int = { /* compiled code */ }
+  }
+  implicit object Short extends java.lang.Object with scala.math.Ordering.ShortOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait IntOrdering extends java.lang.Object with scala.math.Ordering[scala.Int] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+  }
+  implicit object Int extends java.lang.Object with scala.math.Ordering.IntOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait LongOrdering extends java.lang.Object with scala.math.Ordering[scala.Long] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Long, y: scala.Long): scala.Int = { /* compiled code */ }
+  }
+  implicit object Long extends java.lang.Object with scala.math.Ordering.LongOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait FloatOrdering extends java.lang.Object with scala.math.Ordering[scala.Float] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Float, y: scala.Float): scala.Int = { /* compiled code */ }
+    override def lteq(x: scala.Float, y: scala.Float): scala.Boolean = { /* compiled code */ }
+    override def gteq(x: scala.Float, y: scala.Float): scala.Boolean = { /* compiled code */ }
+    override def lt(x: scala.Float, y: scala.Float): scala.Boolean = { /* compiled code */ }
+    override def gt(x: scala.Float, y: scala.Float): scala.Boolean = { /* compiled code */ }
+    override def equiv(x: scala.Float, y: scala.Float): scala.Boolean = { /* compiled code */ }
+    override def max(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+    override def min(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+    override def reverse: scala.math.Ordering[scala.Float] = { /* compiled code */ }
+  }
+  implicit object Float extends java.lang.Object with scala.math.Ordering.FloatOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait DoubleOrdering extends java.lang.Object with scala.math.Ordering[scala.Double] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Double, y: scala.Double): scala.Int = { /* compiled code */ }
+    override def lteq(x: scala.Double, y: scala.Double): scala.Boolean = { /* compiled code */ }
+    override def gteq(x: scala.Double, y: scala.Double): scala.Boolean = { /* compiled code */ }
+    override def lt(x: scala.Double, y: scala.Double): scala.Boolean = { /* compiled code */ }
+    override def gt(x: scala.Double, y: scala.Double): scala.Boolean = { /* compiled code */ }
+    override def equiv(x: scala.Double, y: scala.Double): scala.Boolean = { /* compiled code */ }
+    override def max(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+    override def min(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+    override def reverse: scala.math.Ordering[scala.Double] = { /* compiled code */ }
+  }
+  implicit object Double extends java.lang.Object with scala.math.Ordering.DoubleOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait BigIntOrdering extends java.lang.Object with scala.math.Ordering[scala.math.BigInt] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.math.BigInt, y: scala.math.BigInt): scala.Int = { /* compiled code */ }
+  }
+  implicit object BigInt extends java.lang.Object with scala.math.Ordering.BigIntOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait BigDecimalOrdering extends java.lang.Object with scala.math.Ordering[scala.math.BigDecimal] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.math.BigDecimal, y: scala.math.BigDecimal): scala.Int = { /* compiled code */ }
+  }
+  implicit object BigDecimal extends java.lang.Object with scala.math.Ordering.BigDecimalOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait StringOrdering extends java.lang.Object with scala.math.Ordering[scala.Predef.String] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def compare(x: scala.Predef.String, y: scala.Predef.String): scala.Int = { /* compiled code */ }
+  }
+  implicit object String extends java.lang.Object with scala.math.Ordering.StringOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait OptionOrdering[T] extends java.lang.Object with scala.math.Ordering[scala.Option[T]] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def optionOrdering: scala.math.Ordering[T]
+    def compare(x: scala.Option[T], y: scala.Option[T]): scala.Int = { /* compiled code */ }
+  }
+  implicit def Option[T](implicit ord: scala.math.Ordering[T]): scala.math.Ordering[scala.Option[T]] = { /* compiled code */ }
+  implicit def Iterable[T](implicit ord: scala.math.Ordering[T]): scala.math.Ordering[scala.Iterable[T]] = { /* compiled code */ }
+  implicit def Tuple2[T1, T2](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2]): scala.math.Ordering[scala.Tuple2[T1, T2]] = { /* compiled code */ }
+  implicit def Tuple3[T1, T2, T3](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2], ord3: scala.math.Ordering[T3]): scala.math.Ordering[scala.Tuple3[T1, T2, T3]] = { /* compiled code */ }
+  implicit def Tuple4[T1, T2, T3, T4](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2], ord3: scala.math.Ordering[T3], ord4: scala.math.Ordering[T4]): scala.math.Ordering[scala.Tuple4[T1, T2, T3, T4]] = { /* compiled code */ }
+  implicit def Tuple5[T1, T2, T3, T4, T5](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2], ord3: scala.math.Ordering[T3], ord4: scala.math.Ordering[T4], ord5: scala.math.Ordering[T5]): scala.math.Ordering[scala.Tuple5[T1, T2, T3, T4, T5]] = { /* compiled code */ }
+  implicit def Tuple6[T1, T2, T3, T4, T5, T6](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2], ord3: scala.math.Ordering[T3], ord4: scala.math.Ordering[T4], ord5: scala.math.Ordering[T5], ord6: scala.math.Ordering[T6]): scala.math.Ordering[scala.Tuple6[T1, T2, T3, T4, T5, T6]] = { /* compiled code */ }
+  implicit def Tuple7[T1, T2, T3, T4, T5, T6, T7](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2], ord3: scala.math.Ordering[T3], ord4: scala.math.Ordering[T4], ord5: scala.math.Ordering[T5], ord6: scala.math.Ordering[T6], ord7: scala.math.Ordering[T7]): scala.math.Ordering[scala.Tuple7[T1, T2, T3, T4, T5, T6, T7]] = { /* compiled code */ }
+  implicit def Tuple8[T1, T2, T3, T4, T5, T6, T7, T8](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2], ord3: scala.math.Ordering[T3], ord4: scala.math.Ordering[T4], ord5: scala.math.Ordering[T5], ord6: scala.math.Ordering[T6], ord7: scala.math.Ordering[T7], ord8: scala.math.Ordering[T8]): scala.math.Ordering[scala.Tuple8[T1, T2, T3, T4, T5, T6, T7, T8]] = { /* compiled code */ }
+  implicit def Tuple9[T1, T2, T3, T4, T5, T6, T7, T8, T9](implicit ord1: scala.math.Ordering[T1], ord2: scala.math.Ordering[T2], ord3: scala.math.Ordering[T3], ord4: scala.math.Ordering[T4], ord5: scala.math.Ordering[T5], ord6: scala.math.Ordering[T6], ord7: scala.math.Ordering[T7], ord8: scala.math.Ordering[T8], ord9: scala.math.Ordering[T9]): scala.math.Ordering[scala.Tuple9[T1, T2, T3, T4, T5, T6, T7, T8, T9]] = { /* compiled code */ }
+}

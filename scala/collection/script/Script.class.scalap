@@ -1,0 +1,6 @@
+package scala.collection.script
+@scala.deprecated("Scripting is deprecated.")
+class Script[A] extends scala.collection.mutable.ArrayBuffer[scala.collection.script.Message[A]] with scala.collection.script.Message[A] {
+  def this() = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

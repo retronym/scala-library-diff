@@ -1,0 +1,9 @@
+package scala.collection.generic
+abstract class OrderedTraversableFactory[CC[X] <: scala.collection.Traversable[X] with scala.collection.generic.GenericOrderedTraversableTemplate[X, CC]] extends scala.collection.generic.GenericOrderedCompanion[CC] {
+  def this() = { /* compiled code */ }
+  class GenericCanBuildFrom[A] extends scala.AnyRef with scala.collection.generic.CanBuildFrom[CC[_], A, CC[A]] {
+    def this()(implicit ord: scala.Ordering[A]) = { /* compiled code */ }
+    def apply(from: CC[_]): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+    def apply(): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+  }
+}

@@ -1,0 +1,5 @@
+package scala.collection.mutable
+class RevertibleHistory[Evt <: scala.collection.mutable.Undoable, Pub] extends scala.collection.mutable.History[Evt, Pub] with scala.collection.mutable.Undoable with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def undo(): scala.Unit = { /* compiled code */ }
+}

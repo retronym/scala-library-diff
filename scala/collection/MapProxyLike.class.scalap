@@ -1,0 +1,27 @@
+package scala.collection
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait MapProxyLike[A, +B, +This <: scala.collection.MapLike[A, B, This] with scala.collection.Map[A, B]] extends scala.AnyRef with scala.collection.MapLike[A, B, This] with scala.collection.IterableProxyLike[scala.Tuple2[A, B], This] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def get(key: A): scala.Option[B] = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.Map[A, B1] = { /* compiled code */ }
+  override def -(key: A): This = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def getOrElse[B1 >: B](key: A, default: => B1): B1 = { /* compiled code */ }
+  override def apply(key: A): B = { /* compiled code */ }
+  override def contains(key: A): scala.Boolean = { /* compiled code */ }
+  override def isDefinedAt(key: A): scala.Boolean = { /* compiled code */ }
+  override def keySet: scala.collection.Set[A] = { /* compiled code */ }
+  override def keysIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def keys: scala.collection.Iterable[A] = { /* compiled code */ }
+  override def values: scala.collection.Iterable[B] = { /* compiled code */ }
+  override def valuesIterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  override def default(key: A): B = { /* compiled code */ }
+  override def filterKeys(p: scala.Function1[A, scala.Boolean]): scala.collection.Map[A, B] = { /* compiled code */ }
+  override def mapValues[C](f: scala.Function1[B, C]): scala.collection.Map[A, C] = { /* compiled code */ }
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.Map[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](kv1: scala.Tuple2[A, B1], kv2: scala.Tuple2[A, B1], kvs: scala.Tuple2[A, B1]*): scala.collection.Map[A, B1] = { /* compiled code */ }
+  override def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.Map[A, B1] = { /* compiled code */ }
+  override def filterNot(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean]): This = { /* compiled code */ }
+  override def addString(b: scala.StringBuilder, start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.StringBuilder = { /* compiled code */ }
+}

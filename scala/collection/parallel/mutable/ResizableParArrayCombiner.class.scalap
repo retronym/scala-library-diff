@@ -1,0 +1,20 @@
+package scala.collection.parallel.mutable
+trait ResizableParArrayCombiner[T] extends scala.AnyRef with scala.collection.parallel.mutable.LazyCombiner[T, scala.collection.parallel.mutable.ParArray[T], scala.collection.parallel.mutable.ExposedArrayBuffer[T]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def sizeHint(sz: scala.Int): scala.Unit = { /* compiled code */ }
+  final def newLazyCombiner(c: scala.collection.mutable.ArrayBuffer[scala.collection.parallel.mutable.ExposedArrayBuffer[T]]): scala.collection.parallel.mutable.ResizableParArrayCombiner[T] = { /* compiled code */ }
+  def allocateAndCopy: scala.collection.parallel.mutable.ParArray[T] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  class CopyChainToArray extends scala.AnyRef with scala.collection.parallel.Task[scala.Unit, scala.collection.parallel.mutable.ResizableParArrayCombiner.CopyChainToArray] {
+    def this(array: scala.Array[scala.Any], offset: scala.Int, howmany: scala.Int) = { /* compiled code */ }
+    var result: scala.Unit = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Unit]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.immutable.List[scala.collection.parallel.mutable.ResizableParArrayCombiner.CopyChainToArray] = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+  }
+}
+object ResizableParArrayCombiner extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[T](c: scala.collection.mutable.ArrayBuffer[scala.collection.parallel.mutable.ExposedArrayBuffer[T]]): scala.collection.parallel.mutable.ResizableParArrayCombiner[T] = { /* compiled code */ }
+  def apply[T](): scala.collection.parallel.mutable.ResizableParArrayCombiner[T] = { /* compiled code */ }
+}

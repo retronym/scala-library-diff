@@ -1,0 +1,21 @@
+package scala
+object Console extends scala.DeprecatedConsole with scala.io.AnsiColor {
+  def this() = { /* compiled code */ }
+  protected def setOutDirect(out: java.io.PrintStream): scala.Unit = { /* compiled code */ }
+  protected def setErrDirect(err: java.io.PrintStream): scala.Unit = { /* compiled code */ }
+  protected def setInDirect(in: java.io.BufferedReader): scala.Unit = { /* compiled code */ }
+  def out: java.io.PrintStream = { /* compiled code */ }
+  def err: java.io.PrintStream = { /* compiled code */ }
+  def in: java.io.BufferedReader = { /* compiled code */ }
+  def withOut[T](out: java.io.PrintStream)(thunk: => T): T = { /* compiled code */ }
+  def withOut[T](out: java.io.OutputStream)(thunk: => T): T = { /* compiled code */ }
+  def withErr[T](err: java.io.PrintStream)(thunk: => T): T = { /* compiled code */ }
+  def withErr[T](err: java.io.OutputStream)(thunk: => T): T = { /* compiled code */ }
+  def withIn[T](reader: java.io.Reader)(thunk: => T): T = { /* compiled code */ }
+  def withIn[T](in: java.io.InputStream)(thunk: => T): T = { /* compiled code */ }
+  def print(obj: scala.Any): scala.Unit = { /* compiled code */ }
+  def flush(): scala.Unit = { /* compiled code */ }
+  def println(): scala.Unit = { /* compiled code */ }
+  def println(x: scala.Any): scala.Unit = { /* compiled code */ }
+  def printf(text: scala.Predef.String, args: scala.Any*): scala.Unit = { /* compiled code */ }
+}

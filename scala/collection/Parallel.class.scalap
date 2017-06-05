@@ -1,0 +1,3 @@
+package scala.collection
+trait Parallel extends scala.AnyRef {
+}

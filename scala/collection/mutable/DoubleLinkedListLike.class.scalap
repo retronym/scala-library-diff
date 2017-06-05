@@ -1,0 +1,16 @@
+package scala.collection.mutable
+@scala.deprecated("Low-level linked lists are deprecated due to idiosyncracies in interface and incomplete features.")
+trait DoubleLinkedListLike[A, This <: scala.collection.mutable.Seq[A] with scala.collection.mutable.DoubleLinkedListLike[A, This]] extends scala.AnyRef with scala.collection.mutable.SeqLike[A, This] with scala.collection.mutable.LinkedListLike[A, This] {
+ this: scala.collection.mutable.DoubleLinkedListLike[A, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  var prev: This = { /* compiled code */ }
+  override def append(that: This): This = { /* compiled code */ }
+  override def insert(that: This): scala.Unit = { /* compiled code */ }
+  @scala.annotation.migration("Double linked list now removes the current node from the list.")
+  def remove(): scala.Unit = { /* compiled code */ }
+  override def drop(n: scala.Int): This = { /* compiled code */ }
+  override def tail: This = { /* compiled code */ }
+  override def apply(n: scala.Int): A = { /* compiled code */ }
+  override def update(n: scala.Int, x: A): scala.Unit = { /* compiled code */ }
+  override def get(n: scala.Int): scala.Option[A] = { /* compiled code */ }
+}

@@ -1,0 +1,79 @@
+package scala.concurrent.duration
+sealed abstract class Duration extends scala.AnyRef with scala.Serializable with scala.Ordered[scala.concurrent.duration.Duration] {
+  def this() = { /* compiled code */ }
+  def length: scala.Long
+  def unit: scala.concurrent.duration.TimeUnit
+  def toNanos: scala.Long
+  def toMicros: scala.Long
+  def toMillis: scala.Long
+  def toSeconds: scala.Long
+  def toMinutes: scala.Long
+  def toHours: scala.Long
+  def toDays: scala.Long
+  def toUnit(unit: scala.concurrent.duration.TimeUnit): scala.Double
+  def +(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration
+  def -(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration
+  def *(factor: scala.Double): scala.concurrent.duration.Duration
+  def /(divisor: scala.Double): scala.concurrent.duration.Duration
+  def /(divisor: scala.concurrent.duration.Duration): scala.Double
+  def unary_-: scala.concurrent.duration.Duration
+  def isFinite(): scala.Boolean
+  def min(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def max(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def div(divisor: scala.Double): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def div(other: scala.concurrent.duration.Duration): scala.Double = { /* compiled code */ }
+  def gt(other: scala.concurrent.duration.Duration): scala.Boolean = { /* compiled code */ }
+  def gteq(other: scala.concurrent.duration.Duration): scala.Boolean = { /* compiled code */ }
+  def lt(other: scala.concurrent.duration.Duration): scala.Boolean = { /* compiled code */ }
+  def lteq(other: scala.concurrent.duration.Duration): scala.Boolean = { /* compiled code */ }
+  def minus(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def mul(factor: scala.Double): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def neg(): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def plus(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def toCoarsest: scala.concurrent.duration.Duration
+}
+object Duration extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def apply(length: scala.Double, unit: scala.concurrent.duration.TimeUnit): scala.concurrent.duration.Duration = { /* compiled code */ }
+  sealed abstract class Infinite extends scala.concurrent.duration.Duration {
+    def this() = { /* compiled code */ }
+    def +(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+    def -(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+    def *(factor: scala.Double): scala.concurrent.duration.Duration = { /* compiled code */ }
+    def /(divisor: scala.Double): scala.concurrent.duration.Duration = { /* compiled code */ }
+    def /(divisor: scala.concurrent.duration.Duration): scala.Double = { /* compiled code */ }
+    final def isFinite(): scala.Boolean = { /* compiled code */ }
+    final def length: scala.Long = { /* compiled code */ }
+    final def unit: scala.concurrent.duration.TimeUnit = { /* compiled code */ }
+    final def toNanos: scala.Long = { /* compiled code */ }
+    final def toMicros: scala.Long = { /* compiled code */ }
+    final def toMillis: scala.Long = { /* compiled code */ }
+    final def toSeconds: scala.Long = { /* compiled code */ }
+    final def toMinutes: scala.Long = { /* compiled code */ }
+    final def toHours: scala.Long = { /* compiled code */ }
+    final def toDays: scala.Long = { /* compiled code */ }
+    final def toCoarsest: scala.concurrent.duration.Duration = { /* compiled code */ }
+    
+  }
+  def apply(length: scala.Long, unit: scala.concurrent.duration.TimeUnit): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def apply(length: scala.Long, unit: scala.Predef.String): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def apply(s: scala.Predef.String): scala.concurrent.duration.Duration = { /* compiled code */ }
+  protected val timeUnitName: scala.Predef.Map[scala.concurrent.duration.TimeUnit, scala.Predef.String] = { /* compiled code */ }
+  protected val timeUnit: scala.Predef.Map[scala.Predef.String, scala.concurrent.duration.TimeUnit] = { /* compiled code */ }
+  def unapply(s: scala.Predef.String): scala.Option[scala.Tuple2[scala.Long, scala.concurrent.duration.TimeUnit]] = { /* compiled code */ }
+  def unapply(d: scala.concurrent.duration.Duration): scala.Option[scala.Tuple2[scala.Long, scala.concurrent.duration.TimeUnit]] = { /* compiled code */ }
+  def fromNanos(nanos: scala.Double): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def fromNanos(nanos: scala.Long): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  val Zero: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  val Undefined: scala.concurrent.duration.Duration.Infinite = { /* compiled code */ }
+  val Inf: scala.concurrent.duration.Duration.Infinite = { /* compiled code */ }
+  val MinusInf: scala.concurrent.duration.Duration.Infinite = { /* compiled code */ }
+  def create(length: scala.Long, unit: scala.concurrent.duration.TimeUnit): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def create(length: scala.Double, unit: scala.concurrent.duration.TimeUnit): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def create(length: scala.Long, unit: scala.Predef.String): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def create(s: scala.Predef.String): scala.concurrent.duration.Duration = { /* compiled code */ }
+  implicit object DurationIsOrdered extends java.lang.Object with scala.Ordering[scala.concurrent.duration.Duration] {
+    def this() = { /* compiled code */ }
+    def compare(a: scala.concurrent.duration.Duration, b: scala.concurrent.duration.Duration): scala.Int = { /* compiled code */ }
+  }
+}

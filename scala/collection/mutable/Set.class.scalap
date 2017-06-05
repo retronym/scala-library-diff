@@ -1,0 +1,11 @@
+package scala.collection.mutable
+trait Set[A] extends scala.AnyRef with scala.collection.mutable.Iterable[A] with scala.collection.Set[A] with scala.collection.generic.GenericSetTemplate[A, scala.collection.mutable.Set] with scala.collection.mutable.SetLike[A, scala.collection.mutable.Set[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.Set] = { /* compiled code */ }
+  override def seq: scala.collection.mutable.Set[A] = { /* compiled code */ }
+}
+object Set extends scala.collection.generic.MutableSetFactory[scala.collection.mutable.Set] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.Set[A]] = { /* compiled code */ }
+  override def empty[A]: scala.collection.mutable.Set[A] = { /* compiled code */ }
+}

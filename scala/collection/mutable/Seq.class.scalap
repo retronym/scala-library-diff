@@ -1,0 +1,11 @@
+package scala.collection.mutable
+trait Seq[A] extends scala.AnyRef with scala.collection.mutable.Iterable[A] with scala.collection.Seq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.Seq] with scala.collection.mutable.SeqLike[A, scala.collection.mutable.Seq[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.Seq] = { /* compiled code */ }
+  override def seq: scala.collection.mutable.Seq[A] = { /* compiled code */ }
+}
+object Seq extends scala.collection.generic.SeqFactory[scala.collection.mutable.Seq] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.Seq[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.Seq[A]] = { /* compiled code */ }
+}

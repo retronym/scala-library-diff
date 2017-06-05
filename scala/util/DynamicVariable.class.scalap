@@ -1,0 +1,8 @@
+package scala.util
+class DynamicVariable[T] extends scala.AnyRef {
+  def this(init: T) = { /* compiled code */ }
+  def value: T = { /* compiled code */ }
+  def withValue[S](newval: T)(thunk: => S): S = { /* compiled code */ }
+  def value_=(newval: T): scala.Unit = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

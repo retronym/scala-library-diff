@@ -1,0 +1,11 @@
+package scala.ref
+class WeakReference[+T <: scala.AnyRef] extends scala.AnyRef with scala.ref.ReferenceWrapper[T] {
+  def this(value: T, queue: scala.ref.ReferenceQueue[T]) = { /* compiled code */ }
+  def this(value: T) = { /* compiled code */ }
+  val underlying: java.lang.ref.WeakReference[_] = { /* compiled code */ }
+}
+object WeakReference extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[T <: scala.AnyRef](value: T): scala.ref.WeakReference[T] = { /* compiled code */ }
+  def unapply[T <: scala.AnyRef](wr: scala.ref.WeakReference[T]): scala.Option[T] = { /* compiled code */ }
+}

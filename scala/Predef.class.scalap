@@ -1,0 +1,237 @@
+package scala
+object Predef extends scala.LowPriorityImplicits with scala.DeprecatedPredef {
+  def this() = { /* compiled code */ }
+  def classOf[T]: Class[T] = { /* compiled code */ }
+  type Class[T] = java.lang.Class[T]
+  type String = java.lang.String
+  type Function[-A, +B] = scala.Function1[A, B]
+  type Map[A, +B] = scala.collection.immutable.Map[A, B]
+  type Set[A] = scala.collection.immutable.Set[A]
+  val Map: scala.collection.immutable.Map.type = { /* compiled code */ }
+  val Set: scala.collection.immutable.Set.type = { /* compiled code */ }
+  @scala.deprecated("Use `scala.reflect.ClassTag` instead")
+  @scala.annotation.implicitNotFound("No ClassManifest available for ${T}.")
+  type ClassManifest[T] = scala.reflect.ClassManifest[T]
+  type OptManifest[T] = scala.reflect.OptManifest[T]
+  @scala.annotation.implicitNotFound("No Manifest available for ${T}.")
+  type Manifest[T] = scala.reflect.Manifest[T]
+  @scala.deprecated("Use `scala.reflect.ClassTag` instead")
+  val ClassManifest: scala.reflect.ClassManifestFactory.type = { /* compiled code */ }
+  val Manifest: scala.reflect.ManifestFactory.type = { /* compiled code */ }
+  val NoManifest: scala.reflect.NoManifest.type = { /* compiled code */ }
+  def manifest[T](implicit m: Manifest[T]): Manifest[T] = { /* compiled code */ }
+  @scala.deprecated("Use scala.reflect.classTag[T] instead")
+  def classManifest[T](implicit m: ClassManifest[T]): ClassManifest[T] = { /* compiled code */ }
+  def optManifest[T](implicit m: OptManifest[T]): OptManifest[T] = { /* compiled code */ }
+  def identity[A](x: A): A = { /* compiled code */ }
+  @scala.inline
+  def implicitly[T](implicit e: T): T = { /* compiled code */ }
+  @scala.inline
+  def locally[T](x: T): T = { /* compiled code */ }
+  @scala.deprecated("Use `sys.error(message)` instead")
+  def error(message: String): scala.Nothing = { /* compiled code */ }
+  @scala.annotation.elidable(2000)
+  def assert(assertion: scala.Boolean): scala.Unit = { /* compiled code */ }
+  @scala.inline
+  @scala.annotation.elidable(2000)
+  final def assert(assertion: scala.Boolean, message: => scala.Any): scala.Unit = { /* compiled code */ }
+  @scala.annotation.elidable(2000)
+  def assume(assumption: scala.Boolean): scala.Unit = { /* compiled code */ }
+  @scala.inline
+  @scala.annotation.elidable(2000)
+  final def assume(assumption: scala.Boolean, message: => scala.Any): scala.Unit = { /* compiled code */ }
+  def require(requirement: scala.Boolean): scala.Unit = { /* compiled code */ }
+  @scala.inline
+  final def require(requirement: scala.Boolean, message: => scala.Any): scala.Unit = { /* compiled code */ }
+  def ???: scala.Nothing = { /* compiled code */ }
+  @scala.deprecated("Use built-in tuple syntax or Tuple2 instead")
+  type Pair[+A, +B] = scala.Tuple2[A, B]
+  @scala.deprecated("Use built-in tuple syntax or Tuple2 instead")
+  object Pair extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply[A, B](x: A, y: B): scala.Tuple2[A, B] = { /* compiled code */ }
+    def unapply[A, B](x: scala.Tuple2[A, B]): scala.Option[scala.Tuple2[A, B]] = { /* compiled code */ }
+  }
+  @scala.deprecated("Use built-in tuple syntax or Tuple2 instead")
+  @scala.deprecated("Use built-in tuple syntax or Tuple3 instead")
+  type Triple[+A, +B, +C] = scala.Tuple3[A, B, C]
+  @scala.deprecated("Use built-in tuple syntax or Tuple3 instead")
+  object Triple extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply[A, B, C](x: A, y: B, z: C): scala.Tuple3[A, B, C] = { /* compiled code */ }
+    def unapply[A, B, C](x: scala.Tuple3[A, B, C]): scala.Option[scala.Tuple3[A, B, C]] = { /* compiled code */ }
+  }
+  @scala.deprecated("Use built-in tuple syntax or Tuple3 instead")
+  implicit final class ArrowAssoc[A] extends scala.AnyVal {
+    def this(self: A) = { /* compiled code */ }
+    @scala.inline
+    def ->[B](y: B): scala.Tuple2[A, B] = { /* compiled code */ }
+    def →[B](y: B): scala.Tuple2[A, B] = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  implicit def ArrowAssoc[A](self: A): scala.Predef.ArrowAssoc[A] = { /* compiled code */ }
+  implicit final class Ensuring[A] extends scala.AnyVal {
+    def this(self: A) = { /* compiled code */ }
+    def ensuring(cond: scala.Boolean): A = { /* compiled code */ }
+    def ensuring(cond: scala.Boolean, msg: => scala.Any): A = { /* compiled code */ }
+    def ensuring(cond: scala.Function1[A, scala.Boolean]): A = { /* compiled code */ }
+    def ensuring(cond: scala.Function1[A, scala.Boolean], msg: => scala.Any): A = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  implicit def Ensuring[A](self: A): scala.Predef.Ensuring[A] = { /* compiled code */ }
+  implicit final class StringFormat[A] extends scala.AnyVal {
+    def this(self: A) = { /* compiled code */ }
+    @scala.inline
+    def formatted(fmtstr: String): String = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  implicit def StringFormat[A](self: A): scala.Predef.StringFormat[A] = { /* compiled code */ }
+  private[scala] final class StringAdd[A] extends scala.AnyVal {
+    def this(self: A) = { /* compiled code */ }
+    def +(other: String): String = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  private[scala] def StringAdd(x: scala.Any): scala.Any = { /* compiled code */ }
+  implicit final class any2stringadd[A] extends scala.AnyVal {
+    def this(self: A) = { /* compiled code */ }
+    def +(other: String): String = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  implicit def any2stringadd[A](self: A): scala.Predef.any2stringadd[A] = { /* compiled code */ }
+  implicit final class RichException extends scala.AnyVal {
+    def this(self: scala.Throwable) = { /* compiled code */ }
+    @scala.deprecated("Use Throwable#getStackTrace")
+    def getStackTraceString: String = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  implicit def RichException(self: scala.Throwable): scala.Predef.RichException = { /* compiled code */ }
+  implicit final class SeqCharSequence extends java.lang.Object with java.lang.CharSequence {
+    val __sequenceOfChars: scala.collection.IndexedSeq[scala.Char] = { /* compiled code */ }
+    def this(__sequenceOfChars: scala.collection.IndexedSeq[scala.Char]) = { /* compiled code */ }
+    def length(): scala.Int = { /* compiled code */ }
+    def charAt(index: scala.Int): scala.Char = { /* compiled code */ }
+    def subSequence(start: scala.Int, end: scala.Int): java.lang.CharSequence = { /* compiled code */ }
+    override def toString(): String = { /* compiled code */ }
+  }
+  implicit def SeqCharSequence(__sequenceOfChars: scala.collection.IndexedSeq[scala.Char]): scala.Predef.SeqCharSequence = { /* compiled code */ }
+  implicit final class ArrayCharSequence extends java.lang.Object with java.lang.CharSequence {
+    val __arrayOfChars: scala.Array[scala.Char] = { /* compiled code */ }
+    def this(__arrayOfChars: scala.Array[scala.Char]) = { /* compiled code */ }
+    def length(): scala.Int = { /* compiled code */ }
+    def charAt(index: scala.Int): scala.Char = { /* compiled code */ }
+    def subSequence(start: scala.Int, end: scala.Int): java.lang.CharSequence = { /* compiled code */ }
+    override def toString(): String = { /* compiled code */ }
+  }
+  implicit def ArrayCharSequence(__arrayOfChars: scala.Array[scala.Char]): scala.Predef.ArrayCharSequence = { /* compiled code */ }
+  implicit val StringCanBuildFrom: scala.collection.generic.CanBuildFrom[String, scala.Char, String] = { /* compiled code */ }
+  @scala.inline
+  implicit def augmentString(x: String): scala.collection.immutable.StringOps = { /* compiled code */ }
+  @scala.inline
+  implicit def unaugmentString(x: scala.collection.immutable.StringOps): String = { /* compiled code */ }
+  def print(x: scala.Any): scala.Unit = { /* compiled code */ }
+  def println(): scala.Unit = { /* compiled code */ }
+  def println(x: scala.Any): scala.Unit = { /* compiled code */ }
+  def printf(text: String, xs: scala.Any*): scala.Unit = { /* compiled code */ }
+  implicit def tuple2ToZippedOps[T1, T2](x: scala.Tuple2[T1, T2]): scala.runtime.Tuple2Zipped.Ops[T1, T2] = { /* compiled code */ }
+  implicit def tuple3ToZippedOps[T1, T2, T3](x: scala.Tuple3[T1, T2, T3]): scala.runtime.Tuple3Zipped.Ops[T1, T2, T3] = { /* compiled code */ }
+  implicit def genericArrayOps[T](xs: scala.Array[T]): scala.collection.mutable.ArrayOps[T] = { /* compiled code */ }
+  implicit def booleanArrayOps(xs: scala.Array[scala.Boolean]): scala.collection.mutable.ArrayOps[scala.Boolean] = { /* compiled code */ }
+  implicit def byteArrayOps(xs: scala.Array[scala.Byte]): scala.collection.mutable.ArrayOps[scala.Byte] = { /* compiled code */ }
+  implicit def charArrayOps(xs: scala.Array[scala.Char]): scala.collection.mutable.ArrayOps[scala.Char] = { /* compiled code */ }
+  implicit def doubleArrayOps(xs: scala.Array[scala.Double]): scala.collection.mutable.ArrayOps[scala.Double] = { /* compiled code */ }
+  implicit def floatArrayOps(xs: scala.Array[scala.Float]): scala.collection.mutable.ArrayOps[scala.Float] = { /* compiled code */ }
+  implicit def intArrayOps(xs: scala.Array[scala.Int]): scala.collection.mutable.ArrayOps[scala.Int] = { /* compiled code */ }
+  implicit def longArrayOps(xs: scala.Array[scala.Long]): scala.collection.mutable.ArrayOps[scala.Long] = { /* compiled code */ }
+  implicit def refArrayOps[T <: scala.AnyRef](xs: scala.Array[T]): scala.collection.mutable.ArrayOps[T] = { /* compiled code */ }
+  implicit def shortArrayOps(xs: scala.Array[scala.Short]): scala.collection.mutable.ArrayOps[scala.Short] = { /* compiled code */ }
+  implicit def unitArrayOps(xs: scala.Array[scala.Unit]): scala.collection.mutable.ArrayOps[scala.Unit] = { /* compiled code */ }
+  implicit def byte2Byte(x: scala.Byte): java.lang.Byte = { /* compiled code */ }
+  implicit def short2Short(x: scala.Short): java.lang.Short = { /* compiled code */ }
+  implicit def char2Character(x: scala.Char): java.lang.Character = { /* compiled code */ }
+  implicit def int2Integer(x: scala.Int): java.lang.Integer = { /* compiled code */ }
+  implicit def long2Long(x: scala.Long): java.lang.Long = { /* compiled code */ }
+  implicit def float2Float(x: scala.Float): java.lang.Float = { /* compiled code */ }
+  implicit def double2Double(x: scala.Double): java.lang.Double = { /* compiled code */ }
+  implicit def boolean2Boolean(x: scala.Boolean): java.lang.Boolean = { /* compiled code */ }
+  implicit def Byte2byte(x: java.lang.Byte): scala.Byte = { /* compiled code */ }
+  implicit def Short2short(x: java.lang.Short): scala.Short = { /* compiled code */ }
+  implicit def Character2char(x: java.lang.Character): scala.Char = { /* compiled code */ }
+  implicit def Integer2int(x: java.lang.Integer): scala.Int = { /* compiled code */ }
+  implicit def Long2long(x: java.lang.Long): scala.Long = { /* compiled code */ }
+  implicit def Float2float(x: java.lang.Float): scala.Float = { /* compiled code */ }
+  implicit def Double2double(x: java.lang.Double): scala.Double = { /* compiled code */ }
+  implicit def Boolean2boolean(x: java.lang.Boolean): scala.Boolean = { /* compiled code */ }
+  @scala.annotation.implicitNotFound("Cannot prove that ${From} <:< ${To}.")
+  sealed abstract class <:<[-From, +To] extends scala.AnyRef with scala.Function1[From, To] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    
+  }
+  implicit def $conforms[A]: scala.Predef.<:<[A, A] = { /* compiled code */ }
+  @scala.deprecated("Use `implicitly[T <:< U]` or `identity` instead.")
+  def conforms[A]: scala.Predef.<:<[A, A] = { /* compiled code */ }
+  @scala.annotation.implicitNotFound("Cannot prove that ${From} =:= ${To}.")
+  sealed abstract class =:=[From, To] extends scala.AnyRef with scala.Function1[From, To] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    
+  }
+  object =:= extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    implicit def tpEquals[A]: scala.Predef.=:=[A, A] = { /* compiled code */ }
+  }
+  class DummyImplicit extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+  }
+  object DummyImplicit extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    implicit def dummyImplicit: scala.Predef.DummyImplicit = { /* compiled code */ }
+  }
+  object RichException extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    @scala.deprecated("Use Throwable#getStackTrace")
+    final def getStackTraceString$extension($this: scala.Predef.RichException): String = { /* compiled code */ }
+    final def hashCode$extension($this: scala.Predef.RichException)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.Predef.RichException)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object any2stringadd extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def +$extension[A]($this: scala.Predef.any2stringadd[A])(other: String): String = { /* compiled code */ }
+    final def hashCode$extension[A]($this: scala.Predef.any2stringadd[A])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[A]($this: scala.Predef.any2stringadd[A])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object StringFormat extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    @scala.inline
+    final def formatted$extension[A]($this: scala.Predef.StringFormat[A])(fmtstr: String): String = { /* compiled code */ }
+    final def hashCode$extension[A]($this: scala.Predef.StringFormat[A])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[A]($this: scala.Predef.StringFormat[A])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object Ensuring extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def ensuring$extension0[A]($this: scala.Predef.Ensuring[A])(cond: scala.Boolean): A = { /* compiled code */ }
+    final def ensuring$extension1[A]($this: scala.Predef.Ensuring[A])(cond: scala.Boolean, msg: => scala.Any): A = { /* compiled code */ }
+    final def ensuring$extension2[A]($this: scala.Predef.Ensuring[A])(cond: scala.Function1[A, scala.Boolean]): A = { /* compiled code */ }
+    final def ensuring$extension3[A]($this: scala.Predef.Ensuring[A])(cond: scala.Function1[A, scala.Boolean], msg: => scala.Any): A = { /* compiled code */ }
+    final def hashCode$extension[A]($this: scala.Predef.Ensuring[A])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[A]($this: scala.Predef.Ensuring[A])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ArrowAssoc extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    @scala.inline
+    final def ->$extension[B, A]($this: scala.Predef.ArrowAssoc[A])(y: B): scala.Tuple2[A, B] = { /* compiled code */ }
+    final def →$extension[B, A]($this: scala.Predef.ArrowAssoc[A])(y: B): scala.Tuple2[A, B] = { /* compiled code */ }
+    final def hashCode$extension[A]($this: scala.Predef.ArrowAssoc[A])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[A]($this: scala.Predef.ArrowAssoc[A])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  private[scala] object StringAdd extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def +$extension[A]($this: scala.Predef.StringAdd[A])(other: String): String = { /* compiled code */ }
+    final def hashCode$extension[A]($this: scala.Predef.StringAdd[A])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[A]($this: scala.Predef.StringAdd[A])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+}

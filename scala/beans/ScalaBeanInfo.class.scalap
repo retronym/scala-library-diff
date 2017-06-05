@@ -1,0 +1,6 @@
+package scala.beans
+abstract class ScalaBeanInfo extends java.beans.SimpleBeanInfo {
+  def this(clazz: java.lang.Class[_], props: scala.Array[scala.Predef.String], methods: scala.Array[scala.Predef.String]) = { /* compiled code */ }
+  override def getPropertyDescriptors(): scala.Array[java.beans.PropertyDescriptor] = { /* compiled code */ }
+  override def getMethodDescriptors(): scala.Array[java.beans.MethodDescriptor] = { /* compiled code */ }
+}

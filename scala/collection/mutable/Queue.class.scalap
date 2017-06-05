@@ -1,0 +1,20 @@
+package scala.collection.mutable
+class Queue[A] extends scala.collection.mutable.MutableList[A] with scala.collection.LinearSeqOptimized[A, scala.collection.mutable.Queue[A]] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.Queue] with scala.collection.mutable.Cloneable[scala.collection.mutable.Queue[A]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.Queue] = { /* compiled code */ }
+  private[mutable] def this(fst: scala.collection.mutable.LinkedList[A], lst: scala.collection.mutable.LinkedList[A], lng: scala.Int) = { /* compiled code */ }
+  def enqueue(elems: A*): scala.Unit = { /* compiled code */ }
+  def dequeue(): A = { /* compiled code */ }
+  def dequeueFirst(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  def dequeueAll(p: scala.Function1[A, scala.Boolean]): scala.collection.mutable.Seq[A] = { /* compiled code */ }
+  @scala.deprecated("extractFirst inappropriately exposes implementation details.  Use dequeue or dequeueAll.")
+  def extractFirst(start: scala.collection.mutable.LinkedList[A], p: scala.Function1[A, scala.Boolean]): scala.Option[scala.collection.mutable.LinkedList[A]] = { /* compiled code */ }
+  def front: A = { /* compiled code */ }
+  override def tail: scala.collection.mutable.Queue[A] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.Queue[A] = { /* compiled code */ }
+}
+object Queue extends scala.collection.generic.SeqFactory[scala.collection.mutable.Queue] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.Queue[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.Queue[A]] = { /* compiled code */ }
+}

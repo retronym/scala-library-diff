@@ -1,0 +1,15 @@
+package scala
+trait Product2[@scala.specialized +T1, @scala.specialized +T2] extends scala.Any with scala.Product {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def productArity: scala.Int = { /* compiled code */ }
+  @scala.throws[scala.IndexOutOfBoundsException](scala.IndexOutOfBoundsException)
+  override def productElement(n: scala.Int): scala.Any = { /* compiled code */ }
+  def _1: T1
+  @scala.specialized
+  def _2: T2
+  @scala.specialized
+}
+object Product2 extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def unapply[T1, T2](x: scala.Product2[T1, T2]): scala.Option[scala.Product2[T1, T2]] = { /* compiled code */ }
+}

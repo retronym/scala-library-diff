@@ -1,0 +1,7 @@
+package scala.collection
+trait DefaultMap[A, +B] extends scala.AnyRef with scala.collection.Map[A, B] {
+ this: scala.collection.DefaultMap[A, B] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.Map[A, B1] = { /* compiled code */ }
+  override def -(key: A): scala.collection.Map[A, B] = { /* compiled code */ }
+}

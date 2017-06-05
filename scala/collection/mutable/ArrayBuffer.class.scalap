@@ -1,0 +1,25 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 1529165946227428979None }
+class ArrayBuffer[A] extends scala.collection.mutable.AbstractBuffer[A] with scala.collection.mutable.Buffer[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.ArrayBuffer] with scala.collection.mutable.BufferLike[A, scala.collection.mutable.ArrayBuffer[A]] with scala.collection.mutable.IndexedSeqOptimized[A, scala.collection.mutable.ArrayBuffer[A]] with scala.collection.mutable.Builder[A, scala.collection.mutable.ArrayBuffer[A]] with scala.collection.mutable.ResizableArray[A] with scala.collection.CustomParallelizable[A, scala.collection.parallel.mutable.ParArray[A]] with scala.Serializable {
+  protected override val initialSize: scala.Int = { /* compiled code */ }
+  def this(initialSize: scala.Int) = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.ArrayBuffer] = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  override def sizeHint(len: scala.Int): scala.Unit = { /* compiled code */ }
+  override def par: scala.collection.parallel.mutable.ParArray[A] = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.ArrayBuffer.type = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.ArrayBuffer.type = { /* compiled code */ }
+  def +=:(elem: A): scala.collection.mutable.ArrayBuffer.type = { /* compiled code */ }
+  override def ++=:(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.ArrayBuffer.type = { /* compiled code */ }
+  def insertAll(n: scala.Int, seq: scala.collection.Traversable[A]): scala.Unit = { /* compiled code */ }
+  override def remove(n: scala.Int, count: scala.Int): scala.Unit = { /* compiled code */ }
+  def remove(n: scala.Int): A = { /* compiled code */ }
+  def result(): scala.collection.mutable.ArrayBuffer[A] = { /* compiled code */ }
+  override def stringPrefix: scala.Predef.String = { /* compiled code */ }
+}
+object ArrayBuffer extends scala.collection.generic.SeqFactory[scala.collection.mutable.ArrayBuffer] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.ArrayBuffer[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.ArrayBuffer[A]] = { /* compiled code */ }
+}

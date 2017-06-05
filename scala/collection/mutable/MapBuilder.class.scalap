@@ -1,0 +1,8 @@
+package scala.collection.mutable
+class MapBuilder[A, B, Coll <: scala.collection.GenMap[A, B] with scala.collection.GenMapLike[A, B, Coll]] extends scala.AnyRef with scala.collection.mutable.Builder[scala.Tuple2[A, B], Coll] {
+  def this(empty: Coll) = { /* compiled code */ }
+  protected var elems: Coll = { /* compiled code */ }
+  def +=(x: scala.Tuple2[A, B]): scala.collection.mutable.MapBuilder.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def result(): Coll = { /* compiled code */ }
+}

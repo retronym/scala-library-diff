@@ -1,0 +1,22 @@
+package scala.collection.mutable
+trait ResizableArray[A] extends scala.AnyRef with scala.collection.mutable.IndexedSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.ResizableArray] with scala.collection.mutable.IndexedSeqOptimized[A, scala.collection.mutable.ResizableArray[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.ResizableArray] = { /* compiled code */ }
+  protected def initialSize: scala.Int = { /* compiled code */ }
+  protected var array: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  protected var size0: scala.Int = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  def apply(idx: scala.Int): A = { /* compiled code */ }
+  def update(idx: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  def reduceToSize(sz: scala.Int): scala.Unit = { /* compiled code */ }
+  protected def ensureSize(n: scala.Int): scala.Unit = { /* compiled code */ }
+  protected def swap(a: scala.Int, b: scala.Int): scala.Unit = { /* compiled code */ }
+  protected def copy(m: scala.Int, n: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+}
+object ResizableArray extends scala.collection.generic.SeqFactory[scala.collection.mutable.ResizableArray] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.ResizableArray[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.ResizableArray[A]] = { /* compiled code */ }
+}

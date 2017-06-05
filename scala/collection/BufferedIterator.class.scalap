@@ -1,0 +1,6 @@
+package scala.collection
+trait BufferedIterator[+A] extends scala.AnyRef with scala.collection.Iterator[A] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def head: A
+  override def buffered: scala.collection.BufferedIterator.type = { /* compiled code */ }
+}

@@ -1,0 +1,47 @@
+package scala.collection.mutable
+final class LongMap[V] extends scala.collection.mutable.AbstractMap[scala.Long, V] with scala.collection.mutable.Map[scala.Long, V] with scala.collection.mutable.MapLike[scala.Long, V, scala.collection.mutable.LongMap[V]] with scala.Serializable {
+  private[collection] def this(defaultEntry: scala.Function1[scala.Long, V], initialBufferSize: scala.Int, initBlank: scala.Boolean) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  def this(defaultEntry: scala.Function1[scala.Long, V]) = { /* compiled code */ }
+  def this(initialBufferSize: scala.Int) = { /* compiled code */ }
+  def this(defaultEntry: scala.Function1[scala.Long, V], initialBufferSize: scala.Int) = { /* compiled code */ }
+  private[collection] def initializeTo(m: scala.Int, ek: scala.Int, zv: scala.AnyRef, mv: scala.AnyRef, sz: scala.Int, vc: scala.Int, kz: scala.Array[scala.Long], vz: scala.Array[scala.AnyRef]): scala.Unit = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def empty: scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+  override def contains(key: scala.Long): scala.Boolean = { /* compiled code */ }
+  override def get(key: scala.Long): scala.Option[V] = { /* compiled code */ }
+  override def getOrElse[V1 >: V](key: scala.Long, default: => V1): V1 = { /* compiled code */ }
+  override def getOrElseUpdate(key: scala.Long, defaultValue: => V): V = { /* compiled code */ }
+  def getOrNull(key: scala.Long): V = { /* compiled code */ }
+  override def apply(key: scala.Long): V = { /* compiled code */ }
+  override def default(key: scala.Long): V = { /* compiled code */ }
+  def repack(): scala.Unit = { /* compiled code */ }
+  override def put(key: scala.Long, value: V): scala.Option[V] = { /* compiled code */ }
+  override def update(key: scala.Long, value: V): scala.Unit = { /* compiled code */ }
+  def +=(key: scala.Long, value: V): scala.collection.mutable.LongMap.type = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[scala.Long, V]): scala.collection.mutable.LongMap.type = { /* compiled code */ }
+  def -=(key: scala.Long): scala.collection.mutable.LongMap.type = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[scala.Long, V]] = { /* compiled code */ }
+  override def foreach[A](f: scala.Function1[scala.Tuple2[scala.Long, V], A]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+  def foreachKey[A](f: scala.Function1[scala.Long, A]): scala.Unit = { /* compiled code */ }
+  def foreachValue[A](f: scala.Function1[V, A]): scala.Unit = { /* compiled code */ }
+  def mapValuesNow[V1](f: scala.Function1[V, V1]): scala.collection.mutable.LongMap[V1] = { /* compiled code */ }
+  def transformValues(f: scala.Function1[V, V]): scala.collection.mutable.LongMap.type = { /* compiled code */ }
+}
+object LongMap extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[V, U]: scala.collection.generic.CanBuildFrom[scala.collection.mutable.LongMap[V], scala.Tuple2[scala.Long, U], scala.collection.mutable.LongMap[U]] = { /* compiled code */ }
+  final class LongMapBuilder[V] extends scala.AnyRef with scala.collection.mutable.Builder[scala.Tuple2[scala.Long, V], scala.collection.mutable.LongMap[V]] {
+    def this() = { /* compiled code */ }
+    private[collection] var elems: scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+    def +=(entry: scala.Tuple2[scala.Long, V]): scala.collection.mutable.LongMap.LongMapBuilder.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+  }
+  def apply[V](elems: scala.Tuple2[scala.Long, V]*): scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+  def empty[V]: scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+  def withDefault[V](default: scala.Function1[scala.Long, V]): scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+  def fromZip[V](keys: scala.Array[scala.Long], values: scala.Array[V]): scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+  def fromZip[V](keys: scala.collection.mutable.Iterable[scala.Long], values: scala.collection.mutable.Iterable[V]): scala.collection.mutable.LongMap[V] = { /* compiled code */ }
+}

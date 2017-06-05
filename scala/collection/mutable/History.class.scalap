@@ -1,0 +1,14 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 5219213543849892588None }
+class History[Evt, Pub] extends scala.collection.mutable.AbstractIterable[scala.Tuple2[Pub, Evt]] with scala.collection.mutable.Subscriber[Evt, Pub] with scala.collection.mutable.Iterable[scala.Tuple2[Pub, Evt]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  protected val log: scala.collection.mutable.Queue[scala.Tuple2[Pub, Evt]] = { /* compiled code */ }
+  val maxHistory: scala.Int = { /* compiled code */ }
+  def notify(pub: Pub, event: Evt): scala.Unit = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[Pub, Evt]] = { /* compiled code */ }
+  def events: scala.collection.Iterator[Evt] = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  override def equals(obj: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+}

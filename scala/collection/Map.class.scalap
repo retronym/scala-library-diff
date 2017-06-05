@@ -1,0 +1,18 @@
+package scala.collection
+trait Map[A, +B] extends scala.AnyRef with scala.collection.Iterable[scala.Tuple2[A, B]] with scala.collection.GenMap[A, B] with scala.collection.MapLike[A, B, scala.collection.Map[A, B]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: scala.collection.Map[A, B] = { /* compiled code */ }
+  override def seq: scala.collection.Map[A, B] = { /* compiled code */ }
+}
+object Map extends scala.collection.generic.MapFactory[scala.collection.Map] {
+  def this() = { /* compiled code */ }
+  def empty[A, B]: scala.collection.immutable.Map[A, B] = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.Map[A, B]] = { /* compiled code */ }
+  abstract class WithDefault[A, +B] extends scala.collection.AbstractMap[A, B] with scala.collection.Map[A, B] with scala.Serializable {
+    def this(underlying: scala.collection.Map[A, B], d: scala.Function1[A, B]) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def get(key: A): scala.Option[B] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+    override def default(key: A): B = { /* compiled code */ }
+  }
+}

@@ -1,0 +1,7 @@
+package scala.collection.parallel.mutable
+private[mutable] class ExposedArraySeq[T] extends scala.collection.mutable.ArraySeq[T] {
+  def this(arr: scala.Array[scala.AnyRef], sz: scala.Int) = { /* compiled code */ }
+  override val array: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  override val length: scala.Int = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}

@@ -1,0 +1,4 @@
+package scala.collection
+abstract class AbstractIterator[+A] extends scala.AnyRef with scala.collection.Iterator[A] {
+  def this() = { /* compiled code */ }
+}

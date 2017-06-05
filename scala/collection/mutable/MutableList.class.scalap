@@ -1,0 +1,34 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 5938451523372603072None }
+class MutableList[A] extends scala.collection.mutable.AbstractSeq[A] with scala.collection.mutable.LinearSeq[A] with scala.collection.LinearSeqOptimized[A, scala.collection.mutable.MutableList[A]] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.MutableList] with scala.collection.mutable.Builder[A, scala.collection.mutable.MutableList[A]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.MutableList] = { /* compiled code */ }
+  protected var first0: scala.collection.mutable.LinkedList[A] = { /* compiled code */ }
+  protected var last0: scala.collection.mutable.LinkedList[A] = { /* compiled code */ }
+  protected var len: scala.Int = { /* compiled code */ }
+  def toQueue: scala.collection.mutable.Queue[A] = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def tail: scala.collection.mutable.MutableList[A] = { /* compiled code */ }
+  protected final def tailImpl(tl: scala.collection.mutable.MutableList[A]): scala.Unit = { /* compiled code */ }
+  def +=:(elem: A): scala.collection.mutable.MutableList.type = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def apply(n: scala.Int): A = { /* compiled code */ }
+  def update(n: scala.Int, x: A): scala.Unit = { /* compiled code */ }
+  def get(n: scala.Int): scala.Option[A] = { /* compiled code */ }
+  protected def prependElem(elem: A): scala.Unit = { /* compiled code */ }
+  protected def appendElem(elem: A): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def last: A = { /* compiled code */ }
+  override def toList: scala.collection.immutable.List[A] = { /* compiled code */ }
+  private[mutable] def toLinkedList: scala.collection.mutable.LinkedList[A] = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.MutableList.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def result(): scala.collection.mutable.MutableList[A] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.MutableList[A] = { /* compiled code */ }
+}
+object MutableList extends scala.collection.generic.SeqFactory[scala.collection.mutable.MutableList] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.MutableList[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.MutableList[A]] = { /* compiled code */ }
+}

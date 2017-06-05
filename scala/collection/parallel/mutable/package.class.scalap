@@ -1,0 +1,6 @@
+package scala.collection.parallel
+package object mutable extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type ParArrayCombiner[T] = scala.collection.parallel.mutable.ResizableParArrayCombiner[T]
+  val ParArrayCombiner: scala.collection.parallel.mutable.ResizableParArrayCombiner.type = { /* compiled code */ }
+}

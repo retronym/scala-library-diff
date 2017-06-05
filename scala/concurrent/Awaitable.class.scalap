@@ -1,0 +1,8 @@
+package scala.concurrent
+trait Awaitable[+T] extends scala.AnyRef {
+  @scala.throws[scala.InterruptedException](scala.InterruptedException)
+  @scala.throws[scala.concurrent.TimeoutException](scala.concurrent.TimeoutException)
+  def ready(atMost: scala.concurrent.duration.Duration)(implicit permit: scala.concurrent.CanAwait): scala.concurrent.Awaitable.type
+  @scala.throws[scala.Exception](scala.Exception)
+  def result(atMost: scala.concurrent.duration.Duration)(implicit permit: scala.concurrent.CanAwait): T
+}

@@ -1,0 +1,4 @@
+package scala.collection.script
+@scala.deprecated("Scripting is deprecated.")
+trait Message[+A] extends scala.AnyRef {
+}

@@ -1,0 +1,26 @@
+package scala.collection.mutable
+@scala.deprecated("Synchronization via traits is deprecated as it is inherently unreliable.  Consider java.util.concurrent.ConcurrentLinkedQueue as an alternative.")
+trait SynchronizedBuffer[A] extends scala.AnyRef with scala.collection.mutable.Buffer[A] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def apply(n: scala.Int): A = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.SynchronizedBuffer.type = { /* compiled code */ }
+  override def ++(xs: scala.collection.GenTraversableOnce[A]): scala.collection.TraversableLike.Self = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.SynchronizedBuffer.type = { /* compiled code */ }
+  override def append(elems: A*): scala.Unit = { /* compiled code */ }
+  override def appendAll(xs: scala.collection.TraversableOnce[A]): scala.Unit = { /* compiled code */ }
+  def +=:(elem: A): scala.collection.mutable.SynchronizedBuffer.type = { /* compiled code */ }
+  override def ++=:(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.SynchronizedBuffer.type = { /* compiled code */ }
+  override def prepend(elems: A*): scala.Unit = { /* compiled code */ }
+  override def prependAll(xs: scala.collection.TraversableOnce[A]): scala.Unit = { /* compiled code */ }
+  override def insert(n: scala.Int, elems: A*): scala.Unit = { /* compiled code */ }
+  def insertAll(n: scala.Int, xs: scala.collection.Traversable[A]): scala.Unit = { /* compiled code */ }
+  def update(n: scala.Int, newelem: A): scala.Unit = { /* compiled code */ }
+  def remove(n: scala.Int): A = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  @scala.deprecated("Scripting is deprecated.")
+  override def <<(cmd: scala.collection.script.Message[A]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.TraversableLike.Self = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+}

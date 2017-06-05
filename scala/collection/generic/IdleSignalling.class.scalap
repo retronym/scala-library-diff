@@ -1,0 +1,4 @@
+package scala.collection.generic
+object IdleSignalling extends scala.collection.generic.DefaultSignalling {
+  def this() = { /* compiled code */ }
+}

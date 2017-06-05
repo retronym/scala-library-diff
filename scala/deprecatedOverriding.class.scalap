@@ -1,0 +1,7 @@
+package scala
+private[scala] class deprecatedOverriding extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(message: scala.Predef.String, since: scala.Predef.String) = { /* compiled code */ }
+}
+private[scala] object deprecatedOverriding extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

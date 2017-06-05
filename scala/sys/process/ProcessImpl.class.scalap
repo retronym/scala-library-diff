@@ -1,0 +1,69 @@
+package scala.sys.process
+private[process] trait ProcessImpl extends scala.AnyRef {
+ this: scala.sys.process.Process.type =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  private[process] object Spawn extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply(f: => scala.Unit): java.lang.Thread = { /* compiled code */ }
+    def apply(f: => scala.Unit, daemon: scala.Boolean): java.lang.Thread = { /* compiled code */ }
+  }
+  private[process] object Future extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply[T](f: => T): scala.Function0[T] = { /* compiled code */ }
+  }
+  private[process] class AndProcess extends scala.sys.process.ProcessImpl.SequentialProcess {
+    def this(a: scala.sys.process.ProcessBuilder, b: scala.sys.process.ProcessBuilder, io: scala.sys.process.ProcessIO) = { /* compiled code */ }
+  }
+  private[process] class SequentialProcess extends scala.sys.process.ProcessImpl.CompoundProcess {
+    def this(a: scala.sys.process.ProcessBuilder, b: scala.sys.process.ProcessBuilder, io: scala.sys.process.ProcessIO, evaluateSecondProcess: scala.Function1[scala.Int, scala.Boolean]) = { /* compiled code */ }
+  }
+  private[process] abstract class CompoundProcess extends scala.sys.process.ProcessImpl.BasicProcess {
+    def this() = { /* compiled code */ }
+    def destroy(): scala.Unit = { /* compiled code */ }
+    def exitValue(): scala.Int = { /* compiled code */ }
+    def start(): scala.Unit = { /* compiled code */ }
+    protected val getExitValue: scala.Function0[scala.Option[scala.Int]] = { /* compiled code */ }
+    protected val destroyer: scala.Function0[scala.Unit] = { /* compiled code */ }
+  }
+  private[process] abstract class BasicProcess extends scala.AnyRef with scala.sys.process.Process {
+    def this() = { /* compiled code */ }
+    def start(): scala.Unit
+  }
+  private[process] class OrProcess extends scala.sys.process.ProcessImpl.SequentialProcess {
+    def this(a: scala.sys.process.ProcessBuilder, b: scala.sys.process.ProcessBuilder, io: scala.sys.process.ProcessIO) = { /* compiled code */ }
+  }
+  private[process] class ProcessSequence extends scala.sys.process.ProcessImpl.SequentialProcess {
+    def this(a: scala.sys.process.ProcessBuilder, b: scala.sys.process.ProcessBuilder, io: scala.sys.process.ProcessIO) = { /* compiled code */ }
+  }
+  private[process] class PipedProcesses extends scala.sys.process.ProcessImpl.CompoundProcess {
+    def this(a: scala.sys.process.ProcessBuilder, b: scala.sys.process.ProcessBuilder, defaultIO: scala.sys.process.ProcessIO, toError: scala.Boolean) = { /* compiled code */ }
+  }
+  private[process] abstract class PipeThread extends java.lang.Thread {
+    def this(isSink: scala.Boolean, labelFn: scala.Function0[scala.Predef.String]) = { /* compiled code */ }
+    def run(): scala.Unit
+    private[process] def runloop(src: scala.sys.process.processInternal.InputStream, dst: scala.sys.process.processInternal.OutputStream): scala.Unit = { /* compiled code */ }
+  }
+  private[process] class PipeSource extends scala.sys.process.ProcessImpl.PipeThread {
+    def this(currentSource: scala.sys.process.processInternal.SyncVar[scala.Option[scala.sys.process.processInternal.InputStream]], pipe: java.io.PipedOutputStream, label: => scala.Predef.String) = { /* compiled code */ }
+    final override def run(): scala.Unit = { /* compiled code */ }
+  }
+  private[process] class PipeSink extends scala.sys.process.ProcessImpl.PipeThread {
+    def this(pipe: java.io.PipedInputStream, currentSink: scala.sys.process.processInternal.SyncVar[scala.Option[scala.sys.process.processInternal.OutputStream]], label: => scala.Predef.String) = { /* compiled code */ }
+    final override def run(): scala.Unit = { /* compiled code */ }
+  }
+  private[process] class DummyProcess extends scala.AnyRef with scala.sys.process.Process {
+    def this(action: => scala.Int) = { /* compiled code */ }
+    override def exitValue(): scala.Int = { /* compiled code */ }
+    override def destroy(): scala.Unit = { /* compiled code */ }
+  }
+  private[process] class SimpleProcess extends scala.AnyRef with scala.sys.process.Process {
+    def this(p: scala.sys.process.processInternal.JProcess, inputThread: java.lang.Thread, outputThreads: scala.List[java.lang.Thread]) = { /* compiled code */ }
+    override def exitValue(): scala.Int = { /* compiled code */ }
+    override def destroy(): scala.Unit = { /* compiled code */ }
+  }
+  private[process] final class ThreadProcess extends scala.AnyRef with scala.sys.process.Process {
+    def this(thread: java.lang.Thread, success: scala.sys.process.processInternal.SyncVar[scala.Boolean]) = { /* compiled code */ }
+    override def exitValue(): scala.Int = { /* compiled code */ }
+    override def destroy(): scala.Unit = { /* compiled code */ }
+  }
+}

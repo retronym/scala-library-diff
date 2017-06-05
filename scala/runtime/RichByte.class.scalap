@@ -1,0 +1,38 @@
+package scala.runtime
+final class RichByte extends scala.AnyVal with scala.runtime.ScalaWholeNumberProxy[scala.Byte] {
+  val self: scala.Byte = { /* compiled code */ }
+  def this(self: scala.Byte) = { /* compiled code */ }
+  protected def num: scala.math.Numeric.ByteIsIntegral.type = { /* compiled code */ }
+  protected def ord: scala.math.Ordering.Byte.type = { /* compiled code */ }
+  override def doubleValue(): scala.Double = { /* compiled code */ }
+  override def floatValue(): scala.Float = { /* compiled code */ }
+  override def longValue(): scala.Long = { /* compiled code */ }
+  override def intValue(): scala.Int = { /* compiled code */ }
+  override def byteValue(): scala.Byte = { /* compiled code */ }
+  override def shortValue(): scala.Short = { /* compiled code */ }
+  override def isValidByte: scala.Boolean = { /* compiled code */ }
+  override def abs: scala.Byte = { /* compiled code */ }
+  override def max(that: scala.Byte): scala.Byte = { /* compiled code */ }
+  override def min(that: scala.Byte): scala.Byte = { /* compiled code */ }
+  override def signum: scala.Int = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object RichByte extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def num$extension($this: scala.runtime.RichByte): scala.math.Numeric.ByteIsIntegral.type = { /* compiled code */ }
+  final def ord$extension($this: scala.runtime.RichByte): scala.math.Ordering.Byte.type = { /* compiled code */ }
+  final def doubleValue$extension($this: scala.runtime.RichByte)(): scala.Double = { /* compiled code */ }
+  final def floatValue$extension($this: scala.runtime.RichByte)(): scala.Float = { /* compiled code */ }
+  final def longValue$extension($this: scala.runtime.RichByte)(): scala.Long = { /* compiled code */ }
+  final def intValue$extension($this: scala.runtime.RichByte)(): scala.Int = { /* compiled code */ }
+  final def byteValue$extension($this: scala.runtime.RichByte)(): scala.Byte = { /* compiled code */ }
+  final def shortValue$extension($this: scala.runtime.RichByte)(): scala.Short = { /* compiled code */ }
+  final def isValidByte$extension($this: scala.runtime.RichByte): scala.Boolean = { /* compiled code */ }
+  final def abs$extension($this: scala.runtime.RichByte): scala.Byte = { /* compiled code */ }
+  final def max$extension($this: scala.runtime.RichByte)(that: scala.Byte): scala.Byte = { /* compiled code */ }
+  final def min$extension($this: scala.runtime.RichByte)(that: scala.Byte): scala.Byte = { /* compiled code */ }
+  final def signum$extension($this: scala.runtime.RichByte): scala.Int = { /* compiled code */ }
+  final def hashCode$extension($this: scala.runtime.RichByte)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.runtime.RichByte)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

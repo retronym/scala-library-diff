@@ -1,0 +1,5 @@
+package scala.reflect.macros.internal
+private[scala] class macroImpl extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  val referenceToMacroImpl: scala.Any = { /* compiled code */ }
+  def this(referenceToMacroImpl: scala.Any) = { /* compiled code */ }
+}

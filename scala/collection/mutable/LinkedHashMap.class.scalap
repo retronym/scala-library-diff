@@ -1,0 +1,44 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 1None }
+class LinkedHashMap[A, B] extends scala.collection.mutable.AbstractMap[A, B] with scala.collection.mutable.Map[A, B] with scala.collection.mutable.MapLike[A, B, scala.collection.mutable.LinkedHashMap[A, B]] with scala.collection.mutable.HashTable[A, scala.collection.mutable.LinkedEntry[A, B]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def empty: scala.collection.mutable.LinkedHashMap[A, B] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  type Entry = scala.collection.mutable.LinkedEntry[A, B]
+  protected var firstEntry: Entry = { /* compiled code */ }
+  protected var lastEntry: Entry = { /* compiled code */ }
+  def get(key: A): scala.Option[B] = { /* compiled code */ }
+  override def put(key: A, value: B): scala.Option[B] = { /* compiled code */ }
+  override def remove(key: A): scala.Option[B] = { /* compiled code */ }
+  @scala.deprecatedOverriding("+= should not be overridden so it stays consistent with put.")
+  def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.LinkedHashMap.type = { /* compiled code */ }
+  @scala.deprecatedOverriding("-= should not be overridden so it stays consistent with remove.")
+  def -=(key: A): scala.collection.mutable.LinkedHashMap.type = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  protected class FilteredKeys extends scala.collection.MapLike.FilteredKeys {
+    def this(p: scala.Function1[A, scala.Boolean]) = { /* compiled code */ }
+    override def empty: scala.collection.mutable.LinkedHashMap[A, scala.Nothing] = { /* compiled code */ }
+  }
+  override def filterKeys(p: scala.Function1[A, scala.Boolean]): scala.collection.Map[A, B] = { /* compiled code */ }
+  protected class MappedValues[C] extends scala.collection.MapLike.MappedValues[C] {
+    def this(f: scala.Function1[B, C]) = { /* compiled code */ }
+    override def empty: scala.collection.mutable.LinkedHashMap[A, scala.Nothing] = { /* compiled code */ }
+  }
+  override def mapValues[C](f: scala.Function1[B, C]): scala.collection.Map[A, C] = { /* compiled code */ }
+  protected class DefaultKeySet extends scala.collection.MapLike.DefaultKeySet {
+    def this() = { /* compiled code */ }
+    override def empty: scala.collection.mutable.LinkedHashSet[A] = { /* compiled code */ }
+  }
+  override def keySet: scala.collection.Set[A] = { /* compiled code */ }
+  override def keysIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def valuesIterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+  protected override def foreachEntry[U](f: scala.Function1[Entry, U]): scala.Unit = { /* compiled code */ }
+  protected def createNewEntry[B1](key: A, value: B1): Entry = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+}
+object LinkedHashMap extends scala.collection.generic.MutableMapFactory[scala.collection.mutable.LinkedHashMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.mutable.LinkedHashMap[A, B]] = { /* compiled code */ }
+  def empty[A, B]: scala.collection.mutable.LinkedHashMap[A, B] = { /* compiled code */ }
+}

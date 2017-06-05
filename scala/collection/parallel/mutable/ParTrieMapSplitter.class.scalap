@@ -1,0 +1,13 @@
+package scala.collection.parallel.mutable
+private[collection] class ParTrieMapSplitter[K, V] extends scala.collection.concurrent.TrieMapIterator[K, V] with scala.collection.parallel.IterableSplitter[scala.Tuple2[K, V]] {
+  def this(lev: scala.Int, ct: scala.collection.concurrent.TrieMap[K, V], mustInit: scala.Boolean) = { /* compiled code */ }
+  val totalsize: scala.Int = { /* compiled code */ }
+  var iterated: scala.Int = { /* compiled code */ }
+  protected override def newIterator(_lev: scala.Int, _ct: scala.collection.concurrent.TrieMap[K, V], _mustInit: scala.Boolean): scala.collection.parallel.mutable.ParTrieMapSplitter[K, V] = { /* compiled code */ }
+  override def shouldSplitFurther[S](coll: scala.collection.parallel.ParIterable[S], parallelismLevel: scala.Int): scala.Boolean = { /* compiled code */ }
+  def dup: scala.collection.parallel.mutable.ParTrieMapSplitter[K, V] = { /* compiled code */ }
+  override def next(): scala.Tuple2[K, V] = { /* compiled code */ }
+  def split: scala.Seq[scala.collection.parallel.IterableSplitter[scala.Tuple2[K, V]]] = { /* compiled code */ }
+  override def isRemainingCheap: scala.Boolean = { /* compiled code */ }
+  def remaining: scala.Int = { /* compiled code */ }
+}

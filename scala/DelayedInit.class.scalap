@@ -1,0 +1,6 @@
+package scala
+@scala.deprecated("""DelayedInit semantics can be surprising. Support for `App` will continue.
+See the release notes for more details: https://github.com/scala/scala/releases/tag/v2.11.0-RC1""")
+trait DelayedInit extends scala.AnyRef {
+  def delayedInit(x: => scala.Unit): scala.Unit
+}

@@ -1,0 +1,5 @@
+package scala.beans
+@scala.annotation.meta.field
+class BeanProperty extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this() = { /* compiled code */ }
+}

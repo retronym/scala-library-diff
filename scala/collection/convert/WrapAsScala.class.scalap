@@ -1,0 +1,17 @@
+package scala.collection.convert
+trait WrapAsScala extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  implicit def asScalaIterator[A](it: java.util.Iterator[A]): scala.collection.Iterator[A] = { /* compiled code */ }
+  implicit def enumerationAsScalaIterator[A](i: java.util.Enumeration[A]): scala.collection.Iterator[A] = { /* compiled code */ }
+  implicit def iterableAsScalaIterable[A](i: java.lang.Iterable[A]): scala.collection.Iterable[A] = { /* compiled code */ }
+  implicit def collectionAsScalaIterable[A](i: java.util.Collection[A]): scala.collection.Iterable[A] = { /* compiled code */ }
+  implicit def asScalaBuffer[A](l: java.util.List[A]): scala.collection.mutable.Buffer[A] = { /* compiled code */ }
+  implicit def asScalaSet[A](s: java.util.Set[A]): scala.collection.mutable.Set[A] = { /* compiled code */ }
+  implicit def mapAsScalaMap[A, B](m: java.util.Map[A, B]): scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+  implicit def mapAsScalaConcurrentMap[A, B](m: java.util.concurrent.ConcurrentMap[A, B]): scala.collection.concurrent.Map[A, B] = { /* compiled code */ }
+  implicit def dictionaryAsScalaMap[A, B](p: java.util.Dictionary[A, B]): scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+  implicit def propertiesAsScalaMap(p: java.util.Properties): scala.collection.mutable.Map[scala.Predef.String, scala.Predef.String] = { /* compiled code */ }
+}
+object WrapAsScala extends scala.AnyRef with scala.collection.convert.WrapAsScala {
+  def this() = { /* compiled code */ }
+}

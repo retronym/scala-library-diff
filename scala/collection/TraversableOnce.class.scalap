@@ -1,0 +1,89 @@
+package scala.collection
+trait TraversableOnce[+A] extends scala.Any with scala.collection.GenTraversableOnce[A] {
+ this: scala.collection.TraversableOnce[A] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def foreach[U](f: scala.Function1[A, U]): scala.Unit
+  def isEmpty: scala.Boolean
+  def hasDefiniteSize: scala.Boolean
+  def seq: scala.collection.TraversableOnce[A]
+  def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean
+  def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean
+  def find(p: scala.Function1[A, scala.Boolean]): scala.Option[A]
+  def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit
+  def size: scala.Int = { /* compiled code */ }
+  def nonEmpty: scala.Boolean = { /* compiled code */ }
+  def count(p: scala.Function1[A, scala.Boolean]): scala.Int = { /* compiled code */ }
+  def collectFirst[B](pf: scala.PartialFunction[A, B]): scala.Option[B] = { /* compiled code */ }
+  def /:[B](z: B)(op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  def :\[B](z: B)(op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  def foldLeft[B](z: B)(op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  def foldRight[B](z: B)(op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  def reduceLeft[B >: A](op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  def reduceRight[B >: A](op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  def reduceLeftOption[B >: A](op: scala.Function2[B, A, B]): scala.Option[B] = { /* compiled code */ }
+  def reduceRightOption[B >: A](op: scala.Function2[A, B, B]): scala.Option[B] = { /* compiled code */ }
+  def reduce[A1 >: A](op: scala.Function2[A1, A1, A1]): A1 = { /* compiled code */ }
+  def reduceOption[A1 >: A](op: scala.Function2[A1, A1, A1]): scala.Option[A1] = { /* compiled code */ }
+  def fold[A1 >: A](z: A1)(op: scala.Function2[A1, A1, A1]): A1 = { /* compiled code */ }
+  def aggregate[B](z: => B)(seqop: scala.Function2[B, A, B], combop: scala.Function2[B, B, B]): B = { /* compiled code */ }
+  def sum[B >: A](implicit num: scala.Numeric[B]): B = { /* compiled code */ }
+  def product[B >: A](implicit num: scala.Numeric[B]): B = { /* compiled code */ }
+  def min[B >: A](implicit cmp: scala.Ordering[B]): A = { /* compiled code */ }
+  def max[B >: A](implicit cmp: scala.Ordering[B]): A = { /* compiled code */ }
+  def maxBy[B](f: scala.Function1[A, B])(implicit cmp: scala.Ordering[B]): A = { /* compiled code */ }
+  def minBy[B](f: scala.Function1[A, B])(implicit cmp: scala.Ordering[B]): A = { /* compiled code */ }
+  def copyToBuffer[B >: A](dest: scala.collection.mutable.Buffer[B]): scala.Unit = { /* compiled code */ }
+  def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int): scala.Unit = { /* compiled code */ }
+  def copyToArray[B >: A](xs: scala.Array[B]): scala.Unit = { /* compiled code */ }
+  def toArray[B >: A](implicit evidence$1: scala.reflect.ClassTag[B]): scala.Array[B] = { /* compiled code */ }
+  def toTraversable: scala.collection.Traversable[A]
+  def toList: scala.List[A] = { /* compiled code */ }
+  def toIterable: scala.collection.Iterable[A] = { /* compiled code */ }
+  def toSeq: scala.collection.Seq[A] = { /* compiled code */ }
+  def toIndexedSeq: scala.collection.immutable.IndexedSeq[A] = { /* compiled code */ }
+  def toBuffer[B >: A]: scala.collection.mutable.Buffer[B] = { /* compiled code */ }
+  def toSet[B >: A]: scala.collection.immutable.Set[B] = { /* compiled code */ }
+  def toVector: scala.Vector[A] = { /* compiled code */ }
+  def to[Col[_]](implicit cbf: scala.collection.generic.CanBuildFrom[scala.Nothing, A, Col[A]]): Col[A] = { /* compiled code */ }
+  def toMap[T, U](implicit ev: scala.Predef.<:<[A, scala.Tuple2[T, U]]): scala.collection.immutable.Map[T, U] = { /* compiled code */ }
+  def mkString(start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def mkString(sep: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def mkString: scala.Predef.String = { /* compiled code */ }
+  def addString(b: scala.StringBuilder, start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.StringBuilder = { /* compiled code */ }
+  def addString(b: scala.StringBuilder, sep: scala.Predef.String): scala.StringBuilder = { /* compiled code */ }
+  def addString(b: scala.StringBuilder): scala.StringBuilder = { /* compiled code */ }
+}
+object TraversableOnce extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def alternateImplicit[A](trav: scala.collection.TraversableOnce[A]): scala.collection.TraversableOnce.ForceImplicitAmbiguity = { /* compiled code */ }
+  class ForceImplicitAmbiguity extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+  }
+  implicit def flattenTraversableOnce[A, CC[_]](travs: scala.collection.TraversableOnce[CC[A]])(implicit ev: scala.Function1[CC[A], scala.collection.TraversableOnce[A]]): scala.collection.TraversableOnce.FlattenOps[A] = { /* compiled code */ }
+  class FlattenOps[A] extends scala.AnyRef {
+    def this(travs: scala.collection.TraversableOnce[scala.collection.TraversableOnce[A]]) = { /* compiled code */ }
+    def flatten: scala.collection.Iterator[A] = { /* compiled code */ }
+  }
+  private[collection] abstract class BufferedCanBuildFrom[A, CC[X] <: scala.collection.TraversableOnce[X]] extends scala.AnyRef with scala.collection.generic.CanBuildFrom[CC[_], A, CC[A]] {
+    def this() = { /* compiled code */ }
+    def bufferToColl[B](buff: scala.collection.mutable.ArrayBuffer[B]): CC[B]
+    def traversableToColl[B](t: scala.collection.GenTraversable[B]): CC[B]
+    def newIterator: scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+    def apply(from: CC[_]): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+    def apply(): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+  }
+  class OnceCanBuildFrom[A] extends scala.collection.TraversableOnce.BufferedCanBuildFrom[A, scala.collection.TraversableOnce] {
+    def this() = { /* compiled code */ }
+    def bufferToColl[B](buff: scala.collection.mutable.ArrayBuffer[B]): scala.collection.Iterator[B] = { /* compiled code */ }
+    def traversableToColl[B](t: scala.collection.GenTraversable[B]): scala.collection.Traversable[B] = { /* compiled code */ }
+  }
+  implicit def OnceCanBuildFrom[A]: scala.collection.TraversableOnce.OnceCanBuildFrom[A] = { /* compiled code */ }
+  implicit class MonadOps[+A] extends scala.AnyRef {
+    def this(trav: scala.collection.TraversableOnce[A]) = { /* compiled code */ }
+    def map[B](f: scala.Function1[A, B]): scala.collection.TraversableOnce[B] = { /* compiled code */ }
+    def flatMap[B](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): scala.collection.TraversableOnce[B] = { /* compiled code */ }
+    def withFilter(p: scala.Function1[A, scala.Boolean]): scala.collection.Iterator[A] = { /* compiled code */ }
+    def filter(p: scala.Function1[A, scala.Boolean]): scala.collection.TraversableOnce[A] = { /* compiled code */ }
+  }
+  implicit def MonadOps[A](trav: scala.collection.TraversableOnce[A]): scala.collection.TraversableOnce.MonadOps[A] = { /* compiled code */ }
+}

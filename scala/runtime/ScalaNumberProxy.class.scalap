@@ -1,0 +1,16 @@
+package scala.runtime
+trait ScalaNumberProxy[T] extends scala.Any with scala.math.ScalaNumericAnyConversions with scala.Proxy.Typed[T] with scala.runtime.OrderedProxy[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected implicit def num: scala.Numeric[T]
+  def underlying(): scala.AnyRef = { /* compiled code */ }
+  def doubleValue(): scala.Double = { /* compiled code */ }
+  def floatValue(): scala.Float = { /* compiled code */ }
+  def longValue(): scala.Long = { /* compiled code */ }
+  def intValue(): scala.Int = { /* compiled code */ }
+  def byteValue(): scala.Byte = { /* compiled code */ }
+  def shortValue(): scala.Short = { /* compiled code */ }
+  def min(that: T): T = { /* compiled code */ }
+  def max(that: T): T = { /* compiled code */ }
+  def abs: T = { /* compiled code */ }
+  def signum: scala.Int = { /* compiled code */ }
+}

@@ -1,0 +1,14 @@
+package scala
+object language extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit val dynamics: scala.languageFeature.dynamics = { /* compiled code */ }
+  implicit val postfixOps: scala.languageFeature.postfixOps = { /* compiled code */ }
+  implicit val reflectiveCalls: scala.languageFeature.reflectiveCalls = { /* compiled code */ }
+  implicit val implicitConversions: scala.languageFeature.implicitConversions = { /* compiled code */ }
+  implicit val higherKinds: scala.languageFeature.higherKinds = { /* compiled code */ }
+  implicit val existentials: scala.languageFeature.existentials = { /* compiled code */ }
+  object experimental extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    implicit val macros: scala.languageFeature.experimental.macros = { /* compiled code */ }
+  }
+}

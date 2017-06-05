@@ -1,0 +1,4 @@
+package scala.math
+trait ScalaNumericConversions extends scala.math.ScalaNumber with scala.math.ScalaNumericAnyConversions {
+  def underlying(): java.lang.Object
+}

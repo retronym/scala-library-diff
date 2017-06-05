@@ -1,0 +1,5 @@
+package scala.collection.script
+@scala.deprecated("Scripting is deprecated.")
+trait Scriptable[A] extends scala.AnyRef {
+  def <<(cmd: scala.collection.script.Message[A]): scala.Unit
+}

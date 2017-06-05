@@ -1,0 +1,5 @@
+package scala
+class FallbackArrayBuilding extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def fallbackCanBuildFrom[T](implicit m: scala.Predef.DummyImplicit): scala.collection.generic.CanBuildFrom[scala.Array[_], T, scala.collection.mutable.ArraySeq[T]] = { /* compiled code */ }
+}

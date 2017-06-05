@@ -1,0 +1,5 @@
+package scala
+abstract class AnyVal extends scala.Any {
+  def this() = { /* compiled code */ }
+  def getClass(): scala.Predef.Class[_] = { /* compiled code */ }
+}

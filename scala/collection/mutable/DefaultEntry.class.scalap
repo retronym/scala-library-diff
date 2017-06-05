@@ -1,0 +1,8 @@
+package scala.collection.mutable
+final class DefaultEntry[A, B] extends scala.AnyRef with scala.collection.mutable.HashEntry[A, scala.collection.mutable.DefaultEntry[A, B]] with scala.Serializable {
+  val key: A = { /* compiled code */ }
+  var value: B = { /* compiled code */ }
+  def this(key: A, value: B) = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  def chainString: java.lang.String = { /* compiled code */ }
+}

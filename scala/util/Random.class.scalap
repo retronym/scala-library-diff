@@ -1,0 +1,25 @@
+package scala.util
+class Random extends scala.AnyRef with scala.Serializable {
+  val self: java.util.Random = { /* compiled code */ }
+  def this(self: java.util.Random) = { /* compiled code */ }
+  def this(seed: scala.Long) = { /* compiled code */ }
+  def this(seed: scala.Int) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  def nextBoolean(): scala.Boolean = { /* compiled code */ }
+  def nextBytes(bytes: scala.Array[scala.Byte]): scala.Unit = { /* compiled code */ }
+  def nextDouble(): scala.Double = { /* compiled code */ }
+  def nextFloat(): scala.Float = { /* compiled code */ }
+  def nextGaussian(): scala.Double = { /* compiled code */ }
+  def nextInt(): scala.Int = { /* compiled code */ }
+  def nextInt(n: scala.Int): scala.Int = { /* compiled code */ }
+  def nextLong(): scala.Long = { /* compiled code */ }
+  def nextString(length: scala.Int): scala.Predef.String = { /* compiled code */ }
+  def nextPrintableChar(): scala.Char = { /* compiled code */ }
+  def setSeed(seed: scala.Long): scala.Unit = { /* compiled code */ }
+  def shuffle[T, CC[X] <: scala.TraversableOnce[X]](xs: CC[T])(implicit bf: scala.collection.generic.CanBuildFrom[CC[T], T, CC[T]]): CC[T] = { /* compiled code */ }
+  def alphanumeric: scala.collection.immutable.Stream[scala.Char] = { /* compiled code */ }
+}
+object Random extends scala.util.Random {
+  def this() = { /* compiled code */ }
+  implicit def javaRandomToRandom(r: java.util.Random): scala.util.Random = { /* compiled code */ }
+}

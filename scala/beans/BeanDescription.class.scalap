@@ -1,0 +1,5 @@
+package scala.beans
+class BeanDescription extends scala.annotation.Annotation {
+  val description: scala.Predef.String = { /* compiled code */ }
+  def this(description: scala.Predef.String) = { /* compiled code */ }
+}

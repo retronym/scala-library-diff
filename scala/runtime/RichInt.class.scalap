@@ -1,0 +1,61 @@
+package scala.runtime
+final class RichInt extends scala.AnyVal with scala.runtime.ScalaNumberProxy[scala.Int] with scala.runtime.RangedProxy[scala.Int] {
+  val self: scala.Int = { /* compiled code */ }
+  def this(self: scala.Int) = { /* compiled code */ }
+  protected def num: scala.math.Numeric.IntIsIntegral.type = { /* compiled code */ }
+  protected def ord: scala.math.Ordering.Int.type = { /* compiled code */ }
+  override def doubleValue(): scala.Double = { /* compiled code */ }
+  override def floatValue(): scala.Float = { /* compiled code */ }
+  override def longValue(): scala.Long = { /* compiled code */ }
+  override def intValue(): scala.Int = { /* compiled code */ }
+  override def byteValue(): scala.Byte = { /* compiled code */ }
+  override def shortValue(): scala.Short = { /* compiled code */ }
+  def isWhole(): scala.Boolean = { /* compiled code */ }
+  override def isValidInt: scala.Boolean = { /* compiled code */ }
+  def isValidLong: scala.Boolean = { /* compiled code */ }
+  override def abs: scala.Int = { /* compiled code */ }
+  override def max(that: scala.Int): scala.Int = { /* compiled code */ }
+  override def min(that: scala.Int): scala.Int = { /* compiled code */ }
+  override def signum: scala.Int = { /* compiled code */ }
+  @scala.deprecated("This is an integer type; there is no reason to round it.  Perhaps you meant to call this on a floating-point value?")
+  def round: scala.Int = { /* compiled code */ }
+  def toBinaryString: scala.Predef.String = { /* compiled code */ }
+  def toHexString: scala.Predef.String = { /* compiled code */ }
+  def toOctalString: scala.Predef.String = { /* compiled code */ }
+  type ResultWithoutStep = scala.collection.immutable.Range
+  def until(end: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  def until(end: scala.Int, step: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  def to(end: scala.Int): scala.collection.immutable.Range.Inclusive = { /* compiled code */ }
+  def to(end: scala.Int, step: scala.Int): scala.collection.immutable.Range.Inclusive = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object RichInt extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def num$extension($this: scala.runtime.RichInt): scala.math.Numeric.IntIsIntegral.type = { /* compiled code */ }
+  final def ord$extension($this: scala.runtime.RichInt): scala.math.Ordering.Int.type = { /* compiled code */ }
+  final def doubleValue$extension($this: scala.runtime.RichInt)(): scala.Double = { /* compiled code */ }
+  final def floatValue$extension($this: scala.runtime.RichInt)(): scala.Float = { /* compiled code */ }
+  final def longValue$extension($this: scala.runtime.RichInt)(): scala.Long = { /* compiled code */ }
+  final def intValue$extension($this: scala.runtime.RichInt)(): scala.Int = { /* compiled code */ }
+  final def byteValue$extension($this: scala.runtime.RichInt)(): scala.Byte = { /* compiled code */ }
+  final def shortValue$extension($this: scala.runtime.RichInt)(): scala.Short = { /* compiled code */ }
+  final def isWhole$extension($this: scala.runtime.RichInt)(): scala.Boolean = { /* compiled code */ }
+  final def isValidInt$extension($this: scala.runtime.RichInt): scala.Boolean = { /* compiled code */ }
+  final def isValidLong$extension($this: scala.runtime.RichInt): scala.Boolean = { /* compiled code */ }
+  final def abs$extension($this: scala.runtime.RichInt): scala.Int = { /* compiled code */ }
+  final def max$extension($this: scala.runtime.RichInt)(that: scala.Int): scala.Int = { /* compiled code */ }
+  final def min$extension($this: scala.runtime.RichInt)(that: scala.Int): scala.Int = { /* compiled code */ }
+  final def signum$extension($this: scala.runtime.RichInt): scala.Int = { /* compiled code */ }
+  @scala.deprecated("This is an integer type; there is no reason to round it.  Perhaps you meant to call this on a floating-point value?")
+  final def round$extension($this: scala.runtime.RichInt): scala.Int = { /* compiled code */ }
+  final def toBinaryString$extension($this: scala.runtime.RichInt): scala.Predef.String = { /* compiled code */ }
+  final def toHexString$extension($this: scala.runtime.RichInt): scala.Predef.String = { /* compiled code */ }
+  final def toOctalString$extension($this: scala.runtime.RichInt): scala.Predef.String = { /* compiled code */ }
+  final def until$extension0($this: scala.runtime.RichInt)(end: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  final def until$extension1($this: scala.runtime.RichInt)(end: scala.Int, step: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  final def to$extension0($this: scala.runtime.RichInt)(end: scala.Int): scala.collection.immutable.Range.Inclusive = { /* compiled code */ }
+  final def to$extension1($this: scala.runtime.RichInt)(end: scala.Int, step: scala.Int): scala.collection.immutable.Range.Inclusive = { /* compiled code */ }
+  final def hashCode$extension($this: scala.runtime.RichInt)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.runtime.RichInt)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

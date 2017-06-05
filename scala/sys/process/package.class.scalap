@@ -1,0 +1,8 @@
+package scala.sys
+package object process extends scala.AnyRef with scala.sys.process.ProcessImplicits {
+  def this() = { /* compiled code */ }
+  def javaVmArguments: scala.List[scala.Predef.String] = { /* compiled code */ }
+  def stdin: java.io.InputStream = { /* compiled code */ }
+  def stdout: java.io.PrintStream = { /* compiled code */ }
+  def stderr: java.io.PrintStream = { /* compiled code */ }
+}

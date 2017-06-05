@@ -1,0 +1,26 @@
+package scala.collection
+trait SortedMapLike[A, +B, +This <: scala.collection.SortedMapLike[A, B, This] with scala.collection.SortedMap[A, B]] extends scala.AnyRef with scala.collection.generic.Sorted[A, This] with scala.collection.MapLike[A, B, This] {
+ this: scala.collection.SortedMapLike[A, B, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def firstKey: A = { /* compiled code */ }
+  def lastKey: A = { /* compiled code */ }
+  implicit def ordering: scala.Ordering[A]
+  def rangeImpl(from: scala.Option[A], until: scala.Option[A]): This
+  override def keySet: scala.collection.SortedSet[A] = { /* compiled code */ }
+  protected class DefaultKeySortedSet extends scala.collection.MapLike.DefaultKeySet with scala.collection.SortedSet[A] {
+    def this() = { /* compiled code */ }
+    implicit def ordering: scala.Ordering[A] = { /* compiled code */ }
+    override def +(elem: A): scala.collection.SortedSet[A] = { /* compiled code */ }
+    override def -(elem: A): scala.collection.SortedSet[A] = { /* compiled code */ }
+    override def rangeImpl(from: scala.Option[A], until: scala.Option[A]): scala.collection.SortedSet[A] = { /* compiled code */ }
+    override def keysIteratorFrom(start: A): scala.collection.Iterator[A] = { /* compiled code */ }
+  }
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.SortedMap[A, B1] = { /* compiled code */ }
+  def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.SortedMap[A, B1]
+  override def +[B1 >: B](elem1: scala.Tuple2[A, B1], elem2: scala.Tuple2[A, B1], elems: scala.Tuple2[A, B1]*): scala.collection.SortedMap[A, B1] = { /* compiled code */ }
+  override def filterKeys(p: scala.Function1[A, scala.Boolean]): scala.collection.SortedMap[A, B] = { /* compiled code */ }
+  override def mapValues[C](f: scala.Function1[B, C]): scala.collection.SortedMap[A, C] = { /* compiled code */ }
+  override def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.SortedMap[A, B1] = { /* compiled code */ }
+  def iteratorFrom(start: A): scala.collection.Iterator[scala.Tuple2[A, B]]
+  def valuesIteratorFrom(start: A): scala.collection.Iterator[B]
+}

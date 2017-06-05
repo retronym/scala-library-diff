@@ -1,0 +1,12 @@
+package scala.collection.concurrent
+private[collection] final class LNode[K, V] extends scala.collection.concurrent.MainNode[K, V] {
+  final val listmap: scala.collection.immutable.ListMap[K, V] = { /* compiled code */ }
+  def this(listmap: scala.collection.immutable.ListMap[K, V]) = { /* compiled code */ }
+  def this(k: K, v: V) = { /* compiled code */ }
+  def this(k1: K, v1: V, k2: K, v2: V) = { /* compiled code */ }
+  def inserted(k: K, v: V): scala.collection.concurrent.LNode[K, V] = { /* compiled code */ }
+  def removed(k: K, ct: scala.collection.concurrent.TrieMap[K, V]): scala.collection.concurrent.MainNode[K, V] = { /* compiled code */ }
+  def get(k: K): scala.Option[V] = { /* compiled code */ }
+  def cachedSize(ct: scala.AnyRef): scala.Int = { /* compiled code */ }
+  def string(lev: scala.Int): java.lang.String = { /* compiled code */ }
+}

@@ -1,0 +1,17 @@
+package scala.collection
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait IterableProxyLike[+A, +Repr <: scala.collection.IterableLike[A, Repr] with scala.collection.Iterable[A]] extends scala.AnyRef with scala.collection.IterableLike[A, Repr] with scala.collection.TraversableProxyLike[A, Repr] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def grouped(size: scala.Int): scala.collection.Iterator[Repr] = { /* compiled code */ }
+  override def sliding(size: scala.Int): scala.collection.Iterator[Repr] = { /* compiled code */ }
+  override def sliding(size: scala.Int, step: scala.Int): scala.collection.Iterator[Repr] = { /* compiled code */ }
+  override def takeRight(n: scala.Int): Repr = { /* compiled code */ }
+  override def dropRight(n: scala.Int): Repr = { /* compiled code */ }
+  override def zip[A1 >: A, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  override def zipAll[B, A1 >: A, That](that: scala.collection.GenIterable[B], thisElem: A1, thatElem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  override def zipWithIndex[A1 >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, scala.Int], That]): That = { /* compiled code */ }
+  override def sameElements[B >: A](that: scala.collection.GenIterable[B]): scala.Boolean = { /* compiled code */ }
+  override def view: scala.AnyRef with scala.collection.IterableView[A, Repr] = { /* compiled code */ }
+  override def view(from: scala.Int, until: scala.Int): scala.collection.IterableView[A, Repr] = { /* compiled code */ }
+}

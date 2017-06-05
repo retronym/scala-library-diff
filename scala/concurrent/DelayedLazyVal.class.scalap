@@ -1,0 +1,6 @@
+package scala.concurrent
+class DelayedLazyVal[T] extends scala.AnyRef {
+  def this(f: scala.Function0[T], body: => scala.Unit)(implicit exec: scala.concurrent.ExecutionContext) = { /* compiled code */ }
+  def isDone: scala.Boolean = { /* compiled code */ }
+  def apply(): T = { /* compiled code */ }
+}

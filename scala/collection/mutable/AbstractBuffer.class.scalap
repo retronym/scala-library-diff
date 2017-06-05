@@ -1,0 +1,4 @@
+package scala.collection.mutable
+abstract class AbstractBuffer[A] extends scala.collection.mutable.AbstractSeq[A] with scala.collection.mutable.Buffer[A] {
+  def this() = { /* compiled code */ }
+}

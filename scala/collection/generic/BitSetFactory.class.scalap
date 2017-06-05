@@ -1,0 +1,8 @@
+package scala.collection.generic
+trait BitSetFactory[Coll <: scala.collection.BitSet with scala.collection.BitSetLike[Coll]] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: Coll
+  def newBuilder: scala.collection.mutable.Builder[scala.Int, Coll]
+  def apply(elems: scala.Int*): Coll = { /* compiled code */ }
+  def bitsetCanBuildFrom: scala.AnyRef with scala.collection.generic.CanBuildFrom[Coll, scala.Int, Coll] = { /* compiled code */ }
+}

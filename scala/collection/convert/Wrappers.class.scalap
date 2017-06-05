@@ -1,0 +1,421 @@
+package scala.collection.convert
+private[collection] trait Wrappers extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  trait IterableWrapperTrait[A] extends java.util.AbstractCollection[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    val underlying: scala.collection.Iterable[A]
+    def size(): scala.Int = { /* compiled code */ }
+    override def iterator(): scala.collection.convert.Wrappers.IteratorWrapper[A] = { /* compiled code */ }
+    override def isEmpty(): scala.Boolean = { /* compiled code */ }
+  }
+  case class IteratorWrapper[A](underlying: scala.collection.Iterator[A]) extends java.lang.Object with java.util.Iterator[A] with java.util.Enumeration[A] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.Iterator[A] = { /* compiled code */ }
+    def hasNext(): scala.Boolean = { /* compiled code */ }
+    def next(): A = { /* compiled code */ }
+    def hasMoreElements(): scala.Boolean = { /* compiled code */ }
+    def nextElement(): A = { /* compiled code */ }
+    def remove(): scala.Nothing = { /* compiled code */ }
+    def copy[A](underlying: scala.collection.Iterator[A]): scala.collection.convert.Wrappers.IteratorWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object IteratorWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: scala.collection.Iterator[A]): scala.collection.convert.Wrappers.IteratorWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.IteratorWrapper[A]): scala.Option[scala.collection.Iterator[A]] = { /* compiled code */ }
+  }
+  class ToIteratorWrapper[A] extends scala.AnyRef {
+    def this(underlying: scala.collection.Iterator[A]) = { /* compiled code */ }
+    def asJava: scala.collection.convert.Wrappers.IteratorWrapper[A] = { /* compiled code */ }
+  }
+  case class JIteratorWrapper[A](underlying: java.util.Iterator[A]) extends scala.collection.AbstractIterator[A] with scala.collection.Iterator[A] with scala.Product with scala.Serializable {
+    val underlying: java.util.Iterator[A] = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): A = { /* compiled code */ }
+    def copy[A](underlying: java.util.Iterator[A]): scala.collection.convert.Wrappers.JIteratorWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object JIteratorWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: java.util.Iterator[A]): scala.collection.convert.Wrappers.JIteratorWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.JIteratorWrapper[A]): scala.Option[java.util.Iterator[A]] = { /* compiled code */ }
+  }
+  case class JEnumerationWrapper[A](underlying: java.util.Enumeration[A]) extends scala.collection.AbstractIterator[A] with scala.collection.Iterator[A] with scala.Product with scala.Serializable {
+    val underlying: java.util.Enumeration[A] = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): A = { /* compiled code */ }
+    def copy[A](underlying: java.util.Enumeration[A]): scala.collection.convert.Wrappers.JEnumerationWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object JEnumerationWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: java.util.Enumeration[A]): scala.collection.convert.Wrappers.JEnumerationWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.JEnumerationWrapper[A]): scala.Option[java.util.Enumeration[A]] = { /* compiled code */ }
+  }
+  case class IterableWrapper[A](underlying: scala.collection.Iterable[A]) extends java.util.AbstractCollection[A] with scala.collection.convert.Wrappers.IterableWrapperTrait[A] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.Iterable[A] = { /* compiled code */ }
+    def copy[A](underlying: scala.collection.Iterable[A]): scala.collection.convert.Wrappers.IterableWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object IterableWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: scala.collection.Iterable[A]): scala.collection.convert.Wrappers.IterableWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.IterableWrapper[A]): scala.Option[scala.collection.Iterable[A]] = { /* compiled code */ }
+  }
+  case class JIterableWrapper[A](underlying: java.lang.Iterable[A]) extends scala.collection.AbstractIterable[A] with scala.collection.Iterable[A] with scala.Product with scala.Serializable {
+    val underlying: java.lang.Iterable[A] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    def newBuilder[B]: scala.collection.mutable.ArrayBuffer[B] = { /* compiled code */ }
+    def copy[A](underlying: java.lang.Iterable[A]): scala.collection.convert.Wrappers.JIterableWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object JIterableWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: java.lang.Iterable[A]): scala.collection.convert.Wrappers.JIterableWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.JIterableWrapper[A]): scala.Option[java.lang.Iterable[A]] = { /* compiled code */ }
+  }
+  case class JCollectionWrapper[A](underlying: java.util.Collection[A]) extends scala.collection.AbstractIterable[A] with scala.collection.Iterable[A] with scala.Product with scala.Serializable {
+    val underlying: java.util.Collection[A] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def isEmpty: scala.Boolean = { /* compiled code */ }
+    def newBuilder[B]: scala.collection.mutable.ArrayBuffer[B] = { /* compiled code */ }
+    def copy[A](underlying: java.util.Collection[A]): scala.collection.convert.Wrappers.JCollectionWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object JCollectionWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: java.util.Collection[A]): scala.collection.convert.Wrappers.JCollectionWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.JCollectionWrapper[A]): scala.Option[java.util.Collection[A]] = { /* compiled code */ }
+  }
+  case class SeqWrapper[A](underlying: scala.collection.Seq[A]) extends java.util.AbstractList[A] with scala.collection.convert.Wrappers.IterableWrapperTrait[A] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.Seq[A] = { /* compiled code */ }
+    def get(i: scala.Int): A = { /* compiled code */ }
+    def copy[A](underlying: scala.collection.Seq[A]): scala.collection.convert.Wrappers.SeqWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object SeqWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: scala.collection.Seq[A]): scala.collection.convert.Wrappers.SeqWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.SeqWrapper[A]): scala.Option[scala.collection.Seq[A]] = { /* compiled code */ }
+  }
+  case class MutableSeqWrapper[A](underlying: scala.collection.mutable.Seq[A]) extends java.util.AbstractList[A] with scala.collection.convert.Wrappers.IterableWrapperTrait[A] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.mutable.Seq[A] = { /* compiled code */ }
+    def get(i: scala.Int): A = { /* compiled code */ }
+    override def set(i: scala.Int, elem: A): A = { /* compiled code */ }
+    def copy[A](underlying: scala.collection.mutable.Seq[A]): scala.collection.convert.Wrappers.MutableSeqWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object MutableSeqWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: scala.collection.mutable.Seq[A]): scala.collection.convert.Wrappers.MutableSeqWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.MutableSeqWrapper[A]): scala.Option[scala.collection.mutable.Seq[A]] = { /* compiled code */ }
+  }
+  case class MutableBufferWrapper[A](underlying: scala.collection.mutable.Buffer[A]) extends java.util.AbstractList[A] with scala.collection.convert.Wrappers.IterableWrapperTrait[A] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.mutable.Buffer[A] = { /* compiled code */ }
+    def get(i: scala.Int): A = { /* compiled code */ }
+    override def set(i: scala.Int, elem: A): A = { /* compiled code */ }
+    override def add(elem: A): scala.Boolean = { /* compiled code */ }
+    override def remove(i: scala.Int): A = { /* compiled code */ }
+    def copy[A](underlying: scala.collection.mutable.Buffer[A]): scala.collection.convert.Wrappers.MutableBufferWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object MutableBufferWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: scala.collection.mutable.Buffer[A]): scala.collection.convert.Wrappers.MutableBufferWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.MutableBufferWrapper[A]): scala.Option[scala.collection.mutable.Buffer[A]] = { /* compiled code */ }
+  }
+  case class JListWrapper[A](underlying: java.util.List[A]) extends scala.collection.mutable.AbstractBuffer[A] with scala.collection.mutable.Buffer[A] with scala.Product with scala.Serializable {
+    val underlying: java.util.List[A] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    override def isEmpty: scala.Boolean = { /* compiled code */ }
+    override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    def apply(i: scala.Int): A = { /* compiled code */ }
+    def update(i: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+    def +=:(elem: A): scala.collection.convert.Wrappers.JListWrapper.type = { /* compiled code */ }
+    def +=(elem: A): scala.collection.convert.Wrappers.JListWrapper.type = { /* compiled code */ }
+    def insertAll(i: scala.Int, elems: scala.collection.Traversable[A]): scala.Unit = { /* compiled code */ }
+    def remove(i: scala.Int): A = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result: scala.collection.convert.Wrappers.JListWrapper[A] = { /* compiled code */ }
+    override def clone(): scala.collection.convert.Wrappers.JListWrapper[A] = { /* compiled code */ }
+    def copy[A](underlying: java.util.List[A]): scala.collection.convert.Wrappers.JListWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  object JListWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: java.util.List[A]): scala.collection.convert.Wrappers.JListWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.JListWrapper[A]): scala.Option[java.util.List[A]] = { /* compiled code */ }
+  }
+  class SetWrapper[A] extends java.util.AbstractSet[A] {
+ this: scala.collection.convert.Wrappers.SetWrapper[A] =>
+    def this(underlying: scala.collection.Set[A]) = { /* compiled code */ }
+    override def contains(o: java.lang.Object): scala.Boolean = { /* compiled code */ }
+    override def isEmpty(): scala.Boolean = { /* compiled code */ }
+    def size(): scala.Int = { /* compiled code */ }
+    def iterator(): java.lang.Object with java.util.Iterator[A] = { /* compiled code */ }
+  }
+  case class MutableSetWrapper[A](underlying: scala.collection.mutable.Set[A]) extends scala.collection.convert.Wrappers.SetWrapper[A] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.mutable.Set[A] = { /* compiled code */ }
+    override def add(elem: A): scala.Boolean = { /* compiled code */ }
+    override def remove(elem: scala.AnyRef): scala.Boolean = { /* compiled code */ }
+    override def clear(): scala.Unit = { /* compiled code */ }
+    def copy[A](underlying: scala.collection.mutable.Set[A]): scala.collection.convert.Wrappers.MutableSetWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object MutableSetWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: scala.collection.mutable.Set[A]): scala.collection.convert.Wrappers.MutableSetWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.MutableSetWrapper[A]): scala.Option[scala.collection.mutable.Set[A]] = { /* compiled code */ }
+  }
+  case class JSetWrapper[A](underlying: java.util.Set[A]) extends scala.collection.mutable.AbstractSet[A] with scala.collection.mutable.Set[A] with scala.collection.mutable.SetLike[A, scala.collection.convert.Wrappers.JSetWrapper[A]] with scala.Product with scala.Serializable {
+    val underlying: java.util.Set[A] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    def contains(elem: A): scala.Boolean = { /* compiled code */ }
+    def +=(elem: A): scala.collection.convert.Wrappers.JSetWrapper.type = { /* compiled code */ }
+    def -=(elem: A): scala.collection.convert.Wrappers.JSetWrapper.type = { /* compiled code */ }
+    override def add(elem: A): scala.Boolean = { /* compiled code */ }
+    override def remove(elem: A): scala.Boolean = { /* compiled code */ }
+    override def clear(): scala.Unit = { /* compiled code */ }
+    override def empty: scala.collection.convert.Wrappers.JSetWrapper[A] = { /* compiled code */ }
+    override def clone(): scala.collection.convert.Wrappers.JSetWrapper[A] = { /* compiled code */ }
+    def copy[A](underlying: java.util.Set[A]): scala.collection.convert.Wrappers.JSetWrapper[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  object JSetWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](underlying: java.util.Set[A]): scala.collection.convert.Wrappers.JSetWrapper[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.collection.convert.Wrappers.JSetWrapper[A]): scala.Option[java.util.Set[A]] = { /* compiled code */ }
+  }
+  class MapWrapper[A, B] extends java.util.AbstractMap[A, B] {
+ this: scala.collection.convert.Wrappers.MapWrapper[A, B] =>
+    def this(underlying: scala.collection.Map[A, B]) = { /* compiled code */ }
+    override def size(): scala.Int = { /* compiled code */ }
+    override def get(key: scala.AnyRef): B = { /* compiled code */ }
+    override def entrySet(): java.util.Set[java.util.Map.Entry[A, B]] = { /* compiled code */ }
+    override def containsKey(key: scala.AnyRef): scala.Boolean = { /* compiled code */ }
+  }
+  case class MutableMapWrapper[A, B](underlying: scala.collection.mutable.Map[A, B]) extends scala.collection.convert.Wrappers.MapWrapper[A, B] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+    override def put(k: A, v: B): B = { /* compiled code */ }
+    override def remove(k: scala.AnyRef): B = { /* compiled code */ }
+    override def clear(): scala.Unit = { /* compiled code */ }
+    def copy[A, B](underlying: scala.collection.mutable.Map[A, B]): scala.collection.convert.Wrappers.MutableMapWrapper[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object MutableMapWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](underlying: scala.collection.mutable.Map[A, B]): scala.collection.convert.Wrappers.MutableMapWrapper[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.collection.convert.Wrappers.MutableMapWrapper[A, B]): scala.Option[scala.collection.mutable.Map[A, B]] = { /* compiled code */ }
+  }
+  trait JMapWrapperLike[A, B, +Repr <: scala.collection.mutable.MapLike[A, B, Repr] with scala.collection.mutable.Map[A, B]] extends scala.AnyRef with scala.collection.mutable.Map[A, B] with scala.collection.mutable.MapLike[A, B, Repr] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def underlying: java.util.Map[A, B]
+    override def size: scala.Int = { /* compiled code */ }
+    def get(k: A): scala.Option[B] = { /* compiled code */ }
+    def +=(kv: scala.Tuple2[A, B]): scala.collection.convert.Wrappers.JMapWrapperLike.type = { /* compiled code */ }
+    def -=(key: A): scala.collection.convert.Wrappers.JMapWrapperLike.type = { /* compiled code */ }
+    override def put(k: A, v: B): scala.Option[B] = { /* compiled code */ }
+    override def update(k: A, v: B): scala.Unit = { /* compiled code */ }
+    override def remove(k: A): scala.Option[B] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+    override def clear(): scala.Unit = { /* compiled code */ }
+    override def empty: Repr = { /* compiled code */ }
+  }
+  case class JMapWrapper[A, B](underlying: java.util.Map[A, B]) extends scala.collection.mutable.AbstractMap[A, B] with scala.collection.convert.Wrappers.JMapWrapperLike[A, B, scala.collection.convert.Wrappers.JMapWrapper[A, B]] with scala.Product with scala.Serializable {
+    val underlying: java.util.Map[A, B] = { /* compiled code */ }
+    override def empty: scala.collection.convert.Wrappers.JMapWrapper[A, B] = { /* compiled code */ }
+    def copy[A, B](underlying: java.util.Map[A, B]): scala.collection.convert.Wrappers.JMapWrapper[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  object JMapWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](underlying: java.util.Map[A, B]): scala.collection.convert.Wrappers.JMapWrapper[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.collection.convert.Wrappers.JMapWrapper[A, B]): scala.Option[java.util.Map[A, B]] = { /* compiled code */ }
+  }
+  class ConcurrentMapWrapper[A, B] extends scala.collection.convert.Wrappers.MutableMapWrapper[A, B] with java.util.concurrent.ConcurrentMap[A, B] {
+    override val underlying: scala.collection.concurrent.Map[A, B] = { /* compiled code */ }
+    def this(underlying: scala.collection.concurrent.Map[A, B]) = { /* compiled code */ }
+    def putIfAbsent(k: A, v: B): B = { /* compiled code */ }
+    def remove(k: scala.AnyRef, v: scala.AnyRef): scala.Boolean = { /* compiled code */ }
+    def replace(k: A, v: B): B = { /* compiled code */ }
+    def replace(k: A, oldval: B, newval: B): scala.Boolean = { /* compiled code */ }
+  }
+  case class JConcurrentMapWrapper[A, B](underlying: java.util.concurrent.ConcurrentMap[A, B]) extends scala.collection.mutable.AbstractMap[A, B] with scala.collection.convert.Wrappers.JMapWrapperLike[A, B, scala.collection.convert.Wrappers.JConcurrentMapWrapper[A, B]] with scala.collection.concurrent.Map[A, B] with scala.Product with scala.Serializable {
+    val underlying: java.util.concurrent.ConcurrentMap[A, B] = { /* compiled code */ }
+    override def get(k: A): scala.Option[B] = { /* compiled code */ }
+    override def empty: scala.collection.convert.Wrappers.JConcurrentMapWrapper[A, B] = { /* compiled code */ }
+    def putIfAbsent(k: A, v: B): scala.Option[B] = { /* compiled code */ }
+    def remove(k: A, v: B): scala.Boolean = { /* compiled code */ }
+    def replace(k: A, v: B): scala.Option[B] = { /* compiled code */ }
+    def replace(k: A, oldvalue: B, newvalue: B): scala.Boolean = { /* compiled code */ }
+    def copy[A, B](underlying: java.util.concurrent.ConcurrentMap[A, B]): scala.collection.convert.Wrappers.JConcurrentMapWrapper[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  object JConcurrentMapWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](underlying: java.util.concurrent.ConcurrentMap[A, B]): scala.collection.convert.Wrappers.JConcurrentMapWrapper[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.collection.convert.Wrappers.JConcurrentMapWrapper[A, B]): scala.Option[java.util.concurrent.ConcurrentMap[A, B]] = { /* compiled code */ }
+  }
+  case class DictionaryWrapper[A, B](underlying: scala.collection.mutable.Map[A, B]) extends java.util.Dictionary[A, B] with scala.Product with scala.Serializable {
+    val underlying: scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+    def size(): scala.Int = { /* compiled code */ }
+    def isEmpty(): scala.Boolean = { /* compiled code */ }
+    def keys(): java.util.Enumeration[A] = { /* compiled code */ }
+    def elements(): java.util.Enumeration[B] = { /* compiled code */ }
+    def get(key: scala.AnyRef): B = { /* compiled code */ }
+    def put(key: A, value: B): B = { /* compiled code */ }
+    override def remove(key: scala.AnyRef): B = { /* compiled code */ }
+    def copy[A, B](underlying: scala.collection.mutable.Map[A, B]): scala.collection.convert.Wrappers.DictionaryWrapper[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object DictionaryWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](underlying: scala.collection.mutable.Map[A, B]): scala.collection.convert.Wrappers.DictionaryWrapper[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.collection.convert.Wrappers.DictionaryWrapper[A, B]): scala.Option[scala.collection.mutable.Map[A, B]] = { /* compiled code */ }
+  }
+  case class JDictionaryWrapper[A, B](underlying: java.util.Dictionary[A, B]) extends scala.collection.mutable.AbstractMap[A, B] with scala.collection.mutable.Map[A, B] with scala.Product with scala.Serializable {
+    val underlying: java.util.Dictionary[A, B] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def get(k: A): scala.Option[B] = { /* compiled code */ }
+    def +=(kv: scala.Tuple2[A, B]): scala.collection.convert.Wrappers.JDictionaryWrapper.type = { /* compiled code */ }
+    def -=(key: A): scala.collection.convert.Wrappers.JDictionaryWrapper.type = { /* compiled code */ }
+    override def put(k: A, v: B): scala.Option[B] = { /* compiled code */ }
+    override def update(k: A, v: B): scala.Unit = { /* compiled code */ }
+    override def remove(k: A): scala.Option[B] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+    override def clear(): scala.Unit = { /* compiled code */ }
+    def copy[A, B](underlying: java.util.Dictionary[A, B]): scala.collection.convert.Wrappers.JDictionaryWrapper[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  object JDictionaryWrapper extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](underlying: java.util.Dictionary[A, B]): scala.collection.convert.Wrappers.JDictionaryWrapper[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.collection.convert.Wrappers.JDictionaryWrapper[A, B]): scala.Option[java.util.Dictionary[A, B]] = { /* compiled code */ }
+  }
+  case class JPropertiesWrapper(underlying: java.util.Properties) extends scala.collection.mutable.AbstractMap[scala.Predef.String, scala.Predef.String] with scala.collection.mutable.Map[scala.Predef.String, scala.Predef.String] with scala.collection.mutable.MapLike[scala.Predef.String, scala.Predef.String, scala.collection.convert.Wrappers.JPropertiesWrapper] with scala.Product with scala.Serializable {
+    val underlying: java.util.Properties = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def get(k: scala.Predef.String): scala.Option[scala.Predef.String] = { /* compiled code */ }
+    def +=(kv: scala.Tuple2[scala.Predef.String, scala.Predef.String]): scala.collection.convert.Wrappers.JPropertiesWrapper.type = { /* compiled code */ }
+    def -=(key: scala.Predef.String): scala.collection.convert.Wrappers.JPropertiesWrapper.type = { /* compiled code */ }
+    override def put(k: scala.Predef.String, v: scala.Predef.String): scala.Option[scala.Predef.String] = { /* compiled code */ }
+    override def update(k: scala.Predef.String, v: scala.Predef.String): scala.Unit = { /* compiled code */ }
+    override def remove(k: scala.Predef.String): scala.Option[scala.Predef.String] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[scala.Predef.String, scala.Predef.String]] = { /* compiled code */ }
+    override def clear(): scala.Unit = { /* compiled code */ }
+    override def empty: scala.collection.convert.Wrappers.JPropertiesWrapper = { /* compiled code */ }
+    def getProperty(key: scala.Predef.String): java.lang.String = { /* compiled code */ }
+    def getProperty(key: scala.Predef.String, defaultValue: scala.Predef.String): java.lang.String = { /* compiled code */ }
+    def setProperty(key: scala.Predef.String, value: scala.Predef.String): java.lang.Object = { /* compiled code */ }
+    def copy(underlying: java.util.Properties): scala.collection.convert.Wrappers.JPropertiesWrapper = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  object JPropertiesWrapper extends scala.runtime.AbstractFunction1[java.util.Properties, scala.collection.convert.Wrappers.JPropertiesWrapper] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply(underlying: java.util.Properties): scala.collection.convert.Wrappers.JPropertiesWrapper = { /* compiled code */ }
+    def unapply(x$0: scala.collection.convert.Wrappers.JPropertiesWrapper): scala.Option[java.util.Properties] = { /* compiled code */ }
+  }
+}
+@scala.SerialVersionUID { val value = -5857859809262781311None }
+object Wrappers extends scala.AnyRef with scala.collection.convert.Wrappers with scala.Serializable {
+  def this() = { /* compiled code */ }
+}

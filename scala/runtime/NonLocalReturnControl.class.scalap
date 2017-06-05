@@ -1,0 +1,8 @@
+package scala.runtime
+class NonLocalReturnControl[@scala.specialized T] extends scala.Throwable with scala.util.control.ControlThrowable {
+  val key: scala.AnyRef = { /* compiled code */ }
+  val value: T = { /* compiled code */ }
+  @scala.specialized
+  def this(key: scala.AnyRef, value: T) = { /* compiled code */ }
+  final override def fillInStackTrace(): scala.Throwable = { /* compiled code */ }
+}

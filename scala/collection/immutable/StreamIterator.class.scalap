@@ -1,0 +1,12 @@
+package scala.collection.immutable
+final class StreamIterator[+A] extends scala.collection.AbstractIterator[A] with scala.collection.Iterator[A] {
+  def this(self: scala.collection.immutable.Stream[A]) = { /* compiled code */ }
+  class LazyCell extends scala.AnyRef {
+    def this(st: => scala.collection.immutable.Stream[A]) = { /* compiled code */ }
+    val v: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  }
+  def hasNext: scala.Boolean = { /* compiled code */ }
+  def next(): A = { /* compiled code */ }
+  override def toStream: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def toList: scala.List[A] = { /* compiled code */ }
+}

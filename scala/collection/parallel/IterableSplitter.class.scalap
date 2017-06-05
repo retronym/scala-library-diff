@@ -1,0 +1,68 @@
+package scala.collection.parallel
+trait IterableSplitter[+T] extends scala.AnyRef with scala.collection.parallel.AugmentedIterableIterator[T] with scala.collection.parallel.Splitter[T] with scala.collection.generic.Signalling with scala.collection.generic.DelegatedSignalling {
+ this: scala.collection.parallel.IterableSplitter[T] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  var signalDelegate: scala.collection.generic.Signalling = { /* compiled code */ }
+  def dup: scala.collection.parallel.IterableSplitter[T]
+  def split: scala.Seq[scala.collection.parallel.IterableSplitter[T]]
+  def splitWithSignalling: scala.Seq[scala.collection.parallel.IterableSplitter[T]] = { /* compiled code */ }
+  def shouldSplitFurther[S](coll: scala.collection.parallel.ParIterable[S], parallelismLevel: scala.Int): scala.Boolean = { /* compiled code */ }
+  def remaining: scala.Int
+  protected def buildString(closure: scala.Function1[scala.Function1[scala.Predef.String, scala.Unit], scala.Unit]): scala.Predef.String = { /* compiled code */ }
+  private[parallel] def debugInformation: java.lang.String = { /* compiled code */ }
+  class Taken extends scala.AnyRef with scala.collection.parallel.IterableSplitter[T] {
+    def this(taken: scala.Int) = { /* compiled code */ }
+    var remaining: scala.Int = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): T = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[T] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[T]] = { /* compiled code */ }
+  }
+  private[collection] def newTaken(until: scala.Int): scala.collection.parallel.IterableSplitter.Taken = { /* compiled code */ }
+  private[collection] def newSliceInternal[U <: scala.collection.parallel.IterableSplitter.Taken](it: U, from1: scala.Int): U = { /* compiled code */ }
+  override def take(n: scala.Int): scala.collection.parallel.IterableSplitter[T] = { /* compiled code */ }
+  override def slice(from1: scala.Int, until1: scala.Int): scala.collection.parallel.IterableSplitter[T] = { /* compiled code */ }
+  class Mapped[S] extends scala.AnyRef with scala.collection.parallel.IterableSplitter[S] {
+    def this(f: scala.Function1[T, S]) = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): S = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[S] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[S]] = { /* compiled code */ }
+  }
+  override def map[S](f: scala.Function1[T, S]): scala.collection.parallel.IterableSplitter.Mapped[S] = { /* compiled code */ }
+  class Appended[U >: T, PI <: scala.collection.parallel.IterableSplitter[U]] extends scala.AnyRef with scala.collection.parallel.IterableSplitter[U] {
+    protected val that: PI = { /* compiled code */ }
+    def this(that: PI) = { /* compiled code */ }
+    protected var curr: scala.collection.parallel.IterableSplitter[U] = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): U = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+    protected def firstNonEmpty: scala.Boolean = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[U] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[U]] = { /* compiled code */ }
+  }
+  def appendParIterable[U >: T, PI <: scala.collection.parallel.IterableSplitter[U]](that: PI): scala.collection.parallel.IterableSplitter.Appended[U, PI] = { /* compiled code */ }
+  class Zipped[S] extends scala.AnyRef with scala.collection.parallel.IterableSplitter[scala.Tuple2[T, S]] {
+    protected val that: scala.collection.parallel.SeqSplitter[S] = { /* compiled code */ }
+    def this(that: scala.collection.parallel.SeqSplitter[S]) = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): scala.Tuple2[T, S] = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[scala.Tuple2[T, S]] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[scala.Tuple2[T, S]]] = { /* compiled code */ }
+  }
+  def zipParSeq[S](that: scala.collection.parallel.SeqSplitter[S]): scala.collection.parallel.IterableSplitter.Zipped[S] = { /* compiled code */ }
+  class ZippedAll[U >: T, S] extends scala.AnyRef with scala.collection.parallel.IterableSplitter[scala.Tuple2[U, S]] {
+    protected val that: scala.collection.parallel.SeqSplitter[S] = { /* compiled code */ }
+    protected val thiselem: U = { /* compiled code */ }
+    protected val thatelem: S = { /* compiled code */ }
+    def this(that: scala.collection.parallel.SeqSplitter[S], thiselem: U, thatelem: S) = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): scala.Tuple2[U, S] = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[scala.Tuple2[U, S]] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[scala.Tuple2[U, S]]] = { /* compiled code */ }
+  }
+  def zipAllParSeq[S, U >: T, R >: S](that: scala.collection.parallel.SeqSplitter[S], thisElem: U, thatElem: R): scala.collection.parallel.IterableSplitter.ZippedAll[U, R] = { /* compiled code */ }
+}

@@ -1,0 +1,11 @@
+package scala.collection.mutable
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait SetProxy[A] extends scala.AnyRef with scala.collection.mutable.Set[A] with scala.collection.SetProxyLike[A, scala.collection.mutable.Set[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def repr: scala.collection.mutable.SetProxy[A] = { /* compiled code */ }
+  override def empty: scala.AnyRef with scala.collection.mutable.SetProxy[A] = { /* compiled code */ }
+  override def +(elem: A): scala.collection.mutable.SetProxy[A] = { /* compiled code */ }
+  override def -(elem: A): scala.collection.mutable.SetProxy[A] = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.SetProxy.type = { /* compiled code */ }
+  def -=(elem: A): scala.collection.mutable.SetProxy.type = { /* compiled code */ }
+}

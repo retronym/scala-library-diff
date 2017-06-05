@@ -1,0 +1,8 @@
+package scala.collection.mutable
+class SetBuilder[A, Coll <: scala.collection.Set[A] with scala.collection.SetLike[A, Coll]] extends scala.AnyRef with scala.collection.mutable.Builder[A, Coll] {
+  def this(empty: Coll) = { /* compiled code */ }
+  protected var elems: Coll = { /* compiled code */ }
+  def +=(x: A): scala.collection.mutable.SetBuilder.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def result(): Coll = { /* compiled code */ }
+}

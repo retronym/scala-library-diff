@@ -1,0 +1,5 @@
+package scala.collection.immutable
+private[immutable] class IntMapKeyIterator[V] extends scala.collection.immutable.IntMapIterator[V, scala.collection.generic.BitOperations.Int.Int] {
+  def this(it: scala.collection.immutable.IntMap[V]) = { /* compiled code */ }
+  def valueOf(tip: scala.collection.immutable.IntMap.Tip[V]): scala.collection.generic.BitOperations.Int.Int = { /* compiled code */ }
+}

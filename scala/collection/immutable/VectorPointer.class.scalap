@@ -1,0 +1,26 @@
+package scala.collection.immutable
+private[immutable] trait VectorPointer[T] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  private[immutable] var depth: scala.Int = { /* compiled code */ }
+  private[immutable] var display0: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] var display1: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] var display2: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] var display3: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] var display4: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] var display5: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] final def initFrom[U](that: scala.collection.immutable.VectorPointer[U]): scala.Unit = { /* compiled code */ }
+  private[immutable] final def initFrom[U](that: scala.collection.immutable.VectorPointer[U], depth: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def getElem(index: scala.Int, xor: scala.Int): T = { /* compiled code */ }
+  private[immutable] final def gotoPos(index: scala.Int, xor: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def gotoNextBlockStart(index: scala.Int, xor: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def gotoNextBlockStartWritable(index: scala.Int, xor: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def copyOf(a: scala.Array[scala.AnyRef]): scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] final def nullSlotAndCopy(array: scala.Array[scala.AnyRef], index: scala.Int): scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] final def stabilize(index: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def gotoPosWritable0(newIndex: scala.Int, xor: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def gotoPosWritable1(oldIndex: scala.Int, newIndex: scala.Int, xor: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def copyRange(array: scala.Array[scala.AnyRef], oldLeft: scala.Int, newLeft: scala.Int): scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[immutable] final def gotoFreshPosWritable0(oldIndex: scala.Int, newIndex: scala.Int, xor: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] final def gotoFreshPosWritable1(oldIndex: scala.Int, newIndex: scala.Int, xor: scala.Int): scala.Unit = { /* compiled code */ }
+  private[immutable] def debug(): scala.Unit = { /* compiled code */ }
+}

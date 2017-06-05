@@ -1,0 +1,26 @@
+package scala.reflect
+object ClassManifestFactory extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val Byte: scala.reflect.AnyValManifest[scala.Byte] = { /* compiled code */ }
+  val Short: scala.reflect.AnyValManifest[scala.Short] = { /* compiled code */ }
+  val Char: scala.reflect.AnyValManifest[scala.Char] = { /* compiled code */ }
+  val Int: scala.reflect.AnyValManifest[scala.Int] = { /* compiled code */ }
+  val Long: scala.reflect.AnyValManifest[scala.Long] = { /* compiled code */ }
+  val Float: scala.reflect.AnyValManifest[scala.Float] = { /* compiled code */ }
+  val Double: scala.reflect.AnyValManifest[scala.Double] = { /* compiled code */ }
+  val Boolean: scala.reflect.AnyValManifest[scala.Boolean] = { /* compiled code */ }
+  val Unit: scala.reflect.AnyValManifest[scala.Unit] = { /* compiled code */ }
+  val Any: scala.reflect.Manifest[scala.Any] = { /* compiled code */ }
+  val Object: scala.reflect.Manifest[java.lang.Object] = { /* compiled code */ }
+  val AnyVal: scala.reflect.Manifest[scala.AnyVal] = { /* compiled code */ }
+  val Nothing: scala.reflect.Manifest[scala.Nothing] = { /* compiled code */ }
+  val Null: scala.reflect.Manifest[scala.Null] = { /* compiled code */ }
+  def fromClass[T](clazz: java.lang.Class[T]): scala.reflect.ClassManifest[T] = { /* compiled code */ }
+  def singleType[T <: scala.AnyRef](value: scala.AnyRef): scala.reflect.Manifest[T] = { /* compiled code */ }
+  def classType[T](clazz: java.lang.Class[_]): scala.reflect.ClassManifest[T] = { /* compiled code */ }
+  def classType[T](clazz: java.lang.Class[_], arg1: scala.reflect.OptManifest[_], args: scala.reflect.OptManifest[_]*): scala.reflect.ClassManifest[T] = { /* compiled code */ }
+  def classType[T](prefix: scala.reflect.OptManifest[_], clazz: java.lang.Class[_], args: scala.reflect.OptManifest[_]*): scala.reflect.ClassManifest[T] = { /* compiled code */ }
+  def arrayType[T](arg: scala.reflect.OptManifest[_]): scala.reflect.ClassManifest[scala.Array[T]] = { /* compiled code */ }
+  def abstractType[T](prefix: scala.reflect.OptManifest[_], name: scala.Predef.String, clazz: java.lang.Class[_], args: scala.reflect.OptManifest[_]*): scala.reflect.ClassManifest[T] = { /* compiled code */ }
+  def abstractType[T](prefix: scala.reflect.OptManifest[_], name: scala.Predef.String, upperbound: scala.reflect.ClassManifest[_], args: scala.reflect.OptManifest[_]*): scala.reflect.ClassManifest[T] = { /* compiled code */ }
+}

@@ -1,0 +1,188 @@
+package scala.collection.mutable
+@scala.deprecatedInheritance("ArrayOps will be sealed to facilitate greater flexibility with array/collections integration in future releases.")
+trait ArrayOps[T] extends scala.Any with scala.collection.mutable.ArrayLike[T, scala.Array[T]] with scala.collection.CustomParallelizable[T, scala.collection.parallel.mutable.ParArray[T]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def copyToArray[U >: T](xs: scala.Array[U], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  override def toArray[U >: T](implicit evidence$1: scala.reflect.ClassTag[U]): scala.Array[U] = { /* compiled code */ }
+  def :+[B >: T](elem: B)(implicit evidence$2: scala.reflect.ClassTag[B]): scala.Array[B] = { /* compiled code */ }
+  def +:[B >: T](elem: B)(implicit evidence$3: scala.reflect.ClassTag[B]): scala.Array[B] = { /* compiled code */ }
+  override def par: scala.collection.parallel.mutable.ParArray[T] = { /* compiled code */ }
+  def flatten[U](implicit asTrav: scala.Function1[T, scala.collection.Traversable[U]], m: scala.reflect.ClassTag[U]): scala.Array[U] = { /* compiled code */ }
+  def transpose[U](implicit asArray: scala.Function1[T, scala.Array[U]]): scala.Array[scala.Array[U]] = { /* compiled code */ }
+  def unzip[T1, T2](implicit asPair: scala.Function1[T, scala.Tuple2[T1, T2]], ct1: scala.reflect.ClassTag[T1], ct2: scala.reflect.ClassTag[T2]): scala.Tuple2[scala.Array[T1], scala.Array[T2]] = { /* compiled code */ }
+  def unzip3[T1, T2, T3](implicit asTriple: scala.Function1[T, scala.Tuple3[T1, T2, T3]], ct1: scala.reflect.ClassTag[T1], ct2: scala.reflect.ClassTag[T2], ct3: scala.reflect.ClassTag[T3]): scala.Tuple3[scala.Array[T1], scala.Array[T2], scala.Array[T3]] = { /* compiled code */ }
+  def seq: scala.collection.mutable.IndexedSeq[T] = { /* compiled code */ }
+}
+object ArrayOps extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final class ofRef[T <: scala.AnyRef] extends scala.AnyVal with scala.collection.mutable.ArrayOps[T] with scala.collection.mutable.ArrayLike[T, scala.Array[T]] {
+    override val repr: scala.Array[T] = { /* compiled code */ }
+    def this(repr: scala.Array[T]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): T = { /* compiled code */ }
+    def update(index: scala.Int, elem: T): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofByte extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Byte] with scala.collection.mutable.ArrayLike[scala.Byte, scala.Array[scala.Byte]] {
+    override val repr: scala.Array[scala.Byte] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Byte]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Byte = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Byte): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofShort extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Short] with scala.collection.mutable.ArrayLike[scala.Short, scala.Array[scala.Short]] {
+    override val repr: scala.Array[scala.Short] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Short]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Short = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Short): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofChar extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Char] with scala.collection.mutable.ArrayLike[scala.Char, scala.Array[scala.Char]] {
+    override val repr: scala.Array[scala.Char] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Char]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Char = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Char): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofInt extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Int] with scala.collection.mutable.ArrayLike[scala.Int, scala.Array[scala.Int]] {
+    override val repr: scala.Array[scala.Int] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Int]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Int = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Int): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofLong extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Long] with scala.collection.mutable.ArrayLike[scala.Long, scala.Array[scala.Long]] {
+    override val repr: scala.Array[scala.Long] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Long]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Long = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Long): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofFloat extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Float] with scala.collection.mutable.ArrayLike[scala.Float, scala.Array[scala.Float]] {
+    override val repr: scala.Array[scala.Float] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Float]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Float = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Float): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofDouble extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Double] with scala.collection.mutable.ArrayLike[scala.Double, scala.Array[scala.Double]] {
+    override val repr: scala.Array[scala.Double] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Double]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Double = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Double): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofBoolean extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Boolean] with scala.collection.mutable.ArrayLike[scala.Boolean, scala.Array[scala.Boolean]] {
+    override val repr: scala.Array[scala.Boolean] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Boolean]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Boolean = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Boolean): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final class ofUnit extends scala.AnyVal with scala.collection.mutable.ArrayOps[scala.Unit] with scala.collection.mutable.ArrayLike[scala.Unit, scala.Array[scala.Unit]] {
+    override val repr: scala.Array[scala.Unit] = { /* compiled code */ }
+    def this(repr: scala.Array[scala.Unit]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Unit = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Unit): scala.Unit = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofBoolean extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofBoolean): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofBoolean)(index: scala.Int): scala.Boolean = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofBoolean)(index: scala.Int, elem: scala.Boolean): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofBoolean)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofBoolean)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofByte extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofByte): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofByte)(index: scala.Int): scala.Byte = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofByte)(index: scala.Int, elem: scala.Byte): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofByte)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofByte)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofChar extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofChar): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofChar)(index: scala.Int): scala.Char = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofChar)(index: scala.Int, elem: scala.Char): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofChar)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofChar)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofDouble extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofDouble): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofDouble)(index: scala.Int): scala.Double = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofDouble)(index: scala.Int, elem: scala.Double): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofDouble)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofDouble)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofFloat extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofFloat): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofFloat)(index: scala.Int): scala.Float = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofFloat)(index: scala.Int, elem: scala.Float): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofFloat)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofFloat)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofInt extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofInt): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofInt)(index: scala.Int): scala.Int = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofInt)(index: scala.Int, elem: scala.Int): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofInt)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofInt)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofLong extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofLong): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofLong)(index: scala.Int): scala.Long = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofLong)(index: scala.Int, elem: scala.Long): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofLong)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofLong)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofRef extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T]): scala.Int = { /* compiled code */ }
+    final def apply$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T])(index: scala.Int): T = { /* compiled code */ }
+    final def update$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T])(index: scala.Int, elem: T): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[T <: scala.AnyRef]($this: scala.collection.mutable.ArrayOps.ofRef[T])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofShort extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofShort): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofShort)(index: scala.Int): scala.Short = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofShort)(index: scala.Int, elem: scala.Short): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofShort)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofShort)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object ofUnit extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def length$extension($this: scala.collection.mutable.ArrayOps.ofUnit): scala.Int = { /* compiled code */ }
+    final def apply$extension($this: scala.collection.mutable.ArrayOps.ofUnit)(index: scala.Int): scala.Unit = { /* compiled code */ }
+    final def update$extension($this: scala.collection.mutable.ArrayOps.ofUnit)(index: scala.Int, elem: scala.Unit): scala.Unit = { /* compiled code */ }
+    final def hashCode$extension($this: scala.collection.mutable.ArrayOps.ofUnit)(): scala.Int = { /* compiled code */ }
+    final def equals$extension($this: scala.collection.mutable.ArrayOps.ofUnit)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+}

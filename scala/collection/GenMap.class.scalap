@@ -1,0 +1,10 @@
+package scala.collection
+trait GenMap[A, +B] extends scala.AnyRef with scala.collection.GenMapLike[A, B, scala.collection.GenMap[A, B]] with scala.collection.GenIterable[scala.Tuple2[A, B]] {
+  def seq: scala.collection.Map[A, B]
+  def updated[B1 >: B](key: A, value: B1): scala.collection.GenMap[A, B1]
+}
+object GenMap extends scala.collection.generic.GenMapFactory[scala.collection.GenMap] {
+  def this() = { /* compiled code */ }
+  def empty[A, B]: scala.collection.immutable.Map[A, B] = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.GenMap[A, B]] = { /* compiled code */ }
+}

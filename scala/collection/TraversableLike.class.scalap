@@ -1,0 +1,62 @@
+package scala.collection
+trait TraversableLike[+A, +Repr] extends scala.Any with scala.collection.generic.HasNewBuilder[A, Repr] with scala.collection.generic.FilterMonadic[A, Repr] with scala.collection.TraversableOnce[A] with scala.collection.GenTraversableLike[A, Repr] with scala.collection.Parallelizable[A, scala.collection.parallel.ParIterable[A]] {
+ this: scala.collection.TraversableLike[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def repr: Repr = { /* compiled code */ }
+  final def isTraversableAgain: scala.Boolean = { /* compiled code */ }
+  def foreach[U](f: scala.Function1[A, U]): scala.Unit
+  def isEmpty: scala.Boolean = { /* compiled code */ }
+  def hasDefiniteSize: scala.Boolean = { /* compiled code */ }
+  def ++[B >: A, That](that: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def ++:[B >: A, That](that: scala.collection.TraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def ++:[B >: A, That](that: scala.collection.Traversable[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def filter(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  def filterNot(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  def collect[B, That](pf: scala.PartialFunction[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def partition(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  def groupBy[K](f: scala.Function1[A, K]): scala.collection.immutable.Map[K, Repr] = { /* compiled code */ }
+  def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def find(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  def scan[B >: A, That](z: B)(op: scala.Function2[B, B, B])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def scanLeft[B, That](z: B)(op: scala.Function2[B, A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  @scala.annotation.migration("The behavior of `scanRight` has changed. The previous behavior can be reproduced with scanRight.reverse.")
+  def scanRight[B, That](z: B)(op: scala.Function2[A, B, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def head: A = { /* compiled code */ }
+  def headOption: scala.Option[A] = { /* compiled code */ }
+  override def tail: Repr = { /* compiled code */ }
+  def last: A = { /* compiled code */ }
+  def lastOption: scala.Option[A] = { /* compiled code */ }
+  def init: Repr = { /* compiled code */ }
+  def take(n: scala.Int): Repr = { /* compiled code */ }
+  def drop(n: scala.Int): Repr = { /* compiled code */ }
+  def slice(from: scala.Int, until: scala.Int): Repr = { /* compiled code */ }
+  private[scala] def sliceWithKnownDelta(from: scala.Int, until: scala.Int, delta: scala.Int): Repr = { /* compiled code */ }
+  private[scala] def sliceWithKnownBound(from: scala.Int, until: scala.Int): Repr = { /* compiled code */ }
+  def takeWhile(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  def dropWhile(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  def splitAt(n: scala.Int): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  def tails: scala.collection.Iterator[Repr] = { /* compiled code */ }
+  def inits: scala.collection.Iterator[Repr] = { /* compiled code */ }
+  def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  @scala.deprecatedOverriding("Enforce contract of toTraversable that if it is Traversable it returns itself.")
+  def toTraversable: scala.collection.Traversable[A] = { /* compiled code */ }
+  def toIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def toStream: scala.Stream[A] = { /* compiled code */ }
+  override def to[Col[_]](implicit cbf: scala.collection.generic.CanBuildFrom[scala.Nothing, A, Col[A]]): Col[A] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  def stringPrefix: scala.Predef.String = { /* compiled code */ }
+  def view: scala.AnyRef with scala.collection.TraversableView[A, Repr] = { /* compiled code */ }
+  def view(from: scala.Int, until: scala.Int): scala.collection.TraversableView[A, Repr] = { /* compiled code */ }
+  def withFilter(p: scala.Function1[A, scala.Boolean]): scala.collection.generic.FilterMonadic[A, Repr] = { /* compiled code */ }
+  class WithFilter extends scala.AnyRef with scala.collection.generic.FilterMonadic[A, Repr] {
+    def this(p: scala.Function1[A, scala.Boolean]) = { /* compiled code */ }
+    def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+    def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+    def withFilter(q: scala.Function1[A, scala.Boolean]): scala.collection.TraversableLike.WithFilter = { /* compiled code */ }
+  }
+}

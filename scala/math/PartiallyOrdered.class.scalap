@@ -1,0 +1,9 @@
+package scala.math
+trait PartiallyOrdered[+A] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def tryCompareTo[B >: A](that: B)(implicit evidence$1: scala.Function1[B, scala.math.PartiallyOrdered[B]]): scala.Option[scala.Int]
+  def <[B >: A](that: B)(implicit evidence$2: scala.Function1[B, scala.math.PartiallyOrdered[B]]): scala.Boolean = { /* compiled code */ }
+  def >[B >: A](that: B)(implicit evidence$3: scala.Function1[B, scala.math.PartiallyOrdered[B]]): scala.Boolean = { /* compiled code */ }
+  def <=[B >: A](that: B)(implicit evidence$4: scala.Function1[B, scala.math.PartiallyOrdered[B]]): scala.Boolean = { /* compiled code */ }
+  def >=[B >: A](that: B)(implicit evidence$5: scala.Function1[B, scala.math.PartiallyOrdered[B]]): scala.Boolean = { /* compiled code */ }
+}

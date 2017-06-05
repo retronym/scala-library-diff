@@ -1,0 +1,5 @@
+package scala.collection.generic
+class DelegatedContext extends scala.AnyRef with scala.collection.generic.DelegatedSignalling {
+  var signalDelegate: scala.collection.generic.Signalling = { /* compiled code */ }
+  def this(signalDelegate: scala.collection.generic.Signalling) = { /* compiled code */ }
+}

@@ -1,0 +1,10 @@
+package scala.collection.generic
+trait IsTraversableLike[Repr] extends scala.AnyRef {
+  type A
+  val conversion: scala.Function1[Repr, scala.collection.GenTraversableLike[A, Repr]]
+}
+object IsTraversableLike extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit val stringRepr: scala.collection.generic.IsTraversableLike[scala.Predef.String] = { /* compiled code */ }
+  implicit def genTraversableLikeRepr[C[_], A0](implicit conv: scala.Function1[C[A0], scala.collection.GenTraversableLike[A0, C[A0]]]): scala.collection.generic.IsTraversableLike[C[A0]] = { /* compiled code */ }
+}

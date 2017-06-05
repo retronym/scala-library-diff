@@ -1,0 +1,34 @@
+package scala
+private[scala] abstract class LowPriorityImplicits extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  @scala.inline
+  implicit def byteWrapper(x: scala.Byte): scala.runtime.RichByte = { /* compiled code */ }
+  @scala.inline
+  implicit def shortWrapper(x: scala.Short): scala.runtime.RichShort = { /* compiled code */ }
+  @scala.inline
+  implicit def intWrapper(x: scala.Int): scala.runtime.RichInt = { /* compiled code */ }
+  @scala.inline
+  implicit def charWrapper(c: scala.Char): scala.runtime.RichChar = { /* compiled code */ }
+  @scala.inline
+  implicit def longWrapper(x: scala.Long): scala.runtime.RichLong = { /* compiled code */ }
+  @scala.inline
+  implicit def floatWrapper(x: scala.Float): scala.runtime.RichFloat = { /* compiled code */ }
+  @scala.inline
+  implicit def doubleWrapper(x: scala.Double): scala.runtime.RichDouble = { /* compiled code */ }
+  @scala.inline
+  implicit def booleanWrapper(x: scala.Boolean): scala.runtime.RichBoolean = { /* compiled code */ }
+  implicit def genericWrapArray[T](xs: scala.Array[T]): scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+  implicit def wrapRefArray[T <: scala.AnyRef](xs: scala.Array[T]): scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+  implicit def wrapIntArray(xs: scala.Array[scala.Int]): scala.collection.mutable.WrappedArray[scala.Int] = { /* compiled code */ }
+  implicit def wrapDoubleArray(xs: scala.Array[scala.Double]): scala.collection.mutable.WrappedArray[scala.Double] = { /* compiled code */ }
+  implicit def wrapLongArray(xs: scala.Array[scala.Long]): scala.collection.mutable.WrappedArray[scala.Long] = { /* compiled code */ }
+  implicit def wrapFloatArray(xs: scala.Array[scala.Float]): scala.collection.mutable.WrappedArray[scala.Float] = { /* compiled code */ }
+  implicit def wrapCharArray(xs: scala.Array[scala.Char]): scala.collection.mutable.WrappedArray[scala.Char] = { /* compiled code */ }
+  implicit def wrapByteArray(xs: scala.Array[scala.Byte]): scala.collection.mutable.WrappedArray[scala.Byte] = { /* compiled code */ }
+  implicit def wrapShortArray(xs: scala.Array[scala.Short]): scala.collection.mutable.WrappedArray[scala.Short] = { /* compiled code */ }
+  implicit def wrapBooleanArray(xs: scala.Array[scala.Boolean]): scala.collection.mutable.WrappedArray[scala.Boolean] = { /* compiled code */ }
+  implicit def wrapUnitArray(xs: scala.Array[scala.Unit]): scala.collection.mutable.WrappedArray[scala.Unit] = { /* compiled code */ }
+  implicit def wrapString(s: java.lang.String): scala.collection.immutable.WrappedString = { /* compiled code */ }
+  implicit def unwrapString(ws: scala.collection.immutable.WrappedString): java.lang.String = { /* compiled code */ }
+  implicit def fallbackStringCanBuildFrom[T]: scala.collection.generic.CanBuildFrom[java.lang.String, T, scala.collection.immutable.IndexedSeq[T]] = { /* compiled code */ }
+}

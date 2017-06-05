@@ -1,0 +1,20 @@
+package scala.collection.parallel.mutable
+trait ParFlatHashTable[T] extends scala.AnyRef with scala.collection.mutable.FlatHashTable[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def alwaysInitSizeMap: scala.Boolean = { /* compiled code */ }
+  abstract class ParFlatHashTableIterator extends scala.AnyRef with scala.collection.parallel.IterableSplitter[T] with scala.collection.parallel.mutable.SizeMapUtils {
+    var idx: scala.Int = { /* compiled code */ }
+    val until: scala.Int = { /* compiled code */ }
+    val totalsize: scala.Int = { /* compiled code */ }
+    def this(idx: scala.Int, until: scala.Int, totalsize: scala.Int) = { /* compiled code */ }
+    def newIterator(index: scala.Int, until: scala.Int, totalsize: scala.Int): scala.collection.parallel.IterableSplitter[T]
+    def remaining: scala.Int = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): T = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[T] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[T]] = { /* compiled code */ }
+    override def debugInformation: scala.Predef.String = { /* compiled code */ }
+    protected def countElems(from: scala.Int, until: scala.Int): scala.Int = { /* compiled code */ }
+    protected def countBucketSizes(frombucket: scala.Int, untilbucket: scala.Int): scala.Int = { /* compiled code */ }
+  }
+}

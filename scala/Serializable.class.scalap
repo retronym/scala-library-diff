@@ -1,0 +1,3 @@
+package scala
+trait Serializable extends scala.Any with java.io.Serializable {
+}

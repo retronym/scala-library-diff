@@ -1,0 +1,41 @@
+package scala.collection.immutable
+final class Vector[+A] extends scala.collection.AbstractSeq[A] with scala.collection.immutable.IndexedSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.immutable.Vector] with scala.collection.IndexedSeqLike[A, scala.collection.immutable.Vector[A]] with scala.collection.immutable.VectorPointer[A] with scala.Serializable with scala.collection.CustomParallelizable[A, scala.collection.parallel.immutable.ParVector[A]] {
+ this: scala.collection.immutable.Vector[A] =>
+  private[collection] val startIndex: scala.Int = { /* compiled code */ }
+  private[collection] val endIndex: scala.Int = { /* compiled code */ }
+  private[immutable] def this(startIndex: scala.Int, endIndex: scala.Int, focus: scala.Int) = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.Vector] = { /* compiled code */ }
+  private[immutable] var dirty: scala.Boolean = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  override def par: scala.collection.parallel.immutable.ParVector[A] = { /* compiled code */ }
+  override def toVector: scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def lengthCompare(len: scala.Int): scala.Int = { /* compiled code */ }
+  private[collection] final def initIterator[B >: A](s: scala.collection.immutable.VectorIterator[B]): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.immutable.VectorIterator[A] = { /* compiled code */ }
+  override def reverseIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def apply(index: scala.Int): A = { /* compiled code */ }
+  override def updated[B >: A, That](index: scala.Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Vector[A], B, That]): That = { /* compiled code */ }
+  override def +:[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Vector[A], B, That]): That = { /* compiled code */ }
+  override def :+[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Vector[A], B, That]): That = { /* compiled code */ }
+  override def take(n: scala.Int): scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def drop(n: scala.Int): scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def takeRight(n: scala.Int): scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def dropRight(n: scala.Int): scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def tail: scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def last: A = { /* compiled code */ }
+  override def init: scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[scala.collection.immutable.Vector[A], scala.collection.immutable.Vector[A]] = { /* compiled code */ }
+  override def ++[B >: A, That](that: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Vector[A], B, That]): That = { /* compiled code */ }
+  private[immutable] def updateAt[B >: A](index: scala.Int, elem: B): scala.collection.immutable.Vector[B] = { /* compiled code */ }
+  private[immutable] def appendFront[B >: A](value: B): scala.collection.immutable.Vector[B] = { /* compiled code */ }
+  private[immutable] def appendBack[B >: A](value: B): scala.collection.immutable.Vector[B] = { /* compiled code */ }
+}
+object Vector extends scala.collection.generic.IndexedSeqFactory[scala.collection.immutable.Vector] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.immutable.Vector[A]] = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.Vector[A]] = { /* compiled code */ }
+  private[immutable] val NIL: scala.collection.immutable.Vector[scala.Nothing] = { /* compiled code */ }
+  override def empty[A]: scala.collection.immutable.Vector[A] = { /* compiled code */ }
+}

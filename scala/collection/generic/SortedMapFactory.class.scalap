@@ -1,0 +1,13 @@
+package scala.collection.generic
+abstract class SortedMapFactory[CC[A, B] <: scala.collection.SortedMap[A, B] with scala.collection.SortedMapLike[A, B, CC[A, B]]] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type Coll = CC[_, _]
+  def empty[A, B](implicit ord: scala.Ordering[A]): CC[A, B]
+  def apply[A, B](elems: scala.Tuple2[A, B]*)(implicit ord: scala.Ordering[A]): CC[A, B] = { /* compiled code */ }
+  def newBuilder[A, B](implicit ord: scala.Ordering[A]): scala.collection.mutable.Builder[scala.Tuple2[A, B], CC[A, B]] = { /* compiled code */ }
+  class SortedMapCanBuildFrom[A, B] extends scala.AnyRef with scala.collection.generic.CanBuildFrom[Coll, scala.Tuple2[A, B], CC[A, B]] {
+    def this()(implicit ord: scala.Ordering[A]) = { /* compiled code */ }
+    def apply(from: Coll): scala.collection.mutable.Builder[scala.Tuple2[A, B], CC[A, B]] = { /* compiled code */ }
+    def apply(): scala.collection.mutable.Builder[scala.Tuple2[A, B], CC[A, B]] = { /* compiled code */ }
+  }
+}

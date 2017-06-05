@@ -1,0 +1,49 @@
+package scala
+object languageFeature extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  @scala.annotation.meta.languageFeature("extension of type scala.Dynamic")
+  sealed trait dynamics extends scala.AnyRef {
+  }
+  object dynamics extends scala.AnyRef with scala.languageFeature.dynamics {
+    def this() = { /* compiled code */ }
+  }
+  @scala.annotation.meta.languageFeature("postfix operator #")
+  sealed trait postfixOps extends scala.AnyRef {
+  }
+  object postfixOps extends scala.AnyRef with scala.languageFeature.postfixOps {
+    def this() = { /* compiled code */ }
+  }
+  @scala.annotation.meta.languageFeature("reflective access of structural type member #")
+  sealed trait reflectiveCalls extends scala.AnyRef {
+  }
+  object reflectiveCalls extends scala.AnyRef with scala.languageFeature.reflectiveCalls {
+    def this() = { /* compiled code */ }
+  }
+  @scala.annotation.meta.languageFeature("implicit conversion #")
+  sealed trait implicitConversions extends scala.AnyRef {
+  }
+  object implicitConversions extends scala.AnyRef with scala.languageFeature.implicitConversions {
+    def this() = { /* compiled code */ }
+  }
+  @scala.annotation.meta.languageFeature("higher-kinded type")
+  sealed trait higherKinds extends scala.AnyRef {
+  }
+  object higherKinds extends scala.AnyRef with scala.languageFeature.higherKinds {
+    def this() = { /* compiled code */ }
+  }
+  @scala.annotation.meta.languageFeature("#, which cannot be expressed by wildcards, ")
+  sealed trait existentials extends scala.AnyRef {
+  }
+  object existentials extends scala.AnyRef with scala.languageFeature.existentials {
+    def this() = { /* compiled code */ }
+  }
+  object experimental extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    @scala.annotation.meta.languageFeature("macro definition")
+    sealed trait macros extends scala.AnyRef {
+    }
+    object macros extends scala.AnyRef with scala.languageFeature.experimental.macros {
+      def this() = { /* compiled code */ }
+    }
+  }
+}

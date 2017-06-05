@@ -1,0 +1,36 @@
+package scala.collection.generic
+private[collection] object BitOperations extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  trait Int extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    type Int = scala.Int
+    def zero(i: Int, mask: Int): scala.Boolean = { /* compiled code */ }
+    def mask(i: Int, mask: Int): scala.Int = { /* compiled code */ }
+    def hasMatch(key: Int, prefix: Int, m: Int): scala.Boolean = { /* compiled code */ }
+    def unsignedCompare(i: Int, j: Int): scala.Boolean = { /* compiled code */ }
+    def shorter(m1: Int, m2: Int): scala.Boolean = { /* compiled code */ }
+    def complement(i: Int): scala.Int = { /* compiled code */ }
+    def bits(num: Int): scala.collection.immutable.IndexedSeq[scala.Boolean] = { /* compiled code */ }
+    def bitString(num: Int, sep: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+    def highestOneBit(j: Int): scala.Int = { /* compiled code */ }
+  }
+  object Int extends scala.AnyRef with scala.collection.generic.BitOperations.Int {
+    def this() = { /* compiled code */ }
+  }
+  trait Long extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    type Long = scala.Long
+    def zero(i: Long, mask: Long): scala.Boolean = { /* compiled code */ }
+    def mask(i: Long, mask: Long): scala.Long = { /* compiled code */ }
+    def hasMatch(key: Long, prefix: Long, m: Long): scala.Boolean = { /* compiled code */ }
+    def unsignedCompare(i: Long, j: Long): scala.Boolean = { /* compiled code */ }
+    def shorter(m1: Long, m2: Long): scala.Boolean = { /* compiled code */ }
+    def complement(i: Long): scala.Long = { /* compiled code */ }
+    def bits(num: Long): scala.collection.immutable.IndexedSeq[scala.Boolean] = { /* compiled code */ }
+    def bitString(num: Long, sep: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+    def highestOneBit(j: Long): scala.Long = { /* compiled code */ }
+  }
+  object Long extends scala.AnyRef with scala.collection.generic.BitOperations.Long {
+    def this() = { /* compiled code */ }
+  }
+}

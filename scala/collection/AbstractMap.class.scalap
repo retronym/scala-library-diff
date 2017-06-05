@@ -1,0 +1,4 @@
+package scala.collection
+abstract class AbstractMap[A, +B] extends scala.collection.AbstractIterable[scala.Tuple2[A, B]] with scala.collection.Map[A, B] {
+  def this() = { /* compiled code */ }
+}

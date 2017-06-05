@@ -1,0 +1,28 @@
+package scala.collection.parallel.mutable
+@scala.SerialVersionUID { val value = 1None }
+class ParHashSet[T] extends scala.AnyRef with scala.collection.parallel.mutable.ParSet[T] with scala.collection.generic.GenericParTemplate[T, scala.collection.parallel.mutable.ParHashSet] with scala.collection.parallel.mutable.ParSetLike[T, scala.collection.parallel.mutable.ParHashSet[T], scala.collection.mutable.HashSet[T]] with scala.collection.parallel.mutable.ParFlatHashTable[T] with scala.Serializable {
+  private[collection] def this(contents: scala.collection.mutable.FlatHashTable.Contents[T]) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.parallel.mutable.ParHashSet.type = { /* compiled code */ }
+  override def empty: scala.collection.parallel.mutable.ParHashSet[T] = { /* compiled code */ }
+  override def iterator: scala.collection.parallel.mutable.ParHashSet.ParHashSetIterator = { /* compiled code */ }
+  class ParHashSetIterator extends scala.collection.parallel.mutable.ParFlatHashTable.ParFlatHashTableIterator {
+    def this(start: scala.Int, iteratesUntil: scala.Int, totalElements: scala.Int) = { /* compiled code */ }
+    def newIterator(start: scala.Int, until: scala.Int, total: scala.Int): scala.collection.parallel.mutable.ParHashSet.ParHashSetIterator = { /* compiled code */ }
+  }
+  override def size: scala.Int = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  override def seq: scala.collection.mutable.HashSet[T] = { /* compiled code */ }
+  def +=(elem: T): scala.collection.parallel.mutable.ParHashSet.type = { /* compiled code */ }
+  def -=(elem: T): scala.collection.parallel.mutable.ParHashSet.type = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  def contains(elem: T): scala.Boolean = { /* compiled code */ }
+  def splitter: scala.collection.parallel.mutable.ParHashSet.ParHashSetIterator = { /* compiled code */ }
+  override def debugInformation: scala.Predef.String = { /* compiled code */ }
+}
+object ParHashSet extends scala.collection.generic.ParSetFactory[scala.collection.parallel.mutable.ParHashSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[T]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenericCompanion.Coll, T, scala.collection.parallel.mutable.ParHashSet[T]] = { /* compiled code */ }
+  override def newBuilder[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.mutable.ParHashSet[T]] = { /* compiled code */ }
+  override def newCombiner[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.mutable.ParHashSet[T]] = { /* compiled code */ }
+}

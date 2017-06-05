@@ -1,0 +1,6 @@
+package scala.util
+package object hashing extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def byteswap32(v: scala.Int): scala.Int = { /* compiled code */ }
+  def byteswap64(v: scala.Long): scala.Long = { /* compiled code */ }
+}

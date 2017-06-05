@@ -1,0 +1,14 @@
+package scala.collection.generic
+abstract class SortedSetFactory[CC[A] <: scala.collection.SortedSet[A] with scala.collection.SortedSetLike[A, CC[A]]] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type Coll = CC[_]
+  def empty[A](implicit ord: scala.Ordering[A]): CC[A]
+  def apply[A](elems: A*)(implicit ord: scala.Ordering[A]): CC[A] = { /* compiled code */ }
+  def newBuilder[A](implicit ord: scala.Ordering[A]): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+  implicit def newCanBuildFrom[A](implicit ord: scala.Ordering[A]): scala.collection.generic.CanBuildFrom[Coll, A, CC[A]] = { /* compiled code */ }
+  class SortedSetCanBuildFrom[A] extends scala.AnyRef with scala.collection.generic.CanBuildFrom[Coll, A, CC[A]] {
+    def this()(implicit ord: scala.Ordering[A]) = { /* compiled code */ }
+    def apply(from: Coll): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+    def apply(): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+  }
+}

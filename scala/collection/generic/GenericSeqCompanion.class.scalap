@@ -1,0 +1,3 @@
+package scala.collection.generic
+trait GenericSeqCompanion[CC[X] <: scala.collection.Traversable[X]] extends scala.collection.generic.GenericCompanion[CC] {
+}

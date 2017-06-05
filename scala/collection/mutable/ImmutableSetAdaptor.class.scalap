@@ -1,0 +1,17 @@
+package scala.collection.mutable
+@scala.deprecated("Adaptors are inherently unreliable and prone to performance problems.")
+class ImmutableSetAdaptor[A] extends scala.collection.mutable.AbstractSet[A] with scala.collection.mutable.Set[A] with scala.Serializable {
+  protected var set: scala.collection.immutable.Set[A] = { /* compiled code */ }
+  def this(set: scala.collection.immutable.Set[A]) = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def toList: scala.List[A] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.ImmutableSetAdaptor.type = { /* compiled code */ }
+  def -=(elem: A): scala.collection.mutable.ImmutableSetAdaptor.type = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+}

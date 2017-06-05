@@ -1,0 +1,20 @@
+package scala.collection.script
+@scala.deprecated("Scripting is deprecated.")
+case class Index(n: scala.Int) extends scala.collection.script.Location with scala.Product with scala.Serializable {
+  val n: scala.Int = { /* compiled code */ }
+  def copy(n: scala.Int): scala.collection.script.Index = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Index extends scala.runtime.AbstractFunction1[scala.Int, scala.collection.script.Index] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply(n: scala.Int): scala.collection.script.Index = { /* compiled code */ }
+  def unapply(x$0: scala.collection.script.Index): scala.Option[scala.Int] = { /* compiled code */ }
+}

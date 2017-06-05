@@ -1,0 +1,6 @@
+package scala.runtime
+private[scala] final class PolyMethodCache extends scala.runtime.MethodCache {
+  def this(next: scala.runtime.MethodCache, receiver: java.lang.Class[_], method: java.lang.reflect.Method, complexity: scala.Int) = { /* compiled code */ }
+  def find(forReceiver: java.lang.Class[_]): java.lang.reflect.Method = { /* compiled code */ }
+  def add(forReceiver: java.lang.Class[_], forMethod: java.lang.reflect.Method): scala.runtime.MethodCache = { /* compiled code */ }
+}

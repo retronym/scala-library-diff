@@ -1,0 +1,12 @@
+package scala.collection.parallel
+private[collection] trait AugmentedSeqIterator[+T] extends scala.AnyRef with scala.collection.parallel.AugmentedIterableIterator[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def remaining: scala.Int
+  def prefixLength(pred: scala.Function1[T, scala.Boolean]): scala.Int = { /* compiled code */ }
+  override def indexWhere(pred: scala.Function1[T, scala.Boolean]): scala.Int = { /* compiled code */ }
+  def lastIndexWhere(pred: scala.Function1[T, scala.Boolean]): scala.Int = { /* compiled code */ }
+  def corresponds[S](corr: scala.Function2[T, S, scala.Boolean])(that: scala.Iterator[S]): scala.Boolean = { /* compiled code */ }
+  def reverse2combiner[U >: T, This](cb: scala.collection.parallel.Combiner[U, This]): scala.collection.parallel.Combiner[U, This] = { /* compiled code */ }
+  def reverseMap2combiner[S, That](f: scala.Function1[T, S], cb: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  def updated2combiner[U >: T, That](index: scala.Int, elem: U, cb: scala.collection.parallel.Combiner[U, That]): scala.collection.parallel.Combiner[U, That] = { /* compiled code */ }
+}

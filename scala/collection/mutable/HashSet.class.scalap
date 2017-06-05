@@ -1,0 +1,24 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 1None }
+class HashSet[A] extends scala.collection.mutable.AbstractSet[A] with scala.collection.mutable.Set[A] with scala.collection.generic.GenericSetTemplate[A, scala.collection.mutable.HashSet] with scala.collection.mutable.SetLike[A, scala.collection.mutable.HashSet[A]] with scala.collection.mutable.FlatHashTable[A] with scala.collection.CustomParallelizable[A, scala.collection.parallel.mutable.ParHashSet[A]] with scala.Serializable {
+  private[collection] def this(contents: scala.collection.mutable.FlatHashTable.Contents[A]) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.HashSet] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.HashSet.type = { /* compiled code */ }
+  def -=(elem: A): scala.collection.mutable.HashSet.type = { /* compiled code */ }
+  override def par: scala.collection.parallel.mutable.ParHashSet[A] = { /* compiled code */ }
+  override def add(elem: A): scala.Boolean = { /* compiled code */ }
+  override def remove(elem: A): scala.Boolean = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.HashSet[A] = { /* compiled code */ }
+  def useSizeMap(t: scala.Boolean): scala.Unit = { /* compiled code */ }
+}
+object HashSet extends scala.collection.generic.MutableSetFactory[scala.collection.mutable.HashSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.HashSet[A]] = { /* compiled code */ }
+  override def empty[A]: scala.collection.mutable.HashSet[A] = { /* compiled code */ }
+}

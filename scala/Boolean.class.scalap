@@ -1,0 +1,19 @@
+package scala
+final abstract class Boolean extends scala.AnyVal {
+  def this() = { /* compiled code */ }
+  def unary_!: scala.Boolean
+  def ==(x: scala.Boolean): scala.Boolean
+  def !=(x: scala.Boolean): scala.Boolean
+  def ||(x: scala.Boolean): scala.Boolean
+  def &&(x: scala.Boolean): scala.Boolean
+  def |(x: scala.Boolean): scala.Boolean
+  def &(x: scala.Boolean): scala.Boolean
+  def ^(x: scala.Boolean): scala.Boolean
+  override def getClass(): scala.Predef.Class[scala.Boolean] = { /* compiled code */ }
+}
+object Boolean extends scala.AnyRef with scala.AnyValCompanion {
+  def this() = { /* compiled code */ }
+  def box(x: scala.Boolean): java.lang.Boolean = { /* compiled code */ }
+  def unbox(x: java.lang.Object): scala.Boolean = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}

@@ -1,0 +1,4 @@
+package scala.concurrent
+private[concurrent] object AwaitPermission extends scala.AnyRef with scala.concurrent.CanAwait {
+  def this() = { /* compiled code */ }
+}

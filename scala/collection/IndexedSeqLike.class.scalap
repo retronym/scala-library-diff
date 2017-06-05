@@ -1,0 +1,19 @@
+package scala.collection
+trait IndexedSeqLike[+A, +Repr] extends scala.Any with scala.collection.SeqLike[A, Repr] {
+ this: scala.collection.IndexedSeqLike[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def seq: scala.collection.IndexedSeq[A]
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  @scala.SerialVersionUID { val value = 1756321872811029277None }
+  protected class Elements extends scala.collection.AbstractIterator[A] with scala.collection.BufferedIterator[A] with scala.Serializable {
+    def this(start: scala.Int, end: scala.Int) = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): A = { /* compiled code */ }
+    def head: A = { /* compiled code */ }
+    override def drop(n: scala.Int): scala.collection.Iterator[A] = { /* compiled code */ }
+    override def take(n: scala.Int): scala.collection.Iterator[A] = { /* compiled code */ }
+    override def slice(from: scala.Int, until: scala.Int): scala.collection.Iterator[A] = { /* compiled code */ }
+  }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def toBuffer[A1 >: A]: scala.collection.mutable.Buffer[A1] = { /* compiled code */ }
+}

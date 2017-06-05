@@ -1,0 +1,13 @@
+package scala.collection.concurrent
+private[collection] final class TNode[K, V] extends scala.collection.concurrent.MainNode[K, V] with scala.collection.concurrent.KVNode[K, V] {
+  final val k: K = { /* compiled code */ }
+  final val v: V = { /* compiled code */ }
+  final val hc: scala.Int = { /* compiled code */ }
+  def this(k: K, v: V, hc: scala.Int) = { /* compiled code */ }
+  final def copy: scala.collection.concurrent.TNode[K, V] = { /* compiled code */ }
+  final def copyTombed: scala.collection.concurrent.TNode[K, V] = { /* compiled code */ }
+  final def copyUntombed: scala.collection.concurrent.SNode[K, V] = { /* compiled code */ }
+  final def kvPair: scala.Tuple2[K, V] = { /* compiled code */ }
+  final def cachedSize(ct: scala.AnyRef): scala.Int = { /* compiled code */ }
+  final def string(lev: scala.Int): java.lang.String = { /* compiled code */ }
+}

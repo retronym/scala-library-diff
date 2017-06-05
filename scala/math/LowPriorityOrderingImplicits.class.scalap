@@ -1,0 +1,6 @@
+package scala.math
+trait LowPriorityOrderingImplicits extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  implicit def ordered[A](implicit evidence$1: scala.Function1[A, java.lang.Comparable[A]]): scala.math.Ordering[A] = { /* compiled code */ }
+  implicit def comparatorToOrdering[A](implicit cmp: java.util.Comparator[A]): scala.math.Ordering[A] = { /* compiled code */ }
+}

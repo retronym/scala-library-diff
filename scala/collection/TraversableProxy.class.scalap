@@ -1,0 +1,3 @@
+package scala.collection
+trait TraversableProxy[+A] extends scala.AnyRef with scala.collection.Traversable[A] with scala.collection.TraversableProxyLike[A, scala.collection.Traversable[A]] {
+}

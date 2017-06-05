@@ -1,0 +1,20 @@
+package scala.collection.parallel.immutable
+private[immutable] abstract class HashSetCombiner[T] extends scala.collection.parallel.BucketCombiner[T, scala.collection.parallel.immutable.ParHashSet[T], scala.Any, scala.collection.parallel.immutable.HashSetCombiner[T]] {
+  def this() = { /* compiled code */ }
+  val emptyTrie: scala.collection.immutable.HashSet[T] = { /* compiled code */ }
+  def +=(elem: T): scala.collection.parallel.immutable.HashSetCombiner.type = { /* compiled code */ }
+  def result(): scala.collection.parallel.immutable.ParHashSet[T] = { /* compiled code */ }
+  class CreateTrie extends scala.AnyRef with scala.collection.parallel.Task[scala.Unit, scala.collection.parallel.immutable.HashSetCombiner.CreateTrie] {
+    def this(bucks: scala.Array[scala.collection.mutable.UnrolledBuffer.Unrolled[scala.Any]], root: scala.Array[scala.collection.immutable.HashSet[T]], offset: scala.Int, howmany: scala.Int) = { /* compiled code */ }
+    var result: scala.Unit = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Unit]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.immutable.List[scala.collection.parallel.immutable.HashSetCombiner.CreateTrie] = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+  }
+}
+object HashSetCombiner extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[T]: scala.collection.parallel.immutable.HashSetCombiner[T] = { /* compiled code */ }
+  private[immutable] val rootbits: scala.Int = { /* compiled code */ }
+  private[immutable] val rootsize: scala.Int = { /* compiled code */ }
+}

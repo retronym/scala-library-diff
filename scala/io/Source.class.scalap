@@ -1,0 +1,80 @@
+package scala.io
+abstract class Source extends scala.AnyRef with scala.Iterator[scala.Char] {
+  def this() = { /* compiled code */ }
+  protected val iter: scala.Iterator[scala.Char]
+  var descr: scala.Predef.String = { /* compiled code */ }
+  var nerrors: scala.Int = { /* compiled code */ }
+  var nwarnings: scala.Int = { /* compiled code */ }
+  class LineIterator extends scala.collection.AbstractIterator[scala.Predef.String] with scala.Iterator[scala.Predef.String] {
+    def this() = { /* compiled code */ }
+    val iter: scala.BufferedIterator[scala.Char] = { /* compiled code */ }
+    def isNewline(ch: scala.Char): scala.Boolean = { /* compiled code */ }
+    def getc(): scala.Boolean = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): java.lang.String = { /* compiled code */ }
+  }
+  def getLines(): scala.Iterator[scala.Predef.String] = { /* compiled code */ }
+  def hasNext: scala.Boolean = { /* compiled code */ }
+  def next(): scala.Char = { /* compiled code */ }
+  class Positioner extends scala.AnyRef {
+    def this(encoder: scala.io.Position) = { /* compiled code */ }
+    def this() = { /* compiled code */ }
+    var ch: scala.Char = { /* compiled code */ }
+    var pos: scala.Int = { /* compiled code */ }
+    var cline: scala.Int = { /* compiled code */ }
+    var ccol: scala.Int = { /* compiled code */ }
+    var tabinc: scala.Int = { /* compiled code */ }
+    def next(): scala.Char = { /* compiled code */ }
+  }
+  object RelaxedPosition extends scala.io.Position {
+    def this() = { /* compiled code */ }
+    def checkInput(line: scala.Int, column: scala.Int): scala.Unit = { /* compiled code */ }
+  }
+  object RelaxedPositioner extends scala.io.Source.Positioner {
+    def this() = { /* compiled code */ }
+  }
+  object NoPositioner extends scala.io.Source.Positioner {
+    def this() = { /* compiled code */ }
+    override def next(): scala.Char = { /* compiled code */ }
+  }
+  def ch: scala.Char = { /* compiled code */ }
+  def pos: scala.Int = { /* compiled code */ }
+  def reportError(pos: scala.Int, msg: scala.Predef.String, out: java.io.PrintStream): scala.Unit = { /* compiled code */ }
+  def report(pos: scala.Int, msg: scala.Predef.String, out: java.io.PrintStream): scala.Unit = { /* compiled code */ }
+  def reportWarning(pos: scala.Int, msg: scala.Predef.String, out: java.io.PrintStream): scala.Unit = { /* compiled code */ }
+  def withReset(f: scala.Function0[scala.io.Source]): scala.io.Source.type = { /* compiled code */ }
+  def withClose(f: scala.Function0[scala.Unit]): scala.io.Source.type = { /* compiled code */ }
+  def withDescription(text: scala.Predef.String): scala.io.Source.type = { /* compiled code */ }
+  def withPositioning(on: scala.Boolean): scala.io.Source.type = { /* compiled code */ }
+  def withPositioning(pos: scala.io.Source.Positioner): scala.io.Source.type = { /* compiled code */ }
+  def close(): scala.Unit = { /* compiled code */ }
+  def reset(): scala.io.Source = { /* compiled code */ }
+}
+object Source extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val DefaultBufSize: scala.Int = { /* compiled code */ }
+  def stdin: scala.io.BufferedSource = { /* compiled code */ }
+  def fromIterable(iterable: scala.Iterable[scala.Char]): scala.io.Source = { /* compiled code */ }
+  def fromChar(c: scala.Char): scala.io.Source = { /* compiled code */ }
+  def fromChars(chars: scala.Array[scala.Char]): scala.io.Source = { /* compiled code */ }
+  def fromString(s: scala.Predef.String): scala.io.Source = { /* compiled code */ }
+  def fromFile(name: scala.Predef.String)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def fromFile(name: scala.Predef.String, enc: scala.Predef.String): scala.io.BufferedSource = { /* compiled code */ }
+  def fromFile(uri: java.net.URI)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def fromFile(uri: java.net.URI, enc: scala.Predef.String): scala.io.BufferedSource = { /* compiled code */ }
+  def fromFile(file: java.io.File)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def fromFile(file: java.io.File, enc: scala.Predef.String): scala.io.BufferedSource = { /* compiled code */ }
+  def fromFile(file: java.io.File, enc: scala.Predef.String, bufferSize: scala.Int): scala.io.BufferedSource = { /* compiled code */ }
+  def fromFile(file: java.io.File, bufferSize: scala.Int)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def fromBytes(bytes: scala.Array[scala.Byte])(implicit codec: scala.io.Codec): scala.io.Source = { /* compiled code */ }
+  def fromBytes(bytes: scala.Array[scala.Byte], enc: scala.Predef.String): scala.io.Source = { /* compiled code */ }
+  def fromRawBytes(bytes: scala.Array[scala.Byte]): scala.io.Source = { /* compiled code */ }
+  def fromURI(uri: java.net.URI)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def fromURL(s: scala.Predef.String, enc: scala.Predef.String): scala.io.BufferedSource = { /* compiled code */ }
+  def fromURL(s: scala.Predef.String)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def fromURL(url: java.net.URL, enc: scala.Predef.String): scala.io.BufferedSource = { /* compiled code */ }
+  def fromURL(url: java.net.URL)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def createBufferedSource(inputStream: java.io.InputStream, bufferSize: scala.Int, reset: scala.Function0[scala.io.Source], close: scala.Function0[scala.Unit])(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+  def fromInputStream(is: java.io.InputStream, enc: scala.Predef.String): scala.io.BufferedSource = { /* compiled code */ }
+  def fromInputStream(is: java.io.InputStream)(implicit codec: scala.io.Codec): scala.io.BufferedSource = { /* compiled code */ }
+}

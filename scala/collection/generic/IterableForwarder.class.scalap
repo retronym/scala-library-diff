@@ -1,0 +1,8 @@
+package scala.collection.generic
+@scala.deprecated("Forwarding is inherently unreliable since it is not automated and methods can be forgotten.")
+trait IterableForwarder[+A] extends scala.AnyRef with scala.collection.Iterable[A] with scala.collection.generic.TraversableForwarder[A] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def underlying: scala.collection.Iterable[A]
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def sameElements[B >: A](that: scala.collection.GenIterable[B]): scala.Boolean = { /* compiled code */ }
+}

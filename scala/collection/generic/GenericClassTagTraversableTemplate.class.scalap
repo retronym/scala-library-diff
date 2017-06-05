@@ -1,0 +1,10 @@
+package scala.collection.generic
+trait GenericClassTagTraversableTemplate[+A, +CC[X] <: scala.collection.Traversable[X]] extends scala.AnyRef with scala.collection.generic.HasNewBuilder[A, CC[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def classTagCompanion: scala.collection.generic.GenericClassTagCompanion[CC]
+  def genericClassTagBuilder[B](implicit tag: scala.reflect.ClassTag[B]): scala.collection.mutable.Builder[B, CC[B]] = { /* compiled code */ }
+  @scala.deprecated("use classTagCompanion instead")
+  def classManifestCompanion: scala.collection.generic.GenericClassManifestCompanion[CC] = { /* compiled code */ }
+  @scala.deprecated("use genericClassTagBuilder instead")
+  def genericClassManifestBuilder[B](implicit manifest: scala.Predef.ClassManifest[B]): scala.collection.mutable.Builder[B, CC[B]] = { /* compiled code */ }
+}

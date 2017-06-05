@@ -1,0 +1,21 @@
+package scala.concurrent
+trait Promise[T] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def future: scala.concurrent.Future[T]
+  def isCompleted: scala.Boolean
+  def complete(result: scala.util.Try[T]): scala.concurrent.Promise.type = { /* compiled code */ }
+  def tryComplete(result: scala.util.Try[T]): scala.Boolean
+  final def completeWith(other: scala.concurrent.Future[T]): scala.concurrent.Promise.type = { /* compiled code */ }
+  final def tryCompleteWith(other: scala.concurrent.Future[T]): scala.concurrent.Promise.type = { /* compiled code */ }
+  def success(value: T): scala.concurrent.Promise.type = { /* compiled code */ }
+  def trySuccess(value: T): scala.Boolean = { /* compiled code */ }
+  def failure(cause: scala.Throwable): scala.concurrent.Promise.type = { /* compiled code */ }
+  def tryFailure(cause: scala.Throwable): scala.Boolean = { /* compiled code */ }
+}
+object Promise extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[T](): scala.concurrent.Promise[T] = { /* compiled code */ }
+  def failed[T](exception: scala.Throwable): scala.concurrent.Promise[T] = { /* compiled code */ }
+  def successful[T](result: T): scala.concurrent.Promise[T] = { /* compiled code */ }
+  def fromTry[T](result: scala.util.Try[T]): scala.concurrent.Promise[T] = { /* compiled code */ }
+}

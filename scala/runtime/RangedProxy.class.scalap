@@ -1,0 +1,8 @@
+package scala.runtime
+trait RangedProxy[T] extends scala.Any with scala.Proxy.Typed[T] {
+  type ResultWithoutStep
+  def until(end: T): ResultWithoutStep
+  def until(end: T, step: T): scala.collection.immutable.IndexedSeq[T]
+  def to(end: T): ResultWithoutStep
+  def to(end: T, step: T): scala.collection.immutable.IndexedSeq[T]
+}

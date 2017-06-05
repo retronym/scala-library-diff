@@ -1,0 +1,14 @@
+package scala.math
+trait Ordered[A] extends scala.Any with java.lang.Comparable[A] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def compare(that: A): scala.Int
+  def <(that: A): scala.Boolean = { /* compiled code */ }
+  def >(that: A): scala.Boolean = { /* compiled code */ }
+  def <=(that: A): scala.Boolean = { /* compiled code */ }
+  def >=(that: A): scala.Boolean = { /* compiled code */ }
+  def compareTo(that: A): scala.Int = { /* compiled code */ }
+}
+object Ordered extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def orderingToOrdered[T](x: T)(implicit ord: scala.math.Ordering[T]): scala.math.Ordered[T] = { /* compiled code */ }
+}

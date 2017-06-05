@@ -1,0 +1,14 @@
+package scala
+trait Function2[@scala.specialized -T1, @scala.specialized -T2, @scala.specialized +R] extends scala.AnyRef {
+ this: scala.Function2[T1, T2, R] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def apply(v1: T1, v2: T2): R
+  @scala.specialized
+  @scala.specialized
+  @scala.specialized
+  @scala.annotation.unspecialized
+  def curried: scala.Function1[T1, scala.Function1[T2, R]] = { /* compiled code */ }
+  @scala.annotation.unspecialized
+  def tupled: scala.Function1[scala.Tuple2[T1, T2], R] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}

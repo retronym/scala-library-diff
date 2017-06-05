@@ -1,0 +1,6 @@
+package scala.util.control
+object NonFatal extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply(t: scala.Throwable): scala.Boolean = { /* compiled code */ }
+  def unapply(t: scala.Throwable): scala.Option[scala.Throwable] = { /* compiled code */ }
+}

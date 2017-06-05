@@ -1,0 +1,10 @@
+package scala.collection.parallel.mutable
+trait ParSetLike[T, +Repr <: scala.collection.parallel.mutable.ParSetLike[T, Repr, Sequential] with scala.collection.parallel.mutable.ParSet[T], +Sequential <: scala.collection.mutable.Set[T] with scala.collection.mutable.SetLike[T, Sequential]] extends scala.AnyRef with scala.collection.GenSetLike[T, Repr] with scala.collection.parallel.ParIterableLike[T, Repr, Sequential] with scala.collection.parallel.ParSetLike[T, Repr, Sequential] with scala.collection.generic.Growable[T] with scala.collection.generic.Shrinkable[T] with scala.collection.mutable.Cloneable[Repr] {
+ this: scala.collection.parallel.mutable.ParSetLike[T, Repr, Sequential] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def empty: Repr
+  def +=(elem: T): scala.collection.parallel.mutable.ParSetLike.type
+  def -=(elem: T): scala.collection.parallel.mutable.ParSetLike.type
+  def +(elem: T): Repr = { /* compiled code */ }
+  def -(elem: T): Repr = { /* compiled code */ }
+}

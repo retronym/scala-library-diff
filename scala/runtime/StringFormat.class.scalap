@@ -1,0 +1,17 @@
+package scala.runtime
+@scala.deprecated("Use Predef.StringFormat")
+final class StringFormat extends scala.AnyVal {
+  val self: scala.Any = { /* compiled code */ }
+  def this(self: scala.Any) = { /* compiled code */ }
+  @scala.inline
+  def formatted(fmtstr: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object StringFormat extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  @scala.inline
+  final def formatted$extension($this: scala.runtime.StringFormat)(fmtstr: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  final def hashCode$extension($this: scala.runtime.StringFormat)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.runtime.StringFormat)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

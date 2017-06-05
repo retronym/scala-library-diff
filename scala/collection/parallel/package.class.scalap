@@ -1,0 +1,20 @@
+package scala.collection
+package object parallel extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val MIN_FOR_COPY: scala.Int = { /* compiled code */ }
+  val CHECK_RATE: scala.Int = { /* compiled code */ }
+  val SQRT2: scala.Double = { /* compiled code */ }
+  val availableProcessors: scala.Int = { /* compiled code */ }
+  def thresholdFromSize(sz: scala.Int, parallelismLevel: scala.Int): scala.Int = { /* compiled code */ }
+  private[parallel] def unsupported: scala.Nothing = { /* compiled code */ }
+  private[parallel] def unsupportedop(msg: scala.Predef.String): scala.Nothing = { /* compiled code */ }
+  private[parallel] def outofbounds(idx: scala.Int): scala.Nothing = { /* compiled code */ }
+  private[parallel] def getTaskSupport: scala.collection.parallel.TaskSupport = { /* compiled code */ }
+  val defaultTaskSupport: scala.collection.parallel.TaskSupport = { /* compiled code */ }
+  def setTaskSupport[Coll](c: Coll, t: scala.collection.parallel.TaskSupport): Coll = { /* compiled code */ }
+  implicit class CollectionsHaveToParArray[C, T] extends scala.AnyRef {
+    def this(c: C)(implicit asGto: scala.Function1[C, scala.collection.GenTraversableOnce[T]]) = { /* compiled code */ }
+    def toParArray: scala.collection.parallel.mutable.ParArray[T] = { /* compiled code */ }
+  }
+  implicit def CollectionsHaveToParArray[C, T](c: C)(implicit asGto: scala.Function1[C, scala.collection.GenTraversableOnce[T]]): scala.collection.parallel.CollectionsHaveToParArray[C, T] = { /* compiled code */ }
+}

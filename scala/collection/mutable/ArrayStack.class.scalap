@@ -1,0 +1,35 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 8565219180626620510None }
+class ArrayStack[T] extends scala.collection.mutable.AbstractSeq[T] with scala.collection.mutable.Seq[T] with scala.collection.mutable.SeqLike[T, scala.collection.mutable.ArrayStack[T]] with scala.collection.generic.GenericTraversableTemplate[T, scala.collection.mutable.ArrayStack] with scala.collection.mutable.Cloneable[scala.collection.mutable.ArrayStack[T]] with scala.collection.mutable.Builder[T, scala.collection.mutable.ArrayStack[T]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def apply(n: scala.Int): T = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  override def companion: scala.collection.mutable.ArrayStack.type = { /* compiled code */ }
+  def update(n: scala.Int, newelem: T): scala.Unit = { /* compiled code */ }
+  def push(x: T): scala.Unit = { /* compiled code */ }
+  def pop(): T = { /* compiled code */ }
+  def top: T = { /* compiled code */ }
+  def dup(): scala.Unit = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def drain(f: scala.Function1[T, scala.Unit]): scala.Unit = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[T]): scala.collection.mutable.ArrayStack.type = { /* compiled code */ }
+  def +=(x: T): scala.collection.mutable.ArrayStack.type = { /* compiled code */ }
+  def result(): scala.collection.mutable.ArrayStack[T] = { /* compiled code */ }
+  def combine(f: scala.Function2[T, T, T]): scala.Unit = { /* compiled code */ }
+  def reduceWith(f: scala.Function2[T, T, T]): scala.Unit = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def preserving[T](action: => T): T = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[T] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[T, U]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.ArrayStack[T] = { /* compiled code */ }
+}
+object ArrayStack extends scala.collection.generic.SeqFactory[scala.collection.mutable.ArrayStack] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.ArrayStack[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.ArrayStack[A]] = { /* compiled code */ }
+  def empty: scala.collection.mutable.ArrayStack[scala.Nothing] = { /* compiled code */ }
+  def apply[A](elems: A*)(implicit evidence$1: scala.reflect.ClassTag[A]): scala.collection.mutable.ArrayStack[A] = { /* compiled code */ }
+  private[mutable] def growArray(x: scala.Array[scala.AnyRef]): scala.Array[scala.AnyRef] = { /* compiled code */ }
+  private[mutable] def clone(x: scala.Array[scala.AnyRef]): scala.Array[scala.AnyRef] = { /* compiled code */ }
+}

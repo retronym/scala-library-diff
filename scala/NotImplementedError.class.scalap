@@ -1,0 +1,5 @@
+package scala
+final class NotImplementedError extends scala.Error {
+  def this(msg: scala.Predef.String) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+}

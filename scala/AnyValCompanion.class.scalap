@@ -1,0 +1,3 @@
+package scala
+private[scala] trait AnyValCompanion extends scala.AnyRef with scala.Specializable {
+}

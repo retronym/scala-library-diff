@@ -1,0 +1,8 @@
+package scala.collection.concurrent
+private[concurrent] object Debug extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val logbuffer: java.util.concurrent.ConcurrentLinkedQueue[scala.AnyRef] = { /* compiled code */ }
+  def log(s: scala.AnyRef): scala.Boolean = { /* compiled code */ }
+  def flush(): scala.Unit = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+}

@@ -1,0 +1,45 @@
+package scala
+private[scala] trait DeprecatedPredef extends scala.AnyRef {
+ this: scala.Predef.type =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  @scala.deprecated("Use `ArrowAssoc`")
+  def any2ArrowAssoc[A](x: A): scala.Predef.ArrowAssoc[A] = { /* compiled code */ }
+  @scala.deprecated("Use `Ensuring`")
+  def any2Ensuring[A](x: A): scala.Predef.Ensuring[A] = { /* compiled code */ }
+  @scala.deprecated("Use `StringFormat`")
+  def any2stringfmt(x: scala.Any): scala.Predef.StringFormat[scala.Any] = { /* compiled code */ }
+  @scala.deprecated("Use `Throwable` directly")
+  def exceptionWrapper(exc: scala.Throwable): scala.Predef.RichException = { /* compiled code */ }
+  @scala.deprecated("Use `SeqCharSequence`")
+  def seqToCharSequence(xs: scala.collection.IndexedSeq[scala.Char]): java.lang.CharSequence = { /* compiled code */ }
+  @scala.deprecated("Use `ArrayCharSequence`")
+  def arrayToCharSequence(xs: scala.Array[scala.Char]): java.lang.CharSequence = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readLine(): scala.Predef.String = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readLine(text: scala.Predef.String, args: scala.Any*): scala.Predef.String = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readBoolean(): scala.Boolean = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readByte(): scala.Byte = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readShort(): scala.Short = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readChar(): scala.Char = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readInt(): scala.Int = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readLong(): scala.Long = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readFloat(): scala.Float = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readDouble(): scala.Double = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readf(format: scala.Predef.String): scala.List[scala.Any] = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readf1(format: scala.Predef.String): scala.Any = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readf2(format: scala.Predef.String): scala.Tuple2[scala.Any, scala.Any] = { /* compiled code */ }
+  @scala.deprecated("Use the method in `scala.io.StdIn`")
+  def readf3(format: scala.Predef.String): scala.Tuple3[scala.Any, scala.Any, scala.Any] = { /* compiled code */ }
+}

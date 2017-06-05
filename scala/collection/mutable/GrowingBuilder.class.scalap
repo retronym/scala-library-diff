@@ -1,0 +1,8 @@
+package scala.collection.mutable
+class GrowingBuilder[Elem, To <: scala.collection.generic.Growable[Elem]] extends scala.AnyRef with scala.collection.mutable.Builder[Elem, To] {
+  def this(empty: To) = { /* compiled code */ }
+  protected var elems: To = { /* compiled code */ }
+  def +=(x: Elem): scala.collection.mutable.GrowingBuilder.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def result(): To = { /* compiled code */ }
+}

@@ -1,0 +1,27 @@
+package scala.collection.mutable
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait BufferProxy[A] extends scala.AnyRef with scala.collection.mutable.Buffer[A] with scala.Proxy {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def self: scala.collection.mutable.Buffer[A]
+  def length: scala.Int = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def apply(n: scala.Int): A = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.BufferProxy.type = { /* compiled code */ }
+  override def readOnly: scala.collection.Seq[A] = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.BufferProxy.type = { /* compiled code */ }
+  override def append(elems: A*): scala.Unit = { /* compiled code */ }
+  override def appendAll(xs: scala.collection.TraversableOnce[A]): scala.Unit = { /* compiled code */ }
+  def +=:(elem: A): scala.collection.mutable.BufferProxy.type = { /* compiled code */ }
+  override def ++=:(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.BufferProxy.type = { /* compiled code */ }
+  override def prepend(elems: A*): scala.Unit = { /* compiled code */ }
+  override def prependAll(xs: scala.collection.TraversableOnce[A]): scala.Unit = { /* compiled code */ }
+  override def insert(n: scala.Int, elems: A*): scala.Unit = { /* compiled code */ }
+  def insertAll(n: scala.Int, iter: scala.collection.Iterable[A]): scala.Unit = { /* compiled code */ }
+  override def insertAll(n: scala.Int, iter: scala.collection.Traversable[A]): scala.Unit = { /* compiled code */ }
+  def update(n: scala.Int, newelem: A): scala.Unit = { /* compiled code */ }
+  def remove(n: scala.Int): A = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  @scala.deprecated("Scripting is deprecated.")
+  override def <<(cmd: scala.collection.script.Message[A]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.Buffer[A] = { /* compiled code */ }
+}

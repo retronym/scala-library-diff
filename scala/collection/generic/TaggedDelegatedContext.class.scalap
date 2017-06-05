@@ -1,0 +1,5 @@
+package scala.collection.generic
+class TaggedDelegatedContext extends scala.collection.generic.DelegatedContext {
+  override val tag: scala.Int = { /* compiled code */ }
+  def this(deleg: scala.collection.generic.Signalling, tag: scala.Int) = { /* compiled code */ }
+}

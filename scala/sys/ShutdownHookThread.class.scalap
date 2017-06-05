@@ -1,0 +1,8 @@
+package scala.sys
+class ShutdownHookThread extends java.lang.Thread {
+  def remove(): scala.Boolean = { /* compiled code */ }
+}
+object ShutdownHookThread extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply(body: => scala.Unit): scala.sys.ShutdownHookThread = { /* compiled code */ }
+}

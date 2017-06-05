@@ -1,0 +1,32 @@
+package scala.collection
+trait LinearSeqOptimized[+A, +Repr <: scala.collection.LinearSeqOptimized[A, Repr]] extends scala.AnyRef with scala.collection.LinearSeqLike[A, Repr] {
+ this: Repr =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def isEmpty: scala.Boolean
+  def head: A
+  def tail: Repr
+  def length: scala.Int = { /* compiled code */ }
+  def apply(n: scala.Int): A = { /* compiled code */ }
+  override def foreach[B](f: scala.Function1[A, B]): scala.Unit = { /* compiled code */ }
+  override def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def contains[A1 >: A](elem: A1): scala.Boolean = { /* compiled code */ }
+  override def find(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  override def foldLeft[B](z: B)(f: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def foldRight[B](z: B)(f: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def reduceLeft[B >: A](f: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def reduceRight[B >: A](op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def last: A = { /* compiled code */ }
+  override def take(n: scala.Int): Repr = { /* compiled code */ }
+  override def drop(n: scala.Int): Repr = { /* compiled code */ }
+  override def dropRight(n: scala.Int): Repr = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): Repr = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  override def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  override def sameElements[B >: A](that: scala.collection.GenIterable[B]): scala.Boolean = { /* compiled code */ }
+  override def lengthCompare(len: scala.Int): scala.Int = { /* compiled code */ }
+  override def isDefinedAt(x: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def segmentLength(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  override def indexWhere(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  override def lastIndexWhere(p: scala.Function1[A, scala.Boolean], end: scala.Int): scala.Int = { /* compiled code */ }
+}

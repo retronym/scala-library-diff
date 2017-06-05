@@ -1,0 +1,9 @@
+package scala.sys.process
+class FileProcessLogger extends scala.AnyRef with scala.sys.process.ProcessLogger with java.io.Closeable with java.io.Flushable {
+  def this(file: java.io.File) = { /* compiled code */ }
+  def out(s: => scala.Predef.String): scala.Unit = { /* compiled code */ }
+  def err(s: => scala.Predef.String): scala.Unit = { /* compiled code */ }
+  def buffer[T](f: => T): T = { /* compiled code */ }
+  def close(): scala.Unit = { /* compiled code */ }
+  def flush(): scala.Unit = { /* compiled code */ }
+}

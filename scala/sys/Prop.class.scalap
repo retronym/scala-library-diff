@@ -1,0 +1,32 @@
+package scala.sys
+trait Prop[+T] extends scala.AnyRef {
+  def key: scala.Predef.String
+  def value: T
+  def isSet: scala.Boolean
+  def set(newValue: scala.Predef.String): scala.Predef.String
+  def setValue[T1 >: T](value: T1): T
+  def get: scala.Predef.String
+  def option: scala.Option[T]
+  def clear(): scala.Unit
+  protected def zero: T
+}
+object Prop extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  @scala.annotation.implicitNotFound("No implicit property creator available for type ${T}.")
+  trait Creator[+T] extends scala.AnyRef {
+    def apply(key: scala.Predef.String): scala.sys.Prop[T]
+  }
+  implicit object FileProp extends scala.sys.CreatorImpl[java.io.File] {
+    def this() = { /* compiled code */ }
+  }
+  implicit object StringProp extends scala.sys.CreatorImpl[scala.Predef.String] {
+    def this() = { /* compiled code */ }
+  }
+  implicit object IntProp extends scala.sys.CreatorImpl[scala.Int] {
+    def this() = { /* compiled code */ }
+  }
+  implicit object DoubleProp extends scala.sys.CreatorImpl[scala.Double] {
+    def this() = { /* compiled code */ }
+  }
+  def apply[T](key: scala.Predef.String)(implicit evidence$1: scala.sys.Prop.Creator[T]): scala.sys.Prop[T] = { /* compiled code */ }
+}

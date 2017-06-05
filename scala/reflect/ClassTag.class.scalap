@@ -1,0 +1,42 @@
+package scala.reflect
+@scala.annotation.implicitNotFound("No ClassTag available for ${T}")
+trait ClassTag[T] extends scala.AnyRef with scala.reflect.ClassManifestDeprecatedApis[T] with scala.Equals with scala.Serializable {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def runtimeClass: java.lang.Class[_]
+  def wrap: scala.reflect.ClassTag[scala.Array[T]] = { /* compiled code */ }
+  override def newArray(len: scala.Int): scala.Array[T] = { /* compiled code */ }
+  def unapply(x: scala.Any): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Byte): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Short): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Char): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Int): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Long): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Float): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Double): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Boolean): scala.Option[T] = { /* compiled code */ }
+  def unapply(x: scala.Unit): scala.Option[T] = { /* compiled code */ }
+  override def canEqual(x: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def equals(x: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object ClassTag extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  val Byte: scala.reflect.ClassTag[scala.Byte] = { /* compiled code */ }
+  val Short: scala.reflect.ClassTag[scala.Short] = { /* compiled code */ }
+  val Char: scala.reflect.ClassTag[scala.Char] = { /* compiled code */ }
+  val Int: scala.reflect.ClassTag[scala.Int] = { /* compiled code */ }
+  val Long: scala.reflect.ClassTag[scala.Long] = { /* compiled code */ }
+  val Float: scala.reflect.ClassTag[scala.Float] = { /* compiled code */ }
+  val Double: scala.reflect.ClassTag[scala.Double] = { /* compiled code */ }
+  val Boolean: scala.reflect.ClassTag[scala.Boolean] = { /* compiled code */ }
+  val Unit: scala.reflect.ClassTag[scala.Unit] = { /* compiled code */ }
+  val Any: scala.reflect.ClassTag[scala.Any] = { /* compiled code */ }
+  val Object: scala.reflect.ClassTag[java.lang.Object] = { /* compiled code */ }
+  val AnyVal: scala.reflect.ClassTag[scala.AnyVal] = { /* compiled code */ }
+  val AnyRef: scala.reflect.ClassTag[scala.AnyRef] = { /* compiled code */ }
+  val Nothing: scala.reflect.ClassTag[scala.Nothing] = { /* compiled code */ }
+  val Null: scala.reflect.ClassTag[scala.Null] = { /* compiled code */ }
+  def apply[T](runtimeClass1: java.lang.Class[_]): scala.reflect.ClassTag[T] = { /* compiled code */ }
+  def unapply[T](ctag: scala.reflect.ClassTag[T]): scala.Option[scala.Predef.Class[_]] = { /* compiled code */ }
+}

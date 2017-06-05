@@ -1,0 +1,7 @@
+package scala.collection.parallel
+object FutureThreadPoolTasks extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val numCores: scala.Int = { /* compiled code */ }
+  val tcount: java.util.concurrent.atomic.AtomicLong = { /* compiled code */ }
+  val defaultThreadPool: java.util.concurrent.ExecutorService = { /* compiled code */ }
+}

@@ -1,0 +1,10 @@
+package scala.collection.generic
+trait Signalling extends scala.AnyRef {
+  def isAborted: scala.Boolean
+  def abort(): scala.Unit
+  def indexFlag: scala.Int
+  def setIndexFlag(f: scala.Int): scala.Unit
+  def setIndexFlagIfGreater(f: scala.Int): scala.Unit
+  def setIndexFlagIfLesser(f: scala.Int): scala.Unit
+  def tag: scala.Int
+}

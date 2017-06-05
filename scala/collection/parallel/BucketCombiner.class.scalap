@@ -1,0 +1,11 @@
+package scala.collection.parallel
+private[parallel] abstract class BucketCombiner[-Elem, +To, Buck, +CombinerType <: scala.collection.parallel.BucketCombiner[Elem, To, Buck, CombinerType]] extends scala.AnyRef with scala.collection.parallel.Combiner[Elem, To] {
+  def this(bucketnumber: scala.Int) = { /* compiled code */ }
+  protected var buckets: scala.Array[scala.collection.mutable.UnrolledBuffer[Buck]] = { /* compiled code */ }
+  protected var sz: scala.Int = { /* compiled code */ }
+  def size: scala.Int = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def beforeCombine[N <: Elem, NewTo >: To](other: scala.collection.parallel.Combiner[N, NewTo]): scala.Unit = { /* compiled code */ }
+  def afterCombine[N <: Elem, NewTo >: To](other: scala.collection.parallel.Combiner[N, NewTo]): scala.Unit = { /* compiled code */ }
+  def combine[N <: Elem, NewTo >: To](other: scala.collection.parallel.Combiner[N, NewTo]): scala.collection.parallel.Combiner[N, NewTo] = { /* compiled code */ }
+}

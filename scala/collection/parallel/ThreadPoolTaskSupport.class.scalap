@@ -1,0 +1,9 @@
+package scala.collection.parallel
+@scala.deprecated("Use `ForkJoinTaskSupport` instead.")
+class ThreadPoolTaskSupport extends scala.AnyRef with scala.collection.parallel.TaskSupport with scala.collection.parallel.AdaptiveWorkStealingThreadPoolTasks {
+  val environment: java.util.concurrent.ThreadPoolExecutor = { /* compiled code */ }
+  def this(environment: java.util.concurrent.ThreadPoolExecutor) = { /* compiled code */ }
+}
+object ThreadPoolTaskSupport extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

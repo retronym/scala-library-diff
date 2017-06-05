@@ -1,0 +1,9 @@
+package scala.runtime
+final class ArrayCharSequence extends java.lang.Object with java.lang.CharSequence {
+  val xs: scala.Array[scala.Char] = { /* compiled code */ }
+  def this(xs: scala.Array[scala.Char], start: scala.Int, end: scala.Int) = { /* compiled code */ }
+  def length(): scala.Int = { /* compiled code */ }
+  def charAt(index: scala.Int): scala.Char = { /* compiled code */ }
+  def subSequence(start0: scala.Int, end0: scala.Int): java.lang.CharSequence = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

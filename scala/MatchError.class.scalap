@@ -1,0 +1,5 @@
+package scala
+final class MatchError extends scala.RuntimeException {
+  def this(obj: scala.Any) = { /* compiled code */ }
+  override def getMessage(): java.lang.String = { /* compiled code */ }
+}

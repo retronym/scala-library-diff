@@ -1,0 +1,54 @@
+package scala
+final class Array[T] extends scala.AnyRef with java.io.Serializable with java.lang.Cloneable {
+  def this(_length: scala.Int) = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  def apply(i: scala.Int): T = { /* compiled code */ }
+  def update(i: scala.Int, x: T): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.Array[T] = { /* compiled code */ }
+}
+object Array extends scala.FallbackArrayBuilding with scala.Serializable {
+  def this() = { /* compiled code */ }
+  val emptyBooleanArray: scala.Array[scala.Boolean] = { /* compiled code */ }
+  val emptyByteArray: scala.Array[scala.Byte] = { /* compiled code */ }
+  val emptyCharArray: scala.Array[scala.Char] = { /* compiled code */ }
+  val emptyDoubleArray: scala.Array[scala.Double] = { /* compiled code */ }
+  val emptyFloatArray: scala.Array[scala.Float] = { /* compiled code */ }
+  val emptyIntArray: scala.Array[scala.Int] = { /* compiled code */ }
+  val emptyLongArray: scala.Array[scala.Long] = { /* compiled code */ }
+  val emptyShortArray: scala.Array[scala.Short] = { /* compiled code */ }
+  val emptyObjectArray: scala.Array[java.lang.Object] = { /* compiled code */ }
+  implicit def canBuildFrom[T](implicit t: scala.reflect.ClassTag[T]): scala.collection.generic.CanBuildFrom[scala.Array[_], T, scala.Array[T]] = { /* compiled code */ }
+  def newBuilder[T](implicit t: scala.reflect.ClassTag[T]): scala.collection.mutable.ArrayBuilder[T] = { /* compiled code */ }
+  def copy(src: scala.AnyRef, srcPos: scala.Int, dest: scala.AnyRef, destPos: scala.Int, length: scala.Int): scala.Unit = { /* compiled code */ }
+  def empty[T](implicit evidence$1: scala.reflect.ClassTag[T]): scala.Array[T] = { /* compiled code */ }
+  def apply[T](xs: T*)(implicit evidence$2: scala.reflect.ClassTag[T]): scala.Array[T] = { /* compiled code */ }
+  def apply(x: scala.Boolean, xs: scala.Boolean*): scala.Array[scala.Boolean] = { /* compiled code */ }
+  def apply(x: scala.Byte, xs: scala.Byte*): scala.Array[scala.Byte] = { /* compiled code */ }
+  def apply(x: scala.Short, xs: scala.Short*): scala.Array[scala.Short] = { /* compiled code */ }
+  def apply(x: scala.Char, xs: scala.Char*): scala.Array[scala.Char] = { /* compiled code */ }
+  def apply(x: scala.Int, xs: scala.Int*): scala.Array[scala.Int] = { /* compiled code */ }
+  def apply(x: scala.Long, xs: scala.Long*): scala.Array[scala.Long] = { /* compiled code */ }
+  def apply(x: scala.Float, xs: scala.Float*): scala.Array[scala.Float] = { /* compiled code */ }
+  def apply(x: scala.Double, xs: scala.Double*): scala.Array[scala.Double] = { /* compiled code */ }
+  def apply(x: scala.Unit, xs: scala.Unit*): scala.Array[scala.Unit] = { /* compiled code */ }
+  def ofDim[T](n1: scala.Int)(implicit evidence$3: scala.reflect.ClassTag[T]): scala.Array[T] = { /* compiled code */ }
+  def ofDim[T](n1: scala.Int, n2: scala.Int)(implicit evidence$4: scala.reflect.ClassTag[T]): scala.Array[scala.Array[T]] = { /* compiled code */ }
+  def ofDim[T](n1: scala.Int, n2: scala.Int, n3: scala.Int)(implicit evidence$5: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[T]]] = { /* compiled code */ }
+  def ofDim[T](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int)(implicit evidence$6: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[scala.Array[T]]]] = { /* compiled code */ }
+  def ofDim[T](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int, n5: scala.Int)(implicit evidence$7: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[scala.Array[scala.Array[T]]]]] = { /* compiled code */ }
+  def concat[T](xss: scala.Array[T]*)(implicit evidence$8: scala.reflect.ClassTag[T]): scala.Array[T] = { /* compiled code */ }
+  def fill[T](n: scala.Int)(elem: => T)(implicit evidence$9: scala.reflect.ClassTag[T]): scala.Array[T] = { /* compiled code */ }
+  def fill[T](n1: scala.Int, n2: scala.Int)(elem: => T)(implicit evidence$10: scala.reflect.ClassTag[T]): scala.Array[scala.Array[T]] = { /* compiled code */ }
+  def fill[T](n1: scala.Int, n2: scala.Int, n3: scala.Int)(elem: => T)(implicit evidence$11: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[T]]] = { /* compiled code */ }
+  def fill[T](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int)(elem: => T)(implicit evidence$12: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[scala.Array[T]]]] = { /* compiled code */ }
+  def fill[T](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int, n5: scala.Int)(elem: => T)(implicit evidence$13: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[scala.Array[scala.Array[T]]]]] = { /* compiled code */ }
+  def tabulate[T](n: scala.Int)(f: scala.Function1[scala.Int, T])(implicit evidence$14: scala.reflect.ClassTag[T]): scala.Array[T] = { /* compiled code */ }
+  def tabulate[T](n1: scala.Int, n2: scala.Int)(f: scala.Function2[scala.Int, scala.Int, T])(implicit evidence$15: scala.reflect.ClassTag[T]): scala.Array[scala.Array[T]] = { /* compiled code */ }
+  def tabulate[T](n1: scala.Int, n2: scala.Int, n3: scala.Int)(f: scala.Function3[scala.Int, scala.Int, scala.Int, T])(implicit evidence$16: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[T]]] = { /* compiled code */ }
+  def tabulate[T](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int)(f: scala.Function4[scala.Int, scala.Int, scala.Int, scala.Int, T])(implicit evidence$17: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[scala.Array[T]]]] = { /* compiled code */ }
+  def tabulate[T](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int, n5: scala.Int)(f: scala.Function5[scala.Int, scala.Int, scala.Int, scala.Int, scala.Int, T])(implicit evidence$18: scala.reflect.ClassTag[T]): scala.Array[scala.Array[scala.Array[scala.Array[scala.Array[T]]]]] = { /* compiled code */ }
+  def range(start: scala.Int, end: scala.Int): scala.Array[scala.Int] = { /* compiled code */ }
+  def range(start: scala.Int, end: scala.Int, step: scala.Int): scala.Array[scala.Int] = { /* compiled code */ }
+  def iterate[T](start: T, len: scala.Int)(f: scala.Function1[T, T])(implicit evidence$19: scala.reflect.ClassTag[T]): scala.Array[T] = { /* compiled code */ }
+  def unapplySeq[T](x: scala.Array[T]): scala.Option[scala.IndexedSeq[T]] = { /* compiled code */ }
+}

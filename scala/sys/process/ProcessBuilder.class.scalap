@@ -1,0 +1,63 @@
+package scala.sys.process
+trait ProcessBuilder extends scala.AnyRef with scala.sys.process.ProcessBuilder.Source with scala.sys.process.ProcessBuilder.Sink {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def !!: scala.Predef.String
+  def !!(log: scala.sys.process.ProcessLogger): scala.Predef.String
+  def !!<: scala.Predef.String
+  def !!<(log: scala.sys.process.ProcessLogger): scala.Predef.String
+  def lineStream: scala.Stream[scala.Predef.String]
+  @scala.deprecated("Use lineStream instead.")
+  def lines: scala.Stream[scala.Predef.String] = { /* compiled code */ }
+  def lineStream(log: scala.sys.process.ProcessLogger): scala.Stream[scala.Predef.String]
+  @scala.deprecated("Use stream instead.")
+  def lines(log: scala.sys.process.ProcessLogger): scala.Stream[scala.Predef.String] = { /* compiled code */ }
+  def lineStream_!: scala.Stream[scala.Predef.String]
+  @scala.deprecated("Use lineStream_! instead.")
+  def lines_!: scala.Stream[scala.Predef.String] = { /* compiled code */ }
+  def lineStream_!(log: scala.sys.process.ProcessLogger): scala.Stream[scala.Predef.String]
+  @scala.deprecated("Use stream_! instead.")
+  def lines_!(log: scala.sys.process.ProcessLogger): scala.Stream[scala.Predef.String] = { /* compiled code */ }
+  def !: scala.Int
+  def !(log: scala.sys.process.ProcessLogger): scala.Int
+  def !<: scala.Int
+  def !<(log: scala.sys.process.ProcessLogger): scala.Int
+  def run(): scala.sys.process.Process
+  def run(log: scala.sys.process.ProcessLogger): scala.sys.process.Process
+  def run(io: scala.sys.process.ProcessIO): scala.sys.process.Process
+  def run(connectInput: scala.Boolean): scala.sys.process.Process
+  def run(log: scala.sys.process.ProcessLogger, connectInput: scala.Boolean): scala.sys.process.Process
+  def #&&(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder
+  def #||(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder
+  def #|(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder
+  def ###(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder
+  def canPipeTo: scala.Boolean
+  def hasExitValue: scala.Boolean
+}
+object ProcessBuilder extends scala.AnyRef with scala.sys.process.ProcessBuilderImpl {
+  def this() = { /* compiled code */ }
+  trait URLBuilder extends scala.AnyRef with scala.sys.process.ProcessBuilder.Source {
+  }
+  trait Source extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    protected def toSource: scala.sys.process.ProcessBuilder
+    def #>(f: scala.sys.process.processInternal.File): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #>>(f: scala.sys.process.processInternal.File): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #>(out: => scala.sys.process.processInternal.OutputStream): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #>(b: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def cat: scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  }
+  trait FileBuilder extends scala.AnyRef with scala.sys.process.ProcessBuilder.Sink with scala.sys.process.ProcessBuilder.Source {
+    def #<<(f: scala.sys.process.processInternal.File): scala.sys.process.ProcessBuilder
+    def #<<(u: scala.sys.process.processInternal.URL): scala.sys.process.ProcessBuilder
+    def #<<(i: => scala.sys.process.processInternal.InputStream): scala.sys.process.ProcessBuilder
+    def #<<(p: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder
+  }
+  trait Sink extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    protected def toSink: scala.sys.process.ProcessBuilder
+    def #<(f: scala.sys.process.processInternal.File): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #<(f: scala.sys.process.processInternal.URL): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #<(in: => scala.sys.process.processInternal.InputStream): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #<(b: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  }
+}

@@ -1,0 +1,10 @@
+package scala.collection
+private[collection] object DebugUtils extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def unsupported(msg: scala.Predef.String): scala.Nothing = { /* compiled code */ }
+  def noSuchElement(msg: scala.Predef.String): scala.Nothing = { /* compiled code */ }
+  def indexOutOfBounds(index: scala.Int): scala.Nothing = { /* compiled code */ }
+  def illegalArgument(msg: scala.Predef.String): scala.Nothing = { /* compiled code */ }
+  def buildString(closure: scala.Function1[scala.Function1[scala.Any, scala.Unit], scala.Unit]): scala.Predef.String = { /* compiled code */ }
+  def arrayString[T](array: scala.Array[T], from: scala.Int, until: scala.Int): scala.Predef.String = { /* compiled code */ }
+}

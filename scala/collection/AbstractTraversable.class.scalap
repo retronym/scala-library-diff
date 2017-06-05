@@ -1,0 +1,4 @@
+package scala.collection
+abstract class AbstractTraversable[+A] extends scala.AnyRef with scala.collection.Traversable[A] {
+  def this() = { /* compiled code */ }
+}

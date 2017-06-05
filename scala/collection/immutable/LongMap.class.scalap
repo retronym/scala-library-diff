@@ -1,0 +1,81 @@
+package scala.collection.immutable
+sealed abstract class LongMap[+T] extends scala.collection.immutable.AbstractMap[scala.collection.generic.BitOperations.Long.Long, T] with scala.collection.immutable.Map[scala.collection.generic.BitOperations.Long.Long, T] with scala.collection.immutable.MapLike[scala.collection.generic.BitOperations.Long.Long, T, scala.collection.immutable.LongMap[T]] {
+  def this() = { /* compiled code */ }
+  override def empty: scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  override def toList: scala.collection.immutable.List[scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, T]] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, T]] = { /* compiled code */ }
+  final override def foreach[U](f: scala.Function1[scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, T], U]): scala.Unit = { /* compiled code */ }
+  override def keysIterator: scala.collection.Iterator[scala.collection.generic.BitOperations.Long.Long] = { /* compiled code */ }
+  final def foreachKey(f: scala.Function1[scala.collection.generic.BitOperations.Long.Long, scala.Unit]): scala.Unit = { /* compiled code */ }
+  override def valuesIterator: scala.collection.Iterator[T] = { /* compiled code */ }
+  final def foreachValue(f: scala.Function1[T, scala.Unit]): scala.Unit = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def filter(f: scala.Function1[scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, T], scala.Boolean]): scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  def transform[S](f: scala.Function2[scala.collection.generic.BitOperations.Long.Long, T, S]): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+  final override def size: scala.Int = { /* compiled code */ }
+  final def get(key: scala.collection.generic.BitOperations.Long.Long): scala.Option[T] = { /* compiled code */ }
+  final override def getOrElse[S >: T](key: scala.collection.generic.BitOperations.Long.Long, default: => S): S = { /* compiled code */ }
+  final override def apply(key: scala.collection.generic.BitOperations.Long.Long): T = { /* compiled code */ }
+  def +[S >: T](kv: scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, S]): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+  override def updated[S >: T](key: scala.collection.generic.BitOperations.Long.Long, value: S): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+  def updateWith[S >: T](key: scala.collection.generic.BitOperations.Long.Long, value: S, f: scala.Function2[T, S, S]): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+  def -(key: scala.collection.generic.BitOperations.Long.Long): scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  def modifyOrRemove[S](f: scala.Function2[scala.collection.generic.BitOperations.Long.Long, T, scala.Option[S]]): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+  def unionWith[S >: T](that: scala.collection.immutable.LongMap[S], f: scala.Function3[scala.collection.generic.BitOperations.Long.Long, S, S, S]): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+  def intersectionWith[S, R](that: scala.collection.immutable.LongMap[S], f: scala.Function3[scala.collection.generic.BitOperations.Long.Long, T, S, R]): scala.collection.immutable.LongMap[R] = { /* compiled code */ }
+  def intersection[R](that: scala.collection.immutable.LongMap[R]): scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  def ++[S >: T](that: scala.collection.immutable.LongMap[S]): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  final def firstKey: scala.collection.generic.BitOperations.Long.Long = { /* compiled code */ }
+  @scala.annotation.tailrec
+  final def lastKey: scala.collection.generic.BitOperations.Long.Long = { /* compiled code */ }
+}
+object LongMap extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.AnyRef with scala.collection.generic.CanBuildFrom[scala.collection.immutable.LongMap[A], scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, B], scala.collection.immutable.LongMap[B]] = { /* compiled code */ }
+  private[immutable] case class Bin[+T](prefix: scala.collection.generic.BitOperations.Long.Long, mask: scala.collection.generic.BitOperations.Long.Long, left: scala.collection.immutable.LongMap[T], right: scala.collection.immutable.LongMap[T]) extends scala.collection.immutable.LongMap[T] with scala.Product with scala.Serializable {
+    val prefix: scala.collection.generic.BitOperations.Long.Long = { /* compiled code */ }
+    val mask: scala.collection.generic.BitOperations.Long.Long = { /* compiled code */ }
+    val left: scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+    val right: scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+    def bin[S](left: scala.collection.immutable.LongMap[S], right: scala.collection.immutable.LongMap[S]): scala.collection.immutable.LongMap[S] = { /* compiled code */ }
+    def copy[T](prefix: scala.collection.generic.BitOperations.Long.Long, mask: scala.collection.generic.BitOperations.Long.Long, left: scala.collection.immutable.LongMap[T], right: scala.collection.immutable.LongMap[T]): scala.collection.immutable.LongMap.Bin[T] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  private[immutable] case class Tip[+T](key: scala.collection.generic.BitOperations.Long.Long, value: T) extends scala.collection.immutable.LongMap[T] with scala.Product with scala.Serializable {
+    val key: scala.collection.generic.BitOperations.Long.Long = { /* compiled code */ }
+    val value: T = { /* compiled code */ }
+    def withValue[S](s: S): scala.collection.immutable.LongMap.Tip[S] = { /* compiled code */ }
+    def copy[T](key: scala.collection.generic.BitOperations.Long.Long, value: T): scala.collection.immutable.LongMap.Tip[T] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  def empty[T]: scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  def singleton[T](key: scala.collection.generic.BitOperations.Long.Long, value: T): scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  def apply[T](elems: scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, T]*): scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  private[immutable] case object Nil extends scala.collection.immutable.LongMap[scala.Nothing] with scala.Product with scala.Serializable {
+    override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  }
+  private[immutable] object Tip extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[T](key: scala.collection.generic.BitOperations.Long.Long, value: T): scala.collection.immutable.LongMap.Tip[T] = { /* compiled code */ }
+    def unapply[T](x$0: scala.collection.immutable.LongMap.Tip[T]): scala.Option[scala.Tuple2[scala.collection.generic.BitOperations.Long.Long, T]] = { /* compiled code */ }
+  }
+  private[immutable] object Bin extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[T](prefix: scala.collection.generic.BitOperations.Long.Long, mask: scala.collection.generic.BitOperations.Long.Long, left: scala.collection.immutable.LongMap[T], right: scala.collection.immutable.LongMap[T]): scala.collection.immutable.LongMap.Bin[T] = { /* compiled code */ }
+    def unapply[T](x$0: scala.collection.immutable.LongMap.Bin[T]): scala.Option[scala.Tuple4[scala.collection.generic.BitOperations.Long.Long, scala.collection.generic.BitOperations.Long.Long, scala.collection.immutable.LongMap[T], scala.collection.immutable.LongMap[T]]] = { /* compiled code */ }
+  }
+}

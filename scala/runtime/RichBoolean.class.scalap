@@ -1,0 +1,14 @@
+package scala.runtime
+final class RichBoolean extends scala.AnyVal with scala.runtime.OrderedProxy[scala.Boolean] {
+  val self: scala.Boolean = { /* compiled code */ }
+  def this(self: scala.Boolean) = { /* compiled code */ }
+  protected def ord: scala.math.Ordering.Boolean.type = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object RichBoolean extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def ord$extension($this: scala.runtime.RichBoolean): scala.math.Ordering.Boolean.type = { /* compiled code */ }
+  final def hashCode$extension($this: scala.runtime.RichBoolean)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.runtime.RichBoolean)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

@@ -1,0 +1,49 @@
+package scala.collection
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait SeqProxyLike[+A, +Repr <: scala.collection.SeqLike[A, Repr] with scala.collection.Seq[A]] extends scala.AnyRef with scala.collection.SeqLike[A, Repr] with scala.collection.IterableProxyLike[A, Repr] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def toSeq: scala.collection.Seq[A] = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def apply(idx: scala.Int): A = { /* compiled code */ }
+  override def lengthCompare(len: scala.Int): scala.Int = { /* compiled code */ }
+  override def isDefinedAt(x: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def segmentLength(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  override def prefixLength(p: scala.Function1[A, scala.Boolean]): scala.Int = { /* compiled code */ }
+  override def indexWhere(p: scala.Function1[A, scala.Boolean]): scala.Int = { /* compiled code */ }
+  override def indexWhere(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  override def indexOf[B >: A](elem: B): scala.Int = { /* compiled code */ }
+  override def indexOf[B >: A](elem: B, from: scala.Int): scala.Int = { /* compiled code */ }
+  override def lastIndexOf[B >: A](elem: B): scala.Int = { /* compiled code */ }
+  override def lastIndexOf[B >: A](elem: B, end: scala.Int): scala.Int = { /* compiled code */ }
+  override def lastIndexWhere(p: scala.Function1[A, scala.Boolean]): scala.Int = { /* compiled code */ }
+  override def lastIndexWhere(p: scala.Function1[A, scala.Boolean], end: scala.Int): scala.Int = { /* compiled code */ }
+  override def reverse: Repr = { /* compiled code */ }
+  override def reverseMap[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  override def reverseIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def startsWith[B](that: scala.collection.GenSeq[B], offset: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def startsWith[B](that: scala.collection.GenSeq[B]): scala.Boolean = { /* compiled code */ }
+  override def endsWith[B](that: scala.collection.GenSeq[B]): scala.Boolean = { /* compiled code */ }
+  override def indexOfSlice[B >: A](that: scala.collection.GenSeq[B]): scala.Int = { /* compiled code */ }
+  override def indexOfSlice[B >: A](that: scala.collection.GenSeq[B], from: scala.Int): scala.Int = { /* compiled code */ }
+  override def lastIndexOfSlice[B >: A](that: scala.collection.GenSeq[B]): scala.Int = { /* compiled code */ }
+  override def lastIndexOfSlice[B >: A](that: scala.collection.GenSeq[B], end: scala.Int): scala.Int = { /* compiled code */ }
+  override def containsSlice[B](that: scala.collection.GenSeq[B]): scala.Boolean = { /* compiled code */ }
+  override def contains[A1 >: A](elem: A1): scala.Boolean = { /* compiled code */ }
+  override def union[B >: A, That](that: scala.collection.GenSeq[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  override def diff[B >: A](that: scala.collection.GenSeq[B]): Repr = { /* compiled code */ }
+  override def intersect[B >: A](that: scala.collection.GenSeq[B]): Repr = { /* compiled code */ }
+  override def distinct: Repr = { /* compiled code */ }
+  override def patch[B >: A, That](from: scala.Int, patch: scala.collection.GenSeq[B], replaced: scala.Int)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  override def updated[B >: A, That](index: scala.Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  override def +:[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  override def :+[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  override def padTo[B >: A, That](len: scala.Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  override def corresponds[B](that: scala.collection.GenSeq[B])(p: scala.Function2[A, B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def sortWith(lt: scala.Function2[A, A, scala.Boolean]): Repr = { /* compiled code */ }
+  override def sortBy[B](f: scala.Function1[A, B])(implicit ord: scala.Ordering[B]): Repr = { /* compiled code */ }
+  override def sorted[B >: A](implicit ord: scala.Ordering[B]): Repr = { /* compiled code */ }
+  override def indices: scala.Range = { /* compiled code */ }
+  override def view: scala.AnyRef with scala.collection.SeqView[A, Repr] = { /* compiled code */ }
+  override def view(from: scala.Int, until: scala.Int): scala.collection.SeqView[A, Repr] = { /* compiled code */ }
+}

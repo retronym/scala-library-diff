@@ -1,0 +1,10 @@
+package scala.ref
+trait Reference[+T <: scala.AnyRef] extends scala.AnyRef with scala.Function0[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def apply(): T
+  def get: scala.Option[T]
+  override def toString(): java.lang.String = { /* compiled code */ }
+  def clear(): scala.Unit
+  def enqueue(): scala.Boolean
+  def isEnqueued(): scala.Boolean
+}

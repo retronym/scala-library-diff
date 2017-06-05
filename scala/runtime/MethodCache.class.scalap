@@ -1,0 +1,6 @@
+package scala.runtime
+private[scala] sealed abstract class MethodCache extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def find(forReceiver: java.lang.Class[_]): java.lang.reflect.Method
+  def add(forReceiver: java.lang.Class[_], forMethod: java.lang.reflect.Method): scala.runtime.MethodCache
+}

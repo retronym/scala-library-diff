@@ -1,0 +1,56 @@
+package scala
+sealed abstract class Option[+A] extends scala.AnyRef with scala.Product with scala.Serializable {
+ this: scala.Option[A] =>
+  def this() = { /* compiled code */ }
+  def isEmpty: scala.Boolean
+  def isDefined: scala.Boolean = { /* compiled code */ }
+  def get: A
+  @scala.inline
+  final def getOrElse[B >: A](default: => B): B = { /* compiled code */ }
+  @scala.inline
+  final def orNull[A1 >: A](implicit ev: scala.Predef.<:<[scala.Null, A1]): A1 = { /* compiled code */ }
+  @scala.inline
+  final def map[B](f: scala.Function1[A, B]): scala.Option[B] = { /* compiled code */ }
+  @scala.inline
+  final def fold[B](ifEmpty: => B)(f: scala.Function1[A, B]): B = { /* compiled code */ }
+  @scala.inline
+  final def flatMap[B](f: scala.Function1[A, scala.Option[B]]): scala.Option[B] = { /* compiled code */ }
+  def flatten[B](implicit ev: scala.Predef.<:<[A, scala.Option[B]]): scala.Option[B] = { /* compiled code */ }
+  @scala.inline
+  final def filter(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  @scala.inline
+  final def filterNot(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  final def nonEmpty: scala.Boolean = { /* compiled code */ }
+  @scala.inline
+  final def withFilter(p: scala.Function1[A, scala.Boolean]): scala.Option.WithFilter = { /* compiled code */ }
+  class WithFilter extends scala.AnyRef {
+    def this(p: scala.Function1[A, scala.Boolean]) = { /* compiled code */ }
+    def map[B](f: scala.Function1[A, B]): scala.Option[B] = { /* compiled code */ }
+    def flatMap[B](f: scala.Function1[A, scala.Option[B]]): scala.Option[B] = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+    def withFilter(q: scala.Function1[A, scala.Boolean]): scala.Option.WithFilter = { /* compiled code */ }
+  }
+  final def contains[A1 >: A](elem: A1): scala.Boolean = { /* compiled code */ }
+  @scala.inline
+  final def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  @scala.inline
+  final def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  @scala.inline
+  final def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  @scala.inline
+  final def collect[B](pf: scala.PartialFunction[A, B]): scala.Option[B] = { /* compiled code */ }
+  @scala.inline
+  final def orElse[B >: A](alternative: => scala.Option[B]): scala.Option[B] = { /* compiled code */ }
+  def iterator: scala.Iterator[A] = { /* compiled code */ }
+  def toList: scala.List[A] = { /* compiled code */ }
+  @scala.inline
+  final def toRight[X](left: => X): scala.Serializable with scala.Product with scala.util.Either[X, A] = { /* compiled code */ }
+  @scala.inline
+  final def toLeft[X](right: => X): scala.Serializable with scala.Product with scala.util.Either[A, X] = { /* compiled code */ }
+}
+object Option extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def option2Iterable[A](xo: scala.Option[A]): scala.Iterable[A] = { /* compiled code */ }
+  def apply[A](x: A): scala.Option[A] = { /* compiled code */ }
+  def empty[A]: scala.Option[A] = { /* compiled code */ }
+}

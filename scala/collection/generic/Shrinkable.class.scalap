@@ -1,0 +1,7 @@
+package scala.collection.generic
+trait Shrinkable[-A] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def -=(elem: A): scala.collection.generic.Shrinkable.type
+  def -=(elem1: A, elem2: A, elems: A*): scala.collection.generic.Shrinkable.type = { /* compiled code */ }
+  def --=(xs: scala.collection.TraversableOnce[A]): scala.collection.generic.Shrinkable.type = { /* compiled code */ }
+}

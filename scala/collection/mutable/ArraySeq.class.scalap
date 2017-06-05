@@ -1,0 +1,19 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 1530165946227428979None }
+class ArraySeq[A] extends scala.collection.mutable.AbstractSeq[A] with scala.collection.mutable.IndexedSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.ArraySeq] with scala.collection.mutable.IndexedSeqOptimized[A, scala.collection.mutable.ArraySeq[A]] with scala.collection.CustomParallelizable[A, scala.collection.parallel.mutable.ParArray[A]] with scala.Serializable {
+  override val length: scala.Int = { /* compiled code */ }
+  def this(length: scala.Int) = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.ArraySeq] = { /* compiled code */ }
+  val array: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  override def par: scala.collection.parallel.mutable.ParArray[A] = { /* compiled code */ }
+  def apply(idx: scala.Int): A = { /* compiled code */ }
+  def update(idx: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.ArraySeq[A] = { /* compiled code */ }
+}
+object ArraySeq extends scala.collection.generic.SeqFactory[scala.collection.mutable.ArraySeq] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.ArraySeq[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.ArraySeq[A]] = { /* compiled code */ }
+}

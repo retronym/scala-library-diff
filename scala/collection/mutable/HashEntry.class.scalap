@@ -1,0 +1,6 @@
+package scala.collection.mutable
+trait HashEntry[A, E] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  val key: A
+  var next: E = { /* compiled code */ }
+}

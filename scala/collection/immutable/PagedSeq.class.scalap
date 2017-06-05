@@ -1,0 +1,26 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The implementation details of paged sequences make inheriting from them unwise.")
+class PagedSeq[T] extends scala.collection.AbstractSeq[T] with scala.collection.IndexedSeq[T] {
+  protected def this(more: scala.Function3[scala.Array[T], scala.Int, scala.Int, scala.Int], first1: scala.collection.immutable.Page[T], start: scala.Int, end: scala.Int)(implicit evidence$3: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+  def this(more: scala.Function3[scala.Array[T], scala.Int, scala.Int, scala.Int])(implicit evidence$4: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  def apply(index: scala.Int): T = { /* compiled code */ }
+  override def isDefinedAt(index: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def slice(_start: scala.Int, _end: scala.Int): scala.collection.immutable.PagedSeq[T] = { /* compiled code */ }
+  def slice(start: scala.Int): scala.collection.immutable.PagedSeq[T] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}
+object PagedSeq extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final val UndeterminedEnd: scala.Int = { /* compiled code */ }
+  def fromIterator[T](source: scala.collection.Iterator[T])(implicit evidence$1: scala.reflect.ClassTag[T]): scala.collection.immutable.PagedSeq[T] = { /* compiled code */ }
+  def fromIterable[T](source: scala.collection.immutable.Iterable[T])(implicit evidence$2: scala.reflect.ClassTag[T]): scala.collection.immutable.PagedSeq[T] = { /* compiled code */ }
+  def fromStrings(source: scala.collection.Iterator[scala.Predef.String]): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+  def fromStrings(source: scala.collection.immutable.Iterable[scala.Predef.String]): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+  def fromLines(source: scala.collection.Iterator[scala.Predef.String]): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+  def fromLines(source: scala.collection.immutable.Iterable[scala.Predef.String]): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+  def fromReader(source: java.io.Reader): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+  def fromFile(source: java.io.File): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+  def fromFile(source: scala.Predef.String): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+  def fromSource(source: scala.io.Source): scala.collection.immutable.PagedSeq[scala.Char] = { /* compiled code */ }
+}

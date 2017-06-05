@@ -1,0 +1,5 @@
+package scala.collection.parallel
+trait PreciseSplitter[+T] extends scala.AnyRef with scala.collection.parallel.Splitter[T] {
+  def psplit(sizes: scala.Int*): scala.collection.Seq[scala.collection.parallel.PreciseSplitter[T]]
+  def split: scala.collection.Seq[scala.collection.parallel.PreciseSplitter[T]]
+}

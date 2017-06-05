@@ -1,0 +1,4 @@
+package scala
+class SerialVersionUID extends scala.annotation.Annotation with scala.annotation.ClassfileAnnotation {
+  def this(value: scala.Long) = { /* compiled code */ }
+}

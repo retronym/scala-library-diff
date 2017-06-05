@@ -1,0 +1,4 @@
+package scala.concurrent
+@scala.annotation.implicitNotFound("Don't call `Awaitable` methods directly, use the `Await` object.")
+sealed trait CanAwait extends scala.AnyRef {
+}

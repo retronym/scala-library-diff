@@ -1,0 +1,12 @@
+package scala.collection
+trait Traversable[+A] extends scala.AnyRef with scala.collection.TraversableLike[A, scala.collection.Traversable[A]] with scala.collection.GenTraversable[A] with scala.collection.TraversableOnce[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.Traversable] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.Traversable] = { /* compiled code */ }
+  override def seq: scala.collection.Traversable[A] = { /* compiled code */ }
+}
+object Traversable extends scala.collection.generic.GenTraversableFactory[scala.collection.Traversable] with scala.collection.generic.TraversableFactory[scala.collection.Traversable] {
+  def this() = { /* compiled code */ }
+  private[collection] val breaks: scala.util.control.Breaks = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.Traversable[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.Traversable[A]] = { /* compiled code */ }
+}

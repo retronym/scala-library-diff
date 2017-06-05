@@ -1,0 +1,23 @@
+package scala.concurrent
+@scala.annotation.implicitNotFound("""Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.""")
+trait ExecutionContext extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def execute(runnable: java.lang.Runnable): scala.Unit
+  def reportFailure(cause: scala.Throwable): scala.Unit
+  def prepare(): scala.concurrent.ExecutionContext = { /* compiled code */ }
+}
+object ExecutionContext extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def global: scala.concurrent.ExecutionContextExecutor = { /* compiled code */ }
+  object Implicits extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    implicit val global: scala.concurrent.ExecutionContextExecutor = { /* compiled code */ }
+  }
+  def fromExecutorService(e: java.util.concurrent.ExecutorService, reporter: scala.Function1[scala.Throwable, scala.Unit]): scala.concurrent.ExecutionContextExecutorService = { /* compiled code */ }
+  def fromExecutorService(e: java.util.concurrent.ExecutorService): scala.concurrent.ExecutionContextExecutorService = { /* compiled code */ }
+  def fromExecutor(e: java.util.concurrent.Executor, reporter: scala.Function1[scala.Throwable, scala.Unit]): scala.concurrent.ExecutionContextExecutor = { /* compiled code */ }
+  def fromExecutor(e: java.util.concurrent.Executor): scala.concurrent.ExecutionContextExecutor = { /* compiled code */ }
+  def defaultReporter: scala.Function1[scala.Throwable, scala.Unit] = { /* compiled code */ }
+}

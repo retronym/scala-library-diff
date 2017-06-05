@@ -1,0 +1,8 @@
+package scala.collection
+trait GenIterableLike[+A, +Repr] extends scala.Any with scala.collection.GenTraversableLike[A, Repr] {
+  def iterator: scala.collection.Iterator[A]
+  def sameElements[A1 >: A](that: scala.collection.GenIterable[A1]): scala.Boolean
+  def zip[A1 >: A, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, B], That]): That
+  def zipWithIndex[A1 >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, scala.Int], That]): That
+  def zipAll[B, A1 >: A, That](that: scala.collection.GenIterable[B], thisElem: A1, thatElem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, B], That]): That
+}

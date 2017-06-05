@@ -1,0 +1,46 @@
+package scala.collection.parallel
+trait ParSeqLike[+T, +Repr <: scala.collection.parallel.ParSeq[T], +Sequential <: scala.Seq[T] with scala.collection.SeqLike[T, Sequential]] extends scala.AnyRef with scala.collection.GenSeqLike[T, Repr] with scala.collection.parallel.ParIterableLike[T, Repr, Sequential] {
+ this: scala.collection.parallel.ParSeqLike[T, Repr, Sequential] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def splitter: scala.collection.parallel.SeqSplitter[T]
+  override def iterator: scala.collection.parallel.PreciseSplitter[T] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  protected abstract class Elements extends scala.AnyRef with scala.collection.parallel.SeqSplitter[T] with scala.BufferedIterator[T] {
+    val end: scala.Int = { /* compiled code */ }
+    def this(start: scala.Int, end: scala.Int) = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): T = { /* compiled code */ }
+    def head: T = { /* compiled code */ }
+    final def remaining: scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.ParSeqLike.Elements = { /* compiled code */ }
+    def split: scala.collection.Seq[scala.collection.parallel.SeqSplitter[T]] = { /* compiled code */ }
+    def psplit(sizes: scala.Int*): scala.Seq[scala.collection.parallel.SeqSplitter[T]] = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  def segmentLength(p: scala.Function1[T, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  def indexWhere(p: scala.Function1[T, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  def lastIndexWhere(p: scala.Function1[T, scala.Boolean], end: scala.Int): scala.Int = { /* compiled code */ }
+  def reverse: Repr = { /* compiled code */ }
+  def reverseMap[S, That](f: scala.Function1[T, S])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, S, That]): That = { /* compiled code */ }
+  def startsWith[S](that: scala.collection.GenSeq[S], offset: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def sameElements[U >: T](that: scala.collection.GenIterable[U]): scala.Boolean = { /* compiled code */ }
+  def endsWith[S](that: scala.collection.GenSeq[S]): scala.Boolean = { /* compiled code */ }
+  def patch[U >: T, That](from: scala.Int, patch: scala.collection.GenSeq[U], replaced: scala.Int)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, U, That]): That = { /* compiled code */ }
+  def updated[U >: T, That](index: scala.Int, elem: U)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, U, That]): That = { /* compiled code */ }
+  def +:[U >: T, That](elem: U)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, U, That]): That = { /* compiled code */ }
+  def :+[U >: T, That](elem: U)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, U, That]): That = { /* compiled code */ }
+  def padTo[U >: T, That](len: scala.Int, elem: U)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, U, That]): That = { /* compiled code */ }
+  override def zip[U >: T, S, That](that: scala.collection.GenIterable[S])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[U, S], That]): That = { /* compiled code */ }
+  def corresponds[S](that: scala.collection.GenSeq[S])(p: scala.Function2[T, S, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def diff[U >: T](that: scala.collection.GenSeq[U]): Repr = { /* compiled code */ }
+  def intersect[U >: T](that: scala.collection.GenSeq[U]): Repr = { /* compiled code */ }
+  def distinct: Repr = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  override def toSeq: scala.collection.parallel.ParSeq[T] = { /* compiled code */ }
+  @scala.deprecated("use .seq.view")
+  override def view: scala.AnyRef with scala.collection.SeqView[T, Sequential] = { /* compiled code */ }
+  protected trait Accessor[R, Tp] extends scala.AnyRef with scala.collection.parallel.ParIterableLike.Accessor[R, Tp] {
+  }
+  protected trait Transformer[R, Tp] extends scala.AnyRef with scala.collection.parallel.ParSeqLike.Accessor[R, Tp] with scala.collection.parallel.ParIterableLike.Transformer[R, Tp] {
+  }
+}

@@ -1,0 +1,5 @@
+package scala.collection.generic
+abstract class SeqFactory[CC[X] <: scala.collection.Seq[X] with scala.collection.generic.GenericTraversableTemplate[X, CC]] extends scala.collection.generic.GenSeqFactory[CC] with scala.collection.generic.TraversableFactory[CC] {
+  def this() = { /* compiled code */ }
+  def unapplySeq[A](x: CC[A]): scala.Some[CC[A]] = { /* compiled code */ }
+}

@@ -1,0 +1,81 @@
+package scala.math
+final class BigInt extends scala.math.ScalaNumber with scala.math.ScalaNumericConversions with scala.Serializable {
+  val bigInteger: java.math.BigInteger = { /* compiled code */ }
+  def this(bigInteger: java.math.BigInteger) = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def isValidByte: scala.Boolean = { /* compiled code */ }
+  override def isValidShort: scala.Boolean = { /* compiled code */ }
+  override def isValidChar: scala.Boolean = { /* compiled code */ }
+  override def isValidInt: scala.Boolean = { /* compiled code */ }
+  def isValidLong: scala.Boolean = { /* compiled code */ }
+  def isValidFloat: scala.Boolean = { /* compiled code */ }
+  def isValidDouble: scala.Boolean = { /* compiled code */ }
+  def isWhole(): scala.Boolean = { /* compiled code */ }
+  def underlying(): java.math.BigInteger = { /* compiled code */ }
+  def equals(that: scala.math.BigInt): scala.Boolean = { /* compiled code */ }
+  def compare(that: scala.math.BigInt): scala.Int = { /* compiled code */ }
+  def <=(that: scala.math.BigInt): scala.Boolean = { /* compiled code */ }
+  def >=(that: scala.math.BigInt): scala.Boolean = { /* compiled code */ }
+  def <(that: scala.math.BigInt): scala.Boolean = { /* compiled code */ }
+  def >(that: scala.math.BigInt): scala.Boolean = { /* compiled code */ }
+  def +(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def -(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def *(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def /(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def %(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def /%(that: scala.math.BigInt): scala.Tuple2[scala.math.BigInt, scala.math.BigInt] = { /* compiled code */ }
+  def <<(n: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def >>(n: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def &(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def |(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def ^(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def &~(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def gcd(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def mod(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def min(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def max(that: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def pow(exp: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def modPow(exp: scala.math.BigInt, m: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def modInverse(m: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+  def unary_-: scala.math.BigInt = { /* compiled code */ }
+  def abs: scala.math.BigInt = { /* compiled code */ }
+  def signum: scala.Int = { /* compiled code */ }
+  def unary_~: scala.math.BigInt = { /* compiled code */ }
+  def testBit(n: scala.Int): scala.Boolean = { /* compiled code */ }
+  def setBit(n: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def clearBit(n: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def flipBit(n: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def lowestSetBit: scala.Int = { /* compiled code */ }
+  def bitLength: scala.Int = { /* compiled code */ }
+  def bitCount: scala.Int = { /* compiled code */ }
+  def isProbablePrime(certainty: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def byteValue(): scala.Byte = { /* compiled code */ }
+  override def shortValue(): scala.Short = { /* compiled code */ }
+  def charValue: scala.Char = { /* compiled code */ }
+  def intValue(): scala.Int = { /* compiled code */ }
+  def longValue(): scala.Long = { /* compiled code */ }
+  def floatValue(): scala.Float = { /* compiled code */ }
+  def doubleValue(): scala.Double = { /* compiled code */ }
+  def until(end: scala.math.BigInt, step: scala.math.BigInt): scala.collection.immutable.NumericRange.Exclusive[scala.BigInt] = { /* compiled code */ }
+  def to(end: scala.math.BigInt, step: scala.math.BigInt): scala.collection.immutable.NumericRange.Inclusive[scala.BigInt] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  def toString(radix: scala.Int): scala.Predef.String = { /* compiled code */ }
+  def toByteArray: scala.Array[scala.Byte] = { /* compiled code */ }
+}
+object BigInt extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def apply(i: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def apply(l: scala.Long): scala.math.BigInt = { /* compiled code */ }
+  def apply(x: scala.Array[scala.Byte]): scala.math.BigInt = { /* compiled code */ }
+  def apply(signum: scala.Int, magnitude: scala.Array[scala.Byte]): scala.math.BigInt = { /* compiled code */ }
+  def apply(bitlength: scala.Int, certainty: scala.Int, rnd: scala.util.Random): scala.math.BigInt = { /* compiled code */ }
+  def apply(numbits: scala.Int, rnd: scala.util.Random): scala.math.BigInt = { /* compiled code */ }
+  def apply(x: scala.Predef.String): scala.math.BigInt = { /* compiled code */ }
+  def apply(x: scala.Predef.String, radix: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  def apply(x: java.math.BigInteger): scala.math.BigInt = { /* compiled code */ }
+  def probablePrime(bitLength: scala.Int, rnd: scala.util.Random): scala.math.BigInt = { /* compiled code */ }
+  implicit def int2bigInt(i: scala.Int): scala.math.BigInt = { /* compiled code */ }
+  implicit def long2bigInt(l: scala.Long): scala.math.BigInt = { /* compiled code */ }
+  implicit def javaBigInteger2bigInt(x: java.math.BigInteger): scala.math.BigInt = { /* compiled code */ }
+}

@@ -1,0 +1,46 @@
+package scala.concurrent.duration
+final class FiniteDuration extends scala.concurrent.duration.Duration {
+  val length: scala.Long = { /* compiled code */ }
+  val unit: scala.concurrent.duration.TimeUnit = { /* compiled code */ }
+  def this(length: scala.Long, unit: scala.concurrent.duration.TimeUnit) = { /* compiled code */ }
+  def toNanos: scala.Long = { /* compiled code */ }
+  def toMicros: scala.Long = { /* compiled code */ }
+  def toMillis: scala.Long = { /* compiled code */ }
+  def toSeconds: scala.Long = { /* compiled code */ }
+  def toMinutes: scala.Long = { /* compiled code */ }
+  def toHours: scala.Long = { /* compiled code */ }
+  def toDays: scala.Long = { /* compiled code */ }
+  def toUnit(u: scala.concurrent.duration.TimeUnit): scala.Double = { /* compiled code */ }
+  def fromNow: scala.concurrent.duration.Deadline = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  def compare(other: scala.concurrent.duration.Duration): scala.Int = { /* compiled code */ }
+  def +(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def -(other: scala.concurrent.duration.Duration): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def *(factor: scala.Double): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def /(divisor: scala.Double): scala.concurrent.duration.Duration = { /* compiled code */ }
+  def /(divisor: scala.concurrent.duration.Duration): scala.Double = { /* compiled code */ }
+  def +(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def -(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def plus(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def minus(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def min(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def max(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def /(divisor: scala.Long): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def *(factor: scala.Long): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def div(divisor: scala.Long): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def mul(factor: scala.Long): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def unary_-: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  final def isFinite(): scala.Boolean = { /* compiled code */ }
+  final def toCoarsest: scala.concurrent.duration.Duration = { /* compiled code */ }
+  override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+}
+object FiniteDuration extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit object FiniteDurationIsOrdered extends java.lang.Object with scala.Ordering[scala.concurrent.duration.FiniteDuration] {
+    def this() = { /* compiled code */ }
+    def compare(a: scala.concurrent.duration.FiniteDuration, b: scala.concurrent.duration.FiniteDuration): scala.Int = { /* compiled code */ }
+  }
+  def apply(length: scala.Long, unit: scala.concurrent.duration.TimeUnit): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def apply(length: scala.Long, unit: scala.Predef.String): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+}

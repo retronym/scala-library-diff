@@ -1,0 +1,16 @@
+package scala.collection.mutable
+@scala.deprecated("Synchronization via selective overriding of methods is inherently unreliable.  Consider java.util.concurrent.ConcurrentLinkedQueue as an alternative.")
+class SynchronizedQueue[A] extends scala.collection.mutable.Queue[A] {
+  def this() = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def +=(elem: A): scala.collection.mutable.SynchronizedQueue.type = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.SynchronizedQueue.type = { /* compiled code */ }
+  override def enqueue(elems: A*): scala.Unit = { /* compiled code */ }
+  override def dequeue(): A = { /* compiled code */ }
+  override def dequeueFirst(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  override def dequeueAll(p: scala.Function1[A, scala.Boolean]): scala.collection.mutable.Seq[A] = { /* compiled code */ }
+  override def front: A = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

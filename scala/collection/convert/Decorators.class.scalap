@@ -1,0 +1,27 @@
+package scala.collection.convert
+private[collection] trait Decorators extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  class AsJava[A] extends scala.AnyRef {
+    def this(op: => A) = { /* compiled code */ }
+    def asJava: A = { /* compiled code */ }
+  }
+  class AsScala[A] extends scala.AnyRef {
+    def this(op: => A) = { /* compiled code */ }
+    def asScala: A = { /* compiled code */ }
+  }
+  class AsJavaCollection[A] extends scala.AnyRef {
+    def this(i: scala.collection.Iterable[A]) = { /* compiled code */ }
+    def asJavaCollection: java.util.Collection[A] = { /* compiled code */ }
+  }
+  class AsJavaEnumeration[A] extends scala.AnyRef {
+    def this(i: scala.collection.Iterator[A]) = { /* compiled code */ }
+    def asJavaEnumeration: java.util.Enumeration[A] = { /* compiled code */ }
+  }
+  class AsJavaDictionary[A, B] extends scala.AnyRef {
+    def this(m: scala.collection.mutable.Map[A, B]) = { /* compiled code */ }
+    def asJavaDictionary: java.util.Dictionary[A, B] = { /* compiled code */ }
+  }
+}
+private[collection] object Decorators extends scala.AnyRef with scala.collection.convert.Decorators {
+  def this() = { /* compiled code */ }
+}

@@ -1,0 +1,6 @@
+package scala.concurrent
+class SyncChannel[A] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def write(data: A): scala.Unit = { /* compiled code */ }
+  def read: A = { /* compiled code */ }
+}

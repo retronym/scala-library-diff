@@ -1,0 +1,4 @@
+package scala.collection.mutable
+trait Subscriber[-Evt, -Pub] extends scala.AnyRef {
+  def notify(pub: Pub, event: Evt): scala.Unit
+}

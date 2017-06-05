@@ -1,0 +1,7 @@
+package scala.collection.parallel.mutable
+private[mutable] class ExposedArrayBuffer[T] extends scala.collection.mutable.ArrayBuffer[T] with scala.collection.generic.Sizing {
+  def this() = { /* compiled code */ }
+  def internalArray: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  def setInternalSize(s: scala.Int): scala.Unit = { /* compiled code */ }
+  override def sizeHint(len: scala.Int): scala.Unit = { /* compiled code */ }
+}

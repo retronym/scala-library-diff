@@ -1,0 +1,4 @@
+package scala
+final class UninitializedError extends scala.RuntimeException {
+  def this() = { /* compiled code */ }
+}

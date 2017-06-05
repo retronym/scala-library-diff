@@ -1,0 +1,6 @@
+package scala.runtime
+@scala.deprecated("Use Throwable#getStackTrace")
+final class RichException extends scala.AnyRef {
+  def this(exc: scala.Throwable) = { /* compiled code */ }
+  def getStackTraceString: scala.Predef.String = { /* compiled code */ }
+}

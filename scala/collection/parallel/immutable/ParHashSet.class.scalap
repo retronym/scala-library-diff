@@ -1,0 +1,33 @@
+package scala.collection.parallel.immutable
+@scala.SerialVersionUID { val value = 1None }
+class ParHashSet[T] extends scala.AnyRef with scala.collection.parallel.immutable.ParSet[T] with scala.collection.generic.GenericParTemplate[T, scala.collection.parallel.immutable.ParHashSet] with scala.collection.parallel.ParSetLike[T, scala.collection.parallel.immutable.ParHashSet[T], scala.collection.immutable.HashSet[T]] with scala.Serializable {
+ this: scala.collection.parallel.immutable.ParHashSet[T] =>
+  private[immutable] def this(trie: scala.collection.immutable.HashSet[T]) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.parallel.immutable.ParHashSet] with scala.collection.generic.GenericParCompanion[scala.collection.parallel.immutable.ParHashSet] = { /* compiled code */ }
+  override def empty: scala.collection.parallel.immutable.ParHashSet[T] = { /* compiled code */ }
+  def splitter: scala.collection.parallel.IterableSplitter[T] = { /* compiled code */ }
+  override def seq: scala.collection.immutable.HashSet[T] = { /* compiled code */ }
+  def -(e: T): scala.collection.parallel.immutable.ParHashSet[T] = { /* compiled code */ }
+  def +(e: T): scala.collection.parallel.immutable.ParHashSet[T] = { /* compiled code */ }
+  def contains(e: T): scala.Boolean = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  protected override def reuse[S, That](oldc: scala.Option[scala.collection.parallel.Combiner[S, That]], newc: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  class ParHashSetIterator extends scala.AnyRef with scala.collection.parallel.IterableSplitter[T] {
+    var triter: scala.Iterator[T] = { /* compiled code */ }
+    val sz: scala.Int = { /* compiled code */ }
+    def this(triter: scala.Iterator[T], sz: scala.Int) = { /* compiled code */ }
+    var i: scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[T] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[T]] = { /* compiled code */ }
+    def next(): T = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+  }
+}
+object ParHashSet extends scala.collection.generic.ParSetFactory[scala.collection.parallel.immutable.ParHashSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def newCombiner[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.immutable.ParHashSet[T]] = { /* compiled code */ }
+  implicit def canBuildFrom[T]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenericCompanion.Coll, T, scala.collection.parallel.immutable.ParHashSet[T]] = { /* compiled code */ }
+  def fromTrie[T](t: scala.collection.immutable.HashSet[T]): scala.collection.parallel.immutable.ParHashSet[T] = { /* compiled code */ }
+}

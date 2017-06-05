@@ -1,0 +1,4 @@
+package scala.collection.concurrent
+private[concurrent] trait KVNode[K, V] extends scala.AnyRef {
+  def kvPair: scala.Tuple2[K, V]
+}

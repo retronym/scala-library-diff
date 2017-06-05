@@ -1,0 +1,11 @@
+package scala.collection
+trait Iterable[+A] extends scala.AnyRef with scala.collection.Traversable[A] with scala.collection.GenIterable[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.Iterable] with scala.collection.IterableLike[A, scala.collection.Iterable[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.Iterable] = { /* compiled code */ }
+  override def seq: scala.collection.Iterable[A] = { /* compiled code */ }
+}
+object Iterable extends scala.collection.generic.GenTraversableFactory[scala.collection.Iterable] with scala.collection.generic.TraversableFactory[scala.collection.Iterable] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.Iterable[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.Iterable[A]] = { /* compiled code */ }
+}

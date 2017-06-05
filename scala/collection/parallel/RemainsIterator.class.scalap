@@ -1,0 +1,6 @@
+package scala.collection.parallel
+private[collection] trait RemainsIterator[+T] extends scala.AnyRef with scala.Iterator[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def remaining: scala.Int
+  def isRemainingCheap: scala.Boolean = { /* compiled code */ }
+}

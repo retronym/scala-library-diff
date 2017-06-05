@@ -1,0 +1,17 @@
+package scala.io
+class BufferedSource extends scala.io.Source {
+  implicit val codec: scala.io.Codec = { /* compiled code */ }
+  def this(inputStream: java.io.InputStream, bufferSize: scala.Int)(implicit codec: scala.io.Codec) = { /* compiled code */ }
+  def this(inputStream: java.io.InputStream)(implicit codec: scala.io.Codec) = { /* compiled code */ }
+  def reader(): java.io.InputStreamReader = { /* compiled code */ }
+  def bufferedReader(): java.io.BufferedReader = { /* compiled code */ }
+  override val iter: scala.collection.Iterator[scala.Char] = { /* compiled code */ }
+  class BufferedLineIterator extends scala.collection.AbstractIterator[scala.Predef.String] with scala.collection.Iterator[scala.Predef.String] {
+    def this() = { /* compiled code */ }
+    var nextLine: scala.Predef.String = { /* compiled code */ }
+    override def hasNext: scala.Boolean = { /* compiled code */ }
+    override def next(): scala.Predef.String = { /* compiled code */ }
+  }
+  override def getLines(): scala.collection.Iterator[scala.Predef.String] = { /* compiled code */ }
+  override def mkString: scala.Predef.String = { /* compiled code */ }
+}

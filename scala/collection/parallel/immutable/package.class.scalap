@@ -1,0 +1,5 @@
+package scala.collection.parallel
+package object immutable extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def repetition[T](elem: T, len: scala.Int): scala.collection.parallel.immutable.Repetition[T] = { /* compiled code */ }
+}

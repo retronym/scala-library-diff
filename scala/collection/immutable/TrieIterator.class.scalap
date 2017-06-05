@@ -1,0 +1,26 @@
+package scala.collection.immutable
+private[collection] abstract class TrieIterator[+T] extends scala.collection.AbstractIterator[T] {
+ this: scala.collection.immutable.TrieIterator[T] =>
+  def this(elems: scala.Array[scala.collection.immutable.Iterable[T]]) = { /* compiled code */ }
+  private[immutable] def getElem(x: scala.AnyRef): T
+  def initDepth: scala.Int = { /* compiled code */ }
+  def initArrayStack: scala.Array[scala.Array[scala.collection.immutable.Iterable[T]]] = { /* compiled code */ }
+  def initPosStack: scala.Array[scala.Int] = { /* compiled code */ }
+  def initArrayD: scala.Array[scala.collection.immutable.Iterable[T]] = { /* compiled code */ }
+  def initPosD: scala.Int = { /* compiled code */ }
+  def initSubIter: scala.collection.Iterator[T] = { /* compiled code */ }
+  final class DupIterator extends scala.collection.immutable.TrieIterator[T] {
+    override val initDepth: scala.Int = { /* compiled code */ }
+    override val initArrayStack: scala.Array[scala.Array[scala.collection.immutable.Iterable[T]]] = { /* compiled code */ }
+    override val initPosStack: scala.Array[scala.Int] = { /* compiled code */ }
+    override val initArrayD: scala.Array[scala.collection.immutable.Iterable[T]] = { /* compiled code */ }
+    override val initPosD: scala.Int = { /* compiled code */ }
+    override val initSubIter: scala.collection.Iterator[T] = { /* compiled code */ }
+    def this(xs: scala.Array[scala.collection.immutable.Iterable[T]]) = { /* compiled code */ }
+    final override def getElem(x: scala.AnyRef): T = { /* compiled code */ }
+  }
+  def dupIterator: scala.collection.immutable.TrieIterator[T] = { /* compiled code */ }
+  def hasNext: scala.Boolean = { /* compiled code */ }
+  def next(): T = { /* compiled code */ }
+  def split: SplitIterators = { /* compiled code */ }
+}

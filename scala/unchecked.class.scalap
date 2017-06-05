@@ -1,0 +1,4 @@
+package scala
+class unchecked extends scala.annotation.Annotation {
+  def this() = { /* compiled code */ }
+}

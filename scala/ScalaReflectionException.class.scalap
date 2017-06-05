@@ -1,0 +1,18 @@
+package scala
+case class ScalaReflectionException(msg: scala.Predef.String) extends scala.Exception with scala.Product with scala.Serializable {
+  val msg: scala.Predef.String = { /* compiled code */ }
+  def copy(msg: scala.Predef.String): scala.ScalaReflectionException = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object ScalaReflectionException extends scala.runtime.AbstractFunction1[scala.Predef.String, scala.ScalaReflectionException] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply(msg: scala.Predef.String): scala.ScalaReflectionException = { /* compiled code */ }
+  def unapply(x$0: scala.ScalaReflectionException): scala.Option[scala.Predef.String] = { /* compiled code */ }
+}

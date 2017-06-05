@@ -1,0 +1,3 @@
+package scala.collection
+trait IterableProxy[+A] extends scala.AnyRef with scala.collection.Iterable[A] with scala.collection.IterableProxyLike[A, scala.collection.Iterable[A]] {
+}

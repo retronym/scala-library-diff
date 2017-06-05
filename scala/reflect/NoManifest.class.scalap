@@ -1,0 +1,5 @@
+package scala.reflect
+object NoManifest extends scala.AnyRef with scala.reflect.OptManifest[scala.Nothing] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}

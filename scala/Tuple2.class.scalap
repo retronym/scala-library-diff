@@ -1,0 +1,22 @@
+package scala
+@scala.deprecatedInheritance("Tuples will be made final in a future version.")
+case class Tuple2[@scala.specialized +T1, @scala.specialized +T2](_1: T1, _2: T2) extends scala.AnyRef with scala.Product2[T1, T2] with scala.Product with scala.Serializable {
+  @scala.specialized
+  @scala.specialized
+  val _1: T1 = { /* compiled code */ }
+  val _2: T2 = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  def swap: scala.Tuple2[T2, T1] = { /* compiled code */ }
+  def copy[@scala.specialized T1, @scala.specialized T2](_1: T1, _2: T2): scala.Tuple2[T1, T2] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Tuple2 extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[@scala.specialized T1, @scala.specialized T2](_1: T1, _2: T2): scala.Tuple2[T1, T2] = { /* compiled code */ }
+  def unapply[@scala.specialized T1, @scala.specialized T2](x$0: scala.Tuple2[T1, T2]): scala.Option[scala.Tuple2[T1, T2]] = { /* compiled code */ }
+}

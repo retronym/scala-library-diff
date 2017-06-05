@@ -1,0 +1,48 @@
+package scala.collection.immutable
+sealed abstract class List[+A] extends scala.collection.AbstractSeq[A] with scala.collection.immutable.LinearSeq[A] with scala.Product with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.immutable.List] with scala.collection.LinearSeqOptimized[A, scala.collection.immutable.List[A]] with java.io.Serializable {
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.List] = { /* compiled code */ }
+  def isEmpty: scala.Boolean
+  def head: A
+  def tail: scala.collection.immutable.List[A]
+  def ::[B >: A](x: B): scala.collection.immutable.List[B] = { /* compiled code */ }
+  def :::[B >: A](prefix: scala.collection.immutable.List[B]): scala.collection.immutable.List[B] = { /* compiled code */ }
+  def reverse_:::[B >: A](prefix: scala.collection.immutable.List[B]): scala.collection.immutable.List[B] = { /* compiled code */ }
+  @scala.inline
+  final def mapConserve[B >: A <: scala.AnyRef](f: scala.Function1[A, B]): scala.collection.immutable.List[B] = { /* compiled code */ }
+  override def ++[B >: A, That](that: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.List[A], B, That]): That = { /* compiled code */ }
+  override def +:[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.List[A], B, That]): That = { /* compiled code */ }
+  override def toList: scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def take(n: scala.Int): scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def drop(n: scala.Int): scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def takeRight(n: scala.Int): scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[scala.collection.immutable.List[A], scala.collection.immutable.List[A]] = { /* compiled code */ }
+  @scala.noinline
+  final override def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.List[A], B, That]): That = { /* compiled code */ }
+  @scala.noinline
+  final override def collect[B, That](pf: scala.PartialFunction[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.List[A], B, That]): That = { /* compiled code */ }
+  @scala.noinline
+  final override def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.List[A], B, That]): That = { /* compiled code */ }
+  @scala.inline
+  final override def takeWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.List[A] = { /* compiled code */ }
+  @scala.inline
+  final override def dropWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.List[A] = { /* compiled code */ }
+  @scala.inline
+  final override def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[scala.collection.immutable.List[A], scala.collection.immutable.List[A]] = { /* compiled code */ }
+  @scala.inline
+  final override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def reverse: scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def foldRight[B](z: B)(op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  override def toStream: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  protected final def writeReplace(): scala.AnyRef = { /* compiled code */ }
+}
+object List extends scala.collection.generic.SeqFactory[scala.collection.immutable.List] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.List[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.immutable.List[A]] = { /* compiled code */ }
+  override def empty[A]: scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def apply[A](xs: A*): scala.collection.immutable.List[A] = { /* compiled code */ }
+  private[collection] val partialNotApplied: scala.AnyRef with scala.Function1[scala.Any, scala.Any] = { /* compiled code */ }
+}

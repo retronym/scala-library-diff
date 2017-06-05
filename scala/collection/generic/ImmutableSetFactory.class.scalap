@@ -1,0 +1,7 @@
+package scala.collection.generic
+abstract class ImmutableSetFactory[CC[X] <: scala.collection.immutable.Set[X] with scala.collection.SetLike[X, CC[X]]] extends scala.collection.generic.SetFactory[CC] {
+  def this() = { /* compiled code */ }
+  private[collection] def emptyInstance: CC[scala.Any]
+  override def empty[A]: CC[A] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+}

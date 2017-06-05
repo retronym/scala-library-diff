@@ -1,0 +1,22 @@
+package scala.collection
+trait SetLike[A, +This <: scala.collection.SetLike[A, This] with scala.collection.Set[A]] extends scala.AnyRef with scala.collection.IterableLike[A, This] with scala.collection.GenSetLike[A, This] with scala.collection.generic.Subtractable[A, This] with scala.collection.Parallelizable[A, scala.collection.parallel.ParSet[A]] {
+ this: scala.collection.SetLike[A, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: This
+  override def toSeq: scala.collection.Seq[A] = { /* compiled code */ }
+  override def toBuffer[A1 >: A]: scala.collection.mutable.Buffer[A1] = { /* compiled code */ }
+  @scala.annotation.migration("Set.map now returns a Set, so it will discard duplicate values.")
+  override def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[This, B, That]): That = { /* compiled code */ }
+  def contains(elem: A): scala.Boolean
+  def +(elem: A): This
+  def +(elem1: A, elem2: A, elems: A*): This = { /* compiled code */ }
+  def ++(elems: scala.collection.GenTraversableOnce[A]): This = { /* compiled code */ }
+  def -(elem: A): This
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  def union(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  def diff(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  def subsets(len: scala.Int): scala.collection.Iterator[This] = { /* compiled code */ }
+  def subsets: scala.collection.Iterator[This] = { /* compiled code */ }
+  override def stringPrefix: scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

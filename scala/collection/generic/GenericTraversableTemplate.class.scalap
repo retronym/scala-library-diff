@@ -1,0 +1,14 @@
+package scala.collection.generic
+trait GenericTraversableTemplate[+A, +CC[X] <: scala.collection.GenTraversable[X]] extends scala.AnyRef with scala.collection.generic.HasNewBuilder[A, CC[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def foreach[U](f: scala.Function1[A, U]): scala.Unit
+  def head: A
+  def isEmpty: scala.Boolean
+  def companion: scala.collection.generic.GenericCompanion[CC]
+  def genericBuilder[B]: scala.collection.mutable.Builder[B, CC[B]] = { /* compiled code */ }
+  def unzip[A1, A2](implicit asPair: scala.Function1[A, scala.Tuple2[A1, A2]]): scala.Tuple2[CC[A1], CC[A2]] = { /* compiled code */ }
+  def unzip3[A1, A2, A3](implicit asTriple: scala.Function1[A, scala.Tuple3[A1, A2, A3]]): scala.Tuple3[CC[A1], CC[A2], CC[A3]] = { /* compiled code */ }
+  def flatten[B](implicit asTraversable: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): CC[B] = { /* compiled code */ }
+  @scala.annotation.migration("`transpose` throws an `IllegalArgumentException` if collections are not uniformly sized.")
+  def transpose[B](implicit asTraversable: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): CC[CC[B]] = { /* compiled code */ }
+}

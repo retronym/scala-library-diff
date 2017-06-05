@@ -1,0 +1,19 @@
+package scala.collection
+trait GenSetLike[A, +Repr] extends scala.AnyRef with scala.collection.GenIterableLike[A, Repr] with scala.Function1[A, scala.Boolean] with scala.Equals with scala.collection.Parallelizable[A, scala.collection.parallel.ParSet[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A]
+  def contains(elem: A): scala.Boolean
+  def +(elem: A): Repr
+  def -(elem: A): Repr
+  def seq: scala.collection.Set[A]
+  def apply(elem: A): scala.Boolean = { /* compiled code */ }
+  def intersect(that: scala.collection.GenSet[A]): Repr = { /* compiled code */ }
+  def &(that: scala.collection.GenSet[A]): Repr = { /* compiled code */ }
+  def union(that: scala.collection.GenSet[A]): Repr
+  def |(that: scala.collection.GenSet[A]): Repr = { /* compiled code */ }
+  def diff(that: scala.collection.GenSet[A]): Repr
+  def &~(that: scala.collection.GenSet[A]): Repr = { /* compiled code */ }
+  def subsetOf(that: scala.collection.GenSet[A]): scala.Boolean = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+}

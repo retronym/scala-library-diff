@@ -1,0 +1,19 @@
+package scala.collection.parallel
+@scala.deprecated("This class will be removed.")
+final case class CompositeThrowable(throwables: scala.collection.Set[scala.Throwable]) extends scala.Exception with scala.Product with scala.Serializable {
+  val throwables: scala.collection.Set[scala.Throwable] = { /* compiled code */ }
+  def copy(throwables: scala.collection.Set[scala.Throwable]): scala.collection.parallel.CompositeThrowable = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object CompositeThrowable extends scala.runtime.AbstractFunction1[scala.collection.Set[scala.Throwable], scala.collection.parallel.CompositeThrowable] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply(throwables: scala.collection.Set[scala.Throwable]): scala.collection.parallel.CompositeThrowable = { /* compiled code */ }
+  def unapply(x$0: scala.collection.parallel.CompositeThrowable): scala.Option[scala.collection.Set[scala.Throwable]] = { /* compiled code */ }
+}

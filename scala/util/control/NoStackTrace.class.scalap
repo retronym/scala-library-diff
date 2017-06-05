@@ -1,0 +1,9 @@
+package scala.util.control
+trait NoStackTrace extends scala.Throwable {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def fillInStackTrace(): scala.Throwable = { /* compiled code */ }
+}
+object NoStackTrace extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final def noSuppression: scala.Boolean = { /* compiled code */ }
+}

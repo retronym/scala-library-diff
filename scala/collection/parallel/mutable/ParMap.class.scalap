@@ -1,0 +1,30 @@
+package scala.collection.parallel.mutable
+trait ParMap[K, V] extends scala.AnyRef with scala.collection.GenMap[K, V] with scala.collection.parallel.ParMap[K, V] with scala.collection.parallel.mutable.ParIterable[scala.Tuple2[K, V]] with scala.collection.generic.GenericParMapTemplate[K, V, scala.collection.parallel.mutable.ParMap] with scala.collection.parallel.mutable.ParMapLike[K, V, scala.collection.parallel.mutable.ParMap[K, V], scala.collection.mutable.Map[K, V]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def mapCompanion: scala.collection.generic.GenericParMapCompanion[scala.collection.parallel.mutable.ParMap] = { /* compiled code */ }
+  override def empty: scala.collection.parallel.mutable.ParMap[K, V] = { /* compiled code */ }
+  def seq: scala.collection.mutable.Map[K, V]
+  override def updated[U >: V](key: K, value: U): scala.collection.parallel.mutable.ParMap[K, U] = { /* compiled code */ }
+  def withDefault(d: scala.Function1[K, V]): scala.collection.parallel.mutable.ParMap[K, V] = { /* compiled code */ }
+  def withDefaultValue(d: V): scala.collection.parallel.mutable.ParMap[K, V] = { /* compiled code */ }
+}
+object ParMap extends scala.collection.generic.ParMapFactory[scala.collection.parallel.mutable.ParMap] {
+  def this() = { /* compiled code */ }
+  def empty[K, V]: scala.collection.parallel.mutable.ParMap[K, V] = { /* compiled code */ }
+  def newCombiner[K, V]: scala.collection.parallel.Combiner[scala.Tuple2[K, V], scala.collection.parallel.mutable.ParMap[K, V]] = { /* compiled code */ }
+  implicit def canBuildFrom[K, V]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[K, V], scala.collection.parallel.mutable.ParMap[K, V]] = { /* compiled code */ }
+  class WithDefault[K, V] extends scala.collection.parallel.ParMap.WithDefault[K, V] with scala.collection.parallel.mutable.ParMap[K, V] {
+    def this(underlying: scala.collection.parallel.mutable.ParMap[K, V], d: scala.Function1[K, V]) = { /* compiled code */ }
+    override def +=(kv: scala.Tuple2[K, V]): scala.collection.parallel.mutable.ParMap.WithDefault.type = { /* compiled code */ }
+    def -=(key: K): scala.collection.parallel.mutable.ParMap.WithDefault.type = { /* compiled code */ }
+    override def empty: scala.collection.parallel.mutable.ParMap.WithDefault[K, V] = { /* compiled code */ }
+    override def updated[U >: V](key: K, value: U): scala.collection.parallel.mutable.ParMap.WithDefault[K, U] = { /* compiled code */ }
+    override def +[U >: V](kv: scala.Tuple2[K, U]): scala.collection.parallel.mutable.ParMap.WithDefault[K, U] = { /* compiled code */ }
+    override def -(key: K): scala.collection.parallel.mutable.ParMap.WithDefault[K, V] = { /* compiled code */ }
+    override def seq: scala.collection.mutable.Map[K, V] = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def put(key: K, value: V): scala.Option[V] = { /* compiled code */ }
+    override def withDefault(d: scala.Function1[K, V]): scala.collection.parallel.mutable.ParMap[K, V] = { /* compiled code */ }
+    override def withDefaultValue(d: V): scala.collection.parallel.mutable.ParMap[K, V] = { /* compiled code */ }
+  }
+}

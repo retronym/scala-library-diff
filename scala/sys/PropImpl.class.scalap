@@ -1,0 +1,16 @@
+package scala.sys
+private[sys] class PropImpl[+T] extends scala.AnyRef with scala.sys.Prop[T] {
+  val key: scala.Predef.String = { /* compiled code */ }
+  def this(key: scala.Predef.String, valueFn: scala.Function1[scala.Predef.String, T]) = { /* compiled code */ }
+  def value: T = { /* compiled code */ }
+  def isSet: scala.Boolean = { /* compiled code */ }
+  def set(newValue: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def setValue[T1 >: T](newValue: T1): T = { /* compiled code */ }
+  def get: scala.Predef.String = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def option: scala.Option[T] = { /* compiled code */ }
+  def or[T1 >: T](alt: => T1): T1 = { /* compiled code */ }
+  protected def underlying: scala.collection.mutable.Map[scala.Predef.String, scala.Predef.String] = { /* compiled code */ }
+  protected def zero: T = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

@@ -1,0 +1,7 @@
+package scala.collection.mutable
+trait SeqLike[A, +This <: scala.collection.mutable.SeqLike[A, This] with scala.collection.mutable.Seq[A]] extends scala.AnyRef with scala.collection.SeqLike[A, This] with scala.collection.mutable.Cloneable[This] with scala.collection.Parallelizable[A, scala.collection.parallel.mutable.ParSeq[A]] {
+ this: scala.collection.mutable.SeqLike[A, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def update(idx: scala.Int, elem: A): scala.Unit
+  def transform(f: scala.Function1[A, A]): scala.collection.mutable.SeqLike.type = { /* compiled code */ }
+}

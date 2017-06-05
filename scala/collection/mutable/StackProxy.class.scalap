@@ -1,0 +1,19 @@
+package scala.collection.mutable
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait StackProxy[A] extends scala.collection.mutable.Stack[A] with scala.Proxy {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def self: scala.collection.mutable.Stack[A]
+  override def apply(n: scala.Int): A = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.StackProxy.type = { /* compiled code */ }
+  override def pushAll(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.StackProxy.type = { /* compiled code */ }
+  override def push(elem1: A, elem2: A, elems: A*): scala.collection.mutable.StackProxy.type = { /* compiled code */ }
+  override def push(elem: A): scala.collection.mutable.StackProxy.type = { /* compiled code */ }
+  override def top: A = { /* compiled code */ }
+  override def pop(): A = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def toList: scala.List[A] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.Stack[A] = { /* compiled code */ }
+}

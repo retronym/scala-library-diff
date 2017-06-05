@@ -1,0 +1,45 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The implementation details of immutable tree sets make inheriting from them unwise.")
+@scala.SerialVersionUID { val value = -5685982407650748405None }
+class TreeSet[A] extends scala.AnyRef with scala.collection.immutable.SortedSet[A] with scala.collection.SortedSetLike[A, scala.collection.immutable.TreeSet[A]] with scala.Serializable {
+  implicit val ordering: scala.Ordering[A] = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def headOption: scala.Option[A] = { /* compiled code */ }
+  override def last: A = { /* compiled code */ }
+  override def lastOption: scala.Option[A] = { /* compiled code */ }
+  override def tail: scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def init: scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def drop(n: scala.Int): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def take(n: scala.Int): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def dropRight(n: scala.Int): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def takeRight(n: scala.Int): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[scala.collection.immutable.TreeSet[A], scala.collection.immutable.TreeSet[A]] = { /* compiled code */ }
+  override def dropWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[scala.collection.immutable.TreeSet[A], scala.collection.immutable.TreeSet[A]] = { /* compiled code */ }
+  def this()(implicit ordering: scala.Ordering[A]) = { /* compiled code */ }
+  override def empty: scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  def +(elem: A): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  def insert(elem: A): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  def -(elem: A): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def keysIteratorFrom(start: A): scala.collection.Iterator[A] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def rangeImpl(from: scala.Option[A], until: scala.Option[A]): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def range(from: A, until: A): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def from(from: A): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def to(to: A): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def until(until: A): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+  override def firstKey: A = { /* compiled code */ }
+  override def lastKey: A = { /* compiled code */ }
+}
+object TreeSet extends scala.collection.generic.ImmutableSortedSetFactory[scala.collection.immutable.TreeSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def implicitBuilder[A](implicit ordering: scala.Ordering[A]): scala.collection.mutable.Builder[A, scala.collection.immutable.TreeSet[A]] = { /* compiled code */ }
+  override def newBuilder[A](implicit ordering: scala.Ordering[A]): scala.collection.mutable.Builder[A, scala.collection.immutable.TreeSet[A]] = { /* compiled code */ }
+  def empty[A](implicit ordering: scala.Ordering[A]): scala.collection.immutable.TreeSet[A] = { /* compiled code */ }
+}

@@ -1,0 +1,8 @@
+package scala
+trait Product extends scala.Any with scala.Equals {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def productElement(n: scala.Int): scala.Any
+  def productArity: scala.Int
+  def productIterator: scala.Iterator[scala.Any] = { /* compiled code */ }
+  def productPrefix: java.lang.String = { /* compiled code */ }
+}

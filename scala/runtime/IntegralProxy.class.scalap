@@ -1,0 +1,10 @@
+package scala.runtime
+trait IntegralProxy[T] extends scala.Any with scala.runtime.ScalaWholeNumberProxy[T] with scala.runtime.RangedProxy[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected implicit def num: scala.Integral[T]
+  type ResultWithoutStep = scala.collection.immutable.NumericRange[T]
+  def until(end: T): scala.collection.immutable.NumericRange.Exclusive[T] = { /* compiled code */ }
+  def until(end: T, step: T): scala.collection.immutable.NumericRange.Exclusive[T] = { /* compiled code */ }
+  def to(end: T): scala.collection.immutable.NumericRange.Inclusive[T] = { /* compiled code */ }
+  def to(end: T, step: T): scala.collection.immutable.NumericRange.Inclusive[T] = { /* compiled code */ }
+}

@@ -1,0 +1,4 @@
+package scala.collection.concurrent
+private[concurrent] object RestartException extends scala.Throwable with scala.util.control.ControlThrowable {
+  def this() = { /* compiled code */ }
+}

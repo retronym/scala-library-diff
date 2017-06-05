@@ -1,0 +1,4 @@
+package scala.collection.mutable
+abstract class AbstractIterable[A] extends scala.collection.AbstractIterable[A] with scala.collection.mutable.Iterable[A] {
+  def this() = { /* compiled code */ }
+}

@@ -1,0 +1,12 @@
+package scala.collection.generic
+private[collection] class SliceInterval extends scala.AnyRef {
+  val from: scala.Int = { /* compiled code */ }
+  val until: scala.Int = { /* compiled code */ }
+  def width: scala.Int = { /* compiled code */ }
+  def recalculate(_from: scala.Int, _until: scala.Int): scala.collection.generic.SliceInterval = { /* compiled code */ }
+  def recalculate(interval: scala.collection.generic.SliceInterval): scala.collection.generic.SliceInterval = { /* compiled code */ }
+}
+object SliceInterval extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply(from: scala.Int, until: scala.Int): scala.collection.generic.SliceInterval = { /* compiled code */ }
+}

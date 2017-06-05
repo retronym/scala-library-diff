@@ -1,0 +1,3 @@
+package scala.reflect
+trait OptManifest[+T] extends scala.AnyRef with scala.Serializable {
+}

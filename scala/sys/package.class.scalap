@@ -1,0 +1,12 @@
+package scala
+package object sys extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def error(message: scala.Predef.String): scala.Nothing = { /* compiled code */ }
+  def exit(): scala.Nothing = { /* compiled code */ }
+  def exit(status: scala.Int): scala.Nothing = { /* compiled code */ }
+  def runtime: java.lang.Runtime = { /* compiled code */ }
+  def props: scala.sys.SystemProperties = { /* compiled code */ }
+  def env: scala.collection.immutable.Map[scala.Predef.String, scala.Predef.String] = { /* compiled code */ }
+  def addShutdownHook(body: => scala.Unit): scala.sys.ShutdownHookThread = { /* compiled code */ }
+  def allThreads(): scala.IndexedSeq[java.lang.Thread] = { /* compiled code */ }
+}

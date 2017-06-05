@@ -1,0 +1,8 @@
+package scala.runtime
+trait ZippedTraversable3[+El1, +El2, +El3] extends scala.Any {
+  def foreach[U](f: scala.Function3[El1, El2, El3, U]): scala.Unit
+}
+object ZippedTraversable3 extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def zippedTraversable3ToTraversable[El1, El2, El3](zz: scala.runtime.ZippedTraversable3[El1, El2, El3]): scala.Traversable[scala.Tuple3[El1, El2, El3]] = { /* compiled code */ }
+}

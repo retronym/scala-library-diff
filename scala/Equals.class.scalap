@@ -1,0 +1,5 @@
+package scala
+trait Equals extends scala.Any {
+  def canEqual(that: scala.Any): scala.Boolean
+  def equals(that: scala.Any): scala.Boolean
+}

@@ -1,0 +1,11 @@
+package scala.collection.mutable
+trait LinearSeq[A] extends scala.AnyRef with scala.collection.mutable.Seq[A] with scala.collection.LinearSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.LinearSeq] with scala.collection.LinearSeqLike[A, scala.collection.mutable.LinearSeq[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.LinearSeq] = { /* compiled code */ }
+  override def seq: scala.collection.mutable.LinearSeq[A] = { /* compiled code */ }
+}
+object LinearSeq extends scala.collection.generic.SeqFactory[scala.collection.mutable.LinearSeq] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.LinearSeq[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.LinearSeq[A]] = { /* compiled code */ }
+}

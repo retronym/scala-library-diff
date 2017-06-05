@@ -1,0 +1,4 @@
+package scala.annotation
+private[scala] final class migration extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(message: scala.Predef.String, changedIn: scala.Predef.String) = { /* compiled code */ }
+}

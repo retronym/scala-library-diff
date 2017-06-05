@@ -1,0 +1,6 @@
+package scala.runtime
+trait OrderedProxy[T] extends scala.Any with scala.Ordered[T] with scala.Proxy.Typed[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def ord: scala.Ordering[T]
+  def compare(y: T): scala.Int = { /* compiled code */ }
+}

@@ -1,0 +1,70 @@
+package scala.util.control
+object TailCalls extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  abstract class TailRec[+A] extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def map[B](f: scala.Function1[A, B]): scala.util.control.TailCalls.TailRec[B] = { /* compiled code */ }
+    final def flatMap[B](f: scala.Function1[A, scala.util.control.TailCalls.TailRec[B]]): scala.util.control.TailCalls.TailRec[B] = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def resume: scala.Either[scala.Function0[scala.util.control.TailCalls.TailRec[A]], A] = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def result: A = { /* compiled code */ }
+  }
+  protected case class Call[A](rest: scala.Function0[scala.util.control.TailCalls.TailRec[A]]) extends scala.util.control.TailCalls.TailRec[A] with scala.Product with scala.Serializable {
+    val rest: scala.Function0[scala.util.control.TailCalls.TailRec[A]] = { /* compiled code */ }
+    def copy[A](rest: scala.Function0[scala.util.control.TailCalls.TailRec[A]]): scala.util.control.TailCalls.Call[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  protected object Call extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](rest: scala.Function0[scala.util.control.TailCalls.TailRec[A]]): scala.util.control.TailCalls.Call[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.util.control.TailCalls.Call[A]): scala.Option[scala.Function0[scala.util.control.TailCalls.TailRec[A]]] = { /* compiled code */ }
+  }
+  protected case class Done[A](value: A) extends scala.util.control.TailCalls.TailRec[A] with scala.Product with scala.Serializable {
+    val value: A = { /* compiled code */ }
+    def copy[A](value: A): scala.util.control.TailCalls.Done[A] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  protected object Done extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A](value: A): scala.util.control.TailCalls.Done[A] = { /* compiled code */ }
+    def unapply[A](x$0: scala.util.control.TailCalls.Done[A]): scala.Option[A] = { /* compiled code */ }
+  }
+  protected case class Cont[A, B](a: scala.util.control.TailCalls.TailRec[A], f: scala.Function1[A, scala.util.control.TailCalls.TailRec[B]]) extends scala.util.control.TailCalls.TailRec[B] with scala.Product with scala.Serializable {
+    val a: scala.util.control.TailCalls.TailRec[A] = { /* compiled code */ }
+    val f: scala.Function1[A, scala.util.control.TailCalls.TailRec[B]] = { /* compiled code */ }
+    def copy[A, B](a: scala.util.control.TailCalls.TailRec[A], f: scala.Function1[A, scala.util.control.TailCalls.TailRec[B]]): scala.util.control.TailCalls.Cont[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  protected object Cont extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](a: scala.util.control.TailCalls.TailRec[A], f: scala.Function1[A, scala.util.control.TailCalls.TailRec[B]]): scala.util.control.TailCalls.Cont[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.util.control.TailCalls.Cont[A, B]): scala.Option[scala.Tuple2[scala.util.control.TailCalls.TailRec[A], scala.Function1[A, scala.util.control.TailCalls.TailRec[B]]]] = { /* compiled code */ }
+  }
+  def tailcall[A](rest: => scala.util.control.TailCalls.TailRec[A]): scala.util.control.TailCalls.TailRec[A] = { /* compiled code */ }
+  def done[A](result: A): scala.util.control.TailCalls.TailRec[A] = { /* compiled code */ }
+}

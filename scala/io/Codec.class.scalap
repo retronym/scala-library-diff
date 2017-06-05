@@ -1,0 +1,37 @@
+package scala.io
+class Codec extends scala.AnyRef {
+  val charSet: java.nio.charset.Charset = { /* compiled code */ }
+  def this(charSet: java.nio.charset.Charset) = { /* compiled code */ }
+  type Configure[T] = scala.Tuple2[scala.Function1[T, T], scala.Boolean]
+  type Handler = scala.Function1[java.nio.charset.CharacterCodingException, scala.Int]
+  override def toString(): java.lang.String = { /* compiled code */ }
+  def onMalformedInput(newAction: java.nio.charset.CodingErrorAction): scala.io.Codec.type = { /* compiled code */ }
+  def onUnmappableCharacter(newAction: java.nio.charset.CodingErrorAction): scala.io.Codec.type = { /* compiled code */ }
+  def decodingReplaceWith(newReplacement: scala.Predef.String): scala.io.Codec.type = { /* compiled code */ }
+  def encodingReplaceWith(newReplacement: scala.Array[scala.Byte]): scala.io.Codec.type = { /* compiled code */ }
+  def onCodingException(handler: Handler): scala.io.Codec.type = { /* compiled code */ }
+  def name: java.lang.String = { /* compiled code */ }
+  def encoder: java.nio.charset.CharsetEncoder = { /* compiled code */ }
+  def decoder: java.nio.charset.CharsetDecoder = { /* compiled code */ }
+  def wrap(body: => scala.Int): scala.Int = { /* compiled code */ }
+}
+object Codec extends scala.AnyRef with scala.io.LowPriorityCodecImplicits {
+  def this() = { /* compiled code */ }
+  final val ISO8859: scala.io.Codec = { /* compiled code */ }
+  final val UTF8: scala.io.Codec = { /* compiled code */ }
+  def defaultCharsetCodec: scala.io.Codec = { /* compiled code */ }
+  def fileEncodingCodec: scala.io.Codec = { /* compiled code */ }
+  def default: scala.io.Codec = { /* compiled code */ }
+  def apply(encoding: scala.Predef.String): scala.io.Codec = { /* compiled code */ }
+  def apply(charSet: java.nio.charset.Charset): scala.io.Codec = { /* compiled code */ }
+  def apply(decoder: java.nio.charset.CharsetDecoder): scala.io.Codec = { /* compiled code */ }
+  @scala.annotation.migration("This method was previously misnamed `toUTF8`. Converts from Array[Byte] to Array[Char].")
+  def fromUTF8(bytes: scala.Array[scala.Byte]): scala.Array[scala.Char] = { /* compiled code */ }
+  def fromUTF8(bytes: scala.Array[scala.Byte], offset: scala.Int, len: scala.Int): scala.Array[scala.Char] = { /* compiled code */ }
+  @scala.annotation.migration("This method was previously misnamed `fromUTF8`. Converts from character sequence to Array[Byte].")
+  def toUTF8(cs: java.lang.CharSequence): scala.Array[scala.Byte] = { /* compiled code */ }
+  def toUTF8(chars: scala.Array[scala.Char], offset: scala.Int, len: scala.Int): scala.Array[scala.Byte] = { /* compiled code */ }
+  implicit def string2codec(s: scala.Predef.String): scala.io.Codec = { /* compiled code */ }
+  implicit def charset2codec(c: java.nio.charset.Charset): scala.io.Codec = { /* compiled code */ }
+  implicit def decoder2codec(cd: java.nio.charset.CharsetDecoder): scala.io.Codec = { /* compiled code */ }
+}

@@ -1,0 +1,17 @@
+package scala.collection.mutable
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait QueueProxy[A] extends scala.collection.mutable.Queue[A] with scala.Proxy {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def self: scala.collection.mutable.Queue[A]
+  override def apply(n: scala.Int): A = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def +=(elem: A): scala.collection.mutable.QueueProxy.type = { /* compiled code */ }
+  override def ++=(it: scala.collection.TraversableOnce[A]): scala.collection.mutable.QueueProxy.type = { /* compiled code */ }
+  override def enqueue(elems: A*): scala.Unit = { /* compiled code */ }
+  override def dequeue(): A = { /* compiled code */ }
+  override def front: A = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.Queue[A] = { /* compiled code */ }
+}

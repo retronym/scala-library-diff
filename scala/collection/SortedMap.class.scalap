@@ -1,0 +1,16 @@
+package scala.collection
+trait SortedMap[A, +B] extends scala.AnyRef with scala.collection.Map[A, B] with scala.collection.SortedMapLike[A, B, scala.collection.SortedMap[A, B]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def empty: scala.collection.SortedMap[A, B] = { /* compiled code */ }
+}
+object SortedMap extends scala.collection.generic.SortedMapFactory[scala.collection.SortedMap] {
+  def this() = { /* compiled code */ }
+  def empty[A, B](implicit ord: scala.Ordering[A]): scala.collection.SortedMap[A, B] = { /* compiled code */ }
+  implicit def canBuildFrom[A, B](implicit ord: scala.Ordering[A]): scala.collection.generic.CanBuildFrom[scala.collection.generic.SortedMapFactory.Coll, scala.Tuple2[A, B], scala.collection.SortedMap[A, B]] = { /* compiled code */ }
+  private[collection] trait Default[A, +B] extends scala.AnyRef with scala.collection.SortedMap[A, B] {
+ this: scala.collection.SortedMap.Default[A, B] =>
+    def $init$(): scala.Unit = { /* compiled code */ }
+    override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.SortedMap[A, B1] = { /* compiled code */ }
+    override def -(key: A): scala.collection.SortedMap[A, B] = { /* compiled code */ }
+  }
+}

@@ -1,0 +1,28 @@
+package scala.collection.mutable
+trait SetLike[A, +This <: scala.collection.mutable.SetLike[A, This] with scala.collection.mutable.Set[A]] extends scala.AnyRef with scala.collection.SetLike[A, This] with scala.collection.script.Scriptable[A] with scala.collection.mutable.Builder[A, This] with scala.collection.generic.Growable[A] with scala.collection.generic.Shrinkable[A] with scala.collection.mutable.Cloneable[scala.collection.mutable.Set[A]] with scala.collection.Parallelizable[A, scala.collection.parallel.mutable.ParSet[A]] {
+ this: scala.collection.mutable.SetLike[A, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def add(elem: A): scala.Boolean = { /* compiled code */ }
+  def remove(elem: A): scala.Boolean = { /* compiled code */ }
+  def update(elem: A, included: scala.Boolean): scala.Unit = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.SetLike.type
+  def -=(elem: A): scala.collection.mutable.SetLike.type
+  def retain(p: scala.Function1[A, scala.Boolean]): scala.Unit = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  override def clone(): This = { /* compiled code */ }
+  def result(): This = { /* compiled code */ }
+  @scala.annotation.migration("`+` creates a new set. Use `+=` to add an element to this set and return that set itself.")
+  override def +(elem: A): This = { /* compiled code */ }
+  @scala.annotation.migration("`+` creates a new set. Use `+=` to add an element to this set and return that set itself.")
+  override def +(elem1: A, elem2: A, elems: A*): This = { /* compiled code */ }
+  @scala.annotation.migration("`++` creates a new set. Use `++=` to add elements to this set and return that set itself.")
+  override def ++(xs: scala.collection.GenTraversableOnce[A]): This = { /* compiled code */ }
+  @scala.annotation.migration("`-` creates a new set. Use `-=` to remove an element from this set and return that set itself.")
+  override def -(elem: A): This = { /* compiled code */ }
+  @scala.annotation.migration("`-` creates a new set. Use `-=` to remove an element from this set and return that set itself.")
+  override def -(elem1: A, elem2: A, elems: A*): This = { /* compiled code */ }
+  @scala.annotation.migration("`--` creates a new set. Use `--=` to remove elements from this set and return that set itself.")
+  override def --(xs: scala.collection.GenTraversableOnce[A]): This = { /* compiled code */ }
+  @scala.deprecated("Scripting is deprecated.")
+  def <<(cmd: scala.collection.script.Message[A]): scala.Unit = { /* compiled code */ }
+}

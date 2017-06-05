@@ -1,0 +1,22 @@
+package scala
+trait Product11[+T1, +T2, +T3, +T4, +T5, +T6, +T7, +T8, +T9, +T10, +T11] extends scala.Any with scala.Product {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def productArity: scala.Int = { /* compiled code */ }
+  @scala.throws[scala.IndexOutOfBoundsException](scala.IndexOutOfBoundsException)
+  override def productElement(n: scala.Int): scala.Any = { /* compiled code */ }
+  def _1: T1
+  def _2: T2
+  def _3: T3
+  def _4: T4
+  def _5: T5
+  def _6: T6
+  def _7: T7
+  def _8: T8
+  def _9: T9
+  def _10: T10
+  def _11: T11
+}
+object Product11 extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def unapply[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11](x: scala.Product11[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11]): scala.Option[scala.Product11[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11]] = { /* compiled code */ }
+}

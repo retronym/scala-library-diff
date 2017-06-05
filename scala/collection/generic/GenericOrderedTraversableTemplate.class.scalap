@@ -1,0 +1,6 @@
+package scala.collection.generic
+trait GenericOrderedTraversableTemplate[+A, +CC[X] <: scala.collection.Traversable[X]] extends scala.AnyRef with scala.collection.generic.HasNewBuilder[A, CC[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def orderedCompanion: scala.collection.generic.GenericOrderedCompanion[CC]
+  def genericOrderedBuilder[B](implicit ord: scala.Ordering[B]): scala.collection.mutable.Builder[B, CC[B]] = { /* compiled code */ }
+}

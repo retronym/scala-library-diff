@@ -1,0 +1,5 @@
+package scala.collection.generic
+trait GenericSetTemplate[A, +CC[X] <: scala.collection.GenSet[X]] extends scala.AnyRef with scala.collection.generic.GenericTraversableTemplate[A, CC] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: CC[A] = { /* compiled code */ }
+}

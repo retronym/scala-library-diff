@@ -1,0 +1,23 @@
+package scala.collection.parallel.mutable
+trait UnrolledParArrayCombiner[T] extends scala.AnyRef with scala.collection.parallel.Combiner[T, scala.collection.parallel.mutable.ParArray[T]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  val buff: scala.collection.parallel.mutable.DoublingUnrolledBuffer[scala.Any] = { /* compiled code */ }
+  def +=(elem: T): scala.collection.parallel.mutable.UnrolledParArrayCombiner.type = { /* compiled code */ }
+  def result(): scala.collection.parallel.mutable.ParArray[T] = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  override def sizeHint(sz: scala.Int): scala.Unit = { /* compiled code */ }
+  def combine[N <: T, NewTo >: scala.collection.parallel.mutable.ParArray[T]](other: scala.collection.parallel.Combiner[N, NewTo]): scala.collection.parallel.Combiner[N, NewTo] = { /* compiled code */ }
+  def size: scala.Int = { /* compiled code */ }
+  class CopyUnrolledToArray extends scala.AnyRef with scala.collection.parallel.Task[scala.Unit, scala.collection.parallel.mutable.UnrolledParArrayCombiner.CopyUnrolledToArray] {
+    def this(array: scala.Array[scala.Any], offset: scala.Int, howmany: scala.Int) = { /* compiled code */ }
+    var result: scala.Unit = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Unit]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.immutable.List[scala.collection.parallel.mutable.UnrolledParArrayCombiner.CopyUnrolledToArray] = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+}
+object UnrolledParArrayCombiner extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[T](): scala.collection.parallel.mutable.UnrolledParArrayCombiner[T] = { /* compiled code */ }
+}

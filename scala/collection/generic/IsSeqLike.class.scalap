@@ -1,0 +1,10 @@
+package scala.collection.generic
+trait IsSeqLike[Repr] extends scala.AnyRef {
+  type A
+  val conversion: scala.Function1[Repr, scala.collection.SeqLike[A, Repr]]
+}
+object IsSeqLike extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit val stringRepr: scala.collection.generic.IsSeqLike[scala.Predef.String] = { /* compiled code */ }
+  implicit def seqLikeRepr[C[_], A0](implicit conv: scala.Function1[C[A0], scala.collection.SeqLike[A0, C[A0]]]): scala.collection.generic.IsSeqLike[C[A0]] = { /* compiled code */ }
+}

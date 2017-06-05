@@ -1,0 +1,35 @@
+package scala.collection.parallel
+trait ParMapLike[K, +V, +Repr <: scala.collection.parallel.ParMapLike[K, V, Repr, Sequential] with scala.collection.parallel.ParMap[K, V], +Sequential <: scala.collection.Map[K, V] with scala.collection.MapLike[K, V, Sequential]] extends scala.AnyRef with scala.collection.GenMapLike[K, V, Repr] with scala.collection.parallel.ParIterableLike[scala.Tuple2[K, V], Repr, Sequential] {
+ this: scala.collection.parallel.ParMapLike[K, V, Repr, Sequential] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def default(key: K): V = { /* compiled code */ }
+  def empty: Repr
+  def apply(key: K): V = { /* compiled code */ }
+  def getOrElse[U >: V](key: K, default: => U): U = { /* compiled code */ }
+  def contains(key: K): scala.Boolean = { /* compiled code */ }
+  def isDefinedAt(key: K): scala.Boolean = { /* compiled code */ }
+  def keysIterator: scala.collection.parallel.IterableSplitter[K] = { /* compiled code */ }
+  def valuesIterator: scala.collection.parallel.IterableSplitter[V] = { /* compiled code */ }
+  protected class DefaultKeySet extends scala.AnyRef with scala.collection.parallel.ParSet[K] {
+    def this() = { /* compiled code */ }
+    def contains(key: K): scala.Boolean = { /* compiled code */ }
+    def splitter: scala.collection.parallel.IterableSplitter[K] = { /* compiled code */ }
+    def +(elem: K): scala.collection.parallel.ParSet[K] = { /* compiled code */ }
+    def -(elem: K): scala.collection.parallel.ParSet[K] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def foreach[S](f: scala.Function1[K, S]): scala.Unit = { /* compiled code */ }
+    override def seq: scala.collection.Set[K] = { /* compiled code */ }
+  }
+  protected class DefaultValuesIterable extends scala.AnyRef with scala.collection.parallel.ParIterable[V] {
+    def this() = { /* compiled code */ }
+    def splitter: scala.collection.parallel.IterableSplitter[V] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def foreach[S](f: scala.Function1[V, S]): scala.Unit = { /* compiled code */ }
+    def seq: scala.collection.Iterable[V] = { /* compiled code */ }
+  }
+  def keySet: scala.collection.parallel.ParSet[K] = { /* compiled code */ }
+  def keys: scala.collection.parallel.ParIterable[K] = { /* compiled code */ }
+  def values: scala.collection.parallel.ParIterable[V] = { /* compiled code */ }
+  def filterKeys(p: scala.Function1[K, scala.Boolean]): scala.collection.parallel.ParMap[K, V] = { /* compiled code */ }
+  def mapValues[S](f: scala.Function1[V, S]): scala.collection.parallel.ParMap[K, S] = { /* compiled code */ }
+}

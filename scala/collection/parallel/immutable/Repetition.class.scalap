@@ -1,0 +1,24 @@
+package scala.collection.parallel.immutable
+private[parallel] class Repetition[T] extends scala.AnyRef with scala.collection.parallel.immutable.ParSeq[T] {
+ this: scala.collection.parallel.immutable.Repetition[T] =>
+  val length: scala.Int = { /* compiled code */ }
+  def this(elem: T, length: scala.Int) = { /* compiled code */ }
+  def apply(idx: scala.Int): T = { /* compiled code */ }
+  override def seq: scala.Nothing = { /* compiled code */ }
+  def update(idx: scala.Int, elem: T): scala.Nothing = { /* compiled code */ }
+  class ParIterator extends scala.AnyRef with scala.collection.parallel.SeqSplitter[T] {
+    var i: scala.Int = { /* compiled code */ }
+    val until: scala.Int = { /* compiled code */ }
+    def this(i: scala.Int, until: scala.Int, elem: T) = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): T = { /* compiled code */ }
+    def dup: scala.collection.parallel.immutable.Repetition.ParIterator = { /* compiled code */ }
+    def psplit(sizes: scala.Int*): scala.Seq[scala.collection.parallel.SeqSplitter[T]] = { /* compiled code */ }
+    def split: scala.collection.Seq[scala.collection.parallel.SeqSplitter[T]] = { /* compiled code */ }
+  }
+  object ParIterator extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+  }
+  def splitter: scala.collection.parallel.immutable.Repetition.ParIterator = { /* compiled code */ }
+}

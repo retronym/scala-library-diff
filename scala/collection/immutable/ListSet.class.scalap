@@ -1,0 +1,45 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The semantics of immutable collections makes inheriting from ListSet error-prone.")
+class ListSet[A] extends scala.collection.AbstractSet[A] with scala.collection.immutable.Set[A] with scala.collection.generic.GenericSetTemplate[A, scala.collection.immutable.ListSet] with scala.collection.SetLike[A, scala.collection.immutable.ListSet[A]] with scala.Serializable {
+ this: scala.collection.immutable.ListSet[A] =>
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.ListSet] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  def +(elem: A): scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+  def -(elem: A): scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+  override def ++(xs: scala.collection.GenTraversableOnce[A]): scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def tail: scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  protected class Node extends scala.collection.immutable.ListSet[A] with scala.Serializable {
+    override val head: A = { /* compiled code */ }
+    def this(head: A) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def isEmpty: scala.Boolean = { /* compiled code */ }
+    override def contains(e: A): scala.Boolean = { /* compiled code */ }
+    override def +(e: A): scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+    override def -(e: A): scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+    override def tail: scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+    private[ListSet] override def unchecked_outer: scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+  }
+  private[ListSet] def unchecked_+(e: A): scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+  private[ListSet] def unchecked_outer: scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+}
+object ListSet extends scala.collection.generic.ImmutableSetFactory[scala.collection.immutable.ListSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.ListSet[A]] = { /* compiled code */ }
+  override def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.immutable.ListSet[A]] = { /* compiled code */ }
+  private[collection] def emptyInstance: scala.collection.immutable.ListSet[scala.Any] = { /* compiled code */ }
+  class ListSetBuilder[Elem] extends scala.AnyRef with scala.collection.mutable.Builder[Elem, scala.collection.immutable.ListSet[Elem]] {
+    def this(initial: scala.collection.immutable.ListSet[Elem]) = { /* compiled code */ }
+    def this() = { /* compiled code */ }
+    protected val elems: scala.collection.mutable.ListBuffer[Elem] = { /* compiled code */ }
+    protected val seen: scala.collection.mutable.HashSet[Elem] = { /* compiled code */ }
+    def +=(x: Elem): scala.collection.immutable.ListSet.ListSetBuilder.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.collection.immutable.ListSet[Elem] = { /* compiled code */ }
+  }
+}

@@ -1,0 +1,33 @@
+package scala.collection.parallel.mutable
+final class ParTrieMap[K, V] extends scala.AnyRef with scala.collection.parallel.mutable.ParMap[K, V] with scala.collection.generic.GenericParMapTemplate[K, V, scala.collection.parallel.mutable.ParTrieMap] with scala.collection.parallel.mutable.ParMapLike[K, V, scala.collection.parallel.mutable.ParTrieMap[K, V], scala.collection.concurrent.TrieMap[K, V]] with scala.collection.parallel.mutable.ParTrieMapCombiner[K, V] with scala.Serializable {
+  private[collection] def this(ctrie: scala.collection.concurrent.TrieMap[K, V]) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def mapCompanion: scala.collection.generic.GenericParMapCompanion[scala.collection.parallel.mutable.ParTrieMap] = { /* compiled code */ }
+  override def empty: scala.collection.parallel.mutable.ParTrieMap[K, V] = { /* compiled code */ }
+  override def seq: scala.collection.concurrent.TrieMap[K, V] = { /* compiled code */ }
+  def splitter: scala.collection.parallel.mutable.ParTrieMapSplitter[K, V] = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  def result(): scala.collection.parallel.mutable.ParTrieMap[K, V] = { /* compiled code */ }
+  def get(key: K): scala.Option[V] = { /* compiled code */ }
+  def put(key: K, value: V): scala.Option[V] = { /* compiled code */ }
+  def update(key: K, value: V): scala.Unit = { /* compiled code */ }
+  def remove(key: K): scala.Option[V] = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[K, V]): scala.collection.parallel.mutable.ParTrieMap.type = { /* compiled code */ }
+  def -=(key: K): scala.collection.parallel.mutable.ParTrieMap.type = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  class Size extends scala.AnyRef with scala.collection.parallel.Task[scala.Int, scala.collection.parallel.mutable.ParTrieMap.Size] {
+    def this(offset: scala.Int, howmany: scala.Int, array: scala.Array[scala.collection.concurrent.BasicNode]) = { /* compiled code */ }
+    var result: scala.Int = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Int]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.Seq[scala.collection.parallel.mutable.ParTrieMap.Size] = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+    override def merge(that: scala.collection.parallel.mutable.ParTrieMap.Size): scala.Unit = { /* compiled code */ }
+  }
+}
+object ParTrieMap extends scala.collection.generic.ParMapFactory[scala.collection.parallel.mutable.ParTrieMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def empty[K, V]: scala.collection.parallel.mutable.ParTrieMap[K, V] = { /* compiled code */ }
+  def newCombiner[K, V]: scala.collection.parallel.Combiner[scala.Tuple2[K, V], scala.collection.parallel.mutable.ParTrieMap[K, V]] = { /* compiled code */ }
+  implicit def canBuildFrom[K, V]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[K, V], scala.collection.parallel.mutable.ParTrieMap[K, V]] = { /* compiled code */ }
+}

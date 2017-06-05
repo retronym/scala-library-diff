@@ -1,0 +1,4 @@
+package scala
+@scala.deprecated("This trait will be removed")
+trait NotNull extends scala.Any {
+}

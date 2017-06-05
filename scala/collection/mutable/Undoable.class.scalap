@@ -1,0 +1,4 @@
+package scala.collection.mutable
+trait Undoable extends scala.AnyRef {
+  def undo(): scala.Unit
+}

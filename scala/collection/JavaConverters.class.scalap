@@ -1,0 +1,4 @@
+package scala.collection
+object JavaConverters extends scala.AnyRef with scala.collection.convert.DecorateAsJava with scala.collection.convert.DecorateAsScala {
+  def this() = { /* compiled code */ }
+}

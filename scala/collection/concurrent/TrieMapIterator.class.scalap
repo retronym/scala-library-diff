@@ -1,0 +1,15 @@
+package scala.collection.concurrent
+private[collection] class TrieMapIterator[K, V] extends scala.AnyRef with scala.collection.Iterator[scala.Tuple2[K, V]] {
+  var level: scala.Int = { /* compiled code */ }
+  def this(level: scala.Int, ct: scala.collection.concurrent.TrieMap[K, V], mustInit: scala.Boolean) = { /* compiled code */ }
+  def hasNext: scala.Boolean = { /* compiled code */ }
+  def next(): scala.Tuple2[K, V] = { /* compiled code */ }
+  def advance(): scala.Unit = { /* compiled code */ }
+  protected def newIterator(_lev: scala.Int, _ct: scala.collection.concurrent.TrieMap[K, V], _mustInit: scala.Boolean): scala.collection.concurrent.TrieMapIterator[K, V] = { /* compiled code */ }
+  protected def dupTo(it: scala.collection.concurrent.TrieMapIterator[K, V]): scala.Unit = { /* compiled code */ }
+  protected def subdivide(): scala.collection.Seq[scala.collection.Iterator[scala.Tuple2[K, V]]] = { /* compiled code */ }
+  def printDebug(): scala.Unit = { /* compiled code */ }
+}
+private[collection] object TrieMapIterator extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

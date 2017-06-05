@@ -1,0 +1,4 @@
+package scala.collection
+abstract class AbstractIterable[+A] extends scala.collection.AbstractTraversable[A] with scala.collection.Iterable[A] {
+  def this() = { /* compiled code */ }
+}

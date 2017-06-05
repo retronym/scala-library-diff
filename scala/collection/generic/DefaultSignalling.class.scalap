@@ -1,0 +1,9 @@
+package scala.collection.generic
+class DefaultSignalling extends scala.AnyRef with scala.collection.generic.Signalling with scala.collection.generic.VolatileAbort {
+  def this() = { /* compiled code */ }
+  def indexFlag: scala.Int = { /* compiled code */ }
+  def setIndexFlag(f: scala.Int): scala.Unit = { /* compiled code */ }
+  def setIndexFlagIfGreater(f: scala.Int): scala.Unit = { /* compiled code */ }
+  def setIndexFlagIfLesser(f: scala.Int): scala.Unit = { /* compiled code */ }
+  def tag: scala.Int = { /* compiled code */ }
+}

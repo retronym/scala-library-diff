@@ -1,0 +1,11 @@
+package scala.concurrent
+class Channel[A] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  class LinkedList[A] extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    var elem: A = { /* compiled code */ }
+    var next: scala.concurrent.Channel.LinkedList[A] = { /* compiled code */ }
+  }
+  def write(x: A): scala.Unit = { /* compiled code */ }
+  def read: A = { /* compiled code */ }
+}

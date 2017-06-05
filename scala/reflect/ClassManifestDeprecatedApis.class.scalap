@@ -1,0 +1,32 @@
+package scala.reflect
+@scala.deprecated("Use scala.reflect.ClassTag instead")
+trait ClassManifestDeprecatedApis[T] extends scala.AnyRef with scala.reflect.OptManifest[T] {
+ this: scala.reflect.ClassManifest[T] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  @scala.deprecated("Use runtimeClass instead")
+  def erasure: java.lang.Class[_] = { /* compiled code */ }
+  @scala.deprecated("Use scala.reflect.runtime.universe.TypeTag for subtype checking instead")
+  def <:<(that: scala.reflect.ClassManifest[_]): scala.Boolean = { /* compiled code */ }
+  @scala.deprecated("Use scala.reflect.runtime.universe.TypeTag for subtype checking instead")
+  def >:>(that: scala.reflect.ClassManifest[_]): scala.Boolean = { /* compiled code */ }
+  override def canEqual(other: scala.Any): scala.Boolean = { /* compiled code */ }
+  protected def arrayClass[T](tp: java.lang.Class[_]): java.lang.Class[scala.Array[T]] = { /* compiled code */ }
+  @scala.deprecated("Use wrap instead")
+  def arrayManifest: scala.reflect.ClassManifest[scala.Array[T]] = { /* compiled code */ }
+  override def newArray(len: scala.Int): scala.Array[T] = { /* compiled code */ }
+  @scala.deprecated("Use wrap.newArray instead")
+  def newArray2(len: scala.Int): scala.Array[scala.Array[T]] = { /* compiled code */ }
+  @scala.deprecated("Use wrap.wrap.newArray instead")
+  def newArray3(len: scala.Int): scala.Array[scala.Array[scala.Array[T]]] = { /* compiled code */ }
+  @scala.deprecated("Use wrap.wrap.wrap.newArray instead")
+  def newArray4(len: scala.Int): scala.Array[scala.Array[scala.Array[scala.Array[T]]]] = { /* compiled code */ }
+  @scala.deprecated("Use wrap.wrap.wrap.wrap.newArray instead")
+  def newArray5(len: scala.Int): scala.Array[scala.Array[scala.Array[scala.Array[scala.Array[T]]]]] = { /* compiled code */ }
+  @scala.deprecated("Create WrappedArray directly instead")
+  def newWrappedArray(len: scala.Int): scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+  @scala.deprecated("Use ArrayBuilder.make(this) instead")
+  def newArrayBuilder(): scala.collection.mutable.ArrayBuilder[T] = { /* compiled code */ }
+  @scala.deprecated("Use scala.reflect.runtime.universe.TypeTag to capture type structure instead")
+  def typeArguments: scala.List[scala.reflect.OptManifest[_]] = { /* compiled code */ }
+  protected def argString: scala.Predef.String = { /* compiled code */ }
+}

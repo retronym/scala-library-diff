@@ -1,0 +1,6 @@
+package scala.collection.generic
+trait VolatileAbort extends scala.AnyRef with scala.collection.generic.Signalling {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def isAborted: scala.Boolean = { /* compiled code */ }
+  override def abort(): scala.Unit = { /* compiled code */ }
+}

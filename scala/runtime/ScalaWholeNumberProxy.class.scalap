@@ -1,0 +1,5 @@
+package scala.runtime
+trait ScalaWholeNumberProxy[T] extends scala.Any with scala.runtime.ScalaNumberProxy[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def isWhole(): scala.Boolean = { /* compiled code */ }
+}

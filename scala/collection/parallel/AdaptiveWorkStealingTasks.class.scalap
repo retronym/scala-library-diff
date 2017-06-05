@@ -1,0 +1,15 @@
+package scala.collection.parallel
+trait AdaptiveWorkStealingTasks extends scala.AnyRef with scala.collection.parallel.Tasks {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  trait WrappedTask[R, Tp] extends scala.AnyRef with scala.collection.parallel.Tasks.WrappedTask[R, Tp] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    var next: scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp] = { /* compiled code */ }
+    var shouldWaitFor: scala.Boolean = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp]]
+    def compute(): scala.Unit = { /* compiled code */ }
+    def internal(): scala.Unit = { /* compiled code */ }
+    def spawnSubtasks(): scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp] = { /* compiled code */ }
+    def printChain(): scala.Unit = { /* compiled code */ }
+  }
+  protected def newWrappedTask[R, Tp](b: scala.collection.parallel.Task[R, Tp]): scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp]
+}

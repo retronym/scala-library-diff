@@ -1,0 +1,11 @@
+package scala.collection.parallel.immutable
+private[immutable] class LazyParVectorCombiner[T] extends scala.AnyRef with scala.collection.parallel.Combiner[T, scala.collection.parallel.immutable.ParVector[T]] {
+  def this() = { /* compiled code */ }
+  var sz: scala.Int = { /* compiled code */ }
+  val vectors: scala.collection.mutable.ArrayBuffer[scala.collection.immutable.VectorBuilder[T]] = { /* compiled code */ }
+  def size: scala.Int = { /* compiled code */ }
+  def +=(elem: T): scala.collection.parallel.immutable.LazyParVectorCombiner.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def result(): scala.collection.parallel.immutable.ParVector[T] = { /* compiled code */ }
+  def combine[U <: T, NewTo >: scala.collection.parallel.immutable.ParVector[T]](other: scala.collection.parallel.Combiner[U, NewTo]): scala.collection.parallel.Combiner[U, NewTo] = { /* compiled code */ }
+}

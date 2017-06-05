@@ -1,0 +1,3 @@
+package scala.collection.parallel
+trait TaskSupport extends scala.AnyRef with scala.collection.parallel.Tasks {
+}

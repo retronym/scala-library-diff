@@ -1,0 +1,10 @@
+package scala.collection
+trait IterableView[+A, +Coll] extends scala.AnyRef with scala.collection.IterableViewLike[A, Coll, scala.collection.IterableView[A, Coll]] {
+}
+object IterableView extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type Coll = scala.collection.TraversableView[_, C] forSome {type C <: scala.collection.Traversable[_]}
+    type C <: scala.collection.Traversable[_]
+    type C <: scala.collection.Traversable[_]
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[Coll, A, scala.collection.IterableView[A, scala.collection.Iterable[_]]] = { /* compiled code */ }
+}

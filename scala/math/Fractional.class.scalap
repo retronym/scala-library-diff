@@ -1,0 +1,20 @@
+package scala.math
+trait Fractional[T] extends java.lang.Object with scala.math.Numeric[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def div(x: T, y: T): T
+  class FractionalOps extends scala.math.Numeric.Ops {
+    def this(lhs: T) = { /* compiled code */ }
+    def /(rhs: T): T = { /* compiled code */ }
+  }
+  implicit override def mkNumericOps(lhs: T): scala.math.Fractional.FractionalOps = { /* compiled code */ }
+}
+object Fractional extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  trait ExtraImplicits extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    implicit def infixFractionalOps[T](x: T)(implicit num: scala.math.Fractional[T]): scala.math.Fractional.FractionalOps = { /* compiled code */ }
+  }
+  object Implicits extends scala.AnyRef with scala.math.Fractional.ExtraImplicits {
+    def this() = { /* compiled code */ }
+  }
+}

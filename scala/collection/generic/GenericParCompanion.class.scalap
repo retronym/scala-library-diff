@@ -1,0 +1,5 @@
+package scala.collection.generic
+trait GenericParCompanion[+CC[X] <: scala.collection.parallel.ParIterable[X]] extends scala.AnyRef {
+  def newBuilder[A]: scala.collection.parallel.Combiner[A, CC[A]]
+  def newCombiner[A]: scala.collection.parallel.Combiner[A, CC[A]]
+}

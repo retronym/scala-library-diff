@@ -1,0 +1,32 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 1None }
+class HashMap[A, B] extends scala.collection.mutable.AbstractMap[A, B] with scala.collection.mutable.Map[A, B] with scala.collection.mutable.MapLike[A, B, scala.collection.mutable.HashMap[A, B]] with scala.collection.mutable.HashTable[A, scala.collection.mutable.DefaultEntry[A, B]] with scala.collection.CustomParallelizable[scala.Tuple2[A, B], scala.collection.parallel.mutable.ParHashMap[A, B]] with scala.Serializable {
+  private[collection] def this(contents: scala.collection.mutable.HashTable.Contents[A, scala.collection.mutable.DefaultEntry[A, B]]) = { /* compiled code */ }
+  type Entry = scala.collection.mutable.DefaultEntry[A, B]
+  override def empty: scala.collection.mutable.HashMap[A, B] = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def par: scala.collection.parallel.mutable.ParHashMap[A, B] = { /* compiled code */ }
+  override def contains(key: A): scala.Boolean = { /* compiled code */ }
+  override def apply(key: A): B = { /* compiled code */ }
+  def get(key: A): scala.Option[B] = { /* compiled code */ }
+  override def put(key: A, value: B): scala.Option[B] = { /* compiled code */ }
+  override def update(key: A, value: B): scala.Unit = { /* compiled code */ }
+  override def remove(key: A): scala.Option[B] = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.HashMap.type = { /* compiled code */ }
+  def -=(key: A): scala.collection.mutable.HashMap.type = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def foreach[C](f: scala.Function1[scala.Tuple2[A, B], C]): scala.Unit = { /* compiled code */ }
+  override def keySet: scala.collection.Set[A] = { /* compiled code */ }
+  override def values: scala.collection.Iterable[B] = { /* compiled code */ }
+  override def keysIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def valuesIterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  def useSizeMap(t: scala.Boolean): scala.Unit = { /* compiled code */ }
+  protected def createNewEntry[B1](key: A, value: B1): Entry = { /* compiled code */ }
+}
+object HashMap extends scala.collection.generic.MutableMapFactory[scala.collection.mutable.HashMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.mutable.HashMap[A, B]] = { /* compiled code */ }
+  def empty[A, B]: scala.collection.mutable.HashMap[A, B] = { /* compiled code */ }
+}

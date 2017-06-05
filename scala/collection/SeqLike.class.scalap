@@ -1,0 +1,49 @@
+package scala.collection
+trait SeqLike[+A, +Repr] extends scala.Any with scala.collection.IterableLike[A, Repr] with scala.collection.GenSeqLike[A, Repr] with scala.collection.Parallelizable[A, scala.collection.parallel.ParSeq[A]] {
+ this: scala.collection.SeqLike[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def length: scala.Int
+  def apply(idx: scala.Int): A
+  def lengthCompare(len: scala.Int): scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def segmentLength(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  def indexWhere(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  def lastIndexWhere(p: scala.Function1[A, scala.Boolean], end: scala.Int): scala.Int = { /* compiled code */ }
+  def permutations: scala.collection.Iterator[Repr] = { /* compiled code */ }
+  def combinations(n: scala.Int): scala.collection.Iterator[Repr] = { /* compiled code */ }
+  def reverse: Repr = { /* compiled code */ }
+  def reverseMap[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def reverseIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def startsWith[B](that: scala.collection.GenSeq[B], offset: scala.Int): scala.Boolean = { /* compiled code */ }
+  def endsWith[B](that: scala.collection.GenSeq[B]): scala.Boolean = { /* compiled code */ }
+  def indexOfSlice[B >: A](that: scala.collection.GenSeq[B]): scala.Int = { /* compiled code */ }
+  def indexOfSlice[B >: A](that: scala.collection.GenSeq[B], from: scala.Int): scala.Int = { /* compiled code */ }
+  def lastIndexOfSlice[B >: A](that: scala.collection.GenSeq[B]): scala.Int = { /* compiled code */ }
+  def lastIndexOfSlice[B >: A](that: scala.collection.GenSeq[B], end: scala.Int): scala.Int = { /* compiled code */ }
+  def containsSlice[B](that: scala.collection.GenSeq[B]): scala.Boolean = { /* compiled code */ }
+  def contains[A1 >: A](elem: A1): scala.Boolean = { /* compiled code */ }
+  override def union[B >: A, That](that: scala.collection.GenSeq[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def diff[B >: A](that: scala.collection.GenSeq[B]): Repr = { /* compiled code */ }
+  def intersect[B >: A](that: scala.collection.GenSeq[B]): Repr = { /* compiled code */ }
+  def distinct: Repr = { /* compiled code */ }
+  def patch[B >: A, That](from: scala.Int, patch: scala.collection.GenSeq[B], replaced: scala.Int)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def updated[B >: A, That](index: scala.Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def +:[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def :+[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def padTo[B >: A, That](len: scala.Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
+  def corresponds[B](that: scala.collection.GenSeq[B])(p: scala.Function2[A, B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def sortWith(lt: scala.Function2[A, A, scala.Boolean]): Repr = { /* compiled code */ }
+  def sortBy[B](f: scala.Function1[A, B])(implicit ord: scala.math.Ordering[B]): Repr = { /* compiled code */ }
+  def sorted[B >: A](implicit ord: scala.math.Ordering[B]): Repr = { /* compiled code */ }
+  override def toSeq: scala.collection.Seq[A] = { /* compiled code */ }
+  def indices: scala.collection.immutable.Range = { /* compiled code */ }
+  override def view: scala.AnyRef with scala.collection.SeqView[A, Repr] = { /* compiled code */ }
+  override def view(from: scala.Int, until: scala.Int): scala.collection.SeqView[A, Repr] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object SeqLike extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def indexOf[B](source: scala.collection.Seq[B], sourceOffset: scala.Int, sourceCount: scala.Int, target: scala.collection.Seq[B], targetOffset: scala.Int, targetCount: scala.Int, fromIndex: scala.Int): scala.Int = { /* compiled code */ }
+  def lastIndexOf[B](source: scala.collection.Seq[B], sourceOffset: scala.Int, sourceCount: scala.Int, target: scala.collection.Seq[B], targetOffset: scala.Int, targetCount: scala.Int, fromIndex: scala.Int): scala.Int = { /* compiled code */ }
+}

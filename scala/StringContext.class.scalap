@@ -1,0 +1,28 @@
+package scala
+case class StringContext(parts: scala.Predef.String*) extends scala.AnyRef with scala.Product with scala.Serializable {
+  val parts: scala.Seq[scala.Predef.String] = { /* compiled code */ }
+  def checkLengths(args: scala.Seq[scala.Any]): scala.Unit = { /* compiled code */ }
+  def s(args: scala.Any*): scala.Predef.String = { /* compiled code */ }
+  def raw(args: scala.Any*): scala.Predef.String = { /* compiled code */ }
+  def standardInterpolator(process: scala.Function1[scala.Predef.String, scala.Predef.String], args: scala.Seq[scala.Any]): scala.Predef.String = { /* compiled code */ }
+  def f(args: scala.Any*): scala.Predef.String = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object StringContext extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  class InvalidEscapeException extends scala.IllegalArgumentException {
+    val index: scala.Int = { /* compiled code */ }
+    def this(str: scala.Predef.String, index: scala.Int) = { /* compiled code */ }
+  }
+  def treatEscapes(str: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def processEscapes(str: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def apply(parts: scala.Predef.String*): scala.StringContext = { /* compiled code */ }
+  def unapplySeq(x$0: scala.StringContext): scala.Option[scala.collection.Seq[scala.Predef.String]] = { /* compiled code */ }
+}

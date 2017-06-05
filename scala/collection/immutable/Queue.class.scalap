@@ -1,0 +1,30 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The implementation details of immutable queues make inheriting from them unwise.")
+@scala.SerialVersionUID { val value = -7622936493364270175None }
+class Queue[+A] extends scala.collection.AbstractSeq[A] with scala.collection.immutable.LinearSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.immutable.Queue] with scala.collection.LinearSeqLike[A, scala.collection.immutable.Queue[A]] with scala.Serializable {
+  protected val in: scala.collection.immutable.List[A] = { /* compiled code */ }
+  protected val out: scala.collection.immutable.List[A] = { /* compiled code */ }
+  protected def this(in: scala.collection.immutable.List[A], out: scala.collection.immutable.List[A]) = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.Queue] = { /* compiled code */ }
+  override def apply(n: scala.Int): A = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def tail: scala.collection.immutable.Queue[A] = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def +:[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Queue[A], B, That]): That = { /* compiled code */ }
+  override def :+[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Queue[A], B, That]): That = { /* compiled code */ }
+  def enqueue[B >: A](elem: B): scala.collection.immutable.Queue[B] = { /* compiled code */ }
+  def enqueue[B >: A](iter: scala.collection.immutable.Iterable[B]): scala.collection.immutable.Queue[B] = { /* compiled code */ }
+  def dequeue: scala.Tuple2[A, scala.collection.immutable.Queue[A]] = { /* compiled code */ }
+  def dequeueOption: scala.Option[scala.Tuple2[A, scala.collection.immutable.Queue[A]]] = { /* compiled code */ }
+  def front: A = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object Queue extends scala.collection.generic.SeqFactory[scala.collection.immutable.Queue] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.Queue[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.immutable.Queue[A]] = { /* compiled code */ }
+  override def empty[A]: scala.collection.immutable.Queue[A] = { /* compiled code */ }
+  override def apply[A](xs: A*): scala.collection.immutable.Queue[A] = { /* compiled code */ }
+}

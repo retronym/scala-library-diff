@@ -1,0 +1,138 @@
+package scala.math
+final class BigDecimal extends scala.math.ScalaNumber with scala.math.ScalaNumericConversions with scala.Serializable {
+  val bigDecimal: java.math.BigDecimal = { /* compiled code */ }
+  val mc: java.math.MathContext = { /* compiled code */ }
+  def this(bigDecimal: java.math.BigDecimal, mc: java.math.MathContext) = { /* compiled code */ }
+  def this(bigDecimal: java.math.BigDecimal) = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def isValidByte: scala.Boolean = { /* compiled code */ }
+  override def isValidShort: scala.Boolean = { /* compiled code */ }
+  override def isValidChar: scala.Boolean = { /* compiled code */ }
+  override def isValidInt: scala.Boolean = { /* compiled code */ }
+  def isValidLong: scala.Boolean = { /* compiled code */ }
+  @scala.deprecated("What constitutes validity is unclear.  Use `isExactFloat`, `isBinaryFloat`, or `isDecimalFloat` instead.")
+  def isValidFloat: scala.Boolean = { /* compiled code */ }
+  @scala.deprecated("Validity has two distinct meanings.  Use `isExactBinaryDouble` or `equivalentToDouble` instead.")
+  def isValidDouble: scala.Boolean = { /* compiled code */ }
+  def isDecimalDouble: scala.Boolean = { /* compiled code */ }
+  def isDecimalFloat: scala.Boolean = { /* compiled code */ }
+  def isBinaryDouble: scala.Boolean = { /* compiled code */ }
+  def isBinaryFloat: scala.Boolean = { /* compiled code */ }
+  def isExactDouble: scala.Boolean = { /* compiled code */ }
+  def isExactFloat: scala.Boolean = { /* compiled code */ }
+  def isWhole(): scala.Boolean = { /* compiled code */ }
+  def underlying(): java.math.BigDecimal = { /* compiled code */ }
+  def equals(that: scala.math.BigDecimal): scala.Boolean = { /* compiled code */ }
+  def compare(that: scala.math.BigDecimal): scala.Int = { /* compiled code */ }
+  def <=(that: scala.math.BigDecimal): scala.Boolean = { /* compiled code */ }
+  def >=(that: scala.math.BigDecimal): scala.Boolean = { /* compiled code */ }
+  def <(that: scala.math.BigDecimal): scala.Boolean = { /* compiled code */ }
+  def >(that: scala.math.BigDecimal): scala.Boolean = { /* compiled code */ }
+  def +(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def -(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def *(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def /(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def /%(that: scala.math.BigDecimal): scala.Tuple2[scala.math.BigDecimal, scala.math.BigDecimal] = { /* compiled code */ }
+  def quot(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def min(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def max(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def remainder(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def %(that: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def pow(n: scala.Int): scala.math.BigDecimal = { /* compiled code */ }
+  def unary_-: scala.math.BigDecimal = { /* compiled code */ }
+  def abs: scala.math.BigDecimal = { /* compiled code */ }
+  def signum: scala.Int = { /* compiled code */ }
+  def precision: scala.Int = { /* compiled code */ }
+  def round(mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def rounded: scala.math.BigDecimal = { /* compiled code */ }
+  def scale: scala.Int = { /* compiled code */ }
+  def ulp: scala.math.BigDecimal = { /* compiled code */ }
+  def apply(mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def setScale(scale: scala.Int): scala.math.BigDecimal = { /* compiled code */ }
+  def setScale(scale: scala.Int, mode: RoundingMode): scala.math.BigDecimal = { /* compiled code */ }
+  override def byteValue(): scala.Byte = { /* compiled code */ }
+  override def shortValue(): scala.Short = { /* compiled code */ }
+  def charValue: scala.Char = { /* compiled code */ }
+  def intValue(): scala.Int = { /* compiled code */ }
+  def longValue(): scala.Long = { /* compiled code */ }
+  def floatValue(): scala.Float = { /* compiled code */ }
+  def doubleValue(): scala.Double = { /* compiled code */ }
+  def toByteExact: scala.Byte = { /* compiled code */ }
+  def toShortExact: scala.Short = { /* compiled code */ }
+  def toIntExact: scala.Int = { /* compiled code */ }
+  def toLongExact: scala.Long = { /* compiled code */ }
+  def until(end: scala.math.BigDecimal): scala.collection.immutable.Range.Partial[scala.math.BigDecimal, scala.collection.immutable.NumericRange.Exclusive[scala.math.BigDecimal]] = { /* compiled code */ }
+  def until(end: scala.math.BigDecimal, step: scala.math.BigDecimal): scala.collection.immutable.NumericRange.Exclusive[scala.BigDecimal] = { /* compiled code */ }
+  def to(end: scala.math.BigDecimal): scala.collection.immutable.Range.Partial[scala.math.BigDecimal, scala.collection.immutable.NumericRange.Inclusive[scala.math.BigDecimal]] = { /* compiled code */ }
+  def to(end: scala.math.BigDecimal, step: scala.math.BigDecimal): scala.collection.immutable.NumericRange.Inclusive[scala.BigDecimal] = { /* compiled code */ }
+  def toBigInt(): scala.math.BigInt = { /* compiled code */ }
+  def toBigIntExact(): scala.Option[scala.math.BigInt] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object BigDecimal extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  val defaultMathContext: java.math.MathContext = { /* compiled code */ }
+  object RoundingMode extends scala.Enumeration {
+    def this() = { /* compiled code */ }
+    type RoundingMode = scala.Enumeration.Value
+    val UP: scala.Enumeration.Value = { /* compiled code */ }
+    val DOWN: scala.Enumeration.Value = { /* compiled code */ }
+    val CEILING: scala.Enumeration.Value = { /* compiled code */ }
+    val FLOOR: scala.Enumeration.Value = { /* compiled code */ }
+    val HALF_UP: scala.Enumeration.Value = { /* compiled code */ }
+    val HALF_DOWN: scala.Enumeration.Value = { /* compiled code */ }
+    val HALF_EVEN: scala.Enumeration.Value = { /* compiled code */ }
+    val UNNECESSARY: scala.Enumeration.Value = { /* compiled code */ }
+  }
+  def decimal(d: scala.Double, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def decimal(d: scala.Double): scala.math.BigDecimal = { /* compiled code */ }
+  def decimal(f: scala.Float, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def decimal(f: scala.Float): scala.math.BigDecimal = { /* compiled code */ }
+  def decimal(l: scala.Long, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def decimal(l: scala.Long): scala.math.BigDecimal = { /* compiled code */ }
+  def decimal(bd: java.math.BigDecimal, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def binary(d: scala.Double, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def binary(d: scala.Double): scala.math.BigDecimal = { /* compiled code */ }
+  def exact(repr: java.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  def exact(d: scala.Double): scala.math.BigDecimal = { /* compiled code */ }
+  def exact(bi: scala.math.BigInt): scala.math.BigDecimal = { /* compiled code */ }
+  def exact(l: scala.Long): scala.math.BigDecimal = { /* compiled code */ }
+  def exact(s: scala.Predef.String): scala.math.BigDecimal = { /* compiled code */ }
+  def exact(cs: scala.Array[scala.Char]): scala.math.BigDecimal = { /* compiled code */ }
+  def valueOf(d: scala.Double): scala.math.BigDecimal = { /* compiled code */ }
+  @scala.deprecated("MathContext is not applied to Doubles in valueOf.  Use BigDecimal.decimal to use rounding, or java.math.BigDecimal.valueOf to avoid it.")
+  def valueOf(d: scala.Double, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def valueOf(x: scala.Long): scala.math.BigDecimal = { /* compiled code */ }
+  @scala.deprecated("Float arguments to valueOf may not do what you wish.  Use decimal or valueOf(f.toDouble).")
+  def valueOf(f: scala.Float): scala.math.BigDecimal = { /* compiled code */ }
+  @scala.deprecated("Float arguments to valueOf may not do what you wish.  Use decimal or valueOf(f.toDouble).")
+  def valueOf(f: scala.Float, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(i: scala.Int): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(i: scala.Int, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(l: scala.Long): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(l: scala.Long, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(unscaledVal: scala.Long, scale: scala.Int): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(unscaledVal: scala.Long, scale: scala.Int, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(d: scala.Double): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(d: scala.Double, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  @scala.deprecated("The default conversion from Float may not do what you want.  Use BigDecimal.decimal for a String representation, or explicitly convert the Float with .toDouble.")
+  def apply(x: scala.Float): scala.math.BigDecimal = { /* compiled code */ }
+  @scala.deprecated("The default conversion from Float may not do what you want.  Use BigDecimal.decimal for a String representation, or explicitly convert the Float with .toDouble.")
+  def apply(x: scala.Float, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(x: scala.Array[scala.Char]): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(x: scala.Array[scala.Char], mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(x: scala.Predef.String): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(x: scala.Predef.String, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(x: scala.math.BigInt): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(x: scala.math.BigInt, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(unscaledVal: scala.math.BigInt, scale: scala.Int): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(unscaledVal: scala.math.BigInt, scale: scala.Int, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  def apply(bd: java.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  @scala.deprecated("This method appears to round a java.math.BigDecimal but actually doesn't.  Use new BigDecimal(bd, mc) instead for no rounding, or BigDecimal.decimal(bd, mc) for rounding.")
+  def apply(bd: java.math.BigDecimal, mc: java.math.MathContext): scala.math.BigDecimal = { /* compiled code */ }
+  implicit def int2bigDecimal(i: scala.Int): scala.math.BigDecimal = { /* compiled code */ }
+  implicit def long2bigDecimal(l: scala.Long): scala.math.BigDecimal = { /* compiled code */ }
+  implicit def double2bigDecimal(d: scala.Double): scala.math.BigDecimal = { /* compiled code */ }
+  implicit def javaBigDecimal2bigDecimal(x: java.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+}

@@ -1,0 +1,42 @@
+package scala.concurrent
+trait Future[+T] extends scala.AnyRef with scala.concurrent.Awaitable[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def onSuccess[U](pf: scala.PartialFunction[T, U])(implicit executor: scala.concurrent.ExecutionContext): scala.Unit = { /* compiled code */ }
+  def onFailure[U](pf: scala.PartialFunction[scala.Throwable, U])(implicit executor: scala.concurrent.ExecutionContext): scala.Unit = { /* compiled code */ }
+  def onComplete[U](f: scala.Function1[scala.util.Try[T], U])(implicit executor: scala.concurrent.ExecutionContext): scala.Unit
+  def isCompleted: scala.Boolean
+  def value: scala.Option[scala.util.Try[T]]
+  def failed: scala.concurrent.Future[scala.Throwable] = { /* compiled code */ }
+  def foreach[U](f: scala.Function1[T, U])(implicit executor: scala.concurrent.ExecutionContext): scala.Unit = { /* compiled code */ }
+  def transform[S](s: scala.Function1[T, S], f: scala.Function1[scala.Throwable, scala.Throwable])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[S] = { /* compiled code */ }
+  def map[S](f: scala.Function1[T, S])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[S] = { /* compiled code */ }
+  def flatMap[S](f: scala.Function1[T, scala.concurrent.Future[S]])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[S] = { /* compiled code */ }
+  def filter(p: scala.Function1[T, scala.Boolean])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[T] = { /* compiled code */ }
+  final def withFilter(p: scala.Function1[T, scala.Boolean])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[T] = { /* compiled code */ }
+  def collect[S](pf: scala.PartialFunction[T, S])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[S] = { /* compiled code */ }
+  def recover[U >: T](pf: scala.PartialFunction[scala.Throwable, U])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[U] = { /* compiled code */ }
+  def recoverWith[U >: T](pf: scala.PartialFunction[scala.Throwable, scala.concurrent.Future[U]])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[U] = { /* compiled code */ }
+  def zip[U](that: scala.concurrent.Future[U]): scala.concurrent.Future[scala.Tuple2[T, U]] = { /* compiled code */ }
+  def fallbackTo[U >: T](that: scala.concurrent.Future[U]): scala.concurrent.Future[U] = { /* compiled code */ }
+  def mapTo[S](implicit tag: scala.reflect.ClassTag[S]): scala.concurrent.Future[S] = { /* compiled code */ }
+  def andThen[U](pf: scala.PartialFunction[scala.util.Try[T], U])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[T] = { /* compiled code */ }
+}
+object Future extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  private[concurrent] val toBoxed: scala.collection.immutable.Map[java.lang.Class[_], java.lang.Class[_]] = { /* compiled code */ }
+  def failed[T](exception: scala.Throwable): scala.concurrent.Future[T] = { /* compiled code */ }
+  def successful[T](result: T): scala.concurrent.Future[T] = { /* compiled code */ }
+  def fromTry[T](result: scala.util.Try[T]): scala.concurrent.Future[T] = { /* compiled code */ }
+  def apply[T](body: => T)(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[T] = { /* compiled code */ }
+  def sequence[A, M[X] <: scala.TraversableOnce[X]](in: M[scala.concurrent.Future[A]])(implicit cbf: scala.collection.generic.CanBuildFrom[M[scala.concurrent.Future[A]], A, M[A]], executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[M[A]] = { /* compiled code */ }
+  def firstCompletedOf[T](futures: scala.TraversableOnce[scala.concurrent.Future[T]])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[T] = { /* compiled code */ }
+  def find[T](futures: scala.TraversableOnce[scala.concurrent.Future[T]])(p: scala.Function1[T, scala.Boolean])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[scala.Option[T]] = { /* compiled code */ }
+  def fold[T, R](futures: scala.TraversableOnce[scala.concurrent.Future[T]])(zero: R)(op: scala.Function2[R, T, R])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[R] = { /* compiled code */ }
+  def reduce[T, R >: T](futures: scala.TraversableOnce[scala.concurrent.Future[T]])(op: scala.Function2[R, T, R])(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[R] = { /* compiled code */ }
+  def traverse[A, B, M[X] <: scala.TraversableOnce[X]](in: M[A])(fn: scala.Function1[A, scala.concurrent.Future[B]])(implicit cbf: scala.collection.generic.CanBuildFrom[M[A], B, M[B]], executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[M[B]] = { /* compiled code */ }
+  private[concurrent] object InternalCallbackExecutor extends scala.AnyRef with scala.concurrent.ExecutionContext with scala.concurrent.BatchingExecutor {
+    def this() = { /* compiled code */ }
+    protected override def unbatchedExecute(r: java.lang.Runnable): scala.Unit = { /* compiled code */ }
+    override def reportFailure(t: scala.Throwable): scala.Unit = { /* compiled code */ }
+  }
+}

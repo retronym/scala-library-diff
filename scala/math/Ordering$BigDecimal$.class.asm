@@ -1,0 +1,199 @@
+// class version 50.0 (50)
+// access flags 0x21
+public class scala/math/Ordering$BigDecimal$ implements scala/math/Ordering$BigDecimalOrdering  {
+
+  // access flags 0x1
+  public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
+  // access flags 0x9
+  public static INNERCLASS scala/math/Ordering$BigDecimal$ scala/math/Ordering BigDecimal$
+  // access flags 0x609
+  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering scala/math/Ordering BigDecimalOrdering
+  // access flags 0x409
+  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering$class scala/math/Ordering BigDecimalOrdering$class
+
+  // access flags 0x19
+  public final static Lscala/math/Ordering$BigDecimal$; MODULE$
+
+  // access flags 0x9
+  public static <clinit>()V
+    NEW scala/math/Ordering$BigDecimal$
+    INVOKESPECIAL scala/math/Ordering$BigDecimal$.<init> ()V
+    RETURN
+    MAXSTACK = 1
+    MAXLOCALS = 0
+
+  // access flags 0x1
+  public <init>()V
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    ALOAD 0
+    PUTSTATIC scala/math/Ordering$BigDecimal$.MODULE$ : Lscala/math/Ordering$BigDecimal$;
+    ALOAD 0
+    INVOKESTATIC scala/math/PartialOrdering$class.$init$ (Lscala/math/PartialOrdering;)V
+    ALOAD 0
+    INVOKESTATIC scala/math/Ordering$class.$init$ (Lscala/math/Ordering;)V
+    ALOAD 0
+    INVOKESTATIC scala/math/Ordering$BigDecimalOrdering$class.$init$ (Lscala/math/Ordering$BigDecimalOrdering;)V
+    RETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public compare(Lscala/math/BigDecimal;Lscala/math/BigDecimal;)I
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$BigDecimalOrdering$class.compare (Lscala/math/Ordering$BigDecimalOrdering;Lscala/math/BigDecimal;Lscala/math/BigDecimal;)I
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1041
+  public synthetic bridge compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    ALOAD 0
+    ALOAD 1
+    CHECKCAST scala/math/BigDecimal
+    ALOAD 2
+    CHECKCAST scala/math/BigDecimal
+    INVOKEVIRTUAL scala/math/Ordering$BigDecimal$.compare (Lscala/math/BigDecimal;Lscala/math/BigDecimal;)I
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public equiv(Ljava/lang/Object;Ljava/lang/Object;)Z
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.equiv (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Z
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public gt(Ljava/lang/Object;Ljava/lang/Object;)Z
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.gt (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Z
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public gteq(Ljava/lang/Object;Ljava/lang/Object;)Z
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.gteq (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Z
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public lt(Ljava/lang/Object;Ljava/lang/Object;)Z
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.lt (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Z
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public lteq(Ljava/lang/Object;Ljava/lang/Object;)Z
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.lteq (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Z
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public max(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.max (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public min(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.min (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  // signature (Ljava/lang/Object;)Lscala/math/Ordering$Ops;
+  // declaration: scala.math.Ordering$Ops mkOrderingOps(java.lang.Object)
+  public mkOrderingOps(Ljava/lang/Object;)Lscala/math/Ordering$Ops;
+    ALOAD 0
+    ALOAD 1
+    INVOKESTATIC scala/math/Ordering$class.mkOrderingOps (Lscala/math/Ordering;Ljava/lang/Object;)Lscala/math/Ordering$Ops;
+    ARETURN
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  // signature <U:Ljava/lang/Object;>(Lscala/Function1<TU;Lscala/math/BigDecimal;>;)Lscala/math/Ordering<TU;>;
+  // declaration: scala.math.Ordering<U> on<U>(scala.Function1<U, scala.math.BigDecimal>)
+  public on(Lscala/Function1;)Lscala/math/Ordering;
+    ALOAD 0
+    ALOAD 1
+    INVOKESTATIC scala/math/Ordering$class.on (Lscala/math/Ordering;Lscala/Function1;)Lscala/math/Ordering;
+    ARETURN
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x2
+  private readResolve()Ljava/lang/Object;
+    GETSTATIC scala/math/Ordering$BigDecimal$.MODULE$ : Lscala/math/Ordering$BigDecimal$;
+    ARETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  // signature ()Lscala/math/Ordering<Lscala/math/BigDecimal;>;
+  // declaration: scala.math.Ordering<scala.math.BigDecimal> reverse()
+  public reverse()Lscala/math/Ordering;
+    ALOAD 0
+    INVOKESTATIC scala/math/Ordering$class.reverse (Lscala/math/Ordering;)Lscala/math/Ordering;
+    ARETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1041
+  public synthetic bridge reverse()Lscala/math/PartialOrdering;
+    ALOAD 0
+    INVOKEVIRTUAL scala/math/Ordering$BigDecimal$.reverse ()Lscala/math/Ordering;
+    ARETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public tryCompare(Ljava/lang/Object;Ljava/lang/Object;)Lscala/Some;
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC scala/math/Ordering$class.tryCompare (Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Lscala/Some;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1041
+  public synthetic bridge tryCompare(Ljava/lang/Object;Ljava/lang/Object;)Lscala/Option;
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKEVIRTUAL scala/math/Ordering$BigDecimal$.tryCompare (Ljava/lang/Object;Ljava/lang/Object;)Lscala/Some;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+}

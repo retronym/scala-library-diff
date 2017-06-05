@@ -1,0 +1,21 @@
+package scala.annotation
+final class elidable extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  final val level: scala.Int = { /* compiled code */ }
+  def this(level: scala.Int) = { /* compiled code */ }
+}
+object elidable extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final val ALL: scala.Int = { /* compiled code */ }
+  final val FINEST: scala.Int = { /* compiled code */ }
+  final val FINER: scala.Int = { /* compiled code */ }
+  final val FINE: scala.Int = { /* compiled code */ }
+  final val CONFIG: scala.Int = { /* compiled code */ }
+  final val INFO: scala.Int = { /* compiled code */ }
+  final val WARNING: scala.Int = { /* compiled code */ }
+  final val SEVERE: scala.Int = { /* compiled code */ }
+  final val OFF: scala.Int = { /* compiled code */ }
+  final val MAXIMUM: scala.Int = { /* compiled code */ }
+  final val MINIMUM: scala.Int = { /* compiled code */ }
+  final val ASSERTION: scala.Int = { /* compiled code */ }
+  val byName: scala.Predef.Map[scala.Predef.String, scala.Int] = { /* compiled code */ }
+}

@@ -1,0 +1,9 @@
+package scala.collection.mutable
+abstract class LazyBuilder[Elem, +To] extends scala.AnyRef with scala.collection.mutable.Builder[Elem, To] {
+  def this() = { /* compiled code */ }
+  protected var parts: scala.collection.mutable.ListBuffer[scala.collection.TraversableOnce[Elem]] = { /* compiled code */ }
+  def +=(x: Elem): scala.collection.mutable.LazyBuilder.type = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[Elem]): scala.collection.mutable.LazyBuilder.type = { /* compiled code */ }
+  def result(): To
+  def clear(): scala.Unit = { /* compiled code */ }
+}

@@ -1,0 +1,6 @@
+package scala.collection
+trait Parallelizable[+A, +ParRepr <: scala.collection.Parallel] extends scala.Any {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def seq: scala.collection.TraversableOnce[A]
+  def par: ParRepr = { /* compiled code */ }
+}

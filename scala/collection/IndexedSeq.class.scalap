@@ -1,0 +1,12 @@
+package scala.collection
+trait IndexedSeq[+A] extends scala.AnyRef with scala.collection.Seq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.IndexedSeq] with scala.collection.IndexedSeqLike[A, scala.collection.IndexedSeq[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.IndexedSeq] = { /* compiled code */ }
+  override def seq: scala.collection.IndexedSeq[A] = { /* compiled code */ }
+}
+object IndexedSeq extends scala.collection.generic.IndexedSeqFactory[scala.collection.IndexedSeq] {
+  def this() = { /* compiled code */ }
+  override val ReusableCBF: scala.collection.generic.GenTraversableFactory.GenericCanBuildFrom[scala.Nothing] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.IndexedSeq[A]] = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.IndexedSeq[A]] = { /* compiled code */ }
+}

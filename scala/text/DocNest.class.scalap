@@ -1,0 +1,21 @@
+package scala.text
+@scala.deprecated("This class will be removed.")
+case class DocNest(indent: scala.Int, doc: scala.text.Document) extends scala.text.Document with scala.Product with scala.Serializable {
+  val indent: scala.Int = { /* compiled code */ }
+  val doc: scala.text.Document = { /* compiled code */ }
+  def copy(indent: scala.Int, doc: scala.text.Document): scala.text.DocNest = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object DocNest extends scala.runtime.AbstractFunction2[scala.Int, scala.text.Document, scala.text.DocNest] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply(indent: scala.Int, doc: scala.text.Document): scala.text.DocNest = { /* compiled code */ }
+  def unapply(x$0: scala.text.DocNest): scala.Option[scala.Tuple2[scala.Int, scala.text.Document]] = { /* compiled code */ }
+}

@@ -1,0 +1,10 @@
+package scala.collection.parallel
+private[parallel] class BufferSplitter[T] extends scala.AnyRef with scala.collection.parallel.IterableSplitter[T] {
+  def this(buffer: scala.collection.mutable.ArrayBuffer[T], index: scala.Int, until: scala.Int, _sigdel: scala.collection.generic.Signalling) = { /* compiled code */ }
+  def hasNext: scala.Boolean = { /* compiled code */ }
+  def next(): T = { /* compiled code */ }
+  def remaining: scala.Int = { /* compiled code */ }
+  def dup: scala.collection.parallel.BufferSplitter[T] = { /* compiled code */ }
+  def split: scala.collection.Seq[scala.collection.parallel.IterableSplitter[T]] = { /* compiled code */ }
+  private[parallel] override def debugInformation: scala.Predef.String = { /* compiled code */ }
+}

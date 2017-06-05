@@ -1,0 +1,12 @@
+package scala.reflect
+object NameTransformer extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val MODULE_SUFFIX_STRING: scala.Predef.String = { /* compiled code */ }
+  val NAME_JOIN_STRING: scala.Predef.String = { /* compiled code */ }
+  val MODULE_INSTANCE_NAME: java.lang.String = { /* compiled code */ }
+  val LOCAL_SUFFIX_STRING: java.lang.String = { /* compiled code */ }
+  val SETTER_SUFFIX_STRING: java.lang.String = { /* compiled code */ }
+  val TRAIT_SETTER_SEPARATOR_STRING: java.lang.String = { /* compiled code */ }
+  def encode(name: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def decode(name0: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+}

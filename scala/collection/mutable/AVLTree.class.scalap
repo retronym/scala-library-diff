@@ -1,0 +1,17 @@
+package scala.collection.mutable
+private[mutable] sealed trait AVLTree[+A] extends scala.AnyRef with scala.Serializable {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def balance: scala.Int
+  def depth: scala.Int
+  def iterator[B >: A]: scala.collection.Iterator[B] = { /* compiled code */ }
+  def contains[B >: A](value: B, ordering: scala.Ordering[B]): scala.Boolean = { /* compiled code */ }
+  def insert[B >: A](value: B, ordering: scala.Ordering[B]): scala.collection.mutable.AVLTree[B] = { /* compiled code */ }
+  def remove[B >: A](value: B, ordering: scala.Ordering[B]): scala.collection.mutable.AVLTree[A] = { /* compiled code */ }
+  def removeMin[B >: A]: scala.Tuple2[B, scala.collection.mutable.AVLTree[B]] = { /* compiled code */ }
+  def removeMax[B >: A]: scala.Tuple2[B, scala.collection.mutable.AVLTree[B]] = { /* compiled code */ }
+  def rebalance[B >: A]: scala.collection.mutable.AVLTree[B] = { /* compiled code */ }
+  def leftRotation[B >: A]: scala.collection.mutable.Node[B] = { /* compiled code */ }
+  def rightRotation[B >: A]: scala.collection.mutable.Node[B] = { /* compiled code */ }
+  def doubleLeftRotation[B >: A]: scala.collection.mutable.Node[B] = { /* compiled code */ }
+  def doubleRightRotation[B >: A]: scala.collection.mutable.Node[B] = { /* compiled code */ }
+}

@@ -1,0 +1,29 @@
+package scala.io
+trait AnsiColor extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  final val BLACK: java.lang.String = { /* compiled code */ }
+  final val RED: java.lang.String = { /* compiled code */ }
+  final val GREEN: java.lang.String = { /* compiled code */ }
+  final val YELLOW: java.lang.String = { /* compiled code */ }
+  final val BLUE: java.lang.String = { /* compiled code */ }
+  final val MAGENTA: java.lang.String = { /* compiled code */ }
+  final val CYAN: java.lang.String = { /* compiled code */ }
+  final val WHITE: java.lang.String = { /* compiled code */ }
+  final val BLACK_B: java.lang.String = { /* compiled code */ }
+  final val RED_B: java.lang.String = { /* compiled code */ }
+  final val GREEN_B: java.lang.String = { /* compiled code */ }
+  final val YELLOW_B: java.lang.String = { /* compiled code */ }
+  final val BLUE_B: java.lang.String = { /* compiled code */ }
+  final val MAGENTA_B: java.lang.String = { /* compiled code */ }
+  final val CYAN_B: java.lang.String = { /* compiled code */ }
+  final val WHITE_B: java.lang.String = { /* compiled code */ }
+  final val RESET: java.lang.String = { /* compiled code */ }
+  final val BOLD: java.lang.String = { /* compiled code */ }
+  final val UNDERLINED: java.lang.String = { /* compiled code */ }
+  final val BLINK: java.lang.String = { /* compiled code */ }
+  final val REVERSED: java.lang.String = { /* compiled code */ }
+  final val INVISIBLE: java.lang.String = { /* compiled code */ }
+}
+object AnsiColor extends scala.AnyRef with scala.io.AnsiColor {
+  def this() = { /* compiled code */ }
+}

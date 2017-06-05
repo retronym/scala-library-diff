@@ -1,0 +1,4 @@
+package scala.annotation
+package object meta extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

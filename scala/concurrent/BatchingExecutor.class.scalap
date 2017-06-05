@@ -1,0 +1,7 @@
+package scala.concurrent
+private[concurrent] trait BatchingExecutor extends java.lang.Object with java.util.concurrent.Executor {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def unbatchedExecute(r: java.lang.Runnable): scala.Unit
+  override def execute(runnable: java.lang.Runnable): scala.Unit = { /* compiled code */ }
+  def batchable(runnable: java.lang.Runnable): scala.Boolean = { /* compiled code */ }
+}

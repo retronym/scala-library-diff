@@ -1,0 +1,13 @@
+package scala.collection.mutable
+@scala.deprecated("Observables are deprecated because scripting is deprecated.")
+trait ObservableBuffer[A] extends scala.AnyRef with scala.collection.mutable.Buffer[A] with scala.collection.mutable.Publisher[scala.collection.script.Message[A] with scala.collection.mutable.Undoable] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  type Pub <: scala.collection.mutable.ObservableBuffer[A]
+  def +=(element: A): scala.collection.mutable.ObservableBuffer.type = { /* compiled code */ }
+  def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.ObservableBuffer.type = { /* compiled code */ }
+  def +=:(element: A): scala.collection.mutable.ObservableBuffer.type = { /* compiled code */ }
+  def update(n: scala.Int, newelement: A): scala.Unit = { /* compiled code */ }
+  def remove(n: scala.Int): A = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def insertAll(n: scala.Int, elems: scala.collection.Traversable[A]): scala.Unit = { /* compiled code */ }
+}

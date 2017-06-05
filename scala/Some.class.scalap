@@ -1,0 +1,21 @@
+package scala
+final case class Some[+A](x: A) extends scala.Option[A] with scala.Product with scala.Serializable {
+  val x: A = { /* compiled code */ }
+  def isEmpty: scala.Boolean = { /* compiled code */ }
+  def get: A = { /* compiled code */ }
+  def copy[A](x: A): scala.Some[A] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Some extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[A](x: A): scala.Some[A] = { /* compiled code */ }
+  def unapply[A](x$0: scala.Some[A]): scala.Option[A] = { /* compiled code */ }
+}

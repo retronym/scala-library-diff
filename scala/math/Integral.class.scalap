@@ -1,0 +1,23 @@
+package scala.math
+trait Integral[T] extends java.lang.Object with scala.math.Numeric[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def quot(x: T, y: T): T
+  def rem(x: T, y: T): T
+  class IntegralOps extends scala.math.Numeric.Ops {
+    def this(lhs: T) = { /* compiled code */ }
+    def /(rhs: T): T = { /* compiled code */ }
+    def %(rhs: T): T = { /* compiled code */ }
+    def /%(rhs: T): scala.Tuple2[T, T] = { /* compiled code */ }
+  }
+  implicit override def mkNumericOps(lhs: T): scala.math.Integral.IntegralOps = { /* compiled code */ }
+}
+object Integral extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  trait ExtraImplicits extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    implicit def infixIntegralOps[T](x: T)(implicit num: scala.math.Integral[T]): scala.math.Integral.IntegralOps = { /* compiled code */ }
+  }
+  object Implicits extends scala.AnyRef with scala.math.Integral.ExtraImplicits {
+    def this() = { /* compiled code */ }
+  }
+}

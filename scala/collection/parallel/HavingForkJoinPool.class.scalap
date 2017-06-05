@@ -1,0 +1,4 @@
+package scala.collection.parallel
+trait HavingForkJoinPool extends scala.AnyRef {
+  def forkJoinPool: scala.concurrent.forkjoin.ForkJoinPool
+}

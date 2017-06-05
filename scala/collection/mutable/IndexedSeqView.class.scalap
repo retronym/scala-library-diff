@@ -1,0 +1,59 @@
+package scala.collection.mutable
+trait IndexedSeqView[A, +Coll] extends scala.AnyRef with scala.collection.mutable.IndexedSeq[A] with scala.collection.mutable.IndexedSeqOptimized[A, scala.collection.mutable.IndexedSeqView[A, Coll]] with scala.collection.SeqView[A, Coll] with scala.collection.SeqViewLike[A, Coll, scala.collection.mutable.IndexedSeqView[A, Coll]] {
+ this: scala.collection.mutable.IndexedSeqView[A, Coll] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def update(idx: scala.Int, elem: A): scala.Unit
+  trait Transformed[B] extends scala.AnyRef with scala.collection.mutable.IndexedSeqView[B, Coll] with scala.collection.SeqViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def update(idx: scala.Int, elem: B): scala.Unit
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  private[collection] abstract class AbstractTransformed[B] extends scala.collection.SeqViewLike.AbstractTransformed[B] with scala.collection.mutable.IndexedSeqView.Transformed[B] {
+    def this() = { /* compiled code */ }
+  }
+  trait Sliced extends scala.AnyRef with scala.collection.SeqViewLike.Sliced with scala.collection.mutable.IndexedSeqView.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    override def length: scala.Int = { /* compiled code */ }
+    def update(idx: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+  }
+  trait Filtered extends scala.AnyRef with scala.collection.SeqViewLike.Filtered with scala.collection.mutable.IndexedSeqView.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def update(idx: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+  }
+  trait TakenWhile extends scala.AnyRef with scala.collection.SeqViewLike.TakenWhile with scala.collection.mutable.IndexedSeqView.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def update(idx: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+  }
+  trait DroppedWhile extends scala.AnyRef with scala.collection.SeqViewLike.DroppedWhile with scala.collection.mutable.IndexedSeqView.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def update(idx: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+  }
+  trait Reversed extends scala.AnyRef with scala.collection.SeqViewLike.Reversed with scala.collection.mutable.IndexedSeqView.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def update(idx: scala.Int, elem: A): scala.Unit = { /* compiled code */ }
+  }
+  protected override def newFiltered(p: scala.Function1[A, scala.Boolean]): scala.collection.mutable.IndexedSeqView.Transformed[A] = { /* compiled code */ }
+  protected override def newSliced(_endpoints: scala.collection.generic.SliceInterval): scala.collection.mutable.IndexedSeqView.Transformed[A] = { /* compiled code */ }
+  protected override def newDroppedWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.mutable.IndexedSeqView.Transformed[A] = { /* compiled code */ }
+  protected override def newTakenWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.mutable.IndexedSeqView.Transformed[A] = { /* compiled code */ }
+  protected override def newReversed: scala.collection.mutable.IndexedSeqView.Transformed[A] = { /* compiled code */ }
+  override def filter(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def init: This = { /* compiled code */ }
+  override def drop(n: scala.Int): This = { /* compiled code */ }
+  override def take(n: scala.Int): This = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): This = { /* compiled code */ }
+  override def dropWhile(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[This, This] = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[This, This] = { /* compiled code */ }
+  override def reverse: This = { /* compiled code */ }
+  override def tail: scala.collection.mutable.IndexedSeqView[A, Coll] = { /* compiled code */ }
+}
+object IndexedSeqView extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type Coll = scala.collection.TraversableView[_, C] forSome {type C <: scala.collection.mutable.Traversable[_]}
+    type C <: scala.collection.mutable.Traversable[_]
+    type C <: scala.collection.mutable.Traversable[_]
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[Coll, A, scala.collection.SeqView[A, scala.collection.mutable.Seq[_]]] = { /* compiled code */ }
+  implicit def arrCanBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.TraversableView[_, scala.Array[_]], A, scala.collection.SeqView[A, scala.Array[A]]] = { /* compiled code */ }
+}

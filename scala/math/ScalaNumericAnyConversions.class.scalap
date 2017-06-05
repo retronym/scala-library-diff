@@ -1,0 +1,25 @@
+package scala.math
+trait ScalaNumericAnyConversions extends scala.Any {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def isWhole(): scala.Boolean
+  def underlying(): scala.Any
+  def byteValue(): scala.Byte
+  def shortValue(): scala.Short
+  def intValue(): scala.Int
+  def longValue(): scala.Long
+  def floatValue(): scala.Float
+  def doubleValue(): scala.Double
+  def toChar: scala.Char = { /* compiled code */ }
+  def toByte: scala.Byte = { /* compiled code */ }
+  def toShort: scala.Short = { /* compiled code */ }
+  def toInt: scala.Int = { /* compiled code */ }
+  def toLong: scala.Long = { /* compiled code */ }
+  def toFloat: scala.Float = { /* compiled code */ }
+  def toDouble: scala.Double = { /* compiled code */ }
+  def isValidByte: scala.Boolean = { /* compiled code */ }
+  def isValidShort: scala.Boolean = { /* compiled code */ }
+  def isValidInt: scala.Boolean = { /* compiled code */ }
+  def isValidChar: scala.Boolean = { /* compiled code */ }
+  protected def unifiedPrimitiveHashcode(): scala.Int = { /* compiled code */ }
+  protected def unifiedPrimitiveEquals(x: scala.Any): scala.Boolean = { /* compiled code */ }
+}

@@ -1,0 +1,22 @@
+package scala.sys
+class SystemProperties extends scala.collection.mutable.AbstractMap[scala.Predef.String, scala.Predef.String] with scala.collection.mutable.Map[scala.Predef.String, scala.Predef.String] {
+  def this() = { /* compiled code */ }
+  override def empty: scala.sys.SystemProperties = { /* compiled code */ }
+  override def default(key: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[scala.Predef.String, scala.Predef.String]] = { /* compiled code */ }
+  def get(key: scala.Predef.String): scala.Option[java.lang.String] = { /* compiled code */ }
+  override def contains(key: scala.Predef.String): scala.Boolean = { /* compiled code */ }
+  def -=(key: scala.Predef.String): scala.sys.SystemProperties.type = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[scala.Predef.String, scala.Predef.String]): scala.sys.SystemProperties.type = { /* compiled code */ }
+  def wrapAccess[T](body: => T): scala.Option[T] = { /* compiled code */ }
+}
+object SystemProperties extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def exclusively[T](body: => T): T = { /* compiled code */ }
+  implicit def systemPropertiesToCompanion(p: scala.sys.SystemProperties): scala.sys.SystemProperties.type = { /* compiled code */ }
+  def help(key: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  val headless: scala.sys.BooleanProp = { /* compiled code */ }
+  val preferIPv4Stack: scala.sys.BooleanProp = { /* compiled code */ }
+  val preferIPv6Addresses: scala.sys.BooleanProp = { /* compiled code */ }
+  val noTraceSupression: scala.sys.BooleanProp = { /* compiled code */ }
+}

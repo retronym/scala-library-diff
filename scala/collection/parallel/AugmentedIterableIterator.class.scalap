@@ -1,0 +1,31 @@
+package scala.collection.parallel
+private[collection] trait AugmentedIterableIterator[+T] extends scala.AnyRef with scala.collection.parallel.RemainsIterator[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def count(p: scala.Function1[T, scala.Boolean]): scala.Int = { /* compiled code */ }
+  override def reduce[U >: T](op: scala.Function2[U, U, U]): U = { /* compiled code */ }
+  override def fold[U >: T](z: U)(op: scala.Function2[U, U, U]): U = { /* compiled code */ }
+  override def sum[U >: T](implicit num: scala.Numeric[U]): U = { /* compiled code */ }
+  override def product[U >: T](implicit num: scala.Numeric[U]): U = { /* compiled code */ }
+  override def min[U >: T](implicit ord: scala.Ordering[U]): T = { /* compiled code */ }
+  override def max[U >: T](implicit ord: scala.Ordering[U]): T = { /* compiled code */ }
+  override def copyToArray[U >: T](array: scala.Array[U], from: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  def reduceLeft[U >: T](howmany: scala.Int, op: scala.Function2[U, U, U]): U = { /* compiled code */ }
+  def map2combiner[S, That](f: scala.Function1[T, S], cb: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  def collect2combiner[S, That](pf: scala.PartialFunction[T, S], cb: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  def flatmap2combiner[S, That](f: scala.Function1[T, scala.collection.GenTraversableOnce[S]], cb: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  def copy2builder[U >: T, Coll, Bld <: scala.collection.mutable.Builder[U, Coll]](b: Bld): Bld = { /* compiled code */ }
+  def filter2combiner[U >: T, This](pred: scala.Function1[T, scala.Boolean], cb: scala.collection.parallel.Combiner[U, This]): scala.collection.parallel.Combiner[U, This] = { /* compiled code */ }
+  def filterNot2combiner[U >: T, This](pred: scala.Function1[T, scala.Boolean], cb: scala.collection.parallel.Combiner[U, This]): scala.collection.parallel.Combiner[U, This] = { /* compiled code */ }
+  def partition2combiners[U >: T, This](pred: scala.Function1[T, scala.Boolean], btrue: scala.collection.parallel.Combiner[U, This], bfalse: scala.collection.parallel.Combiner[U, This]): scala.Tuple2[scala.collection.parallel.Combiner[U, This], scala.collection.parallel.Combiner[U, This]] = { /* compiled code */ }
+  def take2combiner[U >: T, This](n: scala.Int, cb: scala.collection.parallel.Combiner[U, This]): scala.collection.parallel.Combiner[U, This] = { /* compiled code */ }
+  def drop2combiner[U >: T, This](n: scala.Int, cb: scala.collection.parallel.Combiner[U, This]): scala.collection.parallel.Combiner[U, This] = { /* compiled code */ }
+  def slice2combiner[U >: T, This](from: scala.Int, until: scala.Int, cb: scala.collection.parallel.Combiner[U, This]): scala.collection.parallel.Combiner[U, This] = { /* compiled code */ }
+  def splitAt2combiners[U >: T, This](at: scala.Int, before: scala.collection.parallel.Combiner[U, This], after: scala.collection.parallel.Combiner[U, This]): scala.Tuple2[scala.collection.parallel.Combiner[U, This], scala.collection.parallel.Combiner[U, This]] = { /* compiled code */ }
+  def takeWhile2combiner[U >: T, This](p: scala.Function1[T, scala.Boolean], cb: scala.collection.parallel.Combiner[U, This]): scala.Tuple2[scala.collection.parallel.Combiner[U, This], scala.Boolean] = { /* compiled code */ }
+  def span2combiners[U >: T, This](p: scala.Function1[T, scala.Boolean], before: scala.collection.parallel.Combiner[U, This], after: scala.collection.parallel.Combiner[U, This]): scala.Tuple2[scala.collection.parallel.Combiner[U, This], scala.collection.parallel.Combiner[U, This]] = { /* compiled code */ }
+  def scanToArray[U >: T, A >: U](z: U, op: scala.Function2[U, U, U], array: scala.Array[A], from: scala.Int): scala.Unit = { /* compiled code */ }
+  def scanToCombiner[U >: T, That](startValue: U, op: scala.Function2[U, U, U], cb: scala.collection.parallel.Combiner[U, That]): scala.collection.parallel.Combiner[U, That] = { /* compiled code */ }
+  def scanToCombiner[U >: T, That](howmany: scala.Int, startValue: U, op: scala.Function2[U, U, U], cb: scala.collection.parallel.Combiner[U, That]): scala.collection.parallel.Combiner[U, That] = { /* compiled code */ }
+  def zip2combiner[U >: T, S, That](otherpit: scala.collection.parallel.RemainsIterator[S], cb: scala.collection.parallel.Combiner[scala.Tuple2[U, S], That]): scala.collection.parallel.Combiner[scala.Tuple2[U, S], That] = { /* compiled code */ }
+  def zipAll2combiner[U >: T, S, That](that: scala.collection.parallel.RemainsIterator[S], thiselem: U, thatelem: S, cb: scala.collection.parallel.Combiner[scala.Tuple2[U, S], That]): scala.collection.parallel.Combiner[scala.Tuple2[U, S], That] = { /* compiled code */ }
+}

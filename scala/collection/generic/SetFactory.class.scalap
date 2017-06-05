@@ -1,0 +1,4 @@
+package scala.collection.generic
+abstract class SetFactory[CC[X] <: scala.collection.Set[X] with scala.collection.SetLike[X, CC[X]]] extends scala.collection.generic.GenSetFactory[CC] with scala.collection.generic.GenericSeqCompanion[CC] {
+  def this() = { /* compiled code */ }
+}

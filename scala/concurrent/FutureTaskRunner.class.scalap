@@ -1,0 +1,9 @@
+package scala.concurrent
+@scala.deprecated("Use `ExecutionContext` instead.")
+private[scala] trait FutureTaskRunner extends scala.AnyRef with scala.concurrent.TaskRunner {
+  type Future[T]
+  implicit def futureAsFunction[S](x: Future[S]): scala.Function0[S]
+  def submit[S](task: scala.concurrent.TaskRunner.Task[S]): Future[S]
+  @scala.deprecated("Use `blocking` instead.")
+  def managedBlock(blocker: scala.concurrent.ManagedBlocker): scala.Unit
+}

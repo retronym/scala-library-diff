@@ -1,0 +1,11 @@
+package scala.collection
+trait GenTraversable[+A] extends scala.AnyRef with scala.collection.GenTraversableLike[A, scala.collection.GenTraversable[A]] with scala.collection.GenTraversableOnce[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.GenTraversable] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def seq: scala.collection.Traversable[A]
+  def companion: scala.collection.generic.GenericCompanion[scala.collection.GenTraversable] = { /* compiled code */ }
+}
+object GenTraversable extends scala.collection.generic.GenTraversableFactory[scala.collection.GenTraversable] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.GenTraversableFactory.GenericCanBuildFrom[A] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.Traversable[A]] = { /* compiled code */ }
+}

@@ -1,0 +1,88 @@
+package scala.collection
+trait Iterator[+A] extends scala.AnyRef with scala.collection.TraversableOnce[A] {
+ this: scala.collection.Iterator[A] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def seq: scala.collection.Iterator[A] = { /* compiled code */ }
+  def hasNext: scala.Boolean
+  def next(): A
+  def isEmpty: scala.Boolean = { /* compiled code */ }
+  def isTraversableAgain: scala.Boolean = { /* compiled code */ }
+  def hasDefiniteSize: scala.Boolean = { /* compiled code */ }
+  def take(n: scala.Int): scala.collection.Iterator[A] = { /* compiled code */ }
+  def drop(n: scala.Int): scala.collection.Iterator[A] = { /* compiled code */ }
+  def slice(from: scala.Int, until: scala.Int): scala.collection.Iterator[A] = { /* compiled code */ }
+  def map[B](f: scala.Function1[A, B]): scala.collection.Iterator[B] = { /* compiled code */ }
+  def ++[B >: A](that: => scala.collection.GenTraversableOnce[B]): scala.collection.Iterator[B] = { /* compiled code */ }
+  def flatMap[B](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): scala.collection.Iterator[B] = { /* compiled code */ }
+  def filter(p: scala.Function1[A, scala.Boolean]): scala.collection.Iterator[A] = { /* compiled code */ }
+  def corresponds[B](that: scala.collection.GenTraversableOnce[B])(p: scala.Function2[A, B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def withFilter(p: scala.Function1[A, scala.Boolean]): scala.collection.Iterator[A] = { /* compiled code */ }
+  def filterNot(p: scala.Function1[A, scala.Boolean]): scala.collection.Iterator[A] = { /* compiled code */ }
+  @scala.annotation.migration("`collect` has changed. The previous behavior can be reproduced with `toSeq`.")
+  def collect[B](pf: scala.PartialFunction[A, B]): scala.collection.Iterator[B] = { /* compiled code */ }
+  def scanLeft[B](z: B)(op: scala.Function2[B, A, B]): scala.collection.Iterator[B] = { /* compiled code */ }
+  def scanRight[B](z: B)(op: scala.Function2[A, B, B]): scala.collection.Iterator[B] = { /* compiled code */ }
+  def takeWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.Iterator[A] = { /* compiled code */ }
+  def partition(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[scala.collection.Iterator[A], scala.collection.Iterator[A]] = { /* compiled code */ }
+  def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[scala.collection.Iterator[A], scala.collection.Iterator[A]] = { /* compiled code */ }
+  def dropWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.Iterator[A] = { /* compiled code */ }
+  def zip[B](that: scala.collection.Iterator[B]): scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  def padTo[A1 >: A](len: scala.Int, elem: A1): scala.collection.Iterator[A1] = { /* compiled code */ }
+  def zipWithIndex: scala.collection.Iterator[scala.Tuple2[A, scala.Int]] = { /* compiled code */ }
+  def zipAll[B, A1 >: A, B1 >: B](that: scala.collection.Iterator[B], thisElem: A1, thatElem: B1): scala.collection.Iterator[scala.Tuple2[A1, B1]] = { /* compiled code */ }
+  def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def contains(elem: scala.Any): scala.Boolean = { /* compiled code */ }
+  def find(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  def indexWhere(p: scala.Function1[A, scala.Boolean]): scala.Int = { /* compiled code */ }
+  def indexOf[B >: A](elem: B): scala.Int = { /* compiled code */ }
+  def buffered: scala.collection.BufferedIterator[A] = { /* compiled code */ }
+  class GroupedIterator[B >: A] extends scala.collection.AbstractIterator[scala.collection.Seq[B]] with scala.collection.Iterator[scala.collection.Seq[B]] {
+    def this(self: scala.collection.Iterator[A], size: scala.Int, step: scala.Int) = { /* compiled code */ }
+    def withPadding(x: => B): scala.collection.Iterator.GroupedIterator.type = { /* compiled code */ }
+    def withPartial(x: scala.Boolean): scala.collection.Iterator.GroupedIterator.type = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): scala.List[B] = { /* compiled code */ }
+  }
+  def grouped[B >: A](size: scala.Int): scala.collection.Iterator.GroupedIterator[B] = { /* compiled code */ }
+  def sliding[B >: A](size: scala.Int, step: scala.Int): scala.collection.Iterator.GroupedIterator[B] = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  def duplicate: scala.Tuple2[scala.collection.Iterator[A], scala.collection.Iterator[A]] = { /* compiled code */ }
+  def patch[B >: A](from: scala.Int, patchElems: scala.collection.Iterator[B], replaced: scala.Int): scala.collection.Iterator[B] = { /* compiled code */ }
+  def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  def sameElements(that: scala.collection.Iterator[_]): scala.Boolean = { /* compiled code */ }
+  def toTraversable: scala.collection.Traversable[A] = { /* compiled code */ }
+  def toIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def toStream: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}
+object Iterator extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def IteratorCanBuildFrom[A]: scala.collection.TraversableOnce.BufferedCanBuildFrom[A, scala.collection.Iterator] = { /* compiled code */ }
+  val empty: scala.collection.Iterator[scala.Nothing] = { /* compiled code */ }
+  def single[A](elem: A): scala.collection.Iterator[A] = { /* compiled code */ }
+  def apply[A](elems: A*): scala.collection.Iterator[A] = { /* compiled code */ }
+  def fill[A](len: scala.Int)(elem: => A): scala.collection.Iterator[A] = { /* compiled code */ }
+  def tabulate[A](end: scala.Int)(f: scala.Function1[scala.Int, A]): scala.collection.Iterator[A] = { /* compiled code */ }
+  def range(start: scala.Int, end: scala.Int): scala.collection.Iterator[scala.Int] = { /* compiled code */ }
+  def range(start: scala.Int, end: scala.Int, step: scala.Int): scala.collection.Iterator[scala.Int] = { /* compiled code */ }
+  def iterate[T](start: T)(f: scala.Function1[T, T]): scala.collection.Iterator[T] = { /* compiled code */ }
+  def from(start: scala.Int): scala.collection.Iterator[scala.Int] = { /* compiled code */ }
+  def from(start: scala.Int, step: scala.Int): scala.collection.Iterator[scala.Int] = { /* compiled code */ }
+  def continually[A](elem: => A): scala.collection.Iterator[A] = { /* compiled code */ }
+  private[scala] final class ConcatIterator[+A] extends scala.AnyRef with scala.collection.Iterator[A] {
+    def this(current: scala.collection.Iterator[A], initial: scala.Vector[scala.Function0[scala.collection.Iterator[A]]]) = { /* compiled code */ }
+    @scala.deprecated
+    def this(initial: scala.Vector[scala.Function0[scala.collection.Iterator[A]]]) = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): A = { /* compiled code */ }
+    override def ++[B >: A](that: => scala.collection.GenTraversableOnce[B]): scala.collection.Iterator[B] = { /* compiled code */ }
+  }
+  private[scala] final class JoinIterator[+A] extends scala.AnyRef with scala.collection.Iterator[A] {
+    def this(lhs: scala.collection.Iterator[A], that: => scala.collection.GenTraversableOnce[A]) = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): A = { /* compiled code */ }
+    override def ++[B >: A](that: => scala.collection.GenTraversableOnce[B]): scala.collection.Iterator.ConcatIterator[B] = { /* compiled code */ }
+  }
+}

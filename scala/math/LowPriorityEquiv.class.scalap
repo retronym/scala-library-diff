@@ -1,0 +1,6 @@
+package scala.math
+trait LowPriorityEquiv extends scala.AnyRef {
+ this: scala.math.Equiv.type =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  implicit def universalEquiv[T]: scala.math.Equiv[T] = { /* compiled code */ }
+}

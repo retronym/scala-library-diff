@@ -1,0 +1,10 @@
+package scala.collection.parallel
+trait AdaptiveWorkStealingForkJoinTasks extends scala.AnyRef with scala.collection.parallel.ForkJoinTasks with scala.collection.parallel.AdaptiveWorkStealingTasks {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  class WrappedTask[R, Tp] extends scala.concurrent.forkjoin.RecursiveAction with scala.collection.parallel.ForkJoinTasks.WrappedTask[R, Tp] with scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp] {
+    val body: scala.collection.parallel.Task[R, Tp] = { /* compiled code */ }
+    def this(body: scala.collection.parallel.Task[R, Tp]) = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp]] = { /* compiled code */ }
+  }
+  def newWrappedTask[R, Tp](b: scala.collection.parallel.Task[R, Tp]): scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks.WrappedTask[R, Tp] = { /* compiled code */ }
+}

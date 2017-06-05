@@ -1,0 +1,14 @@
+package scala
+@scala.annotation.implicitNotFound("No implicit view available from ${T1} => ${R}.")
+trait Function1[@scala.specialized -T1, @scala.specialized +R] extends scala.AnyRef {
+ this: scala.Function1[T1, R] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def apply(v1: T1): R
+  @scala.specialized
+  @scala.specialized
+  @scala.annotation.unspecialized
+  def compose[A](g: scala.Function1[A, T1]): scala.Function1[A, R] = { /* compiled code */ }
+  @scala.annotation.unspecialized
+  def andThen[A](g: scala.Function1[R, A]): scala.Function1[T1, A] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}

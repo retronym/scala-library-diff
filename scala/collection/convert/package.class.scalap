@@ -1,0 +1,10 @@
+package scala.collection
+package object convert extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val decorateAsJava: scala.AnyRef with scala.collection.convert.DecorateAsJava = { /* compiled code */ }
+  val decorateAsScala: scala.AnyRef with scala.collection.convert.DecorateAsScala = { /* compiled code */ }
+  val decorateAll: scala.AnyRef with scala.collection.convert.DecorateAsJava with scala.collection.convert.DecorateAsScala = { /* compiled code */ }
+  val wrapAsJava: scala.AnyRef with scala.collection.convert.WrapAsJava = { /* compiled code */ }
+  val wrapAsScala: scala.AnyRef with scala.collection.convert.WrapAsScala = { /* compiled code */ }
+  val wrapAll: scala.AnyRef with scala.collection.convert.WrapAsJava with scala.collection.convert.WrapAsScala = { /* compiled code */ }
+}

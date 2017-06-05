@@ -1,0 +1,6 @@
+package scala.collection.mutable
+trait ArrayLike[A, +Repr] extends scala.Any with scala.collection.mutable.IndexedSeqOptimized[A, Repr] {
+ this: scala.collection.mutable.ArrayLike[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def deep: scala.collection.IndexedSeq[scala.Any] = { /* compiled code */ }
+}

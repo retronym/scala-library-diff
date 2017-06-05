@@ -1,0 +1,17 @@
+package scala.collection.convert
+trait DecorateAsJava extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  implicit def asJavaIteratorConverter[A](i: scala.collection.Iterator[A]): scala.collection.convert.Decorators.AsJava[java.util.Iterator[A]] = { /* compiled code */ }
+  implicit def asJavaEnumerationConverter[A](i: scala.collection.Iterator[A]): scala.collection.convert.Decorators.AsJavaEnumeration[A] = { /* compiled code */ }
+  implicit def asJavaIterableConverter[A](i: scala.collection.Iterable[A]): scala.collection.convert.Decorators.AsJava[java.lang.Iterable[A]] = { /* compiled code */ }
+  implicit def asJavaCollectionConverter[A](i: scala.collection.Iterable[A]): scala.collection.convert.Decorators.AsJavaCollection[A] = { /* compiled code */ }
+  implicit def bufferAsJavaListConverter[A](b: scala.collection.mutable.Buffer[A]): scala.collection.convert.Decorators.AsJava[java.util.List[A]] = { /* compiled code */ }
+  implicit def mutableSeqAsJavaListConverter[A](b: scala.collection.mutable.Seq[A]): scala.collection.convert.Decorators.AsJava[java.util.List[A]] = { /* compiled code */ }
+  implicit def seqAsJavaListConverter[A](b: scala.collection.Seq[A]): scala.collection.convert.Decorators.AsJava[java.util.List[A]] = { /* compiled code */ }
+  implicit def mutableSetAsJavaSetConverter[A](s: scala.collection.mutable.Set[A]): scala.collection.convert.Decorators.AsJava[java.util.Set[A]] = { /* compiled code */ }
+  implicit def setAsJavaSetConverter[A](s: scala.collection.Set[A]): scala.collection.convert.Decorators.AsJava[java.util.Set[A]] = { /* compiled code */ }
+  implicit def mutableMapAsJavaMapConverter[A, B](m: scala.collection.mutable.Map[A, B]): scala.collection.convert.Decorators.AsJava[java.util.Map[A, B]] = { /* compiled code */ }
+  implicit def asJavaDictionaryConverter[A, B](m: scala.collection.mutable.Map[A, B]): scala.collection.convert.Decorators.AsJavaDictionary[A, B] = { /* compiled code */ }
+  implicit def mapAsJavaMapConverter[A, B](m: scala.collection.Map[A, B]): scala.collection.convert.Decorators.AsJava[java.util.Map[A, B]] = { /* compiled code */ }
+  implicit def mapAsJavaConcurrentMapConverter[A, B](m: scala.collection.concurrent.Map[A, B]): scala.collection.convert.Decorators.AsJava[java.util.concurrent.ConcurrentMap[A, B]] = { /* compiled code */ }
+}

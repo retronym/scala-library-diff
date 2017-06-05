@@ -1,0 +1,37 @@
+package scala.collection.mutable
+trait BufferLike[A, +This <: scala.collection.mutable.BufferLike[A, This] with scala.collection.mutable.Buffer[A]] extends scala.AnyRef with scala.collection.generic.Growable[A] with scala.collection.generic.Shrinkable[A] with scala.collection.script.Scriptable[A] with scala.collection.generic.Subtractable[A, This] with scala.collection.mutable.SeqLike[A, This] with scala.Cloneable {
+ this: This =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def apply(n: scala.Int): A
+  def update(n: scala.Int, newelem: A): scala.Unit
+  def length: scala.Int
+  def +=(elem: A): scala.collection.mutable.BufferLike.type
+  def clear(): scala.Unit
+  def +=:(elem: A): scala.collection.mutable.BufferLike.type
+  def insertAll(n: scala.Int, elems: scala.collection.Traversable[A]): scala.Unit
+  def remove(n: scala.Int): A
+  def remove(n: scala.Int, count: scala.Int): scala.Unit = { /* compiled code */ }
+  def -=(x: A): scala.collection.mutable.BufferLike.type = { /* compiled code */ }
+  def ++=:(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.BufferLike.type = { /* compiled code */ }
+  def append(elems: A*): scala.Unit = { /* compiled code */ }
+  def appendAll(xs: scala.collection.TraversableOnce[A]): scala.Unit = { /* compiled code */ }
+  def prepend(elems: A*): scala.Unit = { /* compiled code */ }
+  def prependAll(xs: scala.collection.TraversableOnce[A]): scala.Unit = { /* compiled code */ }
+  def insert(n: scala.Int, elems: A*): scala.Unit = { /* compiled code */ }
+  def trimStart(n: scala.Int): scala.Unit = { /* compiled code */ }
+  def trimEnd(n: scala.Int): scala.Unit = { /* compiled code */ }
+  @scala.deprecated("Scripting is deprecated.")
+  def <<(cmd: scala.collection.script.Message[A]): scala.Unit = { /* compiled code */ }
+  override def stringPrefix: scala.Predef.String = { /* compiled code */ }
+  @scala.deprecated("The returned sequence changes as this buffer is mutated. For an immutable copy, use, e.g., toList.")
+  def readOnly: scala.collection.Seq[A] = { /* compiled code */ }
+  @scala.annotation.migration("`++` creates a new buffer. Use `++=` to add an element from this buffer and return that buffer itself.")
+  def ++(xs: scala.collection.GenTraversableOnce[A]): This = { /* compiled code */ }
+  @scala.annotation.migration("`-` creates a new buffer. Use `-=` to remove an element from this buffer and return that buffer itself.")
+  override def -(elem: A): This = { /* compiled code */ }
+  @scala.annotation.migration("`-` creates a new buffer. Use `-=` to remove an element from this buffer and return that buffer itself.")
+  override def -(elem1: A, elem2: A, elems: A*): This = { /* compiled code */ }
+  @scala.annotation.migration("`--` creates a new buffer. Use `--=` to remove an element from this buffer and return that buffer itself.")
+  override def --(xs: scala.collection.GenTraversableOnce[A]): This = { /* compiled code */ }
+  override def clone(): This = { /* compiled code */ }
+}

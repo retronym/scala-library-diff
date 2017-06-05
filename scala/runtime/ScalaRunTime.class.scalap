@@ -1,0 +1,42 @@
+package scala.runtime
+object ScalaRunTime extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def isArray(x: scala.Any, atLevel: scala.Int): scala.Boolean = { /* compiled code */ }
+  def isValueClass(clazz: java.lang.Class[_]): scala.Boolean = { /* compiled code */ }
+  def isTuple(x: scala.Any): scala.Boolean = { /* compiled code */ }
+  def isAnyVal(x: scala.Any): scala.Boolean = { /* compiled code */ }
+  def drop[Repr](coll: Repr, num: scala.Int)(implicit traversable: scala.collection.generic.IsTraversableLike[Repr]): Repr = { /* compiled code */ }
+  def arrayClass(clazz: java.lang.Class[_]): java.lang.Class[_] = { /* compiled code */ }
+  def arrayElementClass(schematic: scala.Any): java.lang.Class[_] = { /* compiled code */ }
+  def anyValClass[T <: scala.AnyVal](value: T)(implicit evidence$1: scala.reflect.ClassTag[T]): java.lang.Class[T] = { /* compiled code */ }
+  def array_apply(xs: scala.AnyRef, idx: scala.Int): scala.Any = { /* compiled code */ }
+  def array_update(xs: scala.AnyRef, idx: scala.Int, value: scala.Any): scala.Unit = { /* compiled code */ }
+  def array_length(xs: scala.AnyRef): scala.Int = { /* compiled code */ }
+  def array_clone(xs: scala.AnyRef): scala.AnyRef = { /* compiled code */ }
+  def toObjectArray(src: scala.AnyRef): scala.Array[java.lang.Object] = { /* compiled code */ }
+  def toArray[T](xs: scala.collection.Seq[T]): scala.Array[scala.AnyRef] = { /* compiled code */ }
+  def ensureAccessible(m: java.lang.reflect.Method): java.lang.reflect.Method = { /* compiled code */ }
+  def checkInitialized[T <: scala.AnyRef](x: T): T = { /* compiled code */ }
+  def _toString(x: scala.Product): scala.Predef.String = { /* compiled code */ }
+  def _hashCode(x: scala.Product): scala.Int = { /* compiled code */ }
+  def typedProductIterator[T](x: scala.Product): scala.Iterator[T] = { /* compiled code */ }
+  @scala.inline
+  def inlinedEquals(x: java.lang.Object, y: java.lang.Object): scala.Boolean = { /* compiled code */ }
+  def _equals(x: scala.Product, y: scala.Any): scala.Boolean = { /* compiled code */ }
+  def hash(x: scala.Any): scala.Int = { /* compiled code */ }
+  def hash(dv: scala.Double): scala.Int = { /* compiled code */ }
+  def hash(fv: scala.Float): scala.Int = { /* compiled code */ }
+  def hash(lv: scala.Long): scala.Int = { /* compiled code */ }
+  def hash(x: java.lang.Number): scala.Int = { /* compiled code */ }
+  def hash(x: scala.Int): scala.Int = { /* compiled code */ }
+  def hash(x: scala.Short): scala.Int = { /* compiled code */ }
+  def hash(x: scala.Byte): scala.Int = { /* compiled code */ }
+  def hash(x: scala.Char): scala.Int = { /* compiled code */ }
+  def hash(x: scala.Boolean): scala.Int = { /* compiled code */ }
+  def hash(x: scala.Unit): scala.Int = { /* compiled code */ }
+  def sameElements(xs1: scala.collection.Seq[scala.Any], xs2: scala.collection.Seq[scala.Any]): scala.Boolean = { /* compiled code */ }
+  def stringOf(arg: scala.Any): scala.Predef.String = { /* compiled code */ }
+  def stringOf(arg: scala.Any, maxElements: scala.Int): scala.Predef.String = { /* compiled code */ }
+  def replStringOf(arg: scala.Any, maxElements: scala.Int): scala.Predef.String = { /* compiled code */ }
+  def box[T](clazz: java.lang.Class[T]): java.lang.Class[_] = { /* compiled code */ }
+}

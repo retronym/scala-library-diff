@@ -1,0 +1,7 @@
+package scala.util
+object Properties extends scala.AnyRef with scala.util.PropertiesTrait {
+  def this() = { /* compiled code */ }
+  protected def propCategory: java.lang.String = { /* compiled code */ }
+  protected def pickJarBasedOn: java.lang.Class[scala.Option[_]] = { /* compiled code */ }
+  val ScalaCompilerVersion: java.util.jar.Attributes.Name = { /* compiled code */ }
+}

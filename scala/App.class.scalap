@@ -1,0 +1,11 @@
+package scala
+trait App extends scala.AnyRef with scala.DelayedInit {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  val executionStart: scala.Long = { /* compiled code */ }
+  @scala.deprecatedOverriding("args should not be overridden")
+  protected def args: scala.Array[scala.Predef.String] = { /* compiled code */ }
+  @scala.deprecated("The delayedInit mechanism will disappear.")
+  override def delayedInit(body: => scala.Unit): scala.Unit = { /* compiled code */ }
+  @scala.deprecatedOverriding("main should not be overridden")
+  def main(args: scala.Array[scala.Predef.String]): scala.Unit = { /* compiled code */ }
+}

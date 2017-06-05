@@ -1,0 +1,12 @@
+package scala.runtime
+trait FractionalProxy[T] extends scala.Any with scala.runtime.ScalaNumberProxy[T] with scala.runtime.RangedProxy[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected implicit def num: scala.Fractional[T]
+  protected implicit def integralNum: scala.Integral[T]
+  type ResultWithoutStep = scala.collection.immutable.Range.Partial[T, scala.collection.immutable.NumericRange[T]]
+  def isWhole(): scala.Boolean = { /* compiled code */ }
+  def until(end: T): ResultWithoutStep = { /* compiled code */ }
+  def until(end: T, step: T): scala.collection.immutable.NumericRange.Exclusive[T] = { /* compiled code */ }
+  def to(end: T): ResultWithoutStep = { /* compiled code */ }
+  def to(end: T, step: T): scala.collection.immutable.NumericRange.Inclusive[T] = { /* compiled code */ }
+}

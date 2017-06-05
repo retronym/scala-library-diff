@@ -1,0 +1,5 @@
+package scala
+@scala.annotation.meta.param
+class deprecatedName extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(name: scala.Symbol) = { /* compiled code */ }
+}

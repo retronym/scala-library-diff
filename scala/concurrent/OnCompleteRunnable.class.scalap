@@ -1,0 +1,4 @@
+package scala.concurrent
+trait OnCompleteRunnable extends scala.AnyRef {
+ this: scala.concurrent.OnCompleteRunnable with java.lang.Runnable =>
+}

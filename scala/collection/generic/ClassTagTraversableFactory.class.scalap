@@ -1,0 +1,9 @@
+package scala.collection.generic
+abstract class ClassTagTraversableFactory[CC[X] <: scala.collection.Traversable[X] with scala.collection.generic.GenericClassTagTraversableTemplate[X, CC]] extends scala.collection.generic.GenericClassTagCompanion[CC] {
+  def this() = { /* compiled code */ }
+  class GenericCanBuildFrom[A] extends scala.AnyRef with scala.collection.generic.CanBuildFrom[CC[_], A, CC[A]] {
+    def this()(implicit tag: scala.reflect.ClassTag[A]) = { /* compiled code */ }
+    def apply(from: CC[_]): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+    def apply(): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+  }
+}

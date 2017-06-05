@@ -1,0 +1,11 @@
+package scala.ref
+trait ReferenceWrapper[+T <: scala.AnyRef] extends scala.AnyRef with scala.ref.Reference[T] with scala.Proxy {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  val underlying: java.lang.ref.Reference[_]
+  override def get: scala.Option[T] = { /* compiled code */ }
+  def apply(): T = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def enqueue(): scala.Boolean = { /* compiled code */ }
+  def isEnqueued(): scala.Boolean = { /* compiled code */ }
+  def self: java.lang.ref.Reference[_] = { /* compiled code */ }
+}

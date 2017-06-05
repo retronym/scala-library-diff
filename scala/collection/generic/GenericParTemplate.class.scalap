@@ -1,0 +1,7 @@
+package scala.collection.generic
+trait GenericParTemplate[+A, +CC[X] <: scala.collection.parallel.ParIterable[X]] extends scala.AnyRef with scala.collection.generic.GenericTraversableTemplate[A, CC] with scala.collection.generic.HasNewCombiner[A, CC[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def companion: scala.collection.generic.GenericCompanion[CC] with scala.collection.generic.GenericParCompanion[CC]
+  override def genericBuilder[B]: scala.collection.parallel.Combiner[B, CC[B]] = { /* compiled code */ }
+  def genericCombiner[B]: scala.collection.parallel.Combiner[B, CC[B]] = { /* compiled code */ }
+}

@@ -1,0 +1,50 @@
+package scala.collection.generic
+@scala.deprecated("Forwarding is inherently unreliable since it is not automated and new methods can be forgotten.")
+trait TraversableForwarder[+A] extends scala.AnyRef with scala.collection.Traversable[A] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def underlying: scala.collection.Traversable[A]
+  override def foreach[B](f: scala.Function1[A, B]): scala.Unit = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def nonEmpty: scala.Boolean = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def hasDefiniteSize: scala.Boolean = { /* compiled code */ }
+  override def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def count(p: scala.Function1[A, scala.Boolean]): scala.Int = { /* compiled code */ }
+  override def find(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  override def foldLeft[B](z: B)(op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def /:[B](z: B)(op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def foldRight[B](z: B)(op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def :\[B](z: B)(op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def reduceLeft[B >: A](op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def reduceLeftOption[B >: A](op: scala.Function2[B, A, B]): scala.Option[B] = { /* compiled code */ }
+  override def reduceRight[B >: A](op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def reduceRightOption[B >: A](op: scala.Function2[A, B, B]): scala.Option[B] = { /* compiled code */ }
+  override def sum[B >: A](implicit num: scala.Numeric[B]): B = { /* compiled code */ }
+  override def product[B >: A](implicit num: scala.Numeric[B]): B = { /* compiled code */ }
+  override def min[B >: A](implicit cmp: scala.Ordering[B]): A = { /* compiled code */ }
+  override def max[B >: A](implicit cmp: scala.Ordering[B]): A = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def headOption: scala.Option[A] = { /* compiled code */ }
+  override def last: A = { /* compiled code */ }
+  override def lastOption: scala.Option[A] = { /* compiled code */ }
+  override def copyToBuffer[B >: A](dest: scala.collection.mutable.Buffer[B]): scala.Unit = { /* compiled code */ }
+  override def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  override def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int): scala.Unit = { /* compiled code */ }
+  override def copyToArray[B >: A](xs: scala.Array[B]): scala.Unit = { /* compiled code */ }
+  override def toArray[B >: A](implicit evidence$1: scala.reflect.ClassTag[B]): scala.Array[B] = { /* compiled code */ }
+  override def toList: scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def toIterable: scala.collection.Iterable[A] = { /* compiled code */ }
+  override def toSeq: scala.collection.Seq[A] = { /* compiled code */ }
+  override def toIndexedSeq: scala.collection.immutable.IndexedSeq[A] = { /* compiled code */ }
+  override def toBuffer[B >: A]: scala.collection.mutable.Buffer[B] = { /* compiled code */ }
+  override def toStream: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def toSet[B >: A]: scala.collection.immutable.Set[B] = { /* compiled code */ }
+  override def toMap[T, U](implicit ev: scala.Predef.<:<[A, scala.Tuple2[T, U]]): scala.collection.immutable.Map[T, U] = { /* compiled code */ }
+  override def mkString(start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  override def mkString(sep: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  override def mkString: scala.Predef.String = { /* compiled code */ }
+  override def addString(b: scala.collection.mutable.StringBuilder, start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  override def addString(b: scala.collection.mutable.StringBuilder, sep: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  override def addString(b: scala.collection.mutable.StringBuilder): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+}

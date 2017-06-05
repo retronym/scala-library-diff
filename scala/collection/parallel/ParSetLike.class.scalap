@@ -1,0 +1,8 @@
+package scala.collection.parallel
+trait ParSetLike[T, +Repr <: scala.collection.parallel.ParSetLike[T, Repr, Sequential] with scala.collection.parallel.ParSet[T], +Sequential <: scala.collection.Set[T] with scala.collection.SetLike[T, Sequential]] extends scala.AnyRef with scala.collection.GenSetLike[T, Repr] with scala.collection.parallel.ParIterableLike[T, Repr, Sequential] {
+ this: scala.collection.parallel.ParSetLike[T, Repr, Sequential] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: Repr
+  def union(that: scala.collection.GenSet[T]): Repr = { /* compiled code */ }
+  def diff(that: scala.collection.GenSet[T]): Repr = { /* compiled code */ }
+}

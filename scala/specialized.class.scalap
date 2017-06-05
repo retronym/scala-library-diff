@@ -1,0 +1,6 @@
+package scala
+class specialized extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(group: scala.Specializable.SpecializedGroup) = { /* compiled code */ }
+  def this(types: scala.Specializable*) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+}

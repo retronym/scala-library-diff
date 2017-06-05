@@ -1,0 +1,19 @@
+package scala
+trait PartialFunction[-A, +B] extends scala.AnyRef with scala.Function1[A, B] {
+ this: scala.PartialFunction[A, B] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def isDefinedAt(x: A): scala.Boolean
+  def orElse[A1 <: A, B1 >: B](that: scala.PartialFunction[A1, B1]): scala.PartialFunction[A1, B1] = { /* compiled code */ }
+  override def andThen[C](k: scala.Function1[B, C]): scala.PartialFunction[A, C] = { /* compiled code */ }
+  def lift: scala.Function1[A, scala.Option[B]] = { /* compiled code */ }
+  def applyOrElse[A1 <: A, B1 >: B](x: A1, default: scala.Function1[A1, B1]): B1 = { /* compiled code */ }
+  def runWith[U](action: scala.Function1[B, U]): scala.Function1[A, scala.Boolean] = { /* compiled code */ }
+}
+object PartialFunction extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  private[scala] def unlifted[A, B](f: scala.Function1[A, scala.Option[B]]): scala.PartialFunction[A, B] = { /* compiled code */ }
+  def apply[A, B](f: scala.Function1[A, B]): scala.PartialFunction[A, B] = { /* compiled code */ }
+  def empty[A, B]: scala.PartialFunction[A, B] = { /* compiled code */ }
+  def cond[T](x: T)(pf: scala.PartialFunction[T, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def condOpt[T, U](x: T)(pf: scala.PartialFunction[T, U]): scala.Option[U] = { /* compiled code */ }
+}

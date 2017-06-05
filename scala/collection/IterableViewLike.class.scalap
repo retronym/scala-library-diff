@@ -1,0 +1,82 @@
+package scala.collection
+trait IterableViewLike[+A, +Coll, +This <: scala.collection.IterableView[A, Coll] with scala.collection.IterableViewLike[A, Coll, This]] extends scala.AnyRef with scala.collection.Iterable[A] with scala.collection.IterableLike[A, This] with scala.collection.TraversableView[A, Coll] with scala.collection.TraversableViewLike[A, Coll, This] {
+ this: scala.collection.IterableViewLike[A, Coll, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  private[collection] abstract class AbstractTransformed[+B] extends scala.AnyRef with scala.collection.Iterable[B] with scala.collection.TraversableViewLike.Transformed[B] with scala.collection.IterableViewLike.Transformed[B] {
+    def this() = { /* compiled code */ }
+  }
+  trait Transformed[+B] extends scala.AnyRef with scala.collection.IterableView[B, Coll] with scala.collection.TraversableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[B]
+    override def foreach[U](f: scala.Function1[B, U]): scala.Unit = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def isEmpty: scala.Boolean = { /* compiled code */ }
+  }
+  trait EmptyView extends scala.AnyRef with scala.collection.IterableViewLike.Transformed[scala.Nothing] with scala.collection.TraversableViewLike.EmptyView {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    final def iterator: scala.collection.Iterator[scala.Nothing] = { /* compiled code */ }
+  }
+  trait Forced[B] extends scala.AnyRef with scala.collection.TraversableViewLike.Forced[B] with scala.collection.IterableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  }
+  trait Sliced extends scala.AnyRef with scala.collection.TraversableViewLike.Sliced with scala.collection.IterableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  }
+  trait Mapped[B] extends scala.AnyRef with scala.collection.TraversableViewLike.Mapped[B] with scala.collection.IterableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  }
+  trait FlatMapped[B] extends scala.AnyRef with scala.collection.TraversableViewLike.FlatMapped[B] with scala.collection.IterableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  }
+  trait Appended[B >: A] extends scala.AnyRef with scala.collection.TraversableViewLike.Appended[B] with scala.collection.IterableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  }
+  trait Filtered extends scala.AnyRef with scala.collection.TraversableViewLike.Filtered with scala.collection.IterableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  }
+  trait TakenWhile extends scala.AnyRef with scala.collection.TraversableViewLike.TakenWhile with scala.collection.IterableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  }
+  trait DroppedWhile extends scala.AnyRef with scala.collection.TraversableViewLike.DroppedWhile with scala.collection.IterableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  }
+  trait Zipped[B] extends scala.AnyRef with scala.collection.IterableViewLike.Transformed[scala.Tuple2[A, B]] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  }
+  trait ZippedAll[A1 >: A, B] extends scala.AnyRef with scala.collection.IterableViewLike.Transformed[scala.Tuple2[A1, B]] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[A1, B]] = { /* compiled code */ }
+  }
+  protected def newZipped[B](that: scala.collection.GenIterable[B]): scala.collection.IterableViewLike.Transformed[scala.Tuple2[A, B]] = { /* compiled code */ }
+  protected def newZippedAll[A1 >: A, B](that: scala.collection.GenIterable[B], _thisElem: A1, _thatElem: B): scala.collection.IterableViewLike.Transformed[scala.Tuple2[A1, B]] = { /* compiled code */ }
+  protected override def newForced[B](xs: => scala.collection.GenSeq[B]): scala.collection.IterableViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newAppended[B >: A](that: scala.collection.GenTraversable[B]): scala.collection.IterableViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newMapped[B](f: scala.Function1[A, B]): scala.collection.IterableViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newFlatMapped[B](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): scala.collection.IterableViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newFiltered(p: scala.Function1[A, scala.Boolean]): scala.collection.IterableViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newSliced(_endpoints: scala.collection.generic.SliceInterval): scala.collection.IterableViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newDroppedWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.IterableViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newTakenWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.IterableViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newTaken(n: scala.Int): scala.collection.IterableViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newDropped(n: scala.Int): scala.collection.IterableViewLike.Transformed[A] = { /* compiled code */ }
+  override def drop(n: scala.Int): This = { /* compiled code */ }
+  override def take(n: scala.Int): This = { /* compiled code */ }
+  override def zip[A1 >: A, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[This, scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  override def zipWithIndex[A1 >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[This, scala.Tuple2[A1, scala.Int], That]): That = { /* compiled code */ }
+  override def zipAll[B, A1 >: A, That](that: scala.collection.GenIterable[B], thisElem: A1, thatElem: B)(implicit bf: scala.collection.generic.CanBuildFrom[This, scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  override def grouped(size: scala.Int): scala.collection.Iterator[This] = { /* compiled code */ }
+  override def sliding(size: scala.Int, step: scala.Int): scala.collection.Iterator[This] = { /* compiled code */ }
+  override def sliding(size: scala.Int): scala.collection.Iterator[This] = { /* compiled code */ }
+  override def dropRight(n: scala.Int): This = { /* compiled code */ }
+  override def takeRight(n: scala.Int): This = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}

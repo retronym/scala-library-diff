@@ -1,0 +1,5 @@
+package scala.collection.script
+@scala.deprecated("Scripting is deprecated.")
+sealed abstract class Location extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

@@ -1,0 +1,6 @@
+package scala.collection.generic
+trait GenericParMapTemplate[K, +V, +CC[X, Y] <: scala.collection.parallel.ParMap[X, Y]] extends scala.AnyRef with scala.collection.generic.GenericParTemplate[scala.Tuple2[K, V], scala.collection.parallel.ParIterable] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def mapCompanion: scala.collection.generic.GenericParMapCompanion[CC]
+  def genericMapCombiner[P, Q]: scala.collection.parallel.Combiner[scala.Tuple2[P, Q], CC[P, Q]] = { /* compiled code */ }
+}

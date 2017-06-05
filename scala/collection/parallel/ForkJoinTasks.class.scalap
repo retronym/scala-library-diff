@@ -1,0 +1,20 @@
+package scala.collection.parallel
+trait ForkJoinTasks extends scala.AnyRef with scala.collection.parallel.Tasks with scala.collection.parallel.HavingForkJoinPool {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  trait WrappedTask[R, +Tp] extends scala.concurrent.forkjoin.RecursiveAction with scala.collection.parallel.Tasks.WrappedTask[R, Tp] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def start(): scala.Unit = { /* compiled code */ }
+    def sync(): scala.Unit = { /* compiled code */ }
+    def tryCancel(): scala.Boolean = { /* compiled code */ }
+  }
+  protected def newWrappedTask[R, Tp](b: scala.collection.parallel.Task[R, Tp]): scala.collection.parallel.ForkJoinTasks.WrappedTask[R, Tp]
+  def forkJoinPool: scala.concurrent.forkjoin.ForkJoinPool = { /* compiled code */ }
+  val environment: scala.concurrent.forkjoin.ForkJoinPool
+  def execute[R, Tp](task: scala.collection.parallel.Task[R, Tp]): scala.Function0[R] = { /* compiled code */ }
+  def executeAndWaitResult[R, Tp](task: scala.collection.parallel.Task[R, Tp]): R = { /* compiled code */ }
+  def parallelismLevel: scala.Int = { /* compiled code */ }
+}
+object ForkJoinTasks extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val defaultForkJoinPool: scala.concurrent.forkjoin.ForkJoinPool = { /* compiled code */ }
+}

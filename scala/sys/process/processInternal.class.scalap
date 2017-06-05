@@ -1,0 +1,18 @@
+package scala.sys.process
+private[process] object processInternal extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final val processDebug: scala.Boolean = { /* compiled code */ }
+  type =?>[-A, +B] = scala.PartialFunction[A, B]
+  type Closeable = java.io.Closeable
+  type File = java.io.File
+  type IOException = java.io.IOException
+  type InputStream = java.io.InputStream
+  type JProcess = java.lang.Process
+  type JProcessBuilder = java.lang.ProcessBuilder
+  type OutputStream = java.io.OutputStream
+  type SyncVar[T] = scala.concurrent.SyncVar[T]
+  type URL = java.net.URL
+  def onInterrupt[T](handler: => T): =?>[scala.Throwable, T] = { /* compiled code */ }
+  def ioFailure[T](handler: scala.Function1[IOException, T]): =?>[scala.Throwable, T] = { /* compiled code */ }
+  def dbg(msgs: scala.Any*): scala.Unit = { /* compiled code */ }
+}

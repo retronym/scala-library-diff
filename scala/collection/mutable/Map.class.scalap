@@ -1,0 +1,24 @@
+package scala.collection.mutable
+trait Map[A, B] extends scala.AnyRef with scala.collection.mutable.Iterable[scala.Tuple2[A, B]] with scala.collection.Map[A, B] with scala.collection.mutable.MapLike[A, B, scala.collection.mutable.Map[A, B]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def empty: scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+  override def seq: scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+  def withDefault(d: scala.Function1[A, B]): scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+  def withDefaultValue(d: B): scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+}
+object Map extends scala.collection.generic.MutableMapFactory[scala.collection.mutable.Map] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.mutable.Map[A, B]] = { /* compiled code */ }
+  def empty[A, B]: scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+  class WithDefault[A, B] extends scala.collection.Map.WithDefault[A, B] with scala.collection.mutable.Map[A, B] {
+    def this(underlying: scala.collection.mutable.Map[A, B], d: scala.Function1[A, B]) = { /* compiled code */ }
+    override def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.Map.WithDefault.type = { /* compiled code */ }
+    def -=(key: A): scala.collection.mutable.Map.WithDefault.type = { /* compiled code */ }
+    override def empty: scala.collection.mutable.Map.WithDefault[A, B] = { /* compiled code */ }
+    override def updated[B1 >: B](key: A, value: B1): scala.collection.mutable.Map.WithDefault[A, B1] = { /* compiled code */ }
+    override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.mutable.Map.WithDefault[A, B1] = { /* compiled code */ }
+    override def -(key: A): scala.collection.mutable.Map.WithDefault[A, B] = { /* compiled code */ }
+    override def withDefault(d: scala.Function1[A, B]): scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+    override def withDefaultValue(d: B): scala.collection.mutable.Map[A, B] = { /* compiled code */ }
+  }
+}

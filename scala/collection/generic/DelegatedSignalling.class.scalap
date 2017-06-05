@@ -1,0 +1,12 @@
+package scala.collection.generic
+trait DelegatedSignalling extends scala.AnyRef with scala.collection.generic.Signalling {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  var signalDelegate: scala.collection.generic.Signalling
+  def isAborted: scala.Boolean = { /* compiled code */ }
+  def abort(): scala.Unit = { /* compiled code */ }
+  def indexFlag: scala.Int = { /* compiled code */ }
+  def setIndexFlag(f: scala.Int): scala.Unit = { /* compiled code */ }
+  def setIndexFlagIfGreater(f: scala.Int): scala.Unit = { /* compiled code */ }
+  def setIndexFlagIfLesser(f: scala.Int): scala.Unit = { /* compiled code */ }
+  def tag: scala.Int = { /* compiled code */ }
+}

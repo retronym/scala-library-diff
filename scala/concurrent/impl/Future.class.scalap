@@ -1,0 +1,10 @@
+package scala.concurrent.impl
+private[concurrent] object Future extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  class PromiseCompletingRunnable[T] extends java.lang.Object with java.lang.Runnable {
+    def this(body: => T) = { /* compiled code */ }
+    val promise: scala.concurrent.impl.Promise.DefaultPromise[T] = { /* compiled code */ }
+    override def run(): scala.Unit = { /* compiled code */ }
+  }
+  def apply[T](body: => T)(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[T] = { /* compiled code */ }
+}

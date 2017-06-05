@@ -1,0 +1,9 @@
+package scala.collection.generic
+trait Subtractable[A, +Repr <: scala.collection.generic.Subtractable[A, Repr]] extends scala.AnyRef {
+ this: scala.collection.generic.Subtractable[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def repr: Repr
+  def -(elem: A): Repr
+  def -(elem1: A, elem2: A, elems: A*): Repr = { /* compiled code */ }
+  def --(xs: scala.collection.GenTraversableOnce[A]): Repr = { /* compiled code */ }
+}

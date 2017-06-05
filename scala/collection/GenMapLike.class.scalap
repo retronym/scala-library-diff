@@ -1,0 +1,22 @@
+package scala.collection
+trait GenMapLike[A, +B, +Repr] extends scala.AnyRef with scala.collection.GenIterableLike[scala.Tuple2[A, B], Repr] with scala.Equals with scala.collection.Parallelizable[scala.Tuple2[A, B], scala.collection.parallel.ParMap[A, B]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def default(key: A): B
+  def get(key: A): scala.Option[B]
+  def apply(key: A): B
+  def seq: scala.collection.Map[A, B]
+  def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.GenMap[A, B1]
+  def -(key: A): Repr
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  def getOrElse[B1 >: B](key: A, default: => B1): B1
+  def contains(key: A): scala.Boolean
+  def isDefinedAt(key: A): scala.Boolean
+  def keySet: scala.collection.GenSet[A]
+  def keys: scala.collection.GenIterable[A]
+  def values: scala.collection.GenIterable[B]
+  def keysIterator: scala.collection.Iterator[A]
+  def valuesIterator: scala.collection.Iterator[B]
+  def filterKeys(p: scala.Function1[A, scala.Boolean]): scala.collection.GenMap[A, B]
+  def mapValues[C](f: scala.Function1[B, C]): scala.collection.GenMap[A, C]
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+}

@@ -1,0 +1,10 @@
+package scala.collection.mutable
+class WeakHashMap[A, B] extends scala.collection.convert.Wrappers.JMapWrapper[A, B] with scala.collection.convert.Wrappers.JMapWrapperLike[A, B, scala.collection.mutable.WeakHashMap[A, B]] {
+  def this() = { /* compiled code */ }
+  override def empty: scala.collection.mutable.WeakHashMap[A, B] = { /* compiled code */ }
+}
+object WeakHashMap extends scala.collection.generic.MutableMapFactory[scala.collection.mutable.WeakHashMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.mutable.WeakHashMap[A, B]] = { /* compiled code */ }
+  def empty[A, B]: scala.collection.mutable.WeakHashMap[A, B] = { /* compiled code */ }
+}

@@ -1,0 +1,5 @@
+package scala.collection.generic
+abstract class MutableSetFactory[CC[X] <: scala.collection.mutable.Set[X] with scala.collection.mutable.SetLike[X, CC[X]]] extends scala.collection.generic.SetFactory[CC] {
+  def this() = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+}

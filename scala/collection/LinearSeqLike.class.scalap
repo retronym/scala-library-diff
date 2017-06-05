@@ -1,0 +1,10 @@
+package scala.collection
+trait LinearSeqLike[+A, +Repr <: scala.collection.LinearSeqLike[A, Repr]] extends scala.AnyRef with scala.collection.SeqLike[A, Repr] {
+ this: Repr =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def seq: scala.collection.LinearSeq[A]
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  final override def corresponds[B](that: scala.collection.GenSeq[B])(p: scala.Function2[A, B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+}

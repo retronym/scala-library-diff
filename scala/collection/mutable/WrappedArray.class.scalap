@@ -1,0 +1,102 @@
+package scala.collection.mutable
+abstract class WrappedArray[T] extends scala.collection.mutable.AbstractSeq[T] with scala.collection.mutable.IndexedSeq[T] with scala.collection.mutable.ArrayLike[T, scala.collection.mutable.WrappedArray[T]] with scala.collection.CustomParallelizable[T, scala.collection.parallel.mutable.ParArray[T]] {
+  def this() = { /* compiled code */ }
+  def elemTag: scala.reflect.ClassTag[T]
+  @scala.deprecated("use elemTag instead")
+  def elemManifest: scala.Predef.ClassManifest[T] = { /* compiled code */ }
+  def length: scala.Int
+  def apply(index: scala.Int): T
+  def update(index: scala.Int, elem: T): scala.Unit
+  def array: scala.Array[T]
+  override def par: scala.collection.parallel.mutable.ParArray[T] = { /* compiled code */ }
+  override def toArray[U >: T](implicit evidence$1: scala.reflect.ClassTag[U]): scala.Array[U] = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+}
+object WrappedArray extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final class ofRef[T <: scala.AnyRef] extends scala.collection.mutable.WrappedArray[T] with scala.Serializable {
+    val array: scala.Array[T] = { /* compiled code */ }
+    def this(array: scala.Array[T]) = { /* compiled code */ }
+    val elemTag: scala.reflect.ClassTag[T] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): T = { /* compiled code */ }
+    def update(index: scala.Int, elem: T): scala.Unit = { /* compiled code */ }
+  }
+  def empty[T <: scala.AnyRef]: scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+  def make[T](x: scala.AnyRef): scala.collection.mutable.WrappedArray[T] = { /* compiled code */ }
+  implicit def canBuildFrom[T](implicit m: scala.reflect.ClassTag[T]): scala.collection.generic.CanBuildFrom[scala.collection.mutable.WrappedArray[_], T, scala.collection.mutable.WrappedArray[T]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.IndexedSeq[A]] = { /* compiled code */ }
+  final class ofByte extends scala.collection.mutable.WrappedArray[scala.Byte] with scala.Serializable {
+    val array: scala.Array[scala.Byte] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Byte]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Byte] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Byte = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Byte): scala.Unit = { /* compiled code */ }
+  }
+  final class ofShort extends scala.collection.mutable.WrappedArray[scala.Short] with scala.Serializable {
+    val array: scala.Array[scala.Short] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Short]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Short] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Short = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Short): scala.Unit = { /* compiled code */ }
+  }
+  final class ofChar extends scala.collection.mutable.WrappedArray[scala.Char] with scala.Serializable {
+    val array: scala.Array[scala.Char] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Char]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Char] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Char = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Char): scala.Unit = { /* compiled code */ }
+  }
+  final class ofInt extends scala.collection.mutable.WrappedArray[scala.Int] with scala.Serializable {
+    val array: scala.Array[scala.Int] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Int]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Int] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Int = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Int): scala.Unit = { /* compiled code */ }
+  }
+  final class ofLong extends scala.collection.mutable.WrappedArray[scala.Long] with scala.Serializable {
+    val array: scala.Array[scala.Long] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Long]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Long] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Long = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Long): scala.Unit = { /* compiled code */ }
+  }
+  final class ofFloat extends scala.collection.mutable.WrappedArray[scala.Float] with scala.Serializable {
+    val array: scala.Array[scala.Float] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Float]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Float] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Float = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Float): scala.Unit = { /* compiled code */ }
+  }
+  final class ofDouble extends scala.collection.mutable.WrappedArray[scala.Double] with scala.Serializable {
+    val array: scala.Array[scala.Double] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Double]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Double] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Double = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Double): scala.Unit = { /* compiled code */ }
+  }
+  final class ofBoolean extends scala.collection.mutable.WrappedArray[scala.Boolean] with scala.Serializable {
+    val array: scala.Array[scala.Boolean] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Boolean]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Boolean] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Boolean = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Boolean): scala.Unit = { /* compiled code */ }
+  }
+  final class ofUnit extends scala.collection.mutable.WrappedArray[scala.Unit] with scala.Serializable {
+    val array: scala.Array[scala.Unit] = { /* compiled code */ }
+    def this(array: scala.Array[scala.Unit]) = { /* compiled code */ }
+    def elemTag: scala.reflect.ClassTag[scala.Unit] = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(index: scala.Int): scala.Unit = { /* compiled code */ }
+    def update(index: scala.Int, elem: scala.Unit): scala.Unit = { /* compiled code */ }
+  }
+}

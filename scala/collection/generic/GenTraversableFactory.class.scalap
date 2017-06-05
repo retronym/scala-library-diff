@@ -1,0 +1,24 @@
+package scala.collection.generic
+abstract class GenTraversableFactory[CC[X] <: scala.collection.GenTraversable[X] with scala.collection.generic.GenericTraversableTemplate[X, CC]] extends scala.collection.generic.GenericCompanion[CC] {
+  def this() = { /* compiled code */ }
+  class GenericCanBuildFrom[A] extends scala.AnyRef with scala.collection.generic.CanBuildFrom[CC[_], A, CC[A]] {
+    def this() = { /* compiled code */ }
+    def apply(from: scala.collection.generic.GenericCompanion.Coll): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+    def apply(): scala.collection.mutable.Builder[A, CC[A]] = { /* compiled code */ }
+  }
+  def ReusableCBF: scala.collection.generic.GenTraversableFactory.GenericCanBuildFrom[scala.Nothing] = { /* compiled code */ }
+  def concat[A](xss: scala.collection.Traversable[A]*): CC[A] = { /* compiled code */ }
+  def fill[A](n: scala.Int)(elem: => A): CC[A] = { /* compiled code */ }
+  def fill[A](n1: scala.Int, n2: scala.Int)(elem: => A): CC[CC[A]] = { /* compiled code */ }
+  def fill[A](n1: scala.Int, n2: scala.Int, n3: scala.Int)(elem: => A): CC[CC[CC[A]]] = { /* compiled code */ }
+  def fill[A](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int)(elem: => A): CC[CC[CC[CC[A]]]] = { /* compiled code */ }
+  def fill[A](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int, n5: scala.Int)(elem: => A): CC[CC[CC[CC[CC[A]]]]] = { /* compiled code */ }
+  def tabulate[A](n: scala.Int)(f: scala.Function1[scala.Int, A]): CC[A] = { /* compiled code */ }
+  def tabulate[A](n1: scala.Int, n2: scala.Int)(f: scala.Function2[scala.Int, scala.Int, A]): CC[CC[A]] = { /* compiled code */ }
+  def tabulate[A](n1: scala.Int, n2: scala.Int, n3: scala.Int)(f: scala.Function3[scala.Int, scala.Int, scala.Int, A]): CC[CC[CC[A]]] = { /* compiled code */ }
+  def tabulate[A](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int)(f: scala.Function4[scala.Int, scala.Int, scala.Int, scala.Int, A]): CC[CC[CC[CC[A]]]] = { /* compiled code */ }
+  def tabulate[A](n1: scala.Int, n2: scala.Int, n3: scala.Int, n4: scala.Int, n5: scala.Int)(f: scala.Function5[scala.Int, scala.Int, scala.Int, scala.Int, scala.Int, A]): CC[CC[CC[CC[CC[A]]]]] = { /* compiled code */ }
+  def range[T](start: T, end: T)(implicit evidence$1: scala.Integral[T]): CC[T] = { /* compiled code */ }
+  def range[T](start: T, end: T, step: T)(implicit evidence$2: scala.Integral[T]): CC[T] = { /* compiled code */ }
+  def iterate[A](start: A, len: scala.Int)(f: scala.Function1[A, A]): CC[A] = { /* compiled code */ }
+}

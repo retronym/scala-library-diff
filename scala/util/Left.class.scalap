@@ -1,0 +1,21 @@
+package scala.util
+final case class Left[+A, +B](a: A) extends scala.util.Either[A, B] with scala.Product with scala.Serializable {
+  val a: A = { /* compiled code */ }
+  def isLeft: scala.Boolean = { /* compiled code */ }
+  def isRight: scala.Boolean = { /* compiled code */ }
+  def copy[A, B](a: A): scala.util.Left[A, B] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Left extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[A, B](a: A): scala.util.Left[A, B] = { /* compiled code */ }
+  def unapply[A, B](x$0: scala.util.Left[A, B]): scala.Option[A] = { /* compiled code */ }
+}

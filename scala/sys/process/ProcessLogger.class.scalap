@@ -1,0 +1,12 @@
+package scala.sys.process
+trait ProcessLogger extends scala.AnyRef {
+  def out(s: => scala.Predef.String): scala.Unit
+  def err(s: => scala.Predef.String): scala.Unit
+  def buffer[T](f: => T): T
+}
+object ProcessLogger extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply(file: java.io.File): scala.sys.process.FileProcessLogger = { /* compiled code */ }
+  def apply(fn: scala.Function1[scala.Predef.String, scala.Unit]): scala.sys.process.ProcessLogger = { /* compiled code */ }
+  def apply(fout: scala.Function1[scala.Predef.String, scala.Unit], ferr: scala.Function1[scala.Predef.String, scala.Unit]): scala.sys.process.ProcessLogger = { /* compiled code */ }
+}

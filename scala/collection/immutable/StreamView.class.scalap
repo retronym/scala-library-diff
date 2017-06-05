@@ -1,0 +1,3 @@
+package scala.collection.immutable
+trait StreamView[+A, +Coll] extends scala.AnyRef with scala.collection.immutable.StreamViewLike[A, Coll, scala.collection.immutable.StreamView[A, Coll]] {
+}

@@ -1,0 +1,43 @@
+package scala.collection.immutable
+abstract class NumericRange[T] extends scala.collection.AbstractSeq[T] with scala.collection.immutable.IndexedSeq[T] with scala.Serializable {
+  val start: T = { /* compiled code */ }
+  val end: T = { /* compiled code */ }
+  val step: T = { /* compiled code */ }
+  val isInclusive: scala.Boolean = { /* compiled code */ }
+  def this(start: T, end: T, step: T, isInclusive: scala.Boolean)(implicit num: scala.Integral[T]) = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override val last: T = { /* compiled code */ }
+  def by(newStep: T): scala.collection.immutable.NumericRange[T] = { /* compiled code */ }
+  def copy(start: T, end: T, step: T): scala.collection.immutable.NumericRange[T]
+  override def foreach[U](f: scala.Function1[T, U]): scala.Unit = { /* compiled code */ }
+  final override def take(n: scala.Int): scala.collection.immutable.NumericRange[T] = { /* compiled code */ }
+  final override def drop(n: scala.Int): scala.collection.immutable.NumericRange[T] = { /* compiled code */ }
+  def apply(idx: scala.Int): T = { /* compiled code */ }
+  override def min[T1 >: T](implicit ord: scala.Ordering[T1]): T = { /* compiled code */ }
+  override def max[T1 >: T](implicit ord: scala.Ordering[T1]): T = { /* compiled code */ }
+  private[immutable] def mapRange[A](fm: scala.Function1[T, A])(implicit unum: scala.Integral[A]): scala.collection.immutable.NumericRange[A] = { /* compiled code */ }
+  def containsTyped(x: T): scala.Boolean = { /* compiled code */ }
+  override def contains[A1 >: T](x: A1): scala.Boolean = { /* compiled code */ }
+  final override def sum[B >: T](implicit num: scala.Numeric[B]): B = { /* compiled code */ }
+  override val hashCode: scala.Int = { /* compiled code */ }
+  override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object NumericRange extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def count[T](start: T, end: T, step: T, isInclusive: scala.Boolean)(implicit num: scala.Integral[T]): scala.Int = { /* compiled code */ }
+  class Inclusive[T] extends scala.collection.immutable.NumericRange[T] {
+    def this(start: T, end: T, step: T)(implicit num: scala.Integral[T]) = { /* compiled code */ }
+    def copy(start: T, end: T, step: T): scala.collection.immutable.NumericRange.Inclusive[T] = { /* compiled code */ }
+    def exclusive: scala.collection.immutable.NumericRange.Exclusive[T] = { /* compiled code */ }
+  }
+  class Exclusive[T] extends scala.collection.immutable.NumericRange[T] {
+    def this(start: T, end: T, step: T)(implicit num: scala.Integral[T]) = { /* compiled code */ }
+    def copy(start: T, end: T, step: T): scala.collection.immutable.NumericRange.Exclusive[T] = { /* compiled code */ }
+    def inclusive: scala.collection.immutable.NumericRange.Inclusive[T] = { /* compiled code */ }
+  }
+  def apply[T](start: T, end: T, step: T)(implicit num: scala.Integral[T]): scala.collection.immutable.NumericRange.Exclusive[T] = { /* compiled code */ }
+  def inclusive[T](start: T, end: T, step: T)(implicit num: scala.Integral[T]): scala.collection.immutable.NumericRange.Inclusive[T] = { /* compiled code */ }
+  private[collection] val defaultOrdering: scala.collection.immutable.Map[scala.math.Numeric[_], scala.math.Ordering[_]] = { /* compiled code */ }
+}

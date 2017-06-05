@@ -1,0 +1,17 @@
+package scala
+trait Specializable extends scala.AnyRef {
+}
+object Specializable extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  trait SpecializedGroup extends scala.AnyRef {
+  }
+  class Group[T >: scala.Null] extends scala.AnyRef with scala.Specializable.SpecializedGroup {
+    def this(value: T) = { /* compiled code */ }
+  }
+  final val Primitives: scala.Specializable.Group[scala.Tuple9[scala.Byte.type, scala.Short.type, scala.Int.type, scala.Long.type, scala.Char.type, scala.Float.type, scala.Double.type, scala.Boolean.type, scala.Unit.type]] = { /* compiled code */ }
+  final val Everything: scala.Specializable.Group[scala.Tuple10[scala.Byte.type, scala.Short.type, scala.Int.type, scala.Long.type, scala.Char.type, scala.Float.type, scala.Double.type, scala.Boolean.type, scala.Unit.type, scala.AnyRef with scala.Specializable]] = { /* compiled code */ }
+  final val Bits32AndUp: scala.Specializable.Group[scala.Tuple4[scala.Int.type, scala.Long.type, scala.Float.type, scala.Double.type]] = { /* compiled code */ }
+  final val Integral: scala.Specializable.Group[scala.Tuple5[scala.Byte.type, scala.Short.type, scala.Int.type, scala.Long.type, scala.Char.type]] = { /* compiled code */ }
+  final val AllNumeric: scala.Specializable.Group[scala.Tuple7[scala.Byte.type, scala.Short.type, scala.Int.type, scala.Long.type, scala.Char.type, scala.Float.type, scala.Double.type]] = { /* compiled code */ }
+  final val BestOfBreed: scala.Specializable.Group[scala.Tuple5[scala.Int.type, scala.Double.type, scala.Boolean.type, scala.Unit.type, scala.AnyRef with scala.Specializable]] = { /* compiled code */ }
+}

@@ -1,0 +1,19 @@
+package scala.sys.process
+trait ProcessCreation extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def apply(command: scala.Predef.String): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(command: scala.Seq[scala.Predef.String]): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(command: scala.Predef.String, arguments: scala.Seq[scala.Predef.String]): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(command: scala.Predef.String, cwd: scala.sys.process.processInternal.File, extraEnv: scala.Tuple2[scala.Predef.String, scala.Predef.String]*): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(command: scala.Seq[scala.Predef.String], cwd: scala.sys.process.processInternal.File, extraEnv: scala.Tuple2[scala.Predef.String, scala.Predef.String]*): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(command: scala.Predef.String, cwd: scala.Option[scala.sys.process.processInternal.File], extraEnv: scala.Tuple2[scala.Predef.String, scala.Predef.String]*): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(command: scala.Seq[scala.Predef.String], cwd: scala.Option[scala.sys.process.processInternal.File], extraEnv: scala.Tuple2[scala.Predef.String, scala.Predef.String]*): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(builder: scala.sys.process.processInternal.JProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(file: scala.sys.process.processInternal.File): scala.sys.process.ProcessBuilder.FileBuilder = { /* compiled code */ }
+  def apply(url: scala.sys.process.processInternal.URL): scala.sys.process.ProcessBuilder.URLBuilder = { /* compiled code */ }
+  def apply(value: scala.Boolean): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def apply(name: scala.Predef.String, exitValue: => scala.Int): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def applySeq[T](builders: scala.Seq[T])(implicit convert: scala.Function1[T, scala.sys.process.ProcessBuilder.Source]): scala.Seq[scala.sys.process.ProcessBuilder.Source] = { /* compiled code */ }
+  def cat(file: scala.sys.process.ProcessBuilder.Source, files: scala.sys.process.ProcessBuilder.Source*): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  def cat(files: scala.Seq[scala.sys.process.ProcessBuilder.Source]): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+}

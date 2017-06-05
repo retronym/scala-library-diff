@@ -1,0 +1,37 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 8483111450368547763None }
+class BitSet extends scala.collection.mutable.AbstractSet[scala.Int] with scala.collection.mutable.SortedSet[scala.Int] with scala.collection.BitSet with scala.collection.BitSetLike[scala.collection.mutable.BitSet] with scala.collection.mutable.SetLike[scala.Int, scala.collection.mutable.BitSet] with scala.Serializable {
+  protected final var elems: scala.Array[scala.Long] = { /* compiled code */ }
+  def this(elems: scala.Array[scala.Long]) = { /* compiled code */ }
+  override def empty: scala.collection.mutable.BitSet = { /* compiled code */ }
+  def this(initSize: scala.Int) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  @scala.deprecatedOverriding("Internal implementation does not admit sensible overriding of this method.")
+  protected def nwords: scala.Int = { /* compiled code */ }
+  @scala.deprecatedOverriding("Internal implementation does not admit sensible overriding of this method.")
+  protected def word(idx: scala.Int): scala.Long = { /* compiled code */ }
+  protected final def updateWord(idx: scala.Int, w: scala.Long): scala.Unit = { /* compiled code */ }
+  protected final def ensureCapacity(idx: scala.Int): scala.Unit = { /* compiled code */ }
+  protected def fromBitMaskNoCopy(words: scala.Array[scala.Long]): scala.collection.mutable.BitSet = { /* compiled code */ }
+  override def add(elem: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def remove(elem: scala.Int): scala.Boolean = { /* compiled code */ }
+  @scala.deprecatedOverriding("Override add to prevent += and add from exhibiting different behavior.")
+  def +=(elem: scala.Int): scala.collection.mutable.BitSet.type = { /* compiled code */ }
+  @scala.deprecatedOverriding("Override add to prevent += and add from exhibiting different behavior.")
+  def -=(elem: scala.Int): scala.collection.mutable.BitSet.type = { /* compiled code */ }
+  def |=(other: scala.collection.mutable.BitSet): scala.collection.mutable.BitSet.type = { /* compiled code */ }
+  def &=(other: scala.collection.mutable.BitSet): scala.collection.mutable.BitSet.type = { /* compiled code */ }
+  def ^=(other: scala.collection.mutable.BitSet): scala.collection.mutable.BitSet.type = { /* compiled code */ }
+  def &~=(other: scala.collection.mutable.BitSet): scala.collection.mutable.BitSet.type = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  def toImmutable: scala.collection.immutable.BitSet = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.BitSet = { /* compiled code */ }
+}
+object BitSet extends scala.AnyRef with scala.collection.generic.BitSetFactory[scala.collection.mutable.BitSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def empty: scala.collection.mutable.BitSet = { /* compiled code */ }
+  def newBuilder: scala.collection.mutable.Builder[scala.Int, scala.collection.mutable.BitSet] = { /* compiled code */ }
+  implicit def canBuildFrom: scala.collection.generic.CanBuildFrom[scala.collection.mutable.BitSet, scala.Int, scala.collection.mutable.BitSet] = { /* compiled code */ }
+  def fromBitMask(elems: scala.Array[scala.Long]): scala.collection.mutable.BitSet = { /* compiled code */ }
+  def fromBitMaskNoCopy(elems: scala.Array[scala.Long]): scala.collection.mutable.BitSet = { /* compiled code */ }
+}

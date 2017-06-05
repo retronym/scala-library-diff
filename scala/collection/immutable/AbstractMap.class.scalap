@@ -1,0 +1,4 @@
+package scala.collection.immutable
+abstract class AbstractMap[A, +B] extends scala.collection.AbstractMap[A, B] with scala.collection.immutable.Map[A, B] {
+  def this() = { /* compiled code */ }
+}

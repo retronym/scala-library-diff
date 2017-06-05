@@ -1,0 +1,55 @@
+package scala.collection.immutable
+trait StreamViewLike[+A, +Coll, +This <: scala.collection.immutable.StreamView[A, Coll] with scala.collection.immutable.StreamViewLike[A, Coll, This]] extends scala.AnyRef with scala.collection.SeqView[A, Coll] with scala.collection.SeqViewLike[A, Coll, This] {
+ this: scala.collection.immutable.StreamViewLike[A, Coll, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def force[B >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[Coll, B, That]): That = { /* compiled code */ }
+  trait Transformed[+B] extends scala.AnyRef with scala.collection.immutable.StreamView[B, Coll] with scala.collection.SeqViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  private[collection] abstract class AbstractTransformed[+B] extends scala.collection.SeqViewLike.AbstractTransformed[B] with scala.collection.immutable.StreamViewLike.Transformed[B] {
+    def this() = { /* compiled code */ }
+  }
+  trait EmptyView extends scala.AnyRef with scala.collection.immutable.StreamViewLike.Transformed[scala.Nothing] with scala.collection.SeqViewLike.EmptyView {
+  }
+  trait Forced[B] extends scala.AnyRef with scala.collection.SeqViewLike.Forced[B] with scala.collection.immutable.StreamViewLike.Transformed[B] {
+  }
+  trait Sliced extends scala.AnyRef with scala.collection.SeqViewLike.Sliced with scala.collection.immutable.StreamViewLike.Transformed[A] {
+  }
+  trait Mapped[B] extends scala.AnyRef with scala.collection.SeqViewLike.Mapped[B] with scala.collection.immutable.StreamViewLike.Transformed[B] {
+  }
+  trait FlatMapped[B] extends scala.AnyRef with scala.collection.SeqViewLike.FlatMapped[B] with scala.collection.immutable.StreamViewLike.Transformed[B] {
+  }
+  trait Appended[B >: A] extends scala.AnyRef with scala.collection.SeqViewLike.Appended[B] with scala.collection.immutable.StreamViewLike.Transformed[B] {
+  }
+  trait Filtered extends scala.AnyRef with scala.collection.SeqViewLike.Filtered with scala.collection.immutable.StreamViewLike.Transformed[A] {
+  }
+  trait TakenWhile extends scala.AnyRef with scala.collection.SeqViewLike.TakenWhile with scala.collection.immutable.StreamViewLike.Transformed[A] {
+  }
+  trait DroppedWhile extends scala.AnyRef with scala.collection.SeqViewLike.DroppedWhile with scala.collection.immutable.StreamViewLike.Transformed[A] {
+  }
+  trait Zipped[B] extends scala.AnyRef with scala.collection.SeqViewLike.Zipped[B] with scala.collection.immutable.StreamViewLike.Transformed[scala.Tuple2[A, B]] {
+  }
+  trait ZippedAll[A1 >: A, B] extends scala.AnyRef with scala.collection.SeqViewLike.ZippedAll[A1, B] with scala.collection.immutable.StreamViewLike.Transformed[scala.Tuple2[A1, B]] {
+  }
+  trait Reversed extends scala.AnyRef with scala.collection.SeqViewLike.Reversed with scala.collection.immutable.StreamViewLike.Transformed[A] {
+  }
+  trait Patched[B >: A] extends scala.AnyRef with scala.collection.SeqViewLike.Patched[B] with scala.collection.immutable.StreamViewLike.Transformed[B] {
+  }
+  trait Prepended[B >: A] extends scala.AnyRef with scala.collection.SeqViewLike.Prepended[B] with scala.collection.immutable.StreamViewLike.Transformed[B] {
+  }
+  protected override def newForced[B](xs: => scala.collection.GenSeq[B]): scala.collection.immutable.StreamViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newAppended[B >: A](that: scala.collection.GenTraversable[B]): scala.collection.immutable.StreamViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newMapped[B](f: scala.Function1[A, B]): scala.collection.immutable.StreamViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newFlatMapped[B](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): scala.collection.immutable.StreamViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newFiltered(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.StreamViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newSliced(_endpoints: scala.collection.generic.SliceInterval): scala.collection.immutable.StreamViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newDroppedWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.StreamViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newTakenWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.StreamViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newZipped[B](that: scala.collection.GenIterable[B]): scala.collection.immutable.StreamViewLike.Transformed[scala.Tuple2[A, B]] = { /* compiled code */ }
+  protected override def newZippedAll[A1 >: A, B](that: scala.collection.GenIterable[B], _thisElem: A1, _thatElem: B): scala.collection.immutable.StreamViewLike.Transformed[scala.Tuple2[A1, B]] = { /* compiled code */ }
+  protected override def newReversed: scala.collection.immutable.StreamViewLike.Transformed[A] = { /* compiled code */ }
+  protected override def newPatched[B >: A](_from: scala.Int, _patch: scala.collection.GenSeq[B], _replaced: scala.Int): scala.collection.immutable.StreamViewLike.Transformed[B] = { /* compiled code */ }
+  protected override def newPrepended[B >: A](elem: B): scala.collection.immutable.StreamViewLike.Transformed[B] = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}

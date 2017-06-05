@@ -1,0 +1,35 @@
+package scala.collection
+trait IterableLike[+A, +Repr] extends scala.Any with scala.Equals with scala.collection.TraversableLike[A, Repr] with scala.collection.GenIterableLike[A, Repr] {
+ this: scala.collection.IterableLike[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A]
+  def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def find(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def foldRight[B](z: B)(op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def reduceRight[B >: A](op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def toIterable: scala.collection.Iterable[A] = { /* compiled code */ }
+  @scala.deprecatedOverriding("toIterator should stay consistent with iterator for all Iterables: override iterator instead.")
+  override def toIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): Repr = { /* compiled code */ }
+  override def take(n: scala.Int): Repr = { /* compiled code */ }
+  override def drop(n: scala.Int): Repr = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  def grouped(size: scala.Int): scala.collection.Iterator[Repr] = { /* compiled code */ }
+  def sliding(size: scala.Int): scala.collection.Iterator[Repr] = { /* compiled code */ }
+  def sliding(size: scala.Int, step: scala.Int): scala.collection.Iterator[Repr] = { /* compiled code */ }
+  def takeRight(n: scala.Int): Repr = { /* compiled code */ }
+  def dropRight(n: scala.Int): Repr = { /* compiled code */ }
+  override def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  def zip[A1 >: A, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  def zipAll[B, A1 >: A, That](that: scala.collection.GenIterable[B], thisElem: A1, thatElem: B)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  def zipWithIndex[A1 >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, scala.Int], That]): That = { /* compiled code */ }
+  def sameElements[B >: A](that: scala.collection.GenIterable[B]): scala.Boolean = { /* compiled code */ }
+  override def toStream: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def canEqual(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def view: scala.AnyRef with scala.collection.IterableView[A, Repr] = { /* compiled code */ }
+  override def view(from: scala.Int, until: scala.Int): scala.collection.IterableView[A, Repr] = { /* compiled code */ }
+}

@@ -1,0 +1,13 @@
+package scala.collection.parallel
+trait TraversableOps[T] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  trait Otherwise[R] extends scala.AnyRef {
+    def otherwise(notbody: => R): R
+  }
+  def isParallel: scala.Boolean
+  def isParIterable: scala.Boolean
+  def asParIterable: scala.collection.parallel.ParIterable[T]
+  def isParSeq: scala.Boolean
+  def asParSeq: scala.collection.parallel.ParSeq[T]
+  def ifParSeq[R](isbody: scala.Function1[scala.collection.parallel.ParSeq[T], R]): scala.collection.parallel.TraversableOps.Otherwise[R]
+}

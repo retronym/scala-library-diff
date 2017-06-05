@@ -1,0 +1,50 @@
+package scala.collection.concurrent
+@scala.SerialVersionUID { val value = -6402774413839597105None }
+final class TrieMap[K, V] extends scala.AnyRef with scala.collection.concurrent.Map[K, V] with scala.collection.mutable.MapLike[K, V, scala.collection.concurrent.TrieMap[K, V]] with scala.collection.CustomParallelizable[scala.Tuple2[K, V], scala.collection.parallel.mutable.ParTrieMap[K, V]] with scala.Serializable {
+  def hashing: scala.util.hashing.Hashing[K] = { /* compiled code */ }
+  def equality: scala.Equiv[K] = { /* compiled code */ }
+  var root: scala.AnyRef = { /* compiled code */ }
+  def this(hashf: scala.util.hashing.Hashing[K], ef: scala.Equiv[K]) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  def CAS_ROOT(ov: scala.AnyRef, nv: scala.AnyRef): scala.Boolean = { /* compiled code */ }
+  def readRoot(abort: scala.Boolean): scala.collection.concurrent.INode[K, V] = { /* compiled code */ }
+  def RDCSS_READ_ROOT(abort: scala.Boolean): scala.collection.concurrent.INode[K, V] = { /* compiled code */ }
+  def string: scala.Predef.String = { /* compiled code */ }
+  override def seq: scala.collection.concurrent.TrieMap[K, V] = { /* compiled code */ }
+  override def par: scala.collection.parallel.mutable.ParTrieMap[K, V] = { /* compiled code */ }
+  override def empty: scala.collection.concurrent.TrieMap[K, V] = { /* compiled code */ }
+  def isReadOnly: scala.Boolean = { /* compiled code */ }
+  def nonReadOnly: scala.Boolean = { /* compiled code */ }
+  @scala.annotation.tailrec
+  def snapshot(): scala.collection.concurrent.TrieMap[K, V] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  def readOnlySnapshot(): scala.collection.Map[K, V] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  override def clear(): scala.Unit = { /* compiled code */ }
+  def computeHash(k: K): scala.Int = { /* compiled code */ }
+  def lookup(k: K): V = { /* compiled code */ }
+  override def apply(k: K): V = { /* compiled code */ }
+  def get(k: K): scala.Option[V] = { /* compiled code */ }
+  override def put(key: K, value: V): scala.Option[V] = { /* compiled code */ }
+  override def update(k: K, v: V): scala.Unit = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[K, V]): scala.collection.concurrent.TrieMap.type = { /* compiled code */ }
+  override def remove(k: K): scala.Option[V] = { /* compiled code */ }
+  def -=(k: K): scala.collection.concurrent.TrieMap.type = { /* compiled code */ }
+  def putIfAbsent(k: K, v: V): scala.Option[V] = { /* compiled code */ }
+  def remove(k: K, v: V): scala.Boolean = { /* compiled code */ }
+  def replace(k: K, oldvalue: V, newvalue: V): scala.Boolean = { /* compiled code */ }
+  def replace(k: K, v: V): scala.Option[V] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[K, V]] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}
+object TrieMap extends scala.collection.generic.MutableMapFactory[scala.collection.concurrent.TrieMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  val inodeupdater: java.util.concurrent.atomic.AtomicReferenceFieldUpdater[scala.collection.concurrent.INodeBase[_, _], scala.collection.concurrent.MainNode[_, _]] = { /* compiled code */ }
+  implicit def canBuildFrom[K, V]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[K, V], scala.collection.concurrent.TrieMap[K, V]] = { /* compiled code */ }
+  def empty[K, V]: scala.collection.concurrent.TrieMap[K, V] = { /* compiled code */ }
+  class MangledHashing[K] extends scala.AnyRef with scala.util.hashing.Hashing[K] {
+    def this() = { /* compiled code */ }
+    def hash(k: K): scala.Int = { /* compiled code */ }
+  }
+}

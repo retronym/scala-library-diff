@@ -1,0 +1,4 @@
+package scala.collection.generic
+trait Clearable extends scala.AnyRef {
+  def clear(): scala.Unit
+}

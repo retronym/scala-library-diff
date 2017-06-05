@@ -1,0 +1,10 @@
+package scala.collection.parallel.mutable
+trait ParMapLike[K, V, +Repr <: scala.collection.parallel.mutable.ParMapLike[K, V, Repr, Sequential] with scala.collection.parallel.mutable.ParMap[K, V], +Sequential <: scala.collection.mutable.Map[K, V] with scala.collection.mutable.MapLike[K, V, Sequential]] extends scala.AnyRef with scala.collection.GenMapLike[K, V, Repr] with scala.collection.parallel.ParMapLike[K, V, Repr, Sequential] with scala.collection.generic.Growable[scala.Tuple2[K, V]] with scala.collection.generic.Shrinkable[K] with scala.collection.mutable.Cloneable[Repr] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def put(key: K, value: V): scala.Option[V]
+  def +=(kv: scala.Tuple2[K, V]): scala.collection.parallel.mutable.ParMapLike.type
+  def -=(key: K): scala.collection.parallel.mutable.ParMapLike.type
+  def +[U >: V](kv: scala.Tuple2[K, U]): scala.collection.parallel.mutable.ParMap[K, U] = { /* compiled code */ }
+  def -(key: K): Repr = { /* compiled code */ }
+  def clear(): scala.Unit
+}

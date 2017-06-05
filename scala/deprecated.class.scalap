@@ -1,0 +1,11 @@
+package scala
+@scala.annotation.meta.beanSetter
+@scala.annotation.meta.beanGetter
+@scala.annotation.meta.setter
+@scala.annotation.meta.getter
+class deprecated extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(message: scala.Predef.String, since: scala.Predef.String) = { /* compiled code */ }
+}
+object deprecated extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

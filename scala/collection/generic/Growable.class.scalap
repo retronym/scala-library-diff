@@ -1,0 +1,8 @@
+package scala.collection.generic
+trait Growable[-A] extends scala.AnyRef with scala.collection.generic.Clearable {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def +=(elem: A): scala.collection.generic.Growable.type
+  def +=(elem1: A, elem2: A, elems: A*): scala.collection.generic.Growable.type = { /* compiled code */ }
+  def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.generic.Growable.type = { /* compiled code */ }
+  def clear(): scala.Unit
+}

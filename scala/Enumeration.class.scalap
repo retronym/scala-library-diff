@@ -1,0 +1,63 @@
+package scala
+@scala.SerialVersionUID { val value = 8476000850333817230None }
+abstract class Enumeration extends scala.AnyRef with scala.Serializable {
+  def this(initial: scala.Int) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  protected def readResolve(): scala.AnyRef = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  @scala.SerialVersionUID { val value = 7091335633555234129None }
+  abstract class Value extends scala.AnyRef with scala.Ordered[scala.Enumeration.Value] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    def id: scala.Int
+    override def compare(that: scala.Enumeration.Value): scala.Int = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    def +(v: scala.Enumeration.Value): scala.Enumeration.ValueSet = { /* compiled code */ }
+    private[Enumeration] val outerEnum: scala.Enumeration = { /* compiled code */ }
+  }
+  class ValueSet extends scala.collection.AbstractSet[scala.Enumeration.Value] with scala.collection.immutable.SortedSet[scala.Enumeration.Value] with scala.collection.SortedSetLike[scala.Enumeration.Value, scala.Enumeration.ValueSet] with scala.Serializable {
+    private[ValueSet] def this(nnIds: scala.collection.immutable.BitSet) = { /* compiled code */ }
+    implicit def ordering: scala.Ordering[scala.Enumeration.Value] = { /* compiled code */ }
+    def rangeImpl(from: scala.Option[scala.Enumeration.Value], until: scala.Option[scala.Enumeration.Value]): scala.Enumeration.ValueSet = { /* compiled code */ }
+    override def empty: scala.Enumeration.ValueSet = { /* compiled code */ }
+    def contains(v: scala.Enumeration.Value): scala.Boolean = { /* compiled code */ }
+    def +(value: scala.Enumeration.Value): scala.Enumeration.ValueSet = { /* compiled code */ }
+    def -(value: scala.Enumeration.Value): scala.Enumeration.ValueSet = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Enumeration.Value] = { /* compiled code */ }
+    override def keysIteratorFrom(start: scala.Enumeration.Value): scala.collection.Iterator[scala.Enumeration.Value] = { /* compiled code */ }
+    override def stringPrefix: scala.Predef.String = { /* compiled code */ }
+    def toBitMask: scala.Array[scala.Long] = { /* compiled code */ }
+  }
+  def values: scala.Enumeration.ValueSet = { /* compiled code */ }
+  protected var nextId: scala.Int = { /* compiled code */ }
+  protected var nextName: scala.Iterator[scala.Predef.String] = { /* compiled code */ }
+  final def maxId: scala.Int = { /* compiled code */ }
+  final def apply(x: scala.Int): scala.Enumeration.Value = { /* compiled code */ }
+  final def withName(s: scala.Predef.String): scala.Enumeration.Value = { /* compiled code */ }
+  protected final def Value: scala.Enumeration.Value = { /* compiled code */ }
+  protected final def Value(i: scala.Int): scala.Enumeration.Value = { /* compiled code */ }
+  protected final def Value(name: scala.Predef.String): scala.Enumeration.Value = { /* compiled code */ }
+  protected final def Value(i: scala.Int, name: scala.Predef.String): scala.Enumeration.Value = { /* compiled code */ }
+  @scala.SerialVersionUID { val value = -3501153230598116017None }
+  protected class Val extends scala.Enumeration.Value with scala.Serializable {
+    def this(i: scala.Int, name: scala.Predef.String) = { /* compiled code */ }
+    def this(i: scala.Int) = { /* compiled code */ }
+    def this(name: scala.Predef.String) = { /* compiled code */ }
+    def this() = { /* compiled code */ }
+    def id: scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    protected def readResolve(): scala.AnyRef = { /* compiled code */ }
+  }
+  object ValueOrdering extends java.lang.Object with scala.Ordering[scala.Enumeration.Value] {
+    def this() = { /* compiled code */ }
+    def compare(x: scala.Enumeration.Value, y: scala.Enumeration.Value): scala.Int = { /* compiled code */ }
+  }
+  object ValueSet extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    val empty: scala.Enumeration.ValueSet = { /* compiled code */ }
+    def apply(elems: scala.Enumeration.Value*): scala.Enumeration.ValueSet = { /* compiled code */ }
+    def fromBitMask(elems: scala.Array[scala.Long]): scala.Enumeration.ValueSet = { /* compiled code */ }
+    def newBuilder: scala.collection.mutable.Builder[scala.Enumeration.Value, scala.Enumeration.ValueSet] = { /* compiled code */ }
+    implicit def canBuildFrom: scala.collection.generic.CanBuildFrom[scala.Enumeration.ValueSet, scala.Enumeration.Value, scala.Enumeration.ValueSet] = { /* compiled code */ }
+  }
+}

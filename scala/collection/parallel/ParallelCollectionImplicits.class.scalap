@@ -1,0 +1,7 @@
+package scala.collection.parallel
+private[collection] object ParallelCollectionImplicits extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def factory2ops[From, Elem, To](bf: scala.collection.generic.CanBuildFrom[From, Elem, To]): scala.AnyRef with scala.collection.parallel.FactoryOps[From, Elem, To] = { /* compiled code */ }
+  implicit def traversable2ops[T](t: scala.collection.GenTraversableOnce[T]): scala.AnyRef with scala.collection.parallel.TraversableOps[T] = { /* compiled code */ }
+  implicit def throwable2ops(self: scala.Throwable): scala.AnyRef with scala.collection.parallel.ThrowableOps = { /* compiled code */ }
+}

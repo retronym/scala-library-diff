@@ -1,0 +1,20 @@
+package scala.collection.mutable
+@scala.deprecatedInheritance("TreeSet is not designed to enable meaningful subclassing.")
+class TreeSet[A] extends scala.AnyRef with scala.collection.mutable.SortedSet[A] with scala.collection.mutable.SetLike[A, scala.collection.mutable.TreeSet[A]] with scala.collection.SortedSetLike[A, scala.collection.mutable.TreeSet[A]] with scala.collection.mutable.Set[A] with scala.Serializable {
+  implicit val ordering: scala.Ordering[A] = { /* compiled code */ }
+  def this()(implicit ordering: scala.Ordering[A]) = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  override def empty: scala.collection.mutable.TreeSet[A] = { /* compiled code */ }
+  override def rangeImpl(fromArg: scala.Option[A], untilArg: scala.Option[A]): scala.collection.mutable.TreeSet[A] = { /* compiled code */ }
+  override def -=(elem: A): scala.collection.mutable.TreeSet.type = { /* compiled code */ }
+  override def +=(elem: A): scala.collection.mutable.TreeSet.type = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.TreeSet[A] = { /* compiled code */ }
+  override def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def keysIteratorFrom(start: A): scala.collection.Iterator[A] = { /* compiled code */ }
+}
+object TreeSet extends scala.collection.generic.MutableSortedSetFactory[scala.collection.mutable.TreeSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def empty[A](implicit ordering: scala.Ordering[A]): scala.collection.mutable.TreeSet[A] = { /* compiled code */ }
+}

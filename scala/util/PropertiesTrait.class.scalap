@@ -1,0 +1,58 @@
+package scala.util
+private[scala] trait PropertiesTrait extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def propCategory: scala.Predef.String
+  protected def pickJarBasedOn: scala.Predef.Class[_]
+  protected val propFilename: java.lang.String = { /* compiled code */ }
+  protected val scalaProps: java.util.Properties = { /* compiled code */ }
+  def propIsSet(name: scala.Predef.String): scala.Boolean = { /* compiled code */ }
+  def propIsSetTo(name: scala.Predef.String, value: scala.Predef.String): scala.Boolean = { /* compiled code */ }
+  def propOrElse(name: scala.Predef.String, alt: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  def propOrEmpty(name: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  def propOrNull(name: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  def propOrNone(name: scala.Predef.String): scala.Option[java.lang.String] = { /* compiled code */ }
+  def propOrFalse(name: scala.Predef.String): scala.Boolean = { /* compiled code */ }
+  def setProp(name: scala.Predef.String, value: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  def clearProp(name: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  def envOrElse(name: scala.Predef.String, alt: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  def envOrNone(name: scala.Predef.String): scala.Option[java.lang.String] = { /* compiled code */ }
+  def envOrSome(name: scala.Predef.String, alt: scala.Option[scala.Predef.String]): scala.Option[java.lang.String] = { /* compiled code */ }
+  def scalaPropOrElse(name: scala.Predef.String, alt: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def scalaPropOrEmpty(name: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def scalaPropOrNone(name: scala.Predef.String): scala.Option[scala.Predef.String] = { /* compiled code */ }
+  val releaseVersion: scala.Option[scala.Predef.String] = { /* compiled code */ }
+  val developmentVersion: scala.Option[scala.Predef.String] = { /* compiled code */ }
+  def versionNumberString: scala.Predef.String = { /* compiled code */ }
+  val versionString: java.lang.String = { /* compiled code */ }
+  val copyrightString: scala.Predef.String = { /* compiled code */ }
+  def sourceEncoding: scala.Predef.String = { /* compiled code */ }
+  def sourceReader: scala.Predef.String = { /* compiled code */ }
+  def encodingString: java.lang.String = { /* compiled code */ }
+  def lineSeparator: java.lang.String = { /* compiled code */ }
+  def javaClassPath: java.lang.String = { /* compiled code */ }
+  def javaHome: java.lang.String = { /* compiled code */ }
+  def javaVendor: java.lang.String = { /* compiled code */ }
+  def javaVersion: java.lang.String = { /* compiled code */ }
+  def javaVmInfo: java.lang.String = { /* compiled code */ }
+  def javaVmName: java.lang.String = { /* compiled code */ }
+  def javaVmVendor: java.lang.String = { /* compiled code */ }
+  def javaVmVersion: java.lang.String = { /* compiled code */ }
+  def javaSpecVersion: java.lang.String = { /* compiled code */ }
+  def javaSpecVendor: java.lang.String = { /* compiled code */ }
+  def javaSpecName: java.lang.String = { /* compiled code */ }
+  def osName: java.lang.String = { /* compiled code */ }
+  def scalaHome: java.lang.String = { /* compiled code */ }
+  def tmpDir: java.lang.String = { /* compiled code */ }
+  def userDir: java.lang.String = { /* compiled code */ }
+  def userHome: java.lang.String = { /* compiled code */ }
+  def userName: java.lang.String = { /* compiled code */ }
+  def isWin: scala.Boolean = { /* compiled code */ }
+  def isMac: scala.Boolean = { /* compiled code */ }
+  private[scala] def isAvian: scala.Boolean = { /* compiled code */ }
+  def jdkHome: java.lang.String = { /* compiled code */ }
+  def versionMsg: scala.Predef.String = { /* compiled code */ }
+  def scalaCmd: java.lang.String = { /* compiled code */ }
+  def scalacCmd: java.lang.String = { /* compiled code */ }
+  def isJavaAtLeast(version: scala.Predef.String): scala.Boolean = { /* compiled code */ }
+  def main(args: scala.Array[scala.Predef.String]): scala.Unit = { /* compiled code */ }
+}

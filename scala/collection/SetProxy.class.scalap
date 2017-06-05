@@ -1,0 +1,3 @@
+package scala.collection
+trait SetProxy[A] extends scala.AnyRef with scala.collection.Set[A] with scala.collection.SetProxyLike[A, scala.collection.Set[A]] {
+}

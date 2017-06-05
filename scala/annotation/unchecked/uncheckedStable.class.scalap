@@ -1,0 +1,4 @@
+package scala.annotation.unchecked
+final class uncheckedStable extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this() = { /* compiled code */ }
+}

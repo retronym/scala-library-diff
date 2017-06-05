@@ -1,0 +1,3 @@
+package scala.collection.generic
+trait HasNewBuilder[+A, +Repr] extends scala.Any {
+}

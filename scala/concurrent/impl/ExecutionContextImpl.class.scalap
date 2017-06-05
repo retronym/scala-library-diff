@@ -1,0 +1,25 @@
+package scala.concurrent.impl
+private[scala] class ExecutionContextImpl extends scala.AnyRef with scala.concurrent.ExecutionContextExecutor {
+  private[impl] def this(es: java.util.concurrent.Executor, reporter: scala.Function1[scala.Throwable, scala.Unit]) = { /* compiled code */ }
+  val executor: java.util.concurrent.Executor = { /* compiled code */ }
+  class DefaultThreadFactory extends java.lang.Object with java.util.concurrent.ThreadFactory with scala.concurrent.forkjoin.ForkJoinPool.ForkJoinWorkerThreadFactory {
+    def this(daemonic: scala.Boolean) = { /* compiled code */ }
+    def wire[T <: java.lang.Thread](thread: T): T = { /* compiled code */ }
+    def newThread(runnable: java.lang.Runnable): java.lang.Thread = { /* compiled code */ }
+    def newThread(fjp: scala.concurrent.forkjoin.ForkJoinPool): scala.concurrent.forkjoin.ForkJoinWorkerThread = { /* compiled code */ }
+  }
+  def createExecutorService: java.util.concurrent.ExecutorService = { /* compiled code */ }
+  def execute(runnable: java.lang.Runnable): scala.Unit = { /* compiled code */ }
+  def reportFailure(t: scala.Throwable): scala.Unit = { /* compiled code */ }
+}
+private[concurrent] object ExecutionContextImpl extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final class AdaptedForkJoinTask extends scala.concurrent.forkjoin.ForkJoinTask[scala.Unit] {
+    def this(runnable: java.lang.Runnable) = { /* compiled code */ }
+    final override def setRawResult(u: scala.Unit): scala.Unit = { /* compiled code */ }
+    final override def getRawResult(): scala.Unit = { /* compiled code */ }
+    final override def exec(): scala.Boolean = { /* compiled code */ }
+  }
+  def fromExecutor(e: java.util.concurrent.Executor, reporter: scala.Function1[scala.Throwable, scala.Unit]): scala.concurrent.impl.ExecutionContextImpl = { /* compiled code */ }
+  def fromExecutorService(es: java.util.concurrent.ExecutorService, reporter: scala.Function1[scala.Throwable, scala.Unit]): scala.concurrent.impl.ExecutionContextImpl with scala.concurrent.ExecutionContextExecutorService = { /* compiled code */ }
+}

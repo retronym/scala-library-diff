@@ -1,0 +1,4 @@
+package scala.collection.generic
+trait Sizing extends scala.AnyRef {
+  def size: scala.Int
+}

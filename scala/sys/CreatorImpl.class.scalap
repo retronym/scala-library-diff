@@ -1,0 +1,5 @@
+package scala.sys
+private[sys] abstract class CreatorImpl[+T] extends scala.AnyRef with scala.sys.Prop.Creator[T] {
+  def this(f: scala.Function1[scala.Predef.String, T]) = { /* compiled code */ }
+  def apply(key: scala.Predef.String): scala.sys.Prop[T] = { /* compiled code */ }
+}

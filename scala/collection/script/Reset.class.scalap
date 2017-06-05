@@ -1,0 +1,19 @@
+package scala.collection.script
+@scala.deprecated("Scripting is deprecated.")
+case class Reset[+A]() extends scala.AnyRef with scala.collection.script.Message[A] with scala.Product with scala.Serializable {
+  def copy[A](): scala.collection.script.Reset[A] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Reset extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[A](): scala.collection.script.Reset[A] = { /* compiled code */ }
+  def unapply[A](x$0: scala.collection.script.Reset[A]): scala.Boolean = { /* compiled code */ }
+}

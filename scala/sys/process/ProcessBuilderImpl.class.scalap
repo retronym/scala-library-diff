@@ -1,0 +1,109 @@
+package scala.sys.process
+private[process] trait ProcessBuilderImpl extends scala.AnyRef {
+ this: scala.sys.process.ProcessBuilder.type =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  private[process] class DaemonBuilder extends scala.sys.process.ProcessBuilderImpl.AbstractBuilder {
+    def this(underlying: scala.sys.process.ProcessBuilder) = { /* compiled code */ }
+    final def run(io: scala.sys.process.ProcessIO): scala.sys.process.Process = { /* compiled code */ }
+  }
+  private[scala] abstract class AbstractBuilder extends scala.AnyRef with scala.sys.process.ProcessBuilder with scala.sys.process.ProcessBuilder.Sink with scala.sys.process.ProcessBuilder.Source {
+    def this() = { /* compiled code */ }
+    protected def toSource: scala.sys.process.ProcessBuilderImpl.AbstractBuilder = { /* compiled code */ }
+    protected def toSink: scala.sys.process.ProcessBuilderImpl.AbstractBuilder = { /* compiled code */ }
+    def #|(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #||(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #&&(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def ###(other: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def run(): scala.sys.process.Process = { /* compiled code */ }
+    def run(connectInput: scala.Boolean): scala.sys.process.Process = { /* compiled code */ }
+    def run(log: scala.sys.process.ProcessLogger): scala.sys.process.Process = { /* compiled code */ }
+    def run(log: scala.sys.process.ProcessLogger, connectInput: scala.Boolean): scala.sys.process.Process = { /* compiled code */ }
+    def !!: scala.Predef.String = { /* compiled code */ }
+    def !!(log: scala.sys.process.ProcessLogger): scala.Predef.String = { /* compiled code */ }
+    def !!<: scala.Predef.String = { /* compiled code */ }
+    def !!<(log: scala.sys.process.ProcessLogger): scala.Predef.String = { /* compiled code */ }
+    def lineStream: scala.Stream[scala.Predef.String] = { /* compiled code */ }
+    def lineStream(log: scala.sys.process.ProcessLogger): scala.Stream[scala.Predef.String] = { /* compiled code */ }
+    def lineStream_!: scala.Stream[scala.Predef.String] = { /* compiled code */ }
+    def lineStream_!(log: scala.sys.process.ProcessLogger): scala.Stream[scala.Predef.String] = { /* compiled code */ }
+    def !: scala.Int = { /* compiled code */ }
+    def !(io: scala.sys.process.ProcessIO): scala.Int = { /* compiled code */ }
+    def !(log: scala.sys.process.ProcessLogger): scala.Int = { /* compiled code */ }
+    def !<: scala.Int = { /* compiled code */ }
+    def !<(log: scala.sys.process.ProcessLogger): scala.Int = { /* compiled code */ }
+    def daemonized(): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def canPipeTo: scala.Boolean = { /* compiled code */ }
+    def hasExitValue: scala.Boolean = { /* compiled code */ }
+  }
+  private[process] class Dummy extends scala.sys.process.ProcessBuilderImpl.AbstractBuilder {
+    override val toString: scala.Predef.String = { /* compiled code */ }
+    def this(toString: scala.Predef.String, exitValue: => scala.Int) = { /* compiled code */ }
+    override def run(io: scala.sys.process.ProcessIO): scala.sys.process.Process = { /* compiled code */ }
+    override def canPipeTo: scala.Boolean = { /* compiled code */ }
+  }
+  private[process] class URLInput extends scala.sys.process.ProcessBuilderImpl.IStreamBuilder {
+    def this(url: scala.sys.process.processInternal.URL) = { /* compiled code */ }
+  }
+  private[process] class IStreamBuilder extends scala.sys.process.ProcessBuilderImpl.ThreadBuilder {
+    def this(stream: => scala.sys.process.processInternal.InputStream, label: scala.Predef.String) = { /* compiled code */ }
+    override def hasExitValue: scala.Boolean = { /* compiled code */ }
+  }
+  private[process] abstract class ThreadBuilder extends scala.sys.process.ProcessBuilderImpl.AbstractBuilder {
+    override val toString: scala.Predef.String = { /* compiled code */ }
+    def this(toString: scala.Predef.String, runImpl: scala.Function1[scala.sys.process.ProcessIO, scala.Unit]) = { /* compiled code */ }
+    override def run(io: scala.sys.process.ProcessIO): scala.sys.process.Process = { /* compiled code */ }
+  }
+  private[process] class FileInput extends scala.sys.process.ProcessBuilderImpl.IStreamBuilder {
+    def this(file: scala.sys.process.processInternal.File) = { /* compiled code */ }
+  }
+  private[process] class FileOutput extends scala.sys.process.ProcessBuilderImpl.OStreamBuilder {
+    def this(file: scala.sys.process.processInternal.File, append: scala.Boolean) = { /* compiled code */ }
+  }
+  private[process] class OStreamBuilder extends scala.sys.process.ProcessBuilderImpl.ThreadBuilder {
+    def this(stream: => scala.sys.process.processInternal.OutputStream, label: scala.Predef.String) = { /* compiled code */ }
+    override def hasExitValue: scala.Boolean = { /* compiled code */ }
+  }
+  private[process] class Simple extends scala.sys.process.ProcessBuilderImpl.AbstractBuilder {
+    def this(p: scala.sys.process.processInternal.JProcessBuilder) = { /* compiled code */ }
+    override def run(io: scala.sys.process.ProcessIO): scala.sys.process.Process = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def canPipeTo: scala.Boolean = { /* compiled code */ }
+  }
+  private[process] class URLImpl extends scala.AnyRef with scala.sys.process.ProcessBuilder.URLBuilder with scala.sys.process.ProcessBuilder.Source {
+    def this(url: scala.sys.process.processInternal.URL) = { /* compiled code */ }
+    protected def toSource: scala.sys.process.ProcessBuilderImpl.URLInput = { /* compiled code */ }
+  }
+  private[process] class FileImpl extends scala.AnyRef with scala.sys.process.ProcessBuilder.FileBuilder with scala.sys.process.ProcessBuilder.Sink with scala.sys.process.ProcessBuilder.Source {
+    def this(base: scala.sys.process.processInternal.File) = { /* compiled code */ }
+    protected def toSource: scala.sys.process.ProcessBuilderImpl.FileInput = { /* compiled code */ }
+    protected def toSink: scala.sys.process.ProcessBuilderImpl.FileOutput = { /* compiled code */ }
+    def #<<(f: scala.sys.process.processInternal.File): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #<<(u: scala.sys.process.processInternal.URL): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #<<(s: => scala.sys.process.processInternal.InputStream): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+    def #<<(b: scala.sys.process.ProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  }
+  private[process] abstract class BasicBuilder extends scala.sys.process.ProcessBuilderImpl.AbstractBuilder {
+    def this() = { /* compiled code */ }
+    final def run(io: scala.sys.process.ProcessIO): scala.sys.process.Process = { /* compiled code */ }
+  }
+  private[process] abstract class SequentialBuilder extends scala.sys.process.ProcessBuilderImpl.BasicBuilder {
+    def this(a: scala.sys.process.ProcessBuilder, b: scala.sys.process.ProcessBuilder, operatorString: scala.Predef.String) = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  private[process] class PipedBuilder extends scala.sys.process.ProcessBuilderImpl.SequentialBuilder {
+    def this(first: scala.sys.process.ProcessBuilder, second: scala.sys.process.ProcessBuilder, toError: scala.Boolean) = { /* compiled code */ }
+    override def createProcess(io: scala.sys.process.ProcessIO): scala.sys.process.ProcessImpl.PipedProcesses = { /* compiled code */ }
+  }
+  private[process] class AndBuilder extends scala.sys.process.ProcessBuilderImpl.SequentialBuilder {
+    def this(first: scala.sys.process.ProcessBuilder, second: scala.sys.process.ProcessBuilder) = { /* compiled code */ }
+    override def createProcess(io: scala.sys.process.ProcessIO): scala.sys.process.ProcessImpl.AndProcess = { /* compiled code */ }
+  }
+  private[process] class OrBuilder extends scala.sys.process.ProcessBuilderImpl.SequentialBuilder {
+    def this(first: scala.sys.process.ProcessBuilder, second: scala.sys.process.ProcessBuilder) = { /* compiled code */ }
+    override def createProcess(io: scala.sys.process.ProcessIO): scala.sys.process.ProcessImpl.OrProcess = { /* compiled code */ }
+  }
+  private[process] class SequenceBuilder extends scala.sys.process.ProcessBuilderImpl.SequentialBuilder {
+    def this(first: scala.sys.process.ProcessBuilder, second: scala.sys.process.ProcessBuilder) = { /* compiled code */ }
+    override def createProcess(io: scala.sys.process.ProcessIO): scala.sys.process.ProcessImpl.ProcessSequence = { /* compiled code */ }
+  }
+}

@@ -1,0 +1,5 @@
+package scala.collection
+trait CustomParallelizable[+A, +ParRepr <: scala.collection.Parallel] extends scala.Any with scala.collection.Parallelizable[A, ParRepr] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def par: ParRepr
+}

@@ -1,0 +1,13 @@
+package scala.util
+object Sorting extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def quickSort(a: scala.Array[scala.Double]): scala.Unit = { /* compiled code */ }
+  def quickSort[K](a: scala.Array[K])(implicit evidence$1: scala.math.Ordering[K]): scala.Unit = { /* compiled code */ }
+  def quickSort(a: scala.Array[scala.Int]): scala.Unit = { /* compiled code */ }
+  def quickSort(a: scala.Array[scala.Float]): scala.Unit = { /* compiled code */ }
+  def stableSort[K](a: scala.Array[K])(implicit evidence$2: scala.reflect.ClassTag[K], evidence$3: scala.math.Ordering[K]): scala.Unit = { /* compiled code */ }
+  def stableSort[K](a: scala.Array[K], f: scala.Function2[K, K, scala.Boolean])(implicit evidence$4: scala.reflect.ClassTag[K]): scala.Unit = { /* compiled code */ }
+  def stableSort[K](a: scala.Seq[K], f: scala.Function2[K, K, scala.Boolean])(implicit evidence$5: scala.reflect.ClassTag[K]): scala.Array[K] = { /* compiled code */ }
+  def stableSort[K](a: scala.Seq[K])(implicit evidence$6: scala.reflect.ClassTag[K], evidence$7: scala.math.Ordering[K]): scala.Array[K] = { /* compiled code */ }
+  def stableSort[K, M](a: scala.Seq[K], f: scala.Function1[K, M])(implicit evidence$8: scala.reflect.ClassTag[K], evidence$9: scala.math.Ordering[M]): scala.Array[K] = { /* compiled code */ }
+}

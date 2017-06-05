@@ -1,0 +1,6 @@
+package scala.collection.parallel.mutable
+private[mutable] class DoublingUnrolledBuffer[T] extends scala.collection.mutable.UnrolledBuffer[T] {
+  def this()(implicit t: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+  override def calcNextLength(sz: scala.Int): scala.Int = { /* compiled code */ }
+  protected override def newUnrolled: scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+}

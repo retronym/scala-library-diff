@@ -1,0 +1,4 @@
+package scala.beans
+class BeanInfoSkip extends scala.annotation.Annotation {
+  def this() = { /* compiled code */ }
+}

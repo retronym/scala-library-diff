@@ -1,0 +1,42 @@
+package scala.sys.process
+object BasicIO extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final val BufferSize: scala.Int = { /* compiled code */ }
+  final val Newline: scala.Predef.String = { /* compiled code */ }
+  private[process] final class Streamed[T] extends scala.AnyRef {
+    val process: scala.Function1[T, scala.Unit] = { /* compiled code */ }
+    val done: scala.Function1[scala.Int, scala.Unit] = { /* compiled code */ }
+    val stream: scala.Function0[scala.collection.immutable.Stream[T]] = { /* compiled code */ }
+    def this(process: scala.Function1[T, scala.Unit], done: scala.Function1[scala.Int, scala.Unit], stream: scala.Function0[scala.collection.immutable.Stream[T]]) = { /* compiled code */ }
+  }
+  private[process] object Streamed extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply[T](nonzeroException: scala.Boolean): scala.sys.process.BasicIO.Streamed[T] = { /* compiled code */ }
+  }
+  private[process] trait Uncloseable extends java.lang.Object with scala.sys.process.processInternal.Closeable {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    final override def close(): scala.Unit = { /* compiled code */ }
+  }
+  private[process] object Uncloseable extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply(in: scala.sys.process.processInternal.InputStream): scala.sys.process.processInternal.InputStream = { /* compiled code */ }
+    def apply(out: scala.sys.process.processInternal.OutputStream): scala.sys.process.processInternal.OutputStream = { /* compiled code */ }
+    def protect(in: scala.sys.process.processInternal.InputStream): scala.sys.process.processInternal.InputStream = { /* compiled code */ }
+    def protect(out: scala.sys.process.processInternal.OutputStream): scala.sys.process.processInternal.OutputStream = { /* compiled code */ }
+  }
+  def apply(withIn: scala.Boolean, output: scala.Function1[scala.Predef.String, scala.Unit], log: scala.Option[scala.sys.process.ProcessLogger]): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def apply(withIn: scala.Boolean, buffer: java.lang.StringBuffer, log: scala.Option[scala.sys.process.ProcessLogger]): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def apply(withIn: scala.Boolean, log: scala.sys.process.ProcessLogger): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def getErr(log: scala.Option[scala.sys.process.ProcessLogger]): scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit] = { /* compiled code */ }
+  def close(c: scala.sys.process.processInternal.Closeable): scala.Unit = { /* compiled code */ }
+  def processFully(buffer: java.lang.Appendable): scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit] = { /* compiled code */ }
+  def processFully(processLine: scala.Function1[scala.Predef.String, scala.Unit]): scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit] = { /* compiled code */ }
+  def processLinesFully(processLine: scala.Function1[scala.Predef.String, scala.Unit])(readLine: scala.Function0[scala.Predef.String]): scala.Unit = { /* compiled code */ }
+  def connectToIn(o: scala.sys.process.processInternal.OutputStream): scala.Unit = { /* compiled code */ }
+  def input(connect: scala.Boolean): scala.Function1[scala.sys.process.processInternal.OutputStream, scala.Unit] = { /* compiled code */ }
+  def standard(connectInput: scala.Boolean): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def standard(in: scala.Function1[scala.sys.process.processInternal.OutputStream, scala.Unit]): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def toStdErr: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit] = { /* compiled code */ }
+  def toStdOut: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit] = { /* compiled code */ }
+  def transferFully(in: scala.sys.process.processInternal.InputStream, out: scala.sys.process.processInternal.OutputStream): scala.Unit = { /* compiled code */ }
+}

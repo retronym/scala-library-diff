@@ -1,0 +1,47 @@
+package scala.collection.mutable
+final class AnyRefMap[K <: scala.AnyRef, V] extends scala.collection.mutable.AbstractMap[K, V] with scala.collection.mutable.Map[K, V] with scala.collection.mutable.MapLike[K, V, scala.collection.mutable.AnyRefMap[K, V]] {
+  private[collection] def this(defaultEntry: scala.Function1[K, V], initialBufferSize: scala.Int, initBlank: scala.Boolean) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  def this(defaultEntry: scala.Function1[K, V]) = { /* compiled code */ }
+  def this(initialBufferSize: scala.Int) = { /* compiled code */ }
+  def this(defaultEntry: scala.Function1[K, V], initialBufferSize: scala.Int) = { /* compiled code */ }
+  private[collection] def initializeTo(m: scala.Int, sz: scala.Int, vc: scala.Int, hz: scala.Array[scala.Int], kz: scala.Array[scala.AnyRef], vz: scala.Array[scala.AnyRef]): scala.Unit = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def empty: scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+  override def contains(key: K): scala.Boolean = { /* compiled code */ }
+  override def get(key: K): scala.Option[V] = { /* compiled code */ }
+  override def getOrElse[V1 >: V](key: K, default: => V1): V1 = { /* compiled code */ }
+  override def getOrElseUpdate(key: K, defaultValue: => V): V = { /* compiled code */ }
+  def getOrNull(key: K): V = { /* compiled code */ }
+  override def apply(key: K): V = { /* compiled code */ }
+  override def default(key: K): V = { /* compiled code */ }
+  def repack(): scala.Unit = { /* compiled code */ }
+  override def put(key: K, value: V): scala.Option[V] = { /* compiled code */ }
+  override def update(key: K, value: V): scala.Unit = { /* compiled code */ }
+  def +=(key: K, value: V): scala.collection.mutable.AnyRefMap.type = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[K, V]): scala.collection.mutable.AnyRefMap.type = { /* compiled code */ }
+  def -=(key: K): scala.collection.mutable.AnyRefMap.type = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[K, V]] = { /* compiled code */ }
+  override def foreach[A](f: scala.Function1[scala.Tuple2[K, V], A]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+  def foreachKey[A](f: scala.Function1[K, A]): scala.Unit = { /* compiled code */ }
+  def foreachValue[A](f: scala.Function1[V, A]): scala.Unit = { /* compiled code */ }
+  def mapValuesNow[V1](f: scala.Function1[V, V1]): scala.collection.mutable.AnyRefMap[K, V1] = { /* compiled code */ }
+  def transformValues(f: scala.Function1[V, V]): scala.collection.mutable.AnyRefMap.type = { /* compiled code */ }
+}
+object AnyRefMap extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[K <: scala.AnyRef, V, J <: scala.AnyRef, U]: scala.collection.generic.CanBuildFrom[scala.collection.mutable.AnyRefMap[K, V], scala.Tuple2[J, U], scala.collection.mutable.AnyRefMap[J, U]] = { /* compiled code */ }
+  final class AnyRefMapBuilder[K <: scala.AnyRef, V] extends scala.AnyRef with scala.collection.mutable.Builder[scala.Tuple2[K, V], scala.collection.mutable.AnyRefMap[K, V]] {
+    def this() = { /* compiled code */ }
+    private[collection] var elems: scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+    def +=(entry: scala.Tuple2[K, V]): scala.collection.mutable.AnyRefMap.AnyRefMapBuilder.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+  }
+  def apply[K <: scala.AnyRef, V](elems: scala.Tuple2[K, V]*): scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+  def empty[K <: scala.AnyRef, V]: scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+  def withDefault[K <: scala.AnyRef, V](default: scala.Function1[K, V]): scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+  def fromZip[K <: scala.AnyRef, V](keys: scala.Array[K], values: scala.Array[V]): scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+  def fromZip[K <: scala.AnyRef, V](keys: scala.collection.mutable.Iterable[K], values: scala.collection.mutable.Iterable[V]): scala.collection.mutable.AnyRefMap[K, V] = { /* compiled code */ }
+}

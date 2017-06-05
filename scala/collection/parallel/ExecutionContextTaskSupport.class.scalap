@@ -1,0 +1,8 @@
+package scala.collection.parallel
+class ExecutionContextTaskSupport extends scala.AnyRef with scala.collection.parallel.TaskSupport with scala.collection.parallel.ExecutionContextTasks {
+  val environment: scala.concurrent.ExecutionContext = { /* compiled code */ }
+  def this(environment: scala.concurrent.ExecutionContext) = { /* compiled code */ }
+}
+object ExecutionContextTaskSupport extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

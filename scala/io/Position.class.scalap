@@ -1,0 +1,18 @@
+package scala.io
+@scala.deprecated("This class will be removed.")
+private[scala] abstract class Position extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def checkInput(line: scala.Int, column: scala.Int): scala.Unit
+  final val LINE_BITS: scala.Int = { /* compiled code */ }
+  final val COLUMN_BITS: scala.Int = { /* compiled code */ }
+  final val LINE_MASK: scala.Int = { /* compiled code */ }
+  final val COLUMN_MASK: scala.Int = { /* compiled code */ }
+  final def encode(line: scala.Int, column: scala.Int): scala.Int = { /* compiled code */ }
+  final def line(pos: scala.Int): scala.Int = { /* compiled code */ }
+  final def column(pos: scala.Int): scala.Int = { /* compiled code */ }
+  def toString(pos: scala.Int): scala.Predef.String = { /* compiled code */ }
+}
+private[scala] object Position extends scala.io.Position {
+  def this() = { /* compiled code */ }
+  def checkInput(line: scala.Int, column: scala.Int): scala.Unit = { /* compiled code */ }
+}

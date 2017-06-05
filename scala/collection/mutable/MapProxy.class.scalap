@@ -1,0 +1,14 @@
+package scala.collection.mutable
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait MapProxy[A, B] extends scala.AnyRef with scala.collection.mutable.Map[A, B] with scala.collection.MapProxyLike[A, B, scala.collection.mutable.Map[A, B]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def repr: scala.collection.mutable.MapProxy[A, B] = { /* compiled code */ }
+  override def empty: scala.collection.mutable.MapProxy[A, B] = { /* compiled code */ }
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.mutable.MapProxy[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.mutable.Map[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](elem1: scala.Tuple2[A, B1], elem2: scala.Tuple2[A, B1], elems: scala.Tuple2[A, B1]*): scala.collection.mutable.MapProxy[A, B1] = { /* compiled code */ }
+  override def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.mutable.MapProxy[A, B1] = { /* compiled code */ }
+  override def -(key: A): scala.collection.mutable.MapProxy[A, B] = { /* compiled code */ }
+  override def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.MapProxy.type = { /* compiled code */ }
+  override def -=(key: A): scala.collection.mutable.MapProxy.type = { /* compiled code */ }
+}

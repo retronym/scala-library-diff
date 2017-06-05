@@ -1,0 +1,87 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The implementation details of immutable hash maps make inheriting from them unwise.")
+@scala.SerialVersionUID { val value = 2None }
+class HashMap[A, +B] extends scala.collection.immutable.AbstractMap[A, B] with scala.collection.immutable.Map[A, B] with scala.collection.immutable.MapLike[A, B, scala.collection.immutable.HashMap[A, B]] with scala.Serializable with scala.collection.CustomParallelizable[scala.Tuple2[A, B], scala.collection.parallel.immutable.ParHashMap[A, B]] {
+  def this() = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def empty: scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+  def get(key: A): scala.Option[B] = { /* compiled code */ }
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](elem1: scala.Tuple2[A, B1], elem2: scala.Tuple2[A, B1], elems: scala.Tuple2[A, B1]*): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  def -(key: A): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+  override def filter(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean]): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+  override def filterNot(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean]): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+  protected def filter0(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean], negate: scala.Boolean, level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashMap[A, B]], offset0: scala.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+  protected def elemHashCode(key: A): scala.Int = { /* compiled code */ }
+  protected final def improve(hcode: scala.Int): scala.Int = { /* compiled code */ }
+  private[collection] def computeHash(key: A): scala.Int = { /* compiled code */ }
+  private[collection] def get0(key: A, hash: scala.Int, level: scala.Int): scala.Option[B] = { /* compiled code */ }
+  private[collection] def updated0[B1 >: B](key: A, hash: scala.Int, level: scala.Int, value: B1, kv: scala.Tuple2[A, B1], merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  protected def removed0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+  protected def writeReplace(): scala.AnyRef = { /* compiled code */ }
+  def split: scala.collection.immutable.Seq[scala.collection.immutable.HashMap[A, B]] = { /* compiled code */ }
+  def merged[B1 >: B](that: scala.collection.immutable.HashMap[A, B1])(mergef: MergeFunction[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  protected def merge0[B1 >: B](that: scala.collection.immutable.HashMap[A, B1], level: scala.Int, merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  override def par: scala.collection.parallel.immutable.ParHashMap[A, B] = { /* compiled code */ }
+}
+object HashMap extends scala.collection.generic.ImmutableMapFactory[scala.collection.immutable.HashMap] with scala.collection.generic.BitOperations.Int with scala.Serializable {
+  def this() = { /* compiled code */ }
+  private[collection] abstract class Merger[A, B] extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply(kv1: scala.Tuple2[A, B], kv2: scala.Tuple2[A, B]): scala.Tuple2[A, B]
+    def invert: scala.collection.immutable.HashMap.Merger[A, B]
+  }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.immutable.HashMap[A, B]] = { /* compiled code */ }
+  def empty[A, B]: scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+  class HashTrieMap[A, +B] extends scala.collection.immutable.HashMap[A, B] {
+    private[collection] val bitmap: scala.collection.generic.BitOperations.Int.Int = { /* compiled code */ }
+    private[collection] val elems: scala.Array[scala.collection.immutable.HashMap[A, B]] = { /* compiled code */ }
+    private[collection] val size0: scala.collection.generic.BitOperations.Int.Int = { /* compiled code */ }
+    def this(bitmap: scala.collection.generic.BitOperations.Int.Int, elems: scala.Array[scala.collection.immutable.HashMap[A, B]], size0: scala.collection.generic.BitOperations.Int.Int) = { /* compiled code */ }
+    override def size: scala.collection.generic.BitOperations.Int.Int = { /* compiled code */ }
+    override def get0(key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int): scala.Option[B] = { /* compiled code */ }
+    private[collection] override def updated0[B1 >: B](key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int, value: B1, kv: scala.Tuple2[A, B1], merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+    override def removed0(key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+    protected override def filter0(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean], negate: scala.Boolean, level: scala.collection.generic.BitOperations.Int.Int, buffer: scala.Array[scala.collection.immutable.HashMap[A, B]], offset0: scala.collection.generic.BitOperations.Int.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+    override def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+    override def split: scala.collection.immutable.Seq[scala.collection.immutable.HashMap[A, B]] = { /* compiled code */ }
+    protected override def merge0[B1 >: B](that: scala.collection.immutable.HashMap[A, B1], level: scala.collection.generic.BitOperations.Int.Int, merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  }
+  class HashMap1[A, +B] extends scala.collection.immutable.HashMap[A, B] {
+    private[collection] val key: A = { /* compiled code */ }
+    private[collection] val hash: scala.collection.generic.BitOperations.Int.Int = { /* compiled code */ }
+    private[collection] val value: B = { /* compiled code */ }
+    private[collection] var kv: scala.Tuple2[A, B] = { /* compiled code */ }
+    def this(key: A, hash: scala.collection.generic.BitOperations.Int.Int, value: B, kv: scala.Tuple2[A, B]) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    private[collection] def getKey: A = { /* compiled code */ }
+    private[collection] def getHash: scala.collection.generic.BitOperations.Int.Int = { /* compiled code */ }
+    private[collection] def computeHashFor(k: A): scala.Int = { /* compiled code */ }
+    override def get0(key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int): scala.Option[B] = { /* compiled code */ }
+    private[collection] override def updated0[B1 >: B](key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int, value: B1, kv: scala.Tuple2[A, B1], merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+    override def removed0(key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+    protected override def filter0(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean], negate: scala.Boolean, level: scala.collection.generic.BitOperations.Int.Int, buffer: scala.Array[scala.collection.immutable.HashMap[A, B]], offset0: scala.collection.generic.BitOperations.Int.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+    override def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+    private[HashMap] def ensurePair: scala.Tuple2[A, B] = { /* compiled code */ }
+    protected override def merge0[B1 >: B](that: scala.collection.immutable.HashMap[A, B1], level: scala.collection.generic.BitOperations.Int.Int, merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  }
+  private[collection] class HashMapCollision1[A, +B] extends scala.collection.immutable.HashMap[A, B] {
+    private[collection] val hash: scala.collection.generic.BitOperations.Int.Int = { /* compiled code */ }
+    val kvs: scala.collection.immutable.ListMap[A, B] = { /* compiled code */ }
+    def this(hash: scala.collection.generic.BitOperations.Int.Int, kvs: scala.collection.immutable.ListMap[A, B]) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def get0(key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int): scala.Option[B] = { /* compiled code */ }
+    private[collection] override def updated0[B1 >: B](key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int, value: B1, kv: scala.Tuple2[A, B1], merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+    override def removed0(key: A, hash: scala.collection.generic.BitOperations.Int.Int, level: scala.collection.generic.BitOperations.Int.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+    protected override def filter0(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean], negate: scala.Boolean, level: scala.collection.generic.BitOperations.Int.Int, buffer: scala.Array[scala.collection.immutable.HashMap[A, B]], offset0: scala.collection.generic.BitOperations.Int.Int): scala.collection.immutable.HashMap[A, B] = { /* compiled code */ }
+    override def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+    override def split: scala.collection.immutable.Seq[scala.collection.immutable.HashMap[A, B]] = { /* compiled code */ }
+    protected override def merge0[B1 >: B](that: scala.collection.immutable.HashMap[A, B1], level: scala.collection.generic.BitOperations.Int.Int, merger: scala.collection.immutable.HashMap.Merger[A, B1]): scala.collection.immutable.HashMap[A, B1] = { /* compiled code */ }
+  }
+}

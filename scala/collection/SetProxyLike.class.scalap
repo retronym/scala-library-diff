@@ -1,0 +1,18 @@
+package scala.collection
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait SetProxyLike[A, +This <: scala.collection.SetLike[A, This] with scala.collection.Set[A]] extends scala.AnyRef with scala.collection.SetLike[A, This] with scala.collection.IterableProxyLike[A, This] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: This
+  override def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  override def +(elem: A): This = { /* compiled code */ }
+  override def -(elem: A): This = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def apply(elem: A): scala.Boolean = { /* compiled code */ }
+  override def intersect(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  override def &(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  override def union(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  override def |(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  override def diff(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  override def &~(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
+  override def subsetOf(that: scala.collection.GenSet[A]): scala.Boolean = { /* compiled code */ }
+}

@@ -1,0 +1,8 @@
+package scala.collection.parallel
+class ForkJoinTaskSupport extends scala.AnyRef with scala.collection.parallel.TaskSupport with scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks {
+  val environment: scala.concurrent.forkjoin.ForkJoinPool = { /* compiled code */ }
+  def this(environment: scala.concurrent.forkjoin.ForkJoinPool) = { /* compiled code */ }
+}
+object ForkJoinTaskSupport extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

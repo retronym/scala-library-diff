@@ -1,0 +1,16 @@
+package scala.collection.mutable
+trait Publisher[Evt] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  type Pub <: scala.collection.mutable.Publisher[Evt]
+  type Sub = scala.collection.mutable.Subscriber[Evt, Pub]
+  type Filter = scala.Function1[Evt, scala.Boolean]
+  protected val self: Pub = { /* compiled code */ }
+  def subscribe(sub: Sub): scala.Unit = { /* compiled code */ }
+  def subscribe(sub: Sub, filter: Filter): scala.Unit = { /* compiled code */ }
+  def suspendSubscription(sub: Sub): scala.Unit = { /* compiled code */ }
+  def activateSubscription(sub: Sub): scala.Unit = { /* compiled code */ }
+  def removeSubscription(sub: Sub): scala.Unit = { /* compiled code */ }
+  def removeSubscriptions(): scala.Unit = { /* compiled code */ }
+  protected def publish(event: Evt): scala.Unit = { /* compiled code */ }
+  override def equals(obj: scala.Any): scala.Boolean = { /* compiled code */ }
+}

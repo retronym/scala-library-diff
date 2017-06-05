@@ -1,0 +1,10 @@
+package scala.collection.mutable
+class WrappedArrayBuilder[A] extends scala.AnyRef with scala.collection.mutable.Builder[A, scala.collection.mutable.WrappedArray[A]] {
+  def this(tag: scala.reflect.ClassTag[A]) = { /* compiled code */ }
+  @scala.deprecated("use tag instead")
+  val manifest: scala.reflect.ClassTag[A] = { /* compiled code */ }
+  override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.WrappedArrayBuilder.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def result(): scala.collection.mutable.WrappedArray[A] = { /* compiled code */ }
+}

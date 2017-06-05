@@ -1,0 +1,30 @@
+package scala.concurrent.duration
+case class Deadline(time: scala.concurrent.duration.FiniteDuration) extends scala.AnyRef with scala.Ordered[scala.concurrent.duration.Deadline] with scala.Product with scala.Serializable {
+  val time: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def +(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.Deadline = { /* compiled code */ }
+  def -(other: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.Deadline = { /* compiled code */ }
+  def -(other: scala.concurrent.duration.Deadline): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def timeLeft: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def hasTimeLeft(): scala.Boolean = { /* compiled code */ }
+  def isOverdue(): scala.Boolean = { /* compiled code */ }
+  def compare(other: scala.concurrent.duration.Deadline): scala.Int = { /* compiled code */ }
+  def copy(time: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.Deadline = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Deadline extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def now: scala.concurrent.duration.Deadline = { /* compiled code */ }
+  implicit object DeadlineIsOrdered extends java.lang.Object with scala.Ordering[scala.concurrent.duration.Deadline] {
+    def this() = { /* compiled code */ }
+    def compare(a: scala.concurrent.duration.Deadline, b: scala.concurrent.duration.Deadline): scala.Int = { /* compiled code */ }
+  }
+  def apply(time: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.Deadline = { /* compiled code */ }
+  def unapply(x$0: scala.concurrent.duration.Deadline): scala.Option[scala.concurrent.duration.FiniteDuration] = { /* compiled code */ }
+}

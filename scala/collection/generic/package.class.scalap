@@ -1,0 +1,11 @@
+package scala.collection
+package object generic extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type CanBuild[-Elem, +To] = scala.collection.generic.CanBuildFrom[scala.Nothing, Elem, To]
+  @scala.deprecated("use ClassTagTraversableFactory instead")
+  type ClassManifestTraversableFactory[CC[X] <: scala.collection.Traversable[X] with GenericClassManifestTraversableTemplate[X, CC]] = scala.collection.generic.ClassTagTraversableFactory[CC]
+  @scala.deprecated("use GenericClassTagTraversableTemplate instead")
+  type GenericClassManifestTraversableTemplate[+A, +CC[X] <: scala.collection.Traversable[X]] = scala.collection.generic.GenericClassTagTraversableTemplate[A, CC]
+  @scala.deprecated("use GenericClassTagCompanion instead")
+  type GenericClassManifestCompanion[+CC[X] <: scala.collection.Traversable[X]] = scala.collection.generic.GenericClassTagCompanion[CC]
+}

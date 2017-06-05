@@ -1,0 +1,10 @@
+package scala.collection
+trait SeqView[+A, +Coll] extends scala.AnyRef with scala.collection.SeqViewLike[A, Coll, scala.collection.SeqView[A, Coll]] {
+}
+object SeqView extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type Coll = scala.collection.TraversableView[_, C] forSome {type C <: scala.collection.Traversable[_]}
+    type C <: scala.collection.Traversable[_]
+    type C <: scala.collection.Traversable[_]
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[Coll, A, scala.collection.SeqView[A, scala.collection.Seq[_]]] = { /* compiled code */ }
+}

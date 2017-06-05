@@ -1,0 +1,9 @@
+package scala.collection.mutable
+@scala.deprecated("Observables are deprecated because scripting is deprecated.")
+trait ObservableMap[A, B] extends scala.AnyRef with scala.collection.mutable.Map[A, B] with scala.collection.mutable.Publisher[scala.collection.script.Message[scala.Tuple2[A, B]] with scala.collection.mutable.Undoable] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  type Pub <: scala.collection.mutable.ObservableMap[A, B]
+  def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.ObservableMap.type = { /* compiled code */ }
+  def -=(key: A): scala.collection.mutable.ObservableMap.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+}

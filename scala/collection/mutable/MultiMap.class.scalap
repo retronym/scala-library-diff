@@ -1,0 +1,8 @@
+package scala.collection.mutable
+trait MultiMap[A, B] extends scala.AnyRef with scala.collection.mutable.Map[A, scala.collection.mutable.Set[B]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def makeSet: scala.collection.mutable.Set[B] = { /* compiled code */ }
+  def addBinding(key: A, value: B): scala.collection.mutable.MultiMap.type = { /* compiled code */ }
+  def removeBinding(key: A, value: B): scala.collection.mutable.MultiMap.type = { /* compiled code */ }
+  def entryExists(key: A, p: scala.Function1[B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+}

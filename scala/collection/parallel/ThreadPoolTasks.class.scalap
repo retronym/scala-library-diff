@@ -1,0 +1,30 @@
+package scala.collection.parallel
+@scala.deprecated("Use `ForkJoinTasks` instead.")
+trait ThreadPoolTasks extends scala.AnyRef with scala.collection.parallel.Tasks {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  trait WrappedTask[R, +Tp] extends java.lang.Object with java.lang.Runnable with scala.collection.parallel.Tasks.WrappedTask[R, Tp] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    var owned: scala.Boolean = { /* compiled code */ }
+    var completed: scala.Boolean = { /* compiled code */ }
+    def start(): scala.Unit = { /* compiled code */ }
+    def sync(): scala.Unit = { /* compiled code */ }
+    def tryCancel(): scala.Boolean = { /* compiled code */ }
+    def run(): scala.Unit = { /* compiled code */ }
+    override def release(): scala.Unit = { /* compiled code */ }
+  }
+  protected def newWrappedTask[R, Tp](b: scala.collection.parallel.Task[R, Tp]): scala.collection.parallel.ThreadPoolTasks.WrappedTask[R, Tp]
+  val environment: java.util.concurrent.ThreadPoolExecutor
+  def executor: java.util.concurrent.ThreadPoolExecutor = { /* compiled code */ }
+  def queue: java.util.concurrent.LinkedBlockingQueue[java.lang.Runnable] = { /* compiled code */ }
+  var totaltasks: scala.Int = { /* compiled code */ }
+  def execute[R, Tp](task: scala.collection.parallel.Task[R, Tp]): scala.Function0[R] = { /* compiled code */ }
+  def executeAndWaitResult[R, Tp](task: scala.collection.parallel.Task[R, Tp]): R = { /* compiled code */ }
+  def parallelismLevel: scala.Int = { /* compiled code */ }
+}
+@scala.deprecated("Use `ForkJoinTasks` instead.")
+object ThreadPoolTasks extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val numCores: scala.Int = { /* compiled code */ }
+  val tcount: java.util.concurrent.atomic.AtomicLong = { /* compiled code */ }
+  val defaultThreadPool: java.util.concurrent.ThreadPoolExecutor = { /* compiled code */ }
+}

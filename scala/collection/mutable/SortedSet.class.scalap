@@ -1,0 +1,10 @@
+package scala.collection.mutable
+trait SortedSet[A] extends scala.AnyRef with scala.collection.SortedSet[A] with scala.collection.SortedSetLike[A, scala.collection.mutable.SortedSet[A]] with scala.collection.mutable.Set[A] with scala.collection.mutable.SetLike[A, scala.collection.mutable.SortedSet[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def empty: scala.collection.mutable.SortedSet[A] = { /* compiled code */ }
+}
+object SortedSet extends scala.collection.generic.MutableSortedSetFactory[scala.collection.mutable.SortedSet] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A](implicit ord: scala.Ordering[A]): scala.collection.generic.CanBuildFrom[scala.collection.generic.SortedSetFactory.Coll, A, scala.collection.mutable.SortedSet[A]] = { /* compiled code */ }
+  def empty[A](implicit ord: scala.Ordering[A]): scala.collection.mutable.SortedSet[A] = { /* compiled code */ }
+}

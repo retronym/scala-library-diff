@@ -1,0 +1,3 @@
+package scala.collection.mutable
+trait IndexedSeqOptimized[A, +Repr] extends scala.Any with scala.collection.mutable.IndexedSeqLike[A, Repr] with scala.collection.IndexedSeqOptimized[A, Repr] {
+}

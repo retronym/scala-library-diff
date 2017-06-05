@@ -1,0 +1,94 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The implementation details of immutable hash sets make inheriting from them unwise.")
+@scala.SerialVersionUID { val value = 2None }
+class HashSet[A] extends scala.collection.AbstractSet[A] with scala.collection.immutable.Set[A] with scala.collection.generic.GenericSetTemplate[A, scala.collection.immutable.HashSet] with scala.collection.SetLike[A, scala.collection.immutable.HashSet[A]] with scala.collection.CustomParallelizable[A, scala.collection.parallel.immutable.ParHashSet[A]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.HashSet] = { /* compiled code */ }
+  override def par: scala.collection.parallel.immutable.ParHashSet[A] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def empty: scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  def contains(e: A): scala.Boolean = { /* compiled code */ }
+  override def subsetOf(that: scala.collection.GenSet[A]): scala.Boolean = { /* compiled code */ }
+  protected def subsetOf0(that: scala.collection.immutable.HashSet[A], level: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def +(e: A): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  override def +(elem1: A, elem2: A, elems: A*): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  override def union(that: scala.collection.GenSet[A]): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  override def intersect(that: scala.collection.GenSet[A]): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  override def diff(that: scala.collection.GenSet[A]): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  private[immutable] def union0(that: scala.collection.immutable.HashSet.LeafHashSet[A], level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  private[immutable] def union0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  private[immutable] def intersect0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  private[immutable] def diff0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  def -(e: A): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  override def filter(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  override def filterNot(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  protected def filter0(p: scala.Function1[A, scala.Boolean], negate: scala.Boolean, level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  protected def elemHashCode(key: A): scala.Int = { /* compiled code */ }
+  protected final def improve(hcode: scala.Int): scala.Int = { /* compiled code */ }
+  private[collection] def computeHash(key: A): scala.Int = { /* compiled code */ }
+  protected def get0(key: A, hash: scala.Int, level: scala.Int): scala.Boolean = { /* compiled code */ }
+  def updated0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  protected def removed0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  protected def writeReplace(): scala.AnyRef = { /* compiled code */ }
+}
+object HashSet extends scala.collection.generic.ImmutableSetFactory[scala.collection.immutable.HashSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.HashSet[A]] = { /* compiled code */ }
+  private[collection] def emptyInstance: scala.collection.immutable.HashSet[scala.Any] = { /* compiled code */ }
+  class HashTrieSet[A] extends scala.collection.immutable.HashSet[A] {
+    private[collection] val elems: scala.Array[scala.collection.immutable.HashSet[A]] = { /* compiled code */ }
+    def this(bitmap: scala.Int, elems: scala.Array[scala.collection.immutable.HashSet[A]], size0: scala.Int) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def get0(key: A, hash: scala.Int, level: scala.Int): scala.Boolean = { /* compiled code */ }
+    override def updated0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def union0(that: scala.collection.immutable.HashSet.LeafHashSet[A], level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def union0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def intersect0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def diff0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def removed0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def subsetOf0(that: scala.collection.immutable.HashSet[A], level: scala.Int): scala.Boolean = { /* compiled code */ }
+    protected override def filter0(p: scala.Function1[A, scala.Boolean], negate: scala.Boolean, level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def iterator: scala.collection.immutable.TrieIterator[A] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  }
+  private[HashSet] sealed abstract class LeafHashSet[A] extends scala.collection.immutable.HashSet[A] {
+    def this() = { /* compiled code */ }
+    private[HashSet] def hash: scala.Int
+  }
+  class HashSet1[A] extends scala.collection.immutable.HashSet.LeafHashSet[A] {
+    private[HashSet] val key: A = { /* compiled code */ }
+    private[HashSet] val hash: scala.Int = { /* compiled code */ }
+    def this(key: A, hash: scala.Int) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def get0(key: A, hash: scala.Int, level: scala.Int): scala.Boolean = { /* compiled code */ }
+    override def subsetOf0(that: scala.collection.immutable.HashSet[A], level: scala.Int): scala.Boolean = { /* compiled code */ }
+    override def updated0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def union0(that: scala.collection.immutable.HashSet.LeafHashSet[A], level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def union0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def intersect0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def diff0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def removed0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    protected override def filter0(p: scala.Function1[A, scala.Boolean], negate: scala.Boolean, level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  }
+  private[immutable] class HashSetCollision1[A] extends scala.collection.immutable.HashSet.LeafHashSet[A] {
+    private[HashSet] val hash: scala.Int = { /* compiled code */ }
+    val ks: scala.collection.immutable.ListSet[A] = { /* compiled code */ }
+    def this(hash: scala.Int, ks: scala.collection.immutable.ListSet[A]) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def get0(key: A, hash: scala.Int, level: scala.Int): scala.Boolean = { /* compiled code */ }
+    override def subsetOf0(that: scala.collection.immutable.HashSet[A], level: scala.Int): scala.Boolean = { /* compiled code */ }
+    override def updated0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def union0(that: scala.collection.immutable.HashSet.LeafHashSet[A], level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def union0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def intersect0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    private[immutable] override def diff0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def removed0(key: A, hash: scala.Int, level: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    protected override def filter0(p: scala.Function1[A, scala.Boolean], negate: scala.Boolean, level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+    override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  }
+}

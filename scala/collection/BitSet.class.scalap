@@ -1,0 +1,11 @@
+package scala.collection
+trait BitSet extends scala.AnyRef with scala.collection.SortedSet[scala.Int] with scala.collection.BitSetLike[scala.collection.BitSet] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def empty: scala.collection.BitSet = { /* compiled code */ }
+}
+object BitSet extends scala.AnyRef with scala.collection.generic.BitSetFactory[scala.collection.BitSet] {
+  def this() = { /* compiled code */ }
+  val empty: scala.collection.BitSet = { /* compiled code */ }
+  def newBuilder: scala.collection.mutable.Builder[scala.Int, scala.collection.immutable.BitSet] = { /* compiled code */ }
+  implicit def canBuildFrom: scala.collection.generic.CanBuildFrom[scala.collection.BitSet, scala.Int, scala.collection.BitSet] = { /* compiled code */ }
+}

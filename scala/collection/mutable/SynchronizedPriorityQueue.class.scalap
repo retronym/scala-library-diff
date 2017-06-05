@@ -1,0 +1,15 @@
+package scala.collection.mutable
+@scala.deprecated("Comprehensive synchronization via selective overriding of methods is inherently unreliable.  Consider java.util.concurrent.ConcurrentSkipListSet as an alternative.")
+class SynchronizedPriorityQueue[A] extends scala.collection.mutable.PriorityQueue[A] {
+  def this()(implicit ord: scala.Ordering[A]) = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def +=(elem: A): scala.collection.mutable.SynchronizedPriorityQueue.type = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.SynchronizedPriorityQueue.type = { /* compiled code */ }
+  override def enqueue(elems: A*): scala.Unit = { /* compiled code */ }
+  override def dequeue(): A = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

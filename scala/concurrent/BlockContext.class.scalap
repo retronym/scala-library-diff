@@ -1,0 +1,9 @@
+package scala.concurrent
+trait BlockContext extends scala.AnyRef {
+  def blockOn[T](thunk: => T)(implicit permission: scala.concurrent.CanAwait): T
+}
+object BlockContext extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def current: scala.concurrent.BlockContext = { /* compiled code */ }
+  def withBlockContext[T](blockContext: scala.concurrent.BlockContext)(body: => T): T = { /* compiled code */ }
+}

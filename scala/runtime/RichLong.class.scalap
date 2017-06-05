@@ -1,0 +1,56 @@
+package scala.runtime
+final class RichLong extends scala.AnyVal with scala.runtime.IntegralProxy[scala.Long] {
+  val self: scala.Long = { /* compiled code */ }
+  def this(self: scala.Long) = { /* compiled code */ }
+  protected def num: scala.math.Numeric.LongIsIntegral.type = { /* compiled code */ }
+  protected def ord: scala.math.Ordering.Long.type = { /* compiled code */ }
+  override def doubleValue(): scala.Double = { /* compiled code */ }
+  override def floatValue(): scala.Float = { /* compiled code */ }
+  override def longValue(): scala.Long = { /* compiled code */ }
+  override def intValue(): scala.Int = { /* compiled code */ }
+  override def byteValue(): scala.Byte = { /* compiled code */ }
+  override def shortValue(): scala.Short = { /* compiled code */ }
+  override def isValidByte: scala.Boolean = { /* compiled code */ }
+  override def isValidShort: scala.Boolean = { /* compiled code */ }
+  override def isValidChar: scala.Boolean = { /* compiled code */ }
+  override def isValidInt: scala.Boolean = { /* compiled code */ }
+  def isValidLong: scala.Boolean = { /* compiled code */ }
+  override def abs: scala.Long = { /* compiled code */ }
+  override def max(that: scala.Long): scala.Long = { /* compiled code */ }
+  override def min(that: scala.Long): scala.Long = { /* compiled code */ }
+  override def signum: scala.Int = { /* compiled code */ }
+  @scala.deprecated("This is an integer type; there is no reason to round it.  Perhaps you meant to call this on a floating-point value?")
+  def round: scala.Long = { /* compiled code */ }
+  def toBinaryString: scala.Predef.String = { /* compiled code */ }
+  def toHexString: scala.Predef.String = { /* compiled code */ }
+  def toOctalString: scala.Predef.String = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object RichLong extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def num$extension($this: scala.runtime.RichLong): scala.math.Numeric.LongIsIntegral.type = { /* compiled code */ }
+  final def ord$extension($this: scala.runtime.RichLong): scala.math.Ordering.Long.type = { /* compiled code */ }
+  final def doubleValue$extension($this: scala.runtime.RichLong)(): scala.Double = { /* compiled code */ }
+  final def floatValue$extension($this: scala.runtime.RichLong)(): scala.Float = { /* compiled code */ }
+  final def longValue$extension($this: scala.runtime.RichLong)(): scala.Long = { /* compiled code */ }
+  final def intValue$extension($this: scala.runtime.RichLong)(): scala.Int = { /* compiled code */ }
+  final def byteValue$extension($this: scala.runtime.RichLong)(): scala.Byte = { /* compiled code */ }
+  final def shortValue$extension($this: scala.runtime.RichLong)(): scala.Short = { /* compiled code */ }
+  final def isValidByte$extension($this: scala.runtime.RichLong): scala.Boolean = { /* compiled code */ }
+  final def isValidShort$extension($this: scala.runtime.RichLong): scala.Boolean = { /* compiled code */ }
+  final def isValidChar$extension($this: scala.runtime.RichLong): scala.Boolean = { /* compiled code */ }
+  final def isValidInt$extension($this: scala.runtime.RichLong): scala.Boolean = { /* compiled code */ }
+  final def isValidLong$extension($this: scala.runtime.RichLong): scala.Boolean = { /* compiled code */ }
+  final def abs$extension($this: scala.runtime.RichLong): scala.Long = { /* compiled code */ }
+  final def max$extension($this: scala.runtime.RichLong)(that: scala.Long): scala.Long = { /* compiled code */ }
+  final def min$extension($this: scala.runtime.RichLong)(that: scala.Long): scala.Long = { /* compiled code */ }
+  final def signum$extension($this: scala.runtime.RichLong): scala.Int = { /* compiled code */ }
+  @scala.deprecated("This is an integer type; there is no reason to round it.  Perhaps you meant to call this on a floating-point value?")
+  final def round$extension($this: scala.runtime.RichLong): scala.Long = { /* compiled code */ }
+  final def toBinaryString$extension($this: scala.runtime.RichLong): scala.Predef.String = { /* compiled code */ }
+  final def toHexString$extension($this: scala.runtime.RichLong): scala.Predef.String = { /* compiled code */ }
+  final def toOctalString$extension($this: scala.runtime.RichLong): scala.Predef.String = { /* compiled code */ }
+  final def hashCode$extension($this: scala.runtime.RichLong)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.runtime.RichLong)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

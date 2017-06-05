@@ -1,0 +1,8 @@
+package scala.collection.parallel
+trait Splitter[+T] extends scala.AnyRef with scala.collection.Iterator[T] {
+  def split: scala.collection.Seq[scala.collection.parallel.Splitter[T]]
+}
+object Splitter extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def empty[T]: scala.collection.parallel.Splitter[T] = { /* compiled code */ }
+}

@@ -1,0 +1,12 @@
+package scala.collection.parallel.immutable
+trait ParSeq[+T] extends scala.AnyRef with scala.collection.GenSeq[T] with scala.collection.parallel.ParSeq[T] with scala.collection.parallel.immutable.ParIterable[T] with scala.collection.generic.GenericParTemplate[T, scala.collection.parallel.immutable.ParSeq] with scala.collection.parallel.ParSeqLike[T, scala.collection.parallel.immutable.ParSeq[T], scala.collection.immutable.Seq[T]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.parallel.immutable.ParSeq] with scala.collection.generic.GenericParCompanion[scala.collection.parallel.immutable.ParSeq] = { /* compiled code */ }
+  override def toSeq: scala.collection.parallel.immutable.ParSeq[T] = { /* compiled code */ }
+}
+object ParSeq extends scala.collection.generic.ParFactory[scala.collection.parallel.immutable.ParSeq] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[T]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenericCompanion.Coll, T, scala.collection.parallel.immutable.ParSeq[T]] = { /* compiled code */ }
+  def newBuilder[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.immutable.ParSeq[T]] = { /* compiled code */ }
+  def newCombiner[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.immutable.ParSeq[T]] = { /* compiled code */ }
+}

@@ -1,0 +1,3 @@
+package scala.annotation
+trait ClassfileAnnotation extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+}

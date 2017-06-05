@@ -1,0 +1,39 @@
+package scala.collection.immutable
+@scala.SerialVersionUID { val value = 1611436763290191562None }
+abstract class BitSet extends scala.collection.AbstractSet[scala.Int] with scala.collection.immutable.SortedSet[scala.Int] with scala.collection.BitSet with scala.collection.BitSetLike[scala.collection.immutable.BitSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def empty: scala.collection.immutable.BitSet = { /* compiled code */ }
+  protected def fromBitMaskNoCopy(elems: scala.Array[scala.Long]): scala.collection.immutable.BitSet = { /* compiled code */ }
+  protected def updateWord(idx: scala.Int, w: scala.Long): scala.collection.immutable.BitSet
+  def +(elem: scala.Int): scala.collection.immutable.BitSet = { /* compiled code */ }
+  def -(elem: scala.Int): scala.collection.immutable.BitSet = { /* compiled code */ }
+}
+object BitSet extends scala.AnyRef with scala.collection.generic.BitSetFactory[scala.collection.immutable.BitSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  val empty: scala.collection.immutable.BitSet = { /* compiled code */ }
+  def newBuilder: scala.collection.mutable.Builder[scala.Int, scala.collection.immutable.BitSet] = { /* compiled code */ }
+  implicit def canBuildFrom: scala.collection.generic.CanBuildFrom[scala.collection.immutable.BitSet, scala.Int, scala.collection.immutable.BitSet] = { /* compiled code */ }
+  def fromBitMask(elems: scala.Array[scala.Long]): scala.collection.immutable.BitSet = { /* compiled code */ }
+  def fromBitMaskNoCopy(elems: scala.Array[scala.Long]): scala.collection.immutable.BitSet = { /* compiled code */ }
+  class BitSet1 extends scala.collection.immutable.BitSet {
+    val elems: scala.Long = { /* compiled code */ }
+    def this(elems: scala.Long) = { /* compiled code */ }
+    protected def nwords: scala.Int = { /* compiled code */ }
+    protected def word(idx: scala.Int): scala.Long = { /* compiled code */ }
+    protected def updateWord(idx: scala.Int, w: scala.Long): scala.collection.immutable.BitSet = { /* compiled code */ }
+  }
+  class BitSet2 extends scala.collection.immutable.BitSet {
+    val elems0: scala.Long = { /* compiled code */ }
+    def this(elems0: scala.Long, elems1: scala.Long) = { /* compiled code */ }
+    protected def nwords: scala.Int = { /* compiled code */ }
+    protected def word(idx: scala.Int): scala.Long = { /* compiled code */ }
+    protected def updateWord(idx: scala.Int, w: scala.Long): scala.collection.immutable.BitSet = { /* compiled code */ }
+  }
+  class BitSetN extends scala.collection.immutable.BitSet {
+    val elems: scala.Array[scala.Long] = { /* compiled code */ }
+    def this(elems: scala.Array[scala.Long]) = { /* compiled code */ }
+    protected def nwords: scala.Int = { /* compiled code */ }
+    protected def word(idx: scala.Int): scala.Long = { /* compiled code */ }
+    protected def updateWord(idx: scala.Int, w: scala.Long): scala.collection.immutable.BitSet = { /* compiled code */ }
+  }
+}

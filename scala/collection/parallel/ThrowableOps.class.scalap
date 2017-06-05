@@ -1,0 +1,6 @@
+package scala.collection.parallel
+@scala.deprecated("This trait will be removed.")
+trait ThrowableOps extends scala.AnyRef {
+  @scala.deprecated("This method will be removed.")
+  def alongWith(that: scala.Throwable): scala.Throwable
+}

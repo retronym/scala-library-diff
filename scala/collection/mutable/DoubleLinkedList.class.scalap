@@ -1,0 +1,15 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = -8144992287952814767None }
+@scala.deprecated("Low-level linked lists are deprecated due to idiosyncracies in interface and incomplete features.")
+class DoubleLinkedList[A] extends scala.collection.mutable.AbstractSeq[A] with scala.collection.mutable.LinearSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.DoubleLinkedList] with scala.collection.mutable.DoubleLinkedListLike[A, scala.collection.mutable.DoubleLinkedList[A]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def this(elem: A, next: scala.collection.mutable.DoubleLinkedList[A]) = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.DoubleLinkedList] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.DoubleLinkedList[A] = { /* compiled code */ }
+}
+@scala.deprecated("Low-level linked lists are deprecated.")
+object DoubleLinkedList extends scala.collection.generic.SeqFactory[scala.collection.mutable.DoubleLinkedList] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.DoubleLinkedList[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.DoubleLinkedList[A]] = { /* compiled code */ }
+}

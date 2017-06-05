@@ -1,0 +1,8 @@
+package scala.collection.immutable
+class VectorIterator[+A] extends scala.collection.AbstractIterator[A] with scala.collection.Iterator[A] with scala.collection.immutable.VectorPointer[A] {
+  def this(_startIndex: scala.Int, endIndex: scala.Int) = { /* compiled code */ }
+  def hasNext: scala.Boolean = { /* compiled code */ }
+  def next(): A = { /* compiled code */ }
+  private[collection] def remainingElementCount: scala.Int = { /* compiled code */ }
+  private[collection] def remainingVector: scala.collection.immutable.Vector[A] = { /* compiled code */ }
+}

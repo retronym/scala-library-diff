@@ -1,0 +1,19 @@
+package scala.text
+@scala.deprecated("This class will be removed.")
+abstract class Document extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def ::(hd: scala.text.Document): scala.text.Document = { /* compiled code */ }
+  def ::(hd: scala.Predef.String): scala.text.Document = { /* compiled code */ }
+  def :/:(hd: scala.text.Document): scala.text.Document = { /* compiled code */ }
+  def :/:(hd: scala.Predef.String): scala.text.Document = { /* compiled code */ }
+  def format(width: scala.Int, writer: java.io.Writer): scala.Unit = { /* compiled code */ }
+}
+@scala.deprecated("This object will be removed.")
+object Document extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def empty: scala.text.DocNil.type = { /* compiled code */ }
+  def break: scala.text.DocBreak.type = { /* compiled code */ }
+  def text(s: scala.Predef.String): scala.text.Document = { /* compiled code */ }
+  def group(d: scala.text.Document): scala.text.Document = { /* compiled code */ }
+  def nest(i: scala.Int, d: scala.text.Document): scala.text.Document = { /* compiled code */ }
+}

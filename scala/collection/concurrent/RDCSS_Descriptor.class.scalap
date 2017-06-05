@@ -1,0 +1,22 @@
+package scala.collection.concurrent
+private[concurrent] case class RDCSS_Descriptor[K, V](old: scala.collection.concurrent.INode[K, V], expectedmain: scala.collection.concurrent.MainNode[K, V], nv: scala.collection.concurrent.INode[K, V]) extends scala.AnyRef with scala.Product with scala.Serializable {
+  val old: scala.collection.concurrent.INode[K, V] = { /* compiled code */ }
+  val expectedmain: scala.collection.concurrent.MainNode[K, V] = { /* compiled code */ }
+  val nv: scala.collection.concurrent.INode[K, V] = { /* compiled code */ }
+  var committed: scala.Boolean = { /* compiled code */ }
+  def copy[K, V](old: scala.collection.concurrent.INode[K, V], expectedmain: scala.collection.concurrent.MainNode[K, V], nv: scala.collection.concurrent.INode[K, V]): scala.collection.concurrent.RDCSS_Descriptor[K, V] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+private[concurrent] object RDCSS_Descriptor extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[K, V](old: scala.collection.concurrent.INode[K, V], expectedmain: scala.collection.concurrent.MainNode[K, V], nv: scala.collection.concurrent.INode[K, V]): scala.collection.concurrent.RDCSS_Descriptor[K, V] = { /* compiled code */ }
+  def unapply[K, V](x$0: scala.collection.concurrent.RDCSS_Descriptor[K, V]): scala.Option[scala.Tuple3[scala.collection.concurrent.INode[K, V], scala.collection.concurrent.MainNode[K, V], scala.collection.concurrent.INode[K, V]]] = { /* compiled code */ }
+}

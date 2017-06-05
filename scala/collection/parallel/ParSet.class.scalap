@@ -1,0 +1,13 @@
+package scala.collection.parallel
+trait ParSet[T] extends scala.AnyRef with scala.collection.GenSet[T] with scala.collection.generic.GenericParTemplate[T, scala.collection.parallel.ParSet] with scala.collection.parallel.ParIterable[T] with scala.collection.parallel.ParSetLike[T, scala.collection.parallel.ParSet[T], scala.collection.Set[T]] {
+ this: scala.collection.parallel.ParSet[T] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def empty: scala.collection.parallel.ParSet[T] = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.parallel.ParSet] with scala.collection.generic.GenericParCompanion[scala.collection.parallel.ParSet] = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}
+object ParSet extends scala.collection.generic.ParSetFactory[scala.collection.parallel.ParSet] {
+  def this() = { /* compiled code */ }
+  def newCombiner[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.ParSet[T]] = { /* compiled code */ }
+  implicit def canBuildFrom[T]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenericCompanion.Coll, T, scala.collection.parallel.ParSet[T]] = { /* compiled code */ }
+}

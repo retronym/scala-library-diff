@@ -1,0 +1,8 @@
+package scala.runtime
+abstract class AbstractPartialFunction[@scala.specialized -T1, @scala.specialized +R] extends scala.AnyRef with scala.Function1[T1, R] with scala.PartialFunction[T1, R] {
+ this: scala.runtime.AbstractPartialFunction[T1, R] =>
+  @scala.specialized
+  @scala.specialized
+  def this() = { /* compiled code */ }
+  def apply(x: T1): R = { /* compiled code */ }
+}

@@ -1,0 +1,8 @@
+package scala.sys.process
+trait Process extends scala.AnyRef {
+  def exitValue(): scala.Int
+  def destroy(): scala.Unit
+}
+object Process extends scala.AnyRef with scala.sys.process.ProcessImpl with scala.sys.process.ProcessCreation {
+  def this() = { /* compiled code */ }
+}

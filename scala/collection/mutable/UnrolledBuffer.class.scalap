@@ -1,0 +1,66 @@
+package scala.collection.mutable
+@scala.deprecatedInheritance("UnrolledBuffer is not designed to enable meaningful subclassing.")
+@scala.SerialVersionUID { val value = 1None }
+class UnrolledBuffer[T] extends scala.collection.mutable.AbstractBuffer[T] with scala.collection.mutable.Buffer[T] with scala.collection.mutable.BufferLike[T, scala.collection.mutable.UnrolledBuffer[T]] with scala.collection.generic.GenericClassTagTraversableTemplate[T, scala.collection.mutable.UnrolledBuffer] with scala.collection.mutable.Builder[T, scala.collection.mutable.UnrolledBuffer[T]] with scala.Serializable {
+  implicit val tag: scala.reflect.ClassTag[T] = { /* compiled code */ }
+  def this()(implicit tag: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+  private[collection] def headPtr: scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+  private[collection] def headPtr_=(head: scala.collection.mutable.UnrolledBuffer.Unrolled[T]): scala.Unit = { /* compiled code */ }
+  private[collection] def lastPtr: scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+  private[collection] def lastPtr_=(last: scala.collection.mutable.UnrolledBuffer.Unrolled[T]): scala.Unit = { /* compiled code */ }
+  private[collection] def size_=(s: scala.Int): scala.Unit = { /* compiled code */ }
+  protected def newUnrolled: scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+  private[collection] def calcNextLength(sz: scala.Int): scala.Int = { /* compiled code */ }
+  def classTagCompanion: scala.collection.mutable.UnrolledBuffer.type = { /* compiled code */ }
+  def concat(that: scala.collection.mutable.UnrolledBuffer[T]): scala.collection.mutable.UnrolledBuffer[T] = { /* compiled code */ }
+  def +=(elem: T): scala.collection.mutable.UnrolledBuffer.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[T] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[T, U]): scala.Unit = { /* compiled code */ }
+  def result(): scala.collection.mutable.UnrolledBuffer[T] = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  def apply(idx: scala.Int): T = { /* compiled code */ }
+  def update(idx: scala.Int, newelem: T): scala.Unit = { /* compiled code */ }
+  def remove(idx: scala.Int): T = { /* compiled code */ }
+  def +=:(elem: T): scala.collection.mutable.UnrolledBuffer.type = { /* compiled code */ }
+  def insertAll(idx: scala.Int, elems: scala.collection.Traversable[T]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.UnrolledBuffer[T] = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}
+object UnrolledBuffer extends scala.collection.generic.ClassTagTraversableFactory[scala.collection.mutable.UnrolledBuffer] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[T](implicit t: scala.reflect.ClassTag[T]): scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericClassTagCompanion.Coll, T, scala.collection.mutable.UnrolledBuffer[T]] = { /* compiled code */ }
+  def newBuilder[T](implicit t: scala.reflect.ClassTag[T]): scala.collection.mutable.Builder[T, scala.collection.mutable.UnrolledBuffer[T]] = { /* compiled code */ }
+  val waterline: scala.Int = { /* compiled code */ }
+  val waterlineDelim: scala.Int = { /* compiled code */ }
+  private[collection] val unrolledlength: scala.Int = { /* compiled code */ }
+  class Unrolled[T] extends scala.AnyRef {
+    var size: scala.Int = { /* compiled code */ }
+    var array: scala.Array[T] = { /* compiled code */ }
+    var next: scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+    val buff: scala.collection.mutable.UnrolledBuffer[T] = { /* compiled code */ }
+    private[collection] def this(size: scala.Int, array: scala.Array[T], next: scala.collection.mutable.UnrolledBuffer.Unrolled[T], buff: scala.collection.mutable.UnrolledBuffer[T])(implicit evidence$1: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+    private[collection] def this()(implicit evidence$2: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+    private[collection] def this(b: scala.collection.mutable.UnrolledBuffer[T])(implicit evidence$3: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def append(elem: T): scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[T, U]): scala.Unit = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def apply(idx: scala.Int): T = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def update(idx: scala.Int, newelem: T): scala.Unit = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def locate(idx: scala.Int): scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+    def prepend(elem: T): scala.collection.mutable.UnrolledBuffer.Unrolled[T] = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def remove(idx: scala.Int, buffer: scala.collection.mutable.UnrolledBuffer[T]): T = { /* compiled code */ }
+    protected def tryMergeWithNext(): scala.Boolean = { /* compiled code */ }
+    @scala.annotation.tailrec
+    final def insertAll(idx: scala.Int, t: scala.collection.Traversable[T], buffer: scala.collection.mutable.UnrolledBuffer[T]): scala.Unit = { /* compiled code */ }
+    def bind(thathead: scala.collection.mutable.UnrolledBuffer.Unrolled[T]): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  object Unrolled extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+  }
+}

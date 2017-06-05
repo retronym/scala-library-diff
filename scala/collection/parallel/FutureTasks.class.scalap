@@ -1,0 +1,8 @@
+package scala.collection.parallel
+private[parallel] final class FutureTasks extends scala.AnyRef with scala.collection.parallel.Tasks {
+  def this(executor: scala.concurrent.ExecutionContext) = { /* compiled code */ }
+  val environment: scala.concurrent.ExecutionContext = { /* compiled code */ }
+  def execute[R, Tp](task: scala.collection.parallel.Task[R, Tp]): scala.Function0[R] = { /* compiled code */ }
+  def executeAndWaitResult[R, Tp](task: scala.collection.parallel.Task[R, Tp]): R = { /* compiled code */ }
+  def parallelismLevel: scala.Int = { /* compiled code */ }
+}

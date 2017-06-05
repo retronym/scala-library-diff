@@ -1,0 +1,5 @@
+package scala.collection.mutable
+trait Cloneable[+A <: scala.AnyRef] extends java.lang.Object with scala.Cloneable {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def clone(): A = { /* compiled code */ }
+}

@@ -1,0 +1,12 @@
+package scala.math
+trait PartialOrdering[T] extends scala.AnyRef with scala.math.Equiv[T] {
+ this: scala.math.PartialOrdering[T] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def tryCompare(x: T, y: T): scala.Option[scala.Int]
+  def lteq(x: T, y: T): scala.Boolean
+  def gteq(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  def lt(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  def gt(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  def equiv(x: T, y: T): scala.Boolean = { /* compiled code */ }
+  def reverse: scala.math.PartialOrdering[T] = { /* compiled code */ }
+}

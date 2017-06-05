@@ -1,0 +1,21 @@
+package scala.collection.script
+@scala.deprecated("Scripting is deprecated.")
+case class Update[+A](location: scala.collection.script.Location, elem: A) extends scala.AnyRef with scala.collection.script.Message[A] with scala.Product with scala.Serializable {
+  val location: scala.collection.script.Location = { /* compiled code */ }
+  val elem: A = { /* compiled code */ }
+  def copy[A](location: scala.collection.script.Location, elem: A): scala.collection.script.Update[A] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Update extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[A](location: scala.collection.script.Location, elem: A): scala.collection.script.Update[A] = { /* compiled code */ }
+  def unapply[A](x$0: scala.collection.script.Update[A]): scala.Option[scala.Tuple2[scala.collection.script.Location, A]] = { /* compiled code */ }
+}

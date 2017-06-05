@@ -1,0 +1,8 @@
+package scala.collection.immutable
+final class VectorBuilder[A] extends scala.AnyRef with scala.collection.mutable.Builder[A, scala.collection.immutable.Vector[A]] with scala.collection.immutable.VectorPointer[A] {
+  def this() = { /* compiled code */ }
+  def +=(elem: A): scala.collection.immutable.VectorBuilder.type = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.immutable.VectorBuilder.type = { /* compiled code */ }
+  def result(): scala.collection.immutable.Vector[A] = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+}

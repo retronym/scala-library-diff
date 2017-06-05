@@ -1,0 +1,72 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = -8525408645367278351None }
+final class StringBuilder extends scala.collection.mutable.AbstractSeq[scala.Char] with java.lang.CharSequence with scala.collection.mutable.IndexedSeq[scala.Char] with scala.collection.immutable.StringLike[scala.collection.mutable.StringBuilder] with scala.collection.mutable.Builder[scala.Char, scala.Predef.String] with scala.Serializable {
+  def this(underlying: java.lang.StringBuilder) = { /* compiled code */ }
+  def this(initCapacity: scala.Int, initValue: scala.Predef.String) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  def this(capacity: scala.Int) = { /* compiled code */ }
+  def this(str: scala.Predef.String) = { /* compiled code */ }
+  def toArray: scala.Array[scala.Char] = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  def length_=(n: scala.Int): scala.Unit = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def setLength(len: scala.Int): scala.Unit = { /* compiled code */ }
+  def capacity: scala.Int = { /* compiled code */ }
+  def ensureCapacity(newCapacity: scala.Int): scala.Unit = { /* compiled code */ }
+  def charAt(index: scala.Int): scala.Char = { /* compiled code */ }
+  override def apply(index: scala.Int): scala.Char = { /* compiled code */ }
+  def deleteCharAt(index: scala.Int): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def setCharAt(index: scala.Int, ch: scala.Char): scala.Unit = { /* compiled code */ }
+  def update(i: scala.Int, c: scala.Char): scala.Unit = { /* compiled code */ }
+  def substring(start: scala.Int): scala.Predef.String = { /* compiled code */ }
+  def substring(start: scala.Int, end: scala.Int): scala.Predef.String = { /* compiled code */ }
+  def subSequence(start: scala.Int, end: scala.Int): java.lang.CharSequence = { /* compiled code */ }
+  def +=(x: scala.Char): scala.collection.mutable.StringBuilder.type = { /* compiled code */ }
+  def ++=(s: scala.Predef.String): scala.collection.mutable.StringBuilder.type = { /* compiled code */ }
+  def appendAll(xs: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def +(x: scala.Char): scala.collection.mutable.StringBuilder.type = { /* compiled code */ }
+  def append(x: scala.Any): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(s: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(sb: scala.collection.mutable.StringBuilder): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def appendAll(xs: scala.collection.TraversableOnce[scala.Char]): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def appendAll(xs: scala.Array[scala.Char]): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def appendAll(xs: scala.Array[scala.Char], offset: scala.Int, len: scala.Int): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Boolean): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Byte): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Short): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Int): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Long): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Float): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Double): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def append(x: scala.Char): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def delete(start: scala.Int, end: scala.Int): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def replace(start: scala.Int, end: scala.Int, str: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insertAll(index: scala.Int, str: scala.Array[scala.Char], offset: scala.Int, len: scala.Int): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Any): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insertAll(index: scala.Int, xs: scala.collection.TraversableOnce[scala.Char]): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insertAll(index: scala.Int, xs: scala.Array[scala.Char]): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Boolean): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Byte): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Short): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Int): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Long): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Float): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Double): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def insert(index: scala.Int, x: scala.Char): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def indexOf(str: scala.Predef.String): scala.Int = { /* compiled code */ }
+  def indexOf(str: scala.Predef.String, fromIndex: scala.Int): scala.Int = { /* compiled code */ }
+  def lastIndexOf(str: scala.Predef.String): scala.Int = { /* compiled code */ }
+  def lastIndexOf(str: scala.Predef.String, fromIndex: scala.Int): scala.Int = { /* compiled code */ }
+  @scala.annotation.migration("`reverse` returns a new instance.  Use `reverseContents` to update in place and return that StringBuilder itself.")
+  override def reverse: scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  def reverseContents(): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def mkString: java.lang.String = { /* compiled code */ }
+  def result(): scala.Predef.String = { /* compiled code */ }
+}
+object StringBuilder extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def newBuilder: scala.collection.mutable.StringBuilder = { /* compiled code */ }
+}

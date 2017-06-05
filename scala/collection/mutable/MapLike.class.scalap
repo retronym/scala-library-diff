@@ -1,0 +1,29 @@
+package scala.collection.mutable
+trait MapLike[A, B, +This <: scala.collection.mutable.MapLike[A, B, This] with scala.collection.mutable.Map[A, B]] extends scala.AnyRef with scala.collection.MapLike[A, B, This] with scala.collection.mutable.Builder[scala.Tuple2[A, B], This] with scala.collection.generic.Growable[scala.Tuple2[A, B]] with scala.collection.generic.Shrinkable[A] with scala.collection.mutable.Cloneable[This] with scala.collection.Parallelizable[scala.Tuple2[A, B], scala.collection.parallel.mutable.ParMap[A, B]] {
+ this: scala.collection.mutable.MapLike[A, B, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def put(key: A, value: B): scala.Option[B] = { /* compiled code */ }
+  def update(key: A, value: B): scala.Unit = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.MapLike.type
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.mutable.Map[A, B1] = { /* compiled code */ }
+  @scala.annotation.migration("`+` creates a new map. Use `+=` to add an element to this map and return that map itself.")
+  def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.mutable.Map[A, B1] = { /* compiled code */ }
+  @scala.annotation.migration("`+` creates a new map. Use `+=` to add an element to this map and return that map itself.")
+  override def +[B1 >: B](elem1: scala.Tuple2[A, B1], elem2: scala.Tuple2[A, B1], elems: scala.Tuple2[A, B1]*): scala.collection.mutable.Map[A, B1] = { /* compiled code */ }
+  @scala.annotation.migration("`++` creates a new map. Use `++=` to add an element to this map and return that map itself.")
+  override def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.mutable.Map[A, B1] = { /* compiled code */ }
+  def remove(key: A): scala.Option[B] = { /* compiled code */ }
+  def -=(key: A): scala.collection.mutable.MapLike.type
+  @scala.annotation.migration("`-` creates a new map. Use `-=` to remove an element from this map and return that map itself.")
+  override def -(key: A): This = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def getOrElseUpdate(key: A, op: => B): B = { /* compiled code */ }
+  def transform(f: scala.Function2[A, B, B]): scala.collection.mutable.MapLike.type = { /* compiled code */ }
+  def retain(p: scala.Function2[A, B, scala.Boolean]): scala.collection.mutable.MapLike.type = { /* compiled code */ }
+  override def clone(): This = { /* compiled code */ }
+  def result(): This = { /* compiled code */ }
+  @scala.annotation.migration("`-` creates a new map. Use `-=` to remove an element from this map and return that map itself.")
+  override def -(elem1: A, elem2: A, elems: A*): This = { /* compiled code */ }
+  @scala.annotation.migration("`--` creates a new map. Use `--=` to remove an element from this map and return that map itself.")
+  override def --(xs: scala.collection.GenTraversableOnce[A]): This = { /* compiled code */ }
+}

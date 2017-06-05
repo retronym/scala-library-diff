@@ -1,0 +1,9 @@
+package scala.collection.mutable
+@scala.deprecated("Observables are deprecated because scripting is deprecated.")
+trait ObservableSet[A] extends scala.AnyRef with scala.collection.mutable.Set[A] with scala.collection.mutable.Publisher[scala.collection.script.Message[A] with scala.collection.mutable.Undoable] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  type Pub <: scala.collection.mutable.ObservableSet[A]
+  def +=(elem: A): scala.collection.mutable.ObservableSet.type = { /* compiled code */ }
+  def -=(elem: A): scala.collection.mutable.ObservableSet.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+}

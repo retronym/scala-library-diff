@@ -1,0 +1,21 @@
+package scala.io
+private[scala] trait StdIn extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def readLine(): scala.Predef.String = { /* compiled code */ }
+  def readLine(text: scala.Predef.String, args: scala.Any*): scala.Predef.String = { /* compiled code */ }
+  def readBoolean(): scala.Boolean = { /* compiled code */ }
+  def readByte(): scala.Byte = { /* compiled code */ }
+  def readShort(): scala.Short = { /* compiled code */ }
+  def readChar(): scala.Char = { /* compiled code */ }
+  def readInt(): scala.Int = { /* compiled code */ }
+  def readLong(): scala.Long = { /* compiled code */ }
+  def readFloat(): scala.Float = { /* compiled code */ }
+  def readDouble(): scala.Double = { /* compiled code */ }
+  def readf(format: scala.Predef.String): scala.List[scala.Any] = { /* compiled code */ }
+  def readf1(format: scala.Predef.String): scala.Any = { /* compiled code */ }
+  def readf2(format: scala.Predef.String): scala.Tuple2[scala.Any, scala.Any] = { /* compiled code */ }
+  def readf3(format: scala.Predef.String): scala.Tuple3[scala.Any, scala.Any, scala.Any] = { /* compiled code */ }
+}
+object StdIn extends scala.AnyRef with scala.io.StdIn {
+  def this() = { /* compiled code */ }
+}

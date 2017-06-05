@@ -1,0 +1,117 @@
+package scala.collection.mutable
+abstract class ArrayBuilder[T] extends scala.AnyRef with scala.collection.mutable.Builder[T, scala.Array[T]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+}
+object ArrayBuilder extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def make[T]()(implicit evidence$1: scala.reflect.ClassTag[T]): scala.collection.mutable.ArrayBuilder[T] = { /* compiled code */ }
+  @scala.deprecatedInheritance("ArrayBuilder.ofRef is an internal implementation not intended for subclassing.")
+  class ofRef[T <: scala.AnyRef] extends scala.collection.mutable.ArrayBuilder[T] {
+    def this()(implicit evidence$2: scala.reflect.ClassTag[T]) = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: T): scala.collection.mutable.ArrayBuilder.ofRef.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[T]): scala.collection.mutable.ArrayBuilder.ofRef.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[T] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofByte is an internal implementation not intended for subclassing.")
+  class ofByte extends scala.collection.mutable.ArrayBuilder[scala.Byte] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Byte): scala.collection.mutable.ArrayBuilder.ofByte.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Byte]): scala.collection.mutable.ArrayBuilder.ofByte.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Byte] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofShort is an internal implementation not intended for subclassing.")
+  class ofShort extends scala.collection.mutable.ArrayBuilder[scala.Short] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Short): scala.collection.mutable.ArrayBuilder.ofShort.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Short]): scala.collection.mutable.ArrayBuilder.ofShort.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Short] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofChar is an internal implementation not intended for subclassing.")
+  class ofChar extends scala.collection.mutable.ArrayBuilder[scala.Char] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Char): scala.collection.mutable.ArrayBuilder.ofChar.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Char]): scala.collection.mutable.ArrayBuilder.ofChar.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Char] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofInt is an internal implementation not intended for subclassing.")
+  class ofInt extends scala.collection.mutable.ArrayBuilder[scala.Int] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Int): scala.collection.mutable.ArrayBuilder.ofInt.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Int]): scala.collection.mutable.ArrayBuilder.ofInt.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Int] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofLong is an internal implementation not intended for subclassing.")
+  class ofLong extends scala.collection.mutable.ArrayBuilder[scala.Long] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Long): scala.collection.mutable.ArrayBuilder.ofLong.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Long]): scala.collection.mutable.ArrayBuilder.ofLong.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Long] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofFloat is an internal implementation not intended for subclassing.")
+  class ofFloat extends scala.collection.mutable.ArrayBuilder[scala.Float] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Float): scala.collection.mutable.ArrayBuilder.ofFloat.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Float]): scala.collection.mutable.ArrayBuilder.ofFloat.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Float] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofDouble is an internal implementation not intended for subclassing.")
+  class ofDouble extends scala.collection.mutable.ArrayBuilder[scala.Double] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Double): scala.collection.mutable.ArrayBuilder.ofDouble.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Double]): scala.collection.mutable.ArrayBuilder.ofDouble.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Double] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  class ofBoolean extends scala.collection.mutable.ArrayBuilder[scala.Boolean] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Boolean): scala.collection.mutable.ArrayBuilder.ofBoolean.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Boolean]): scala.collection.mutable.ArrayBuilder.ofBoolean.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Boolean] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  @scala.deprecatedInheritance("ArrayBuilder.ofUnit is an internal implementation not intended for subclassing.")
+  class ofUnit extends scala.collection.mutable.ArrayBuilder[scala.Unit] {
+    def this() = { /* compiled code */ }
+    override def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+    def +=(elem: scala.Unit): scala.collection.mutable.ArrayBuilder.ofUnit.type = { /* compiled code */ }
+    override def ++=(xs: scala.collection.TraversableOnce[scala.Unit]): scala.collection.mutable.ArrayBuilder.ofUnit.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.Array[scala.Unit] = { /* compiled code */ }
+    override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+}

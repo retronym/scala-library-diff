@@ -1,0 +1,35 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 3419063961353022662None }
+final class ListBuffer[A] extends scala.collection.mutable.AbstractBuffer[A] with scala.collection.mutable.Buffer[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.ListBuffer] with scala.collection.mutable.BufferLike[A, scala.collection.mutable.ListBuffer[A]] with scala.collection.mutable.Builder[A, scala.collection.immutable.List[A]] with scala.collection.generic.SeqForwarder[A] with java.io.Serializable {
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.ListBuffer] = { /* compiled code */ }
+  protected def underlying: scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def apply(n: scala.Int): A = { /* compiled code */ }
+  def update(n: scala.Int, x: A): scala.Unit = { /* compiled code */ }
+  def +=(x: A): scala.collection.mutable.ListBuffer.type = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.ListBuffer.type = { /* compiled code */ }
+  override def ++=:(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.ListBuffer.type = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def +=:(x: A): scala.collection.mutable.ListBuffer.type = { /* compiled code */ }
+  def insertAll(n: scala.Int, seq: scala.collection.Traversable[A]): scala.Unit = { /* compiled code */ }
+  @scala.annotation.migration("Invalid input values will be rejected in future releases.")
+  override def remove(n: scala.Int, count: scala.Int): scala.Unit = { /* compiled code */ }
+  def result(): scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def toList: scala.collection.immutable.List[A] = { /* compiled code */ }
+  def prependToList(xs: scala.collection.immutable.List[A]): scala.collection.immutable.List[A] = { /* compiled code */ }
+  def remove(n: scala.Int): A = { /* compiled code */ }
+  override def -=(elem: A): scala.collection.mutable.ListBuffer.type = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  @scala.deprecated("The result of this method will change along with this buffer, which is often not what's expected.")
+  override def readOnly: scala.collection.immutable.List[A] = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.ListBuffer[A] = { /* compiled code */ }
+  override def stringPrefix: scala.Predef.String = { /* compiled code */ }
+}
+object ListBuffer extends scala.collection.generic.SeqFactory[scala.collection.mutable.ListBuffer] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.ListBuffer[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.ListBuffer[A]] = { /* compiled code */ }
+}

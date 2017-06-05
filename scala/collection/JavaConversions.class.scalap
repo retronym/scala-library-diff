@@ -1,0 +1,4 @@
+package scala.collection
+object JavaConversions extends scala.AnyRef with scala.collection.convert.WrapAsScala with scala.collection.convert.WrapAsJava {
+  def this() = { /* compiled code */ }
+}

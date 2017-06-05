@@ -1,0 +1,14 @@
+package scala.util.hashing
+@scala.annotation.implicitNotFound("No implicit Hashing defined for ${T}.")
+trait Hashing[T] extends scala.AnyRef with scala.Serializable {
+  def hash(x: T): scala.Int
+}
+object Hashing extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final class Default[T] extends scala.AnyRef with scala.util.hashing.Hashing[T] {
+    def this() = { /* compiled code */ }
+    def hash(x: T): scala.Int = { /* compiled code */ }
+  }
+  implicit def default[T]: scala.util.hashing.Hashing.Default[T] = { /* compiled code */ }
+  def fromFunction[T](f: scala.Function1[T, scala.Int]): scala.AnyRef with scala.util.hashing.Hashing[T] = { /* compiled code */ }
+}

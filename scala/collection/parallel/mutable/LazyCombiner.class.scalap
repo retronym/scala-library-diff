@@ -1,0 +1,13 @@
+package scala.collection.parallel.mutable
+trait LazyCombiner[Elem, +To, Buff <: scala.collection.generic.Growable[Elem] with scala.collection.generic.Sizing] extends scala.AnyRef with scala.collection.parallel.Combiner[Elem, To] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  val chain: scala.collection.mutable.ArrayBuffer[Buff]
+  val lastbuff: Buff = { /* compiled code */ }
+  def +=(elem: Elem): scala.collection.parallel.mutable.LazyCombiner.type = { /* compiled code */ }
+  def result(): To = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  def combine[N <: Elem, NewTo >: To](other: scala.collection.parallel.Combiner[N, NewTo]): scala.collection.parallel.Combiner[N, NewTo] = { /* compiled code */ }
+  def size: scala.Int = { /* compiled code */ }
+  def allocateAndCopy: To
+  def newLazyCombiner(buffchain: scala.collection.mutable.ArrayBuffer[Buff]): scala.collection.parallel.mutable.LazyCombiner[Elem, To, Buff]
+}

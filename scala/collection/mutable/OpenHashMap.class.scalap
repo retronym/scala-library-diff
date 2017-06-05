@@ -1,0 +1,28 @@
+package scala.collection.mutable
+class OpenHashMap[Key, Value] extends scala.collection.mutable.AbstractMap[Key, Value] with scala.collection.mutable.Map[Key, Value] with scala.collection.mutable.MapLike[Key, Value, scala.collection.mutable.OpenHashMap[Key, Value]] {
+  def this(initialSize: scala.Int) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def empty: scala.collection.mutable.OpenHashMap[Key, Value] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  protected def hashOf(key: Key): scala.Int = { /* compiled code */ }
+  override def update(key: Key, value: Value): scala.Unit = { /* compiled code */ }
+  @scala.deprecatedOverriding("+= should not be overridden in order to maintain consistency with put.")
+  def +=(kv: scala.Tuple2[Key, Value]): scala.collection.mutable.OpenHashMap.type = { /* compiled code */ }
+  @scala.deprecatedOverriding("-= should not be overridden in order to maintain consistency with remove.")
+  def -=(key: Key): scala.collection.mutable.OpenHashMap.type = { /* compiled code */ }
+  override def put(key: Key, value: Value): scala.Option[Value] = { /* compiled code */ }
+  override def remove(key: Key): scala.Option[Value] = { /* compiled code */ }
+  def get(key: Key): scala.Option[Value] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[Key, Value]] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.OpenHashMap[Key, Value] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[scala.Tuple2[Key, Value], U]): scala.Unit = { /* compiled code */ }
+  override def transform(f: scala.Function2[Key, Value, Value]): scala.collection.mutable.OpenHashMap.type = { /* compiled code */ }
+  override def retain(f: scala.Function2[Key, Value, scala.Boolean]): scala.collection.mutable.OpenHashMap.type = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}
+object OpenHashMap extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[K, V](elems: scala.Tuple2[K, V]*): scala.collection.mutable.OpenHashMap[K, V] = { /* compiled code */ }
+  def empty[K, V]: scala.collection.mutable.OpenHashMap[K, V] = { /* compiled code */ }
+  private[mutable] def nextPositivePowerOfTwo(i: scala.Int): scala.Int = { /* compiled code */ }
+}

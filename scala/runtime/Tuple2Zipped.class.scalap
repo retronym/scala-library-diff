@@ -1,0 +1,39 @@
+package scala.runtime
+final class Tuple2Zipped[El1, Repr1, El2, Repr2] extends scala.AnyVal with scala.runtime.ZippedTraversable2[El1, El2] {
+  val colls: scala.Tuple2[scala.collection.TraversableLike[El1, Repr1], scala.collection.IterableLike[El2, Repr2]] = { /* compiled code */ }
+  def this(colls: scala.Tuple2[scala.collection.TraversableLike[El1, Repr1], scala.collection.IterableLike[El2, Repr2]]) = { /* compiled code */ }
+  def map[B, To](f: scala.Function2[El1, El2, B])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  def flatMap[B, To](f: scala.Function2[El1, El2, scala.TraversableOnce[B]])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  def filter[To1, To2](f: scala.Function2[El1, El2, scala.Boolean])(implicit cbf1: scala.collection.generic.CanBuildFrom[Repr1, El1, To1], cbf2: scala.collection.generic.CanBuildFrom[Repr2, El2, To2]): scala.Tuple2[To1, To2] = { /* compiled code */ }
+  def exists(f: scala.Function2[El1, El2, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def forall(f: scala.Function2[El1, El2, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def foreach[U](f: scala.Function2[El1, El2, U]): scala.Unit = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Tuple2Zipped extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final class Ops[T1, T2] extends scala.AnyVal {
+    val x: scala.Tuple2[T1, T2] = { /* compiled code */ }
+    def this(x: scala.Tuple2[T1, T2]) = { /* compiled code */ }
+    def invert[El1, CC1[X] <: scala.TraversableOnce[X], El2, CC2[X] <: scala.TraversableOnce[X], That](implicit w1: scala.Predef.<:<[T1, CC1[El1]], w2: scala.Predef.<:<[T2, CC2[El2]], bf: scala.collection.generic.CanBuildFrom[CC1[_], scala.Tuple2[El1, El2], That]): That = { /* compiled code */ }
+    def zipped[El1, Repr1, El2, Repr2](implicit w1: scala.Function1[T1, scala.collection.TraversableLike[El1, Repr1]], w2: scala.Function1[T2, scala.collection.IterableLike[El2, Repr2]]): scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2] = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object Ops extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def invert$extension[El1, CC1[X] <: scala.TraversableOnce[X], El2, CC2[X] <: scala.TraversableOnce[X], That, T1, T2]($this: scala.runtime.Tuple2Zipped.Ops[T1, T2])(implicit w1: scala.Predef.<:<[T1, CC1[El1]], w2: scala.Predef.<:<[T2, CC2[El2]], bf: scala.collection.generic.CanBuildFrom[CC1[_], scala.Tuple2[El1, El2], That]): That = { /* compiled code */ }
+    final def zipped$extension[El1, Repr1, El2, Repr2, T1, T2]($this: scala.runtime.Tuple2Zipped.Ops[T1, T2])(implicit w1: scala.Function1[T1, scala.collection.TraversableLike[El1, Repr1]], w2: scala.Function1[T2, scala.collection.IterableLike[El2, Repr2]]): scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2] = { /* compiled code */ }
+    final def hashCode$extension[T1, T2]($this: scala.runtime.Tuple2Zipped.Ops[T1, T2])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[T1, T2]($this: scala.runtime.Tuple2Zipped.Ops[T1, T2])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final def map$extension[B, To, El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(f: scala.Function2[El1, El2, B])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  final def flatMap$extension[B, To, El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(f: scala.Function2[El1, El2, scala.TraversableOnce[B]])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  final def filter$extension[To1, To2, El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(f: scala.Function2[El1, El2, scala.Boolean])(implicit cbf1: scala.collection.generic.CanBuildFrom[Repr1, El1, To1], cbf2: scala.collection.generic.CanBuildFrom[Repr2, El2, To2]): scala.Tuple2[To1, To2] = { /* compiled code */ }
+  final def exists$extension[El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(f: scala.Function2[El1, El2, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  final def forall$extension[El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(f: scala.Function2[El1, El2, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  final def foreach$extension[U, El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(f: scala.Function2[El1, El2, U]): scala.Unit = { /* compiled code */ }
+  final def hashCode$extension[El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(): scala.Int = { /* compiled code */ }
+  final def equals$extension[El1, Repr1, El2, Repr2]($this: scala.runtime.Tuple2Zipped[El1, Repr1, El2, Repr2])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

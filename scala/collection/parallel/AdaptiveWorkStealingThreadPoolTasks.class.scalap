@@ -1,0 +1,11 @@
+package scala.collection.parallel
+@scala.deprecated("Use `AdaptiveWorkStealingForkJoinTasks` instead.")
+trait AdaptiveWorkStealingThreadPoolTasks extends scala.AnyRef with scala.collection.parallel.ThreadPoolTasks with scala.collection.parallel.AdaptiveWorkStealingTasks {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  class WrappedTask[R, Tp] extends java.lang.Object with scala.collection.parallel.ThreadPoolTasks.WrappedTask[R, Tp] with scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp] {
+    val body: scala.collection.parallel.Task[R, Tp] = { /* compiled code */ }
+    def this(body: scala.collection.parallel.Task[R, Tp]) = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.AdaptiveWorkStealingTasks.WrappedTask[R, Tp]] = { /* compiled code */ }
+  }
+  def newWrappedTask[R, Tp](b: scala.collection.parallel.Task[R, Tp]): scala.collection.parallel.AdaptiveWorkStealingThreadPoolTasks.WrappedTask[R, Tp] = { /* compiled code */ }
+}

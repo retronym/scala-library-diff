@@ -1,0 +1,28 @@
+package scala.collection.parallel.mutable
+private[mutable] abstract class ParHashMapCombiner[K, V] extends scala.collection.parallel.BucketCombiner[scala.Tuple2[K, V], scala.collection.parallel.mutable.ParHashMap[K, V], scala.collection.mutable.DefaultEntry[K, V], scala.collection.parallel.mutable.ParHashMapCombiner[K, V]] with scala.collection.mutable.HashTable.HashUtils[K] {
+  def this(tableLoadFactor: scala.Int) = { /* compiled code */ }
+  def +=(elem: scala.Tuple2[K, V]): scala.collection.parallel.mutable.ParHashMapCombiner.type = { /* compiled code */ }
+  def result(): scala.collection.parallel.mutable.ParHashMap[K, V] = { /* compiled code */ }
+  class FillBlocks extends scala.AnyRef with scala.collection.parallel.Task[scala.Int, scala.collection.parallel.mutable.ParHashMapCombiner.FillBlocks] {
+    def this(buckets: scala.Array[scala.collection.mutable.UnrolledBuffer.Unrolled[scala.collection.mutable.DefaultEntry[K, V]]], table: scala.collection.parallel.mutable.ParHashMapCombiner.AddingHashTable, offset: scala.Int, howmany: scala.Int) = { /* compiled code */ }
+    var result: scala.Int = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Int]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.immutable.List[scala.collection.parallel.mutable.ParHashMapCombiner.FillBlocks] = { /* compiled code */ }
+    override def merge(that: scala.collection.parallel.mutable.ParHashMapCombiner.FillBlocks): scala.Unit = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+  }
+  private[ParHashMapCombiner] class AddingHashTable extends scala.AnyRef with scala.collection.mutable.HashTable[K, scala.collection.mutable.DefaultEntry[K, V]] {
+    def this(numelems: scala.Int, lf: scala.Int, _seedvalue: scala.Int) = { /* compiled code */ }
+    def setSize(sz: scala.Int): scala.Unit = { /* compiled code */ }
+    def insertEntry(e: scala.collection.mutable.DefaultEntry[K, V]): scala.Boolean = { /* compiled code */ }
+    protected def createNewEntry[X](key: K, x: X): scala.Nothing = { /* compiled code */ }
+  }
+}
+private[parallel] object ParHashMapCombiner extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  private[mutable] val discriminantbits: scala.Int = { /* compiled code */ }
+  private[mutable] val numblocks: scala.Int = { /* compiled code */ }
+  private[mutable] val discriminantmask: scala.Int = { /* compiled code */ }
+  private[mutable] val nonmasklength: scala.Int = { /* compiled code */ }
+  def apply[K, V]: scala.collection.parallel.mutable.ParHashMapCombiner[K, V] = { /* compiled code */ }
+}

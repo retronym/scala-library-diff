@@ -1,0 +1,24 @@
+package scala.collection.parallel.immutable
+class ParVector[+T] extends scala.AnyRef with scala.collection.parallel.immutable.ParSeq[T] with scala.collection.generic.GenericParTemplate[T, scala.collection.parallel.immutable.ParVector] with scala.collection.parallel.ParSeqLike[T, scala.collection.parallel.immutable.ParVector[T], scala.collection.immutable.Vector[T]] with scala.Serializable {
+  def this(vector: scala.collection.immutable.Vector[T]) = { /* compiled code */ }
+  override def companion: scala.collection.parallel.immutable.ParVector.type = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  def apply(idx: scala.Int): T = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  def splitter: scala.collection.parallel.SeqSplitter[T] = { /* compiled code */ }
+  override def seq: scala.collection.immutable.Vector[T] = { /* compiled code */ }
+  override def toVector: scala.collection.immutable.Vector[T] = { /* compiled code */ }
+  class ParVectorIterator extends scala.collection.immutable.VectorIterator[T] with scala.collection.parallel.SeqSplitter[T] {
+    def this(_start: scala.Int, _end: scala.Int) = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.SeqSplitter[T] = { /* compiled code */ }
+    def split: scala.collection.Seq[scala.collection.parallel.immutable.ParVector.ParVectorIterator] = { /* compiled code */ }
+    def psplit(sizes: scala.Int*): scala.collection.Seq[scala.collection.parallel.immutable.ParVector.ParVectorIterator] = { /* compiled code */ }
+  }
+}
+object ParVector extends scala.collection.generic.ParFactory[scala.collection.parallel.immutable.ParVector] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[T]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenericCompanion.Coll, T, scala.collection.parallel.immutable.ParVector[T]] = { /* compiled code */ }
+  def newBuilder[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.immutable.ParVector[T]] = { /* compiled code */ }
+  def newCombiner[T]: scala.collection.parallel.Combiner[T, scala.collection.parallel.immutable.ParVector[T]] = { /* compiled code */ }
+}

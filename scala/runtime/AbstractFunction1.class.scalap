@@ -1,0 +1,6 @@
+package scala.runtime
+abstract class AbstractFunction1[@scala.specialized -T1, @scala.specialized +R] extends scala.AnyRef with scala.Function1[T1, R] {
+  @scala.specialized
+  @scala.specialized
+  def this() = { /* compiled code */ }
+}

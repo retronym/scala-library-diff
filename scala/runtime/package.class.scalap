@@ -1,0 +1,4 @@
+package scala
+package object runtime extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

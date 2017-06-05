@@ -1,0 +1,143 @@
+package scala.collection.parallel
+trait ParIterableLike[+T, +Repr <: scala.collection.parallel.ParIterable[T], +Sequential <: scala.Iterable[T] with scala.collection.IterableLike[T, Sequential]] extends scala.AnyRef with scala.collection.GenIterableLike[T, Repr] with scala.collection.CustomParallelizable[T, Repr] with scala.collection.Parallel with scala.collection.generic.HasNewCombiner[T, Repr] {
+ this: scala.collection.parallel.ParIterableLike[T, Repr, Sequential] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def initTaskSupport(): scala.Unit = { /* compiled code */ }
+  def tasksupport: scala.collection.parallel.TaskSupport = { /* compiled code */ }
+  def tasksupport_=(ts: scala.collection.parallel.TaskSupport): scala.Unit = { /* compiled code */ }
+  def seq: Sequential
+  def repr: Repr = { /* compiled code */ }
+  final def isTraversableAgain: scala.Boolean = { /* compiled code */ }
+  def hasDefiniteSize: scala.Boolean = { /* compiled code */ }
+  def isEmpty: scala.Boolean = { /* compiled code */ }
+  def nonEmpty: scala.Boolean = { /* compiled code */ }
+  def head: T = { /* compiled code */ }
+  def headOption: scala.Option[T] = { /* compiled code */ }
+  def tail: Repr = { /* compiled code */ }
+  def last: T = { /* compiled code */ }
+  def lastOption: scala.Option[T] = { /* compiled code */ }
+  def init: Repr = { /* compiled code */ }
+  protected def splitter: scala.collection.parallel.IterableSplitter[T]
+  def iterator: scala.collection.parallel.Splitter[T] = { /* compiled code */ }
+  override def par: Repr = { /* compiled code */ }
+  def isStrictSplitterCollection: scala.Boolean = { /* compiled code */ }
+  protected def reuse[S, That](oldc: scala.Option[scala.collection.parallel.Combiner[S, That]], newc: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  type SSCTask[R, Tp] = scala.collection.parallel.ParIterableLike.StrictSplitterCheckTask[R, Tp]
+  protected trait StrictSplitterCheckTask[R, Tp] extends scala.AnyRef with scala.collection.parallel.Task[R, Tp] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def requiresStrictSplitters: scala.Boolean = { /* compiled code */ }
+  }
+  trait TaskOps[R, Tp] extends scala.AnyRef {
+    def mapResult[R1](mapping: scala.Function1[R, R1]): scala.collection.parallel.ParIterableLike.ResultMapping[R, Tp, R1]
+    def compose[R3, R2, Tp2](t2: SSCTask[R2, Tp2])(resCombiner: scala.Function2[R, R2, R3]): scala.collection.parallel.ParIterableLike.SeqComposite[R, R2, R3, SSCTask[R, Tp], SSCTask[R2, Tp2]]
+    def parallel[R3, R2, Tp2](t2: SSCTask[R2, Tp2])(resCombiner: scala.Function2[R, R2, R3]): scala.collection.parallel.ParIterableLike.ParComposite[R, R2, R3, SSCTask[R, Tp], SSCTask[R2, Tp2]]
+  }
+  trait BuilderOps[Elem, To] extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    trait Otherwise[Cmb] extends scala.AnyRef {
+      def otherwise(notbody: => scala.Unit)(implicit t: scala.reflect.ClassTag[Cmb]): scala.Unit
+    }
+    def ifIs[Cmb](isbody: scala.Function1[Cmb, scala.Unit]): scala.collection.parallel.ParIterableLike.BuilderOps.Otherwise[Cmb]
+    def isCombiner: scala.Boolean
+    def asCombiner: scala.collection.parallel.Combiner[Elem, To]
+  }
+  trait SignallingOps[PI <: scala.collection.generic.DelegatedSignalling] extends scala.AnyRef {
+    def assign(cntx: scala.collection.generic.Signalling): PI
+  }
+  protected implicit def task2ops[R, Tp](tsk: SSCTask[R, Tp]): scala.AnyRef with scala.collection.parallel.ParIterableLike.TaskOps[R, Tp] = { /* compiled code */ }
+  protected def wrap[R](body: => R): scala.AnyRef with scala.collection.parallel.ParIterableLike.NonDivisible[R] = { /* compiled code */ }
+  protected implicit def delegatedSignalling2ops[PI <: scala.collection.generic.DelegatedSignalling](it: PI): scala.AnyRef with scala.collection.parallel.ParIterableLike.SignallingOps[PI] = { /* compiled code */ }
+  protected implicit def builder2ops[Elem, To](cb: scala.collection.mutable.Builder[Elem, To]): scala.AnyRef with scala.collection.parallel.ParIterableLike.BuilderOps[Elem, To] = { /* compiled code */ }
+  def mkString(start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def mkString(sep: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def mkString: scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  def canEqual(other: scala.Any): scala.Boolean = { /* compiled code */ }
+  def reduce[U >: T](op: scala.Function2[U, U, U]): U = { /* compiled code */ }
+  def reduceOption[U >: T](op: scala.Function2[U, U, U]): scala.Option[U] = { /* compiled code */ }
+  def fold[U >: T](z: U)(op: scala.Function2[U, U, U]): U = { /* compiled code */ }
+  def aggregate[S](z: => S)(seqop: scala.Function2[S, T, S], combop: scala.Function2[S, S, S]): S = { /* compiled code */ }
+  def foldLeft[S](z: S)(op: scala.Function2[S, T, S]): S = { /* compiled code */ }
+  def foldRight[S](z: S)(op: scala.Function2[T, S, S]): S = { /* compiled code */ }
+  def reduceLeft[U >: T](op: scala.Function2[U, T, U]): U = { /* compiled code */ }
+  def reduceRight[U >: T](op: scala.Function2[T, U, U]): U = { /* compiled code */ }
+  def reduceLeftOption[U >: T](op: scala.Function2[U, T, U]): scala.Option[U] = { /* compiled code */ }
+  def reduceRightOption[U >: T](op: scala.Function2[T, U, U]): scala.Option[U] = { /* compiled code */ }
+  def foreach[U](f: scala.Function1[T, U]): scala.Unit = { /* compiled code */ }
+  def count(p: scala.Function1[T, scala.Boolean]): scala.Int = { /* compiled code */ }
+  def sum[U >: T](implicit num: scala.Numeric[U]): U = { /* compiled code */ }
+  def product[U >: T](implicit num: scala.Numeric[U]): U = { /* compiled code */ }
+  def min[U >: T](implicit ord: scala.Ordering[U]): T = { /* compiled code */ }
+  def max[U >: T](implicit ord: scala.Ordering[U]): T = { /* compiled code */ }
+  def maxBy[S](f: scala.Function1[T, S])(implicit cmp: scala.Ordering[S]): T = { /* compiled code */ }
+  def minBy[S](f: scala.Function1[T, S])(implicit cmp: scala.Ordering[S]): T = { /* compiled code */ }
+  def map[S, That](f: scala.Function1[T, S])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, S, That]): That = { /* compiled code */ }
+  def collect[S, That](pf: scala.PartialFunction[T, S])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, S, That]): That = { /* compiled code */ }
+  def flatMap[S, That](f: scala.Function1[T, scala.collection.GenTraversableOnce[S]])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, S, That]): That = { /* compiled code */ }
+  def forall(pred: scala.Function1[T, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def exists(pred: scala.Function1[T, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def find(pred: scala.Function1[T, scala.Boolean]): scala.Option[T] = { /* compiled code */ }
+  def withFilter(pred: scala.Function1[T, scala.Boolean]): Repr = { /* compiled code */ }
+  def filter(pred: scala.Function1[T, scala.Boolean]): Repr = { /* compiled code */ }
+  def filterNot(pred: scala.Function1[T, scala.Boolean]): Repr = { /* compiled code */ }
+  def ++[U >: T, That](that: scala.collection.GenTraversableOnce[U])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, U, That]): That = { /* compiled code */ }
+  def partition(pred: scala.Function1[T, scala.Boolean]): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  def groupBy[K](f: scala.Function1[T, K]): scala.collection.parallel.immutable.ParMap[K, Repr] = { /* compiled code */ }
+  def take(n: scala.Int): Repr = { /* compiled code */ }
+  def drop(n: scala.Int): Repr = { /* compiled code */ }
+  override def slice(unc_from: scala.Int, unc_until: scala.Int): Repr = { /* compiled code */ }
+  def splitAt(n: scala.Int): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  def scan[U >: T, That](z: U)(op: scala.Function2[U, U, U])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, U, That]): That = { /* compiled code */ }
+  def scanLeft[S, That](z: S)(op: scala.Function2[S, T, S])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, S, That]): That = { /* compiled code */ }
+  def scanRight[S, That](z: S)(op: scala.Function2[T, S, S])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, S, That]): That = { /* compiled code */ }
+  def takeWhile(pred: scala.Function1[T, scala.Boolean]): Repr = { /* compiled code */ }
+  def span(pred: scala.Function1[T, scala.Boolean]): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  def dropWhile(pred: scala.Function1[T, scala.Boolean]): Repr = { /* compiled code */ }
+  def copyToArray[U >: T](xs: scala.Array[U]): scala.Unit = { /* compiled code */ }
+  def copyToArray[U >: T](xs: scala.Array[U], start: scala.Int): scala.Unit = { /* compiled code */ }
+  def copyToArray[U >: T](xs: scala.Array[U], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  def sameElements[U >: T](that: scala.collection.GenIterable[U]): scala.Boolean = { /* compiled code */ }
+  def zip[U >: T, S, That](that: scala.collection.GenIterable[S])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[U, S], That]): That = { /* compiled code */ }
+  def zipWithIndex[U >: T, That](implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[U, scala.Int], That]): That = { /* compiled code */ }
+  def zipAll[S, U >: T, That](that: scala.collection.GenIterable[S], thisElem: U, thatElem: S)(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[U, S], That]): That = { /* compiled code */ }
+  protected def toParCollection[U >: T, That](cbf: scala.Function0[scala.collection.parallel.Combiner[U, That]]): That = { /* compiled code */ }
+  protected def toParMap[K, V, That](cbf: scala.Function0[scala.collection.parallel.Combiner[scala.Tuple2[K, V], That]])(implicit ev: scala.Predef.<:<[T, scala.Tuple2[K, V]]): That = { /* compiled code */ }
+  @scala.deprecated("Use .seq.view instead")
+  def view: scala.AnyRef with scala.collection.IterableView[T, Sequential] = { /* compiled code */ }
+  override def toArray[U >: T](implicit evidence$1: scala.reflect.ClassTag[U]): scala.Array[U] = { /* compiled code */ }
+  override def toList: scala.List[T] = { /* compiled code */ }
+  override def toIndexedSeq: scala.collection.immutable.IndexedSeq[T] = { /* compiled code */ }
+  override def toStream: scala.Stream[T] = { /* compiled code */ }
+  override def toIterator: scala.Iterator[T] = { /* compiled code */ }
+  override def toBuffer[U >: T]: scala.collection.mutable.Buffer[U] = { /* compiled code */ }
+  override def toTraversable: scala.collection.GenTraversable[T] = { /* compiled code */ }
+  override def toIterable: scala.collection.parallel.ParIterable[T] = { /* compiled code */ }
+  override def toSeq: scala.collection.parallel.ParSeq[T] = { /* compiled code */ }
+  override def toSet[U >: T]: scala.collection.parallel.immutable.ParSet[U] = { /* compiled code */ }
+  override def toMap[K, V](implicit ev: scala.Predef.<:<[T, scala.Tuple2[K, V]]): scala.collection.parallel.immutable.ParMap[K, V] = { /* compiled code */ }
+  override def toVector: scala.Vector[T] = { /* compiled code */ }
+  override def to[Col[_]](implicit cbf: scala.collection.generic.CanBuildFrom[scala.Nothing, T, Col[T]]): Col[T] = { /* compiled code */ }
+  protected trait Accessor[R, Tp] extends scala.AnyRef with scala.collection.parallel.ParIterableLike.StrictSplitterCheckTask[R, Tp] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.Task[R, Tp]] = { /* compiled code */ }
+    private[parallel] override def signalAbort(): scala.Unit = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  protected trait Transformer[R, Tp] extends scala.AnyRef with scala.collection.parallel.ParIterableLike.Accessor[R, Tp] {
+  }
+  protected class Copy[U >: T, That] extends scala.AnyRef with scala.collection.parallel.ParIterableLike.Transformer[scala.collection.parallel.Combiner[U, That], scala.collection.parallel.ParIterableLike.Copy[U, That]] {
+    def this(cfactory: scala.collection.parallel.CombinerFactory[U, That], pit: scala.collection.parallel.IterableSplitter[T]) = { /* compiled code */ }
+    var result: scala.collection.parallel.Combiner[U, That] = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.collection.parallel.Combiner[U, That]]): scala.Unit = { /* compiled code */ }
+    override def merge(that: scala.collection.parallel.ParIterableLike.Copy[U, That]): scala.Unit = { /* compiled code */ }
+  }
+  def /:[S](z: S)(op: scala.Function2[S, T, S]): S = { /* compiled code */ }
+  def :\[S](z: S)(op: scala.Function2[T, S, S]): S = { /* compiled code */ }
+  private[parallel] def debugInformation: java.lang.String = { /* compiled code */ }
+  private[parallel] def brokenInvariants: scala.collection.Seq[scala.Predef.String] = { /* compiled code */ }
+  def debugBuffer: scala.collection.mutable.ArrayBuffer[scala.Predef.String] = { /* compiled code */ }
+  private[parallel] def debugclear(): scala.Unit = { /* compiled code */ }
+  private[parallel] def debuglog(s: scala.Predef.String): scala.collection.mutable.ArrayBuffer[scala.Predef.String] = { /* compiled code */ }
+  private[parallel] def printDebugBuffer(): scala.Unit = { /* compiled code */ }
+}

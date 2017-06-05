@@ -1,0 +1,15 @@
+package scala.collection
+trait SortedSetLike[A, +This <: scala.collection.SortedSet[A] with scala.collection.SortedSetLike[A, This]] extends scala.AnyRef with scala.collection.generic.Sorted[A, This] with scala.collection.SetLike[A, This] {
+ this: scala.collection.SortedSetLike[A, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  implicit def ordering: scala.Ordering[A]
+  override def keySet: This = { /* compiled code */ }
+  override def firstKey: A = { /* compiled code */ }
+  override def lastKey: A = { /* compiled code */ }
+  def rangeImpl(from: scala.Option[A], until: scala.Option[A]): This
+  override def from(from: A): This = { /* compiled code */ }
+  override def until(until: A): This = { /* compiled code */ }
+  override def range(from: A, until: A): This = { /* compiled code */ }
+  override def subsetOf(that: scala.collection.GenSet[A]): scala.Boolean = { /* compiled code */ }
+  def iteratorFrom(start: A): scala.collection.Iterator[A] = { /* compiled code */ }
+}

@@ -1,0 +1,17 @@
+package scala.collection.mutable
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+abstract class PriorityQueueProxy[A] extends scala.collection.mutable.PriorityQueue[A] with scala.Proxy {
+  def this()(implicit ord: scala.Ordering[A]) = { /* compiled code */ }
+  def self: scala.collection.mutable.PriorityQueue[A]
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def +=(elem: A): scala.collection.mutable.PriorityQueueProxy.type = { /* compiled code */ }
+  override def ++=(it: scala.collection.TraversableOnce[A]): scala.collection.mutable.PriorityQueueProxy.type = { /* compiled code */ }
+  override def enqueue(elems: A*): scala.Unit = { /* compiled code */ }
+  override def dequeue(): A = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def toQueue: scala.collection.mutable.Queue[A] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.PriorityQueue[A] = { /* compiled code */ }
+}

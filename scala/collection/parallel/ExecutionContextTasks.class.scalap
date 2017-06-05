@@ -1,0 +1,9 @@
+package scala.collection.parallel
+trait ExecutionContextTasks extends scala.AnyRef with scala.collection.parallel.Tasks {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def executionContext: scala.concurrent.ExecutionContext = { /* compiled code */ }
+  val environment: scala.concurrent.ExecutionContext
+  def execute[R, Tp](task: scala.collection.parallel.Task[R, Tp]): scala.Function0[R] = { /* compiled code */ }
+  def executeAndWaitResult[R, Tp](task: scala.collection.parallel.Task[R, Tp]): R = { /* compiled code */ }
+  def parallelismLevel: scala.Int = { /* compiled code */ }
+}

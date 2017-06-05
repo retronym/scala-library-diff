@@ -1,0 +1,39 @@
+package scala.collection
+trait IndexedSeqOptimized[+A, +Repr] extends scala.Any with scala.collection.IndexedSeqLike[A, Repr] {
+ this: scala.collection.IndexedSeqOptimized[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def forall(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def exists(p: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  override def find(p: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  override def foldLeft[B](z: B)(op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def foldRight[B](z: B)(op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def reduceLeft[B >: A](op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def reduceRight[B >: A](op: scala.Function2[A, B, B]): B = { /* compiled code */ }
+  override def zip[A1 >: A, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  override def zipWithIndex[A1 >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[Repr, scala.Tuple2[A1, scala.Int], That]): That = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): Repr = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def tail: Repr = { /* compiled code */ }
+  override def last: A = { /* compiled code */ }
+  override def init: Repr = { /* compiled code */ }
+  override def take(n: scala.Int): Repr = { /* compiled code */ }
+  override def drop(n: scala.Int): Repr = { /* compiled code */ }
+  override def takeRight(n: scala.Int): Repr = { /* compiled code */ }
+  override def dropRight(n: scala.Int): Repr = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  override def dropWhile(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
+  override def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[Repr, Repr] = { /* compiled code */ }
+  override def sameElements[B >: A](that: scala.collection.GenIterable[B]): scala.Boolean = { /* compiled code */ }
+  override def copyToArray[B >: A](xs: scala.Array[B], start: scala.Int, len: scala.Int): scala.Unit = { /* compiled code */ }
+  override def lengthCompare(len: scala.Int): scala.Int = { /* compiled code */ }
+  override def segmentLength(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  override def indexWhere(p: scala.Function1[A, scala.Boolean], from: scala.Int): scala.Int = { /* compiled code */ }
+  override def lastIndexWhere(p: scala.Function1[A, scala.Boolean], end: scala.Int): scala.Int = { /* compiled code */ }
+  override def reverse: Repr = { /* compiled code */ }
+  override def reverseIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def startsWith[B](that: scala.collection.GenSeq[B], offset: scala.Int): scala.Boolean = { /* compiled code */ }
+  override def endsWith[B](that: scala.collection.GenSeq[B]): scala.Boolean = { /* compiled code */ }
+}

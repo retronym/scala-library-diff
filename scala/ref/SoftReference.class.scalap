@@ -1,0 +1,6 @@
+package scala.ref
+class SoftReference[+T <: scala.AnyRef] extends scala.AnyRef with scala.ref.ReferenceWrapper[T] {
+  def this(value: T, queue: scala.ref.ReferenceQueue[T]) = { /* compiled code */ }
+  def this(value: T) = { /* compiled code */ }
+  val underlying: java.lang.ref.SoftReference[_] = { /* compiled code */ }
+}

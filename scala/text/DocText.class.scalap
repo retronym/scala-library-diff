@@ -1,0 +1,20 @@
+package scala.text
+@scala.deprecated("This class will be removed.")
+case class DocText(txt: scala.Predef.String) extends scala.text.Document with scala.Product with scala.Serializable {
+  val txt: scala.Predef.String = { /* compiled code */ }
+  def copy(txt: scala.Predef.String): scala.text.DocText = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object DocText extends scala.runtime.AbstractFunction1[scala.Predef.String, scala.text.DocText] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply(txt: scala.Predef.String): scala.text.DocText = { /* compiled code */ }
+  def unapply(x$0: scala.text.DocText): scala.Option[scala.Predef.String] = { /* compiled code */ }
+}

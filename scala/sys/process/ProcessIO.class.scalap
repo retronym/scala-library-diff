@@ -1,0 +1,13 @@
+package scala.sys.process
+final class ProcessIO extends scala.AnyRef {
+  val writeInput: scala.Function1[scala.sys.process.processInternal.OutputStream, scala.Unit] = { /* compiled code */ }
+  val processOutput: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit] = { /* compiled code */ }
+  val processError: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit] = { /* compiled code */ }
+  val daemonizeThreads: scala.Boolean = { /* compiled code */ }
+  def this(writeInput: scala.Function1[scala.sys.process.processInternal.OutputStream, scala.Unit], processOutput: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit], processError: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit], daemonizeThreads: scala.Boolean) = { /* compiled code */ }
+  def this(in: scala.Function1[scala.sys.process.processInternal.OutputStream, scala.Unit], out: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit], err: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit]) = { /* compiled code */ }
+  def withInput(write: scala.Function1[scala.sys.process.processInternal.OutputStream, scala.Unit]): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def withOutput(process: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit]): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def withError(process: scala.Function1[scala.sys.process.processInternal.InputStream, scala.Unit]): scala.sys.process.ProcessIO = { /* compiled code */ }
+  def daemonized(): scala.sys.process.ProcessIO = { /* compiled code */ }
+}

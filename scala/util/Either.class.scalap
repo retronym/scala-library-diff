@@ -1,0 +1,85 @@
+package scala.util
+sealed abstract class Either[+A, +B] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def left: scala.util.Either.LeftProjection[A, B] = { /* compiled code */ }
+  def right: scala.util.Either.RightProjection[A, B] = { /* compiled code */ }
+  def fold[X](fa: scala.Function1[A, X], fb: scala.Function1[B, X]): X = { /* compiled code */ }
+  def swap: scala.Serializable with scala.Product with scala.util.Either[B, A] = { /* compiled code */ }
+  def joinRight[A1 >: A, B1 >: B, C](implicit ev: scala.Predef.<:<[B1, scala.util.Either[A1, C]]): scala.util.Either[A1, C] = { /* compiled code */ }
+  def joinLeft[A1 >: A, B1 >: B, C](implicit ev: scala.Predef.<:<[A1, scala.util.Either[C, B1]]): scala.util.Either[C, B1] = { /* compiled code */ }
+  def isLeft: scala.Boolean
+  def isRight: scala.Boolean
+}
+object Either extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit final class MergeableEither[A] extends scala.AnyVal {
+    def this(x: scala.util.Either[A, A]) = { /* compiled code */ }
+    def merge: A = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  implicit def MergeableEither[A](x: scala.util.Either[A, A]): scala.util.Either.MergeableEither[A] = { /* compiled code */ }
+  final case class LeftProjection[+A, +B](e: scala.util.Either[A, B]) extends scala.AnyRef with scala.Product with scala.Serializable {
+    val e: scala.util.Either[A, B] = { /* compiled code */ }
+    def get: A = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[A, U]): scala.Any = { /* compiled code */ }
+    def getOrElse[AA >: A](or: => AA): AA = { /* compiled code */ }
+    def forall(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    def exists(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    def flatMap[BB >: B, X](f: scala.Function1[A, scala.util.Either[X, BB]]): scala.util.Either[X, BB] = { /* compiled code */ }
+    def map[X](f: scala.Function1[A, X]): scala.Serializable with scala.Product with scala.util.Either[X, B] = { /* compiled code */ }
+    def filter[Y](p: scala.Function1[A, scala.Boolean]): scala.Option[scala.util.Either[A, Y]] = { /* compiled code */ }
+    def toSeq: scala.collection.Seq[A] = { /* compiled code */ }
+    def toOption: scala.Option[A] = { /* compiled code */ }
+    def copy[A, B](e: scala.util.Either[A, B]): scala.util.Either.LeftProjection[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object LeftProjection extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](e: scala.util.Either[A, B]): scala.util.Either.LeftProjection[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.util.Either.LeftProjection[A, B]): scala.Option[scala.util.Either[A, B]] = { /* compiled code */ }
+  }
+  final case class RightProjection[+A, +B](e: scala.util.Either[A, B]) extends scala.AnyRef with scala.Product with scala.Serializable {
+    val e: scala.util.Either[A, B] = { /* compiled code */ }
+    def get: B = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[B, U]): scala.Any = { /* compiled code */ }
+    def getOrElse[BB >: B](or: => BB): BB = { /* compiled code */ }
+    def forall(f: scala.Function1[B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    def exists(f: scala.Function1[B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    def flatMap[AA >: A, Y](f: scala.Function1[B, scala.util.Either[AA, Y]]): scala.util.Either[AA, Y] = { /* compiled code */ }
+    def map[Y](f: scala.Function1[B, Y]): scala.Serializable with scala.Product with scala.util.Either[A, Y] = { /* compiled code */ }
+    def filter[X](p: scala.Function1[B, scala.Boolean]): scala.Option[scala.util.Either[X, B]] = { /* compiled code */ }
+    def toSeq: scala.collection.Seq[B] = { /* compiled code */ }
+    def toOption: scala.Option[B] = { /* compiled code */ }
+    def copy[A, B](e: scala.util.Either[A, B]): scala.util.Either.RightProjection[A, B] = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object RightProjection extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply[A, B](e: scala.util.Either[A, B]): scala.util.Either.RightProjection[A, B] = { /* compiled code */ }
+    def unapply[A, B](x$0: scala.util.Either.RightProjection[A, B]): scala.Option[scala.util.Either[A, B]] = { /* compiled code */ }
+  }
+  def cond[A, B](test: scala.Boolean, right: => B, left: => A): scala.util.Either[A, B] = { /* compiled code */ }
+  object MergeableEither extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def merge$extension[A]($this: scala.util.Either.MergeableEither[A]): A = { /* compiled code */ }
+    final def hashCode$extension[A]($this: scala.util.Either.MergeableEither[A])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[A]($this: scala.util.Either.MergeableEither[A])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+}

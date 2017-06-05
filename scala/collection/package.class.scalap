@@ -1,0 +1,5 @@
+package scala
+package object collection extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def breakOut[From, T, To](implicit b: scala.collection.generic.CanBuildFrom[scala.Nothing, T, To]): scala.collection.generic.CanBuildFrom[From, T, To] = { /* compiled code */ }
+}

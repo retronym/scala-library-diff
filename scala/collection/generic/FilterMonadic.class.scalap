@@ -1,0 +1,7 @@
+package scala.collection.generic
+trait FilterMonadic[+A, +Repr] extends scala.Any {
+  def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def foreach[U](f: scala.Function1[A, U]): scala.Unit
+  def withFilter(p: scala.Function1[A, scala.Boolean]): scala.collection.generic.FilterMonadic[A, Repr]
+}

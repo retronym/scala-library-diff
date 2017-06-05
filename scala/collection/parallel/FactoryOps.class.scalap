@@ -1,0 +1,10 @@
+package scala.collection.parallel
+trait FactoryOps[From, Elem, To] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  trait Otherwise[R] extends scala.AnyRef {
+    def otherwise(notbody: => R): R
+  }
+  def isParallel: scala.Boolean
+  def asParallel: scala.collection.generic.CanCombineFrom[From, Elem, To]
+  def ifParallel[R](isbody: scala.Function1[scala.collection.generic.CanCombineFrom[From, Elem, To], R]): scala.collection.parallel.FactoryOps.Otherwise[R]
+}

@@ -1,0 +1,12 @@
+package scala.collection.immutable
+@scala.SerialVersionUID { val value = -8256821097970055419None }
+case object Nil extends scala.collection.immutable.List[scala.Nothing] with scala.Product with scala.Serializable {
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def head: scala.Nothing = { /* compiled code */ }
+  override def tail: scala.collection.immutable.List[scala.Nothing] = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+}

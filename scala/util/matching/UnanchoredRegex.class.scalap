@@ -1,0 +1,6 @@
+package scala.util.matching
+trait UnanchoredRegex extends scala.util.matching.Regex {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected override def runMatcher(m: java.util.regex.Matcher): scala.Boolean = { /* compiled code */ }
+  override def unanchored: scala.util.matching.UnanchoredRegex = { /* compiled code */ }
+}

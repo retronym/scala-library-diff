@@ -1,0 +1,20 @@
+package scala.text
+@scala.deprecated("This class will be removed.")
+case class DocGroup(doc: scala.text.Document) extends scala.text.Document with scala.Product with scala.Serializable {
+  val doc: scala.text.Document = { /* compiled code */ }
+  def copy(doc: scala.text.Document): scala.text.DocGroup = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  def productArity: scala.Int = { /* compiled code */ }
+  def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object DocGroup extends scala.runtime.AbstractFunction1[scala.text.Document, scala.text.DocGroup] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply(doc: scala.text.Document): scala.text.DocGroup = { /* compiled code */ }
+  def unapply(x$0: scala.text.DocGroup): scala.Option[scala.text.Document] = { /* compiled code */ }
+}

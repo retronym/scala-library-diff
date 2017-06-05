@@ -1,0 +1,5 @@
+package scala.collection.generic
+trait CanCombineFrom[-From, -Elem, +To] extends scala.AnyRef with scala.collection.generic.CanBuildFrom[From, Elem, To] with scala.collection.Parallel {
+  def apply(from: From): scala.collection.parallel.Combiner[Elem, To]
+  def apply(): scala.collection.parallel.Combiner[Elem, To]
+}

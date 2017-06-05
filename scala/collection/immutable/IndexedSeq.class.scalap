@@ -1,0 +1,18 @@
+package scala.collection.immutable
+trait IndexedSeq[+A] extends scala.AnyRef with scala.collection.immutable.Seq[A] with scala.collection.IndexedSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.immutable.IndexedSeq] with scala.collection.IndexedSeqLike[A, scala.collection.immutable.IndexedSeq[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.IndexedSeq] = { /* compiled code */ }
+  @scala.deprecatedOverriding("Immutable indexed sequences should do nothing on toIndexedSeq except cast themselves as an indexed sequence.")
+  override def toIndexedSeq: scala.collection.immutable.IndexedSeq[A] = { /* compiled code */ }
+  override def seq: scala.collection.immutable.IndexedSeq[A] = { /* compiled code */ }
+}
+object IndexedSeq extends scala.collection.generic.IndexedSeqFactory[scala.collection.immutable.IndexedSeq] {
+  def this() = { /* compiled code */ }
+  class Impl[A] extends scala.collection.AbstractSeq[A] with scala.collection.immutable.IndexedSeq[A] with scala.Serializable {
+    def this(buf: scala.collection.mutable.ArrayBuffer[A]) = { /* compiled code */ }
+    def length: scala.Int = { /* compiled code */ }
+    def apply(idx: scala.Int): A = { /* compiled code */ }
+  }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.immutable.IndexedSeq[A]] = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.IndexedSeq[A]] = { /* compiled code */ }
+}

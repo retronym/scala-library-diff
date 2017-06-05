@@ -1,0 +1,7 @@
+package scala.collection.immutable
+private[immutable] object LongMapUtils extends scala.AnyRef with scala.collection.generic.BitOperations.Long {
+  def this() = { /* compiled code */ }
+  def branchMask(i: scala.collection.generic.BitOperations.Long.Long, j: scala.collection.generic.BitOperations.Long.Long): scala.Long = { /* compiled code */ }
+  def join[T](p1: scala.collection.generic.BitOperations.Long.Long, t1: scala.collection.immutable.LongMap[T], p2: scala.collection.generic.BitOperations.Long.Long, t2: scala.collection.immutable.LongMap[T]): scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+  def bin[T](prefix: scala.collection.generic.BitOperations.Long.Long, mask: scala.collection.generic.BitOperations.Long.Long, left: scala.collection.immutable.LongMap[T], right: scala.collection.immutable.LongMap[T]): scala.collection.immutable.LongMap[T] = { /* compiled code */ }
+}

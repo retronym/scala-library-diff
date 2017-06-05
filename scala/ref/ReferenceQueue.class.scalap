@@ -1,0 +1,10 @@
+package scala.ref
+class ReferenceQueue[+T <: scala.AnyRef] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  private[ref] val underlying: java.lang.ref.ReferenceQueue[_] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  protected def Wrapper(jref: java.lang.ref.Reference[_]): scala.Option[scala.ref.Reference[T]] = { /* compiled code */ }
+  def poll: scala.Option[scala.ref.Reference[T]] = { /* compiled code */ }
+  def remove: scala.Option[scala.ref.Reference[T]] = { /* compiled code */ }
+  def remove(timeout: scala.Long): scala.Option[scala.ref.Reference[T]] = { /* compiled code */ }
+}

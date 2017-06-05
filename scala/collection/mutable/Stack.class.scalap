@@ -1,0 +1,36 @@
+package scala.collection.mutable
+class Stack[A] extends scala.collection.mutable.AbstractSeq[A] with scala.collection.mutable.Seq[A] with scala.collection.mutable.SeqLike[A, scala.collection.mutable.Stack[A]] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.Stack] with scala.collection.mutable.Cloneable[scala.collection.mutable.Stack[A]] with scala.Serializable {
+  var elems: scala.collection.immutable.List[A] = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.mutable.Stack.type = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def apply(index: scala.Int): A = { /* compiled code */ }
+  def update(n: scala.Int, newelem: A): scala.Unit = { /* compiled code */ }
+  def push(elem: A): scala.collection.mutable.Stack.type = { /* compiled code */ }
+  def push(elem1: A, elem2: A, elems: A*): scala.collection.mutable.Stack.type = { /* compiled code */ }
+  def pushAll(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.Stack.type = { /* compiled code */ }
+  def top: A = { /* compiled code */ }
+  def pop(): A = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  @scala.annotation.migration("`iterator` traverses in FIFO order.")
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  @scala.annotation.migration("`toList` traverses in FIFO order.")
+  override def toList: scala.collection.immutable.List[A] = { /* compiled code */ }
+  @scala.annotation.migration("`foreach` traverses in FIFO order.")
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.Stack[A] = { /* compiled code */ }
+}
+object Stack extends scala.collection.generic.SeqFactory[scala.collection.mutable.Stack] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  class StackBuilder[A] extends scala.AnyRef with scala.collection.mutable.Builder[A, scala.collection.mutable.Stack[A]] {
+    def this() = { /* compiled code */ }
+    val lbuff: scala.collection.mutable.ListBuffer[A] = { /* compiled code */ }
+    def +=(elem: A): scala.collection.mutable.Stack.StackBuilder.type = { /* compiled code */ }
+    def clear(): scala.Unit = { /* compiled code */ }
+    def result(): scala.collection.mutable.Stack[A] = { /* compiled code */ }
+  }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.Stack[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.mutable.Stack[A]] = { /* compiled code */ }
+  val empty: scala.collection.mutable.Stack[scala.Nothing] = { /* compiled code */ }
+}

@@ -1,0 +1,31 @@
+package scala.collection
+trait BitSetLike[+This <: scala.collection.BitSetLike[This] with scala.collection.SortedSet[scala.Int]] extends scala.AnyRef with scala.collection.SortedSetLike[scala.Int, This] {
+ this: scala.collection.BitSetLike[This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: This
+  protected def nwords: scala.Int
+  protected def word(idx: scala.Int): scala.Long
+  protected def fromBitMaskNoCopy(elems: scala.Array[scala.Long]): This
+  def toBitMask: scala.Array[scala.Long] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  implicit def ordering: scala.Ordering[scala.Int] = { /* compiled code */ }
+  def rangeImpl(from: scala.Option[scala.Int], until: scala.Option[scala.Int]): This = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Int] = { /* compiled code */ }
+  override def keysIteratorFrom(start: scala.Int): scala.collection.AbstractIterator[scala.Int] = { /* compiled code */ }
+  override def foreach[B](f: scala.Function1[scala.Int, B]): scala.Unit = { /* compiled code */ }
+  def |(other: scala.collection.BitSet): This = { /* compiled code */ }
+  def &(other: scala.collection.BitSet): This = { /* compiled code */ }
+  def &~(other: scala.collection.BitSet): This = { /* compiled code */ }
+  def ^(other: scala.collection.BitSet): This = { /* compiled code */ }
+  def contains(elem: scala.Int): scala.Boolean = { /* compiled code */ }
+  def subsetOf(other: scala.collection.BitSet): scala.Boolean = { /* compiled code */ }
+  override def addString(sb: scala.collection.mutable.StringBuilder, start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}
+object BitSetLike extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  private[collection] final val LogWL: scala.Int = { /* compiled code */ }
+  private[collection] final val MaxSize: scala.Int = { /* compiled code */ }
+  private[collection] def updateArray(elems: scala.Array[scala.Long], idx: scala.Int, w: scala.Long): scala.Array[scala.Long] = { /* compiled code */ }
+}

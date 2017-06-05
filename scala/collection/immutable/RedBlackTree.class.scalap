@@ -1,0 +1,70 @@
+package scala.collection.immutable
+private[collection] object RedBlackTree extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def isEmpty(tree: scala.collection.immutable.RedBlackTree.Tree[_, _]): scala.Boolean = { /* compiled code */ }
+  sealed abstract class Tree[A, +B] extends scala.AnyRef with scala.Serializable {
+    @scala.inline
+    final val key: A = { /* compiled code */ }
+    @scala.inline
+    final val value: B = { /* compiled code */ }
+    @scala.inline
+    final val left: scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+    @scala.inline
+    final val right: scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+    def this(key: A, value: B, left: scala.collection.immutable.RedBlackTree.Tree[A, B], right: scala.collection.immutable.RedBlackTree.Tree[A, B]) = { /* compiled code */ }
+    @scala.inline
+    final val count: scala.Int = { /* compiled code */ }
+    def black: scala.collection.immutable.RedBlackTree.Tree[A, B]
+    def red: scala.collection.immutable.RedBlackTree.Tree[A, B]
+  }
+  final class BlackTree[A, +B] extends scala.collection.immutable.RedBlackTree.Tree[A, B] {
+    def this(key: A, value: B, left: scala.collection.immutable.RedBlackTree.Tree[A, B], right: scala.collection.immutable.RedBlackTree.Tree[A, B]) = { /* compiled code */ }
+    override def black: scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+    override def red: scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+    override def toString(): scala.Predef.String = { /* compiled code */ }
+  }
+  final class RedTree[A, +B] extends scala.collection.immutable.RedBlackTree.Tree[A, B] {
+    def this(key: A, value: B, left: scala.collection.immutable.RedBlackTree.Tree[A, B], right: scala.collection.immutable.RedBlackTree.Tree[A, B]) = { /* compiled code */ }
+    override def black: scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+    override def red: scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+    override def toString(): scala.Predef.String = { /* compiled code */ }
+  }
+  def contains[A](tree: scala.collection.immutable.RedBlackTree.Tree[A, _], x: A)(implicit evidence$1: scala.Ordering[A]): scala.Boolean = { /* compiled code */ }
+  def get[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], x: A)(implicit evidence$2: scala.Ordering[A]): scala.Option[B] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  def lookup[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], x: A)(implicit ordering: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def count(tree: scala.collection.immutable.RedBlackTree.Tree[_, _]): scala.Int = { /* compiled code */ }
+  def countInRange[A](tree: scala.collection.immutable.RedBlackTree.Tree[A, _], from: scala.Option[A], to: scala.Option[A])(implicit ordering: scala.Ordering[A]): scala.Int = { /* compiled code */ }
+  def update[A, B, B1 >: B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], k: A, v: B1, overwrite: scala.Boolean)(implicit evidence$3: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B1] = { /* compiled code */ }
+  def delete[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], k: A)(implicit evidence$4: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def rangeImpl[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], from: scala.Option[A], until: scala.Option[A])(implicit evidence$5: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def range[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], from: A, until: A)(implicit evidence$6: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def from[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], from: A)(implicit evidence$7: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def to[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], to: A)(implicit evidence$8: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def until[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], key: A)(implicit evidence$9: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def drop[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], n: scala.Int)(implicit evidence$10: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def take[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], n: scala.Int)(implicit evidence$11: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def slice[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], from: scala.Int, until: scala.Int)(implicit evidence$12: scala.Ordering[A]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def smallest[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def greatest[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B]): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def foreach[A, B, U](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+  def foreachKey[A, U](tree: scala.collection.immutable.RedBlackTree.Tree[A, _], f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  def iterator[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], start: scala.Option[A])(implicit evidence$13: scala.Ordering[A]): scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  def keysIterator[A](tree: scala.collection.immutable.RedBlackTree.Tree[A, _], start: scala.Option[A])(implicit evidence$14: scala.Ordering[A]): scala.collection.Iterator[A] = { /* compiled code */ }
+  def valuesIterator[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], start: scala.Option[A])(implicit evidence$15: scala.Ordering[A]): scala.collection.Iterator[B] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  def nth[A, B](tree: scala.collection.immutable.RedBlackTree.Tree[A, B], n: scala.Int): scala.collection.immutable.RedBlackTree.Tree[A, B] = { /* compiled code */ }
+  def isBlack(tree: scala.collection.immutable.RedBlackTree.Tree[_, _]): scala.Boolean = { /* compiled code */ }
+  object RedTree extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    @scala.inline
+    def apply[A, B](key: A, value: B, left: scala.collection.immutable.RedBlackTree.Tree[A, B], right: scala.collection.immutable.RedBlackTree.Tree[A, B]): scala.collection.immutable.RedBlackTree.RedTree[A, B] = { /* compiled code */ }
+    def unapply[A, B](t: scala.collection.immutable.RedBlackTree.RedTree[A, B]): scala.Some[scala.Tuple4[A, B, scala.collection.immutable.RedBlackTree.Tree[A, B], scala.collection.immutable.RedBlackTree.Tree[A, B]]] = { /* compiled code */ }
+  }
+  object BlackTree extends scala.AnyRef with scala.Serializable {
+    def this() = { /* compiled code */ }
+    @scala.inline
+    def apply[A, B](key: A, value: B, left: scala.collection.immutable.RedBlackTree.Tree[A, B], right: scala.collection.immutable.RedBlackTree.Tree[A, B]): scala.collection.immutable.RedBlackTree.BlackTree[A, B] = { /* compiled code */ }
+    def unapply[A, B](t: scala.collection.immutable.RedBlackTree.BlackTree[A, B]): scala.Some[scala.Tuple4[A, B, scala.collection.immutable.RedBlackTree.Tree[A, B], scala.collection.immutable.RedBlackTree.Tree[A, B]]] = { /* compiled code */ }
+  }
+}

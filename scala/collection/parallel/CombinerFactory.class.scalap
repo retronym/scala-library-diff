@@ -1,0 +1,5 @@
+package scala.collection.parallel
+trait CombinerFactory[U, Repr] extends scala.AnyRef {
+  def apply(): scala.collection.parallel.Combiner[U, Repr]
+  def doesShareCombiners: scala.Boolean
+}

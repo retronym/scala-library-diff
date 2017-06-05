@@ -1,0 +1,4 @@
+package scala.annotation
+final class switch extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this() = { /* compiled code */ }
+}

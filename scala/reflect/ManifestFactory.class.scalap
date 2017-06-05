@@ -1,0 +1,28 @@
+package scala.reflect
+object ManifestFactory extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def valueManifests: scala.List[scala.reflect.AnyValManifest[_]] = { /* compiled code */ }
+  val Byte: scala.reflect.AnyValManifest[scala.Byte] = { /* compiled code */ }
+  val Short: scala.reflect.AnyValManifest[scala.Short] = { /* compiled code */ }
+  val Char: scala.reflect.AnyValManifest[scala.Char] = { /* compiled code */ }
+  val Int: scala.reflect.AnyValManifest[scala.Int] = { /* compiled code */ }
+  val Long: scala.reflect.AnyValManifest[scala.Long] = { /* compiled code */ }
+  val Float: scala.reflect.AnyValManifest[scala.Float] = { /* compiled code */ }
+  val Double: scala.reflect.AnyValManifest[scala.Double] = { /* compiled code */ }
+  val Boolean: scala.reflect.AnyValManifest[scala.Boolean] = { /* compiled code */ }
+  val Unit: scala.reflect.AnyValManifest[scala.Unit] = { /* compiled code */ }
+  val Any: scala.reflect.Manifest[scala.Any] = { /* compiled code */ }
+  val Object: scala.reflect.Manifest[java.lang.Object] = { /* compiled code */ }
+  val AnyRef: scala.reflect.Manifest[scala.AnyRef] = { /* compiled code */ }
+  val AnyVal: scala.reflect.Manifest[scala.AnyVal] = { /* compiled code */ }
+  val Null: scala.reflect.Manifest[scala.Null] = { /* compiled code */ }
+  val Nothing: scala.reflect.Manifest[scala.Nothing] = { /* compiled code */ }
+  def singleType[T <: scala.AnyRef](value: scala.AnyRef): scala.reflect.Manifest[T] = { /* compiled code */ }
+  def classType[T](clazz: scala.Predef.Class[_]): scala.reflect.Manifest[T] = { /* compiled code */ }
+  def classType[T](clazz: scala.Predef.Class[T], arg1: scala.reflect.Manifest[_], args: scala.reflect.Manifest[_]*): scala.reflect.Manifest[T] = { /* compiled code */ }
+  def classType[T](prefix: scala.reflect.Manifest[_], clazz: scala.Predef.Class[_], args: scala.reflect.Manifest[_]*): scala.reflect.Manifest[T] = { /* compiled code */ }
+  def arrayType[T](arg: scala.reflect.Manifest[_]): scala.reflect.Manifest[scala.Array[T]] = { /* compiled code */ }
+  def abstractType[T](prefix: scala.reflect.Manifest[_], name: scala.Predef.String, upperBound: scala.Predef.Class[_], args: scala.reflect.Manifest[_]*): scala.reflect.Manifest[T] = { /* compiled code */ }
+  def wildcardType[T](lowerBound: scala.reflect.Manifest[_], upperBound: scala.reflect.Manifest[_]): scala.reflect.Manifest[T] = { /* compiled code */ }
+  def intersectionType[T](parents: scala.reflect.Manifest[_]*): scala.reflect.Manifest[T] = { /* compiled code */ }
+}

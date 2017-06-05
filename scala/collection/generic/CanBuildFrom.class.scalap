@@ -1,0 +1,6 @@
+package scala.collection.generic
+@scala.annotation.implicitNotFound("Cannot construct a collection of type ${To} with elements of type ${Elem} based on a collection of type ${From}.")
+trait CanBuildFrom[-From, -Elem, +To] extends scala.AnyRef {
+  def apply(from: From): scala.collection.mutable.Builder[Elem, To]
+  def apply(): scala.collection.mutable.Builder[Elem, To]
+}

@@ -1,0 +1,20 @@
+package scala.collection.parallel
+trait Tasks extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  private[parallel] val debugMessages: scala.collection.mutable.ArrayBuffer[scala.Predef.String] = { /* compiled code */ }
+  private[parallel] def debuglog(s: scala.Predef.String): scala.collection.mutable.ArrayBuffer[scala.Predef.String] = { /* compiled code */ }
+  trait WrappedTask[R, +Tp] extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    val body: scala.collection.parallel.Task[R, Tp]
+    def split: scala.Seq[scala.collection.parallel.Tasks.WrappedTask[R, Tp]]
+    def compute(): scala.Unit
+    def start(): scala.Unit
+    def sync(): scala.Unit
+    def tryCancel(): scala.Boolean
+    def release(): scala.Unit = { /* compiled code */ }
+  }
+  val environment: scala.AnyRef
+  def execute[R, Tp](fjtask: scala.collection.parallel.Task[R, Tp]): scala.Function0[R]
+  def executeAndWaitResult[R, Tp](task: scala.collection.parallel.Task[R, Tp]): R
+  def parallelismLevel: scala.Int
+}

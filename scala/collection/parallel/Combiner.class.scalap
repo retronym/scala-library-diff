@@ -1,0 +1,10 @@
+package scala.collection.parallel
+trait Combiner[-Elem, +To] extends scala.AnyRef with scala.collection.mutable.Builder[Elem, To] with scala.collection.generic.Sizing with scala.collection.Parallel {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  var _combinerTaskSupport: scala.collection.parallel.TaskSupport = { /* compiled code */ }
+  def combinerTaskSupport: scala.collection.parallel.TaskSupport = { /* compiled code */ }
+  def combinerTaskSupport_=(cts: scala.collection.parallel.TaskSupport): scala.Unit = { /* compiled code */ }
+  def combine[N <: Elem, NewTo >: To](other: scala.collection.parallel.Combiner[N, NewTo]): scala.collection.parallel.Combiner[N, NewTo]
+  def canBeShared: scala.Boolean = { /* compiled code */ }
+  def resultWithTaskSupport: To = { /* compiled code */ }
+}

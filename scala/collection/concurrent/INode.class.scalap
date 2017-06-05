@@ -1,0 +1,27 @@
+package scala.collection.concurrent
+private[collection] final class INode[K, V] extends scala.collection.concurrent.INodeBase[K, V] {
+  def this(bn: scala.collection.concurrent.MainNode[K, V], g: scala.collection.concurrent.Gen) = { /* compiled code */ }
+  def this(g: scala.collection.concurrent.Gen) = { /* compiled code */ }
+  def WRITE(nval: scala.collection.concurrent.MainNode[K, V]): scala.Unit = { /* compiled code */ }
+  def CAS(old: scala.collection.concurrent.MainNode[K, V], n: scala.collection.concurrent.MainNode[K, V]): scala.Boolean = { /* compiled code */ }
+  def gcasRead(ct: scala.collection.concurrent.TrieMap[K, V]): scala.collection.concurrent.MainNode[K, V] = { /* compiled code */ }
+  def GCAS_READ(ct: scala.collection.concurrent.TrieMap[K, V]): scala.collection.concurrent.MainNode[K, V] = { /* compiled code */ }
+  def GCAS(old: scala.collection.concurrent.MainNode[K, V], n: scala.collection.concurrent.MainNode[K, V], ct: scala.collection.concurrent.TrieMap[K, V]): scala.Boolean = { /* compiled code */ }
+  def copyToGen(ngen: scala.collection.concurrent.Gen, ct: scala.collection.concurrent.TrieMap[K, V]): scala.collection.concurrent.INode[K, V] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  def rec_insert(k: K, v: V, hc: scala.Int, lev: scala.Int, parent: scala.collection.concurrent.INode[K, V], startgen: scala.collection.concurrent.Gen, ct: scala.collection.concurrent.TrieMap[K, V]): scala.Boolean = { /* compiled code */ }
+  @scala.annotation.tailrec
+  def rec_insertif(k: K, v: V, hc: scala.Int, cond: scala.AnyRef, lev: scala.Int, parent: scala.collection.concurrent.INode[K, V], startgen: scala.collection.concurrent.Gen, ct: scala.collection.concurrent.TrieMap[K, V]): scala.Option[V] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  def rec_lookup(k: K, hc: scala.Int, lev: scala.Int, parent: scala.collection.concurrent.INode[K, V], startgen: scala.collection.concurrent.Gen, ct: scala.collection.concurrent.TrieMap[K, V]): scala.AnyRef = { /* compiled code */ }
+  def rec_remove(k: K, v: V, hc: scala.Int, lev: scala.Int, parent: scala.collection.concurrent.INode[K, V], startgen: scala.collection.concurrent.Gen, ct: scala.collection.concurrent.TrieMap[K, V]): scala.Option[V] = { /* compiled code */ }
+  def isNullInode(ct: scala.collection.concurrent.TrieMap[K, V]): scala.Boolean = { /* compiled code */ }
+  def cachedSize(ct: scala.collection.concurrent.TrieMap[K, V]): scala.Int = { /* compiled code */ }
+  def string(lev: scala.Int): scala.Predef.String = { /* compiled code */ }
+}
+private[concurrent] object INode extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val KEY_PRESENT: java.lang.Object = { /* compiled code */ }
+  val KEY_ABSENT: java.lang.Object = { /* compiled code */ }
+  def newRootNode[K, V]: scala.collection.concurrent.INode[K, V] = { /* compiled code */ }
+}

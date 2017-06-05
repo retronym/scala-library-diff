@@ -1,0 +1,12 @@
+package scala.collection.mutable
+trait Builder[-Elem, +To] extends scala.AnyRef with scala.collection.generic.Growable[Elem] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def +=(elem: Elem): scala.collection.mutable.Builder.type
+  def clear(): scala.Unit
+  def result(): To
+  def sizeHint(size: scala.Int): scala.Unit = { /* compiled code */ }
+  def sizeHint(coll: scala.collection.TraversableLike[_, _]): scala.Unit = { /* compiled code */ }
+  def sizeHint(coll: scala.collection.TraversableLike[_, _], delta: scala.Int): scala.Unit = { /* compiled code */ }
+  def sizeHintBounded(size: scala.Int, boundingColl: scala.collection.TraversableLike[_, _]): scala.Unit = { /* compiled code */ }
+  def mapResult[NewTo](f: scala.Function1[To, NewTo]): scala.collection.mutable.Builder[Elem, NewTo] = { /* compiled code */ }
+}

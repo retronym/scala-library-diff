@@ -1,0 +1,6 @@
+package scala.runtime
+private[scala] final class MegaMethodCache extends scala.runtime.MethodCache {
+  def this(forName: scala.Predef.String, forParameterTypes: scala.Array[java.lang.Class[_]]) = { /* compiled code */ }
+  def find(forReceiver: java.lang.Class[_]): java.lang.reflect.Method = { /* compiled code */ }
+  def add(forReceiver: java.lang.Class[_], forMethod: java.lang.reflect.Method): scala.runtime.MethodCache = { /* compiled code */ }
+}

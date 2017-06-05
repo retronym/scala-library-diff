@@ -1,0 +1,14 @@
+package scala.util.control
+class Breaks extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def breakable(op: => scala.Unit): scala.Unit = { /* compiled code */ }
+  sealed trait TryBlock[T] extends scala.AnyRef {
+    def catchBreak(onBreak: => T): T
+    
+  }
+  def tryBreakable[T](op: => T): scala.AnyRef with scala.util.control.Breaks.TryBlock[T] = { /* compiled code */ }
+  def break(): scala.Nothing = { /* compiled code */ }
+}
+object Breaks extends scala.util.control.Breaks {
+  def this() = { /* compiled code */ }
+}

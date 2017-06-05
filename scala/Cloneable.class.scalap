@@ -1,0 +1,3 @@
+package scala
+trait Cloneable extends java.lang.Object with java.lang.Cloneable {
+}

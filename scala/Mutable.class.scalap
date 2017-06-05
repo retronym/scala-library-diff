@@ -1,0 +1,3 @@
+package scala
+trait Mutable extends scala.AnyRef {
+}

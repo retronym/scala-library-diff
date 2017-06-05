@@ -1,0 +1,15 @@
+package scala.runtime
+@scala.deprecated("Use Predef.StringAdd")
+final class StringAdd extends scala.AnyVal {
+  val self: scala.Any = { /* compiled code */ }
+  def this(self: scala.Any) = { /* compiled code */ }
+  def +(other: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object StringAdd extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def +$extension($this: scala.runtime.StringAdd)(other: scala.Predef.String): java.lang.String = { /* compiled code */ }
+  final def hashCode$extension($this: scala.runtime.StringAdd)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.runtime.StringAdd)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

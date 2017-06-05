@@ -1,0 +1,7 @@
+package scala.collection.concurrent
+trait Map[A, B] extends scala.AnyRef with scala.collection.mutable.Map[A, B] {
+  def putIfAbsent(k: A, v: B): scala.Option[B]
+  def remove(k: A, v: B): scala.Boolean
+  def replace(k: A, oldvalue: B, newvalue: B): scala.Boolean
+  def replace(k: A, v: B): scala.Option[B]
+}

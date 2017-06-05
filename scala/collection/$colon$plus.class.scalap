@@ -1,0 +1,5 @@
+package scala.collection
+object :+ extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def unapply[T, Coll <: scala.collection.SeqLike[T, Coll]](t: Coll with scala.collection.SeqLike[T, Coll]): scala.Option[scala.Tuple2[Coll, T]] = { /* compiled code */ }
+}

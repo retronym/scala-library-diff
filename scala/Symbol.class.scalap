@@ -1,0 +1,13 @@
+package scala
+final class Symbol extends scala.AnyRef with scala.Serializable {
+  val name: scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Symbol extends scala.UniquenessCache[scala.Predef.String, scala.Symbol] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def apply(name: scala.Predef.String): scala.Symbol = { /* compiled code */ }
+  protected def valueFromKey(name: scala.Predef.String): scala.Symbol = { /* compiled code */ }
+  protected def keyFromValue(sym: scala.Symbol): scala.Option[scala.Predef.String] = { /* compiled code */ }
+}

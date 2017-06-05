@@ -1,0 +1,31 @@
+package scala.collection.parallel.mutable
+private[mutable] abstract class ParHashSetCombiner[T] extends scala.collection.parallel.BucketCombiner[T, scala.collection.parallel.mutable.ParHashSet[T], scala.AnyRef, scala.collection.parallel.mutable.ParHashSetCombiner[T]] with scala.collection.mutable.FlatHashTable.HashUtils[T] {
+  def this(tableLoadFactor: scala.Int) = { /* compiled code */ }
+  def +=(elem: T): scala.collection.parallel.mutable.ParHashSetCombiner.type = { /* compiled code */ }
+  def result(): scala.collection.parallel.mutable.ParHashSet[T] = { /* compiled code */ }
+  class AddingFlatHashTable extends scala.AnyRef with scala.collection.mutable.FlatHashTable[T] {
+    def this(numelems: scala.Int, lf: scala.Int, inseedvalue: scala.Int) = { /* compiled code */ }
+    override def toString(): scala.Predef.String = { /* compiled code */ }
+    def tableLength: scala.Int = { /* compiled code */ }
+    def setSize(sz: scala.Int): scala.Unit = { /* compiled code */ }
+    def insertEntry(insertAt: scala.Int, comesBefore: scala.Int, newEntry: scala.AnyRef): scala.Int = { /* compiled code */ }
+  }
+  class FillBlocks extends scala.AnyRef with scala.collection.parallel.Task[scala.Tuple2[scala.Int, scala.collection.mutable.UnrolledBuffer[scala.AnyRef]], scala.collection.parallel.mutable.ParHashSetCombiner.FillBlocks] {
+    val offset: scala.Int = { /* compiled code */ }
+    val howmany: scala.Int = { /* compiled code */ }
+    def this(buckets: scala.Array[scala.collection.mutable.UnrolledBuffer[scala.AnyRef]], table: scala.collection.parallel.mutable.ParHashSetCombiner.AddingFlatHashTable, offset: scala.Int, howmany: scala.Int) = { /* compiled code */ }
+    var result: scala.Tuple2[scala.Int, scala.collection.mutable.UnrolledBuffer[scala.AnyRef]] = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Tuple2[scala.Int, scala.collection.mutable.UnrolledBuffer[scala.AnyRef]]]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.immutable.List[scala.collection.parallel.mutable.ParHashSetCombiner.FillBlocks] = { /* compiled code */ }
+    override def merge(that: scala.collection.parallel.mutable.ParHashSetCombiner.FillBlocks): scala.Unit = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+  }
+}
+private[parallel] object ParHashSetCombiner extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  private[mutable] val discriminantbits: scala.Int = { /* compiled code */ }
+  private[mutable] val numblocks: scala.Int = { /* compiled code */ }
+  private[mutable] val discriminantmask: scala.Int = { /* compiled code */ }
+  private[mutable] val nonmasklength: scala.Int = { /* compiled code */ }
+  def apply[T]: scala.collection.parallel.mutable.ParHashSetCombiner[T] = { /* compiled code */ }
+}

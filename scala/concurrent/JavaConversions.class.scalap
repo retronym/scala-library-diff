@@ -1,0 +1,6 @@
+package scala.concurrent
+object JavaConversions extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  implicit def asExecutionContext(exec: java.util.concurrent.ExecutorService): scala.concurrent.ExecutionContextExecutorService = { /* compiled code */ }
+  implicit def asExecutionContext(exec: java.util.concurrent.Executor): scala.concurrent.ExecutionContextExecutor = { /* compiled code */ }
+}

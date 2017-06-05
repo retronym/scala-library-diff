@@ -1,0 +1,26 @@
+package scala.collection.immutable
+@scala.deprecated("Stack is an inelegant and potentially poorly-performing wrapper around List.  Use List instead: stack push x becomes x :: list; stack.pop is list.tail.")
+@scala.SerialVersionUID { val value = 1976480595012942526None }
+class Stack[+A] extends scala.collection.AbstractSeq[A] with scala.collection.immutable.LinearSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.immutable.Stack] with scala.collection.LinearSeqOptimized[A, scala.collection.immutable.Stack[A]] with scala.Serializable {
+  protected val elems: scala.collection.immutable.List[A] = { /* compiled code */ }
+  protected def this(elems: scala.collection.immutable.List[A]) = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.Stack] = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  override def tail: scala.collection.immutable.Stack[A] = { /* compiled code */ }
+  def push[B >: A](elem: B): scala.collection.immutable.Stack[B] = { /* compiled code */ }
+  def push[B >: A](elem1: B, elem2: B, elems: B*): scala.collection.immutable.Stack[B] = { /* compiled code */ }
+  def pushAll[B >: A](xs: scala.collection.TraversableOnce[B]): scala.collection.immutable.Stack[B] = { /* compiled code */ }
+  def top: A = { /* compiled code */ }
+  def pop: scala.collection.immutable.Stack[A] = { /* compiled code */ }
+  def pop2: scala.Tuple2[A, scala.collection.immutable.Stack[A]] = { /* compiled code */ }
+  override def reverse: scala.collection.immutable.Stack[A] = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object Stack extends scala.collection.generic.SeqFactory[scala.collection.immutable.Stack] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.Stack[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.immutable.Stack[A]] = { /* compiled code */ }
+}

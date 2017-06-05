@@ -1,0 +1,34 @@
+package scala.collection.mutable
+@scala.deprecatedInheritance("PriorityQueue is not intended to be subclassed due to extensive private implementation details.")
+class PriorityQueue[A] extends scala.collection.mutable.AbstractIterable[A] with scala.collection.mutable.Iterable[A] with scala.collection.generic.GenericOrderedTraversableTemplate[A, scala.collection.mutable.PriorityQueue] with scala.collection.IterableLike[A, scala.collection.mutable.PriorityQueue[A]] with scala.collection.generic.Growable[A] with scala.collection.mutable.Builder[A, scala.collection.mutable.PriorityQueue[A]] with scala.Serializable with scala.Cloneable {
+  implicit val ord: scala.Ordering[A] = { /* compiled code */ }
+  def this()(implicit ord: scala.Ordering[A]) = { /* compiled code */ }
+  def length: scala.Int = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def repr: scala.collection.mutable.PriorityQueue[A] = { /* compiled code */ }
+  def result(): scala.collection.mutable.PriorityQueue[A] = { /* compiled code */ }
+  override def orderedCompanion: scala.collection.mutable.PriorityQueue.type = { /* compiled code */ }
+  protected def fixUp(as: scala.Array[scala.AnyRef], m: scala.Int): scala.Unit = { /* compiled code */ }
+  protected def fixDown(as: scala.Array[scala.AnyRef], m: scala.Int, n: scala.Int): scala.Unit = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.PriorityQueue.type = { /* compiled code */ }
+  def ++(xs: scala.collection.GenTraversableOnce[A]): scala.collection.mutable.PriorityQueue[A] = { /* compiled code */ }
+  def enqueue(elems: A*): scala.Unit = { /* compiled code */ }
+  def dequeue(): A = { /* compiled code */ }
+  def dequeueAll[A1 >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[_, A1, That]): That = { /* compiled code */ }
+  override def head: A = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  def reverse: scala.collection.mutable.PriorityQueue[A] = { /* compiled code */ }
+  def reverseIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  def toQueue: scala.collection.mutable.Queue[A] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  override def toList: scala.List[A] = { /* compiled code */ }
+  override def clone(): scala.collection.mutable.PriorityQueue[A] = { /* compiled code */ }
+}
+object PriorityQueue extends scala.collection.generic.OrderedTraversableFactory[scala.collection.mutable.PriorityQueue] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def newBuilder[A](implicit ord: scala.Ordering[A]): scala.collection.mutable.PriorityQueue[A] = { /* compiled code */ }
+  implicit def canBuildFrom[A](implicit ord: scala.Ordering[A]): scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericOrderedCompanion.Coll, A, scala.collection.mutable.PriorityQueue[A]] = { /* compiled code */ }
+}

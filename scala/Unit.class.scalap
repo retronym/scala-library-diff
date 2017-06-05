@@ -1,0 +1,11 @@
+package scala
+final abstract class Unit extends scala.AnyVal {
+  def this() = { /* compiled code */ }
+  override def getClass(): scala.Predef.Class[scala.Unit] = { /* compiled code */ }
+}
+object Unit extends scala.AnyRef with scala.AnyValCompanion {
+  def this() = { /* compiled code */ }
+  def box(x: scala.Unit): scala.runtime.BoxedUnit = { /* compiled code */ }
+  def unbox(x: java.lang.Object): scala.Unit = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}

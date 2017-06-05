@@ -1,0 +1,13 @@
+package scala.collection.mutable
+@scala.deprecated("This trait will be removed.")
+trait DefaultMapModel[A, B] extends scala.AnyRef with scala.collection.mutable.Map[A, B] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  type Entry = scala.collection.mutable.DefaultEntry[A, B]
+  protected def findEntry(key: A): Entry
+  protected def addEntry(e: Entry): scala.Unit
+  protected def entries: scala.collection.Iterator[Entry]
+  def get(key: A): scala.Option[B] = { /* compiled code */ }
+  override def put(key: A, value: B): scala.Option[B] = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.DefaultMapModel.type = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+}

@@ -1,0 +1,4 @@
+package scala.collection.mutable
+abstract class AbstractSeq[A] extends scala.collection.AbstractSeq[A] with scala.collection.mutable.Seq[A] {
+  def this() = { /* compiled code */ }
+}

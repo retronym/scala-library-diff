@@ -1,0 +1,9 @@
+package scala.collection.immutable
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
+trait SetProxy[A] extends scala.AnyRef with scala.collection.immutable.Set[A] with scala.collection.SetProxyLike[A, scala.collection.immutable.Set[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def repr: scala.collection.immutable.SetProxy[A] = { /* compiled code */ }
+  override def empty: scala.collection.immutable.SetProxy[A] = { /* compiled code */ }
+  override def +(elem: A): scala.collection.immutable.SetProxy[A] = { /* compiled code */ }
+  override def -(elem: A): scala.collection.immutable.SetProxy[A] = { /* compiled code */ }
+}

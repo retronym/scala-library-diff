@@ -1,0 +1,126 @@
+package scala
+final abstract class Char extends scala.AnyVal {
+  def this() = { /* compiled code */ }
+  def toByte: scala.Byte
+  def toShort: scala.Short
+  def toChar: scala.Char
+  def toInt: scala.Int
+  def toLong: scala.Long
+  def toFloat: scala.Float
+  def toDouble: scala.Double
+  def unary_~: scala.Int
+  def unary_+: scala.Int
+  def unary_-: scala.Int
+  def +(x: scala.Predef.String): scala.Predef.String
+  def <<(x: scala.Int): scala.Int
+  def <<(x: scala.Long): scala.Int
+  def >>>(x: scala.Int): scala.Int
+  def >>>(x: scala.Long): scala.Int
+  def >>(x: scala.Int): scala.Int
+  def >>(x: scala.Long): scala.Int
+  def ==(x: scala.Byte): scala.Boolean
+  def ==(x: scala.Short): scala.Boolean
+  def ==(x: scala.Char): scala.Boolean
+  def ==(x: scala.Int): scala.Boolean
+  def ==(x: scala.Long): scala.Boolean
+  def ==(x: scala.Float): scala.Boolean
+  def ==(x: scala.Double): scala.Boolean
+  def !=(x: scala.Byte): scala.Boolean
+  def !=(x: scala.Short): scala.Boolean
+  def !=(x: scala.Char): scala.Boolean
+  def !=(x: scala.Int): scala.Boolean
+  def !=(x: scala.Long): scala.Boolean
+  def !=(x: scala.Float): scala.Boolean
+  def !=(x: scala.Double): scala.Boolean
+  def <(x: scala.Byte): scala.Boolean
+  def <(x: scala.Short): scala.Boolean
+  def <(x: scala.Char): scala.Boolean
+  def <(x: scala.Int): scala.Boolean
+  def <(x: scala.Long): scala.Boolean
+  def <(x: scala.Float): scala.Boolean
+  def <(x: scala.Double): scala.Boolean
+  def <=(x: scala.Byte): scala.Boolean
+  def <=(x: scala.Short): scala.Boolean
+  def <=(x: scala.Char): scala.Boolean
+  def <=(x: scala.Int): scala.Boolean
+  def <=(x: scala.Long): scala.Boolean
+  def <=(x: scala.Float): scala.Boolean
+  def <=(x: scala.Double): scala.Boolean
+  def >(x: scala.Byte): scala.Boolean
+  def >(x: scala.Short): scala.Boolean
+  def >(x: scala.Char): scala.Boolean
+  def >(x: scala.Int): scala.Boolean
+  def >(x: scala.Long): scala.Boolean
+  def >(x: scala.Float): scala.Boolean
+  def >(x: scala.Double): scala.Boolean
+  def >=(x: scala.Byte): scala.Boolean
+  def >=(x: scala.Short): scala.Boolean
+  def >=(x: scala.Char): scala.Boolean
+  def >=(x: scala.Int): scala.Boolean
+  def >=(x: scala.Long): scala.Boolean
+  def >=(x: scala.Float): scala.Boolean
+  def >=(x: scala.Double): scala.Boolean
+  def |(x: scala.Byte): scala.Int
+  def |(x: scala.Short): scala.Int
+  def |(x: scala.Char): scala.Int
+  def |(x: scala.Int): scala.Int
+  def |(x: scala.Long): scala.Long
+  def &(x: scala.Byte): scala.Int
+  def &(x: scala.Short): scala.Int
+  def &(x: scala.Char): scala.Int
+  def &(x: scala.Int): scala.Int
+  def &(x: scala.Long): scala.Long
+  def ^(x: scala.Byte): scala.Int
+  def ^(x: scala.Short): scala.Int
+  def ^(x: scala.Char): scala.Int
+  def ^(x: scala.Int): scala.Int
+  def ^(x: scala.Long): scala.Long
+  def +(x: scala.Byte): scala.Int
+  def +(x: scala.Short): scala.Int
+  def +(x: scala.Char): scala.Int
+  def +(x: scala.Int): scala.Int
+  def +(x: scala.Long): scala.Long
+  def +(x: scala.Float): scala.Float
+  def +(x: scala.Double): scala.Double
+  def -(x: scala.Byte): scala.Int
+  def -(x: scala.Short): scala.Int
+  def -(x: scala.Char): scala.Int
+  def -(x: scala.Int): scala.Int
+  def -(x: scala.Long): scala.Long
+  def -(x: scala.Float): scala.Float
+  def -(x: scala.Double): scala.Double
+  def *(x: scala.Byte): scala.Int
+  def *(x: scala.Short): scala.Int
+  def *(x: scala.Char): scala.Int
+  def *(x: scala.Int): scala.Int
+  def *(x: scala.Long): scala.Long
+  def *(x: scala.Float): scala.Float
+  def *(x: scala.Double): scala.Double
+  def /(x: scala.Byte): scala.Int
+  def /(x: scala.Short): scala.Int
+  def /(x: scala.Char): scala.Int
+  def /(x: scala.Int): scala.Int
+  def /(x: scala.Long): scala.Long
+  def /(x: scala.Float): scala.Float
+  def /(x: scala.Double): scala.Double
+  def %(x: scala.Byte): scala.Int
+  def %(x: scala.Short): scala.Int
+  def %(x: scala.Char): scala.Int
+  def %(x: scala.Int): scala.Int
+  def %(x: scala.Long): scala.Long
+  def %(x: scala.Float): scala.Float
+  def %(x: scala.Double): scala.Double
+  override def getClass(): scala.Predef.Class[scala.Char] = { /* compiled code */ }
+}
+object Char extends scala.AnyRef with scala.AnyValCompanion {
+  def this() = { /* compiled code */ }
+  final val MinValue: scala.Char = { /* compiled code */ }
+  final val MaxValue: scala.Char = { /* compiled code */ }
+  def box(x: scala.Char): java.lang.Character = { /* compiled code */ }
+  def unbox(x: java.lang.Object): scala.Char = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  implicit def char2int(x: scala.Char): scala.Int = { /* compiled code */ }
+  implicit def char2long(x: scala.Char): scala.Long = { /* compiled code */ }
+  implicit def char2float(x: scala.Char): scala.Float = { /* compiled code */ }
+  implicit def char2double(x: scala.Char): scala.Double = { /* compiled code */ }
+}

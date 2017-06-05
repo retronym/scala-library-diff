@@ -1,0 +1,15 @@
+package scala.collection.mutable
+@scala.deprecated("Synchronization via selective overriding of methods is inherently unreliable.  Consider java.util.concurrent.LinkedBlockingDequeue instead.")
+class SynchronizedStack[A] extends scala.collection.mutable.Stack[A] {
+  def this() = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def push(elem: A): scala.collection.mutable.SynchronizedStack.type = { /* compiled code */ }
+  override def push(elem1: A, elem2: A, elems: A*): scala.collection.mutable.SynchronizedStack.type = { /* compiled code */ }
+  override def pushAll(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.SynchronizedStack.type = { /* compiled code */ }
+  override def top: A = { /* compiled code */ }
+  override def pop(): A = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def toList: scala.List[A] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

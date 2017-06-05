@@ -1,0 +1,22 @@
+package scala.collection.immutable
+final class StringOps extends scala.AnyVal with scala.collection.immutable.StringLike[scala.Predef.String] {
+  override val repr: scala.Predef.String = { /* compiled code */ }
+  def this(repr: scala.Predef.String) = { /* compiled code */ }
+  override def apply(index: scala.Int): scala.Char = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  def seq: scala.collection.immutable.WrappedString = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object StringOps extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def apply$extension($this: scala.collection.immutable.StringOps)(index: scala.Int): scala.Char = { /* compiled code */ }
+  final def slice$extension($this: scala.collection.immutable.StringOps)(from: scala.Int, until: scala.Int): scala.Predef.String = { /* compiled code */ }
+  final def toString$extension($this: scala.collection.immutable.StringOps)(): scala.Predef.String = { /* compiled code */ }
+  final def length$extension($this: scala.collection.immutable.StringOps): scala.Int = { /* compiled code */ }
+  final def seq$extension($this: scala.collection.immutable.StringOps): scala.collection.immutable.WrappedString = { /* compiled code */ }
+  final def hashCode$extension($this: scala.collection.immutable.StringOps)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.collection.immutable.StringOps)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

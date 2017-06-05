@@ -1,0 +1,62 @@
+package scala.concurrent.duration
+trait DurationConversions extends scala.Any {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def durationIn(unit: scala.concurrent.duration.TimeUnit): scala.concurrent.duration.FiniteDuration
+  def nanoseconds: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def nanos: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def nanosecond: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def nano: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def microseconds: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def micros: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def microsecond: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def micro: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def milliseconds: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def millis: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def millisecond: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def milli: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def seconds: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def second: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def minutes: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def minute: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def hours: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def hour: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def days: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def day: scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  def nanoseconds[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def nanos[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def nanosecond[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def nano[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def microseconds[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def micros[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def microsecond[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def micro[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def milliseconds[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def millis[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def millisecond[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def milli[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def seconds[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def second[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def minutes[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def minute[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def hours[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def hour[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def days[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+  def day[C](c: C)(implicit ev: scala.concurrent.duration.DurationConversions.Classifier[C]): R = { /* compiled code */ }
+}
+object DurationConversions extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  trait Classifier[C] extends scala.AnyRef {
+    type R
+    def convert(d: scala.concurrent.duration.FiniteDuration): R
+  }
+  implicit object spanConvert extends scala.AnyRef with scala.concurrent.duration.DurationConversions.Classifier[scala.concurrent.duration.package.span.type] {
+    def this() = { /* compiled code */ }
+    type R = scala.concurrent.duration.FiniteDuration
+    def convert(d: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.FiniteDuration = { /* compiled code */ }
+  }
+  implicit object fromNowConvert extends scala.AnyRef with scala.concurrent.duration.DurationConversions.Classifier[scala.concurrent.duration.package.fromNow.type] {
+    def this() = { /* compiled code */ }
+    type R = scala.concurrent.duration.Deadline
+    def convert(d: scala.concurrent.duration.FiniteDuration): scala.concurrent.duration.Deadline = { /* compiled code */ }
+  }
+}

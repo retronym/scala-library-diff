@@ -1,0 +1,7 @@
+package scala.concurrent
+class Lock extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  var available: scala.Boolean = { /* compiled code */ }
+  def acquire(): scala.Unit = { /* compiled code */ }
+  def release(): scala.Unit = { /* compiled code */ }
+}

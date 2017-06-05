@@ -1,0 +1,5 @@
+package scala.collection.immutable
+private[immutable] class LongMapKeyIterator[V] extends scala.collection.immutable.LongMapIterator[V, scala.collection.generic.BitOperations.Long.Long] {
+  def this(it: scala.collection.immutable.LongMap[V]) = { /* compiled code */ }
+  def valueOf(tip: scala.collection.immutable.LongMap.Tip[V]): scala.collection.generic.BitOperations.Long.Long = { /* compiled code */ }
+}

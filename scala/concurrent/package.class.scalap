@@ -1,0 +1,13 @@
+package scala
+package object concurrent extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type ExecutionException = java.util.concurrent.ExecutionException
+  type CancellationException = java.util.concurrent.CancellationException
+  type TimeoutException = java.util.concurrent.TimeoutException
+  @scala.deprecated("Use `Future { ... }` instead.")
+  def future[T](body: => T)(implicit executor: scala.concurrent.ExecutionContext): scala.concurrent.Future[T] = { /* compiled code */ }
+  @scala.deprecated("Use `Promise[T]()` instead.")
+  def promise[T](): scala.concurrent.Promise[T] = { /* compiled code */ }
+  @scala.throws[scala.Exception](scala.Exception)
+  def blocking[T](body: => T): T = { /* compiled code */ }
+}

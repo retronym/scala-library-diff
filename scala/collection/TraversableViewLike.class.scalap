@@ -1,0 +1,95 @@
+package scala.collection
+trait TraversableViewLike[+A, +Coll, +This <: scala.collection.TraversableView[A, Coll] with scala.collection.TraversableViewLike[A, Coll, This]] extends scala.AnyRef with scala.collection.Traversable[A] with scala.collection.TraversableLike[A, This] with scala.collection.ViewMkString[A] {
+ this: scala.collection.TraversableViewLike[A, Coll, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def underlying: Coll
+  def viewToString: java.lang.String = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+  def force[B >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[Coll, B, That]): That = { /* compiled code */ }
+  private[collection] abstract class AbstractTransformed[+B] extends scala.AnyRef with scala.collection.Traversable[B] with scala.collection.TraversableViewLike.Transformed[B] {
+    def this() = { /* compiled code */ }
+  }
+  trait Transformed[+B] extends scala.AnyRef with scala.collection.TraversableView[B, Coll] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[B, U]): scala.Unit
+    val underlying: Coll = { /* compiled code */ }
+    override def headOption: scala.Option[B] = { /* compiled code */ }
+    override def lastOption: scala.Option[B] = { /* compiled code */ }
+    override def stringPrefix: java.lang.String = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  trait EmptyView extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[scala.Nothing] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    final override def isEmpty: scala.Boolean = { /* compiled code */ }
+    final override def foreach[U](f: scala.Function1[scala.Nothing, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait Forced[B] extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[B, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait Sliced extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait Mapped[B] extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[B, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait FlatMapped[B] extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[B, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait Appended[B >: A] extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[B] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[B, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait Filtered extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait TakenWhile extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  }
+  trait DroppedWhile extends scala.AnyRef with scala.collection.TraversableViewLike.Transformed[A] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  }
+  override def ++[B >: A, That](xs: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[This, B, That]): That = { /* compiled code */ }
+  override def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[This, B, That]): That = { /* compiled code */ }
+  override def collect[B, That](pf: scala.PartialFunction[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[This, B, That]): That = { /* compiled code */ }
+  override def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[This, B, That]): That = { /* compiled code */ }
+  override def flatten[B](implicit asTraversable: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): scala.collection.TraversableViewLike.Transformed[B] = { /* compiled code */ }
+  protected def newForced[B](xs: => scala.collection.GenSeq[B]): scala.collection.TraversableViewLike.Transformed[B] = { /* compiled code */ }
+  protected def newAppended[B >: A](that: scala.collection.GenTraversable[B]): scala.collection.TraversableViewLike.Transformed[B] = { /* compiled code */ }
+  protected def newMapped[B](f: scala.Function1[A, B]): scala.collection.TraversableViewLike.Transformed[B] = { /* compiled code */ }
+  protected def newFlatMapped[B](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): scala.collection.TraversableViewLike.Transformed[B] = { /* compiled code */ }
+  protected def newFiltered(p: scala.Function1[A, scala.Boolean]): scala.collection.TraversableViewLike.Transformed[A] = { /* compiled code */ }
+  protected def newSliced(_endpoints: scala.collection.generic.SliceInterval): scala.collection.TraversableViewLike.Transformed[A] = { /* compiled code */ }
+  protected def newDroppedWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.TraversableViewLike.Transformed[A] = { /* compiled code */ }
+  protected def newTakenWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.TraversableViewLike.Transformed[A] = { /* compiled code */ }
+  protected def newTaken(n: scala.Int): scala.collection.TraversableViewLike.Transformed[A] = { /* compiled code */ }
+  protected def newDropped(n: scala.Int): scala.collection.TraversableViewLike.Transformed[A] = { /* compiled code */ }
+  override def filter(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def withFilter(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def partition(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[This, This] = { /* compiled code */ }
+  override def init: This = { /* compiled code */ }
+  override def drop(n: scala.Int): This = { /* compiled code */ }
+  override def take(n: scala.Int): This = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): This = { /* compiled code */ }
+  override def dropWhile(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def span(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[This, This] = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[This, This] = { /* compiled code */ }
+  override def scanLeft[B, That](z: B)(op: scala.Function2[B, A, B])(implicit bf: scala.collection.generic.CanBuildFrom[This, B, That]): That = { /* compiled code */ }
+  @scala.annotation.migration("The behavior of `scanRight` has changed. The previous behavior can be reproduced with scanRight.reverse.")
+  override def scanRight[B, That](z: B)(op: scala.Function2[A, B, B])(implicit bf: scala.collection.generic.CanBuildFrom[This, B, That]): That = { /* compiled code */ }
+  override def groupBy[K](f: scala.Function1[A, K]): scala.collection.immutable.Map[K, This] = { /* compiled code */ }
+  override def unzip[A1, A2](implicit asPair: scala.Function1[A, scala.Tuple2[A1, A2]]): scala.Tuple2[scala.collection.TraversableViewLike.Transformed[A1], scala.collection.TraversableViewLike.Transformed[A2]] = { /* compiled code */ }
+  override def unzip3[A1, A2, A3](implicit asTriple: scala.Function1[A, scala.Tuple3[A1, A2, A3]]): scala.Tuple3[scala.collection.TraversableViewLike.Transformed[A1], scala.collection.TraversableViewLike.Transformed[A2], scala.collection.TraversableViewLike.Transformed[A3]] = { /* compiled code */ }
+  override def filterNot(p: scala.Function1[A, scala.Boolean]): This = { /* compiled code */ }
+  override def inits: scala.collection.Iterator[This] = { /* compiled code */ }
+  override def tails: scala.collection.Iterator[This] = { /* compiled code */ }
+  override def tail: This = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}

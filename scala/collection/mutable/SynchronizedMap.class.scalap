@@ -1,0 +1,30 @@
+package scala.collection.mutable
+@scala.deprecated("Synchronization via traits is deprecated as it is inherently unreliable.  Consider java.util.concurrent.ConcurrentHashMap as an alternative.")
+trait SynchronizedMap[A, B] extends scala.AnyRef with scala.collection.mutable.Map[A, B] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def get(key: A): scala.Option[B] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.SynchronizedMap.type = { /* compiled code */ }
+  def -=(key: A): scala.collection.mutable.SynchronizedMap.type = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def put(key: A, value: B): scala.Option[B] = { /* compiled code */ }
+  override def update(key: A, value: B): scala.Unit = { /* compiled code */ }
+  override def remove(key: A): scala.Option[B] = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+  override def getOrElseUpdate(key: A, default: => B): B = { /* compiled code */ }
+  override def transform(f: scala.Function2[A, B, B]): scala.collection.mutable.SynchronizedMap.type = { /* compiled code */ }
+  override def retain(p: scala.Function2[A, B, scala.Boolean]): scala.collection.mutable.SynchronizedMap.type = { /* compiled code */ }
+  @scala.annotation.migration("`values` returns `Iterable[B]` rather than `Iterator[B]`.")
+  override def values: scala.collection.Iterable[B] = { /* compiled code */ }
+  override def valuesIterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  override def clone(): scala.collection.TraversableLike.Self = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[scala.Tuple2[A, B], U]): scala.Unit = { /* compiled code */ }
+  override def apply(key: A): B = { /* compiled code */ }
+  override def keySet: scala.collection.Set[A] = { /* compiled code */ }
+  @scala.annotation.migration("`keys` returns `Iterable[A]` rather than `Iterator[A]`.")
+  override def keys: scala.collection.Iterable[A] = { /* compiled code */ }
+  override def keysIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  override def contains(key: A): scala.Boolean = { /* compiled code */ }
+  override def isDefinedAt(key: A): scala.Boolean = { /* compiled code */ }
+}

@@ -1,0 +1,25 @@
+package scala.collection.mutable
+@scala.deprecated("Synchronization via traits is deprecated as it is inherently unreliable.  Consider java.util.concurrent.ConcurrentHashMap[A,Unit] as an alternative.")
+trait SynchronizedSet[A] extends scala.AnyRef with scala.collection.mutable.Set[A] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def size: scala.Int = { /* compiled code */ }
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  def +=(elem: A): scala.collection.mutable.SynchronizedSet.type = { /* compiled code */ }
+  override def ++=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.SynchronizedSet.type = { /* compiled code */ }
+  def -=(elem: A): scala.collection.mutable.SynchronizedSet.type = { /* compiled code */ }
+  override def --=(xs: scala.collection.TraversableOnce[A]): scala.collection.mutable.SynchronizedSet.type = { /* compiled code */ }
+  override def update(elem: A, included: scala.Boolean): scala.Unit = { /* compiled code */ }
+  override def add(elem: A): scala.Boolean = { /* compiled code */ }
+  override def remove(elem: A): scala.Boolean = { /* compiled code */ }
+  override def intersect(that: scala.collection.GenSet[A]): scala.collection.mutable.Set[A] = { /* compiled code */ }
+  def clear(): scala.Unit = { /* compiled code */ }
+  override def subsetOf(that: scala.collection.GenSet[A]): scala.Boolean = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  override def retain(p: scala.Function1[A, scala.Boolean]): scala.Unit = { /* compiled code */ }
+  override def toList: scala.List[A] = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  @scala.deprecated("Scripting is deprecated.")
+  override def <<(cmd: scala.collection.script.Message[A]): scala.Unit = { /* compiled code */ }
+  override def clone(): scala.collection.TraversableLike.Self = { /* compiled code */ }
+}

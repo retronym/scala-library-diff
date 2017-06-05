@@ -1,0 +1,226 @@
+package scala.math
+trait Numeric[T] extends java.lang.Object with scala.math.Ordering[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def plus(x: T, y: T): T
+  def minus(x: T, y: T): T
+  def times(x: T, y: T): T
+  def negate(x: T): T
+  def fromInt(x: scala.Int): T
+  def toInt(x: T): scala.Int
+  def toLong(x: T): scala.Long
+  def toFloat(x: T): scala.Float
+  def toDouble(x: T): scala.Double
+  def zero: T = { /* compiled code */ }
+  def one: T = { /* compiled code */ }
+  def abs(x: T): T = { /* compiled code */ }
+  def signum(x: T): scala.Int = { /* compiled code */ }
+  class Ops extends scala.AnyRef {
+    def this(lhs: T) = { /* compiled code */ }
+    def +(rhs: T): T = { /* compiled code */ }
+    def -(rhs: T): T = { /* compiled code */ }
+    def *(rhs: T): T = { /* compiled code */ }
+    def unary_-(): T = { /* compiled code */ }
+    def abs(): T = { /* compiled code */ }
+    def signum(): scala.Int = { /* compiled code */ }
+    def toInt(): scala.Int = { /* compiled code */ }
+    def toLong(): scala.Long = { /* compiled code */ }
+    def toFloat(): scala.Float = { /* compiled code */ }
+    def toDouble(): scala.Double = { /* compiled code */ }
+  }
+  implicit def mkNumericOps(lhs: T): scala.math.Numeric.Ops = { /* compiled code */ }
+}
+object Numeric extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  trait ExtraImplicits extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    implicit def infixNumericOps[T](x: T)(implicit num: scala.math.Numeric[T]): scala.math.Numeric.Ops = { /* compiled code */ }
+  }
+  object Implicits extends scala.AnyRef with scala.math.Numeric.ExtraImplicits {
+    def this() = { /* compiled code */ }
+  }
+  trait BigIntIsIntegral extends java.lang.Object with scala.math.Integral[scala.math.BigInt] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.math.BigInt, y: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+    def minus(x: scala.math.BigInt, y: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+    def times(x: scala.math.BigInt, y: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+    def quot(x: scala.math.BigInt, y: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+    def rem(x: scala.math.BigInt, y: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+    def negate(x: scala.math.BigInt): scala.math.BigInt = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.math.BigInt = { /* compiled code */ }
+    def toInt(x: scala.math.BigInt): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.math.BigInt): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.math.BigInt): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.math.BigInt): scala.Double = { /* compiled code */ }
+  }
+  implicit object BigIntIsIntegral extends java.lang.Object with scala.math.Numeric.BigIntIsIntegral with scala.math.Ordering.BigIntOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait IntIsIntegral extends java.lang.Object with scala.math.Integral[scala.Int] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+    def minus(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+    def times(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+    def quot(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+    def rem(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+    def negate(x: scala.Int): scala.Int = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.Int = { /* compiled code */ }
+    def toInt(x: scala.Int): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.Int): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.Int): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.Int): scala.Double = { /* compiled code */ }
+  }
+  implicit object IntIsIntegral extends java.lang.Object with scala.math.Numeric.IntIsIntegral with scala.math.Ordering.IntOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait ShortIsIntegral extends java.lang.Object with scala.math.Integral[scala.Short] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.Short, y: scala.Short): scala.Short = { /* compiled code */ }
+    def minus(x: scala.Short, y: scala.Short): scala.Short = { /* compiled code */ }
+    def times(x: scala.Short, y: scala.Short): scala.Short = { /* compiled code */ }
+    def quot(x: scala.Short, y: scala.Short): scala.Short = { /* compiled code */ }
+    def rem(x: scala.Short, y: scala.Short): scala.Short = { /* compiled code */ }
+    def negate(x: scala.Short): scala.Short = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.Short = { /* compiled code */ }
+    def toInt(x: scala.Short): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.Short): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.Short): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.Short): scala.Double = { /* compiled code */ }
+  }
+  implicit object ShortIsIntegral extends java.lang.Object with scala.math.Numeric.ShortIsIntegral with scala.math.Ordering.ShortOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait ByteIsIntegral extends java.lang.Object with scala.math.Integral[scala.Byte] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.Byte, y: scala.Byte): scala.Byte = { /* compiled code */ }
+    def minus(x: scala.Byte, y: scala.Byte): scala.Byte = { /* compiled code */ }
+    def times(x: scala.Byte, y: scala.Byte): scala.Byte = { /* compiled code */ }
+    def quot(x: scala.Byte, y: scala.Byte): scala.Byte = { /* compiled code */ }
+    def rem(x: scala.Byte, y: scala.Byte): scala.Byte = { /* compiled code */ }
+    def negate(x: scala.Byte): scala.Byte = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.Byte = { /* compiled code */ }
+    def toInt(x: scala.Byte): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.Byte): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.Byte): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.Byte): scala.Double = { /* compiled code */ }
+  }
+  implicit object ByteIsIntegral extends java.lang.Object with scala.math.Numeric.ByteIsIntegral with scala.math.Ordering.ByteOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait CharIsIntegral extends java.lang.Object with scala.math.Integral[scala.Char] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.Char, y: scala.Char): scala.Char = { /* compiled code */ }
+    def minus(x: scala.Char, y: scala.Char): scala.Char = { /* compiled code */ }
+    def times(x: scala.Char, y: scala.Char): scala.Char = { /* compiled code */ }
+    def quot(x: scala.Char, y: scala.Char): scala.Char = { /* compiled code */ }
+    def rem(x: scala.Char, y: scala.Char): scala.Char = { /* compiled code */ }
+    def negate(x: scala.Char): scala.Char = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.Char = { /* compiled code */ }
+    def toInt(x: scala.Char): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.Char): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.Char): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.Char): scala.Double = { /* compiled code */ }
+  }
+  implicit object CharIsIntegral extends java.lang.Object with scala.math.Numeric.CharIsIntegral with scala.math.Ordering.CharOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait LongIsIntegral extends java.lang.Object with scala.math.Integral[scala.Long] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.Long, y: scala.Long): scala.Long = { /* compiled code */ }
+    def minus(x: scala.Long, y: scala.Long): scala.Long = { /* compiled code */ }
+    def times(x: scala.Long, y: scala.Long): scala.Long = { /* compiled code */ }
+    def quot(x: scala.Long, y: scala.Long): scala.Long = { /* compiled code */ }
+    def rem(x: scala.Long, y: scala.Long): scala.Long = { /* compiled code */ }
+    def negate(x: scala.Long): scala.Long = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.Long = { /* compiled code */ }
+    def toInt(x: scala.Long): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.Long): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.Long): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.Long): scala.Double = { /* compiled code */ }
+  }
+  implicit object LongIsIntegral extends java.lang.Object with scala.math.Numeric.LongIsIntegral with scala.math.Ordering.LongOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait FloatIsConflicted extends java.lang.Object with scala.math.Numeric[scala.Float] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+    def minus(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+    def times(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+    def negate(x: scala.Float): scala.Float = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.Float = { /* compiled code */ }
+    def toInt(x: scala.Float): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.Float): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.Float): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.Float): scala.Double = { /* compiled code */ }
+    override def abs(x: scala.Float): scala.Float = { /* compiled code */ }
+  }
+  trait FloatIsFractional extends java.lang.Object with scala.math.Numeric.FloatIsConflicted with scala.math.Fractional[scala.Float] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def div(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+  }
+  trait FloatAsIfIntegral extends java.lang.Object with scala.math.Numeric.FloatIsConflicted with scala.math.Integral[scala.Float] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def quot(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+    def rem(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+  }
+  implicit object FloatIsFractional extends java.lang.Object with scala.math.Numeric.FloatIsFractional with scala.math.Ordering.FloatOrdering {
+    def this() = { /* compiled code */ }
+  }
+  object FloatAsIfIntegral extends java.lang.Object with scala.math.Numeric.FloatAsIfIntegral with scala.math.Ordering.FloatOrdering {
+    def this() = { /* compiled code */ }
+  }
+  trait DoubleIsConflicted extends java.lang.Object with scala.math.Numeric[scala.Double] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+    def minus(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+    def times(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+    def negate(x: scala.Double): scala.Double = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.Double = { /* compiled code */ }
+    def toInt(x: scala.Double): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.Double): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.Double): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.Double): scala.Double = { /* compiled code */ }
+    override def abs(x: scala.Double): scala.Double = { /* compiled code */ }
+  }
+  trait DoubleIsFractional extends java.lang.Object with scala.math.Numeric.DoubleIsConflicted with scala.math.Fractional[scala.Double] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def div(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+  }
+  trait DoubleAsIfIntegral extends java.lang.Object with scala.math.Numeric.DoubleIsConflicted with scala.math.Integral[scala.Double] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def quot(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+    def rem(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+  }
+  trait BigDecimalIsConflicted extends java.lang.Object with scala.math.Numeric[scala.math.BigDecimal] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def plus(x: scala.math.BigDecimal, y: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+    def minus(x: scala.math.BigDecimal, y: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+    def times(x: scala.math.BigDecimal, y: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+    def negate(x: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+    def fromInt(x: scala.Int): scala.math.BigDecimal = { /* compiled code */ }
+    def toInt(x: scala.math.BigDecimal): scala.Int = { /* compiled code */ }
+    def toLong(x: scala.math.BigDecimal): scala.Long = { /* compiled code */ }
+    def toFloat(x: scala.math.BigDecimal): scala.Float = { /* compiled code */ }
+    def toDouble(x: scala.math.BigDecimal): scala.Double = { /* compiled code */ }
+  }
+  trait BigDecimalIsFractional extends java.lang.Object with scala.math.Numeric.BigDecimalIsConflicted with scala.math.Fractional[scala.math.BigDecimal] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def div(x: scala.math.BigDecimal, y: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  }
+  trait BigDecimalAsIfIntegral extends java.lang.Object with scala.math.Numeric.BigDecimalIsConflicted with scala.math.Integral[scala.math.BigDecimal] {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    def quot(x: scala.math.BigDecimal, y: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+    def rem(x: scala.math.BigDecimal, y: scala.math.BigDecimal): scala.math.BigDecimal = { /* compiled code */ }
+  }
+  implicit object BigDecimalIsFractional extends java.lang.Object with scala.math.Numeric.BigDecimalIsFractional with scala.math.Ordering.BigDecimalOrdering {
+    def this() = { /* compiled code */ }
+  }
+  object BigDecimalAsIfIntegral extends java.lang.Object with scala.math.Numeric.BigDecimalAsIfIntegral with scala.math.Ordering.BigDecimalOrdering {
+    def this() = { /* compiled code */ }
+  }
+  implicit object DoubleIsFractional extends java.lang.Object with scala.math.Numeric.DoubleIsFractional with scala.math.Ordering.DoubleOrdering {
+    def this() = { /* compiled code */ }
+  }
+  object DoubleAsIfIntegral extends java.lang.Object with scala.math.Numeric.DoubleAsIfIntegral with scala.math.Ordering.DoubleOrdering {
+    def this() = { /* compiled code */ }
+  }
+}

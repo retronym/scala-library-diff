@@ -1,0 +1,63 @@
+package scala.util.control
+object Exception extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type Catcher[+T] = scala.PartialFunction[scala.Throwable, T]
+  def mkCatcher[Ex <: scala.Throwable, T](isDef: scala.Function1[Ex, scala.Boolean], f: scala.Function1[Ex, T])(implicit evidence$1: scala.reflect.ClassTag[Ex]): scala.AnyRef with Catcher[T] = { /* compiled code */ }
+  def mkThrowableCatcher[T](isDef: scala.Function1[scala.Throwable, scala.Boolean], f: scala.Function1[scala.Throwable, T]): scala.AnyRef with Catcher[T] = { /* compiled code */ }
+  implicit def throwableSubtypeToCatcher[Ex <: scala.Throwable, T](pf: scala.PartialFunction[Ex, T])(implicit evidence$2: scala.reflect.ClassTag[Ex]): scala.AnyRef with Catcher[T] = { /* compiled code */ }
+  def shouldRethrow(x: scala.Throwable): scala.Boolean = { /* compiled code */ }
+  trait Described extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    protected val name: scala.Predef.String
+    def desc: scala.Predef.String = { /* compiled code */ }
+    def withDesc(s: scala.Predef.String): scala.util.control.Exception.Described.type = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  class Finally extends scala.AnyRef with scala.util.control.Exception.Described {
+    private[Exception] def this(body: => scala.Unit) = { /* compiled code */ }
+    protected val name: java.lang.String = { /* compiled code */ }
+    def and(other: => scala.Unit): scala.util.control.Exception.Finally = { /* compiled code */ }
+    def invoke(): scala.Unit = { /* compiled code */ }
+  }
+  class Catch[+T] extends scala.AnyRef with scala.util.control.Exception.Described {
+    val pf: Catcher[T] = { /* compiled code */ }
+    val fin: scala.Option[scala.util.control.Exception.Finally] = { /* compiled code */ }
+    val rethrow: scala.Function1[scala.Throwable, scala.Boolean] = { /* compiled code */ }
+    def this(pf: Catcher[T], fin: scala.Option[scala.util.control.Exception.Finally], rethrow: scala.Function1[scala.Throwable, scala.Boolean]) = { /* compiled code */ }
+    protected val name: java.lang.String = { /* compiled code */ }
+    def or[U >: T](pf2: Catcher[U]): scala.util.control.Exception.Catch[U] = { /* compiled code */ }
+    def or[U >: T](other: scala.util.control.Exception.Catch[U]): scala.util.control.Exception.Catch[U] = { /* compiled code */ }
+    def apply[U >: T](body: => U): U = { /* compiled code */ }
+    def andFinally(body: => scala.Unit): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+    def opt[U >: T](body: => U): scala.Option[U] = { /* compiled code */ }
+    def either[U >: T](body: => U): scala.util.Either[scala.Throwable, U] = { /* compiled code */ }
+    def withTry[U >: T](body: => U): scala.util.Try[U] = { /* compiled code */ }
+    def withApply[U](f: scala.Function1[scala.Throwable, U]): scala.util.control.Exception.Catch[U] = { /* compiled code */ }
+    def toOption: scala.util.control.Exception.Catch[scala.Option[T]] = { /* compiled code */ }
+    def toEither: scala.util.control.Exception.Catch[scala.util.Either[scala.Throwable, T]] = { /* compiled code */ }
+    def toTry: scala.util.control.Exception.Catch[scala.util.Try[T]] = { /* compiled code */ }
+  }
+  object Catch extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+  }
+  final val nothingCatcher: Catcher[scala.Nothing] = { /* compiled code */ }
+  final def nonFatalCatcher[T]: Catcher[T] = { /* compiled code */ }
+  final def allCatcher[T]: Catcher[T] = { /* compiled code */ }
+  final val noCatch: scala.util.control.Exception.Catch[scala.Nothing] = { /* compiled code */ }
+  final def allCatch[T]: scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  final def nonFatalCatch[T]: scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  def catching[T](exceptions: scala.Predef.Class[_]*): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  def catching[T](c: Catcher[T]): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  def catchingPromiscuously[T](exceptions: scala.Predef.Class[_]*): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  def catchingPromiscuously[T](c: Catcher[T]): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  def ignoring(exceptions: scala.Predef.Class[_]*): scala.util.control.Exception.Catch[scala.Unit] = { /* compiled code */ }
+  def failing[T](exceptions: scala.Predef.Class[_]*): scala.util.control.Exception.Catch[scala.Option[T]] = { /* compiled code */ }
+  def failAsValue[T](exceptions: scala.Predef.Class[_]*)(value: => T): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  class By[T, R] extends scala.AnyRef {
+    def this(f: scala.Function1[T, R]) = { /* compiled code */ }
+    def by(x: T): R = { /* compiled code */ }
+  }
+  def handling[T](exceptions: scala.Predef.Class[_]*): scala.util.control.Exception.By[scala.Function1[scala.Throwable, T], scala.util.control.Exception.Catch[T]] = { /* compiled code */ }
+  def ultimately[T](body: => scala.Unit): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+  def unwrapping[T](exceptions: scala.Predef.Class[_]*): scala.util.control.Exception.Catch[T] = { /* compiled code */ }
+}

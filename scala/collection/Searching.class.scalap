@@ -1,0 +1,52 @@
+package scala.collection
+object Searching extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  sealed abstract class SearchResult extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def insertionPoint: scala.Int
+  }
+  case class Found(foundIndex: scala.Int) extends scala.collection.Searching.SearchResult with scala.Product with scala.Serializable {
+    val foundIndex: scala.Int = { /* compiled code */ }
+    override def insertionPoint: scala.Int = { /* compiled code */ }
+    def copy(foundIndex: scala.Int): scala.collection.Searching.Found = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  case class InsertionPoint(insertionPoint: scala.Int) extends scala.collection.Searching.SearchResult with scala.Product with scala.Serializable {
+    val insertionPoint: scala.Int = { /* compiled code */ }
+    def copy(insertionPoint: scala.Int): scala.collection.Searching.InsertionPoint = { /* compiled code */ }
+    override def productPrefix: java.lang.String = { /* compiled code */ }
+    def productArity: scala.Int = { /* compiled code */ }
+    def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }
+    override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+    def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object Found extends scala.runtime.AbstractFunction1[scala.Int, scala.collection.Searching.Found] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply(foundIndex: scala.Int): scala.collection.Searching.Found = { /* compiled code */ }
+    def unapply(x$0: scala.collection.Searching.Found): scala.Option[scala.Int] = { /* compiled code */ }
+  }
+  object InsertionPoint extends scala.runtime.AbstractFunction1[scala.Int, scala.collection.Searching.InsertionPoint] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    final override def toString(): java.lang.String = { /* compiled code */ }
+    def apply(insertionPoint: scala.Int): scala.collection.Searching.InsertionPoint = { /* compiled code */ }
+    def unapply(x$0: scala.collection.Searching.InsertionPoint): scala.Option[scala.Int] = { /* compiled code */ }
+  }
+  class SearchImpl[A, Repr] extends scala.AnyRef {
+    val coll: scala.collection.SeqLike[A, Repr] = { /* compiled code */ }
+    def this(coll: scala.collection.SeqLike[A, Repr]) = { /* compiled code */ }
+    final def search[B >: A](elem: B)(implicit ord: scala.math.Ordering[B]): scala.collection.Searching.SearchResult = { /* compiled code */ }
+    final def search[B >: A](elem: B, from: scala.Int, to: scala.Int)(implicit ord: scala.math.Ordering[B]): scala.collection.Searching.SearchResult = { /* compiled code */ }
+  }
+  implicit def search[Repr, A](coll: Repr)(implicit fr: scala.collection.generic.IsSeqLike[Repr]): scala.collection.Searching.SearchImpl[scala.collection.generic.IsSeqLike.A, Repr] = { /* compiled code */ }
+}

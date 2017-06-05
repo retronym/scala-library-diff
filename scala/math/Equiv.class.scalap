@@ -1,0 +1,13 @@
+package scala.math
+trait Equiv[T] extends scala.Any with scala.Serializable {
+  def equiv(x: T, y: T): scala.Boolean
+}
+object Equiv extends scala.AnyRef with scala.math.LowPriorityEquiv with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def reference[T <: scala.AnyRef]: scala.math.Equiv[T] = { /* compiled code */ }
+  def universal[T]: scala.math.Equiv[T] = { /* compiled code */ }
+  def fromComparator[T](cmp: java.util.Comparator[T]): scala.math.Equiv[T] = { /* compiled code */ }
+  def fromFunction[T](cmp: scala.Function2[T, T, scala.Boolean]): scala.math.Equiv[T] = { /* compiled code */ }
+  def by[T, S](f: scala.Function1[T, S])(implicit evidence$1: scala.math.Equiv[S]): scala.math.Equiv[T] = { /* compiled code */ }
+  def apply[T](implicit evidence$2: scala.math.Equiv[T]): scala.math.Equiv[T] = { /* compiled code */ }
+}

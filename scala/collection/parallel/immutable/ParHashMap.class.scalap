@@ -1,0 +1,37 @@
+package scala.collection.parallel.immutable
+@scala.SerialVersionUID { val value = 1None }
+class ParHashMap[K, +V] extends scala.AnyRef with scala.collection.parallel.immutable.ParMap[K, V] with scala.collection.generic.GenericParMapTemplate[K, V, scala.collection.parallel.immutable.ParHashMap] with scala.collection.parallel.ParMapLike[K, V, scala.collection.parallel.immutable.ParHashMap[K, V], scala.collection.immutable.HashMap[K, V]] with scala.Serializable {
+ this: scala.collection.parallel.immutable.ParHashMap[K, V] =>
+  private[immutable] def this(trie: scala.collection.immutable.HashMap[K, V]) = { /* compiled code */ }
+  def this() = { /* compiled code */ }
+  override def mapCompanion: scala.collection.generic.GenericParMapCompanion[scala.collection.parallel.immutable.ParHashMap] = { /* compiled code */ }
+  override def empty: scala.collection.parallel.immutable.ParHashMap[K, V] = { /* compiled code */ }
+  def splitter: scala.collection.parallel.IterableSplitter[scala.Tuple2[K, V]] = { /* compiled code */ }
+  override def seq: scala.collection.immutable.HashMap[K, V] = { /* compiled code */ }
+  def -(k: K): scala.collection.parallel.immutable.ParHashMap[K, V] = { /* compiled code */ }
+  def +[U >: V](kv: scala.Tuple2[K, U]): scala.collection.parallel.immutable.ParHashMap[K, U] = { /* compiled code */ }
+  def get(k: K): scala.Option[V] = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  protected override def reuse[S, That](oldc: scala.Option[scala.collection.parallel.Combiner[S, That]], newc: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  class ParHashMapIterator extends scala.AnyRef with scala.collection.parallel.IterableSplitter[scala.Tuple2[K, V]] {
+    var triter: scala.Iterator[scala.Tuple2[K, V]] = { /* compiled code */ }
+    val sz: scala.Int = { /* compiled code */ }
+    def this(triter: scala.Iterator[scala.Tuple2[K, V]], sz: scala.Int) = { /* compiled code */ }
+    var i: scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.IterableSplitter[scala.Tuple2[K, V]] = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.IterableSplitter[scala.Tuple2[K, V]]] = { /* compiled code */ }
+    def next(): scala.Tuple2[K, V] = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def remaining: scala.Int = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+  }
+  private[parallel] def printDebugInfo(): scala.Unit = { /* compiled code */ }
+}
+object ParHashMap extends scala.collection.generic.ParMapFactory[scala.collection.parallel.immutable.ParHashMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def empty[K, V]: scala.collection.parallel.immutable.ParHashMap[K, V] = { /* compiled code */ }
+  def newCombiner[K, V]: scala.collection.parallel.Combiner[scala.Tuple2[K, V], scala.collection.parallel.immutable.ParHashMap[K, V]] = { /* compiled code */ }
+  implicit def canBuildFrom[K, V]: scala.collection.generic.CanCombineFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[K, V], scala.collection.parallel.immutable.ParHashMap[K, V]] = { /* compiled code */ }
+  def fromTrie[K, V](t: scala.collection.immutable.HashMap[K, V]): scala.collection.parallel.immutable.ParHashMap[K, V] = { /* compiled code */ }
+  var totalcombines: java.util.concurrent.atomic.AtomicInteger = { /* compiled code */ }
+}

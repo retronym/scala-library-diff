@@ -1,0 +1,27 @@
+package scala.util
+@scala.deprecated("Use the object MurmurHash3 instead.")
+class MurmurHash[@scala.specialized T] extends scala.AnyRef with scala.Function1[T, scala.Unit] {
+  @scala.specialized
+  def this(seed: scala.Int) = { /* compiled code */ }
+  def reset(): scala.Unit = { /* compiled code */ }
+  def apply(t: T): scala.Unit = { /* compiled code */ }
+  def append(i: scala.Int): scala.Unit = { /* compiled code */ }
+  def hash: scala.Int = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+}
+@scala.deprecated("Use the object MurmurHash3 instead.")
+object MurmurHash extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  val storedMagicA: scala.Array[scala.Int] = { /* compiled code */ }
+  val storedMagicB: scala.Array[scala.Int] = { /* compiled code */ }
+  def startHash(seed: scala.Int): scala.Int = { /* compiled code */ }
+  def startMagicA: scala.Int = { /* compiled code */ }
+  def startMagicB: scala.Int = { /* compiled code */ }
+  def extendHash(hash: scala.Int, value: scala.Int, magicA: scala.Int, magicB: scala.Int): scala.Int = { /* compiled code */ }
+  def nextMagicA(magicA: scala.Int): scala.Int = { /* compiled code */ }
+  def nextMagicB(magicB: scala.Int): scala.Int = { /* compiled code */ }
+  def finalizeHash(hash: scala.Int): scala.Int = { /* compiled code */ }
+  def arrayHash[@scala.specialized T](a: scala.Array[T]): scala.Int = { /* compiled code */ }
+  def stringHash(s: scala.Predef.String): scala.Int = { /* compiled code */ }
+  def symmetricHash[T](xs: scala.collection.TraversableOnce[T], seed: scala.Int): scala.Int = { /* compiled code */ }
+}

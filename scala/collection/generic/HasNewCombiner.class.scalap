@@ -1,0 +1,3 @@
+package scala.collection.generic
+trait HasNewCombiner[+T, +Repr] extends scala.AnyRef {
+}

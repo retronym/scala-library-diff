@@ -1,0 +1,54 @@
+package scala
+package object math extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final val E: scala.Double = { /* compiled code */ }
+  final val Pi: scala.Double = { /* compiled code */ }
+  def random: scala.Double = { /* compiled code */ }
+  def sin(x: scala.Double): scala.Double = { /* compiled code */ }
+  def cos(x: scala.Double): scala.Double = { /* compiled code */ }
+  def tan(x: scala.Double): scala.Double = { /* compiled code */ }
+  def asin(x: scala.Double): scala.Double = { /* compiled code */ }
+  def acos(x: scala.Double): scala.Double = { /* compiled code */ }
+  def atan(x: scala.Double): scala.Double = { /* compiled code */ }
+  def toRadians(x: scala.Double): scala.Double = { /* compiled code */ }
+  def toDegrees(x: scala.Double): scala.Double = { /* compiled code */ }
+  def exp(x: scala.Double): scala.Double = { /* compiled code */ }
+  def log(x: scala.Double): scala.Double = { /* compiled code */ }
+  def sqrt(x: scala.Double): scala.Double = { /* compiled code */ }
+  def IEEEremainder(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+  def ceil(x: scala.Double): scala.Double = { /* compiled code */ }
+  def floor(x: scala.Double): scala.Double = { /* compiled code */ }
+  def rint(x: scala.Double): scala.Double = { /* compiled code */ }
+  def atan2(y: scala.Double, x: scala.Double): scala.Double = { /* compiled code */ }
+  def pow(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+  @scala.deprecated("This is an integer type; there is no reason to round it.  Perhaps you meant to call this with a floating-point value?")
+  def round(x: scala.Long): scala.Long = { /* compiled code */ }
+  def round(x: scala.Float): scala.Int = { /* compiled code */ }
+  def round(x: scala.Double): scala.Long = { /* compiled code */ }
+  def abs(x: scala.Int): scala.Int = { /* compiled code */ }
+  def abs(x: scala.Long): scala.Long = { /* compiled code */ }
+  def abs(x: scala.Float): scala.Float = { /* compiled code */ }
+  def abs(x: scala.Double): scala.Double = { /* compiled code */ }
+  def max(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+  def max(x: scala.Long, y: scala.Long): scala.Long = { /* compiled code */ }
+  def max(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+  def max(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+  def min(x: scala.Int, y: scala.Int): scala.Int = { /* compiled code */ }
+  def min(x: scala.Long, y: scala.Long): scala.Long = { /* compiled code */ }
+  def min(x: scala.Float, y: scala.Float): scala.Float = { /* compiled code */ }
+  def min(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+  def signum(x: scala.Int): scala.Int = { /* compiled code */ }
+  def signum(x: scala.Long): scala.Long = { /* compiled code */ }
+  def signum(x: scala.Float): scala.Float = { /* compiled code */ }
+  def signum(x: scala.Double): scala.Double = { /* compiled code */ }
+  def cbrt(x: scala.Double): scala.Double = { /* compiled code */ }
+  def expm1(x: scala.Double): scala.Double = { /* compiled code */ }
+  def log1p(x: scala.Double): scala.Double = { /* compiled code */ }
+  def log10(x: scala.Double): scala.Double = { /* compiled code */ }
+  def sinh(x: scala.Double): scala.Double = { /* compiled code */ }
+  def cosh(x: scala.Double): scala.Double = { /* compiled code */ }
+  def tanh(x: scala.Double): scala.Double = { /* compiled code */ }
+  def hypot(x: scala.Double, y: scala.Double): scala.Double = { /* compiled code */ }
+  def ulp(x: scala.Double): scala.Double = { /* compiled code */ }
+  def ulp(x: scala.Float): scala.Float = { /* compiled code */ }
+}

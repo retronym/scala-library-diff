@@ -1,0 +1,4 @@
+package scala.collection.generic
+abstract class ImmutableMapFactory[CC[A, +B] <: scala.collection.immutable.Map[A, B] with scala.collection.immutable.MapLike[A, B, CC[A, B]]] extends scala.collection.generic.MapFactory[CC] {
+  def this() = { /* compiled code */ }
+}

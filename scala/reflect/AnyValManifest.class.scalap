@@ -1,0 +1,9 @@
+package scala.reflect
+abstract class AnyValManifest[T <: scala.AnyVal] extends scala.AnyRef with scala.reflect.Manifest[T] with scala.Equals {
+  override val toString: scala.Predef.String = { /* compiled code */ }
+  def this(toString: scala.Predef.String) = { /* compiled code */ }
+  override def <:<(that: scala.reflect.ClassManifest[_]): scala.Boolean = { /* compiled code */ }
+  override def canEqual(other: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override val hashCode: scala.Int = { /* compiled code */ }
+}

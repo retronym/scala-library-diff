@@ -1,0 +1,19 @@
+package scala
+object Function extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def chain[a](fs: scala.Seq[scala.Function1[a, a]]): scala.Function1[a, a] = { /* compiled code */ }
+  def const[T, U](x: T)(y: U): T = { /* compiled code */ }
+  def unlift[T, R](f: scala.Function1[T, scala.Option[R]]): scala.PartialFunction[T, R] = { /* compiled code */ }
+  def uncurried[a1, a2, b](f: scala.Function1[a1, scala.Function1[a2, b]]): scala.Function2[a1, a2, b] = { /* compiled code */ }
+  def uncurried[a1, a2, a3, b](f: scala.Function1[a1, scala.Function1[a2, scala.Function1[a3, b]]]): scala.Function3[a1, a2, a3, b] = { /* compiled code */ }
+  def uncurried[a1, a2, a3, a4, b](f: scala.Function1[a1, scala.Function1[a2, scala.Function1[a3, scala.Function1[a4, b]]]]): scala.Function4[a1, a2, a3, a4, b] = { /* compiled code */ }
+  def uncurried[a1, a2, a3, a4, a5, b](f: scala.Function1[a1, scala.Function1[a2, scala.Function1[a3, scala.Function1[a4, scala.Function1[a5, b]]]]]): scala.Function5[a1, a2, a3, a4, a5, b] = { /* compiled code */ }
+  def tupled[a1, a2, b](f: scala.Function2[a1, a2, b]): scala.Function1[scala.Tuple2[a1, a2], b] = { /* compiled code */ }
+  def tupled[a1, a2, a3, b](f: scala.Function3[a1, a2, a3, b]): scala.Function1[scala.Tuple3[a1, a2, a3], b] = { /* compiled code */ }
+  def tupled[a1, a2, a3, a4, b](f: scala.Function4[a1, a2, a3, a4, b]): scala.Function1[scala.Tuple4[a1, a2, a3, a4], b] = { /* compiled code */ }
+  def tupled[a1, a2, a3, a4, a5, b](f: scala.Function5[a1, a2, a3, a4, a5, b]): scala.Function1[scala.Tuple5[a1, a2, a3, a4, a5], b] = { /* compiled code */ }
+  def untupled[a1, a2, b](f: scala.Function1[scala.Tuple2[a1, a2], b]): scala.Function2[a1, a2, b] = { /* compiled code */ }
+  def untupled[a1, a2, a3, b](f: scala.Function1[scala.Tuple3[a1, a2, a3], b]): scala.Function3[a1, a2, a3, b] = { /* compiled code */ }
+  def untupled[a1, a2, a3, a4, b](f: scala.Function1[scala.Tuple4[a1, a2, a3, a4], b]): scala.Function4[a1, a2, a3, a4, b] = { /* compiled code */ }
+  def untupled[a1, a2, a3, a4, a5, b](f: scala.Function1[scala.Tuple5[a1, a2, a3, a4, a5], b]): scala.Function5[a1, a2, a3, a4, a5, b] = { /* compiled code */ }
+}

@@ -1,0 +1,8 @@
+package scala.concurrent
+@scala.deprecated("Use `ExecutionContext` instead.")
+private[scala] trait TaskRunner extends scala.AnyRef {
+  type Task[T]
+  implicit def functionAsTask[S](fun: scala.Function0[S]): Task[S]
+  def execute[S](task: Task[S]): scala.Unit
+  def shutdown(): scala.Unit
+}

@@ -1,0 +1,95 @@
+package scala.util.matching
+@scala.SerialVersionUID { val value = -2094783597747625537None }
+class Regex extends scala.AnyRef with scala.Serializable {
+  val pattern: java.util.regex.Pattern = { /* compiled code */ }
+  private[matching] def this(pattern: java.util.regex.Pattern, groupNames: scala.Predef.String*) = { /* compiled code */ }
+  def this(regex: scala.Predef.String, groupNames: scala.Predef.String*) = { /* compiled code */ }
+  def unapplySeq(s: java.lang.CharSequence): scala.Option[scala.List[scala.Predef.String]] = { /* compiled code */ }
+  def unapplySeq(c: scala.Char): scala.Option[scala.List[scala.Char]] = { /* compiled code */ }
+  def unapplySeq(m: scala.util.matching.Regex.Match): scala.Option[scala.List[scala.Predef.String]] = { /* compiled code */ }
+  @scala.deprecated("Extracting a match result from anything but a CharSequence or Match is deprecated")
+  def unapplySeq(target: scala.Any): scala.Option[scala.List[scala.Predef.String]] = { /* compiled code */ }
+  protected def runMatcher(m: java.util.regex.Matcher): scala.Boolean = { /* compiled code */ }
+  def findAllIn(source: java.lang.CharSequence): scala.util.matching.Regex.MatchIterator = { /* compiled code */ }
+  def findAllMatchIn(source: java.lang.CharSequence): scala.Iterator[scala.util.matching.Regex.Match] = { /* compiled code */ }
+  def findFirstIn(source: java.lang.CharSequence): scala.Option[scala.Predef.String] = { /* compiled code */ }
+  def findFirstMatchIn(source: java.lang.CharSequence): scala.Option[scala.util.matching.Regex.Match] = { /* compiled code */ }
+  def findPrefixOf(source: java.lang.CharSequence): scala.Option[scala.Predef.String] = { /* compiled code */ }
+  def findPrefixMatchOf(source: java.lang.CharSequence): scala.Option[scala.util.matching.Regex.Match] = { /* compiled code */ }
+  def replaceAllIn(target: java.lang.CharSequence, replacement: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def replaceAllIn(target: java.lang.CharSequence, replacer: scala.Function1[scala.util.matching.Regex.Match, scala.Predef.String]): scala.Predef.String = { /* compiled code */ }
+  def replaceSomeIn(target: java.lang.CharSequence, replacer: scala.Function1[scala.util.matching.Regex.Match, scala.Option[scala.Predef.String]]): scala.Predef.String = { /* compiled code */ }
+  def replaceFirstIn(target: java.lang.CharSequence, replacement: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def split(toSplit: java.lang.CharSequence): scala.Array[scala.Predef.String] = { /* compiled code */ }
+  def unanchored: scala.util.matching.UnanchoredRegex = { /* compiled code */ }
+  def anchored: scala.util.matching.Regex = { /* compiled code */ }
+  def regex: scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object Regex extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  trait MatchData extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    val source: java.lang.CharSequence
+    val groupNames: scala.Seq[scala.Predef.String]
+    def groupCount: scala.Int
+    def start: scala.Int
+    def start(i: scala.Int): scala.Int
+    def end: scala.Int
+    def end(i: scala.Int): scala.Int
+    def matched: scala.Predef.String = { /* compiled code */ }
+    def group(i: scala.Int): scala.Predef.String = { /* compiled code */ }
+    def subgroups: scala.List[scala.Predef.String] = { /* compiled code */ }
+    def before: java.lang.CharSequence = { /* compiled code */ }
+    def before(i: scala.Int): java.lang.CharSequence = { /* compiled code */ }
+    def after: java.lang.CharSequence = { /* compiled code */ }
+    def after(i: scala.Int): java.lang.CharSequence = { /* compiled code */ }
+    def group(id: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+    override def toString(): scala.Predef.String = { /* compiled code */ }
+  }
+  class Match extends scala.AnyRef with scala.util.matching.Regex.MatchData {
+    val source: java.lang.CharSequence = { /* compiled code */ }
+    private[matching] val matcher: java.util.regex.Matcher = { /* compiled code */ }
+    val groupNames: scala.Seq[scala.Predef.String] = { /* compiled code */ }
+    def this(source: java.lang.CharSequence, matcher: java.util.regex.Matcher, groupNames: scala.Seq[scala.Predef.String]) = { /* compiled code */ }
+    val start: scala.Int = { /* compiled code */ }
+    val end: scala.Int = { /* compiled code */ }
+    def groupCount: scala.Int = { /* compiled code */ }
+    def start(i: scala.Int): scala.Int = { /* compiled code */ }
+    def end(i: scala.Int): scala.Int = { /* compiled code */ }
+    def force: scala.util.matching.Regex.Match.type = { /* compiled code */ }
+  }
+  object Match extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def unapply(m: scala.util.matching.Regex.Match): scala.Some[scala.Predef.String] = { /* compiled code */ }
+  }
+  object Groups extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def unapplySeq(m: scala.util.matching.Regex.Match): scala.Option[scala.Seq[scala.Predef.String]] = { /* compiled code */ }
+  }
+  class MatchIterator extends scala.collection.AbstractIterator[scala.Predef.String] with scala.Iterator[scala.Predef.String] with scala.util.matching.Regex.MatchData {
+    val source: java.lang.CharSequence = { /* compiled code */ }
+    val regex: scala.util.matching.Regex = { /* compiled code */ }
+    val groupNames: scala.Seq[scala.Predef.String] = { /* compiled code */ }
+    def this(source: java.lang.CharSequence, regex: scala.util.matching.Regex, groupNames: scala.Seq[scala.Predef.String]) = { /* compiled code */ }
+    protected val matcher: java.util.regex.Matcher = { /* compiled code */ }
+    def hasNext: scala.Boolean = { /* compiled code */ }
+    def next(): scala.Predef.String = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    def start: scala.Int = { /* compiled code */ }
+    def start(i: scala.Int): scala.Int = { /* compiled code */ }
+    def end: scala.Int = { /* compiled code */ }
+    def end(i: scala.Int): scala.Int = { /* compiled code */ }
+    def groupCount: scala.Int = { /* compiled code */ }
+    def matchData: scala.Iterator[scala.util.matching.Regex.Match] = { /* compiled code */ }
+    private[matching] def replacementData: scala.collection.AbstractIterator[scala.util.matching.Regex.Match] with scala.util.matching.Regex.Replacement = { /* compiled code */ }
+  }
+  private[matching] trait Replacement extends scala.AnyRef {
+    def $init$(): scala.Unit = { /* compiled code */ }
+    protected def matcher: java.util.regex.Matcher
+    def replaced: java.lang.String = { /* compiled code */ }
+    def replace(rs: scala.Predef.String): java.util.regex.Matcher = { /* compiled code */ }
+  }
+  def quote(text: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  def quoteReplacement(text: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+}

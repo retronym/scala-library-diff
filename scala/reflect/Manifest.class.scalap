@@ -1,0 +1,10 @@
+package scala.reflect
+@scala.annotation.implicitNotFound("No Manifest available for ${T}.")
+trait Manifest[T] extends scala.AnyRef with scala.reflect.ClassManifest[T] with scala.Equals {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def typeArguments: scala.List[scala.reflect.Manifest[_]] = { /* compiled code */ }
+  override def arrayManifest: scala.reflect.Manifest[scala.Array[T]] = { /* compiled code */ }
+  override def canEqual(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+}

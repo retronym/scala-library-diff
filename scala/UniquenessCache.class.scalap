@@ -1,0 +1,8 @@
+package scala
+private[scala] abstract class UniquenessCache[K, V >: scala.Null] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  protected def valueFromKey(k: K): V
+  protected def keyFromValue(v: V): scala.Option[K]
+  def apply(name: K): V = { /* compiled code */ }
+  def unapply(other: V): scala.Option[K] = { /* compiled code */ }
+}

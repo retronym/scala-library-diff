@@ -1,0 +1,10 @@
+package scala.runtime
+@scala.deprecated("Use Predef.SeqCharSequence")
+final class SeqCharSequence extends java.lang.Object with java.lang.CharSequence {
+  val xs: scala.collection.IndexedSeq[scala.Char] = { /* compiled code */ }
+  def this(xs: scala.collection.IndexedSeq[scala.Char]) = { /* compiled code */ }
+  def length(): scala.Int = { /* compiled code */ }
+  def charAt(index: scala.Int): scala.Char = { /* compiled code */ }
+  def subSequence(start: scala.Int, end: scala.Int): java.lang.CharSequence = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

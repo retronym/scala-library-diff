@@ -1,0 +1,13 @@
+package scala
+package object reflect extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  @scala.annotation.implicitNotFound("No ClassManifest available for ${T}.")
+  @scala.deprecated("Use scala.reflect.ClassTag instead")
+  type ClassManifest[T] = scala.reflect.ClassTag[T]
+  @scala.deprecated("Use scala.reflect.ClassTag instead")
+  val ClassManifest: scala.reflect.ClassManifestFactory.type = { /* compiled code */ }
+  val Manifest: scala.reflect.ManifestFactory.type = { /* compiled code */ }
+  def classTag[T](implicit ctag: scala.reflect.ClassTag[T]): scala.reflect.ClassTag[T] = { /* compiled code */ }
+  def ensureAccessible[T <: java.lang.reflect.AccessibleObject](m: T): T = { /* compiled code */ }
+  private[scala] def materializeClassTag[T](): scala.reflect.ClassTag[T] = { /* compiled code */ }
+}

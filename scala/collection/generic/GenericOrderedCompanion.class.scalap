@@ -1,0 +1,7 @@
+package scala.collection.generic
+abstract class GenericOrderedCompanion[+CC[X] <: scala.collection.Traversable[X]] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def newBuilder[A](implicit ord: scala.Ordering[A]): scala.collection.mutable.Builder[A, CC[A]]
+  def empty[A](implicit evidence$1: scala.Ordering[A]): CC[A] = { /* compiled code */ }
+  def apply[A](elems: A*)(implicit ord: scala.Ordering[A]): CC[A] = { /* compiled code */ }
+}

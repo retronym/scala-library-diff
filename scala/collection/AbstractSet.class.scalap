@@ -1,0 +1,4 @@
+package scala.collection
+abstract class AbstractSet[A] extends scala.collection.AbstractIterable[A] with scala.collection.Set[A] {
+  def this() = { /* compiled code */ }
+}

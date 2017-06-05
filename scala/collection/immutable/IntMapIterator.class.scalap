@@ -1,0 +1,11 @@
+package scala.collection.immutable
+private[immutable] abstract class IntMapIterator[V, T] extends scala.collection.AbstractIterator[T] {
+  def this(it: scala.collection.immutable.IntMap[V]) = { /* compiled code */ }
+  var index: scala.Int = { /* compiled code */ }
+  var buffer: scala.Array[scala.AnyRef] = { /* compiled code */ }
+  def pop: scala.collection.immutable.IntMap[V] = { /* compiled code */ }
+  def push(x: scala.collection.immutable.IntMap[V]): scala.Unit = { /* compiled code */ }
+  def valueOf(tip: scala.collection.immutable.IntMap.Tip[V]): T
+  def hasNext: scala.Boolean = { /* compiled code */ }
+  final def next(): T = { /* compiled code */ }
+}

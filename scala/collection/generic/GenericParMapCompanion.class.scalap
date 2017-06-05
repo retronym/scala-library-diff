@@ -1,0 +1,4 @@
+package scala.collection.generic
+trait GenericParMapCompanion[+CC[P, Q] <: scala.collection.parallel.ParMap[P, Q]] extends scala.AnyRef {
+  def newCombiner[P, Q]: scala.collection.parallel.Combiner[scala.Tuple2[P, Q], CC[P, Q]]
+}

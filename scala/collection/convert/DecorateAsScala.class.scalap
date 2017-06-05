@@ -1,0 +1,14 @@
+package scala.collection.convert
+trait DecorateAsScala extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  implicit def asScalaIteratorConverter[A](i: java.util.Iterator[A]): scala.collection.convert.Decorators.AsScala[scala.collection.Iterator[A]] = { /* compiled code */ }
+  implicit def enumerationAsScalaIteratorConverter[A](i: java.util.Enumeration[A]): scala.collection.convert.Decorators.AsScala[scala.collection.Iterator[A]] = { /* compiled code */ }
+  implicit def iterableAsScalaIterableConverter[A](i: java.lang.Iterable[A]): scala.collection.convert.Decorators.AsScala[scala.collection.Iterable[A]] = { /* compiled code */ }
+  implicit def collectionAsScalaIterableConverter[A](i: java.util.Collection[A]): scala.collection.convert.Decorators.AsScala[scala.collection.Iterable[A]] = { /* compiled code */ }
+  implicit def asScalaBufferConverter[A](l: java.util.List[A]): scala.collection.convert.Decorators.AsScala[scala.collection.mutable.Buffer[A]] = { /* compiled code */ }
+  implicit def asScalaSetConverter[A](s: java.util.Set[A]): scala.collection.convert.Decorators.AsScala[scala.collection.mutable.Set[A]] = { /* compiled code */ }
+  implicit def mapAsScalaMapConverter[A, B](m: java.util.Map[A, B]): scala.collection.convert.Decorators.AsScala[scala.collection.mutable.Map[A, B]] = { /* compiled code */ }
+  implicit def mapAsScalaConcurrentMapConverter[A, B](m: java.util.concurrent.ConcurrentMap[A, B]): scala.collection.convert.Decorators.AsScala[scala.collection.concurrent.Map[A, B]] = { /* compiled code */ }
+  implicit def dictionaryAsScalaMapConverter[A, B](p: java.util.Dictionary[A, B]): scala.collection.convert.Decorators.AsScala[scala.collection.mutable.Map[A, B]] = { /* compiled code */ }
+  implicit def propertiesAsScalaMapConverter(p: java.util.Properties): scala.collection.convert.Decorators.AsScala[scala.collection.mutable.Map[scala.Predef.String, scala.Predef.String]] = { /* compiled code */ }
+}

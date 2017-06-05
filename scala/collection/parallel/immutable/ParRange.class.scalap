@@ -1,0 +1,32 @@
+package scala.collection.parallel.immutable
+@scala.SerialVersionUID { val value = 1None }
+class ParRange extends scala.AnyRef with scala.collection.parallel.immutable.ParSeq[scala.Int] with scala.Serializable {
+  val range: scala.collection.immutable.Range = { /* compiled code */ }
+  def this(range: scala.collection.immutable.Range) = { /* compiled code */ }
+  override def seq: scala.collection.immutable.Range = { /* compiled code */ }
+  @scala.inline
+  final def length: scala.Int = { /* compiled code */ }
+  @scala.inline
+  final def apply(idx: scala.Int): scala.Int = { /* compiled code */ }
+  def splitter: scala.collection.parallel.immutable.ParRange.ParRangeIterator = { /* compiled code */ }
+  class ParRangeIterator extends scala.AnyRef with scala.collection.parallel.SeqSplitter[scala.Int] {
+    def this(range: scala.collection.immutable.Range) = { /* compiled code */ }
+    override def toString(): java.lang.String = { /* compiled code */ }
+    final def remaining: scala.Int = { /* compiled code */ }
+    final def hasNext: scala.Boolean = { /* compiled code */ }
+    final def next(): scala.Int = { /* compiled code */ }
+    def dup: scala.collection.parallel.immutable.ParRange.ParRangeIterator = { /* compiled code */ }
+    def split: scala.Seq[scala.collection.parallel.SeqSplitter[scala.Int]] = { /* compiled code */ }
+    def psplit(sizes: scala.Int*): scala.Seq[scala.collection.parallel.SeqSplitter[scala.Int]] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[scala.Int, U]): scala.Unit = { /* compiled code */ }
+    override def reduce[U >: scala.Int](op: scala.Function2[U, U, U]): U = { /* compiled code */ }
+    override def map2combiner[S, That](f: scala.Function1[scala.Int, S], cb: scala.collection.parallel.Combiner[S, That]): scala.collection.parallel.Combiner[S, That] = { /* compiled code */ }
+  }
+  object ParRangeIterator extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+  }
+}
+object ParRange extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def apply(start: scala.Int, end: scala.Int, step: scala.Int, inclusive: scala.Boolean): scala.collection.parallel.immutable.ParRange = { /* compiled code */ }
+}

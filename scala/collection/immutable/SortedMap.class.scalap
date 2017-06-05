@@ -1,0 +1,30 @@
+package scala.collection.immutable
+trait SortedMap[A, +B] extends scala.AnyRef with scala.collection.immutable.Map[A, B] with scala.collection.SortedMap[A, B] with scala.collection.immutable.MapLike[A, B, scala.collection.immutable.SortedMap[A, B]] with scala.collection.SortedMapLike[A, B, scala.collection.immutable.SortedMap[A, B]] {
+ this: scala.collection.immutable.SortedMap[A, B] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def empty: scala.collection.immutable.SortedMap[A, B] = { /* compiled code */ }
+  override def updated[B1 >: B](key: A, value: B1): scala.collection.immutable.SortedMap[A, B1] = { /* compiled code */ }
+  override def keySet: scala.collection.immutable.SortedSet[A] = { /* compiled code */ }
+  protected class DefaultKeySortedSet extends scala.collection.SortedMapLike.DefaultKeySortedSet with scala.collection.immutable.SortedSet[A] {
+    def this() = { /* compiled code */ }
+    override def +(elem: A): scala.collection.immutable.SortedSet[A] = { /* compiled code */ }
+    override def -(elem: A): scala.collection.immutable.SortedSet[A] = { /* compiled code */ }
+    override def rangeImpl(from: scala.Option[A], until: scala.Option[A]): scala.collection.immutable.SortedSet[A] = { /* compiled code */ }
+  }
+  def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.immutable.SortedMap[A, B1] = { /* compiled code */ }
+  override def +[B1 >: B](elem1: scala.Tuple2[A, B1], elem2: scala.Tuple2[A, B1], elems: scala.Tuple2[A, B1]*): scala.collection.immutable.SortedMap[A, B1] = { /* compiled code */ }
+  override def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.immutable.SortedMap[A, B1] = { /* compiled code */ }
+  override def filterKeys(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.SortedMap[A, B] = { /* compiled code */ }
+  override def mapValues[C](f: scala.Function1[B, C]): scala.collection.immutable.SortedMap[A, C] = { /* compiled code */ }
+}
+object SortedMap extends scala.collection.generic.ImmutableSortedMapFactory[scala.collection.immutable.SortedMap] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B](implicit ord: scala.Ordering[A]): scala.collection.generic.CanBuildFrom[scala.collection.generic.SortedMapFactory.Coll, scala.Tuple2[A, B], scala.collection.immutable.SortedMap[A, B]] = { /* compiled code */ }
+  def empty[A, B](implicit ord: scala.Ordering[A]): scala.collection.immutable.SortedMap[A, B] = { /* compiled code */ }
+  private[collection] trait Default[A, +B] extends scala.AnyRef with scala.collection.immutable.SortedMap[A, B] with scala.collection.SortedMap.Default[A, B] {
+ this: scala.collection.immutable.SortedMap.Default[A, B] =>
+    def $init$(): scala.Unit = { /* compiled code */ }
+    override def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.immutable.SortedMap[A, B1] = { /* compiled code */ }
+    override def -(key: A): scala.collection.immutable.SortedMap[A, B] = { /* compiled code */ }
+  }
+}

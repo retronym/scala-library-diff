@@ -1,0 +1,4 @@
+package scala.collection
+abstract class AbstractSeq[+A] extends scala.collection.AbstractIterable[A] with scala.collection.Seq[A] {
+  def this() = { /* compiled code */ }
+}

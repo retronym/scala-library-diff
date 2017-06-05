@@ -1,0 +1,17 @@
+package scala.collection.parallel
+trait Task[R, +Tp] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  type Result = R
+  def repr: Tp = { /* compiled code */ }
+  def leaf(result: scala.Option[R]): scala.Unit
+  var result: R
+  def shouldSplitFurther: scala.Boolean
+  private[parallel] def split: scala.Seq[scala.collection.parallel.Task[R, Tp]]
+  private[parallel] def merge(that: Tp): scala.Unit = { /* compiled code */ }
+  var throwable: scala.Throwable = { /* compiled code */ }
+  def forwardThrowable(): scala.Unit = { /* compiled code */ }
+  private[parallel] def tryLeaf(lastres: scala.Option[R]): scala.Unit = { /* compiled code */ }
+  private[parallel] def tryMerge(t: Tp): scala.Unit = { /* compiled code */ }
+  private[parallel] def mergeThrowables(that: scala.collection.parallel.Task[_, _]): scala.Unit = { /* compiled code */ }
+  private[parallel] def signalAbort(): scala.Unit = { /* compiled code */ }
+}

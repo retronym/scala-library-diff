@@ -1,0 +1,4 @@
+package scala.annotation
+final class implicitNotFound extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(msg: scala.Predef.String) = { /* compiled code */ }
+}

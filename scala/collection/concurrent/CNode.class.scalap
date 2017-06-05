@@ -1,0 +1,20 @@
+package scala.collection.concurrent
+private[collection] final class CNode[K, V] extends scala.collection.concurrent.CNodeBase[K, V] {
+  val bitmap: scala.Int = { /* compiled code */ }
+  val array: scala.Array[scala.collection.concurrent.BasicNode] = { /* compiled code */ }
+  val gen: scala.collection.concurrent.Gen = { /* compiled code */ }
+  def this(bitmap: scala.Int, array: scala.Array[scala.collection.concurrent.BasicNode], gen: scala.collection.concurrent.Gen) = { /* compiled code */ }
+  def cachedSize(ct: scala.AnyRef): scala.Int = { /* compiled code */ }
+  def updatedAt(pos: scala.Int, nn: scala.collection.concurrent.BasicNode, gen: scala.collection.concurrent.Gen): scala.collection.concurrent.CNode[K, V] = { /* compiled code */ }
+  def removedAt(pos: scala.Int, flag: scala.Int, gen: scala.collection.concurrent.Gen): scala.collection.concurrent.CNode[K, V] = { /* compiled code */ }
+  def insertedAt(pos: scala.Int, flag: scala.Int, nn: scala.collection.concurrent.BasicNode, gen: scala.collection.concurrent.Gen): scala.collection.concurrent.CNode[K, V] = { /* compiled code */ }
+  def renewed(ngen: scala.collection.concurrent.Gen, ct: scala.collection.concurrent.TrieMap[K, V]): scala.collection.concurrent.CNode[K, V] = { /* compiled code */ }
+  def toContracted(lev: scala.Int): scala.collection.concurrent.MainNode[K, V] = { /* compiled code */ }
+  def toCompressed(ct: scala.collection.concurrent.TrieMap[K, V], lev: scala.Int, gen: scala.collection.concurrent.Gen): scala.collection.concurrent.MainNode[K, V] = { /* compiled code */ }
+  private[concurrent] def string(lev: scala.Int): scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+private[concurrent] object CNode extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def dual[K, V](x: scala.collection.concurrent.SNode[K, V], xhc: scala.Int, y: scala.collection.concurrent.SNode[K, V], yhc: scala.Int, lev: scala.Int, gen: scala.collection.concurrent.Gen): scala.collection.concurrent.MainNode[K, V] = { /* compiled code */ }
+}

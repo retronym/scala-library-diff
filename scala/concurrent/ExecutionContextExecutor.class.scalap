@@ -1,0 +1,3 @@
+package scala.concurrent
+trait ExecutionContextExecutor extends scala.AnyRef with scala.concurrent.ExecutionContext with java.util.concurrent.Executor {
+}

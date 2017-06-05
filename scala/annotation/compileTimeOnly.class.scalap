@@ -1,0 +1,10 @@
+package scala.annotation
+@scala.annotation.meta.companionMethod
+@scala.annotation.meta.companionClass
+@scala.annotation.meta.beanSetter
+@scala.annotation.meta.beanGetter
+@scala.annotation.meta.setter
+@scala.annotation.meta.getter
+final class compileTimeOnly extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(message: scala.Predef.String) = { /* compiled code */ }
+}

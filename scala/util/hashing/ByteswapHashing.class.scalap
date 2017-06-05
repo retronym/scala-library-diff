@@ -1,0 +1,9 @@
+package scala.util.hashing
+final class ByteswapHashing[T] extends scala.AnyRef with scala.util.hashing.Hashing[T] {
+  def this() = { /* compiled code */ }
+  def hash(v: T): scala.Int = { /* compiled code */ }
+}
+object ByteswapHashing extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def chain[T](h: scala.util.hashing.Hashing[T]): scala.util.hashing.Hashing[T] = { /* compiled code */ }
+}

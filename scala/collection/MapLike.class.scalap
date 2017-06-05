@@ -1,0 +1,64 @@
+package scala.collection
+trait MapLike[A, +B, +This <: scala.collection.MapLike[A, B, This] with scala.collection.Map[A, B]] extends scala.AnyRef with scala.PartialFunction[A, B] with scala.collection.IterableLike[scala.Tuple2[A, B], This] with scala.collection.GenMapLike[A, B, This] with scala.collection.generic.Subtractable[A, This] with scala.collection.Parallelizable[scala.Tuple2[A, B], scala.collection.parallel.ParMap[A, B]] {
+ this: scala.collection.MapLike[A, B, This] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def empty: This
+  def get(key: A): scala.Option[B]
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]]
+  def +[B1 >: B](kv: scala.Tuple2[A, B1]): scala.collection.Map[A, B1]
+  def -(key: A): This
+  override def isEmpty: scala.Boolean = { /* compiled code */ }
+  def getOrElse[B1 >: B](key: A, default: => B1): B1 = { /* compiled code */ }
+  def apply(key: A): B = { /* compiled code */ }
+  def contains(key: A): scala.Boolean = { /* compiled code */ }
+  def isDefinedAt(key: A): scala.Boolean = { /* compiled code */ }
+  def keySet: scala.collection.Set[A] = { /* compiled code */ }
+  protected class DefaultKeySet extends scala.collection.AbstractSet[A] with scala.collection.Set[A] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    def contains(key: A): scala.Boolean = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    def +(elem: A): scala.collection.Set[A] = { /* compiled code */ }
+    def -(elem: A): scala.collection.Set[A] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def foreach[C](f: scala.Function1[A, C]): scala.Unit = { /* compiled code */ }
+  }
+  def keysIterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  @scala.annotation.migration("`keys` returns `Iterable[A]` rather than `Iterator[A]`.")
+  def keys: scala.collection.Iterable[A] = { /* compiled code */ }
+  @scala.annotation.migration("`values` returns `Iterable[B]` rather than `Iterator[B]`.")
+  def values: scala.collection.Iterable[B] = { /* compiled code */ }
+  protected class DefaultValuesIterable extends scala.collection.AbstractIterable[B] with scala.collection.Iterable[B] with scala.Serializable {
+    def this() = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[B] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def foreach[C](f: scala.Function1[B, C]): scala.Unit = { /* compiled code */ }
+  }
+  def valuesIterator: scala.collection.Iterator[B] = { /* compiled code */ }
+  def default(key: A): B = { /* compiled code */ }
+  protected class FilteredKeys extends scala.collection.AbstractMap[A, B] with scala.collection.DefaultMap[A, B] {
+    def this(p: scala.Function1[A, scala.Boolean]) = { /* compiled code */ }
+    override def foreach[C](f: scala.Function1[scala.Tuple2[A, B], C]): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+    override def contains(key: A): scala.Boolean = { /* compiled code */ }
+    def get(key: A): scala.Option[B] = { /* compiled code */ }
+  }
+  def filterKeys(p: scala.Function1[A, scala.Boolean]): scala.collection.Map[A, B] = { /* compiled code */ }
+  protected class MappedValues[C] extends scala.collection.AbstractMap[A, C] with scala.collection.DefaultMap[A, C] {
+    def this(f: scala.Function1[B, C]) = { /* compiled code */ }
+    override def foreach[D](g: scala.Function1[scala.Tuple2[A, C], D]): scala.Unit = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[scala.Tuple2[A, C]] = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    override def contains(key: A): scala.Boolean = { /* compiled code */ }
+    def get(key: A): scala.Option[C] = { /* compiled code */ }
+  }
+  def mapValues[C](f: scala.Function1[B, C]): scala.collection.Map[A, C] = { /* compiled code */ }
+  def updated[B1 >: B](key: A, value: B1): scala.collection.Map[A, B1] = { /* compiled code */ }
+  def +[B1 >: B](kv1: scala.Tuple2[A, B1], kv2: scala.Tuple2[A, B1], kvs: scala.Tuple2[A, B1]*): scala.collection.Map[A, B1] = { /* compiled code */ }
+  def ++[B1 >: B](xs: scala.collection.GenTraversableOnce[scala.Tuple2[A, B1]]): scala.collection.Map[A, B1] = { /* compiled code */ }
+  override def filterNot(p: scala.Function1[scala.Tuple2[A, B], scala.Boolean]): This = { /* compiled code */ }
+  override def toSeq: scala.collection.Seq[scala.Tuple2[A, B]] = { /* compiled code */ }
+  override def toBuffer[C >: scala.Tuple2[A, B]]: scala.collection.mutable.Buffer[C] = { /* compiled code */ }
+  override def addString(b: scala.StringBuilder, start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.StringBuilder = { /* compiled code */ }
+  override def stringPrefix: scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}

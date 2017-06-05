@@ -1,0 +1,8 @@
+package scala
+class throws[T <: scala.Throwable] extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(cause: scala.Predef.String) = { /* compiled code */ }
+  def this(clazz: scala.Predef.Class[T]) = { /* compiled code */ }
+}
+object throws extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+}

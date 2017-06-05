@@ -1,0 +1,32 @@
+package scala.util
+sealed abstract class Try[+T] extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def isFailure: scala.Boolean
+  def isSuccess: scala.Boolean
+  def getOrElse[U >: T](default: => U): U = { /* compiled code */ }
+  def orElse[U >: T](default: => scala.util.Try[U]): scala.util.Try[U] = { /* compiled code */ }
+  def get: T
+  def foreach[U](f: scala.Function1[T, U]): scala.Unit
+  def flatMap[U](f: scala.Function1[T, scala.util.Try[U]]): scala.util.Try[U]
+  def map[U](f: scala.Function1[T, U]): scala.util.Try[U]
+  def filter(p: scala.Function1[T, scala.Boolean]): scala.util.Try[T]
+  @scala.inline
+  final def withFilter(p: scala.Function1[T, scala.Boolean]): scala.util.Try.WithFilter = { /* compiled code */ }
+  class WithFilter extends scala.AnyRef {
+    def this(p: scala.Function1[T, scala.Boolean]) = { /* compiled code */ }
+    def map[U](f: scala.Function1[T, U]): scala.util.Try[U] = { /* compiled code */ }
+    def flatMap[U](f: scala.Function1[T, scala.util.Try[U]]): scala.util.Try[U] = { /* compiled code */ }
+    def foreach[U](f: scala.Function1[T, U]): scala.Unit = { /* compiled code */ }
+    def withFilter(q: scala.Function1[T, scala.Boolean]): scala.util.Try.WithFilter = { /* compiled code */ }
+  }
+  def recoverWith[U >: T](f: scala.PartialFunction[scala.Throwable, scala.util.Try[U]]): scala.util.Try[U]
+  def recover[U >: T](f: scala.PartialFunction[scala.Throwable, U]): scala.util.Try[U]
+  def toOption: scala.Option[T] = { /* compiled code */ }
+  def flatten[U](implicit ev: scala.Predef.<:<[T, scala.util.Try[U]]): scala.util.Try[U]
+  def failed: scala.util.Try[scala.Throwable]
+  def transform[U](s: scala.Function1[T, scala.util.Try[U]], f: scala.Function1[scala.Throwable, scala.util.Try[U]]): scala.util.Try[U] = { /* compiled code */ }
+}
+object Try extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[T](r: => T): scala.util.Try[T] = { /* compiled code */ }
+}

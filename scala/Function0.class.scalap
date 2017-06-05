@@ -1,0 +1,8 @@
+package scala
+trait Function0[@scala.specialized +R] extends scala.AnyRef {
+ this: scala.Function0[R] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def apply(): R
+  @scala.specialized
+  override def toString(): java.lang.String = { /* compiled code */ }
+}

@@ -1,0 +1,6 @@
+package scala.concurrent
+@scala.deprecated("Use `blocking` instead.")
+private[scala] trait ManagedBlocker extends scala.AnyRef {
+  def block(): scala.Boolean
+  def isReleasable: scala.Boolean
+}

@@ -1,0 +1,39 @@
+package scala.runtime
+final class Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3] extends scala.AnyVal with scala.runtime.ZippedTraversable3[El1, El2, El3] {
+  val colls: scala.Tuple3[scala.collection.TraversableLike[El1, Repr1], scala.collection.IterableLike[El2, Repr2], scala.collection.IterableLike[El3, Repr3]] = { /* compiled code */ }
+  def this(colls: scala.Tuple3[scala.collection.TraversableLike[El1, Repr1], scala.collection.IterableLike[El2, Repr2], scala.collection.IterableLike[El3, Repr3]]) = { /* compiled code */ }
+  def map[B, To](f: scala.Function3[El1, El2, El3, B])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  def flatMap[B, To](f: scala.Function3[El1, El2, El3, scala.TraversableOnce[B]])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  def filter[To1, To2, To3](f: scala.Function3[El1, El2, El3, scala.Boolean])(implicit cbf1: scala.collection.generic.CanBuildFrom[Repr1, El1, To1], cbf2: scala.collection.generic.CanBuildFrom[Repr2, El2, To2], cbf3: scala.collection.generic.CanBuildFrom[Repr3, El3, To3]): scala.Tuple3[To1, To2, To3] = { /* compiled code */ }
+  def exists(f: scala.Function3[El1, El2, El3, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def forall(f: scala.Function3[El1, El2, El3, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  def foreach[U](f: scala.Function3[El1, El2, El3, U]): scala.Unit = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Tuple3Zipped extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final class Ops[T1, T2, T3] extends scala.AnyVal {
+    val x: scala.Tuple3[T1, T2, T3] = { /* compiled code */ }
+    def this(x: scala.Tuple3[T1, T2, T3]) = { /* compiled code */ }
+    def invert[El1, CC1[X] <: scala.TraversableOnce[X], El2, CC2[X] <: scala.TraversableOnce[X], El3, CC3[X] <: scala.TraversableOnce[X], That](implicit w1: scala.Predef.<:<[T1, CC1[El1]], w2: scala.Predef.<:<[T2, CC2[El2]], w3: scala.Predef.<:<[T3, CC3[El3]], bf: scala.collection.generic.CanBuildFrom[CC1[_], scala.Tuple3[El1, El2, El3], That]): That = { /* compiled code */ }
+    def zipped[El1, Repr1, El2, Repr2, El3, Repr3](implicit w1: scala.Function1[T1, scala.collection.TraversableLike[El1, Repr1]], w2: scala.Function1[T2, scala.collection.IterableLike[El2, Repr2]], w3: scala.Function1[T3, scala.collection.IterableLike[El3, Repr3]]): scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3] = { /* compiled code */ }
+    override def hashCode(): scala.Int = { /* compiled code */ }
+    override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  object Ops extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    final def invert$extension[El1, CC1[X] <: scala.TraversableOnce[X], El2, CC2[X] <: scala.TraversableOnce[X], El3, CC3[X] <: scala.TraversableOnce[X], That, T1, T2, T3]($this: scala.runtime.Tuple3Zipped.Ops[T1, T2, T3])(implicit w1: scala.Predef.<:<[T1, CC1[El1]], w2: scala.Predef.<:<[T2, CC2[El2]], w3: scala.Predef.<:<[T3, CC3[El3]], bf: scala.collection.generic.CanBuildFrom[CC1[_], scala.Tuple3[El1, El2, El3], That]): That = { /* compiled code */ }
+    final def zipped$extension[El1, Repr1, El2, Repr2, El3, Repr3, T1, T2, T3]($this: scala.runtime.Tuple3Zipped.Ops[T1, T2, T3])(implicit w1: scala.Function1[T1, scala.collection.TraversableLike[El1, Repr1]], w2: scala.Function1[T2, scala.collection.IterableLike[El2, Repr2]], w3: scala.Function1[T3, scala.collection.IterableLike[El3, Repr3]]): scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3] = { /* compiled code */ }
+    final def hashCode$extension[T1, T2, T3]($this: scala.runtime.Tuple3Zipped.Ops[T1, T2, T3])(): scala.Int = { /* compiled code */ }
+    final def equals$extension[T1, T2, T3]($this: scala.runtime.Tuple3Zipped.Ops[T1, T2, T3])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  }
+  final def map$extension[B, To, El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(f: scala.Function3[El1, El2, El3, B])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  final def flatMap$extension[B, To, El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(f: scala.Function3[El1, El2, El3, scala.TraversableOnce[B]])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr1, B, To]): To = { /* compiled code */ }
+  final def filter$extension[To1, To2, To3, El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(f: scala.Function3[El1, El2, El3, scala.Boolean])(implicit cbf1: scala.collection.generic.CanBuildFrom[Repr1, El1, To1], cbf2: scala.collection.generic.CanBuildFrom[Repr2, El2, To2], cbf3: scala.collection.generic.CanBuildFrom[Repr3, El3, To3]): scala.Tuple3[To1, To2, To3] = { /* compiled code */ }
+  final def exists$extension[El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(f: scala.Function3[El1, El2, El3, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  final def forall$extension[El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(f: scala.Function3[El1, El2, El3, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+  final def foreach$extension[U, El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(f: scala.Function3[El1, El2, El3, U]): scala.Unit = { /* compiled code */ }
+  final def hashCode$extension[El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(): scala.Int = { /* compiled code */ }
+  final def equals$extension[El1, Repr1, El2, Repr2, El3, Repr3]($this: scala.runtime.Tuple3Zipped[El1, Repr1, El2, Repr2, El3, Repr3])(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

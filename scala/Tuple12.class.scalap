@@ -1,0 +1,29 @@
+package scala
+@scala.deprecatedInheritance("Tuples will be made final in a future version.")
+case class Tuple12[+T1, +T2, +T3, +T4, +T5, +T6, +T7, +T8, +T9, +T10, +T11, +T12](_1: T1, _2: T2, _3: T3, _4: T4, _5: T5, _6: T6, _7: T7, _8: T8, _9: T9, _10: T10, _11: T11, _12: T12) extends scala.AnyRef with scala.Product12[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12] with scala.Product with scala.Serializable {
+  val _1: T1 = { /* compiled code */ }
+  val _2: T2 = { /* compiled code */ }
+  val _3: T3 = { /* compiled code */ }
+  val _4: T4 = { /* compiled code */ }
+  val _5: T5 = { /* compiled code */ }
+  val _6: T6 = { /* compiled code */ }
+  val _7: T7 = { /* compiled code */ }
+  val _8: T8 = { /* compiled code */ }
+  val _9: T9 = { /* compiled code */ }
+  val _10: T10 = { /* compiled code */ }
+  val _11: T11 = { /* compiled code */ }
+  val _12: T12 = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  def copy[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12](_1: T1, _2: T2, _3: T3, _4: T4, _5: T5, _6: T6, _7: T7, _8: T8, _9: T9, _10: T10, _11: T11, _12: T12): scala.Tuple12[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Tuple12 extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12](_1: T1, _2: T2, _3: T3, _4: T4, _5: T5, _6: T6, _7: T7, _8: T8, _9: T9, _10: T10, _11: T11, _12: T12): scala.Tuple12[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12] = { /* compiled code */ }
+  def unapply[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12](x$0: scala.Tuple12[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12]): scala.Option[scala.Tuple12[T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12]] = { /* compiled code */ }
+}

@@ -1,0 +1,17 @@
+package scala.collection.generic
+trait Sorted[K, +This <: scala.collection.generic.Sorted[K, This]] extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def ordering: scala.Ordering[K]
+  protected def repr: This
+  def keySet: scala.collection.SortedSet[K]
+  def firstKey: K
+  def lastKey: K
+  def compare(k0: K, k1: K): scala.Int = { /* compiled code */ }
+  def rangeImpl(from: scala.Option[K], until: scala.Option[K]): This
+  def from(from: K): This = { /* compiled code */ }
+  def until(until: K): This = { /* compiled code */ }
+  def range(from: K, until: K): This = { /* compiled code */ }
+  def to(to: K): This = { /* compiled code */ }
+  def keysIteratorFrom(start: K): scala.collection.Iterator[K]
+  protected def hasAll(j: scala.collection.Iterator[K]): scala.Boolean = { /* compiled code */ }
+}

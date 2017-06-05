@@ -1,0 +1,5 @@
+package scala.beans
+class BeanDisplayName extends scala.annotation.Annotation {
+  val name: scala.Predef.String = { /* compiled code */ }
+  def this(name: scala.Predef.String) = { /* compiled code */ }
+}

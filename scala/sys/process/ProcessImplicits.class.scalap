@@ -1,0 +1,10 @@
+package scala.sys.process
+trait ProcessImplicits extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  implicit def buildersToProcess[T](builders: scala.Seq[T])(implicit convert: scala.Function1[T, scala.sys.process.ProcessBuilder.Source]): scala.Seq[scala.sys.process.ProcessBuilder.Source] = { /* compiled code */ }
+  implicit def builderToProcess(builder: scala.sys.process.processInternal.JProcessBuilder): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  implicit def fileToProcess(file: scala.sys.process.processInternal.File): scala.sys.process.ProcessBuilder.FileBuilder = { /* compiled code */ }
+  implicit def urlToProcess(url: scala.sys.process.processInternal.URL): scala.sys.process.ProcessBuilder.URLBuilder = { /* compiled code */ }
+  implicit def stringToProcess(command: scala.Predef.String): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+  implicit def stringSeqToProcess(command: scala.Seq[scala.Predef.String]): scala.sys.process.ProcessBuilder = { /* compiled code */ }
+}

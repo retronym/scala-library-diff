@@ -1,0 +1,20 @@
+package scala
+@scala.deprecated("This class will be removed")
+abstract class Responder[+A] extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def respond(k: scala.Function1[A, scala.Unit]): scala.Unit
+  def foreach(k: scala.Function1[A, scala.Unit]): scala.Unit = { /* compiled code */ }
+  def map[B](f: scala.Function1[A, B]): scala.Responder[B] = { /* compiled code */ }
+  def flatMap[B](f: scala.Function1[A, scala.Responder[B]]): scala.Responder[B] = { /* compiled code */ }
+  def filter(p: scala.Function1[A, scala.Boolean]): scala.Responder[A] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}
+@scala.deprecated("This object will be removed")
+object Responder extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  def constant[A](x: A): scala.Responder[A] = { /* compiled code */ }
+  def exec[A](x: => scala.Unit): scala.Boolean = { /* compiled code */ }
+  def run[A](r: scala.Responder[A]): scala.Option[A] = { /* compiled code */ }
+  def loop[A](r: scala.Responder[scala.Unit]): scala.Responder[scala.Nothing] = { /* compiled code */ }
+  def loopWhile[A](cond: => scala.Boolean)(r: scala.Responder[scala.Unit]): scala.Responder[scala.Unit] = { /* compiled code */ }
+}

@@ -1,0 +1,36 @@
+package scala.sys
+trait BooleanProp extends scala.AnyRef with scala.sys.Prop[scala.Boolean] {
+  def value: scala.Boolean
+  def enable(): scala.Unit
+  def disable(): scala.Unit
+  def toggle(): scala.Unit
+}
+object BooleanProp extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  private[sys] class BooleanPropImpl extends scala.sys.PropImpl[scala.Boolean] with scala.sys.BooleanProp {
+    def this(key: scala.Predef.String, valueFn: scala.Function1[scala.Predef.String, scala.Boolean]) = { /* compiled code */ }
+    override def setValue[T1 >: scala.Boolean](newValue: T1): scala.Boolean = { /* compiled code */ }
+    def enable(): scala.Unit = { /* compiled code */ }
+    def disable(): scala.Unit = { /* compiled code */ }
+    def toggle(): scala.Unit = { /* compiled code */ }
+  }
+  private[sys] class ConstantImpl extends scala.AnyRef with scala.sys.BooleanProp {
+    val key: scala.Predef.String = { /* compiled code */ }
+    val value: scala.Boolean = { /* compiled code */ }
+    def this(key: scala.Predef.String, value: scala.Boolean) = { /* compiled code */ }
+    val isSet: scala.Boolean = { /* compiled code */ }
+    def set(newValue: scala.Predef.String): java.lang.String = { /* compiled code */ }
+    def setValue[T1 >: scala.Boolean](newValue: T1): scala.Boolean = { /* compiled code */ }
+    def get: scala.Predef.String = { /* compiled code */ }
+    val clear: scala.Unit = { /* compiled code */ }
+    val enable: scala.Unit = { /* compiled code */ }
+    val disable: scala.Unit = { /* compiled code */ }
+    val toggle: scala.Unit = { /* compiled code */ }
+    def option: scala.Option[scala.Boolean] = { /* compiled code */ }
+    protected def zero: scala.Boolean = { /* compiled code */ }
+  }
+  def valueIsTrue[T](key: scala.Predef.String): scala.sys.BooleanProp = { /* compiled code */ }
+  def keyExists[T](key: scala.Predef.String): scala.sys.BooleanProp = { /* compiled code */ }
+  def constant(key: scala.Predef.String, isOn: scala.Boolean): scala.sys.BooleanProp = { /* compiled code */ }
+  implicit def booleanPropAsBoolean(b: scala.sys.BooleanProp): scala.Boolean = { /* compiled code */ }
+}

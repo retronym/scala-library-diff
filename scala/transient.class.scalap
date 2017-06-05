@@ -1,0 +1,5 @@
+package scala
+@scala.annotation.meta.field
+class transient extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this() = { /* compiled code */ }
+}

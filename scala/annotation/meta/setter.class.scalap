@@ -1,0 +1,4 @@
+package scala.annotation.meta
+final class setter extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this() = { /* compiled code */ }
+}

@@ -1,0 +1,8 @@
+package scala.collection.mutable
+trait IndexedSeqLike[A, +Repr] extends scala.Any with scala.collection.IndexedSeqLike[A, Repr] {
+ this: scala.collection.mutable.IndexedSeqLike[A, Repr] =>
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def update(idx: scala.Int, elem: A): scala.Unit
+  override def view: scala.AnyRef with scala.collection.mutable.IndexedSeqView[A, Repr] = { /* compiled code */ }
+  override def view(from: scala.Int, until: scala.Int): scala.collection.mutable.IndexedSeqView[A, Repr] = { /* compiled code */ }
+}

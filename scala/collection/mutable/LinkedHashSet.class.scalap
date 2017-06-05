@@ -1,0 +1,33 @@
+package scala.collection.mutable
+@scala.SerialVersionUID { val value = 1None }
+class LinkedHashSet[A] extends scala.collection.mutable.AbstractSet[A] with scala.collection.mutable.Set[A] with scala.collection.generic.GenericSetTemplate[A, scala.collection.mutable.LinkedHashSet] with scala.collection.mutable.SetLike[A, scala.collection.mutable.LinkedHashSet[A]] with scala.collection.mutable.HashTable[A, scala.collection.mutable.LinkedHashSet.Entry[A]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.mutable.LinkedHashSet] = { /* compiled code */ }
+  type Entry = scala.collection.mutable.LinkedHashSet.Entry[A]
+  protected var firstEntry: Entry = { /* compiled code */ }
+  protected var lastEntry: Entry = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  def contains(elem: A): scala.Boolean = { /* compiled code */ }
+  @scala.deprecatedOverriding("+= should not be overridden so it stays consistent with add.")
+  def +=(elem: A): scala.collection.mutable.LinkedHashSet.type = { /* compiled code */ }
+  @scala.deprecatedOverriding("-= should not be overridden so it stays consistent with remove.")
+  def -=(elem: A): scala.collection.mutable.LinkedHashSet.type = { /* compiled code */ }
+  override def add(elem: A): scala.Boolean = { /* compiled code */ }
+  override def remove(elem: A): scala.Boolean = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+  protected override def foreachEntry[U](f: scala.Function1[Entry, U]): scala.Unit = { /* compiled code */ }
+  protected def createNewEntry[B](key: A, dummy: B): Entry = { /* compiled code */ }
+  override def clear(): scala.Unit = { /* compiled code */ }
+}
+object LinkedHashSet extends scala.collection.generic.MutableSetFactory[scala.collection.mutable.LinkedHashSet] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.mutable.LinkedHashSet[A]] = { /* compiled code */ }
+  override def empty[A]: scala.collection.mutable.LinkedHashSet[A] = { /* compiled code */ }
+  private[scala] final class Entry[A] extends scala.AnyRef with scala.collection.mutable.HashEntry[A, scala.collection.mutable.LinkedHashSet.Entry[A]] with scala.Serializable {
+    val key: A = { /* compiled code */ }
+    def this(key: A) = { /* compiled code */ }
+    var earlier: scala.collection.mutable.LinkedHashSet.Entry[A] = { /* compiled code */ }
+    var later: scala.collection.mutable.LinkedHashSet.Entry[A] = { /* compiled code */ }
+  }
+}

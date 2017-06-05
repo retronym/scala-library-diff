@@ -1,0 +1,7 @@
+package scala.collection.parallel.mutable
+private[mutable] trait SizeMapUtils extends scala.AnyRef {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  protected def calcNumElems(from: scala.Int, until: scala.Int, tableLength: scala.Int, sizeMapBucketSize: scala.Int): scala.Int = { /* compiled code */ }
+  protected def countElems(from: scala.Int, until: scala.Int): scala.Int
+  protected def countBucketSizes(fromBucket: scala.Int, untilBucket: scala.Int): scala.Int
+}

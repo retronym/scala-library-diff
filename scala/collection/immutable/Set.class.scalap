@@ -1,0 +1,66 @@
+package scala.collection.immutable
+trait Set[A] extends scala.AnyRef with scala.collection.immutable.Iterable[A] with scala.collection.Set[A] with scala.collection.generic.GenericSetTemplate[A, scala.collection.immutable.Set] with scala.collection.SetLike[A, scala.collection.immutable.Set[A]] with scala.collection.Parallelizable[A, scala.collection.parallel.immutable.ParSet[A]] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.Set] = { /* compiled code */ }
+  @scala.deprecatedOverriding("Immutable sets should do nothing on toSet but return themselves cast as a Set.")
+  override def toSet[B >: A]: scala.collection.immutable.Set[B] = { /* compiled code */ }
+  override def seq: scala.collection.immutable.Set[A] = { /* compiled code */ }
+  protected override def parCombiner: scala.collection.parallel.Combiner[A, scala.collection.parallel.immutable.ParSet[A]] = { /* compiled code */ }
+}
+object Set extends scala.collection.generic.ImmutableSetFactory[scala.collection.immutable.Set] {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.Set[A]] = { /* compiled code */ }
+  private[collection] def emptyInstance: scala.collection.immutable.Set[scala.Any] = { /* compiled code */ }
+  @scala.SerialVersionUID { val value = 1233385750652442003None }
+  class Set1[A] extends scala.collection.AbstractSet[A] with scala.collection.immutable.Set[A] with scala.Serializable {
+    private[collection] def this(elem1: A) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def contains(elem: A): scala.Boolean = { /* compiled code */ }
+    def +(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def -(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+    override def exists(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def forall(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def find(f: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  }
+  @scala.SerialVersionUID { val value = -6443011234944830092None }
+  class Set2[A] extends scala.collection.AbstractSet[A] with scala.collection.immutable.Set[A] with scala.Serializable {
+    private[collection] def this(elem1: A, elem2: A) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def contains(elem: A): scala.Boolean = { /* compiled code */ }
+    def +(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def -(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+    override def exists(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def forall(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def find(f: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  }
+  @scala.SerialVersionUID { val value = -3590273538119220064None }
+  class Set3[A] extends scala.collection.AbstractSet[A] with scala.collection.immutable.Set[A] with scala.Serializable {
+    private[collection] def this(elem1: A, elem2: A, elem3: A) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def contains(elem: A): scala.Boolean = { /* compiled code */ }
+    def +(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def -(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+    override def exists(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def forall(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def find(f: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  }
+  @scala.SerialVersionUID { val value = -3622399588156184395None }
+  class Set4[A] extends scala.collection.AbstractSet[A] with scala.collection.immutable.Set[A] with scala.Serializable {
+    private[collection] def this(elem1: A, elem2: A, elem3: A, elem4: A) = { /* compiled code */ }
+    override def size: scala.Int = { /* compiled code */ }
+    def contains(elem: A): scala.Boolean = { /* compiled code */ }
+    def +(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def -(elem: A): scala.collection.immutable.Set[A] = { /* compiled code */ }
+    def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+    override def foreach[U](f: scala.Function1[A, U]): scala.Unit = { /* compiled code */ }
+    override def exists(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def forall(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
+    override def find(f: scala.Function1[A, scala.Boolean]): scala.Option[A] = { /* compiled code */ }
+  }
+}

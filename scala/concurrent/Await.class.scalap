@@ -1,0 +1,9 @@
+package scala.concurrent
+object Await extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  @scala.throws[scala.InterruptedException](scala.InterruptedException)
+  @scala.throws[scala.concurrent.TimeoutException](scala.concurrent.TimeoutException)
+  def ready[T](awaitable: scala.concurrent.Awaitable[T], atMost: scala.concurrent.duration.Duration): scala.concurrent.Await.ready.awaitable.type = { /* compiled code */ }
+  @scala.throws[scala.Exception](scala.Exception)
+  def result[T](awaitable: scala.concurrent.Awaitable[T], atMost: scala.concurrent.duration.Duration): T = { /* compiled code */ }
+}

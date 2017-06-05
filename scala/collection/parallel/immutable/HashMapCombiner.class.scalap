@@ -1,0 +1,29 @@
+package scala.collection.parallel.immutable
+private[parallel] abstract class HashMapCombiner[K, V] extends scala.collection.parallel.BucketCombiner[scala.Tuple2[K, V], scala.collection.parallel.immutable.ParHashMap[K, V], scala.Tuple2[K, V], scala.collection.parallel.immutable.HashMapCombiner[K, V]] {
+  def this() = { /* compiled code */ }
+  val emptyTrie: scala.collection.immutable.HashMap[K, V] = { /* compiled code */ }
+  def +=(elem: scala.Tuple2[K, V]): scala.collection.parallel.immutable.HashMapCombiner.type = { /* compiled code */ }
+  def result(): scala.collection.parallel.immutable.ParHashMap[K, V] = { /* compiled code */ }
+  def groupByKey[Repr](cbf: scala.Function0[scala.collection.parallel.Combiner[V, Repr]]): scala.collection.parallel.immutable.ParHashMap[K, Repr] = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  class CreateTrie extends scala.AnyRef with scala.collection.parallel.Task[scala.Unit, scala.collection.parallel.immutable.HashMapCombiner.CreateTrie] {
+    def this(bucks: scala.Array[scala.collection.mutable.UnrolledBuffer.Unrolled[scala.Tuple2[K, V]]], root: scala.Array[scala.collection.immutable.HashMap[K, V]], offset: scala.Int, howmany: scala.Int) = { /* compiled code */ }
+    var result: scala.Unit = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Unit]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.immutable.List[scala.collection.parallel.immutable.HashMapCombiner.CreateTrie] = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+  }
+  class CreateGroupedTrie[Repr] extends scala.AnyRef with scala.collection.parallel.Task[scala.Unit, scala.collection.parallel.immutable.HashMapCombiner.CreateGroupedTrie[Repr]] {
+    def this(cbf: scala.Function0[scala.collection.parallel.Combiner[V, Repr]], bucks: scala.Array[scala.collection.mutable.UnrolledBuffer.Unrolled[scala.Tuple2[K, V]]], root: scala.Array[scala.collection.immutable.HashMap[K, scala.AnyRef]], offset: scala.Int, howmany: scala.Int) = { /* compiled code */ }
+    var result: scala.Unit = { /* compiled code */ }
+    def leaf(prev: scala.Option[scala.Unit]): scala.Unit = { /* compiled code */ }
+    def split: scala.collection.immutable.List[scala.collection.parallel.immutable.HashMapCombiner.CreateGroupedTrie[Repr]] = { /* compiled code */ }
+    def shouldSplitFurther: scala.Boolean = { /* compiled code */ }
+  }
+}
+private[parallel] object HashMapCombiner extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  def apply[K, V]: scala.collection.parallel.immutable.HashMapCombiner[K, V] = { /* compiled code */ }
+  private[immutable] val rootbits: scala.Int = { /* compiled code */ }
+  private[immutable] val rootsize: scala.Int = { /* compiled code */ }
+}

@@ -1,0 +1,33 @@
+package scala.collection
+trait GenTraversableLike[+A, +Repr] extends scala.Any with scala.collection.GenTraversableOnce[A] with scala.collection.Parallelizable[A, scala.collection.parallel.ParIterable[A]] {
+  def repr: Repr
+  def size: scala.Int
+  def head: A
+  def headOption: scala.Option[A]
+  def isTraversableAgain: scala.Boolean
+  def tail: Repr
+  def last: A
+  def lastOption: scala.Option[A]
+  def init: Repr
+  def scan[B >: A, That](z: B)(op: scala.Function2[B, B, B])(implicit cbf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def scanLeft[B, That](z: B)(op: scala.Function2[B, A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  @scala.annotation.migration("The behavior of `scanRight` has changed. The previous behavior can be reproduced with scanRight.reverse.")
+  def scanRight[B, That](z: B)(op: scala.Function2[A, B, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def foreach[U](f: scala.Function1[A, U]): scala.Unit
+  def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def collect[B, That](pf: scala.PartialFunction[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def ++[B >: A, That](that: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That
+  def filter(pred: scala.Function1[A, scala.Boolean]): Repr
+  def filterNot(pred: scala.Function1[A, scala.Boolean]): Repr
+  def partition(pred: scala.Function1[A, scala.Boolean]): scala.Tuple2[Repr, Repr]
+  def groupBy[K](f: scala.Function1[A, K]): scala.collection.GenMap[K, Repr]
+  def take(n: scala.Int): Repr
+  def drop(n: scala.Int): Repr
+  def slice(unc_from: scala.Int, unc_until: scala.Int): Repr
+  def splitAt(n: scala.Int): scala.Tuple2[Repr, Repr]
+  def takeWhile(pred: scala.Function1[A, scala.Boolean]): Repr
+  def span(pred: scala.Function1[A, scala.Boolean]): scala.Tuple2[Repr, Repr]
+  def dropWhile(pred: scala.Function1[A, scala.Boolean]): Repr
+  def stringPrefix: scala.Predef.String
+}

@@ -1,0 +1,32 @@
+package scala.concurrent.impl
+private[concurrent] trait Promise[T] extends scala.AnyRef with scala.concurrent.Promise[T] with scala.concurrent.Future[T] {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def future: scala.concurrent.impl.Promise.type = { /* compiled code */ }
+}
+private[concurrent] object Promise extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  class DefaultPromise[T] extends scala.concurrent.impl.AbstractPromise with scala.concurrent.impl.Promise[T] {
+ this: scala.concurrent.impl.Promise.DefaultPromise[T] =>
+    def this() = { /* compiled code */ }
+    protected final def tryAwait(atMost: scala.concurrent.duration.Duration): scala.Boolean = { /* compiled code */ }
+    @scala.throws[scala.InterruptedException](scala.InterruptedException)
+    @scala.throws[scala.concurrent.TimeoutException](scala.concurrent.TimeoutException)
+    def ready(atMost: scala.concurrent.duration.Duration)(implicit permit: scala.concurrent.CanAwait): scala.concurrent.impl.Promise.DefaultPromise.type = { /* compiled code */ }
+    @scala.throws[scala.Exception](scala.Exception)
+    def result(atMost: scala.concurrent.duration.Duration)(implicit permit: scala.concurrent.CanAwait): T = { /* compiled code */ }
+    def value: scala.Option[scala.util.Try[T]] = { /* compiled code */ }
+    override def isCompleted: scala.Boolean = { /* compiled code */ }
+    def tryComplete(value: scala.util.Try[T]): scala.Boolean = { /* compiled code */ }
+    def onComplete[U](func: scala.Function1[scala.util.Try[T], U])(implicit executor: scala.concurrent.ExecutionContext): scala.Unit = { /* compiled code */ }
+    protected final def linkRootOf(target: scala.concurrent.impl.Promise.DefaultPromise[T]): scala.Unit = { /* compiled code */ }
+  }
+  final class KeptPromise[T] extends scala.AnyRef with scala.concurrent.impl.Promise[T] {
+    def this(suppliedValue: scala.util.Try[T]) = { /* compiled code */ }
+    val value: scala.Some[scala.util.Try[T]] = { /* compiled code */ }
+    override def isCompleted: scala.Boolean = { /* compiled code */ }
+    def tryComplete(value: scala.util.Try[T]): scala.Boolean = { /* compiled code */ }
+    def onComplete[U](func: scala.Function1[scala.util.Try[T], U])(implicit executor: scala.concurrent.ExecutionContext): scala.Unit = { /* compiled code */ }
+    def ready(atMost: scala.concurrent.duration.Duration)(implicit permit: scala.concurrent.CanAwait): scala.concurrent.impl.Promise.KeptPromise.type = { /* compiled code */ }
+    def result(atMost: scala.concurrent.duration.Duration)(implicit permit: scala.concurrent.CanAwait): T = { /* compiled code */ }
+  }
+}

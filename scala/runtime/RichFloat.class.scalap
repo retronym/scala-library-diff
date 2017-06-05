@@ -1,0 +1,66 @@
+package scala.runtime
+final class RichFloat extends scala.AnyVal with scala.runtime.FractionalProxy[scala.Float] {
+  val self: scala.Float = { /* compiled code */ }
+  def this(self: scala.Float) = { /* compiled code */ }
+  protected def num: scala.math.Numeric.FloatIsFractional.type = { /* compiled code */ }
+  protected def ord: scala.math.Ordering.Float.type = { /* compiled code */ }
+  protected def integralNum: scala.math.Numeric.FloatAsIfIntegral.type = { /* compiled code */ }
+  override def doubleValue(): scala.Double = { /* compiled code */ }
+  override def floatValue(): scala.Float = { /* compiled code */ }
+  override def longValue(): scala.Long = { /* compiled code */ }
+  override def intValue(): scala.Int = { /* compiled code */ }
+  override def byteValue(): scala.Byte = { /* compiled code */ }
+  override def shortValue(): scala.Short = { /* compiled code */ }
+  override def isWhole(): scala.Boolean = { /* compiled code */ }
+  override def isValidByte: scala.Boolean = { /* compiled code */ }
+  override def isValidShort: scala.Boolean = { /* compiled code */ }
+  override def isValidChar: scala.Boolean = { /* compiled code */ }
+  override def isValidInt: scala.Boolean = { /* compiled code */ }
+  def isNaN: scala.Boolean = { /* compiled code */ }
+  def isInfinity: scala.Boolean = { /* compiled code */ }
+  def isPosInfinity: scala.Boolean = { /* compiled code */ }
+  def isNegInfinity: scala.Boolean = { /* compiled code */ }
+  override def abs: scala.Float = { /* compiled code */ }
+  override def max(that: scala.Float): scala.Float = { /* compiled code */ }
+  override def min(that: scala.Float): scala.Float = { /* compiled code */ }
+  override def signum: scala.Int = { /* compiled code */ }
+  def round: scala.Int = { /* compiled code */ }
+  def ceil: scala.Float = { /* compiled code */ }
+  def floor: scala.Float = { /* compiled code */ }
+  def toRadians: scala.Float = { /* compiled code */ }
+  def toDegrees: scala.Float = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object RichFloat extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  final def num$extension($this: scala.runtime.RichFloat): scala.math.Numeric.FloatIsFractional.type = { /* compiled code */ }
+  final def ord$extension($this: scala.runtime.RichFloat): scala.math.Ordering.Float.type = { /* compiled code */ }
+  final def integralNum$extension($this: scala.runtime.RichFloat): scala.math.Numeric.FloatAsIfIntegral.type = { /* compiled code */ }
+  final def doubleValue$extension($this: scala.runtime.RichFloat)(): scala.Double = { /* compiled code */ }
+  final def floatValue$extension($this: scala.runtime.RichFloat)(): scala.Float = { /* compiled code */ }
+  final def longValue$extension($this: scala.runtime.RichFloat)(): scala.Long = { /* compiled code */ }
+  final def intValue$extension($this: scala.runtime.RichFloat)(): scala.Int = { /* compiled code */ }
+  final def byteValue$extension($this: scala.runtime.RichFloat)(): scala.Byte = { /* compiled code */ }
+  final def shortValue$extension($this: scala.runtime.RichFloat)(): scala.Short = { /* compiled code */ }
+  final def isWhole$extension($this: scala.runtime.RichFloat)(): scala.Boolean = { /* compiled code */ }
+  final def isValidByte$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def isValidShort$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def isValidChar$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def isValidInt$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def isNaN$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def isInfinity$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def isPosInfinity$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def isNegInfinity$extension($this: scala.runtime.RichFloat): scala.Boolean = { /* compiled code */ }
+  final def abs$extension($this: scala.runtime.RichFloat): scala.Float = { /* compiled code */ }
+  final def max$extension($this: scala.runtime.RichFloat)(that: scala.Float): scala.Float = { /* compiled code */ }
+  final def min$extension($this: scala.runtime.RichFloat)(that: scala.Float): scala.Float = { /* compiled code */ }
+  final def signum$extension($this: scala.runtime.RichFloat): scala.Int = { /* compiled code */ }
+  final def round$extension($this: scala.runtime.RichFloat): scala.Int = { /* compiled code */ }
+  final def ceil$extension($this: scala.runtime.RichFloat): scala.Float = { /* compiled code */ }
+  final def floor$extension($this: scala.runtime.RichFloat): scala.Float = { /* compiled code */ }
+  final def toRadians$extension($this: scala.runtime.RichFloat): scala.Float = { /* compiled code */ }
+  final def toDegrees$extension($this: scala.runtime.RichFloat): scala.Float = { /* compiled code */ }
+  final def hashCode$extension($this: scala.runtime.RichFloat)(): scala.Int = { /* compiled code */ }
+  final def equals$extension($this: scala.runtime.RichFloat)(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}

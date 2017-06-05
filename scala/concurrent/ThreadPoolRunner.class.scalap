@@ -1,0 +1,14 @@
+package scala.concurrent
+@scala.deprecated("Use `ExecutionContext` instead.")
+private[scala] trait ThreadPoolRunner extends scala.AnyRef with scala.concurrent.FutureTaskRunner {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  type Task[T] = java.util.concurrent.Callable[T] with java.lang.Runnable
+  type Future[T] = java.util.concurrent.Future[T]
+  implicit def functionAsTask[S](fun: scala.Function0[S]): Task[S] = { /* compiled code */ }
+  implicit def futureAsFunction[S](x: Future[S]): scala.Function0[S] = { /* compiled code */ }
+  protected def executor: java.util.concurrent.ExecutorService
+  def submit[S](task: Task[S]): Future[S] = { /* compiled code */ }
+  def execute[S](task: Task[S]): scala.Unit = { /* compiled code */ }
+  @scala.deprecated("Use `blocking` instead.")
+  def managedBlock(blocker: scala.concurrent.ManagedBlocker): scala.Unit = { /* compiled code */ }
+}

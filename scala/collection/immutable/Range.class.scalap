@@ -1,0 +1,95 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("The implementation details of Range makes inheriting from it unwise.")
+@scala.SerialVersionUID { val value = 7618862778670199309None }
+class Range extends scala.collection.AbstractSeq[scala.Int] with scala.collection.immutable.IndexedSeq[scala.Int] with scala.collection.CustomParallelizable[scala.Int, scala.collection.parallel.immutable.ParRange] with scala.Serializable {
+  val start: scala.Int = { /* compiled code */ }
+  val end: scala.Int = { /* compiled code */ }
+  val step: scala.Int = { /* compiled code */ }
+  def this(start: scala.Int, end: scala.Int, step: scala.Int) = { /* compiled code */ }
+  override def par: scala.collection.parallel.immutable.ParRange = { /* compiled code */ }
+  final override val isEmpty: scala.Boolean = { /* compiled code */ }
+  @scala.deprecated("This method will be made private, use `length` instead.")
+  final val numRangeElements: scala.Int = { /* compiled code */ }
+  @scala.deprecated("This method will be made private, use `last` instead.")
+  final val lastElement: scala.Int = { /* compiled code */ }
+  @scala.deprecated("This method will be made private.")
+  final val terminalElement: scala.Int = { /* compiled code */ }
+  override def last: scala.Int = { /* compiled code */ }
+  override def head: scala.Int = { /* compiled code */ }
+  override def min[A1 >: scala.Int](implicit ord: scala.Ordering[A1]): scala.Int = { /* compiled code */ }
+  override def max[A1 >: scala.Int](implicit ord: scala.Ordering[A1]): scala.Int = { /* compiled code */ }
+  protected def copy(start: scala.Int, end: scala.Int, step: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  def by(step: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  def isInclusive: scala.Boolean = { /* compiled code */ }
+  override def size: scala.Int = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  final def apply(idx: scala.Int): scala.Int = { /* compiled code */ }
+  @scala.inline
+  final override def foreach[@scala.specialized U](f: scala.Function1[scala.Int, U]): scala.Unit = { /* compiled code */ }
+  final override def take(n: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  final override def drop(n: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  final override def init: scala.collection.immutable.Range = { /* compiled code */ }
+  final override def tail: scala.collection.immutable.Range = { /* compiled code */ }
+  final override def takeWhile(p: scala.Function1[scala.Int, scala.Boolean]): scala.collection.immutable.Range = { /* compiled code */ }
+  final override def dropWhile(p: scala.Function1[scala.Int, scala.Boolean]): scala.collection.immutable.Range = { /* compiled code */ }
+  final override def span(p: scala.Function1[scala.Int, scala.Boolean]): scala.Tuple2[scala.collection.immutable.Range, scala.collection.immutable.Range] = { /* compiled code */ }
+  final override def splitAt(n: scala.Int): scala.Tuple2[scala.collection.immutable.Range, scala.collection.immutable.Range] = { /* compiled code */ }
+  final override def takeRight(n: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  final override def dropRight(n: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  final override def reverse: scala.collection.immutable.Range = { /* compiled code */ }
+  def inclusive: scala.collection.immutable.Range = { /* compiled code */ }
+  final def contains(x: scala.Int): scala.Boolean = { /* compiled code */ }
+  final override def sum[B >: scala.Int](implicit num: scala.Numeric[B]): scala.Int = { /* compiled code */ }
+  override def toIterable: scala.collection.immutable.Range = { /* compiled code */ }
+  override def toSeq: scala.collection.immutable.Range = { /* compiled code */ }
+  override def equals(other: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+}
+object Range extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  private[immutable] val MAX_PRINT: scala.Int = { /* compiled code */ }
+  def count(start: scala.Int, end: scala.Int, step: scala.Int, isInclusive: scala.Boolean): scala.Int = { /* compiled code */ }
+  def count(start: scala.Int, end: scala.Int, step: scala.Int): scala.Int = { /* compiled code */ }
+  class Inclusive extends scala.collection.immutable.Range {
+    def this(start: scala.Int, end: scala.Int, step: scala.Int) = { /* compiled code */ }
+    override def isInclusive: scala.Boolean = { /* compiled code */ }
+    protected override def copy(start: scala.Int, end: scala.Int, step: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  }
+  def apply(start: scala.Int, end: scala.Int, step: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  def apply(start: scala.Int, end: scala.Int): scala.collection.immutable.Range = { /* compiled code */ }
+  def inclusive(start: scala.Int, end: scala.Int, step: scala.Int): scala.collection.immutable.Range.Inclusive = { /* compiled code */ }
+  def inclusive(start: scala.Int, end: scala.Int): scala.collection.immutable.Range.Inclusive = { /* compiled code */ }
+  object BigInt extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply(start: scala.BigInt, end: scala.BigInt, step: scala.BigInt): scala.collection.immutable.NumericRange.Exclusive[scala.BigInt] = { /* compiled code */ }
+    def inclusive(start: scala.BigInt, end: scala.BigInt, step: scala.BigInt): scala.collection.immutable.NumericRange.Inclusive[scala.BigInt] = { /* compiled code */ }
+  }
+  object Long extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply(start: scala.Long, end: scala.Long, step: scala.Long): scala.collection.immutable.NumericRange.Exclusive[scala.Long] = { /* compiled code */ }
+    def inclusive(start: scala.Long, end: scala.Long, step: scala.Long): scala.collection.immutable.NumericRange.Inclusive[scala.Long] = { /* compiled code */ }
+  }
+  object BigDecimal extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    implicit val bigDecAsIntegral: scala.math.Numeric.BigDecimalAsIfIntegral.type = { /* compiled code */ }
+    def apply(start: scala.BigDecimal, end: scala.BigDecimal, step: scala.BigDecimal): scala.collection.immutable.NumericRange.Exclusive[scala.BigDecimal] = { /* compiled code */ }
+    def inclusive(start: scala.BigDecimal, end: scala.BigDecimal, step: scala.BigDecimal): scala.collection.immutable.NumericRange.Inclusive[scala.BigDecimal] = { /* compiled code */ }
+  }
+  object Double extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    implicit val bigDecAsIntegral: scala.math.Numeric.BigDecimalAsIfIntegral.type = { /* compiled code */ }
+    implicit val doubleAsIntegral: scala.math.Numeric.DoubleAsIfIntegral.type = { /* compiled code */ }
+    def toBD(x: scala.Double): scala.BigDecimal = { /* compiled code */ }
+    def apply(start: scala.Double, end: scala.Double, step: scala.Double): scala.collection.immutable.NumericRange[scala.Double] = { /* compiled code */ }
+    def inclusive(start: scala.Double, end: scala.Double, step: scala.Double): scala.collection.immutable.NumericRange[scala.Double] = { /* compiled code */ }
+  }
+  class Partial[T, U] extends scala.AnyRef {
+    def this(f: scala.Function1[T, U]) = { /* compiled code */ }
+    def by(x: T): U = { /* compiled code */ }
+  }
+  object Int extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply(start: scala.Int, end: scala.Int, step: scala.Int): scala.collection.immutable.NumericRange.Exclusive[scala.Int] = { /* compiled code */ }
+    def inclusive(start: scala.Int, end: scala.Int, step: scala.Int): scala.collection.immutable.NumericRange.Inclusive[scala.Int] = { /* compiled code */ }
+  }
+}

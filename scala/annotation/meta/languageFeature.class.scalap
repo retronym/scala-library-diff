@@ -1,0 +1,4 @@
+package scala.annotation.meta
+final class languageFeature extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this(feature: scala.Predef.String, enableRequired: scala.Boolean) = { /* compiled code */ }
+}

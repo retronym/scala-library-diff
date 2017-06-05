@@ -1,0 +1,22 @@
+package scala
+@scala.deprecatedInheritance("Tuples will be made final in a future version.")
+case class Tuple5[+T1, +T2, +T3, +T4, +T5](_1: T1, _2: T2, _3: T3, _4: T4, _5: T5) extends scala.AnyRef with scala.Product5[T1, T2, T3, T4, T5] with scala.Product with scala.Serializable {
+  val _1: T1 = { /* compiled code */ }
+  val _2: T2 = { /* compiled code */ }
+  val _3: T3 = { /* compiled code */ }
+  val _4: T4 = { /* compiled code */ }
+  val _5: T5 = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+  def copy[T1, T2, T3, T4, T5](_1: T1, _2: T2, _3: T3, _4: T4, _5: T5): scala.Tuple5[T1, T2, T3, T4, T5] = { /* compiled code */ }
+  override def productPrefix: java.lang.String = { /* compiled code */ }
+  override def productIterator: scala.collection.Iterator[scala.Any] = { /* compiled code */ }
+  def canEqual(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(x$1: scala.Any): scala.Boolean = { /* compiled code */ }
+}
+object Tuple5 extends scala.AnyRef with scala.Serializable {
+  def this() = { /* compiled code */ }
+  final override def toString(): java.lang.String = { /* compiled code */ }
+  def apply[T1, T2, T3, T4, T5](_1: T1, _2: T2, _3: T3, _4: T4, _5: T5): scala.Tuple5[T1, T2, T3, T4, T5] = { /* compiled code */ }
+  def unapply[T1, T2, T3, T4, T5](x$0: scala.Tuple5[T1, T2, T3, T4, T5]): scala.Option[scala.Tuple5[T1, T2, T3, T4, T5]] = { /* compiled code */ }
+}

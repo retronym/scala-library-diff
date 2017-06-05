@@ -1,0 +1,21 @@
+package scala.compat
+object Platform extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  type StackOverflowError = java.lang.StackOverflowError
+  type ConcurrentModificationException = java.util.ConcurrentModificationException
+  @scala.inline
+  def arraycopy(src: scala.AnyRef, srcPos: scala.Int, dest: scala.AnyRef, destPos: scala.Int, length: scala.Int): scala.Unit = { /* compiled code */ }
+  @scala.inline
+  def createArray(elemClass: scala.Predef.Class[_], length: scala.Int): scala.AnyRef = { /* compiled code */ }
+  @scala.inline
+  def arrayclear(arr: scala.Array[scala.Int]): scala.Unit = { /* compiled code */ }
+  @scala.inline
+  def getClassForName(name: scala.Predef.String): scala.Predef.Class[_] = { /* compiled code */ }
+  val EOL: java.lang.String = { /* compiled code */ }
+  @scala.inline
+  def currentTime: scala.Long = { /* compiled code */ }
+  @scala.inline
+  def collectGarbage(): scala.Unit = { /* compiled code */ }
+  @scala.inline
+  def defaultCharsetName: scala.Predef.String = { /* compiled code */ }
+}

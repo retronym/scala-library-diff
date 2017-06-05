@@ -1,0 +1,14 @@
+package scala
+trait Proxy extends scala.Any {
+  def $init$(): scala.Unit = { /* compiled code */ }
+  def self: scala.Any
+  override def hashCode(): scala.Int = { /* compiled code */ }
+  override def equals(that: scala.Any): scala.Boolean = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
+}
+object Proxy extends scala.AnyRef {
+  def this() = { /* compiled code */ }
+  trait Typed[T] extends scala.Any with scala.Proxy {
+    def self: T
+  }
+}

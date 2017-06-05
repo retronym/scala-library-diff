@@ -1,0 +1,117 @@
+package scala.collection.immutable
+@scala.deprecatedInheritance("This class will be sealed.")
+abstract class Stream[+A] extends scala.collection.AbstractSeq[A] with scala.collection.immutable.LinearSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.immutable.Stream] with scala.collection.LinearSeqOptimized[A, scala.collection.immutable.Stream[A]] with scala.Serializable {
+ this: scala.collection.immutable.Stream[A] =>
+  def this() = { /* compiled code */ }
+  override def companion: scala.collection.generic.GenericCompanion[scala.collection.immutable.Stream] = { /* compiled code */ }
+  def isEmpty: scala.Boolean
+  def head: A
+  def tail: scala.collection.immutable.Stream[A]
+  protected def tailDefined: scala.Boolean
+  def append[B >: A](rest: => scala.collection.TraversableOnce[B]): scala.collection.immutable.Stream[B] = { /* compiled code */ }
+  def force: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  def print(): scala.Unit = { /* compiled code */ }
+  def print(sep: scala.Predef.String): scala.Unit = { /* compiled code */ }
+  override def length: scala.Int = { /* compiled code */ }
+  override def toStream: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def hasDefiniteSize: scala.Boolean = { /* compiled code */ }
+  override def ++[B >: A, That](that: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+  override def +:[B >: A, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+  final override def scanLeft[B, That](z: B)(op: scala.Function2[B, A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+  final override def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+  final override def collect[B, That](pf: scala.PartialFunction[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+  final override def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+  override def filter(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  final override def withFilter(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream.StreamWithFilter = { /* compiled code */ }
+  final class StreamWithFilter extends scala.collection.TraversableLike.WithFilter {
+    def this(p: scala.Function1[A, scala.Boolean]) = { /* compiled code */ }
+    override def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+    override def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+    override def foreach[B](f: scala.Function1[A, B]): scala.Unit = { /* compiled code */ }
+    override def withFilter(q: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream.StreamWithFilter = { /* compiled code */ }
+  }
+  override def iterator: scala.collection.Iterator[A] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  final override def foreach[B](f: scala.Function1[A, B]): scala.Unit = { /* compiled code */ }
+  @scala.annotation.tailrec
+  final override def foldLeft[B](z: B)(op: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  final override def reduceLeft[B >: A](f: scala.Function2[B, A, B]): B = { /* compiled code */ }
+  override def partition(p: scala.Function1[A, scala.Boolean]): scala.Tuple2[scala.collection.immutable.Stream[A], scala.collection.immutable.Stream[A]] = { /* compiled code */ }
+  final override def zip[A1 >: A, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], scala.Tuple2[A1, B], That]): That = { /* compiled code */ }
+  override def zipWithIndex[A1 >: A, That](implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], scala.Tuple2[A1, scala.Int], That]): That = { /* compiled code */ }
+  override def addString(b: scala.collection.mutable.StringBuilder, start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.collection.mutable.StringBuilder = { /* compiled code */ }
+  override def mkString(sep: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  override def mkString: scala.Predef.String = { /* compiled code */ }
+  override def mkString(start: scala.Predef.String, sep: scala.Predef.String, end: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
+  override def toString(): scala.Predef.String = { /* compiled code */ }
+  override def splitAt(n: scala.Int): scala.Tuple2[scala.collection.immutable.Stream[A], scala.collection.immutable.Stream[A]] = { /* compiled code */ }
+  override def take(n: scala.Int): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  @scala.annotation.tailrec
+  final override def drop(n: scala.Int): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def slice(from: scala.Int, until: scala.Int): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def init: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def takeRight(n: scala.Int): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def dropRight(n: scala.Int): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def takeWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def dropWhile(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def distinct: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def padTo[B >: A, That](len: scala.Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
+  override def reverse: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def flatten[B](implicit asTraversable: scala.Function1[A, scala.collection.GenTraversableOnce[B]]): scala.collection.immutable.Stream[B] = { /* compiled code */ }
+  override def view: scala.AnyRef with scala.collection.immutable.StreamView[A, scala.collection.immutable.Stream[A]] = { /* compiled code */ }
+  override def stringPrefix: java.lang.String = { /* compiled code */ }
+}
+object Stream extends scala.collection.generic.SeqFactory[scala.collection.immutable.Stream] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  class StreamCanBuildFrom[A] extends scala.collection.generic.GenTraversableFactory.GenericCanBuildFrom[A] {
+    def this() = { /* compiled code */ }
+  }
+  implicit def canBuildFrom[A]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenericCompanion.Coll, A, scala.collection.immutable.Stream[A]] = { /* compiled code */ }
+  def newBuilder[A]: scala.collection.mutable.Builder[A, scala.collection.immutable.Stream[A]] = { /* compiled code */ }
+  class StreamBuilder[A] extends scala.collection.mutable.LazyBuilder[A, scala.collection.immutable.Stream[A]] {
+    def this() = { /* compiled code */ }
+    def result(): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  }
+  object Empty extends scala.collection.immutable.Stream[scala.Nothing] {
+    def this() = { /* compiled code */ }
+    override def isEmpty: scala.Boolean = { /* compiled code */ }
+    override def head: scala.Nothing = { /* compiled code */ }
+    override def tail: scala.Nothing = { /* compiled code */ }
+    def tailDefined: scala.Boolean = { /* compiled code */ }
+  }
+  override def empty[A]: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def apply[A](xs: A*): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  class ConsWrapper[A] extends scala.AnyRef {
+    def this(tl: => scala.collection.immutable.Stream[A]) = { /* compiled code */ }
+    def #::(hd: A): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+    def #:::(prefix: scala.collection.immutable.Stream[A]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  }
+  implicit def consWrapper[A](stream: => scala.collection.immutable.Stream[A]): scala.collection.immutable.Stream.ConsWrapper[A] = { /* compiled code */ }
+  object #:: extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def unapply[A](xs: scala.collection.immutable.Stream[A]): scala.Option[scala.Tuple2[A, scala.collection.immutable.Stream[A]]] = { /* compiled code */ }
+  }
+  object cons extends scala.AnyRef {
+    def this() = { /* compiled code */ }
+    def apply[A](hd: A, tl: => scala.collection.immutable.Stream[A]): scala.collection.immutable.Stream.Cons[A] = { /* compiled code */ }
+    def unapply[A](xs: scala.collection.immutable.Stream[A]): scala.Option[scala.Tuple2[A, scala.collection.immutable.Stream[A]]] = { /* compiled code */ }
+  }
+  @scala.SerialVersionUID { val value = -602202424901551803None }
+  final class Cons[+A] extends scala.collection.immutable.Stream[A] {
+    def this(hd: A, tl: => scala.collection.immutable.Stream[A]) = { /* compiled code */ }
+    override def isEmpty: scala.Boolean = { /* compiled code */ }
+    override def head: A = { /* compiled code */ }
+    def tailDefined: scala.Boolean = { /* compiled code */ }
+    override def tail: scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  }
+  def iterate[A](start: A)(f: scala.Function1[A, A]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def iterate[A](start: A, len: scala.Int)(f: scala.Function1[A, A]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  def from(start: scala.Int, step: scala.Int): scala.collection.immutable.Stream[scala.Int] = { /* compiled code */ }
+  def from(start: scala.Int): scala.collection.immutable.Stream[scala.Int] = { /* compiled code */ }
+  def continually[A](elem: => A): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def fill[A](n: scala.Int)(elem: => A): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def tabulate[A](n: scala.Int)(f: scala.Function1[scala.Int, A]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
+  override def range[T](start: T, end: T, step: T)(implicit evidence$1: scala.Integral[T]): scala.collection.immutable.Stream[T] = { /* compiled code */ }
+  private[immutable] def filteredTail[A](stream: scala.collection.immutable.Stream[A], p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream.Cons[A] = { /* compiled code */ }
+  private[immutable] def collectedTail[A, B, That](head: B, stream: scala.collection.immutable.Stream[A], pf: scala.PartialFunction[A, B], bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): scala.collection.immutable.Stream.Cons[B] = { /* compiled code */ }
+}

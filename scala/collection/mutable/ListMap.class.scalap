@@ -1,0 +1,20 @@
+package scala.collection.mutable
+class ListMap[A, B] extends scala.collection.mutable.AbstractMap[A, B] with scala.collection.mutable.Map[A, B] with scala.collection.mutable.MapLike[A, B, scala.collection.mutable.ListMap[A, B]] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  override def empty: scala.collection.mutable.ListMap[A, B] = { /* compiled code */ }
+  def get(key: A): scala.Option[B] = { /* compiled code */ }
+  def iterator: scala.collection.Iterator[scala.Tuple2[A, B]] = { /* compiled code */ }
+  @scala.deprecatedOverriding("No sensible way to override += as private remove is used in multiple places internally.")
+  def +=(kv: scala.Tuple2[A, B]): scala.collection.mutable.ListMap.type = { /* compiled code */ }
+  @scala.deprecatedOverriding("No sensible way to override -= as private remove is used in multiple places internally.")
+  def -=(key: A): scala.collection.mutable.ListMap.type = { /* compiled code */ }
+  @scala.deprecatedOverriding("No sensible way to override as this functionality relies upon access to private methods.")
+  override def clear(): scala.Unit = { /* compiled code */ }
+  @scala.deprecatedOverriding("No sensible way to override as this functionality relies upon access to private methods.")
+  override def size: scala.Int = { /* compiled code */ }
+}
+object ListMap extends scala.collection.generic.MutableMapFactory[scala.collection.mutable.ListMap] with scala.Serializable {
+  def this() = { /* compiled code */ }
+  implicit def canBuildFrom[A, B]: scala.collection.generic.CanBuildFrom[scala.collection.generic.GenMapFactory.Coll, scala.Tuple2[A, B], scala.collection.mutable.ListMap[A, B]] = { /* compiled code */ }
+  def empty[A, B]: scala.collection.mutable.ListMap[A, B] = { /* compiled code */ }
+}

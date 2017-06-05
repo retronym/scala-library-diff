@@ -1,0 +1,5 @@
+package scala.annotation
+@scala.deprecated("Reconsider whether using this annotation will accomplish anything")
+private[scala] class bridge extends scala.annotation.Annotation with scala.annotation.StaticAnnotation {
+  def this() = { /* compiled code */ }
+}
