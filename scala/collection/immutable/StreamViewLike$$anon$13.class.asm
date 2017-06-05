@@ -17,20 +17,10 @@ public final class scala/collection/immutable/StreamViewLike$$anon$13 implements
   public static abstract INNERCLASS scala/Predef$$less$colon$less scala/Predef $less$colon$less
   // access flags 0x601
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed scala/collection/immutable/StreamViewLike Transformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Reversed$class scala/collection/SeqViewLike Reversed$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Transformed scala/collection/IterableViewLike Transformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Transformed$class scala/collection/SeqViewLike Transformed$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed scala/collection/TraversableViewLike Transformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed$class scala/collection/immutable/StreamViewLike Transformed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Transformed$class scala/collection/IterableViewLike Transformed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed$class scala/collection/TraversableViewLike Transformed$class
 
   // access flags 0x1012
   private final synthetic Lscala/collection/immutable/StreamViewLike; $outer

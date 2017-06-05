@@ -16,12 +16,6 @@ public class scala/math/Numeric$BigDecimalIsFractional$ implements scala/math/Nu
   public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsFractional scala/math/Numeric BigDecimalIsFractional
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsConflicted scala/math/Numeric BigDecimalIsConflicted
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering$class scala/math/Ordering BigDecimalOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsFractional$class scala/math/Numeric BigDecimalIsFractional$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsConflicted$class scala/math/Numeric BigDecimalIsConflicted$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$BigDecimalIsFractional$; MODULE$

@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/ParIterableLike$$anonfun$6$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<U, scala.collection.parallel.Combiner<U, That>> implements scala.Serializable
 public final class scala/collection/parallel/ParIterableLike$$anonfun$6$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/ParIterableLike$$anonfun$6 apply ()Lscala/collection/parallel/Combiner;
+  OUTERCLASS scala/collection/parallel/ParIterableLike$$anonfun$6 null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$6 null null
   // access flags 0x11

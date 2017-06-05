@@ -2,18 +2,6 @@
 // access flags 0x31
 public final class scala/collection/convert/package {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/package$$anon$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/package$$anon$4 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/package$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/package$$anon$5 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/package$$anon$6 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/package$$anon$2 null null
 
   // access flags 0x9
   public static decorateAll()Lscala/collection/convert/DecorateAsJava;

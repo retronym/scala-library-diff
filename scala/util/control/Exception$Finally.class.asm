@@ -6,8 +6,6 @@ public class scala/util/control/Exception$Finally implements scala/util/control/
   public static INNERCLASS scala/util/control/Exception$Finally scala/util/control/Exception Finally
   // access flags 0x609
   public static abstract INNERCLASS scala/util/control/Exception$Described scala/util/control/Exception Described
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/control/Exception$Described$class scala/util/control/Exception Described$class
   // access flags 0x11
   public final INNERCLASS scala/util/control/Exception$Finally$$anonfun$and$1 null null
 

@@ -16,12 +16,6 @@ public class scala/math/Numeric$DoubleAsIfIntegral$ implements scala/math/Numeri
   public static abstract INNERCLASS scala/math/Numeric$DoubleAsIfIntegral scala/math/Numeric DoubleAsIfIntegral
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$DoubleIsConflicted scala/math/Numeric DoubleIsConflicted
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering$class scala/math/Ordering DoubleOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleAsIfIntegral$class scala/math/Numeric DoubleAsIfIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleIsConflicted$class scala/math/Numeric DoubleIsConflicted$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$DoubleAsIfIntegral$; MODULE$

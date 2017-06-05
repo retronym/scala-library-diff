@@ -16,12 +16,6 @@ public class scala/math/Numeric$DoubleIsFractional$ implements scala/math/Numeri
   public static abstract INNERCLASS scala/math/Numeric$DoubleIsFractional scala/math/Numeric DoubleIsFractional
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$DoubleIsConflicted scala/math/Numeric DoubleIsConflicted
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering$class scala/math/Ordering DoubleOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleIsFractional$class scala/math/Numeric DoubleIsFractional$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleIsConflicted$class scala/math/Numeric DoubleIsConflicted$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$DoubleIsFractional$; MODULE$

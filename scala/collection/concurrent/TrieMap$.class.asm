@@ -4,8 +4,6 @@
 // declaration: scala/collection/concurrent/TrieMap$ extends scala.collection.generic.MutableMapFactory<scala.collection.concurrent.TrieMap> implements scala.Serializable
 public final class scala/collection/concurrent/TrieMap$ extends scala/collection/generic/MutableMapFactory  implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/collection/concurrent/TrieMap$MangledHashing scala/collection/concurrent/TrieMap MangledHashing
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
 

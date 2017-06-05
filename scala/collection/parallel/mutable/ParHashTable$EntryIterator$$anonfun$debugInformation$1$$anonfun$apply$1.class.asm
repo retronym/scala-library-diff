@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/mutable/ParHashTable$EntryIterator$$anonfun$debugInformation$1$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<scala.collection.mutable.HashEntry<K, Entry>, java.lang.String> implements scala.Serializable
 public final class scala/collection/parallel/mutable/ParHashTable$EntryIterator$$anonfun$debugInformation$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/mutable/ParHashTable$EntryIterator$$anonfun$debugInformation$1 apply (Lscala/Function1;)V
+  OUTERCLASS scala/collection/parallel/mutable/ParHashTable$EntryIterator$$anonfun$debugInformation$1 null
   // access flags 0x401
   public abstract INNERCLASS scala/collection/parallel/mutable/ParHashTable$EntryIterator scala/collection/parallel/mutable/ParHashTable EntryIterator
   // access flags 0x11

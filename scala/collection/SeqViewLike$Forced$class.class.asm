@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$Forced$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Forced scala/collection/SeqViewLike Forced
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Forced$class scala/collection/SeqViewLike Forced$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/SeqViewLike$Forced;)V

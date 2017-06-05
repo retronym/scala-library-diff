@@ -2,10 +2,6 @@
 // access flags 0x31
 public final class scala/runtime/Tuple2Zipped$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$Ops scala/runtime/Tuple2Zipped Ops
-  // access flags 0x9
-  public static INNERCLASS scala/runtime/Tuple2Zipped$Ops$ scala/runtime/Tuple2Zipped Ops$
   // access flags 0x11
   public final INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$map$extension$1 null null
   // access flags 0x11

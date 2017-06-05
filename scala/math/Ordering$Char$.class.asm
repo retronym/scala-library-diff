@@ -8,8 +8,6 @@ public class scala/math/Ordering$Char$ implements scala/math/Ordering$CharOrderi
   public static INNERCLASS scala/math/Ordering$Char$ scala/math/Ordering Char$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$CharOrdering scala/math/Ordering CharOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$CharOrdering$class scala/math/Ordering CharOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Char$; MODULE$

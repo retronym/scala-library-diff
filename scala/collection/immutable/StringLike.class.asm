@@ -85,7 +85,7 @@ public abstract interface scala/collection/immutable/StringLike implements scala
   public abstract slice(II)Ljava/lang/Object;
 
   // access flags 0x401
-  public abstract split(C)[Ljava/lang/String; throws java/util/regex/PatternSyntaxException 
+  public abstract split(C)[Ljava/lang/String;
 
   // access flags 0x401
   public abstract split([C)[Ljava/lang/String; throws java/util/regex/PatternSyntaxException 

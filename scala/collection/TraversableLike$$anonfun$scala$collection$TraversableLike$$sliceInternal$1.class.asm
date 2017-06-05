@@ -2,7 +2,7 @@
 // access flags 0x31
 public final class scala/collection/TraversableLike$$anonfun$scala$collection$TraversableLike$$sliceInternal$1 extends scala/runtime/AbstractFunction0$mcV$sp  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/TraversableLike scala$collection$TraversableLike$$sliceInternal (Lscala/collection/TraversableLike;IILscala/collection/mutable/Builder;)Ljava/lang/Object;
+  OUTERCLASS scala/collection/TraversableLike null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableLike$$anonfun$scala$collection$TraversableLike$$sliceInternal$1 null null
   // access flags 0x11

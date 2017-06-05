@@ -12,8 +12,6 @@ public class scala/collection/mutable/LinkedHashSet extends scala/collection/mut
   public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils scala/collection/mutable/HashTable HashUtils
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/LinkedHashSet$$anon$1 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/LinkedHashSet$$anonfun$readObject$1 null null
   // access flags 0x11
@@ -317,6 +315,9 @@ public class scala/collection/mutable/LinkedHashSet extends scala/collection/mut
     ALOAD 0
     ACONST_NULL
     INVOKEVIRTUAL scala/collection/mutable/LinkedHashSet.firstEntry_$eq (Lscala/collection/mutable/LinkedHashSet$Entry;)V
+    ALOAD 0
+    ACONST_NULL
+    INVOKEVIRTUAL scala/collection/mutable/LinkedHashSet.lastEntry_$eq (Lscala/collection/mutable/LinkedHashSet$Entry;)V
     RETURN
     MAXSTACK = 2
     MAXLOCALS = 1

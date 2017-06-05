@@ -807,7 +807,7 @@ public class scala/collection/immutable/WrappedString extends scala/collection/A
     MAXLOCALS = 2
 
   // access flags 0x1
-  public split(C)[Ljava/lang/String; throws java/util/regex/PatternSyntaxException 
+  public split(C)[Ljava/lang/String;
     ALOAD 0
     ILOAD 1
     INVOKESTATIC scala/collection/immutable/StringLike$class.split (Lscala/collection/immutable/StringLike;C)[Ljava/lang/String;

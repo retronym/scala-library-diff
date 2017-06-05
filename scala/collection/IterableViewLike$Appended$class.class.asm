@@ -4,8 +4,6 @@ public abstract class scala/collection/IterableViewLike$Appended$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Appended scala/collection/IterableViewLike Appended
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Appended$class scala/collection/IterableViewLike Appended$class
   // access flags 0x11
   public final INNERCLASS scala/collection/IterableViewLike$Appended$$anonfun$iterator$1 null null
 

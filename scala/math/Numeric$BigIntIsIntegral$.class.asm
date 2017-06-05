@@ -14,10 +14,6 @@ public class scala/math/Numeric$BigIntIsIntegral$ implements scala/math/Numeric$
   public static INNERCLASS scala/math/Numeric$BigIntIsIntegral$ scala/math/Numeric BigIntIsIntegral$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$BigIntIsIntegral scala/math/Numeric BigIntIsIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering$class scala/math/Ordering BigIntOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigIntIsIntegral$class scala/math/Numeric BigIntIsIntegral$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$BigIntIsIntegral$; MODULE$

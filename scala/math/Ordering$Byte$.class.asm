@@ -8,8 +8,6 @@ public class scala/math/Ordering$Byte$ implements scala/math/Ordering$ByteOrderi
   public static INNERCLASS scala/math/Ordering$Byte$ scala/math/Ordering Byte$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$ByteOrdering scala/math/Ordering ByteOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ByteOrdering$class scala/math/Ordering ByteOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Byte$; MODULE$

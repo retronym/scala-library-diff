@@ -4,6 +4,8 @@ public abstract class scala/collection/immutable/StringLike$class {
 
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/StringLike$$anon$1 null null
+  // access flags 0x9
+  public static INNERCLASS scala/collection/mutable/ArrayBuilder$ofRef scala/collection/mutable/ArrayBuilder ofRef
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$1 null null
   // access flags 0x11
@@ -478,16 +480,128 @@ public abstract class scala/collection/immutable/StringLike$class {
     MAXLOCALS = 9
 
   // access flags 0x9
-  public static split(Lscala/collection/immutable/StringLike;C)[Ljava/lang/String; throws java/util/regex/PatternSyntaxException 
+  public static split(Lscala/collection/immutable/StringLike;C)[Ljava/lang/String;
     ALOAD 0
     INVOKEINTERFACE scala/collection/immutable/StringLike.toString ()Ljava/lang/String;
-    ALOAD 0
+    ASTORE 9
+    ALOAD 9
     ILOAD 1
-    INVOKESTATIC scala/collection/immutable/StringLike$class.scala$collection$immutable$StringLike$$escape (Lscala/collection/immutable/StringLike;C)Ljava/lang/String;
-    INVOKEVIRTUAL java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/String.indexOf (I)I
+    ISTORE 6
+    ILOAD 6
+    ICONST_M1
+    IF_ICMPEQ L0
+    NEW scala/collection/mutable/ArrayBuilder$ofRef
+    DUP
+    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
+    LDC Ljava/lang/String;.class
+    INVOKEVIRTUAL scala/reflect/ClassTag$.apply (Ljava/lang/Class;)Lscala/reflect/ClassTag;
+    INVOKESPECIAL scala/collection/mutable/ArrayBuilder$ofRef.<init> (Lscala/reflect/ClassTag;)V
+    ASTORE 5
+    ICONST_0
+    ISTORE 3
+   L1
+    ALOAD 5
+    ALOAD 9
+    ILOAD 3
+    ILOAD 6
+    INVOKEVIRTUAL java/lang/String.substring (II)Ljava/lang/String;
+    INVOKEVIRTUAL scala/collection/mutable/ArrayBuilder$ofRef.$plus$eq (Ljava/lang/Object;)Lscala/collection/mutable/ArrayBuilder$ofRef;
+    POP
+    ILOAD 6
+    ICONST_1
+    IADD
+    ISTORE 3
+    ALOAD 9
+    ILOAD 1
+    ILOAD 3
+    INVOKEVIRTUAL java/lang/String.indexOf (II)I
+    DUP
+    ISTORE 6
+    ICONST_M1
+    IF_ICMPNE L1
+    ILOAD 3
+    NEW scala/collection/immutable/StringOps
+    DUP
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 2
+    ALOAD 9
+    INVOKESPECIAL scala/collection/immutable/StringOps.<init> (Ljava/lang/String;)V
+    INVOKEVIRTUAL scala/collection/immutable/StringOps.size ()I
+    IF_ICMPEQ L2
+    ALOAD 5
+    ALOAD 9
+    ILOAD 3
+    NEW scala/collection/immutable/StringOps
+    DUP
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 4
+    ALOAD 9
+    INVOKESPECIAL scala/collection/immutable/StringOps.<init> (Ljava/lang/String;)V
+    INVOKEVIRTUAL scala/collection/immutable/StringOps.size ()I
+    INVOKEVIRTUAL java/lang/String.substring (II)Ljava/lang/String;
+    INVOKEVIRTUAL scala/collection/mutable/ArrayBuilder$ofRef.$plus$eq (Ljava/lang/Object;)Lscala/collection/mutable/ArrayBuilder$ofRef;
+    GOTO L3
+   L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L3
+    POP
+    ALOAD 5
+    INVOKEVIRTUAL scala/collection/mutable/ArrayBuilder$ofRef.result ()[Ljava/lang/Object;
+    CHECKCAST [Ljava/lang/String;
+    ASTORE 8
+    ALOAD 8
+    ARRAYLENGTH
+    ISTORE 6
+   L4
+    ILOAD 6
+    ICONST_0
+    IF_ICMPLE L5
+    ALOAD 8
+    ILOAD 6
+    ICONST_1
+    ISUB
+    AALOAD
+    INVOKEVIRTUAL java/lang/String.isEmpty ()Z
+    IFEQ L5
+    ILOAD 6
+    ICONST_1
+    ISUB
+    ISTORE 6
+    GOTO L4
+   L5
+    ILOAD 6
+    ALOAD 8
+    ARRAYLENGTH
+    IF_ICMPEQ L6
+    ILOAD 6
+    ANEWARRAY java/lang/String
+    ASTORE 7
+    GETSTATIC scala/Array$.MODULE$ : Lscala/Array$;
+    ALOAD 8
+    ICONST_0
+    ALOAD 7
+    ICONST_0
+    ILOAD 6
+    INVOKEVIRTUAL scala/Array$.copy (Ljava/lang/Object;ILjava/lang/Object;II)V
+    ALOAD 7
+    GOTO L7
+   L6
+    ALOAD 8
+    GOTO L7
+   L0
+    ICONST_1
+    ANEWARRAY java/lang/String
+    DUP
+    ICONST_0
+    ALOAD 9
+    AASTORE
+    CHECKCAST [Ljava/lang/Object;
+    CHECKCAST [Ljava/lang/String;
+   L7
     ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 2
+    MAXSTACK = 6
+    MAXLOCALS = 10
 
   // access flags 0x9
   public static split(Lscala/collection/immutable/StringLike;[C)[Ljava/lang/String; throws java/util/regex/PatternSyntaxException 

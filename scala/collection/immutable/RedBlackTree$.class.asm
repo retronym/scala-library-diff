@@ -20,8 +20,6 @@ public final class scala/collection/immutable/RedBlackTree$ {
   public final INNERCLASS scala/collection/immutable/RedBlackTree$$anonfun$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/RedBlackTree$KeysIterator scala/collection/immutable/RedBlackTree KeysIterator
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/immutable/RedBlackTree$TreeIterator scala/collection/immutable/RedBlackTree TreeIterator
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/RedBlackTree$ValuesIterator scala/collection/immutable/RedBlackTree ValuesIterator
   // access flags 0x9

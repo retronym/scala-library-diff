@@ -4,7 +4,7 @@
 // declaration: scala/collection/TraversableLike$$anonfun$iterateUntilEmpty$1 extends scala.runtime.AbstractFunction0<scala.collection.Iterator<scala.collection.immutable.Nil$>> implements scala.Serializable
 public final class scala/collection/TraversableLike$$anonfun$iterateUntilEmpty$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/TraversableLike iterateUntilEmpty (Lscala/collection/TraversableLike;Lscala/Function1;)Lscala/collection/Iterator;
+  OUTERCLASS scala/collection/TraversableLike null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableLike$$anonfun$iterateUntilEmpty$1 null null
 

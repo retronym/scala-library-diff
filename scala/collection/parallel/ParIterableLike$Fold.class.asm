@@ -8,12 +8,8 @@ public class scala/collection/parallel/ParIterableLike$Fold implements scala/col
   public INNERCLASS scala/collection/parallel/ParIterableLike$Fold scala/collection/parallel/ParIterableLike Fold
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor scala/collection/parallel/ParIterableLike Accessor
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor$class scala/collection/parallel/ParIterableLike Accessor$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask$class scala/collection/parallel/ParIterableLike StrictSplitterCheckTask$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/parallel/ParIterableLike; $outer

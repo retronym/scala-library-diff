@@ -2,10 +2,6 @@
 // access flags 0x31
 public final class scala/Predef$ extends scala/LowPriorityImplicits  implements scala/DeprecatedPredef  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$Pair$ scala/Predef Pair$
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$Triple$ scala/Predef Triple$
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofInt scala/collection/mutable/ArrayOps ofInt
   // access flags 0x19
@@ -25,45 +21,17 @@ public final class scala/Predef$ extends scala/LowPriorityImplicits  implements 
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofUnit scala/collection/mutable/ArrayOps ofUnit
   // access flags 0x19
-  public final static INNERCLASS scala/Predef$Ensuring scala/Predef Ensuring
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$Ensuring$ scala/Predef Ensuring$
-  // access flags 0x19
   public final static INNERCLASS scala/Predef$StringAdd scala/Predef StringAdd
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofFloat scala/collection/mutable/ArrayOps ofFloat
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofShort scala/collection/mutable/ArrayOps ofShort
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$StringAdd$ scala/Predef StringAdd$
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofDouble scala/collection/mutable/ArrayOps ofDouble
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$ArrowAssoc scala/Predef ArrowAssoc
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$ArrowAssoc$ scala/Predef ArrowAssoc$
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofBoolean scala/collection/mutable/ArrayOps ofBoolean
   // access flags 0x409
   public static abstract INNERCLASS scala/Predef$$eq$colon$eq scala/Predef $eq$colon$eq
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$StringFormat scala/Predef StringFormat
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$$eq$colon$eq$ scala/Predef $eq$colon$eq$
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$StringFormat$ scala/Predef StringFormat$
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$any2stringadd scala/Predef any2stringadd
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$RichException scala/Predef RichException
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$DummyImplicit scala/Predef DummyImplicit
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$DummyImplicit$ scala/Predef DummyImplicit$
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$RichException$ scala/Predef RichException$
-  // access flags 0x9
-  public static INNERCLASS scala/Predef$any2stringadd$ scala/Predef any2stringadd$
   // access flags 0x19
   public final static INNERCLASS scala/Predef$SeqCharSequence scala/Predef SeqCharSequence
   // access flags 0x409

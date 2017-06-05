@@ -2,40 +2,6 @@
 // access flags 0x31
 public final class scala/reflect/ManifestFactory {
 
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$6 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$7 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$8 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$9 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$4 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$5 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$10 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$11 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$12 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$13 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$14 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$15 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$16 null null
-  // access flags 0x11
-  public final INNERCLASS scala/reflect/ManifestFactory$$anon$17 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/reflect/ManifestFactory$PhantomManifest scala/reflect/ManifestFactory PhantomManifest
   // access flags 0x9

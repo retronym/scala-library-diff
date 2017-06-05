@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/collection/mutable/HashTable$ {
 
-  // access flags 0x9
-  public static INNERCLASS scala/collection/mutable/HashTable$Contents scala/collection/mutable/HashTable Contents
-  // access flags 0x609
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils scala/collection/mutable/HashTable HashUtils
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
 
   // access flags 0x19
   public final static Lscala/collection/mutable/HashTable$; MODULE$

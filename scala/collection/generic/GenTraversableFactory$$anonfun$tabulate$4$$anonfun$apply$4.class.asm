@@ -4,7 +4,7 @@
 // declaration: scala/collection/generic/GenTraversableFactory$$anonfun$tabulate$4$$anonfun$apply$4 extends scala.runtime.AbstractFunction4<java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, A> implements scala.Serializable
 public final class scala/collection/generic/GenTraversableFactory$$anonfun$tabulate$4$$anonfun$apply$4 extends scala/runtime/AbstractFunction4  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/generic/GenTraversableFactory$$anonfun$tabulate$4 apply (I)Lscala/collection/GenTraversable;
+  OUTERCLASS scala/collection/generic/GenTraversableFactory$$anonfun$tabulate$4 null
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/GenTraversableFactory$$anonfun$tabulate$4 null null
   // access flags 0x11

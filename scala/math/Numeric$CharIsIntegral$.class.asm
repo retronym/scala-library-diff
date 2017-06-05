@@ -14,10 +14,6 @@ public class scala/math/Numeric$CharIsIntegral$ implements scala/math/Numeric$Ch
   public static INNERCLASS scala/math/Numeric$CharIsIntegral$ scala/math/Numeric CharIsIntegral$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$CharIsIntegral scala/math/Numeric CharIsIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$CharOrdering$class scala/math/Ordering CharOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$CharIsIntegral$class scala/math/Numeric CharIsIntegral$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$CharIsIntegral$; MODULE$

@@ -8,8 +8,6 @@ public class scala/math/Ordering$Implicits$ implements scala/math/Ordering$Extra
   public static INNERCLASS scala/math/Ordering$Implicits$ scala/math/Ordering Implicits$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits scala/math/Ordering ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits$class scala/math/Ordering ExtraImplicits$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Implicits$; MODULE$

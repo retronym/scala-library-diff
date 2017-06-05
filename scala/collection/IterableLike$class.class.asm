@@ -11,8 +11,6 @@ public abstract class scala/collection/IterableLike$class {
   // access flags 0x11
   public final INNERCLASS scala/collection/IterableLike$$anonfun$sliding$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/IterableLike$$anonfun$takeRight$1 null null
-  // access flags 0x11
   public final INNERCLASS scala/collection/IterableLike$$anonfun$zipWithIndex$1 null null
 
   // access flags 0x9
@@ -475,22 +473,35 @@ public abstract class scala/collection/IterableLike$class {
     ILOAD 1
     INVOKEINTERFACE scala/collection/Iterator.drop (I)Lscala/collection/Iterator;
     ASTORE 3
-    ICONST_0
-    INVOKESTATIC scala/runtime/BooleanRef.create (Z)Lscala/runtime/BooleanRef;
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/IterableLike.iterator ()Lscala/collection/Iterator;
     ASTORE 4
-    ALOAD 0
-    NEW scala/collection/IterableLike$$anonfun$takeRight$1
-    DUP
-    ALOAD 0
-    ALOAD 2
+   L0
     ALOAD 3
+    INVOKEINTERFACE scala/collection/Iterator.hasNext ()Z
+    IFEQ L1
+    ALOAD 3
+    INVOKEINTERFACE scala/collection/Iterator.next ()Ljava/lang/Object;
+    POP
     ALOAD 4
-    INVOKESPECIAL scala/collection/IterableLike$$anonfun$takeRight$1.<init> (Lscala/collection/IterableLike;Lscala/collection/mutable/Builder;Lscala/collection/Iterator;Lscala/runtime/BooleanRef;)V
-    INVOKEINTERFACE scala/collection/IterableLike.foreach (Lscala/Function1;)V
+    INVOKEINTERFACE scala/collection/Iterator.next ()Ljava/lang/Object;
+    POP
+    GOTO L0
+   L1
+    ALOAD 4
+    INVOKEINTERFACE scala/collection/Iterator.hasNext ()Z
+    IFEQ L2
+    ALOAD 2
+    ALOAD 4
+    INVOKEINTERFACE scala/collection/Iterator.next ()Ljava/lang/Object;
+    INVOKEINTERFACE scala/collection/mutable/Builder.$plus$eq (Ljava/lang/Object;)Lscala/collection/mutable/Builder;
+    POP
+    GOTO L1
+   L2
     ALOAD 2
     INVOKEINTERFACE scala/collection/mutable/Builder.result ()Ljava/lang/Object;
     ARETURN
-    MAXSTACK = 7
+    MAXSTACK = 3
     MAXLOCALS = 5
 
   // access flags 0x9

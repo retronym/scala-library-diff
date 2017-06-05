@@ -4,7 +4,7 @@
 // declaration: scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<java.lang.String, scala.Tuple2<java.lang.String, java.util.concurrent.TimeUnit>> implements scala.Serializable
 public final class scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/duration/Duration$$anonfun$4 apply (Lscala/Tuple2;)Lscala/collection/immutable/List;
+  OUTERCLASS scala/concurrent/duration/Duration$$anonfun$4 null
   // access flags 0x9
   public static INNERCLASS scala/Predef$ArrowAssoc$ scala/Predef ArrowAssoc$
   // access flags 0x11

@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$copy2builder$1$$anonfun$apply$mcV$sp$3 extends scala.runtime.AbstractFunction1<scala.collection.parallel.mutable.UnrolledParArrayCombiner<T>, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$copy2builder$1$$anonfun$apply$mcV$sp$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$copy2builder$1 apply ()V
+  OUTERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$copy2builder$1 null
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled scala/collection/mutable/UnrolledBuffer Unrolled
   // access flags 0x1

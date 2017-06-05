@@ -16,12 +16,6 @@ public class scala/math/Numeric$FloatAsIfIntegral$ implements scala/math/Numeric
   public static abstract INNERCLASS scala/math/Numeric$FloatAsIfIntegral scala/math/Numeric FloatAsIfIntegral
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$FloatIsConflicted scala/math/Numeric FloatIsConflicted
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering$class scala/math/Ordering FloatOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatAsIfIntegral$class scala/math/Numeric FloatAsIfIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatIsConflicted$class scala/math/Numeric FloatIsConflicted$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$FloatAsIfIntegral$; MODULE$

@@ -4,7 +4,7 @@
 // declaration: scala/collection/TraversableLike$$anonfun$head$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$1 extends scala.runtime.AbstractFunction0<A> implements scala.Serializable
 public final class scala/collection/TraversableLike$$anonfun$head$1$$anonfun$apply$mcV$sp$5$$anonfun$apply$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/TraversableLike$$anonfun$head$1$$anonfun$apply$mcV$sp$5 apply (Ljava/lang/Object;)Lscala/runtime/Nothing$;
+  OUTERCLASS scala/collection/TraversableLike$$anonfun$head$1$$anonfun$apply$mcV$sp$5 null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableLike$$anonfun$head$1 null null
   // access flags 0x11

@@ -14,10 +14,6 @@ public final class scala/collection/mutable/IndexedSeqView$$anon$5 extends scala
   // access flags 0x601
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Transformed scala/collection/mutable/IndexedSeqView Transformed
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Reversed$class scala/collection/SeqViewLike Reversed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Reversed$class scala/collection/mutable/IndexedSeqView Reversed$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$AbstractTransformed scala/collection/mutable/IndexedSeqView AbstractTransformed
 
   // access flags 0x1012

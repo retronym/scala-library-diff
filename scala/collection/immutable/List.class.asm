@@ -540,6 +540,7 @@ public abstract class scala/collection/immutable/List extends scala/collection/A
     INVOKEVIRTUAL scala/collection/immutable/List.head ()Ljava/lang/Object;
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
     CHECKCAST scala/collection/GenTraversableOnce
+    INVOKEINTERFACE scala/collection/GenTraversableOnce.seq ()Lscala/collection/TraversableOnce;
     NEW scala/collection/immutable/List$$anonfun$flatMap$1
     DUP
     ALOAD 0
@@ -547,7 +548,7 @@ public abstract class scala/collection/immutable/List extends scala/collection/A
     ALOAD 5
     ALOAD 6
     INVOKESPECIAL scala/collection/immutable/List$$anonfun$flatMap$1.<init> (Lscala/collection/immutable/List;Lscala/runtime/BooleanRef;Lscala/runtime/ObjectRef;Lscala/runtime/ObjectRef;)V
-    INVOKEINTERFACE scala/collection/GenTraversableOnce.foreach (Lscala/Function1;)V
+    INVOKEINTERFACE scala/collection/TraversableOnce.foreach (Lscala/Function1;)V
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List

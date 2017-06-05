@@ -4,8 +4,6 @@ public abstract class scala/collection/TraversableViewLike$Sliced$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Sliced scala/collection/TraversableViewLike Sliced
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Sliced$class scala/collection/TraversableViewLike Sliced$class
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$Sliced$$anonfun$foreach$1 null null
 

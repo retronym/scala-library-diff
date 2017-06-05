@@ -6,16 +6,10 @@ public class scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$Wrapp
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/Tasks$WrappedTask scala/collection/parallel/Tasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/Tasks$WrappedTask$class scala/collection/parallel/Tasks WrappedTask$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask scala/collection/parallel/ThreadPoolTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask$class scala/collection/parallel/ThreadPoolTasks WrappedTask$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask scala/collection/parallel/AdaptiveWorkStealingTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask$class scala/collection/parallel/AdaptiveWorkStealingTasks WrappedTask$class
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$WrappedTask scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks WrappedTask
   // access flags 0x11

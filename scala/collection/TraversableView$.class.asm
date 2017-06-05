@@ -4,8 +4,6 @@ public final class scala/collection/TraversableView$ {
 
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableView$$anon$1 null null
-  // access flags 0x9
-  public static INNERCLASS scala/collection/TraversableView$NoBuilder scala/collection/TraversableView NoBuilder
 
   // access flags 0x19
   public final static Lscala/collection/TraversableView$; MODULE$

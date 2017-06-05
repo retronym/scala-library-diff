@@ -6,8 +6,6 @@ public class scala/util/hashing/MurmurHash3$ArrayHashing$mcF$sp extends scala/ut
 
   // access flags 0x9
   public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing scala/util/hashing/MurmurHash3 ArrayHashing
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcF$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcF$sp
 
   // access flags 0x1
   public <init>()V

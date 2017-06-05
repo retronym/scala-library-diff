@@ -4,8 +4,6 @@ public abstract class scala/math/Ordering$ByteOrdering$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$ByteOrdering scala/math/Ordering ByteOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ByteOrdering$class scala/math/Ordering ByteOrdering$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Ordering$ByteOrdering;)V

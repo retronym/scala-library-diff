@@ -8,12 +8,8 @@ public abstract class scala/collection/parallel/ParIterableLike$ResultMapping im
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$ResultMapping scala/collection/parallel/ParIterableLike ResultMapping
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$NonDivisibleTask scala/collection/parallel/ParIterableLike NonDivisibleTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$NonDivisibleTask$class scala/collection/parallel/ParIterableLike NonDivisibleTask$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask$class scala/collection/parallel/ParIterableLike StrictSplitterCheckTask$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/parallel/ParIterableLike; $outer

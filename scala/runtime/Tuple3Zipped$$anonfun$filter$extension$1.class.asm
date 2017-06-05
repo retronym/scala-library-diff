@@ -4,7 +4,7 @@
 // declaration: scala/runtime/Tuple3Zipped$$anonfun$filter$extension$1 extends scala.runtime.AbstractFunction1<El1, java.lang.Object> implements scala.Serializable
 public final class scala/runtime/Tuple3Zipped$$anonfun$filter$extension$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/runtime/Tuple3Zipped$ filter$extension (Lscala/Tuple3;Lscala/Function3;Lscala/collection/generic/CanBuildFrom;Lscala/collection/generic/CanBuildFrom;Lscala/collection/generic/CanBuildFrom;)Lscala/Tuple3;
+  OUTERCLASS scala/runtime/Tuple3Zipped filter (Lscala/Function3;Lscala/collection/generic/CanBuildFrom;Lscala/collection/generic/CanBuildFrom;Lscala/collection/generic/CanBuildFrom;)Lscala/Tuple3;
   // access flags 0x11
   public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$filter$extension$1 null null
 

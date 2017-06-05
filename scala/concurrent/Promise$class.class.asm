@@ -5,8 +5,6 @@ public abstract class scala/concurrent/Promise$class {
   // access flags 0x9
   public static INNERCLASS scala/concurrent/Future$InternalCallbackExecutor$ scala/concurrent/Future InternalCallbackExecutor$
   // access flags 0x11
-  public final INNERCLASS scala/concurrent/Promise$$anonfun$completeWith$1 null null
-  // access flags 0x11
   public final INNERCLASS scala/concurrent/Promise$$anonfun$tryCompleteWith$1 null null
 
   // access flags 0x9
@@ -34,17 +32,11 @@ public abstract class scala/concurrent/Promise$class {
 
   // access flags 0x19
   public final static completeWith(Lscala/concurrent/Promise;Lscala/concurrent/Future;)Lscala/concurrent/Promise;
+    ALOAD 0
     ALOAD 1
-    NEW scala/concurrent/Promise$$anonfun$completeWith$1
-    DUP
-    ALOAD 0
-    INVOKESPECIAL scala/concurrent/Promise$$anonfun$completeWith$1.<init> (Lscala/concurrent/Promise;)V
-    ALOAD 0
-    INVOKESTATIC scala/concurrent/Promise$class.internalExecutor (Lscala/concurrent/Promise;)Lscala/concurrent/ExecutionContext;
-    INVOKEINTERFACE scala/concurrent/Future.onComplete (Lscala/Function1;Lscala/concurrent/ExecutionContext;)V
-    ALOAD 0
+    INVOKEINTERFACE scala/concurrent/Promise.tryCompleteWith (Lscala/concurrent/Future;)Lscala/concurrent/Promise;
     ARETURN
-    MAXSTACK = 4
+    MAXSTACK = 2
     MAXLOCALS = 2
 
   // access flags 0x9

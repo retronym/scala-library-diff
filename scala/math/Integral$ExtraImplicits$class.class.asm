@@ -6,8 +6,6 @@ public abstract class scala/math/Integral$ExtraImplicits$class {
   public INNERCLASS scala/math/Integral$IntegralOps scala/math/Integral IntegralOps
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Integral$ExtraImplicits scala/math/Integral ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Integral$ExtraImplicits$class scala/math/Integral ExtraImplicits$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Integral$ExtraImplicits;)V

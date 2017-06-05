@@ -31,6 +31,7 @@ final class TrieMap[K, V] extends scala.AnyRef with scala.collection.concurrent.
   override def remove(k: K): scala.Option[V] = { /* compiled code */ }
   def -=(k: K): scala.collection.concurrent.TrieMap.type = { /* compiled code */ }
   def putIfAbsent(k: K, v: V): scala.Option[V] = { /* compiled code */ }
+  override def getOrElseUpdate(k: K, op: => V): V = { /* compiled code */ }
   def remove(k: K, v: V): scala.Boolean = { /* compiled code */ }
   def replace(k: K, oldvalue: V, newvalue: V): scala.Boolean = { /* compiled code */ }
   def replace(k: K, v: V): scala.Option[V] = { /* compiled code */ }

@@ -4,7 +4,7 @@
 // declaration: scala/Array$$anonfun$tabulate$1$$anonfun$apply$11 extends scala.runtime.AbstractFunction1<java.lang.Object, T> implements scala.Serializable
 public final class scala/Array$$anonfun$tabulate$1$$anonfun$apply$11 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/Array$$anonfun$tabulate$1 apply (I)Ljava/lang/Object;
+  OUTERCLASS scala/Array$$anonfun$tabulate$1 null
   // access flags 0x11
   public final INNERCLASS scala/Array$$anonfun$tabulate$1 null null
   // access flags 0x11

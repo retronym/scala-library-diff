@@ -5,17 +5,7 @@
 public final class scala/collection/immutable/Map$ extends scala/collection/generic/ImmutableMapFactory  {
 
   // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Map$Map1 scala/collection/immutable/Map Map1
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Map$Map2 scala/collection/immutable/Map Map2
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Map$Map3 scala/collection/immutable/Map Map3
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Map$Map4 scala/collection/immutable/Map Map4
-  // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Map$EmptyMap$ scala/collection/immutable/Map EmptyMap$
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Map$WithDefault scala/collection/immutable/Map WithDefault
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
 

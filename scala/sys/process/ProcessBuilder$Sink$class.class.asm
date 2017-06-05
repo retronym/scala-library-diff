@@ -4,8 +4,6 @@ public abstract class scala/sys/process/ProcessBuilder$Sink$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Sink scala/sys/process/ProcessBuilder Sink
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Sink$class scala/sys/process/ProcessBuilder Sink$class
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$URLInput scala/sys/process/ProcessBuilderImpl URLInput
   // access flags 0x1

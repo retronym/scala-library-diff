@@ -4,8 +4,6 @@ public final class scala/Specializable$ {
 
   // access flags 0x9
   public static INNERCLASS scala/Specializable$Group scala/Specializable Group
-  // access flags 0x609
-  public static abstract INNERCLASS scala/Specializable$SpecializedGroup scala/Specializable SpecializedGroup
 
   // access flags 0x12
   // signature Lscala/Specializable$Group<Lscala/Tuple7<Lscala/Byte$;Lscala/Short$;Lscala/Int$;Lscala/Long$;Lscala/Char$;Lscala/Float$;Lscala/Double$;>;>;

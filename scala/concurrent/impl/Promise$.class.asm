@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/concurrent/impl/Promise$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/impl/Promise$KeptPromise scala/concurrent/impl/Promise KeptPromise
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/impl/Promise$DefaultPromise scala/concurrent/impl/Promise DefaultPromise
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/impl/Promise$CompletionLatch scala/concurrent/impl/Promise CompletionLatch
 
   // access flags 0x19
   public final static Lscala/concurrent/impl/Promise$; MODULE$

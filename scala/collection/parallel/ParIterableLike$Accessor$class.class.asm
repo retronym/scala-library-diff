@@ -4,8 +4,6 @@ public abstract class scala/collection/parallel/ParIterableLike$Accessor$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor scala/collection/parallel/ParIterableLike Accessor
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor$class scala/collection/parallel/ParIterableLike Accessor$class
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$Accessor$$anonfun$split$1 null null
 

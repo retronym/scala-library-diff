@@ -4,8 +4,6 @@ public abstract class scala/collection/immutable/SortedMap$Default$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/immutable/SortedMap$Default scala/collection/immutable/SortedMap Default
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/immutable/SortedMap$Default$class scala/collection/immutable/SortedMap Default$class
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/SortedMap$Default$$anonfun$$minus$1 null null
   // access flags 0x11

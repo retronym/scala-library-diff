@@ -4,8 +4,6 @@ public abstract class scala/collection/TraversableViewLike$Appended$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Appended scala/collection/TraversableViewLike Appended
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Appended$class scala/collection/TraversableViewLike Appended$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/TraversableViewLike$Appended;)V

@@ -16,8 +16,6 @@ public class scala/collection/mutable/HashMap extends scala/collection/mutable/A
   public static INNERCLASS scala/collection/mutable/HashTable$Contents scala/collection/mutable/HashTable Contents
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils scala/collection/mutable/HashTable HashUtils
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/HashMap$$anonfun$foreach$1 null null
   // access flags 0x11

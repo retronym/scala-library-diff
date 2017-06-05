@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/FutureTasks$$anonfun$scala$collection$parallel$FutureTasks$$compute$1$2$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<scala.collection.parallel.Task<R, Tp>, scala.concurrent.Future<scala.collection.parallel.Task<R, Tp>>> implements scala.Serializable
 public final class scala/collection/parallel/FutureTasks$$anonfun$scala$collection$parallel$FutureTasks$$compute$1$2$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/FutureTasks$$anonfun$scala$collection$parallel$FutureTasks$$compute$1$2 apply (Lscala/concurrent/Future;Lscala/concurrent/Future;)Lscala/concurrent/Future;
+  OUTERCLASS scala/collection/parallel/FutureTasks$$anonfun$scala$collection$parallel$FutureTasks$$compute$1$2 null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/FutureTasks$$anonfun$scala$collection$parallel$FutureTasks$$compute$1$2 null null
   // access flags 0x11

@@ -12,8 +12,6 @@ public final class scala/collection/TraversableViewLike$$anon$7 extends scala/co
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$DroppedWhile scala/collection/TraversableViewLike DroppedWhile
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$DroppedWhile$class scala/collection/TraversableViewLike DroppedWhile$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/TraversableViewLike$AbstractTransformed scala/collection/TraversableViewLike AbstractTransformed
 
   // access flags 0x1012

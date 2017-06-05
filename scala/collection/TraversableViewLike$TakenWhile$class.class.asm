@@ -4,8 +4,6 @@ public abstract class scala/collection/TraversableViewLike$TakenWhile$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$TakenWhile scala/collection/TraversableViewLike TakenWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$TakenWhile$class scala/collection/TraversableViewLike TakenWhile$class
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$TakenWhile$$anonfun$foreach$5 null null
 

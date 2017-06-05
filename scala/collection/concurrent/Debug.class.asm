@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/collection/concurrent/Debug {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/concurrent/Debug$$anonfun$flush$1 null null
 
   // access flags 0x9
   public static clear()V

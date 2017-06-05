@@ -4,7 +4,7 @@
 // declaration: scala/concurrent/Future$$anonfun$flatMap$1$$anonfun$apply$3 extends scala.runtime.AbstractFunction1<scala.util.Try<S>, scala.concurrent.impl.Promise$DefaultPromise<S>> implements scala.Serializable
 public final class scala/concurrent/Future$$anonfun$flatMap$1$$anonfun$apply$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/Future$$anonfun$flatMap$1 apply (Lscala/util/Try;)Ljava/lang/Object;
+  OUTERCLASS scala/concurrent/Future$$anonfun$flatMap$1 null
   // access flags 0x9
   public static INNERCLASS scala/concurrent/impl/Promise$DefaultPromise scala/concurrent/impl/Promise DefaultPromise
   // access flags 0x11

@@ -5,8 +5,6 @@ public abstract interface scala/collection/parallel/ThreadPoolTasks implements s
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask scala/collection/parallel/ThreadPoolTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask$class scala/collection/parallel/ThreadPoolTasks WrappedTask$class
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anonfun$execute$1 null null
 

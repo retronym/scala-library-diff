@@ -10,8 +10,6 @@ public class scala/collection/convert/Wrappers$MutableSeqWrapper extends java/ut
   public INNERCLASS scala/collection/convert/Wrappers$MutableSeqWrapper scala/collection/convert/Wrappers MutableSeqWrapper
   // access flags 0x601
   public abstract INNERCLASS scala/collection/convert/Wrappers$IterableWrapperTrait scala/collection/convert/Wrappers IterableWrapperTrait
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/convert/Wrappers$IterableWrapperTrait$class scala/collection/convert/Wrappers IterableWrapperTrait$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/convert/Wrappers; $outer

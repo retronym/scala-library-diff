@@ -5,14 +5,6 @@
 public final class scala/collection/immutable/Set$ extends scala/collection/generic/ImmutableSetFactory  {
 
   // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Set$Set1 scala/collection/immutable/Set Set1
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Set$Set2 scala/collection/immutable/Set Set2
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Set$Set3 scala/collection/immutable/Set Set3
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Set$Set4 scala/collection/immutable/Set Set4
-  // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Set$EmptySet$ scala/collection/immutable/Set EmptySet$
 
   // access flags 0x19

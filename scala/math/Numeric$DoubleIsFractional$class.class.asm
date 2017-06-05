@@ -4,8 +4,6 @@ public abstract class scala/math/Numeric$DoubleIsFractional$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$DoubleIsFractional scala/math/Numeric DoubleIsFractional
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleIsFractional$class scala/math/Numeric DoubleIsFractional$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$DoubleIsFractional;)V

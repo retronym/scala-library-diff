@@ -4,8 +4,6 @@ public abstract interface scala/collection/parallel/AdaptiveWorkStealingTasks im
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask scala/collection/parallel/AdaptiveWorkStealingTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask$class scala/collection/parallel/AdaptiveWorkStealingTasks WrappedTask$class
 
   // access flags 0x401
   // signature <R:Ljava/lang/Object;Tp:Ljava/lang/Object;>(Lscala/collection/parallel/Task<TR;TTp;>;)Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask<TR;TTp;>;

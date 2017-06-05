@@ -8,8 +8,6 @@ public final class scala/collection/immutable/IntMapUtils$ implements scala/coll
   public static INNERCLASS scala/collection/immutable/IntMap$Nil$ scala/collection/immutable/IntMap Nil$
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/generic/BitOperations$Int scala/collection/generic/BitOperations Int
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/generic/BitOperations$Int$class scala/collection/generic/BitOperations Int$class
 
   // access flags 0x19
   public final static Lscala/collection/immutable/IntMapUtils$; MODULE$

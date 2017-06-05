@@ -8,8 +8,6 @@ public class scala/math/Ordering$Boolean$ implements scala/math/Ordering$Boolean
   public static INNERCLASS scala/math/Ordering$Boolean$ scala/math/Ordering Boolean$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering scala/math/Ordering BooleanOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering$class scala/math/Ordering BooleanOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Boolean$; MODULE$

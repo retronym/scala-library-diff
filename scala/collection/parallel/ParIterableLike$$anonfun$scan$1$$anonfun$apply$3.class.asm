@@ -4,9 +4,7 @@
 // declaration: scala/collection/parallel/ParIterableLike$$anonfun$scan$1$$anonfun$apply$3 extends scala.runtime.AbstractFunction0<scala.collection.parallel.Combiner<U, That>> implements scala.Serializable
 public final class scala/collection/parallel/ParIterableLike$$anonfun$scan$1$$anonfun$apply$3 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/ParIterableLike$$anonfun$scan$1 apply (Lscala/collection/parallel/ParIterableLike$ScanTree;)Ljava/lang/Object;
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$ScanTree scala/collection/parallel/ParIterableLike ScanTree
+  OUTERCLASS scala/collection/parallel/ParIterableLike$$anonfun$scan$1 null
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$BuilderOps scala/collection/parallel/ParIterableLike BuilderOps
   // access flags 0x11

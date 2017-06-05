@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$ZippedAll$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$ZippedAll scala/collection/SeqViewLike ZippedAll
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$ZippedAll$class scala/collection/SeqViewLike ZippedAll$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/SeqViewLike$ZippedAll;)V

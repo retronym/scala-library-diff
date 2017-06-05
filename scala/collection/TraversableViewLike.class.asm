@@ -40,22 +40,6 @@ public abstract interface scala/collection/TraversableViewLike implements scala/
   public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed scala/collection/TraversableViewLike Transformed
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$DroppedWhile scala/collection/TraversableViewLike DroppedWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Forced$class scala/collection/TraversableViewLike Forced$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Sliced$class scala/collection/TraversableViewLike Sliced$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Mapped$class scala/collection/TraversableViewLike Mapped$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Appended$class scala/collection/TraversableViewLike Appended$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Filtered$class scala/collection/TraversableViewLike Filtered$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$EmptyView$class scala/collection/TraversableViewLike EmptyView$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$FlatMapped$class scala/collection/TraversableViewLike FlatMapped$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$TakenWhile$class scala/collection/TraversableViewLike TakenWhile$class
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$$anonfun$unzip$1 null null
   // access flags 0x11
@@ -64,16 +48,12 @@ public abstract interface scala/collection/TraversableViewLike implements scala/
   public final INNERCLASS scala/collection/TraversableViewLike$$anonfun$inits$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$$anonfun$tails$1 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed$class scala/collection/TraversableViewLike Transformed$class
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$$anonfun$unzip3$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$$anonfun$unzip3$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$$anonfun$unzip3$3 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$DroppedWhile$class scala/collection/TraversableViewLike DroppedWhile$class
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$$anonfun$collect$1 null null
   // access flags 0x11

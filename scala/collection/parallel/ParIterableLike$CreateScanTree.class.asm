@@ -16,12 +16,8 @@ public class scala/collection/parallel/ParIterableLike$CreateScanTree implements
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Transformer scala/collection/parallel/ParIterableLike Transformer
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/ParIterableLike$CreateScanTree scala/collection/parallel/ParIterableLike CreateScanTree
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor$class scala/collection/parallel/ParIterableLike Accessor$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask$class scala/collection/parallel/ParIterableLike StrictSplitterCheckTask$class
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$CreateScanTree$$anonfun$split$25 null null
   // access flags 0x11

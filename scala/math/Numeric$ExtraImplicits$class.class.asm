@@ -6,8 +6,6 @@ public abstract class scala/math/Numeric$ExtraImplicits$class {
   public INNERCLASS scala/math/Numeric$Ops scala/math/Numeric Ops
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$ExtraImplicits scala/math/Numeric ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ExtraImplicits$class scala/math/Numeric ExtraImplicits$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$ExtraImplicits;)V

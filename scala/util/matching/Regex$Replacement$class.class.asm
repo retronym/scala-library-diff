@@ -4,8 +4,6 @@ public abstract class scala/util/matching/Regex$Replacement$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/util/matching/Regex$Replacement scala/util/matching/Regex Replacement
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$Replacement$class scala/util/matching/Regex Replacement$class
 
   // access flags 0x9
   public static $init$(Lscala/util/matching/Regex$Replacement;)V

@@ -4,7 +4,7 @@
 // declaration: scala/beans/ScalaBeanInfo$$anonfun$1$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<java.lang.String, java.lang.Object> implements scala.Serializable
 public final class scala/beans/ScalaBeanInfo$$anonfun$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 apply (Ljava/lang/reflect/Method;)Z
+  OUTERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 null
   // access flags 0x11
   public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 null null
   // access flags 0x11

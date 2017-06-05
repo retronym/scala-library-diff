@@ -4,10 +4,6 @@
 // declaration: scala/collection/SortedMap$ extends scala.collection.generic.SortedMapFactory<scala.collection.SortedMap>
 public final class scala/collection/SortedMap$ extends scala/collection/generic/SortedMapFactory  {
 
-  // access flags 0x609
-  public static abstract INNERCLASS scala/collection/SortedMap$Default scala/collection/SortedMap Default
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/SortedMap$Default$class scala/collection/SortedMap Default$class
   // access flags 0x1
   public INNERCLASS scala/collection/generic/SortedMapFactory$SortedMapCanBuildFrom scala/collection/generic/SortedMapFactory SortedMapCanBuildFrom
 

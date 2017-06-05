@@ -19,7 +19,6 @@ trait StringLike[+Repr] extends scala.Any with scala.collection.IndexedSeqOptimi
   def replaceAllLiterally(literal: scala.Predef.String, replacement: scala.Predef.String): scala.Predef.String = { /* compiled code */ }
   def stripMargin(marginChar: scala.Char): scala.Predef.String = { /* compiled code */ }
   def stripMargin: scala.Predef.String = { /* compiled code */ }
-  @scala.throws[java.util.regex.PatternSyntaxException](java.util.regex.PatternSyntaxException)
   def split(separator: scala.Char): scala.Array[scala.Predef.String] = { /* compiled code */ }
   @scala.throws[java.util.regex.PatternSyntaxException](java.util.regex.PatternSyntaxException)
   def split(separators: scala.Array[scala.Char]): scala.Array[scala.Predef.String] = { /* compiled code */ }

@@ -4,7 +4,7 @@
 // declaration: scala/collection/TraversableLike$$anonfun$exists$1$$anonfun$apply$mcV$sp$3 extends scala.runtime.AbstractFunction1<A, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/TraversableLike$$anonfun$exists$1$$anonfun$apply$mcV$sp$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/TraversableLike$$anonfun$exists$1 apply ()V
+  OUTERCLASS scala/collection/TraversableLike$$anonfun$exists$1 null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableLike$$anonfun$exists$1 null null
   // access flags 0x11

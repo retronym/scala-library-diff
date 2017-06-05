@@ -4,7 +4,7 @@
 // declaration: scala/collection/TraversableViewLike$FlatMapped$$anonfun$foreach$3$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<B, U> implements scala.Serializable
 public final class scala/collection/TraversableViewLike$FlatMapped$$anonfun$foreach$3$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/TraversableViewLike$FlatMapped$$anonfun$foreach$3 apply (Ljava/lang/Object;)V
+  OUTERCLASS scala/collection/TraversableViewLike$FlatMapped$$anonfun$foreach$3 null
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$FlatMapped scala/collection/TraversableViewLike FlatMapped
   // access flags 0x11

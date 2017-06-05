@@ -6,14 +6,6 @@ public final class scala/util/control/TailCalls$ {
   public static INNERCLASS scala/util/control/TailCalls$Call scala/util/control/TailCalls Call
   // access flags 0x9
   public static INNERCLASS scala/util/control/TailCalls$Done scala/util/control/TailCalls Done
-  // access flags 0x9
-  public static INNERCLASS scala/util/control/TailCalls$Call$ scala/util/control/TailCalls Call$
-  // access flags 0x9
-  public static INNERCLASS scala/util/control/TailCalls$Done$ scala/util/control/TailCalls Done$
-  // access flags 0x9
-  public static INNERCLASS scala/util/control/TailCalls$Cont scala/util/control/TailCalls Cont
-  // access flags 0x9
-  public static INNERCLASS scala/util/control/TailCalls$Cont$ scala/util/control/TailCalls Cont$
   // access flags 0x409
   public static abstract INNERCLASS scala/util/control/TailCalls$TailRec scala/util/control/TailCalls TailRec
 

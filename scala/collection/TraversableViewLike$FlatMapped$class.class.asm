@@ -4,8 +4,6 @@ public abstract class scala/collection/TraversableViewLike$FlatMapped$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$FlatMapped scala/collection/TraversableViewLike FlatMapped
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$FlatMapped$class scala/collection/TraversableViewLike FlatMapped$class
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$FlatMapped$$anonfun$foreach$3 null null
 

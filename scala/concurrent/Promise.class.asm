@@ -5,8 +5,6 @@
 public abstract interface scala/concurrent/Promise {
 
   // access flags 0x11
-  public final INNERCLASS scala/concurrent/Promise$$anonfun$completeWith$1 null null
-  // access flags 0x11
   public final INNERCLASS scala/concurrent/Promise$$anonfun$tryCompleteWith$1 null null
 
   // access flags 0x401

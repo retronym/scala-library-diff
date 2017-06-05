@@ -7,8 +7,6 @@ public final class scala/math/Ordering$DoubleOrdering$$anon$2 implements scala/m
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering scala/math/Ordering DoubleOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering$class scala/math/Ordering DoubleOrdering$class
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$DoubleOrdering$$anon$2 null null
 
@@ -177,9 +175,10 @@ public final class scala/math/Ordering$DoubleOrdering$$anon$2 implements scala/m
   // access flags 0x1
   public max(DD)D
     ALOAD 0
+    GETFIELD scala/math/Ordering$DoubleOrdering$$anon$2.$outer : Lscala/math/Ordering$DoubleOrdering;
     DLOAD 1
     DLOAD 3
-    INVOKESTATIC scala/math/Ordering$DoubleOrdering$class.max (Lscala/math/Ordering$DoubleOrdering;DD)D
+    INVOKEINTERFACE scala/math/Ordering$DoubleOrdering.min (DD)D
     DRETURN
     MAXSTACK = 5
     MAXLOCALS = 5
@@ -200,9 +199,10 @@ public final class scala/math/Ordering$DoubleOrdering$$anon$2 implements scala/m
   // access flags 0x1
   public min(DD)D
     ALOAD 0
+    GETFIELD scala/math/Ordering$DoubleOrdering$$anon$2.$outer : Lscala/math/Ordering$DoubleOrdering;
     DLOAD 1
     DLOAD 3
-    INVOKESTATIC scala/math/Ordering$DoubleOrdering$class.min (Lscala/math/Ordering$DoubleOrdering;DD)D
+    INVOKEINTERFACE scala/math/Ordering$DoubleOrdering.max (DD)D
     DRETURN
     MAXSTACK = 5
     MAXLOCALS = 5

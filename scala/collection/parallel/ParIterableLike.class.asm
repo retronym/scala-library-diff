@@ -154,10 +154,6 @@ public abstract interface scala/collection/parallel/ParIterableLike implements s
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$to$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/ParIterableLike$CreateScanTree scala/collection/parallel/ParIterableLike CreateScanTree
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor$class scala/collection/parallel/ParIterableLike Accessor$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$ScanTree$class scala/collection/parallel/ParIterableLike ScanTree$class
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$min$1 null null
   // access flags 0x11
@@ -184,8 +180,6 @@ public abstract interface scala/collection/parallel/ParIterableLike implements s
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$span$1 null null
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$NonDivisibleTask scala/collection/parallel/ParIterableLike NonDivisibleTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$BuilderOps$class scala/collection/parallel/ParIterableLike BuilderOps$class
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$maxBy$1 null null
   // access flags 0x11
@@ -234,16 +228,12 @@ public abstract interface scala/collection/parallel/ParIterableLike implements s
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$$plus$plus$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$$plus$plus$3 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$NonDivisibleTask$class scala/collection/parallel/ParIterableLike NonDivisibleTask$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$toParCollection$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$printDebugBuffer$1 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask$class scala/collection/parallel/ParIterableLike StrictSplitterCheckTask$class
 
   // access flags 0x401
   // signature <S:Ljava/lang/Object;>(TS;Lscala/Function2<TT;TS;TS;>;)TS;

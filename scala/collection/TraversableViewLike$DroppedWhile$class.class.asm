@@ -4,8 +4,6 @@ public abstract class scala/collection/TraversableViewLike$DroppedWhile$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$DroppedWhile scala/collection/TraversableViewLike DroppedWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$DroppedWhile$class scala/collection/TraversableViewLike DroppedWhile$class
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableViewLike$DroppedWhile$$anonfun$foreach$6 null null
 

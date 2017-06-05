@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/concurrent/duration/Deadline$ implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/Deadline$DeadlineIsOrdered$ scala/concurrent/duration/Deadline DeadlineIsOrdered$
 
   // access flags 0x19
   public final static Lscala/concurrent/duration/Deadline$; MODULE$

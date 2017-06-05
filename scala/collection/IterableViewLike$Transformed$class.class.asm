@@ -4,8 +4,6 @@ public abstract class scala/collection/IterableViewLike$Transformed$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Transformed scala/collection/IterableViewLike Transformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Transformed$class scala/collection/IterableViewLike Transformed$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/IterableViewLike$Transformed;)V

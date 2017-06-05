@@ -8,8 +8,6 @@ public class scala/math/Ordering$BigInt$ implements scala/math/Ordering$BigIntOr
   public static INNERCLASS scala/math/Ordering$BigInt$ scala/math/Ordering BigInt$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering scala/math/Ordering BigIntOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering$class scala/math/Ordering BigIntOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$BigInt$; MODULE$

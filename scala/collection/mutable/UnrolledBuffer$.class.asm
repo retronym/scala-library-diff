@@ -4,10 +4,6 @@
 // declaration: scala/collection/mutable/UnrolledBuffer$ extends scala.collection.generic.ClassTagTraversableFactory<scala.collection.mutable.UnrolledBuffer> implements scala.Serializable
 public final class scala/collection/mutable/UnrolledBuffer$ extends scala/collection/generic/ClassTagTraversableFactory  implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled scala/collection/mutable/UnrolledBuffer Unrolled
-  // access flags 0x9
-  public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled$ scala/collection/mutable/UnrolledBuffer Unrolled$
   // access flags 0x1
   public INNERCLASS scala/collection/generic/ClassTagTraversableFactory$GenericCanBuildFrom scala/collection/generic/ClassTagTraversableFactory GenericCanBuildFrom
 

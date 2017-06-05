@@ -22,15 +22,9 @@ public class scala/collection/mutable/BitSet extends scala/collection/mutable/Ab
 
   // access flags 0x1
   public $amp$eq(Lscala/collection/mutable/BitSet;)Lscala/collection/mutable/BitSet;
-    ALOAD 0
-    ALOAD 1
-    INVOKEVIRTUAL scala/collection/mutable/BitSet.nwords ()I
-    ICONST_1
-    ISUB
-    INVOKEVIRTUAL scala/collection/mutable/BitSet.ensureCapacity (I)V
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
     ASTORE 2
-    ALOAD 1
+    ALOAD 0
     INVOKEVIRTUAL scala/collection/mutable/BitSet.nwords ()I
     ISTORE 4
     GETSTATIC scala/collection/immutable/Range$.MODULE$ : Lscala/collection/immutable/Range$;
@@ -1349,7 +1343,8 @@ public class scala/collection/mutable/BitSet extends scala/collection/mutable/Ab
     MAXSTACK = 2
     MAXLOCALS = 2
 
-  // access flags 0x1
+  // DEPRECATED
+  // access flags 0x20001
   public toImmutable()Lscala/collection/immutable/BitSet;
     GETSTATIC scala/collection/immutable/BitSet$.MODULE$ : Lscala/collection/immutable/BitSet$;
     ALOAD 0

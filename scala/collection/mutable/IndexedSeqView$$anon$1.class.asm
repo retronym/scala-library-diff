@@ -15,18 +15,10 @@ public final class scala/collection/mutable/IndexedSeqView$$anon$1 extends scala
   public abstract INNERCLASS scala/collection/IterableViewLike$Filtered scala/collection/IterableViewLike Filtered
   // access flags 0x601
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Transformed scala/collection/mutable/IndexedSeqView Transformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Filtered$class scala/collection/SeqViewLike Filtered$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Filtered scala/collection/TraversableViewLike Filtered
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Filtered$class scala/collection/mutable/IndexedSeqView Filtered$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Filtered$class scala/collection/IterableViewLike Filtered$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$AbstractTransformed scala/collection/mutable/IndexedSeqView AbstractTransformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Filtered$class scala/collection/TraversableViewLike Filtered$class
 
   // access flags 0x1012
   private final synthetic Lscala/collection/mutable/IndexedSeqView; $outer

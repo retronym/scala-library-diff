@@ -10,8 +10,6 @@ public class scala/collection/convert/Wrappers$IterableWrapper extends java/util
   public INNERCLASS scala/collection/convert/Wrappers$IteratorWrapper scala/collection/convert/Wrappers IteratorWrapper
   // access flags 0x601
   public abstract INNERCLASS scala/collection/convert/Wrappers$IterableWrapperTrait scala/collection/convert/Wrappers IterableWrapperTrait
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/convert/Wrappers$IterableWrapperTrait$class scala/collection/convert/Wrappers IterableWrapperTrait$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/convert/Wrappers; $outer

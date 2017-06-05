@@ -4,7 +4,7 @@
 // declaration: scala/concurrent/Future$$anonfun$sequence$1$$anonfun$apply$10$$anonfun$apply$11 extends scala.runtime.AbstractFunction1<A, scala.collection.mutable.Builder<A, M>> implements scala.Serializable
 public final class scala/concurrent/Future$$anonfun$sequence$1$$anonfun$apply$10$$anonfun$apply$11 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/Future$$anonfun$sequence$1$$anonfun$apply$10 apply (Lscala/collection/mutable/Builder;)Lscala/concurrent/Future;
+  OUTERCLASS scala/concurrent/Future$$anonfun$sequence$1$$anonfun$apply$10 null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$sequence$1 null null
   // access flags 0x11

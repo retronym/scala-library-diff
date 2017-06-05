@@ -4,8 +4,6 @@
 // declaration: scala/collection/immutable/IndexedSeq$ extends scala.collection.generic.IndexedSeqFactory<scala.collection.immutable.IndexedSeq>
 public final class scala/collection/immutable/IndexedSeq$ extends scala/collection/generic/IndexedSeqFactory  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/IndexedSeq$Impl scala/collection/immutable/IndexedSeq Impl
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

@@ -4,8 +4,6 @@ public abstract class scala/math/Ordering$LongOrdering$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$LongOrdering scala/math/Ordering LongOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$LongOrdering$class scala/math/Ordering LongOrdering$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Ordering$LongOrdering;)V

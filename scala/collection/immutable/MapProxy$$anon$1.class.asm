@@ -4,7 +4,7 @@
 // declaration: scala/collection/immutable/MapProxy$$anon$1 implements scala.collection.immutable.MapProxy<A, java.lang.Object>
 public final class scala/collection/immutable/MapProxy$$anon$1 implements scala/collection/immutable/MapProxy  {
 
-  OUTERCLASS scala/collection/immutable/MapProxy newProxy (Lscala/collection/immutable/MapProxy;Lscala/collection/immutable/Map;)Lscala/collection/immutable/MapProxy;
+  OUTERCLASS scala/collection/immutable/MapProxy null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/MapProxy$$anon$1 null null
   // access flags 0x409

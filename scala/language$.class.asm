@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/language$ {
 
-  // access flags 0x9
-  public static INNERCLASS scala/language$experimental$ scala/language experimental$
   // access flags 0x609
   public static abstract INNERCLASS scala/languageFeature$dynamics scala/languageFeature dynamics
   // access flags 0x9

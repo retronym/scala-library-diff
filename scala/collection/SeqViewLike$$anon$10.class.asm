@@ -14,11 +14,7 @@ public final class scala/collection/SeqViewLike$$anon$10 extends scala/collectio
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$ZippedAll scala/collection/IterableViewLike ZippedAll
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$ZippedAll$class scala/collection/SeqViewLike ZippedAll$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/SeqViewLike$AbstractTransformed scala/collection/SeqViewLike AbstractTransformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$ZippedAll$class scala/collection/IterableViewLike ZippedAll$class
 
   // access flags 0x1012
   private final synthetic Lscala/collection/SeqViewLike; $outer

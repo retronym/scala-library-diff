@@ -12,8 +12,6 @@ public final class scala/collection/TraversableViewLike$$anon$4 extends scala/co
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed scala/collection/TraversableViewLike Transformed
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$FlatMapped$class scala/collection/TraversableViewLike FlatMapped$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/TraversableViewLike$AbstractTransformed scala/collection/TraversableViewLike AbstractTransformed
 
   // access flags 0x1012

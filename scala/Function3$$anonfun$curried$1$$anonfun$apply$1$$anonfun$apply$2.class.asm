@@ -4,7 +4,7 @@
 // declaration: scala/Function3$$anonfun$curried$1$$anonfun$apply$1$$anonfun$apply$2 extends scala.runtime.AbstractFunction1<T3, R> implements scala.Serializable
 public final class scala/Function3$$anonfun$curried$1$$anonfun$apply$1$$anonfun$apply$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/Function3$$anonfun$curried$1$$anonfun$apply$1 apply (Ljava/lang/Object;)Lscala/Function1;
+  OUTERCLASS scala/Function3$$anonfun$curried$1$$anonfun$apply$1 null
   // access flags 0x11
   public final INNERCLASS scala/Function3$$anonfun$curried$1 null null
   // access flags 0x11

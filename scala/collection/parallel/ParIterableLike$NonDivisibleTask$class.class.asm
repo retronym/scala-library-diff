@@ -4,8 +4,6 @@ public abstract class scala/collection/parallel/ParIterableLike$NonDivisibleTask
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$NonDivisibleTask scala/collection/parallel/ParIterableLike NonDivisibleTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$NonDivisibleTask$class scala/collection/parallel/ParIterableLike NonDivisibleTask$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/parallel/ParIterableLike$NonDivisibleTask;)V

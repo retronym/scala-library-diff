@@ -16,12 +16,6 @@ public class scala/math/Numeric$FloatIsFractional$ implements scala/math/Numeric
   public static abstract INNERCLASS scala/math/Numeric$FloatIsFractional scala/math/Numeric FloatIsFractional
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$FloatIsConflicted scala/math/Numeric FloatIsConflicted
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering$class scala/math/Ordering FloatOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatIsFractional$class scala/math/Numeric FloatIsFractional$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatIsConflicted$class scala/math/Numeric FloatIsConflicted$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$FloatIsFractional$; MODULE$

@@ -2,32 +2,10 @@
 // access flags 0x31
 public final class scala/math/Ordering$ implements scala/math/LowPriorityOrderingImplicits scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Int$ scala/math/Ordering Int$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Unit$ scala/math/Ordering Unit$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Byte$ scala/math/Ordering Byte$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Char$ scala/math/Ordering Char$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Long$ scala/math/Ordering Long$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Short$ scala/math/Ordering Short$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Float$ scala/math/Ordering Float$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Double$ scala/math/Ordering Double$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$BigInt$ scala/math/Ordering BigInt$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$String$ scala/math/Ordering String$
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$$anon$9 null null
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$$anon$3 null null
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Boolean$ scala/math/Ordering Boolean$
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$$anon$10 null null
   // access flags 0x11
@@ -46,68 +24,8 @@ public final class scala/math/Ordering$ implements scala/math/LowPriorityOrderin
   public final INNERCLASS scala/math/Ordering$$anon$17 null null
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$$anon$18 null null
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$Implicits$ scala/math/Ordering Implicits$
-  // access flags 0x9
-  public static INNERCLASS scala/math/Ordering$BigDecimal$ scala/math/Ordering BigDecimal$
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$IntOrdering scala/math/Ordering IntOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$UnitOrdering scala/math/Ordering UnitOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$ByteOrdering scala/math/Ordering ByteOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$CharOrdering scala/math/Ordering CharOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$LongOrdering scala/math/Ordering LongOrdering
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$$anonfun$by$1 null null
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$ShortOrdering scala/math/Ordering ShortOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering scala/math/Ordering FloatOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits scala/math/Ordering ExtraImplicits
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering scala/math/Ordering DoubleOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering scala/math/Ordering BigIntOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$StringOrdering scala/math/Ordering StringOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$OptionOrdering scala/math/Ordering OptionOrdering
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering scala/math/Ordering BooleanOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$IntOrdering$class scala/math/Ordering IntOrdering$class
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering scala/math/Ordering BigDecimalOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ByteOrdering$class scala/math/Ordering ByteOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$CharOrdering$class scala/math/Ordering CharOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$LongOrdering$class scala/math/Ordering LongOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$UnitOrdering$class scala/math/Ordering UnitOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ShortOrdering$class scala/math/Ordering ShortOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering$class scala/math/Ordering FloatOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$StringOrdering$class scala/math/Ordering StringOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering$class scala/math/Ordering BigIntOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering$class scala/math/Ordering DoubleOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits$class scala/math/Ordering ExtraImplicits$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$OptionOrdering$class scala/math/Ordering OptionOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering$class scala/math/Ordering BooleanOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering$class scala/math/Ordering BigDecimalOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$; MODULE$

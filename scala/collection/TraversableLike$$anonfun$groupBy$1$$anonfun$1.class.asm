@@ -4,7 +4,7 @@
 // declaration: scala/collection/TraversableLike$$anonfun$groupBy$1$$anonfun$1 extends scala.runtime.AbstractFunction0<scala.collection.mutable.Builder<A, Repr>> implements scala.Serializable
 public final class scala/collection/TraversableLike$$anonfun$groupBy$1$$anonfun$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/TraversableLike groupBy (Lscala/Function1;)Lscala/collection/immutable/Map;
+  OUTERCLASS scala/collection/TraversableLike$$anonfun$groupBy$1 null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableLike$$anonfun$groupBy$1 null null
   // access flags 0x11

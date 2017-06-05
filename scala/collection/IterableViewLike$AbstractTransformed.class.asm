@@ -11,11 +11,7 @@ public abstract class scala/collection/IterableViewLike$AbstractTransformed impl
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed scala/collection/TraversableViewLike Transformed
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Transformed$class scala/collection/IterableViewLike Transformed$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/IterableViewLike$AbstractTransformed scala/collection/IterableViewLike AbstractTransformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed$class scala/collection/TraversableViewLike Transformed$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/IterableViewLike; $outer

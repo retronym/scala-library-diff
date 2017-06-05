@@ -12,8 +12,6 @@ public final class scala/collection/SeqViewLike$$anon$12 extends scala/collectio
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Transformed scala/collection/SeqViewLike Transformed
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Patched$class scala/collection/SeqViewLike Patched$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/SeqViewLike$AbstractTransformed scala/collection/SeqViewLike AbstractTransformed
 
   // access flags 0x1012

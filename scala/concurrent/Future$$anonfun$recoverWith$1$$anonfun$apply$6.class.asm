@@ -4,7 +4,7 @@
 // declaration: scala/concurrent/Future$$anonfun$recoverWith$1$$anonfun$apply$6 extends scala.runtime.AbstractFunction1<scala.util.Try<U>, scala.concurrent.Promise<U>> implements scala.Serializable
 public final class scala/concurrent/Future$$anonfun$recoverWith$1$$anonfun$apply$6 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/Future$$anonfun$recoverWith$1 apply (Lscala/util/Try;)Ljava/lang/Object;
+  OUTERCLASS scala/concurrent/Future$$anonfun$recoverWith$1 null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$recoverWith$1 null null
   // access flags 0x11

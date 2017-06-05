@@ -64,12 +64,13 @@ public final class scala/collection/generic/GenericTraversableTemplate$$anonfun$
     ALOAD 1
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
     CHECKCAST scala/collection/GenTraversableOnce
+    INVOKEINTERFACE scala/collection/GenTraversableOnce.seq ()Lscala/collection/TraversableOnce;
     NEW scala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1$$anonfun$apply$1
     DUP
     ALOAD 0
     ALOAD 2
     INVOKESPECIAL scala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1$$anonfun$apply$1.<init> (Lscala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1;Lscala/runtime/IntRef;)V
-    INVOKEINTERFACE scala/collection/GenTraversableOnce.foreach (Lscala/Function1;)V
+    INVOKEINTERFACE scala/collection/TraversableOnce.foreach (Lscala/Function1;)V
     ALOAD 2
     GETFIELD scala/runtime/IntRef.elem : I
     ALOAD 0

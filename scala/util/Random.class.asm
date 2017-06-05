@@ -8,8 +8,6 @@ public class scala/util/Random implements scala/Serializable  {
   public final INNERCLASS scala/util/Random$$anonfun$nextString$1 null null
   // access flags 0x11
   public final INNERCLASS scala/util/Random$$anonfun$alphanumeric$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/Random$$anonfun$alphanumeric$2 null null
 
   // access flags 0x12
   private final Ljava/util/Random; self
@@ -68,11 +66,6 @@ public class scala/util/Random implements scala/Serializable  {
     ALOAD 0
     INVOKESPECIAL scala/util/Random$$anonfun$alphanumeric$1.<init> (Lscala/util/Random;)V
     INVOKEVIRTUAL scala/collection/immutable/Stream$.continually (Lscala/Function0;)Lscala/collection/immutable/Stream;
-    NEW scala/util/Random$$anonfun$alphanumeric$2
-    DUP
-    ALOAD 0
-    INVOKESPECIAL scala/util/Random$$anonfun$alphanumeric$2.<init> (Lscala/util/Random;)V
-    INVOKEVIRTUAL scala/collection/immutable/Stream.filter (Lscala/Function1;)Lscala/collection/immutable/Stream;
     ARETURN
     MAXSTACK = 4
     MAXLOCALS = 1
@@ -190,7 +183,8 @@ public class scala/util/Random implements scala/Serializable  {
     MAXSTACK = 5
     MAXLOCALS = 2
 
-  // access flags 0x11
+  // DEPRECATED
+  // access flags 0x20011
   public final scala$util$Random$$isAlphaNum$1(C)Z
     ILOAD 1
     BIPUSH 65
@@ -221,6 +215,19 @@ public class scala/util/Random implements scala/Serializable  {
     IRETURN
     MAXSTACK = 2
     MAXLOCALS = 2
+
+  // access flags 0x11
+  public final scala$util$Random$$nextAlphaNum$1()C
+    LDC "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    ALOAD 0
+    INVOKEVIRTUAL scala/util/Random.self ()Ljava/util/Random;
+    LDC "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    INVOKEVIRTUAL java/lang/String.length ()I
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    INVOKEVIRTUAL java/lang/String.charAt (I)C
+    IRETURN
+    MAXSTACK = 3
+    MAXLOCALS = 1
 
   // access flags 0x11
   public final scala$util$Random$$safeChar$1()C

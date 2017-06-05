@@ -4,8 +4,6 @@ public abstract class scala/collection/IterableViewLike$DroppedWhile$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$DroppedWhile scala/collection/IterableViewLike DroppedWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$DroppedWhile$class scala/collection/IterableViewLike DroppedWhile$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/IterableViewLike$DroppedWhile;)V

@@ -7,8 +7,6 @@ public final class scala/math/Ordering$FloatOrdering$$anon$1 implements scala/ma
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$FloatOrdering scala/math/Ordering FloatOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering$class scala/math/Ordering FloatOrdering$class
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$FloatOrdering$$anon$1 null null
 
@@ -177,9 +175,10 @@ public final class scala/math/Ordering$FloatOrdering$$anon$1 implements scala/ma
   // access flags 0x1
   public max(FF)F
     ALOAD 0
+    GETFIELD scala/math/Ordering$FloatOrdering$$anon$1.$outer : Lscala/math/Ordering$FloatOrdering;
     FLOAD 1
     FLOAD 2
-    INVOKESTATIC scala/math/Ordering$FloatOrdering$class.max (Lscala/math/Ordering$FloatOrdering;FF)F
+    INVOKEINTERFACE scala/math/Ordering$FloatOrdering.min (FF)F
     FRETURN
     MAXSTACK = 3
     MAXLOCALS = 3
@@ -200,9 +199,10 @@ public final class scala/math/Ordering$FloatOrdering$$anon$1 implements scala/ma
   // access flags 0x1
   public min(FF)F
     ALOAD 0
+    GETFIELD scala/math/Ordering$FloatOrdering$$anon$1.$outer : Lscala/math/Ordering$FloatOrdering;
     FLOAD 1
     FLOAD 2
-    INVOKESTATIC scala/math/Ordering$FloatOrdering$class.min (Lscala/math/Ordering$FloatOrdering;FF)F
+    INVOKEINTERFACE scala/math/Ordering$FloatOrdering.max (FF)F
     FRETURN
     MAXSTACK = 3
     MAXLOCALS = 3

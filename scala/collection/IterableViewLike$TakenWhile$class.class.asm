@@ -4,8 +4,6 @@ public abstract class scala/collection/IterableViewLike$TakenWhile$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$TakenWhile scala/collection/IterableViewLike TakenWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$TakenWhile$class scala/collection/IterableViewLike TakenWhile$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/IterableViewLike$TakenWhile;)V

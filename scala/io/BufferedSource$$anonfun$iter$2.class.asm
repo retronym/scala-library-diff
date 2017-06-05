@@ -2,7 +2,7 @@
 // access flags 0x31
 public final class scala/io/BufferedSource$$anonfun$iter$2 extends scala/runtime/AbstractFunction1$mcZI$sp  implements scala/Serializable  {
 
-  OUTERCLASS scala/io/BufferedSource iter ()Lscala/collection/Iterator;
+  OUTERCLASS scala/io/BufferedSource null
   // access flags 0x11
   public final INNERCLASS scala/io/BufferedSource$$anonfun$iter$2 null null
 

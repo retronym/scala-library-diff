@@ -4,7 +4,7 @@
 // declaration: scala/reflect/ClassManifestDeprecatedApis$$anonfun$subargs$1 extends scala.runtime.AbstractFunction2<scala.reflect.OptManifest<?>, scala.reflect.OptManifest<?>, java.lang.Object> implements scala.Serializable
 public final class scala/reflect/ClassManifestDeprecatedApis$$anonfun$subargs$1 extends scala/runtime/AbstractFunction2  implements scala/Serializable  {
 
-  OUTERCLASS scala/reflect/ClassManifestDeprecatedApis subargs (Lscala/reflect/ClassTag;Lscala/collection/immutable/List;Lscala/collection/immutable/List;)Z
+  OUTERCLASS scala/reflect/ClassManifestDeprecatedApis null
   // access flags 0x11
   public final INNERCLASS scala/reflect/ClassManifestDeprecatedApis$$anonfun$subargs$1 null null
 

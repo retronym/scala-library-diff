@@ -8,8 +8,6 @@ public final class scala/collection/mutable/AnyRefMap$ {
   public final INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$apply$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$AnyRefMapBuilder scala/collection/mutable/AnyRefMap AnyRefMapBuilder
 
   // access flags 0x12
   private final I IndexMask

@@ -4,8 +4,6 @@ public abstract class scala/sys/process/ProcessBuilder$Source$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source scala/sys/process/ProcessBuilder Source
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source$class scala/sys/process/ProcessBuilder Source$class
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$FileOutput scala/sys/process/ProcessBuilderImpl FileOutput
   // access flags 0x1

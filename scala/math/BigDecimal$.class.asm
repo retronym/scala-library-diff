@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/math/BigDecimal$ implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/math/BigDecimal$RoundingMode$ scala/math/BigDecimal RoundingMode$
 
   // access flags 0x19
   public final static Lscala/math/BigDecimal$; MODULE$

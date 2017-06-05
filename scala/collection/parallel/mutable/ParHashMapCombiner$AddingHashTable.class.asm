@@ -8,8 +8,6 @@ public class scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTabl
   public static INNERCLASS scala/collection/mutable/HashTable$Contents scala/collection/mutable/HashTable Contents
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils scala/collection/mutable/HashTable HashUtils
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable scala/collection/parallel/mutable/ParHashMapCombiner AddingHashTable
 

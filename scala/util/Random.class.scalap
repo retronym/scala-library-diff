@@ -17,6 +17,8 @@ class Random extends scala.AnyRef with scala.Serializable {
   def nextPrintableChar(): scala.Char = { /* compiled code */ }
   def setSeed(seed: scala.Long): scala.Unit = { /* compiled code */ }
   def shuffle[T, CC[X] <: scala.TraversableOnce[X]](xs: CC[T])(implicit bf: scala.collection.generic.CanBuildFrom[CC[T], T, CC[T]]): CC[T] = { /* compiled code */ }
+  @scala.deprecated("Preserved for backwards binary compatibility. To remove in 2.12.x.")
+  final def isAlphaNum$1(c: scala.Char): scala.Boolean = { /* compiled code */ }
   def alphanumeric: scala.collection.immutable.Stream[scala.Char] = { /* compiled code */ }
 }
 object Random extends scala.util.Random {

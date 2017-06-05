@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/math/Integral$ implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/math/Integral$Implicits$ scala/math/Integral Implicits$
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Integral$ExtraImplicits scala/math/Integral ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Integral$ExtraImplicits$class scala/math/Integral ExtraImplicits$class
 
   // access flags 0x19
   public final static Lscala/math/Integral$; MODULE$

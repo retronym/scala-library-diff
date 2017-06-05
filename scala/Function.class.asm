@@ -2,32 +2,6 @@
 // access flags 0x31
 public final class scala/Function {
 
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$chain$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$tupled$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$tupled$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$tupled$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$tupled$4 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$untupled$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$untupled$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$untupled$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$untupled$4 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$uncurried$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$uncurried$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$uncurried$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/Function$$anonfun$uncurried$4 null null
 
   // access flags 0x9
   // signature <a:Ljava/lang/Object;>(Lscala/collection/Seq<Lscala/Function1<Ta;Ta;>;>;)Lscala/Function1<Ta;Ta;>;

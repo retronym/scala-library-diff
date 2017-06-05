@@ -4,14 +4,6 @@ public final class scala/collection/mutable/FlatHashTable$ {
 
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/FlatHashTable$$anon$2 null null
-  // access flags 0x9
-  public static INNERCLASS scala/collection/mutable/FlatHashTable$Contents scala/collection/mutable/FlatHashTable Contents
-  // access flags 0x609
-  public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils scala/collection/mutable/FlatHashTable HashUtils
-  // access flags 0x9
-  public static INNERCLASS scala/collection/mutable/FlatHashTable$NullSentinel$ scala/collection/mutable/FlatHashTable NullSentinel$
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils$class scala/collection/mutable/FlatHashTable HashUtils$class
 
   // access flags 0x19
   public final static Lscala/collection/mutable/FlatHashTable$; MODULE$

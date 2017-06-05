@@ -2,34 +2,6 @@
 // access flags 0x31
 public final class scala/concurrent/duration/package$ {
 
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$span$ scala/concurrent/duration/package span$
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$fromNow$ scala/concurrent/duration/package fromNow$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/package$IntMult scala/concurrent/duration/package IntMult
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$IntMult$ scala/concurrent/duration/package IntMult$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/package$LongMult scala/concurrent/duration/package LongMult
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$LongMult$ scala/concurrent/duration/package LongMult$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/package$DoubleMult scala/concurrent/duration/package DoubleMult
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$DoubleMult$ scala/concurrent/duration/package DoubleMult$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/package$DurationInt scala/concurrent/duration/package DurationInt
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$DurationInt$ scala/concurrent/duration/package DurationInt$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/package$DurationLong scala/concurrent/duration/package DurationLong
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$DurationLong$ scala/concurrent/duration/package DurationLong$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/package$DurationDouble scala/concurrent/duration/package DurationDouble
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/package$DurationDouble$ scala/concurrent/duration/package DurationDouble$
 
   // access flags 0x12
   private final Ljava/util/concurrent/TimeUnit; DAYS

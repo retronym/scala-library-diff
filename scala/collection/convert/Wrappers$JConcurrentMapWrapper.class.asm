@@ -8,8 +8,6 @@ public class scala/collection/convert/Wrappers$JConcurrentMapWrapper extends sca
   public abstract INNERCLASS scala/collection/convert/Wrappers$JMapWrapperLike scala/collection/convert/Wrappers JMapWrapperLike
   // access flags 0x1
   public INNERCLASS scala/collection/convert/Wrappers$JConcurrentMapWrapper scala/collection/convert/Wrappers JConcurrentMapWrapper
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/convert/Wrappers$JMapWrapperLike$class scala/collection/convert/Wrappers JMapWrapperLike$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/convert/Wrappers; $outer

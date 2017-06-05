@@ -4,8 +4,6 @@ public abstract class scala/collection/convert/Wrappers$JMapWrapperLike$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/convert/Wrappers$JMapWrapperLike scala/collection/convert/Wrappers JMapWrapperLike
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/convert/Wrappers$JMapWrapperLike$class scala/collection/convert/Wrappers JMapWrapperLike$class
   // access flags 0x11
   public final INNERCLASS scala/collection/convert/Wrappers$JMapWrapperLike$$anon$2 null null
 

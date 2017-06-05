@@ -4,7 +4,7 @@
 // declaration: scala/collection/mutable/ArrayOps$$anonfun$transpose$1$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<U, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/mutable/ArrayOps$$anonfun$transpose$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/mutable/ArrayOps$$anonfun$transpose$1 apply (Ljava/lang/Object;)V
+  OUTERCLASS scala/collection/mutable/ArrayOps$$anonfun$transpose$1 null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/ArrayOps$$anonfun$transpose$1 null null
   // access flags 0x11

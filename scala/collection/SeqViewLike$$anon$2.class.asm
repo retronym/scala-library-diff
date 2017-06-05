@@ -13,16 +13,10 @@ public final class scala/collection/SeqViewLike$$anon$2 extends scala/collection
   public abstract INNERCLASS scala/collection/SeqViewLike$Transformed scala/collection/SeqViewLike Transformed
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Appended scala/collection/IterableViewLike Appended
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Appended$class scala/collection/SeqViewLike Appended$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Appended scala/collection/TraversableViewLike Appended
   // access flags 0x401
   public abstract INNERCLASS scala/collection/SeqViewLike$AbstractTransformed scala/collection/SeqViewLike AbstractTransformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Appended$class scala/collection/IterableViewLike Appended$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Appended$class scala/collection/TraversableViewLike Appended$class
 
   // access flags 0x1012
   private final synthetic Lscala/collection/SeqViewLike; $outer

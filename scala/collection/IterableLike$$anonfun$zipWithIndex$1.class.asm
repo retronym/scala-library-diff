@@ -9,7 +9,7 @@ public final class scala/collection/IterableLike$$anonfun$zipWithIndex$1 extends
   public final INNERCLASS scala/collection/IterableLike$$anonfun$zipWithIndex$1 null null
 
   // access flags 0x12
-  private final Lscala/collection/mutable/Builder; b$2
+  private final Lscala/collection/mutable/Builder; b$1
 
   // access flags 0x12
   private final Lscala/runtime/IntRef; i$1
@@ -23,7 +23,7 @@ public final class scala/collection/IterableLike$$anonfun$zipWithIndex$1 extends
   public <init>(Lscala/collection/IterableLike;Lscala/collection/mutable/Builder;Lscala/runtime/IntRef;)V
     ALOAD 0
     ALOAD 2
-    PUTFIELD scala/collection/IterableLike$$anonfun$zipWithIndex$1.b$2 : Lscala/collection/mutable/Builder;
+    PUTFIELD scala/collection/IterableLike$$anonfun$zipWithIndex$1.b$1 : Lscala/collection/mutable/Builder;
     ALOAD 0
     ALOAD 3
     PUTFIELD scala/collection/IterableLike$$anonfun$zipWithIndex$1.i$1 : Lscala/runtime/IntRef;
@@ -38,7 +38,7 @@ public final class scala/collection/IterableLike$$anonfun$zipWithIndex$1 extends
   // declaration: void apply(A)
   public final apply(Ljava/lang/Object;)V
     ALOAD 0
-    GETFIELD scala/collection/IterableLike$$anonfun$zipWithIndex$1.b$2 : Lscala/collection/mutable/Builder;
+    GETFIELD scala/collection/IterableLike$$anonfun$zipWithIndex$1.b$1 : Lscala/collection/mutable/Builder;
     NEW scala/Tuple2
     DUP
     ALOAD 1

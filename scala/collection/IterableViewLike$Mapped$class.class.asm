@@ -4,8 +4,6 @@ public abstract class scala/collection/IterableViewLike$Mapped$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Mapped scala/collection/IterableViewLike Mapped
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Mapped$class scala/collection/IterableViewLike Mapped$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/IterableViewLike$Mapped;)V

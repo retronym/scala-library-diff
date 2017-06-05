@@ -206,8 +206,8 @@ public abstract class scala/util/Either {
     MAXLOCALS = 1
 
   // access flags 0x1
-  // signature ()Lscala/Serializable;
-  // declaration: scala.Serializable swap()
+  // signature ()Lscala/Product;
+  // declaration: scala.Product swap()
   public swap()Lscala/util/Either;
     ALOAD 0
     INSTANCEOF scala/util/Left

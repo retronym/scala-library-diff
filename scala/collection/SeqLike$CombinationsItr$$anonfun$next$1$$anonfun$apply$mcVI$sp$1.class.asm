@@ -4,7 +4,7 @@
 // declaration: scala/collection/SeqLike$CombinationsItr$$anonfun$next$1$$anonfun$apply$mcVI$sp$1 extends scala.runtime.AbstractFunction1<java.lang.Object, scala.collection.mutable.Builder<A, Repr>> implements scala.Serializable
 public final class scala/collection/SeqLike$CombinationsItr$$anonfun$next$1$$anonfun$apply$mcVI$sp$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$next$1 apply (I)V
+  OUTERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$next$1 null
   // access flags 0x1
   public INNERCLASS scala/collection/SeqLike$CombinationsItr scala/collection/SeqLike CombinationsItr
   // access flags 0x11

@@ -4,8 +4,6 @@
 // declaration: scala/collection/mutable/LinkedHashSet$ extends scala.collection.generic.MutableSetFactory<scala.collection.mutable.LinkedHashSet> implements scala.Serializable
 public final class scala/collection/mutable/LinkedHashSet$ extends scala/collection/generic/MutableSetFactory  implements scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LinkedHashSet$Entry scala/collection/mutable/LinkedHashSet Entry
 
   // access flags 0x19
   public final static Lscala/collection/mutable/LinkedHashSet$; MODULE$

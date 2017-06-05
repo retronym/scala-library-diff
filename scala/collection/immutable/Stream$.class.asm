@@ -23,8 +23,6 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$range$1 null null
   // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Stream$$hash$colon$colon$ scala/collection/immutable/Stream $hash$colon$colon$
-  // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Stream$StreamCanBuildFrom scala/collection/immutable/Stream StreamCanBuildFrom
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$iterate$1 null null

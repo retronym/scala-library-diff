@@ -4,7 +4,7 @@ sealed abstract class Either[+A, +B] extends scala.AnyRef {
   def left: scala.util.Either.LeftProjection[A, B] = { /* compiled code */ }
   def right: scala.util.Either.RightProjection[A, B] = { /* compiled code */ }
   def fold[X](fa: scala.Function1[A, X], fb: scala.Function1[B, X]): X = { /* compiled code */ }
-  def swap: scala.Serializable with scala.Product with scala.util.Either[B, A] = { /* compiled code */ }
+  def swap: scala.Product with scala.Serializable with scala.util.Either[B, A] = { /* compiled code */ }
   def joinRight[A1 >: A, B1 >: B, C](implicit ev: scala.Predef.<:<[B1, scala.util.Either[A1, C]]): scala.util.Either[A1, C] = { /* compiled code */ }
   def joinLeft[A1 >: A, B1 >: B, C](implicit ev: scala.Predef.<:<[A1, scala.util.Either[C, B1]]): scala.util.Either[C, B1] = { /* compiled code */ }
   def isLeft: scala.Boolean
@@ -27,7 +27,7 @@ object Either extends scala.AnyRef {
     def forall(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
     def exists(f: scala.Function1[A, scala.Boolean]): scala.Boolean = { /* compiled code */ }
     def flatMap[BB >: B, X](f: scala.Function1[A, scala.util.Either[X, BB]]): scala.util.Either[X, BB] = { /* compiled code */ }
-    def map[X](f: scala.Function1[A, X]): scala.Serializable with scala.Product with scala.util.Either[X, B] = { /* compiled code */ }
+    def map[X](f: scala.Function1[A, X]): scala.Product with scala.Serializable with scala.util.Either[X, B] = { /* compiled code */ }
     def filter[Y](p: scala.Function1[A, scala.Boolean]): scala.Option[scala.util.Either[A, Y]] = { /* compiled code */ }
     def toSeq: scala.collection.Seq[A] = { /* compiled code */ }
     def toOption: scala.Option[A] = { /* compiled code */ }
@@ -55,7 +55,7 @@ object Either extends scala.AnyRef {
     def forall(f: scala.Function1[B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
     def exists(f: scala.Function1[B, scala.Boolean]): scala.Boolean = { /* compiled code */ }
     def flatMap[AA >: A, Y](f: scala.Function1[B, scala.util.Either[AA, Y]]): scala.util.Either[AA, Y] = { /* compiled code */ }
-    def map[Y](f: scala.Function1[B, Y]): scala.Serializable with scala.Product with scala.util.Either[A, Y] = { /* compiled code */ }
+    def map[Y](f: scala.Function1[B, Y]): scala.Product with scala.Serializable with scala.util.Either[A, Y] = { /* compiled code */ }
     def filter[X](p: scala.Function1[B, scala.Boolean]): scala.Option[scala.util.Either[X, B]] = { /* compiled code */ }
     def toSeq: scala.collection.Seq[B] = { /* compiled code */ }
     def toOption: scala.Option[B] = { /* compiled code */ }

@@ -6,8 +6,6 @@ public abstract class scala/math/Ordering$ExtraImplicits$class {
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits scala/math/Ordering ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits$class scala/math/Ordering ExtraImplicits$class
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$ExtraImplicits$$anon$8 null null
 

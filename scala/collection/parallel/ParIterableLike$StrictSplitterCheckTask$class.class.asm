@@ -4,8 +4,6 @@ public abstract class scala/collection/parallel/ParIterableLike$StrictSplitterCh
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask$class scala/collection/parallel/ParIterableLike StrictSplitterCheckTask$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/parallel/ParIterableLike$StrictSplitterCheckTask;)V

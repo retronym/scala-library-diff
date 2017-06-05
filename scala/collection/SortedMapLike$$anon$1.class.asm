@@ -11,8 +11,6 @@ public final class scala/collection/SortedMapLike$$anon$1 extends scala/collecti
   public INNERCLASS scala/collection/MapLike$FilteredKeys scala/collection/MapLike FilteredKeys
   // access flags 0x11
   public final INNERCLASS scala/collection/SortedMapLike$$anon$1 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/SortedMap$Default$class scala/collection/SortedMap Default$class
   // access flags 0x11
   public final INNERCLASS scala/collection/SortedMapLike$$anon$1$$anonfun$iteratorFrom$1 null null
   // access flags 0x11

@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$Appended$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Appended scala/collection/SeqViewLike Appended
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Appended$class scala/collection/SeqViewLike Appended$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/SeqViewLike$Appended;)V

@@ -4,7 +4,7 @@
 // declaration: scala/collection/immutable/SetProxy$$anon$1 extends scala.collection.AbstractSet<java.lang.Object> implements scala.collection.immutable.SetProxy<java.lang.Object>
 public final class scala/collection/immutable/SetProxy$$anon$1 extends scala/collection/AbstractSet  implements scala/collection/immutable/SetProxy  {
 
-  OUTERCLASS scala/collection/immutable/SetProxy newProxy (Lscala/collection/immutable/SetProxy;Lscala/collection/immutable/Set;)Lscala/collection/immutable/SetProxy;
+  OUTERCLASS scala/collection/immutable/SetProxy null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/SetProxy$$anon$1 null null
   // access flags 0x409

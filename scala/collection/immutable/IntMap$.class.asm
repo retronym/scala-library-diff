@@ -6,12 +6,6 @@ public final class scala/collection/immutable/IntMap$ {
   public static INNERCLASS scala/collection/immutable/IntMap$Nil$ scala/collection/immutable/IntMap Nil$
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/IntMap$Tip scala/collection/immutable/IntMap Tip
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/IntMap$Tip$ scala/collection/immutable/IntMap Tip$
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/IntMap$Bin scala/collection/immutable/IntMap Bin
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/IntMap$Bin$ scala/collection/immutable/IntMap Bin$
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/IntMap$$anon$1 null null
   // access flags 0x11

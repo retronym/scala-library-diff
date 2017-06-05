@@ -4,7 +4,7 @@
 // declaration: scala/collection/SeqLike$$anon$1 extends scala.collection.mutable.HashMap<java.lang.Object, java.lang.Object>
 public final class scala/collection/SeqLike$$anon$1 extends scala/collection/mutable/HashMap  {
 
-  OUTERCLASS scala/collection/SeqLike occCounts (Lscala/collection/SeqLike;Lscala/collection/Seq;)Lscala/collection/mutable/Map;
+  OUTERCLASS scala/collection/SeqLike null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$$anon$1 null null
 

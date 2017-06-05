@@ -4,8 +4,6 @@ public abstract class scala/math/Numeric$BigIntIsIntegral$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$BigIntIsIntegral scala/math/Numeric BigIntIsIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigIntIsIntegral$class scala/math/Numeric BigIntIsIntegral$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$BigIntIsIntegral;)V

@@ -14,11 +14,7 @@ public final class scala/collection/immutable/SortedMap$$anon$1 extends scala/co
   // access flags 0x1
   public INNERCLASS scala/collection/MapLike$FilteredKeys scala/collection/MapLike FilteredKeys
   // access flags 0x409
-  public static abstract INNERCLASS scala/collection/immutable/SortedMap$Default$class scala/collection/immutable/SortedMap Default$class
-  // access flags 0x409
   public static abstract INNERCLASS scala/Predef$$less$colon$less scala/Predef $less$colon$less
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/SortedMap$Default$class scala/collection/SortedMap Default$class
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/SortedMap$$anon$1$$anonfun$iteratorFrom$1 null null
   // access flags 0x11

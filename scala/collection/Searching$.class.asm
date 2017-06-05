@@ -3,17 +3,7 @@
 public final class scala/collection/Searching$ {
 
   // access flags 0x9
-  public static INNERCLASS scala/collection/Searching$Found scala/collection/Searching Found
-  // access flags 0x9
-  public static INNERCLASS scala/collection/Searching$Found$ scala/collection/Searching Found$
-  // access flags 0x9
   public static INNERCLASS scala/collection/Searching$SearchImpl scala/collection/Searching SearchImpl
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/Searching$SearchResult scala/collection/Searching SearchResult
-  // access flags 0x9
-  public static INNERCLASS scala/collection/Searching$InsertionPoint scala/collection/Searching InsertionPoint
-  // access flags 0x9
-  public static INNERCLASS scala/collection/Searching$InsertionPoint$ scala/collection/Searching InsertionPoint$
 
   // access flags 0x19
   public final static Lscala/collection/Searching$; MODULE$

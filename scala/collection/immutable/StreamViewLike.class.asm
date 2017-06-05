@@ -61,8 +61,6 @@ public abstract interface scala/collection/immutable/StreamViewLike implements s
   // access flags 0x601
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$DroppedWhile scala/collection/immutable/StreamViewLike DroppedWhile
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed$class scala/collection/immutable/StreamViewLike Transformed$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$AbstractTransformed scala/collection/immutable/StreamViewLike AbstractTransformed
 
   // access flags 0x401

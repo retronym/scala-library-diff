@@ -10,46 +10,8 @@ public final class scala/util/control/Exception {
   public static INNERCLASS scala/util/control/Exception$Catch$ scala/util/control/Exception Catch$
   // access flags 0x9
   public static INNERCLASS scala/util/control/Exception$Finally scala/util/control/Exception Finally
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anon$1 null null
   // access flags 0x609
   public static abstract INNERCLASS scala/util/control/Exception$Described scala/util/control/Exception Described
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$2 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/control/Exception$Described$class scala/util/control/Exception Described$class
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$failing$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$catching$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$ignoring$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$handling$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$allCatcher$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$allCatcher$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$unwrapping$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$failAsValue$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$nonFatalCatcher$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$nonFatalCatcher$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$pfFromExceptions$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$catchingPromiscuously$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$throwableSubtypeToCatcher$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$throwableSubtypeToCatcher$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$$anonfun$scala$util$control$Exception$$wouldMatch$1 null null
 
   // access flags 0x9
   // signature <T:Ljava/lang/Object;>()Lscala/util/control/Exception$Catch<TT;>;

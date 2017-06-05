@@ -22,8 +22,6 @@ public final class scala/concurrent/duration/Duration$ implements scala/Serializ
   public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$4 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/Predef$$less$colon$less scala/Predef $less$colon$less
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/Duration$DurationIsOrdered$ scala/concurrent/duration/Duration DurationIsOrdered$
   // access flags 0x11
   public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$scala$concurrent$duration$Duration$$expandLabels$1 null null
 

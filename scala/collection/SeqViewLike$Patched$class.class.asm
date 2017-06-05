@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$Patched$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Patched scala/collection/SeqViewLike Patched
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Patched$class scala/collection/SeqViewLike Patched$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/SeqViewLike$Patched;)V

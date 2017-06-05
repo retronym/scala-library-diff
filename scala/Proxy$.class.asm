@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/Proxy$ {
 
-  // access flags 0x609
-  public static abstract INNERCLASS scala/Proxy$Typed scala/Proxy Typed
 
   // access flags 0x19
   public final static Lscala/Proxy$; MODULE$

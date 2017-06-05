@@ -6,14 +6,10 @@ public class scala/sys/process/ProcessBuilderImpl$FileImpl implements scala/sys/
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Sink scala/sys/process/ProcessBuilder Sink
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source scala/sys/process/ProcessBuilder Source
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Sink$class scala/sys/process/ProcessBuilder Sink$class
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$FileBuilder scala/sys/process/ProcessBuilder FileBuilder
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$FileImpl scala/sys/process/ProcessBuilderImpl FileImpl
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source$class scala/sys/process/ProcessBuilder Source$class
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$URLInput scala/sys/process/ProcessBuilderImpl URLInput
   // access flags 0x1

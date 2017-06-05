@@ -11,8 +11,6 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 
   public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils scala/collection/mutable/FlatHashTable HashUtils
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils$class scala/collection/mutable/FlatHashTable HashUtils$class
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2$$anonfun$1 null null
   // access flags 0x11

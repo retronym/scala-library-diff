@@ -106,6 +106,7 @@ public final class scala/collection/immutable/Vector extends scala/collection/Ab
     INVOKEINTERFACE scala/collection/GenTraversableOnce.isTraversableAgain ()Z
     IFEQ L3
     ALOAD 1
+    INVOKEINTERFACE scala/collection/GenTraversableOnce.seq ()Lscala/collection/TraversableOnce;
     GOTO L4
    L3
     ALOAD 1
@@ -113,7 +114,7 @@ public final class scala/collection/immutable/Vector extends scala/collection/Ab
    L4
     ASTORE 3
     ALOAD 3
-    INVOKEINTERFACE scala/collection/GenTraversableOnce.size ()I
+    INVOKEINTERFACE scala/collection/TraversableOnce.size ()I
     ISTORE 4
     ILOAD 4
     ICONST_2
@@ -134,7 +135,7 @@ public final class scala/collection/immutable/Vector extends scala/collection/Ab
     ALOAD 0
     ALOAD 5
     INVOKESPECIAL scala/collection/immutable/Vector$$anonfun$$plus$plus$1.<init> (Lscala/collection/immutable/Vector;Lscala/runtime/ObjectRef;)V
-    INVOKEINTERFACE scala/collection/GenTraversableOnce.foreach (Lscala/Function1;)V
+    INVOKEINTERFACE scala/collection/TraversableOnce.foreach (Lscala/Function1;)V
     ALOAD 5
     GETFIELD scala/runtime/ObjectRef.elem : Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/Vector

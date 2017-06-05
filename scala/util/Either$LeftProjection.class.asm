@@ -408,8 +408,8 @@ public final class scala/util/Either$LeftProjection implements scala/Product sca
     MAXLOCALS = 1
 
   // access flags 0x1
-  // signature <X:Ljava/lang/Object;>(Lscala/Function1<TA;TX;>;)Lscala/Serializable;
-  // declaration: scala.Serializable map<X>(scala.Function1<A, X>)
+  // signature <X:Ljava/lang/Object;>(Lscala/Function1<TA;TX;>;)Lscala/Product;
+  // declaration: scala.Product map<X>(scala.Function1<A, X>)
   public map(Lscala/Function1;)Lscala/util/Either;
     ALOAD 0
     INVOKEVIRTUAL scala/util/Either$LeftProjection.e ()Lscala/util/Either;

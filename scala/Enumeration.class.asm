@@ -17,6 +17,8 @@ public abstract class scala/Enumeration implements scala/Serializable  {
   // access flags 0x11
   public final INNERCLASS scala/Enumeration$$anonfun$withName$1 null null
   // access flags 0x11
+  public final INNERCLASS scala/Enumeration$$anonfun$withName$2 null null
+  // access flags 0x11
   public final INNERCLASS scala/Enumeration$$anonfun$scala$Enumeration$$nameOf$1 null null
   // access flags 0x11
   public final INNERCLASS scala/Enumeration$$anonfun$scala$Enumeration$$isValDef$1$1 null null
@@ -579,9 +581,51 @@ public abstract class scala/Enumeration implements scala/Serializable  {
     ALOAD 1
     INVOKESPECIAL scala/Enumeration$$anonfun$withName$1.<init> (Lscala/Enumeration;Ljava/lang/String;)V
     INVOKEVIRTUAL scala/Enumeration$ValueSet.find (Lscala/Function1;)Lscala/Option;
+    NEW scala/Enumeration$$anonfun$withName$2
+    DUP
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL scala/Enumeration$$anonfun$withName$2.<init> (Lscala/Enumeration;Ljava/lang/String;)V
+    ASTORE 2
+    DUP
+    ASTORE 3
+    INVOKEVIRTUAL scala/Option.isEmpty ()Z
+    IFEQ L0
+    NEW java/util/NoSuchElementException
+    DUP
+    NEW scala/StringContext
+    DUP
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ICONST_2
+    ANEWARRAY java/lang/String
+    DUP
+    ICONST_0
+    LDC "No value found for '"
+    AASTORE
+    DUP
+    ICONST_1
+    LDC "'"
+    AASTORE
+    CHECKCAST [Ljava/lang/Object;
+    INVOKEVIRTUAL scala/Predef$.wrapRefArray ([Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;
+    INVOKESPECIAL scala/StringContext.<init> (Lscala/collection/Seq;)V
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ICONST_1
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 2
+    GETFIELD scala/Enumeration$$anonfun$withName$2.s$1 : Ljava/lang/String;
+    AASTORE
+    INVOKEVIRTUAL scala/Predef$.genericWrapArray (Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;
+    INVOKEVIRTUAL scala/StringContext.s (Lscala/collection/Seq;)Ljava/lang/String;
+    INVOKESPECIAL java/util/NoSuchElementException.<init> (Ljava/lang/String;)V
+    ATHROW
+   L0
+    ALOAD 3
     INVOKEVIRTUAL scala/Option.get ()Ljava/lang/Object;
     CHECKCAST scala/Enumeration$Value
     ARETURN
-    MAXSTACK = 5
-    MAXLOCALS = 2
+    MAXSTACK = 9
+    MAXLOCALS = 4
 }

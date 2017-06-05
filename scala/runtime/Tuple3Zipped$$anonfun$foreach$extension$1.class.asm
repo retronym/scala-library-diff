@@ -4,7 +4,7 @@
 // declaration: scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 extends scala.runtime.AbstractFunction1<El1, U> implements scala.Serializable
 public final class scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/runtime/Tuple3Zipped$ foreach$extension (Lscala/Tuple3;Lscala/Function3;)V
+  OUTERCLASS scala/runtime/Tuple3Zipped foreach (Lscala/Function3;)V
   // access flags 0x11
   public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 null null
 

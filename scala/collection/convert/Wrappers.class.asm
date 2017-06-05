@@ -86,10 +86,6 @@ public abstract interface scala/collection/convert/Wrappers {
   public INNERCLASS scala/collection/convert/Wrappers$JConcurrentMapWrapper$ scala/collection/convert/Wrappers JConcurrentMapWrapper$
   // access flags 0x1
   public INNERCLASS scala/collection/convert/Wrappers$JConcurrentMapWrapper scala/collection/convert/Wrappers JConcurrentMapWrapper
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/convert/Wrappers$JMapWrapperLike$class scala/collection/convert/Wrappers JMapWrapperLike$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/convert/Wrappers$IterableWrapperTrait$class scala/collection/convert/Wrappers IterableWrapperTrait$class
 
   // access flags 0x401
   public abstract DictionaryWrapper()Lscala/collection/convert/Wrappers$DictionaryWrapper$;

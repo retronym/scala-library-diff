@@ -4,8 +4,6 @@
 // declaration: scala/collection/Map$ extends scala.collection.generic.MapFactory<scala.collection.Map>
 public final class scala/collection/Map$ extends scala/collection/generic/MapFactory  {
 
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/Map$WithDefault scala/collection/Map WithDefault
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
 

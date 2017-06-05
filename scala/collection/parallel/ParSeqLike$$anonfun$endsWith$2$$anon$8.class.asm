@@ -2,7 +2,7 @@
 // access flags 0x31
 public final class scala/collection/parallel/ParSeqLike$$anonfun$endsWith$2$$anon$8 extends scala/collection/generic/DefaultSignalling  {
 
-  OUTERCLASS scala/collection/parallel/ParSeqLike endsWith (Lscala/collection/GenSeq;)Z
+  OUTERCLASS scala/collection/parallel/ParSeqLike$$anonfun$endsWith$2 null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParSeqLike$$anonfun$endsWith$2 null null
   // access flags 0x11

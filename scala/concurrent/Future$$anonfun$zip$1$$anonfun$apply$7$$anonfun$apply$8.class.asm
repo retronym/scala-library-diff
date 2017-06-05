@@ -4,7 +4,7 @@
 // declaration: scala/concurrent/Future$$anonfun$zip$1$$anonfun$apply$7$$anonfun$apply$8 extends scala.runtime.AbstractFunction1<U, scala.Tuple2<T, U>> implements scala.Serializable
 public final class scala/concurrent/Future$$anonfun$zip$1$$anonfun$apply$7$$anonfun$apply$8 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/Future$$anonfun$zip$1$$anonfun$apply$7 apply (Lscala/util/Try;)Lscala/concurrent/Promise;
+  OUTERCLASS scala/concurrent/Future$$anonfun$zip$1$$anonfun$apply$7 null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$zip$1 null null
   // access flags 0x11

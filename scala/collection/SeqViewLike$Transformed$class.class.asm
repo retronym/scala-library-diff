@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$Transformed$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Transformed scala/collection/SeqViewLike Transformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Transformed$class scala/collection/SeqViewLike Transformed$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/SeqViewLike$Transformed;)V

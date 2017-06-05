@@ -14,10 +14,6 @@ public final class scala/collection/IterableViewLike$$anon$3 extends scala/colle
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Transformed scala/collection/IterableViewLike Transformed
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Mapped$class scala/collection/IterableViewLike Mapped$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Mapped$class scala/collection/TraversableViewLike Mapped$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/IterableViewLike$AbstractTransformed scala/collection/IterableViewLike AbstractTransformed
 
   // access flags 0x1012

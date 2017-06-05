@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/ParSeqLike$Elements$$anonfun$psplit$2$$anon$2 extends scala.collection.parallel.ParSeqLike<T, Repr, Sequential>.Elements
 public final class scala/collection/parallel/ParSeqLike$Elements$$anonfun$psplit$2$$anon$2 extends scala/collection/parallel/ParSeqLike$Elements  {
 
-  OUTERCLASS scala/collection/parallel/ParSeqLike$Elements psplit (Lscala/collection/Seq;)Lscala/collection/Seq;
+  OUTERCLASS scala/collection/parallel/ParSeqLike$Elements$$anonfun$psplit$2 null
   // access flags 0x401
   public abstract INNERCLASS scala/collection/parallel/ParSeqLike$Elements scala/collection/parallel/ParSeqLike Elements
   // access flags 0x11

@@ -10,8 +10,6 @@ public abstract class scala/collection/parallel/mutable/ParHashMapCombiner exten
   public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils scala/collection/mutable/HashTable HashUtils
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled scala/collection/mutable/UnrolledBuffer Unrolled
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$table$2$ null table$2$
   // access flags 0x11

@@ -4,7 +4,7 @@
 // declaration: scala/Responder$$anonfun$loop$1$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<scala.runtime.Nothing$, scala.runtime.Nothing$> implements scala.Serializable
 public final class scala/Responder$$anonfun$loop$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/Responder$$anonfun$loop$1 apply (Lscala/runtime/BoxedUnit;)Lscala/Responder;
+  OUTERCLASS scala/Responder$$anonfun$loop$1 null
   // access flags 0x11
   public final INNERCLASS scala/Responder$$anonfun$loop$1 null null
   // access flags 0x11

@@ -13,16 +13,10 @@ public final class scala/collection/immutable/StreamViewLike$$anon$1 extends sca
   public final INNERCLASS scala/collection/immutable/StreamViewLike$$anon$1 null null
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Forced scala/collection/IterableViewLike Forced
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Forced$class scala/collection/SeqViewLike Forced$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed scala/collection/immutable/StreamViewLike Transformed
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Forced scala/collection/TraversableViewLike Forced
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Forced$class scala/collection/IterableViewLike Forced$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/TraversableViewLike$Forced$class scala/collection/TraversableViewLike Forced$class
   // access flags 0x401
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$AbstractTransformed scala/collection/immutable/StreamViewLike AbstractTransformed
 

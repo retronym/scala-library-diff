@@ -4,8 +4,6 @@ public abstract interface scala/collection/parallel/Tasks {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/Tasks$WrappedTask scala/collection/parallel/Tasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/Tasks$WrappedTask$class scala/collection/parallel/Tasks WrappedTask$class
 
   // access flags 0x401
   // signature ()Lscala/collection/mutable/ArrayBuffer<Ljava/lang/String;>;

@@ -4,8 +4,6 @@ public abstract class scala/math/Ordering$FloatOrdering$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$FloatOrdering scala/math/Ordering FloatOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering$class scala/math/Ordering FloatOrdering$class
   // access flags 0x11
   public final INNERCLASS scala/math/Ordering$FloatOrdering$$anon$1 null null
 

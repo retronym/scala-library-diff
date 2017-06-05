@@ -23,8 +23,6 @@ public final class scala/concurrent/Future$ {
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$traverse$2 null null
   // access flags 0x9
-  public static INNERCLASS scala/concurrent/Future$InternalCallbackExecutor$ scala/concurrent/Future InternalCallbackExecutor$
-  // access flags 0x9
   public static INNERCLASS scala/collection/TraversableOnce$OnceCanBuildFrom scala/collection/TraversableOnce OnceCanBuildFrom
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$firstCompletedOf$1 null null

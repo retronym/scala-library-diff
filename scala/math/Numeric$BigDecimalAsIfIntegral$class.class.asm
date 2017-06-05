@@ -4,8 +4,6 @@ public abstract class scala/math/Numeric$BigDecimalAsIfIntegral$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$BigDecimalAsIfIntegral scala/math/Numeric BigDecimalAsIfIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalAsIfIntegral$class scala/math/Numeric BigDecimalAsIfIntegral$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$BigDecimalAsIfIntegral;)V

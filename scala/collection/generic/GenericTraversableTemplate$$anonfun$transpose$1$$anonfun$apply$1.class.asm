@@ -4,7 +4,7 @@
 // declaration: scala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<B, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1 apply (Ljava/lang/Object;)V
+  OUTERCLASS scala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1 null
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/GenericTraversableTemplate$$anonfun$transpose$1 null null
   // access flags 0x11

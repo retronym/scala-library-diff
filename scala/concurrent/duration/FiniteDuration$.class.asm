@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/concurrent/duration/FiniteDuration$ implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/FiniteDuration$FiniteDurationIsOrdered$ scala/concurrent/duration/FiniteDuration FiniteDurationIsOrdered$
 
   // access flags 0x19
   public final static Lscala/concurrent/duration/FiniteDuration$; MODULE$

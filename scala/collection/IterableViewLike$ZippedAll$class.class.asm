@@ -4,8 +4,6 @@ public abstract class scala/collection/IterableViewLike$ZippedAll$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$ZippedAll scala/collection/IterableViewLike ZippedAll
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$ZippedAll$class scala/collection/IterableViewLike ZippedAll$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/IterableViewLike$ZippedAll;)V

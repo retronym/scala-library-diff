@@ -8,8 +8,6 @@ public class scala/math/Ordering$BigDecimal$ implements scala/math/Ordering$BigD
   public static INNERCLASS scala/math/Ordering$BigDecimal$ scala/math/Ordering BigDecimal$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering scala/math/Ordering BigDecimalOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering$class scala/math/Ordering BigDecimalOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$BigDecimal$; MODULE$

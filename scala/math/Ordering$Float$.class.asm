@@ -8,8 +8,6 @@ public class scala/math/Ordering$Float$ implements scala/math/Ordering$FloatOrde
   public static INNERCLASS scala/math/Ordering$Float$ scala/math/Ordering Float$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$FloatOrdering scala/math/Ordering FloatOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering$class scala/math/Ordering FloatOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Float$; MODULE$

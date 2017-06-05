@@ -2,18 +2,6 @@
 // access flags 0x31
 public final class scala/util/Either$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Either$LeftProjection scala/util/Either LeftProjection
-  // access flags 0x9
-  public static INNERCLASS scala/util/Either$LeftProjection$ scala/util/Either LeftProjection$
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Either$MergeableEither scala/util/Either MergeableEither
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Either$RightProjection scala/util/Either RightProjection
-  // access flags 0x9
-  public static INNERCLASS scala/util/Either$RightProjection$ scala/util/Either RightProjection$
-  // access flags 0x9
-  public static INNERCLASS scala/util/Either$MergeableEither$ scala/util/Either MergeableEither$
 
   // access flags 0x19
   public final static Lscala/util/Either$; MODULE$

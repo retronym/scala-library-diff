@@ -4,8 +4,6 @@ public abstract class scala/math/Numeric$BigDecimalIsFractional$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsFractional scala/math/Numeric BigDecimalIsFractional
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsFractional$class scala/math/Numeric BigDecimalIsFractional$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$BigDecimalIsFractional;)V

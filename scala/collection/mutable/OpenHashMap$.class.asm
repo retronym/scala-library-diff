@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/collection/mutable/OpenHashMap$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/OpenHashMap$OpenEntry scala/collection/mutable/OpenHashMap OpenEntry
 
   // access flags 0x19
   public final static Lscala/collection/mutable/OpenHashMap$; MODULE$

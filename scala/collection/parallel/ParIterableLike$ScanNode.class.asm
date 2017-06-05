@@ -10,8 +10,6 @@ public class scala/collection/parallel/ParIterableLike$ScanNode implements scala
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$ScanTree scala/collection/parallel/ParIterableLike ScanTree
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/ParIterableLike$ScanLeaf scala/collection/parallel/ParIterableLike ScanLeaf
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$ScanTree$class scala/collection/parallel/ParIterableLike ScanTree$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/parallel/ParIterableLike; $outer

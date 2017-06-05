@@ -4,8 +4,6 @@ public abstract class scala/math/Numeric$ShortIsIntegral$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$ShortIsIntegral scala/math/Numeric ShortIsIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ShortIsIntegral$class scala/math/Numeric ShortIsIntegral$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$ShortIsIntegral;)V

@@ -4,7 +4,7 @@
 // declaration: scala/sys/process/BasicIO$$anonfun$processFully$1$$anonfun$apply$6 extends scala.runtime.AbstractFunction0<java.lang.String> implements scala.Serializable
 public final class scala/sys/process/BasicIO$$anonfun$processFully$1$$anonfun$apply$6 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
-  OUTERCLASS scala/sys/process/BasicIO$$anonfun$processFully$1 apply (Ljava/io/InputStream;)V
+  OUTERCLASS scala/sys/process/BasicIO$$anonfun$processFully$1 null
   // access flags 0x11
   public final INNERCLASS scala/sys/process/BasicIO$$anonfun$processFully$1 null null
   // access flags 0x11

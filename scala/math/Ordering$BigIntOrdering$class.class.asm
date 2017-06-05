@@ -4,8 +4,6 @@ public abstract class scala/math/Ordering$BigIntOrdering$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering scala/math/Ordering BigIntOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering$class scala/math/Ordering BigIntOrdering$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Ordering$BigIntOrdering;)V

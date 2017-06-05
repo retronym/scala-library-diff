@@ -4,8 +4,6 @@ public abstract class scala/math/Ordering$BigDecimalOrdering$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering scala/math/Ordering BigDecimalOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering$class scala/math/Ordering BigDecimalOrdering$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Ordering$BigDecimalOrdering;)V

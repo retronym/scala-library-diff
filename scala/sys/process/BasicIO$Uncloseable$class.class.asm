@@ -4,8 +4,6 @@ public abstract class scala/sys/process/BasicIO$Uncloseable$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/BasicIO$Uncloseable scala/sys/process/BasicIO Uncloseable
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/BasicIO$Uncloseable$class scala/sys/process/BasicIO Uncloseable$class
 
   // access flags 0x9
   public static $init$(Lscala/sys/process/BasicIO$Uncloseable;)V

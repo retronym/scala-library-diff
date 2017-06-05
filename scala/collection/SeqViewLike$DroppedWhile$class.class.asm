@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$DroppedWhile$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$DroppedWhile scala/collection/SeqViewLike DroppedWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$DroppedWhile$class scala/collection/SeqViewLike DroppedWhile$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/SeqViewLike$DroppedWhile;)V

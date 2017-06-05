@@ -24,6 +24,7 @@ class BitSet extends scala.collection.mutable.AbstractSet[scala.Int] with scala.
   def ^=(other: scala.collection.mutable.BitSet): scala.collection.mutable.BitSet.type = { /* compiled code */ }
   def &~=(other: scala.collection.mutable.BitSet): scala.collection.mutable.BitSet.type = { /* compiled code */ }
   override def clear(): scala.Unit = { /* compiled code */ }
+  @scala.deprecated("If this BitSet contains a value that is 128 or greater, the result of this method is an 'immutable' BitSet that shares state with this mutable BitSet. Thus, if the mutable BitSet is modified, it will violate the immutability of the result.")
   def toImmutable: scala.collection.immutable.BitSet = { /* compiled code */ }
   override def clone(): scala.collection.mutable.BitSet = { /* compiled code */ }
 }

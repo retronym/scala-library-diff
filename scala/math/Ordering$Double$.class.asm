@@ -8,8 +8,6 @@ public class scala/math/Ordering$Double$ implements scala/math/Ordering$DoubleOr
   public static INNERCLASS scala/math/Ordering$Double$ scala/math/Ordering Double$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering scala/math/Ordering DoubleOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering$class scala/math/Ordering DoubleOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Double$; MODULE$

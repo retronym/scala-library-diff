@@ -4,7 +4,7 @@
 // declaration: scala/collection/TraversableLike$$anonfun$filterImpl$1 extends scala.runtime.AbstractFunction1<A, java.lang.Object> implements scala.Serializable
 public final class scala/collection/TraversableLike$$anonfun$filterImpl$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/TraversableLike filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
+  OUTERCLASS scala/collection/TraversableLike null
   // access flags 0x11
   public final INNERCLASS scala/collection/TraversableLike$$anonfun$filterImpl$1 null null
 

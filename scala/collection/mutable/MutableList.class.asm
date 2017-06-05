@@ -4,6 +4,8 @@
 // declaration: scala/collection/mutable/MutableList<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.LinearSeq<A>, scala.collection.LinearSeqOptimized<A, scala.collection.mutable.MutableList<A>>, scala.collection.mutable.Builder<A, scala.collection.mutable.MutableList<A>>, scala.Serializable
 public class scala/collection/mutable/MutableList extends scala/collection/mutable/AbstractSeq  implements scala/collection/mutable/LinearSeq scala/collection/LinearSeqOptimized scala/collection/mutable/Builder scala/Serializable  {
 
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/MutableList$$anon$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 
@@ -600,10 +602,19 @@ public class scala/collection/mutable/MutableList extends scala/collection/mutab
   // declaration: scala.collection.Iterator<A> iterator()
   public iterator()Lscala/collection/Iterator;
     ALOAD 0
-    INVOKEVIRTUAL scala/collection/mutable/MutableList.first0 ()Lscala/collection/mutable/LinkedList;
-    INVOKEVIRTUAL scala/collection/mutable/LinkedList.iterator ()Lscala/collection/Iterator;
+    INVOKEVIRTUAL scala/collection/mutable/MutableList.isEmpty ()Z
+    IFEQ L0
+    GETSTATIC scala/collection/Iterator$.MODULE$ : Lscala/collection/Iterator$;
+    INVOKEVIRTUAL scala/collection/Iterator$.empty ()Lscala/collection/Iterator;
+    GOTO L1
+   L0
+    NEW scala/collection/mutable/MutableList$$anon$1
+    DUP
+    ALOAD 0
+    INVOKESPECIAL scala/collection/mutable/MutableList$$anon$1.<init> (Lscala/collection/mutable/MutableList;)V
+   L1
     ARETURN
-    MAXSTACK = 1
+    MAXSTACK = 3
     MAXLOCALS = 1
 
   // access flags 0x1

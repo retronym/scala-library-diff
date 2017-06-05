@@ -4,8 +4,6 @@ public abstract class scala/util/control/Exception$Described$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/util/control/Exception$Described scala/util/control/Exception Described
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/control/Exception$Described$class scala/util/control/Exception Described$class
 
   // access flags 0x9
   public static $init$(Lscala/util/control/Exception$Described;)V

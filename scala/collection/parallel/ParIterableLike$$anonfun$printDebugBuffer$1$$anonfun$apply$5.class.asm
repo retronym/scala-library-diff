@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/ParIterableLike$$anonfun$printDebugBuffer$1$$anonfun$apply$5 extends scala.runtime.AbstractFunction1<java.lang.String, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/parallel/ParIterableLike$$anonfun$printDebugBuffer$1$$anonfun$apply$5 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/ParIterableLike$$anonfun$printDebugBuffer$1 apply (Lscala/Function1;)V
+  OUTERCLASS scala/collection/parallel/ParIterableLike$$anonfun$printDebugBuffer$1 null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParIterableLike$$anonfun$printDebugBuffer$1 null null
   // access flags 0x11

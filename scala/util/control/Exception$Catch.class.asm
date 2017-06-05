@@ -12,8 +12,6 @@ public class scala/util/control/Exception$Catch implements scala/util/control/Ex
   public static abstract INNERCLASS scala/util/control/Exception$Described scala/util/control/Exception Described
   // access flags 0x11
   public final INNERCLASS scala/util/control/Exception$Catch$$anon$2 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/control/Exception$Described$class scala/util/control/Exception Described$class
   // access flags 0x11
   public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$opt$1 null null
   // access flags 0x11

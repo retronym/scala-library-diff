@@ -4,7 +4,7 @@
 // declaration: scala/collection/SeqLike$$anonfun$occCounts$1 extends scala.runtime.AbstractFunction1<java.lang.Object, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/SeqLike$$anonfun$occCounts$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/SeqLike occCounts (Lscala/collection/SeqLike;Lscala/collection/Seq;)Lscala/collection/mutable/Map;
+  OUTERCLASS scala/collection/SeqLike null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$$anonfun$occCounts$1 null null
 

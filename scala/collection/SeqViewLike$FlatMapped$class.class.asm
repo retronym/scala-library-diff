@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$FlatMapped$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$FlatMapped scala/collection/SeqViewLike FlatMapped
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$FlatMapped$class scala/collection/SeqViewLike FlatMapped$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/SeqViewLike$FlatMapped;)V
@@ -20,8 +18,7 @@ public abstract class scala/collection/SeqViewLike$FlatMapped$class {
     IF_ICMPLT L0
     ILOAD 1
     ALOAD 0
-    INVOKEINTERFACE scala/collection/SeqViewLike$FlatMapped.scala$collection$SeqViewLike$FlatMapped$$$outer ()Lscala/collection/SeqViewLike;
-    INVOKEINTERFACE scala/collection/SeqViewLike.length ()I
+    INVOKEINTERFACE scala/collection/SeqViewLike$FlatMapped.length ()I
     IF_ICMPLT L1
    L0
     NEW java/lang/IndexOutOfBoundsException

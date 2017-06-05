@@ -4,8 +4,6 @@
 // declaration: scala/collection/mutable/Map$ extends scala.collection.generic.MutableMapFactory<scala.collection.mutable.Map>
 public final class scala/collection/mutable/Map$ extends scala/collection/generic/MutableMapFactory  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/collection/mutable/Map$WithDefault scala/collection/mutable/Map WithDefault
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
 

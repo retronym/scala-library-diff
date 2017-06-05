@@ -6,8 +6,6 @@ public abstract class scala/collection/generic/BitOperations$Long$class {
   public static abstract INNERCLASS scala/collection/generic/BitOperations$Long scala/collection/generic/BitOperations Long
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/NumericRange$Inclusive scala/collection/immutable/NumericRange Inclusive
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/generic/BitOperations$Long$class scala/collection/generic/BitOperations Long$class
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/BitOperations$Long$$anonfun$bits$2 null null
   // access flags 0x11

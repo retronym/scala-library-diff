@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/concurrent/duration/DurationConversions$ {
 
-  // access flags 0x609
-  public static abstract INNERCLASS scala/concurrent/duration/DurationConversions$Classifier scala/concurrent/duration/DurationConversions Classifier
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/DurationConversions$spanConvert$ scala/concurrent/duration/DurationConversions spanConvert$
-  // access flags 0x9
-  public static INNERCLASS scala/concurrent/duration/DurationConversions$fromNowConvert$ scala/concurrent/duration/DurationConversions fromNowConvert$
 
   // access flags 0x19
   public final static Lscala/concurrent/duration/DurationConversions$; MODULE$

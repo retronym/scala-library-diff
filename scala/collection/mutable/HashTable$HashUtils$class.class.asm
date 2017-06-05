@@ -4,8 +4,6 @@ public abstract class scala/collection/mutable/HashTable$HashUtils$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils scala/collection/mutable/HashTable HashUtils
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/mutable/HashTable$HashUtils;)V

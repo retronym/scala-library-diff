@@ -5,17 +5,9 @@
 public final class scala/collection/immutable/HashSet$ extends scala/collection/generic/ImmutableSetFactory  implements scala/Serializable  {
 
   // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/HashSet$HashSet1 scala/collection/immutable/HashSet HashSet1
-  // access flags 0x9
   public static INNERCLASS scala/collection/immutable/HashSet$HashTrieSet scala/collection/immutable/HashSet HashTrieSet
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/immutable/HashSet$LeafHashSet scala/collection/immutable/HashSet LeafHashSet
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/HashSet$EmptyHashSet$ scala/collection/immutable/HashSet EmptyHashSet$
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/HashSet$HashSetCollision1 scala/collection/immutable/HashSet HashSetCollision1
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/HashSet$SerializationProxy scala/collection/immutable/HashSet SerializationProxy
 
   // access flags 0x19
   public final static Lscala/collection/immutable/HashSet$; MODULE$

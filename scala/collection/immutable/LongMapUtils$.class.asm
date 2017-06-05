@@ -8,8 +8,6 @@ public final class scala/collection/immutable/LongMapUtils$ implements scala/col
   public static INNERCLASS scala/collection/immutable/LongMap$Nil$ scala/collection/immutable/LongMap Nil$
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/generic/BitOperations$Long scala/collection/generic/BitOperations Long
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/generic/BitOperations$Long$class scala/collection/generic/BitOperations Long$class
 
   // access flags 0x19
   public final static Lscala/collection/immutable/LongMapUtils$; MODULE$

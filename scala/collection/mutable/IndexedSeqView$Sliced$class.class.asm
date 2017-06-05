@@ -4,8 +4,6 @@ public abstract class scala/collection/mutable/IndexedSeqView$Sliced$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Sliced scala/collection/mutable/IndexedSeqView Sliced
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Sliced$class scala/collection/mutable/IndexedSeqView Sliced$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/mutable/IndexedSeqView$Sliced;)V

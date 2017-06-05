@@ -4,8 +4,6 @@ public abstract class scala/collection/IterableViewLike$Sliced$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/IterableViewLike$Sliced scala/collection/IterableViewLike Sliced
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/IterableViewLike$Sliced$class scala/collection/IterableViewLike Sliced$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/IterableViewLike$Sliced;)V

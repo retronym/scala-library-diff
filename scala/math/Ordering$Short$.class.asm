@@ -8,8 +8,6 @@ public class scala/math/Ordering$Short$ implements scala/math/Ordering$ShortOrde
   public static INNERCLASS scala/math/Ordering$Short$ scala/math/Ordering Short$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$ShortOrdering scala/math/Ordering ShortOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ShortOrdering$class scala/math/Ordering ShortOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Short$; MODULE$

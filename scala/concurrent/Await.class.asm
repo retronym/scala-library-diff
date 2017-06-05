@@ -2,10 +2,6 @@
 // access flags 0x31
 public final class scala/concurrent/Await {
 
-  // access flags 0x11
-  public final INNERCLASS scala/concurrent/Await$$anonfun$ready$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/concurrent/Await$$anonfun$result$1 null null
 
   // access flags 0x9
   // signature <T:Ljava/lang/Object;>(Lscala/concurrent/Awaitable<TT;>;Lscala/concurrent/duration/Duration;)Lscala/concurrent/Awaitable<TT;>;

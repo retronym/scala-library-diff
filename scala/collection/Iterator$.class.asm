@@ -20,10 +20,6 @@ public final class scala/collection/Iterator$ {
   public final INNERCLASS scala/collection/Iterator$$anon$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/Iterator$$anon$24 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$JoinIterator scala/collection/Iterator JoinIterator
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$ConcatIterator scala/collection/Iterator ConcatIterator
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/TraversableOnce$BufferedCanBuildFrom scala/collection/TraversableOnce BufferedCanBuildFrom
 

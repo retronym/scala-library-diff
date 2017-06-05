@@ -11,8 +11,6 @@ public final class scala/collection/immutable/StreamViewLike$$anon$11 extends sc
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Patched scala/collection/immutable/StreamViewLike Patched
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/StreamViewLike$$anon$11 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Patched$class scala/collection/SeqViewLike Patched$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed scala/collection/immutable/StreamViewLike Transformed
   // access flags 0x401

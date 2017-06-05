@@ -14,10 +14,6 @@ public class scala/math/Numeric$ByteIsIntegral$ implements scala/math/Numeric$By
   public static INNERCLASS scala/math/Numeric$ByteIsIntegral$ scala/math/Numeric ByteIsIntegral$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$ByteIsIntegral scala/math/Numeric ByteIsIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ByteOrdering$class scala/math/Ordering ByteOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ByteIsIntegral$class scala/math/Numeric ByteIsIntegral$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$ByteIsIntegral$; MODULE$

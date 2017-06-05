@@ -16,12 +16,6 @@ public class scala/math/Numeric$BigDecimalAsIfIntegral$ implements scala/math/Nu
   public static abstract INNERCLASS scala/math/Numeric$BigDecimalAsIfIntegral scala/math/Numeric BigDecimalAsIfIntegral
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsConflicted scala/math/Numeric BigDecimalIsConflicted
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering$class scala/math/Ordering BigDecimalOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalAsIfIntegral$class scala/math/Numeric BigDecimalAsIfIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsConflicted$class scala/math/Numeric BigDecimalIsConflicted$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$BigDecimalAsIfIntegral$; MODULE$

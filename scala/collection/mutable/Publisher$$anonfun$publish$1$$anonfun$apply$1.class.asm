@@ -4,7 +4,7 @@
 // declaration: scala/collection/mutable/Publisher$$anonfun$publish$1$$anonfun$apply$1 extends scala.runtime.AbstractFunction1<scala.Function1<Evt, java.lang.Object>, java.lang.Object> implements scala.Serializable
 public final class scala/collection/mutable/Publisher$$anonfun$publish$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/mutable/Publisher$$anonfun$publish$1 apply (Lscala/collection/mutable/Subscriber;)V
+  OUTERCLASS scala/collection/mutable/Publisher$$anonfun$publish$1 null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/Publisher$$anonfun$publish$1 null null
   // access flags 0x11

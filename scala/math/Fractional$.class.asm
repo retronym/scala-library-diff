@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/math/Fractional$ implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/math/Fractional$Implicits$ scala/math/Fractional Implicits$
-  // access flags 0x609
-  public static abstract INNERCLASS scala/math/Fractional$ExtraImplicits scala/math/Fractional ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Fractional$ExtraImplicits$class scala/math/Fractional ExtraImplicits$class
 
   // access flags 0x19
   public final static Lscala/math/Fractional$; MODULE$

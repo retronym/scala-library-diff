@@ -14,10 +14,6 @@ public class scala/math/Numeric$ShortIsIntegral$ implements scala/math/Numeric$S
   public static INNERCLASS scala/math/Numeric$ShortIsIntegral$ scala/math/Numeric ShortIsIntegral$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$ShortIsIntegral scala/math/Numeric ShortIsIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ShortOrdering$class scala/math/Ordering ShortOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ShortIsIntegral$class scala/math/Numeric ShortIsIntegral$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$ShortIsIntegral$; MODULE$

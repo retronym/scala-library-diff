@@ -4,7 +4,7 @@
 // declaration: scala/concurrent/Future$$anonfun$collect$1$$anonfun$apply$4 extends scala.runtime.AbstractFunction1<T, scala.runtime.Nothing$> implements scala.Serializable
 public final class scala/concurrent/Future$$anonfun$collect$1$$anonfun$apply$4 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/Future$$anonfun$collect$1 apply (Ljava/lang/Object;)Ljava/lang/Object;
+  OUTERCLASS scala/concurrent/Future$$anonfun$collect$1 null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$collect$1 null null
   // access flags 0x11

@@ -4,9 +4,7 @@
 // declaration: scala/util/control/TailCalls$TailRec$$anonfun$map$1$$anonfun$apply$1 extends scala.runtime.AbstractFunction0<scala.util.control.TailCalls$Done<B>> implements scala.Serializable
 public final class scala/util/control/TailCalls$TailRec$$anonfun$map$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
-  OUTERCLASS scala/util/control/TailCalls$TailRec$$anonfun$map$1 apply (Ljava/lang/Object;)Lscala/util/control/TailCalls$Call;
-  // access flags 0x9
-  public static INNERCLASS scala/util/control/TailCalls$Call scala/util/control/TailCalls Call
+  OUTERCLASS scala/util/control/TailCalls$TailRec$$anonfun$map$1 null
   // access flags 0x9
   public static INNERCLASS scala/util/control/TailCalls$Done scala/util/control/TailCalls Done
   // access flags 0x409

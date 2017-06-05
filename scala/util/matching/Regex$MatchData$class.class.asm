@@ -6,8 +6,6 @@ public abstract class scala/util/matching/Regex$MatchData$class {
   public static abstract INNERCLASS scala/util/matching/Regex$MatchData scala/util/matching/Regex MatchData
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Range$Inclusive scala/collection/immutable/Range Inclusive
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$MatchData$class scala/util/matching/Regex MatchData$class
   // access flags 0x11
   public final INNERCLASS scala/util/matching/Regex$MatchData$$anonfun$subgroups$1 null null
 

@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/ParMapLike$$anon$1$$anonfun$filtered$1 extends scala.runtime.AbstractFunction1<scala.Tuple2<K, V>, java.lang.Object> implements scala.Serializable
 public final class scala/collection/parallel/ParMapLike$$anon$1$$anonfun$filtered$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/ParMapLike$$anon$1 filtered ()Lscala/collection/parallel/ParMap;
+  OUTERCLASS scala/collection/parallel/ParMapLike$$anon$1 null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParMapLike$$anon$1 null null
   // access flags 0x11

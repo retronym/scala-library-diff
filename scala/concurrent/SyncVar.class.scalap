@@ -5,10 +5,10 @@ class SyncVar[A] extends scala.AnyRef {
   def get(timeout: scala.Long): scala.Option[A] = { /* compiled code */ }
   def take(): A = { /* compiled code */ }
   def take(timeout: scala.Long): A = { /* compiled code */ }
-  @scala.deprecated("Use `put` instead, as `set` is potentionally error-prone")
+  @scala.deprecated("Use `put` instead, as `set` is potentially error-prone")
   def set(x: A): scala.Unit = { /* compiled code */ }
   def put(x: A): scala.Unit = { /* compiled code */ }
   def isSet: scala.Boolean = { /* compiled code */ }
-  @scala.deprecated("Use `take` instead, as `unset` is potentionally error-prone")
+  @scala.deprecated("Use `take` instead, as `unset` is potentially error-prone")
   def unset(): scala.Unit = { /* compiled code */ }
 }

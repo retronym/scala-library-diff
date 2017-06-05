@@ -2,20 +2,12 @@
 // access flags 0x31
 public final class scala/sys/process/BasicIO$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed scala/sys/process/BasicIO Streamed
-  // access flags 0x9
-  public static INNERCLASS scala/sys/process/BasicIO$Streamed$ scala/sys/process/BasicIO Streamed$
   // access flags 0x11
   public final INNERCLASS scala/sys/process/BasicIO$$anonfun$1 null null
   // access flags 0x9
   public static INNERCLASS scala/sys/process/BasicIO$Uncloseable$ scala/sys/process/BasicIO Uncloseable$
-  // access flags 0x609
-  public static abstract INNERCLASS scala/sys/process/BasicIO$Uncloseable scala/sys/process/BasicIO Uncloseable
   // access flags 0x11
   public final INNERCLASS scala/sys/process/BasicIO$$anonfun$input$1 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/BasicIO$Uncloseable$class scala/sys/process/BasicIO Uncloseable$class
   // access flags 0x11
   public final INNERCLASS scala/sys/process/BasicIO$$anonfun$toStdOut$1 null null
   // access flags 0x11

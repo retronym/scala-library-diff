@@ -4,8 +4,6 @@ public abstract class scala/math/Ordering$BooleanOrdering$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering scala/math/Ordering BooleanOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering$class scala/math/Ordering BooleanOrdering$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Ordering$BooleanOrdering;)V

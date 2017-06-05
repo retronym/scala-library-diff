@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/collection/package {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/package$$anon$1 null null
 
   // access flags 0x9
   // signature <From:Ljava/lang/Object;T:Ljava/lang/Object;To:Ljava/lang/Object;>(Lscala/collection/generic/CanBuildFrom<Lscala/runtime/Nothing$;TT;TTo;>;)Lscala/collection/generic/CanBuildFrom<TFrom;TT;TTo;>;

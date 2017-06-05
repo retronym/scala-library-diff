@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$Prepended$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Prepended scala/collection/SeqViewLike Prepended
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Prepended$class scala/collection/SeqViewLike Prepended$class
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$Prepended$$anonfun$iterator$1 null null
 

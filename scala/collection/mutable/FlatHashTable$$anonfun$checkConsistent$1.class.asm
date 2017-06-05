@@ -2,7 +2,7 @@
 // access flags 0x31
 public final class scala/collection/mutable/FlatHashTable$$anonfun$checkConsistent$1 extends scala/runtime/AbstractFunction1$mcVI$sp  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/mutable/FlatHashTable checkConsistent (Lscala/collection/mutable/FlatHashTable;)V
+  OUTERCLASS scala/collection/mutable/FlatHashTable null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/FlatHashTable$$anonfun$checkConsistent$1 null null
   // access flags 0x11

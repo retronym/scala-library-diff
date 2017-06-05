@@ -27,18 +27,6 @@ public abstract interface scala/collection/mutable/IndexedSeqView implements sca
   // access flags 0x601
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$DroppedWhile scala/collection/mutable/IndexedSeqView DroppedWhile
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Sliced$class scala/collection/mutable/IndexedSeqView Sliced$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Filtered$class scala/collection/mutable/IndexedSeqView Filtered$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Reversed$class scala/collection/mutable/IndexedSeqView Reversed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$TakenWhile$class scala/collection/mutable/IndexedSeqView TakenWhile$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Transformed$class scala/collection/mutable/IndexedSeqView Transformed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$DroppedWhile$class scala/collection/mutable/IndexedSeqView DroppedWhile$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$AbstractTransformed scala/collection/mutable/IndexedSeqView AbstractTransformed
 
   // access flags 0x401

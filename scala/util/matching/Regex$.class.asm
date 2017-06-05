@@ -2,22 +2,6 @@
 // access flags 0x31
 public final class scala/util/matching/Regex$ implements scala/Serializable  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/util/matching/Regex$Match scala/util/matching/Regex Match
-  // access flags 0x9
-  public static INNERCLASS scala/util/matching/Regex$Match$ scala/util/matching/Regex Match$
-  // access flags 0x9
-  public static INNERCLASS scala/util/matching/Regex$Groups$ scala/util/matching/Regex Groups$
-  // access flags 0x609
-  public static abstract INNERCLASS scala/util/matching/Regex$MatchData scala/util/matching/Regex MatchData
-  // access flags 0x609
-  public static abstract INNERCLASS scala/util/matching/Regex$Replacement scala/util/matching/Regex Replacement
-  // access flags 0x9
-  public static INNERCLASS scala/util/matching/Regex$MatchIterator scala/util/matching/Regex MatchIterator
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$MatchData$class scala/util/matching/Regex MatchData$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$Replacement$class scala/util/matching/Regex Replacement$class
 
   // access flags 0x19
   public final static Lscala/util/matching/Regex$; MODULE$

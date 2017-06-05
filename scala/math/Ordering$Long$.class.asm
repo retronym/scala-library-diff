@@ -8,8 +8,6 @@ public class scala/math/Ordering$Long$ implements scala/math/Ordering$LongOrderi
   public static INNERCLASS scala/math/Ordering$Long$ scala/math/Ordering Long$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$LongOrdering scala/math/Ordering LongOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$LongOrdering$class scala/math/Ordering LongOrdering$class
 
   // access flags 0x19
   public final static Lscala/math/Ordering$Long$; MODULE$

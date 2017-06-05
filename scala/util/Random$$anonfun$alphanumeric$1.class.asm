@@ -32,7 +32,7 @@ public final class scala/util/Random$$anonfun$alphanumeric$1 extends scala/runti
   public final apply()C
     ALOAD 0
     GETFIELD scala/util/Random$$anonfun$alphanumeric$1.$outer : Lscala/util/Random;
-    INVOKEVIRTUAL scala/util/Random.nextPrintableChar ()C
+    INVOKEVIRTUAL scala/util/Random.scala$util$Random$$nextAlphaNum$1 ()C
     IRETURN
     MAXSTACK = 1
     MAXLOCALS = 1
@@ -50,7 +50,7 @@ public final class scala/util/Random$$anonfun$alphanumeric$1 extends scala/runti
   public apply$mcC$sp()C
     ALOAD 0
     GETFIELD scala/util/Random$$anonfun$alphanumeric$1.$outer : Lscala/util/Random;
-    INVOKEVIRTUAL scala/util/Random.nextPrintableChar ()C
+    INVOKEVIRTUAL scala/util/Random.scala$util$Random$$nextAlphaNum$1 ()C
     IRETURN
     MAXSTACK = 1
     MAXLOCALS = 1

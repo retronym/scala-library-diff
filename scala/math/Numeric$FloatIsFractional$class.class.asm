@@ -4,8 +4,6 @@ public abstract class scala/math/Numeric$FloatIsFractional$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$FloatIsFractional scala/math/Numeric FloatIsFractional
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatIsFractional$class scala/math/Numeric FloatIsFractional$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$FloatIsFractional;)V

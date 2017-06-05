@@ -45,9 +45,9 @@ sealed abstract class Option[+A] extends scala.AnyRef with scala.Product with sc
   def iterator: scala.Iterator[A] = { /* compiled code */ }
   def toList: scala.List[A] = { /* compiled code */ }
   @scala.inline
-  final def toRight[X](left: => X): scala.Serializable with scala.Product with scala.util.Either[X, A] = { /* compiled code */ }
+  final def toRight[X](left: => X): scala.Product with scala.Serializable with scala.util.Either[X, A] = { /* compiled code */ }
   @scala.inline
-  final def toLeft[X](right: => X): scala.Serializable with scala.Product with scala.util.Either[A, X] = { /* compiled code */ }
+  final def toLeft[X](right: => X): scala.Product with scala.Serializable with scala.util.Either[A, X] = { /* compiled code */ }
 }
 object Option extends scala.AnyRef with scala.Serializable {
   def this() = { /* compiled code */ }

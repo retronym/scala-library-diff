@@ -8,8 +8,6 @@ public class scala/util/matching/Regex$MatchIterator extends scala/collection/Ab
   public static abstract INNERCLASS scala/util/matching/Regex$MatchData scala/util/matching/Regex MatchData
   // access flags 0x9
   public static INNERCLASS scala/util/matching/Regex$MatchIterator scala/util/matching/Regex MatchIterator
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$MatchData$class scala/util/matching/Regex MatchData$class
   // access flags 0x11
   public final INNERCLASS scala/util/matching/Regex$MatchIterator$$anon$3 null null
   // access flags 0x11

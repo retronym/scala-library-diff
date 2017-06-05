@@ -1,6 +1,6 @@
 package scala.collection.mutable
 @scala.SerialVersionUID { val value = -8144992287952814767None }
-@scala.deprecated("Low-level linked lists are deprecated due to idiosyncracies in interface and incomplete features.")
+@scala.deprecated("Low-level linked lists are deprecated due to idiosyncrasies in interface and incomplete features.")
 class DoubleLinkedList[A] extends scala.collection.mutable.AbstractSeq[A] with scala.collection.mutable.LinearSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.DoubleLinkedList] with scala.collection.mutable.DoubleLinkedListLike[A, scala.collection.mutable.DoubleLinkedList[A]] with scala.Serializable {
   def this() = { /* compiled code */ }
   def this(elem: A, next: scala.collection.mutable.DoubleLinkedList[A]) = { /* compiled code */ }

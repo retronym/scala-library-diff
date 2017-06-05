@@ -4,8 +4,6 @@ public abstract class scala/collection/SeqViewLike$Reversed$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Reversed scala/collection/SeqViewLike Reversed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Reversed$class scala/collection/SeqViewLike Reversed$class
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$Reversed$$anonfun$createReversedIterator$1 null null
 

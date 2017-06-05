@@ -4,8 +4,6 @@ public abstract class scala/collection/parallel/ThreadPoolTasks$WrappedTask$clas
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask scala/collection/parallel/ThreadPoolTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask$class scala/collection/parallel/ThreadPoolTasks WrappedTask$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/parallel/ThreadPoolTasks$WrappedTask;)V

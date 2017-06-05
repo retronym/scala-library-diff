@@ -8,8 +8,6 @@ public class scala/sys/process/ProcessBuilderImpl$URLImpl implements scala/sys/p
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$URLBuilder scala/sys/process/ProcessBuilder URLBuilder
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$URLImpl scala/sys/process/ProcessBuilderImpl URLImpl
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source$class scala/sys/process/ProcessBuilder Source$class
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$URLInput scala/sys/process/ProcessBuilderImpl URLInput
 

@@ -14,8 +14,6 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
   public final INNERCLASS scala/collection/mutable/LinkedHashMap$$anon$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/LinkedHashMap$$anon$3 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
   // access flags 0x1
   public INNERCLASS scala/collection/mutable/LinkedHashMap$FilteredKeys scala/collection/mutable/LinkedHashMap FilteredKeys
   // access flags 0x1
@@ -302,6 +300,9 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
     ALOAD 0
     ACONST_NULL
     INVOKEVIRTUAL scala/collection/mutable/LinkedHashMap.firstEntry_$eq (Lscala/collection/mutable/LinkedEntry;)V
+    ALOAD 0
+    ACONST_NULL
+    INVOKEVIRTUAL scala/collection/mutable/LinkedHashMap.lastEntry_$eq (Lscala/collection/mutable/LinkedEntry;)V
     RETURN
     MAXSTACK = 2
     MAXLOCALS = 1

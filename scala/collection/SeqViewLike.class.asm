@@ -60,46 +60,16 @@ public abstract interface scala/collection/SeqViewLike implements scala/collecti
   public abstract INNERCLASS scala/collection/SeqViewLike$Transformed scala/collection/SeqViewLike Transformed
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$DroppedWhile scala/collection/SeqViewLike DroppedWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Forced$class scala/collection/SeqViewLike Forced$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Sliced$class scala/collection/SeqViewLike Sliced$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Mapped$class scala/collection/SeqViewLike Mapped$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Zipped$class scala/collection/SeqViewLike Zipped$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Patched$class scala/collection/SeqViewLike Patched$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Appended$class scala/collection/SeqViewLike Appended$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Filtered$class scala/collection/SeqViewLike Filtered$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Reversed$class scala/collection/SeqViewLike Reversed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$EmptyView$class scala/collection/SeqViewLike EmptyView$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$ZippedAll$class scala/collection/SeqViewLike ZippedAll$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Prepended$class scala/collection/SeqViewLike Prepended$class
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$$anonfun$diff$1 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$FlatMapped$class scala/collection/SeqViewLike FlatMapped$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$TakenWhile$class scala/collection/SeqViewLike TakenWhile$class
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$$anonfun$padTo$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$$anonfun$union$1 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Transformed$class scala/collection/SeqViewLike Transformed$class
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$$anonfun$sorted$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$$anonfun$sortBy$1 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$DroppedWhile$class scala/collection/SeqViewLike DroppedWhile$class
   // access flags 0x401
   public abstract INNERCLASS scala/collection/SeqViewLike$AbstractTransformed scala/collection/SeqViewLike AbstractTransformed
   // access flags 0x11

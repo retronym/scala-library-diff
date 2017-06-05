@@ -11,8 +11,6 @@ public final class scala/util/matching/Regex$MatchIterator$$anon$1 extends scala
   public static abstract INNERCLASS scala/util/matching/Regex$Replacement scala/util/matching/Regex Replacement
   // access flags 0x9
   public static INNERCLASS scala/util/matching/Regex$MatchIterator scala/util/matching/Regex MatchIterator
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$Replacement$class scala/util/matching/Regex Replacement$class
   // access flags 0x11
   public final INNERCLASS scala/util/matching/Regex$MatchIterator$$anon$1 null null
 

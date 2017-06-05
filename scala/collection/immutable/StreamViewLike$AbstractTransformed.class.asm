@@ -15,8 +15,6 @@ public abstract class scala/collection/immutable/StreamViewLike$AbstractTransfor
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed scala/collection/TraversableViewLike Transformed
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed$class scala/collection/immutable/StreamViewLike Transformed$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$AbstractTransformed scala/collection/immutable/StreamViewLike AbstractTransformed
 
   // access flags 0x1

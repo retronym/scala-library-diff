@@ -4,8 +4,6 @@ public abstract class scala/collection/immutable/StreamViewLike$Transformed$clas
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed scala/collection/immutable/StreamViewLike Transformed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/immutable/StreamViewLike$Transformed$class scala/collection/immutable/StreamViewLike Transformed$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/immutable/StreamViewLike$Transformed;)V

@@ -3,19 +3,7 @@
 public final class scala/collection/immutable/Range$ implements scala/Serializable  {
 
   // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Range$Int$ scala/collection/immutable/Range Int$
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Range$Long$ scala/collection/immutable/Range Long$
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Range$BigInt$ scala/collection/immutable/Range BigInt$
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Range$Double$ scala/collection/immutable/Range Double$
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Range$Partial scala/collection/immutable/Range Partial
-  // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Range$Inclusive scala/collection/immutable/Range Inclusive
-  // access flags 0x9
-  public static INNERCLASS scala/collection/immutable/Range$BigDecimal$ scala/collection/immutable/Range BigDecimal$
 
   // access flags 0x12
   private final I MAX_PRINT

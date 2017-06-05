@@ -1474,11 +1474,65 @@ public final class scala/collection/concurrent/TrieMap implements scala/collecti
   public getOrElseUpdate(Ljava/lang/Object;Lscala/Function0;)Ljava/lang/Object;
     ALOAD 0
     ALOAD 1
+    INVOKEVIRTUAL scala/collection/concurrent/TrieMap.lookup (Ljava/lang/Object;)Ljava/lang/Object;
+    ASTORE 3
+    ALOAD 3
+    IFNONNULL L0
     ALOAD 2
-    INVOKESTATIC scala/collection/mutable/MapLike$class.getOrElseUpdate (Lscala/collection/mutable/MapLike;Ljava/lang/Object;Lscala/Function0;)Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function0.apply ()Ljava/lang/Object;
+    ASTORE 4
+    ALOAD 4
+    IFNONNULL L1
+    NEW java/lang/NullPointerException
+    DUP
+    LDC "Concurrent TrieMap values cannot be null."
+    INVOKESPECIAL java/lang/NullPointerException.<init> (Ljava/lang/String;)V
+    ATHROW
+   L1
+    ALOAD 0
+    ALOAD 1
+    INVOKEVIRTUAL scala/collection/concurrent/TrieMap.computeHash (Ljava/lang/Object;)I
+    ISTORE 5
+    ALOAD 0
+    ALOAD 1
+    ILOAD 5
+    ALOAD 4
+    GETSTATIC scala/collection/concurrent/INode$.MODULE$ : Lscala/collection/concurrent/INode$;
+    INVOKEVIRTUAL scala/collection/concurrent/INode$.KEY_ABSENT ()Ljava/lang/Object;
+    INVOKESPECIAL scala/collection/concurrent/TrieMap.insertifhc (Ljava/lang/Object;ILjava/lang/Object;Ljava/lang/Object;)Lscala/Option;
+    ASTORE 6
+    ALOAD 6
+    INSTANCEOF scala/Some
+    IFEQ L2
+    ALOAD 6
+    CHECKCAST scala/Some
+    ASTORE 7
+    ALOAD 7
+    INVOKEVIRTUAL scala/Some.x ()Ljava/lang/Object;
+    ASTORE 8
+    GOTO L3
+   L2
+    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
+    ALOAD 6
+    INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
+    IFEQ L4
+    ALOAD 4
+    ASTORE 8
+   L3
+    ALOAD 8
+    GOTO L5
+   L4
+    NEW scala/MatchError
+    DUP
+    ALOAD 6
+    INVOKESPECIAL scala/MatchError.<init> (Ljava/lang/Object;)V
+    ATHROW
+   L0
+    ALOAD 3
+   L5
     ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 3
+    MAXSTACK = 5
+    MAXLOCALS = 9
 
   // access flags 0x1
   // signature <K:Ljava/lang/Object;>(Lscala/Function1<Lscala/Tuple2<TK;TV;>;TK;>;)Lscala/collection/immutable/Map<TK;Lscala/collection/concurrent/TrieMap<TK;TV;>;>;

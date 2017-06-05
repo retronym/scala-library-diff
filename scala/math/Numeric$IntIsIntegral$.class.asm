@@ -14,10 +14,6 @@ public class scala/math/Numeric$IntIsIntegral$ implements scala/math/Numeric$Int
   public static INNERCLASS scala/math/Numeric$IntIsIntegral$ scala/math/Numeric IntIsIntegral$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$IntIsIntegral scala/math/Numeric IntIsIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$IntOrdering$class scala/math/Ordering IntOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$IntIsIntegral$class scala/math/Numeric IntIsIntegral$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$IntIsIntegral$; MODULE$

@@ -6,8 +6,6 @@ public abstract class scala/collection/parallel/AdaptiveWorkStealingTasks$Wrappe
   public static INNERCLASS scala/Predef$any2stringadd$ scala/Predef any2stringadd$
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask scala/collection/parallel/AdaptiveWorkStealingTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask$class scala/collection/parallel/AdaptiveWorkStealingTasks WrappedTask$class
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask$$anonfun$spawnSubtasks$1 null null
 

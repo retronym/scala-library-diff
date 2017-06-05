@@ -15,8 +15,6 @@ public abstract class scala/collection/mutable/IndexedSeqView$AbstractTransforme
   // access flags 0x601
   public abstract INNERCLASS scala/collection/TraversableViewLike$Transformed scala/collection/TraversableViewLike Transformed
   // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Transformed$class scala/collection/mutable/IndexedSeqView Transformed$class
-  // access flags 0x401
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$AbstractTransformed scala/collection/mutable/IndexedSeqView AbstractTransformed
 
   // access flags 0x1

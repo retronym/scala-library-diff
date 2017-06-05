@@ -4,8 +4,6 @@
 // declaration: scala/collection/parallel/mutable/ParMap$ extends scala.collection.generic.ParMapFactory<scala.collection.parallel.mutable.ParMap>
 public final class scala/collection/parallel/mutable/ParMap$ extends scala/collection/generic/ParMapFactory  {
 
-  // access flags 0x9
-  public static INNERCLASS scala/collection/parallel/mutable/ParMap$WithDefault scala/collection/parallel/mutable/ParMap WithDefault
   // access flags 0x1
   public INNERCLASS scala/collection/generic/ParMapFactory$CanCombineFromMap scala/collection/generic/ParMapFactory CanCombineFromMap
 

@@ -6,8 +6,6 @@ public abstract class scala/collection/mutable/FlatHashTable$HashUtils$class {
   public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils scala/collection/mutable/FlatHashTable HashUtils
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/FlatHashTable$NullSentinel$ scala/collection/mutable/FlatHashTable NullSentinel$
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils$class scala/collection/mutable/FlatHashTable HashUtils$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/mutable/FlatHashTable$HashUtils;)V

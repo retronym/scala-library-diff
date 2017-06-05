@@ -1,5 +1,5 @@
 package scala.collection.mutable
-@scala.deprecated("Low-level linked lists are deprecated due to idiosyncracies in interface and incomplete features.")
+@scala.deprecated("Low-level linked lists are deprecated due to idiosyncrasies in interface and incomplete features.")
 trait LinkedListLike[A, This <: scala.collection.mutable.Seq[A] with scala.collection.mutable.LinkedListLike[A, This]] extends scala.AnyRef with scala.collection.mutable.SeqLike[A, This] {
  this: scala.collection.mutable.LinkedListLike[A, This] =>
   def $init$(): scala.Unit = { /* compiled code */ }

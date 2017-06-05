@@ -8,8 +8,6 @@ public final class scala/collection/TraversableOnce$ {
   public static INNERCLASS scala/collection/TraversableOnce$FlattenOps scala/collection/TraversableOnce FlattenOps
   // access flags 0x9
   public static INNERCLASS scala/collection/TraversableOnce$OnceCanBuildFrom scala/collection/TraversableOnce OnceCanBuildFrom
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/TraversableOnce$BufferedCanBuildFrom scala/collection/TraversableOnce BufferedCanBuildFrom
   // access flags 0x9
   public static INNERCLASS scala/collection/TraversableOnce$ForceImplicitAmbiguity scala/collection/TraversableOnce ForceImplicitAmbiguity
 

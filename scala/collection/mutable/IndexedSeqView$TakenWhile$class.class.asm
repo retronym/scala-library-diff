@@ -4,8 +4,6 @@ public abstract class scala/collection/mutable/IndexedSeqView$TakenWhile$class {
 
   // access flags 0x601
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$TakenWhile scala/collection/mutable/IndexedSeqView TakenWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$TakenWhile$class scala/collection/mutable/IndexedSeqView TakenWhile$class
 
   // access flags 0x9
   public static $init$(Lscala/collection/mutable/IndexedSeqView$TakenWhile;)V

@@ -11,8 +11,6 @@ public abstract interface scala/collection/IterableLike implements scala/Equals 
   // access flags 0x11
   public final INNERCLASS scala/collection/IterableLike$$anonfun$sliding$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/IterableLike$$anonfun$takeRight$1 null null
-  // access flags 0x11
   public final INNERCLASS scala/collection/IterableLike$$anonfun$zipWithIndex$1 null null
 
   // access flags 0x401

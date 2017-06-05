@@ -1,5 +1,5 @@
 package scala.collection.mutable
-@scala.deprecated("Low-level linked lists are deprecated due to idiosyncracies in interface and incomplete features.")
+@scala.deprecated("Low-level linked lists are deprecated due to idiosyncrasies in interface and incomplete features.")
 @scala.SerialVersionUID { val value = -7308240733518833071None }
 class LinkedList[A] extends scala.collection.mutable.AbstractSeq[A] with scala.collection.mutable.LinearSeq[A] with scala.collection.generic.GenericTraversableTemplate[A, scala.collection.mutable.LinkedList] with scala.collection.mutable.LinkedListLike[A, scala.collection.mutable.LinkedList[A]] with scala.Serializable {
   def this() = { /* compiled code */ }

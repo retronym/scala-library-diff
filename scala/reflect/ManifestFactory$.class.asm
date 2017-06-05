@@ -36,8 +36,6 @@ public final class scala/reflect/ManifestFactory$ {
   public final INNERCLASS scala/reflect/ManifestFactory$$anon$13 null null
   // access flags 0x11
   public final INNERCLASS scala/reflect/ManifestFactory$$anon$14 null null
-  // access flags 0x409
-  public static abstract INNERCLASS scala/reflect/ManifestFactory$PhantomManifest scala/reflect/ManifestFactory PhantomManifest
   // access flags 0x9
   public static INNERCLASS scala/reflect/ManifestFactory$ClassTypeManifest scala/reflect/ManifestFactory ClassTypeManifest
   // access flags 0x9

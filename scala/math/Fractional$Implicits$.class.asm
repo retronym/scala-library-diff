@@ -8,8 +8,6 @@ public class scala/math/Fractional$Implicits$ implements scala/math/Fractional$E
   public INNERCLASS scala/math/Fractional$FractionalOps scala/math/Fractional FractionalOps
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Fractional$ExtraImplicits scala/math/Fractional ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Fractional$ExtraImplicits$class scala/math/Fractional ExtraImplicits$class
 
   // access flags 0x19
   public final static Lscala/math/Fractional$Implicits$; MODULE$

@@ -441,8 +441,8 @@ public abstract class scala/Option implements scala/Product scala/Serializable  
     MAXLOCALS = 1
 
   // access flags 0x11
-  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Serializable;
-  // declaration: scala.Serializable toLeft<X>(scala.Function0<X>)
+  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Product;
+  // declaration: scala.Product toLeft<X>(scala.Function0<X>)
   public final toLeft(Lscala/Function0;)Lscala/util/Either;
     ALOAD 0
     INVOKEVIRTUAL scala/Option.isEmpty ()Z
@@ -486,8 +486,8 @@ public abstract class scala/Option implements scala/Product scala/Serializable  
     MAXLOCALS = 1
 
   // access flags 0x11
-  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Serializable;
-  // declaration: scala.Serializable toRight<X>(scala.Function0<X>)
+  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Product;
+  // declaration: scala.Product toRight<X>(scala.Function0<X>)
   public final toRight(Lscala/Function0;)Lscala/util/Either;
     ALOAD 0
     INVOKEVIRTUAL scala/Option.isEmpty ()Z

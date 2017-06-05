@@ -10,8 +10,6 @@ public class scala/collection/parallel/ParSeqLike$LastIndexWhere implements scal
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor scala/collection/parallel/ParIterableLike Accessor
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/ParSeqLike$LastIndexWhere scala/collection/parallel/ParSeqLike LastIndexWhere
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor$class scala/collection/parallel/ParIterableLike Accessor$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
   // access flags 0x11
@@ -20,8 +18,6 @@ public class scala/collection/parallel/ParSeqLike$LastIndexWhere implements scal
   public final INNERCLASS scala/collection/parallel/ParSeqLike$LastIndexWhere$$anonfun$split$8 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParSeqLike$LastIndexWhere$$anonfun$split$9 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask$class scala/collection/parallel/ParIterableLike StrictSplitterCheckTask$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/parallel/ParSeqLike; $outer

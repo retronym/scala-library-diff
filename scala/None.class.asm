@@ -257,8 +257,8 @@ public final class scala/None {
     MAXLOCALS = 0
 
   // access flags 0x9
-  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Serializable;
-  // declaration: scala.Serializable toLeft<X>(scala.Function0<X>)
+  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Product;
+  // declaration: scala.Product toLeft<X>(scala.Function0<X>)
   public static toLeft(Lscala/Function0;)Lscala/util/Either;
     GETSTATIC scala/None$.MODULE$ : Lscala/None$;
     ALOAD 0
@@ -278,8 +278,8 @@ public final class scala/None {
     MAXLOCALS = 0
 
   // access flags 0x9
-  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Serializable;
-  // declaration: scala.Serializable toRight<X>(scala.Function0<X>)
+  // signature <X:Ljava/lang/Object;>(Lscala/Function0<TX;>;)Lscala/Product;
+  // declaration: scala.Product toRight<X>(scala.Function0<X>)
   public static toRight(Lscala/Function0;)Lscala/util/Either;
     GETSTATIC scala/None$.MODULE$ : Lscala/None$;
     ALOAD 0

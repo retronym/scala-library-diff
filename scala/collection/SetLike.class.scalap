@@ -16,7 +16,7 @@ trait SetLike[A, +This <: scala.collection.SetLike[A, This] with scala.collectio
   def union(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
   def diff(that: scala.collection.GenSet[A]): This = { /* compiled code */ }
   def subsets(len: scala.Int): scala.collection.Iterator[This] = { /* compiled code */ }
-  def subsets: scala.collection.Iterator[This] = { /* compiled code */ }
+  def subsets(): scala.collection.Iterator[This] = { /* compiled code */ }
   override def stringPrefix: scala.Predef.String = { /* compiled code */ }
   override def toString(): scala.Predef.String = { /* compiled code */ }
 }

@@ -4,8 +4,6 @@ public abstract class scala/math/Numeric$FloatAsIfIntegral$class {
 
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$FloatAsIfIntegral scala/math/Numeric FloatAsIfIntegral
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatAsIfIntegral$class scala/math/Numeric FloatAsIfIntegral$class
 
   // access flags 0x9
   public static $init$(Lscala/math/Numeric$FloatAsIfIntegral;)V

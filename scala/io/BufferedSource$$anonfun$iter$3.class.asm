@@ -4,7 +4,7 @@
 // declaration: scala/io/BufferedSource$$anonfun$iter$3 extends scala.runtime.AbstractFunction1<java.lang.Object, java.lang.Object> implements scala.Serializable
 public final class scala/io/BufferedSource$$anonfun$iter$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/io/BufferedSource iter ()Lscala/collection/Iterator;
+  OUTERCLASS scala/io/BufferedSource null
   // access flags 0x11
   public final INNERCLASS scala/io/BufferedSource$$anonfun$iter$3 null null
 

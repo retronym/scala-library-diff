@@ -8,8 +8,6 @@ public class scala/math/Numeric$Implicits$ implements scala/math/Numeric$ExtraIm
   public static INNERCLASS scala/math/Numeric$Implicits$ scala/math/Numeric Implicits$
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$ExtraImplicits scala/math/Numeric ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ExtraImplicits$class scala/math/Numeric ExtraImplicits$class
 
   // access flags 0x19
   public final static Lscala/math/Numeric$Implicits$; MODULE$

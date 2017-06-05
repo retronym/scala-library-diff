@@ -11,8 +11,6 @@ public final class scala/math/Ordering$$anon$3 implements scala/math/Ordering$Op
   public final INNERCLASS scala/math/Ordering$$anon$3 null null
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$OptionOrdering scala/math/Ordering OptionOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$OptionOrdering$class scala/math/Ordering OptionOrdering$class
 
   // access flags 0x12
   // signature Lscala/math/Ordering<TT;>;

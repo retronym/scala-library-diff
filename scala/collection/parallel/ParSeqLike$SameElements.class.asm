@@ -10,16 +10,12 @@ public class scala/collection/parallel/ParSeqLike$SameElements implements scala/
   public INNERCLASS scala/collection/parallel/ParSeqLike$SameElements scala/collection/parallel/ParSeqLike SameElements
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor scala/collection/parallel/ParIterableLike Accessor
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$Accessor$class scala/collection/parallel/ParIterableLike Accessor$class
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParSeqLike$SameElements$$anonfun$split$10 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParSeqLike$SameElements$$anonfun$split$11 null null
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask$class scala/collection/parallel/ParIterableLike StrictSplitterCheckTask$class
 
   // access flags 0x1011
   public final synthetic Lscala/collection/parallel/ParSeqLike; $outer
