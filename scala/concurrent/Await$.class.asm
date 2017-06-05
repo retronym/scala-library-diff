@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/concurrent/Await$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Await$$anonfun$ready$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Await$$anonfun$result$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/Await$$anonfun$ready$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/Await$$anonfun$result$1 null null
 
   // access flags 0x19
   public final static Lscala/concurrent/Await$; MODULE$

@@ -4,11 +4,11 @@
 // declaration: scala/collection/generic/IsSeqLike$$anon$1 implements scala.collection.generic.IsSeqLike<java.lang.String>
 public final class scala/collection/generic/IsSeqLike$$anon$1 implements scala/collection/generic/IsSeqLike  {
 
-  OUTERCLASS scala/collection/generic/IsSeqLike$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsSeqLike$$anon$1 scala/collection/generic/IsSeqLike null
+  OUTERCLASS scala/collection/generic/IsSeqLike$ null
   // access flags 0x11
-  public final INNERCLASS scala/collection/generic/IsSeqLike$$anon$1$$anonfun$1 scala/collection/generic/IsSeqLike$$anon$1 null
+  public final INNERCLASS scala/collection/generic/IsSeqLike$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsSeqLike$$anon$1$$anonfun$1 null null
 
   // access flags 0x12
   // signature Lscala/Function1<Ljava/lang/String;Lscala/collection/SeqLike<Ljava/lang/Object;Ljava/lang/String;>;>;

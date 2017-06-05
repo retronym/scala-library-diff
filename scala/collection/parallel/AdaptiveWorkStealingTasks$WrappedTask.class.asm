@@ -26,7 +26,7 @@ public abstract interface scala/collection/parallel/AdaptiveWorkStealingTasks$Wr
   // signature (Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask<TR;TTp;>;)V
   // declaration: void next_$eq(scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask<R, Tp>)
   public abstract next_$eq(Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   public abstract printChain()V
@@ -39,7 +39,7 @@ public abstract interface scala/collection/parallel/AdaptiveWorkStealingTasks$Wr
 
   // access flags 0x401
   public abstract shouldWaitFor_$eq(Z)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature ()Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask<TR;TTp;>;

@@ -11,7 +11,7 @@ public abstract class scala/collection/generic/GenTraversableFactory extends sca
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$IntIsIntegral$ scala/math/Numeric IntIsIntegral$
   // access flags 0x11
-  public final INNERCLASS scala/collection/generic/GenTraversableFactory$$anon$1 scala/collection/generic/GenTraversableFactory null
+  public final INNERCLASS scala/collection/generic/GenTraversableFactory$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/generic/GenTraversableFactory$$anonfun$fill$1 null null
   // access flags 0x11

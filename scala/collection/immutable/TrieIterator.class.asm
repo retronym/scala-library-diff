@@ -4,8 +4,8 @@
 // declaration: scala/collection/immutable/TrieIterator<T> extends scala.collection.AbstractIterator<T>
 public abstract class scala/collection/immutable/TrieIterator extends scala/collection/AbstractIterator  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anon$2 null null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofRef scala/collection/mutable/ArrayOps ofRef
   // access flags 0x19

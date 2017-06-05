@@ -5,8 +5,8 @@
 public final class scala/io/Source$$anonfun$fromIterable$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
   OUTERCLASS scala/io/Source$ fromIterable (Lscala/collection/Iterable;)Lscala/io/Source;
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$fromIterable$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$fromIterable$1 null null
 
   // access flags 0x12
   private final Lscala/collection/Iterable; iterable$1

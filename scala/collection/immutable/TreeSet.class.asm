@@ -962,6 +962,16 @@ public class scala/collection/immutable/TreeSet implements scala/collection/immu
     MAXLOCALS = 2
 
   // access flags 0x1
+  public filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    INVOKESTATIC scala/collection/TraversableLike$class.filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
   public filterNot(Lscala/Function1;)Ljava/lang/Object;
     ALOAD 0
     ALOAD 1

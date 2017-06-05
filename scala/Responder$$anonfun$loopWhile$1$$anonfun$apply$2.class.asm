@@ -5,8 +5,8 @@
 public final class scala/Responder$$anonfun$loopWhile$1$$anonfun$apply$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Responder$$anonfun$loopWhile$1 apply (Lscala/runtime/BoxedUnit;)Lscala/Responder;
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$loopWhile$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Responder$$anonfun$loopWhile$1 null null
   // access flags 0x11
   public final INNERCLASS scala/Responder$$anonfun$loopWhile$1$$anonfun$apply$2 null null
 

@@ -5,8 +5,8 @@
 public final class scala/util/MurmurHash$$anonfun$symmetricHash$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/util/MurmurHash$ symmetricHash (Lscala/collection/TraversableOnce;I)I
-  // access flags 0x19
-  public final static INNERCLASS scala/util/MurmurHash$$anonfun$symmetricHash$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/MurmurHash$$anonfun$symmetricHash$1 null null
 
   // access flags 0x12
   private final Lscala/runtime/IntRef; a$1

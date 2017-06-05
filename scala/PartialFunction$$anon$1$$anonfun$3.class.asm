@@ -4,11 +4,11 @@
 // declaration: scala/PartialFunction$$anon$1$$anonfun$3 extends scala.runtime.AbstractFunction1<java.lang.Object, scala.None$> implements scala.Serializable
 public final class scala/PartialFunction$$anon$1$$anonfun$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/PartialFunction$$anon$1 <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anon$1 scala/PartialFunction null
+  OUTERCLASS scala/PartialFunction$$anon$1 null
   // access flags 0x11
-  public final INNERCLASS scala/PartialFunction$$anon$1$$anonfun$3 scala/PartialFunction$$anon$1 null
+  public final INNERCLASS scala/PartialFunction$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/PartialFunction$$anon$1$$anonfun$3 null null
 
   // access flags 0x1
   public <init>(Lscala/PartialFunction$$anon$1;)V

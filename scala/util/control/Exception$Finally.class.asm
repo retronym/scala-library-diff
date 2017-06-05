@@ -91,7 +91,7 @@ public class scala/util/control/Exception$Finally implements scala/util/control/
 
   // access flags 0x1
   public scala$util$control$Exception$Described$$_desc_$eq(Ljava/lang/String;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/util/control/Exception$Finally.scala$util$control$Exception$Described$$_desc : Ljava/lang/String;

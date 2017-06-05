@@ -8,8 +8,6 @@ public final class scala/collection/parallel/mutable/ParMap$ extends scala/colle
   public static INNERCLASS scala/collection/parallel/mutable/ParMap$WithDefault scala/collection/parallel/mutable/ParMap WithDefault
   // access flags 0x1
   public INNERCLASS scala/collection/generic/ParMapFactory$CanCombineFromMap scala/collection/generic/ParMapFactory CanCombineFromMap
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParMap$$anonfun$withDefaultValue$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/mutable/ParMap$; MODULE$

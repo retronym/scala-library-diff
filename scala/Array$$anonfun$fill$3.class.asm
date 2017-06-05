@@ -5,8 +5,8 @@
 public final class scala/Array$$anonfun$fill$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Array$ fill (IIIILscala/Function0;Lscala/reflect/ClassTag;)[[[Ljava/lang/Object;
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$fill$3 null null
 
   // access flags 0x12
   private final Lscala/Function0; elem$3

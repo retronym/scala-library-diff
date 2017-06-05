@@ -5,8 +5,8 @@
 public final class scala/Responder$$anonfun$run$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Responder$ run (Lscala/Responder;)Lscala/Option;
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$run$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Responder$$anonfun$run$1 null null
 
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; result$1

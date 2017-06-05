@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/util/Success$ implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/util/Success$$anonfun$map$1 null null
 
   // access flags 0x19
   public final static Lscala/util/Success$; MODULE$

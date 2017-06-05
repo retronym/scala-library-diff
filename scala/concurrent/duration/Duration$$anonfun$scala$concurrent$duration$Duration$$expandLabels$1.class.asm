@@ -5,8 +5,8 @@
 public final class scala/concurrent/duration/Duration$$anonfun$scala$concurrent$duration$Duration$$expandLabels$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/concurrent/duration/Duration$ scala$concurrent$duration$Duration$$expandLabels (Ljava/lang/String;)Lscala/collection/immutable/List;
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/Duration$$anonfun$scala$concurrent$duration$Duration$$expandLabels$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$scala$concurrent$duration$Duration$$expandLabels$1 null null
 
   // access flags 0x1
   public <init>()V

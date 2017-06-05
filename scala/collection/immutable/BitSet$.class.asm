@@ -4,8 +4,8 @@
 // declaration: scala/collection/immutable/BitSet$ implements scala.collection.generic.BitSetFactory<scala.collection.immutable.BitSet>, scala.Serializable
 public final class scala/collection/immutable/BitSet$ implements scala/collection/generic/BitSetFactory scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/BitSet$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/BitSet$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/BitSet$BitSet1 scala/collection/immutable/BitSet BitSet1
   // access flags 0x9

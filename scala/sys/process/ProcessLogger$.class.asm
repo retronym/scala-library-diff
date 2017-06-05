@@ -2,8 +2,8 @@
 // access flags 0x31
 public final class scala/sys/process/ProcessLogger$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessLogger$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessLogger$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/sys/process/ProcessLogger$; MODULE$

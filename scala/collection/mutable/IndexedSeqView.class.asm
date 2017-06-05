@@ -16,10 +16,6 @@ public abstract interface scala/collection/mutable/IndexedSeqView implements sca
   public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$4 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$5 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$6 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$7 null null
   // access flags 0x601
   public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Filtered scala/collection/mutable/IndexedSeqView Filtered
   // access flags 0x601

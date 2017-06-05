@@ -3,8 +3,6 @@
 // access flags 0x20601
 public abstract interface scala/collection/parallel/ThreadPoolTasks implements scala/collection/parallel/Tasks  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anon$1 scala/collection/parallel/ThreadPoolTasks null
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask scala/collection/parallel/ThreadPoolTasks WrappedTask
   // access flags 0x401
@@ -46,5 +44,5 @@ public abstract interface scala/collection/parallel/ThreadPoolTasks implements s
 
   // access flags 0x401
   public abstract totaltasks_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 }

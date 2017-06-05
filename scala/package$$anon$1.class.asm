@@ -2,9 +2,9 @@
 // access flags 0x31
 public final class scala/package$$anon$1 implements scala/Specializable  {
 
-  OUTERCLASS scala/package$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/package$$anon$1 scala/package null
+  OUTERCLASS scala/package$ null
+  // access flags 0x11
+  public final INNERCLASS scala/package$$anon$1 null null
 
   // access flags 0x1
   public <init>()V

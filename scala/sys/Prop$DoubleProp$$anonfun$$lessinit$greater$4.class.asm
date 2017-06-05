@@ -7,8 +7,8 @@ public final class scala/sys/Prop$DoubleProp$$anonfun$$lessinit$greater$4 extend
   OUTERCLASS scala/sys/Prop$DoubleProp$ <init> ()V
   // access flags 0x9
   public static INNERCLASS scala/sys/Prop$DoubleProp$ scala/sys/Prop DoubleProp$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/Prop$DoubleProp$$anonfun$$lessinit$greater$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/Prop$DoubleProp$$anonfun$$lessinit$greater$4 null null
 
   // access flags 0x1
   public <init>()V

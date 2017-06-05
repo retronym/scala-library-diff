@@ -5,8 +5,8 @@
 public final class scala/collection/Iterator$$anon$24 extends scala/collection/TraversableOnce$BufferedCanBuildFrom  {
 
   OUTERCLASS scala/collection/Iterator$ IteratorCanBuildFrom ()Lscala/collection/TraversableOnce$BufferedCanBuildFrom;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$24 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/Iterator$$anon$24 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/TraversableOnce$BufferedCanBuildFrom scala/collection/TraversableOnce BufferedCanBuildFrom
 

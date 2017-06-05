@@ -5,7 +5,7 @@
 public abstract interface scala/collection/mutable/Publisher {
 
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/Publisher$$anon$1 scala/collection/mutable/Publisher null
+  public final INNERCLASS scala/collection/mutable/Publisher$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/Publisher$$anonfun$publish$1 null null
   // access flags 0x11

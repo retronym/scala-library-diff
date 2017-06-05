@@ -8,8 +8,6 @@ public abstract class scala/collection/immutable/List extends scala/collection/A
   public final static INNERCLASS scala/collection/immutable/Stream$Cons scala/collection/immutable/Stream Cons
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Stream$Empty$ scala/collection/immutable/Stream Empty$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/List$$anon$1 scala/collection/immutable/List null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/List$$anonfun$flatMap$1 null null
   // access flags 0x9

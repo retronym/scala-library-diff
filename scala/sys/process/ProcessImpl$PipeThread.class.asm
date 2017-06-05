@@ -6,8 +6,8 @@ public abstract class scala/sys/process/ProcessImpl$PipeThread extends java/lang
   public abstract INNERCLASS scala/sys/process/ProcessImpl$PipeThread scala/sys/process/ProcessImpl PipeThread
   // access flags 0x11
   public final INNERCLASS scala/sys/process/ProcessImpl$PipeThread$$anonfun$10 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/processInternal$$anonfun$ioFailure$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/processInternal$$anonfun$ioFailure$1 null null
 
   // access flags 0x1011
   public final synthetic Lscala/sys/process/Process$; $outer

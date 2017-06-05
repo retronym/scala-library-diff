@@ -5,12 +5,6 @@
 // declaration: scala/util/MurmurHash<T> implements scala.Function1<T, scala.runtime.BoxedUnit>
 public class scala/util/MurmurHash implements scala/Function1  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/util/MurmurHash$$anonfun$1 scala/util/MurmurHash null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/MurmurHash$$anonfun$2 scala/util/MurmurHash null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/MurmurHash$$anonfun$symmetricHash$1 null null
 
   // access flags 0x2
   private I hashvalue

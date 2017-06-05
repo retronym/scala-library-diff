@@ -5,8 +5,8 @@
 public final class scala/collection/DebugUtils$$anonfun$arrayString$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/DebugUtils$ arrayString (Ljava/lang/Object;II)Ljava/lang/String;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/DebugUtils$$anonfun$arrayString$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/DebugUtils$$anonfun$arrayString$1 null null
 
   // access flags 0x1
   public <init>()V

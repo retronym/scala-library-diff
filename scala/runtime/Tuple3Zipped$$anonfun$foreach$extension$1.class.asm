@@ -5,8 +5,8 @@
 public final class scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/runtime/Tuple3Zipped$ foreach$extension (Lscala/Tuple3;Lscala/Function3;)V
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 null null
 
   // access flags 0x12
   private final Lscala/collection/Iterator; elems2$5

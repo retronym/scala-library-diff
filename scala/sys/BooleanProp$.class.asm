@@ -6,10 +6,10 @@ public final class scala/sys/BooleanProp$ {
   public static INNERCLASS scala/sys/BooleanProp$ConstantImpl scala/sys/BooleanProp ConstantImpl
   // access flags 0x9
   public static INNERCLASS scala/sys/BooleanProp$BooleanPropImpl scala/sys/BooleanProp BooleanPropImpl
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/BooleanProp$$anonfun$keyExists$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/BooleanProp$$anonfun$valueIsTrue$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/BooleanProp$$anonfun$keyExists$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/BooleanProp$$anonfun$valueIsTrue$1 null null
 
   // access flags 0x19
   public final static Lscala/sys/BooleanProp$; MODULE$

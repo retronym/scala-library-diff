@@ -5,8 +5,8 @@
 public final class scala/math/Ordered$$anon$1 implements scala/math/Ordered  {
 
   OUTERCLASS scala/math/Ordered$ orderingToOrdered (Ljava/lang/Object;Lscala/math/Ordering;)Lscala/math/Ordered;
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordered$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordered$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/math/Ordering; ord$1

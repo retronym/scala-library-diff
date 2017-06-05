@@ -5,8 +5,8 @@
 public final class scala/reflect/ManifestFactory$$anon$15 implements scala/reflect/Manifest  {
 
   OUTERCLASS scala/reflect/ManifestFactory$ abstractType (Lscala/reflect/Manifest;Ljava/lang/String;Ljava/lang/Class;Lscala/collection/Seq;)Lscala/reflect/Manifest;
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ManifestFactory$$anon$15 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ManifestFactory$$anon$15 null null
 
   // access flags 0x12
   private final Ljava/lang/String; name$1

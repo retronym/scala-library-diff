@@ -5,8 +5,8 @@
 public final class scala/collection/generic/IsTraversableLike$$anon$2 implements scala/collection/generic/IsTraversableLike  {
 
   OUTERCLASS scala/collection/generic/IsTraversableLike$ genTraversableLikeRepr (Lscala/Function1;)Lscala/collection/generic/IsTraversableLike;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableLike$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$2 null null
 
   // access flags 0x12
   // signature Lscala/Function1<TC;Lscala/collection/GenTraversableLike<TA0;TC;>;>;

@@ -8,8 +8,6 @@ public final class scala/collection/mutable/Map$ extends scala/collection/generi
   public static INNERCLASS scala/collection/mutable/Map$WithDefault scala/collection/mutable/Map WithDefault
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/Map$$anonfun$withDefaultValue$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/Map$; MODULE$

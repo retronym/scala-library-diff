@@ -18,8 +18,8 @@ public final class scala/collection/mutable/WrappedArray$ {
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofFloat scala/collection/mutable/WrappedArray ofFloat
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofShort scala/collection/mutable/WrappedArray ofShort
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/WrappedArray$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/WrappedArray$$anon$1 null null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofDouble scala/collection/mutable/WrappedArray ofDouble
   // access flags 0x19

@@ -4,9 +4,9 @@
 // declaration: scala/collection/immutable/List$$anon$1 implements scala.Function1<java.lang.Object, java.lang.Object>
 public final class scala/collection/immutable/List$$anon$1 implements scala/Function1  {
 
-  OUTERCLASS scala/collection/immutable/List$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/List$$anon$1 scala/collection/immutable/List null
+  OUTERCLASS scala/collection/immutable/List$ null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/List$$anon$1 null null
 
   // access flags 0x1
   public <init>()V

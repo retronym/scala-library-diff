@@ -2,9 +2,9 @@
 // access flags 0x31
 public final class scala/concurrent/impl/ExecutionContextImpl$$anon$3 implements java/lang/Thread$UncaughtExceptionHandler  {
 
-  OUTERCLASS scala/concurrent/impl/ExecutionContextImpl <init> (Ljava/util/concurrent/Executor;Lscala/Function1;)V
+  OUTERCLASS scala/concurrent/impl/ExecutionContextImpl null
   // access flags 0x11
-  public final INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$3 scala/concurrent/impl/ExecutionContextImpl null
+  public final INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$3 null null
   // access flags 0x609
   public static abstract INNERCLASS java/lang/Thread$UncaughtExceptionHandler java/lang/Thread UncaughtExceptionHandler
 

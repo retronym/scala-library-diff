@@ -5,8 +5,8 @@
 public final class scala/collection/immutable/PagedSeq$$anonfun$fromStrings$1 extends scala/runtime/AbstractFunction3  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/immutable/PagedSeq$ fromStrings (Lscala/collection/Iterator;)Lscala/collection/immutable/PagedSeq;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromStrings$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromStrings$1 null null
 
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; current$1

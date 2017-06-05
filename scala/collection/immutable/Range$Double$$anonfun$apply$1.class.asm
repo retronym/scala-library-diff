@@ -7,8 +7,8 @@ public final class scala/collection/immutable/Range$Double$$anonfun$apply$1 exte
   OUTERCLASS scala/collection/immutable/Range$Double$ apply (DDD)Lscala/collection/immutable/NumericRange;
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Range$Double$ scala/collection/immutable/Range Double$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Range$Double$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Range$Double$$anonfun$apply$1 null null
 
   // access flags 0x1
   public <init>()V

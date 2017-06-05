@@ -5,8 +5,8 @@
 public final class scala/reflect/ManifestFactory$$anon$17 implements scala/reflect/Manifest  {
 
   OUTERCLASS scala/reflect/ManifestFactory$ intersectionType (Lscala/collection/Seq;)Lscala/reflect/Manifest;
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ManifestFactory$$anon$17 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ManifestFactory$$anon$17 null null
 
   // access flags 0x12
   private final Lscala/collection/Seq; parents$1

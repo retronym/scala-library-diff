@@ -3,9 +3,9 @@
 public abstract class scala/beans/ScalaBeanInfo extends java/beans/SimpleBeanInfo  {
 
   // access flags 0x11
-  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 scala/beans/ScalaBeanInfo null
+  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$2 scala/beans/ScalaBeanInfo null
+  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$2 null null
 
   // access flags 0x12
   // signature Ljava/lang/Class<*>;

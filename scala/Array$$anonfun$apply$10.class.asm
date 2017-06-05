@@ -5,8 +5,8 @@
 public final class scala/Array$$anonfun$apply$10 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Array$ apply (Lscala/runtime/BoxedUnit;Lscala/collection/Seq;)[Lscala/runtime/BoxedUnit;
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$10 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$10 null null
 
   // access flags 0x12
   private final [Lscala/runtime/BoxedUnit; array$10

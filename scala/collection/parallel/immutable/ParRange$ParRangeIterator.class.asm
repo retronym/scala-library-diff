@@ -1413,7 +1413,7 @@ public class scala/collection/parallel/immutable/ParRange$ParRangeIterator imple
 
   // access flags 0x1
   public signalDelegate_$eq(Lscala/collection/generic/Signalling;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/immutable/ParRange$ParRangeIterator.signalDelegate : Lscala/collection/generic/Signalling;

@@ -2,22 +2,8 @@
 // access flags 0x31
 public final class scala/collection/mutable/OpenHashMap$ {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/OpenHashMap$$anon$1 null null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/OpenHashMap$OpenEntry scala/collection/mutable/OpenHashMap OpenEntry
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/OpenHashMap$$anonfun$clone$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/OpenHashMap$$anonfun$retain$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/OpenHashMap$$anonfun$foreach$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/OpenHashMap$$anonfun$growTable$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/OpenHashMap$$anonfun$transform$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/OpenHashMap$$anonfun$foreachUndeletedEntry$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/OpenHashMap$; MODULE$

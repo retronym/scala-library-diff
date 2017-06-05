@@ -4,14 +4,6 @@
 // declaration: scala/collection/mutable/PriorityQueue$ extends scala.collection.generic.OrderedTraversableFactory<scala.collection.mutable.PriorityQueue> implements scala.Serializable
 public final class scala/collection/mutable/PriorityQueue$ extends scala/collection/generic/OrderedTraversableFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/PriorityQueue$$anon$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/PriorityQueue$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/PriorityQueue$$anon$3 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/mutable/PriorityQueue$ResizableArrayAccess scala/collection/mutable/PriorityQueue ResizableArrayAccess
   // access flags 0x1
   public INNERCLASS scala/collection/generic/OrderedTraversableFactory$GenericCanBuildFrom scala/collection/generic/OrderedTraversableFactory GenericCanBuildFrom
 

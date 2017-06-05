@@ -4,24 +4,8 @@
 // declaration: scala/collection/parallel/mutable/ParHashMap$ extends scala.collection.generic.ParMapFactory<scala.collection.parallel.mutable.ParHashMap> implements scala.Serializable
 public final class scala/collection/parallel/mutable/ParHashMap$ extends scala/collection/generic/ParMapFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMap$$anonfun$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMap$$anonfun$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMap$$anonfun$1 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParHashMap$ParHashMapIterator scala/collection/parallel/mutable/ParHashMap ParHashMapIterator
   // access flags 0x1
   public INNERCLASS scala/collection/generic/ParMapFactory$CanCombineFromMap scala/collection/generic/ParMapFactory CanCombineFromMap
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMap$$anonfun$readObject$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMap$$anonfun$writeObject$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMap$$anonfun$brokenInvariants$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMap$$anonfun$brokenInvariants$2 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/mutable/ParHashMap$; MODULE$

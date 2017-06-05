@@ -5,8 +5,8 @@
 public final class scala/util/control/Exception$$anonfun$nonFatalCatcher$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/util/control/Exception$ nonFatalCatcher ()Lscala/PartialFunction;
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anonfun$nonFatalCatcher$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anonfun$nonFatalCatcher$1 null null
 
   // access flags 0x1
   public <init>()V

@@ -4,8 +4,6 @@
 // declaration: scala/collection/parallel/mutable/UnrolledParArrayCombiner<T> extends scala.collection.parallel.Combiner<T, scala.collection.parallel.mutable.ParArray<T>>
 public abstract interface scala/collection/parallel/mutable/UnrolledParArrayCombiner implements scala/collection/parallel/Combiner  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/UnrolledParArrayCombiner$$anon$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/mutable/UnrolledParArrayCombiner$CopyUnrolledToArray scala/collection/parallel/mutable/UnrolledParArrayCombiner CopyUnrolledToArray
 

@@ -4,16 +4,8 @@
 // declaration: scala/io/Source implements scala.collection.Iterator<java.lang.Object>
 public abstract class scala/io/Source implements scala/collection/Iterator  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anon$1 null null
   // access flags 0x1
   public INNERCLASS scala/io/Source$Positioner scala/io/Source Positioner
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$1 null null
   // access flags 0x1
   public INNERCLASS scala/io/Source$NoPositioner$ scala/io/Source NoPositioner$
   // access flags 0x1
@@ -28,12 +20,6 @@ public abstract class scala/io/Source implements scala/collection/Iterator  {
   public INNERCLASS scala/collection/Iterator$GroupedIterator scala/collection/Iterator GroupedIterator
   // access flags 0x11
   public final INNERCLASS scala/io/Source$$anonfun$spaces$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$fromFile$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$fromFile$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$fromIterable$1 null null
 
   // access flags 0x42
   private volatile Lscala/io/Source$NoPositioner$; NoPositioner$module

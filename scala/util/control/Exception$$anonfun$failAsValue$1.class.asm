@@ -7,8 +7,8 @@ public final class scala/util/control/Exception$$anonfun$failAsValue$1 extends s
   OUTERCLASS scala/util/control/Exception$ failAsValue (Lscala/collection/Seq;Lscala/Function0;)Lscala/util/control/Exception$Catch;
   // access flags 0x9
   public static INNERCLASS scala/util/control/Exception$Catch scala/util/control/Exception Catch
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anonfun$failAsValue$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anonfun$failAsValue$1 null null
 
   // access flags 0x12
   private final Lscala/Function0; value$1

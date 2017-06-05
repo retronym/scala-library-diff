@@ -5,8 +5,8 @@
 public final class scala/Function$$anonfun$uncurried$2 extends scala/runtime/AbstractFunction3  implements scala/Serializable  {
 
   OUTERCLASS scala/Function$ uncurried (Lscala/Function1;)Lscala/Function3;
-  // access flags 0x19
-  public final static INNERCLASS scala/Function$$anonfun$uncurried$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Function$$anonfun$uncurried$2 null null
 
   // access flags 0x12
   private final Lscala/Function1; f$2

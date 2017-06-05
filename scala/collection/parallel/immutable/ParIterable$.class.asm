@@ -4,8 +4,6 @@
 // declaration: scala/collection/parallel/immutable/ParIterable$ extends scala.collection.generic.ParFactory<scala.collection.parallel.immutable.ParIterable>
 public final class scala/collection/parallel/immutable/ParIterable$ extends scala/collection/generic/ParFactory  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/ParIterable$$anonfun$toSeq$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/ParFactory$GenericCanCombineFrom scala/collection/generic/ParFactory GenericCanCombineFrom
 

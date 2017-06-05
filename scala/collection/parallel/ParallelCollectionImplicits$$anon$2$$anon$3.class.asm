@@ -7,8 +7,8 @@ public final class scala/collection/parallel/ParallelCollectionImplicits$$anon$2
   OUTERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$2 ifParSeq (Lscala/Function1;)Lscala/collection/parallel/TraversableOps$Otherwise;
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/TraversableOps$Otherwise scala/collection/parallel/TraversableOps Otherwise
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$2$$anon$3 null null
 

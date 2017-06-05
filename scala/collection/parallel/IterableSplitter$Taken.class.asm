@@ -1115,7 +1115,7 @@ public class scala/collection/parallel/IterableSplitter$Taken implements scala/c
 
   // access flags 0x1
   public signalDelegate_$eq(Lscala/collection/generic/Signalling;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/IterableSplitter$Taken.signalDelegate : Lscala/collection/generic/Signalling;

@@ -4,8 +4,6 @@ public final class scala/math/Fractional$ implements scala/Serializable  {
 
   // access flags 0x9
   public static INNERCLASS scala/math/Fractional$Implicits$ scala/math/Fractional Implicits$
-  // access flags 0x1
-  public INNERCLASS scala/math/Fractional$FractionalOps scala/math/Fractional FractionalOps
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Fractional$ExtraImplicits scala/math/Fractional ExtraImplicits
   // access flags 0x409

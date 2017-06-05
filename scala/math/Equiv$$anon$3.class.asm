@@ -5,8 +5,8 @@
 public final class scala/math/Equiv$$anon$3 implements scala/math/Equiv  {
 
   OUTERCLASS scala/math/Equiv$ fromComparator (Ljava/util/Comparator;)Lscala/math/Equiv;
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anon$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anon$3 null null
 
   // access flags 0x12
   private final Ljava/util/Comparator; cmp$1

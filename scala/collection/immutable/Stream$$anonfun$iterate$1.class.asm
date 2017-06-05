@@ -5,8 +5,8 @@
 public final class scala/collection/immutable/Stream$$anonfun$iterate$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/immutable/Stream$ iterate (Ljava/lang/Object;Lscala/Function1;)Lscala/collection/immutable/Stream;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$iterate$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$iterate$1 null null
 
   // access flags 0x12
   private final Lscala/Function1; f$6

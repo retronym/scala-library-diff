@@ -5,8 +5,8 @@
 public final class scala/runtime/ScalaRunTime$$anonfun$toArray$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/runtime/ScalaRunTime$ toArray (Lscala/collection/Seq;)[Ljava/lang/Object;
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$toArray$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$toArray$1 null null
 
   // access flags 0x12
   private final [Ljava/lang/Object; arr$1

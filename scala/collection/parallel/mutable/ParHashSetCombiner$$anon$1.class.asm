@@ -5,8 +5,8 @@
 public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$1 extends scala/collection/parallel/mutable/ParHashSetCombiner  {
 
   OUTERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$ apply ()Lscala/collection/parallel/mutable/ParHashSetCombiner;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$1 null null
 
   // access flags 0x1
   public <init>()V

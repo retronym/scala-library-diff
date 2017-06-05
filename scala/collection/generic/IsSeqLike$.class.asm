@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/collection/generic/IsSeqLike$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsSeqLike$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsSeqLike$$anon$1 scala/collection/generic/IsSeqLike null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsSeqLike$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsSeqLike$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/generic/IsSeqLike$; MODULE$

@@ -7,8 +7,8 @@ public final class scala/sys/Prop$FileProp$$anonfun$$lessinit$greater$1 extends 
   OUTERCLASS scala/sys/Prop$FileProp$ <init> ()V
   // access flags 0x9
   public static INNERCLASS scala/sys/Prop$FileProp$ scala/sys/Prop FileProp$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/Prop$FileProp$$anonfun$$lessinit$greater$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/Prop$FileProp$$anonfun$$lessinit$greater$1 null null
 
   // access flags 0x1
   public <init>()V

@@ -4,10 +4,6 @@
 // declaration: scala/collection/generic/IsTraversableOnce<Repr>
 public abstract interface scala/collection/generic/IsTraversableOnce {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableOnce$$anon$1 scala/collection/generic/IsTraversableOnce null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableOnce$$anon$2 null null
 
   // access flags 0x401
   // signature ()Lscala/Function1<TRepr;Lscala/collection/GenTraversableOnce<Ljava/lang/Object;>;>;

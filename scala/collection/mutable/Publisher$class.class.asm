@@ -3,7 +3,7 @@
 public abstract class scala/collection/mutable/Publisher$class {
 
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/Publisher$$anon$1 scala/collection/mutable/Publisher null
+  public final INNERCLASS scala/collection/mutable/Publisher$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/Publisher$$anonfun$publish$1 null null
   // access flags 0x11

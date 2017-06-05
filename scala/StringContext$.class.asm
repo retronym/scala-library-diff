@@ -2,10 +2,6 @@
 // access flags 0x31
 public final class scala/StringContext$ implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/StringContext$$anonfun$s$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/StringContext$$anonfun$raw$1 null null
   // access flags 0x9
   public static INNERCLASS scala/StringContext$InvalidEscapeException scala/StringContext InvalidEscapeException
 

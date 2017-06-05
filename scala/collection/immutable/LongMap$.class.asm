@@ -12,20 +12,10 @@ public final class scala/collection/immutable/LongMap$ {
   public static INNERCLASS scala/collection/immutable/LongMap$Bin scala/collection/immutable/LongMap Bin
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/LongMap$Bin$ scala/collection/immutable/LongMap Bin$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/LongMap$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/LongMap$$anonfun$apply$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/LongMap$$anonfun$toList$1 null null
+  public final INNERCLASS scala/collection/immutable/LongMap$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/LongMap$$anonfun$unionWith$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/LongMap$$anonfun$unionWith$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/LongMap$$anonfun$$plus$plus$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/LongMap$$anonfun$intersection$1 null null
+  public final INNERCLASS scala/collection/immutable/LongMap$$anonfun$apply$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/LongMap$; MODULE$

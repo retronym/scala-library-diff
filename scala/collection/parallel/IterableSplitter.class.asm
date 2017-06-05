@@ -65,7 +65,7 @@ public abstract interface scala/collection/parallel/IterableSplitter implements 
 
   // access flags 0x401
   public abstract signalDelegate_$eq(Lscala/collection/generic/Signalling;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature (II)Lscala/collection/parallel/IterableSplitter<TT;>;

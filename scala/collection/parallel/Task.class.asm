@@ -58,7 +58,7 @@ public abstract interface scala/collection/parallel/Task {
 
   // access flags 0x401
   public abstract throwable_$eq(Ljava/lang/Throwable;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature (Lscala/Option<TR;>;)V

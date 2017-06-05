@@ -3,8 +3,8 @@
 public final class scala/sys/process/ProcessLogger$$anon$1 implements scala/sys/process/ProcessLogger  {
 
   OUTERCLASS scala/sys/process/ProcessLogger$ apply (Lscala/Function1;Lscala/Function1;)Lscala/sys/process/ProcessLogger;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessLogger$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessLogger$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/Function1; ferr$1

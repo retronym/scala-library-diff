@@ -6,8 +6,6 @@ public class scala/collection/mutable/ArrayStack extends scala/collection/mutabl
 
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/ArrayStack$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$$plus$plus$eq$1 null null
   // access flags 0x1

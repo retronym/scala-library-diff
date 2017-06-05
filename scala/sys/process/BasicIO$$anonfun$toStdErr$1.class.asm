@@ -5,8 +5,8 @@
 public final class scala/sys/process/BasicIO$$anonfun$toStdErr$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/process/BasicIO$ toStdErr ()Lscala/Function1;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$$anonfun$toStdErr$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$$anonfun$toStdErr$1 null null
 
   // access flags 0x1
   public <init>()V

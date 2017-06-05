@@ -54,18 +54,6 @@ public abstract interface scala/math/Numeric implements scala/math/Ordering  {
   public static INNERCLASS scala/math/Numeric$DoubleIsFractional$ scala/math/Numeric DoubleIsFractional$
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$DoubleAsIfIntegral$ scala/math/Numeric DoubleAsIfIntegral$
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$IntIsIntegral$class scala/math/Numeric IntIsIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ByteIsIntegral$class scala/math/Numeric ByteIsIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$CharIsIntegral$class scala/math/Numeric CharIsIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$LongIsIntegral$class scala/math/Numeric LongIsIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ExtraImplicits$class scala/math/Numeric ExtraImplicits$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$ShortIsIntegral$class scala/math/Numeric ShortIsIntegral$class
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsConflicted scala/math/Numeric BigDecimalIsConflicted
   // access flags 0x609
@@ -76,26 +64,6 @@ public abstract interface scala/math/Numeric implements scala/math/Ordering  {
   public static INNERCLASS scala/math/Numeric$BigDecimalIsFractional$ scala/math/Numeric BigDecimalIsFractional$
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$BigDecimalAsIfIntegral$ scala/math/Numeric BigDecimalAsIfIntegral$
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigIntIsIntegral$class scala/math/Numeric BigIntIsIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatAsIfIntegral$class scala/math/Numeric FloatAsIfIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatIsConflicted$class scala/math/Numeric FloatIsConflicted$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$FloatIsFractional$class scala/math/Numeric FloatIsFractional$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleAsIfIntegral$class scala/math/Numeric DoubleAsIfIntegral$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleIsConflicted$class scala/math/Numeric DoubleIsConflicted$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$DoubleIsFractional$class scala/math/Numeric DoubleIsFractional$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsFractional$class scala/math/Numeric BigDecimalIsFractional$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalIsConflicted$class scala/math/Numeric BigDecimalIsConflicted$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Numeric$BigDecimalAsIfIntegral$class scala/math/Numeric BigDecimalAsIfIntegral$class
 
   // access flags 0x401
   // signature (TT;)TT;

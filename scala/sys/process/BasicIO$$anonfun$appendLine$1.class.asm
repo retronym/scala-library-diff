@@ -5,8 +5,8 @@
 public final class scala/sys/process/BasicIO$$anonfun$appendLine$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/process/BasicIO$ appendLine (Ljava/lang/Appendable;)Lscala/Function1;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$$anonfun$appendLine$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$$anonfun$appendLine$1 null null
 
   // access flags 0x12
   private final Ljava/lang/Appendable; buffer$1

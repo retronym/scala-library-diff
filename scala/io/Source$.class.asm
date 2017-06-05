@@ -2,32 +2,20 @@
 // access flags 0x31
 public final class scala/io/Source$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$1 null null
-  // access flags 0x1
-  public INNERCLASS scala/io/Source$Positioner scala/io/Source Positioner
-  // access flags 0x1
-  public INNERCLASS scala/io/Source$LineIterator scala/io/Source LineIterator
-  // access flags 0x1
-  public INNERCLASS scala/io/Source$NoPositioner$ scala/io/Source NoPositioner$
-  // access flags 0x1
-  public INNERCLASS scala/io/Source$RelaxedPosition$ scala/io/Source RelaxedPosition$
-  // access flags 0x1
-  public INNERCLASS scala/io/Source$RelaxedPositioner$ scala/io/Source RelaxedPositioner$
   // access flags 0x11
-  public final INNERCLASS scala/io/Source$$anonfun$spaces$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$fromFile$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$fromFile$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$fromIterable$1 null null
+  public final INNERCLASS scala/io/Source$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$fromFile$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$fromFile$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$fromIterable$1 null null
 
   // access flags 0x12
   private final I DefaultBufSize

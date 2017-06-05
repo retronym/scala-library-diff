@@ -8,8 +8,6 @@ public abstract class scala/collection/parallel/immutable/HashMapCombiner extend
   public static INNERCLASS scala/collection/immutable/HashMap$HashTrieMap scala/collection/immutable/HashMap HashTrieMap
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled scala/collection/mutable/UnrolledBuffer Unrolled
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anonfun$1 null null
   // access flags 0x11

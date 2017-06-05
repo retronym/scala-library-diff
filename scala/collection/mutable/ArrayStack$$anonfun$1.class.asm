@@ -5,8 +5,8 @@
 public final class scala/collection/mutable/ArrayStack$$anonfun$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/mutable/ArrayStack$ apply (Lscala/collection/Seq;Lscala/reflect/ClassTag;)Lscala/collection/mutable/ArrayStack;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$1 null null
 
   // access flags 0x1
   public <init>()V

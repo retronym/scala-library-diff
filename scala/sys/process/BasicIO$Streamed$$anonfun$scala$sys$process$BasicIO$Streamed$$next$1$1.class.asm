@@ -7,8 +7,8 @@ public final class scala/sys/process/BasicIO$Streamed$$anonfun$scala$sys$process
   OUTERCLASS scala/sys/process/BasicIO$Streamed$ scala$sys$process$BasicIO$Streamed$$next$1 (ZLjava/util/concurrent/LinkedBlockingQueue;)Lscala/collection/immutable/Stream;
   // access flags 0x9
   public static INNERCLASS scala/sys/process/BasicIO$Streamed$ scala/sys/process/BasicIO Streamed$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$scala$sys$process$BasicIO$Streamed$$next$1$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$scala$sys$process$BasicIO$Streamed$$next$1$1 null null
 
   // access flags 0x12
   private final Z nonzeroException$1

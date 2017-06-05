@@ -327,14 +327,24 @@ public abstract class scala/collection/SeqViewLike$class {
 
   // access flags 0x9
   public static patch(Lscala/collection/SeqViewLike;ILscala/collection/GenSeq;ILscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;
-    ALOAD 0
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
+    ICONST_0
     ILOAD 1
-    ALOAD 2
+    INVOKEVIRTUAL scala/math/package$.max (II)I
+    ISTORE 5
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
+    ICONST_0
     ILOAD 3
+    INVOKEVIRTUAL scala/math/package$.max (II)I
+    ISTORE 6
+    ALOAD 0
+    ILOAD 5
+    ALOAD 2
+    ILOAD 6
     INVOKEINTERFACE scala/collection/SeqViewLike.newPatched (ILscala/collection/GenSeq;I)Lscala/collection/SeqViewLike$Transformed;
     ARETURN
     MAXSTACK = 4
-    MAXLOCALS = 5
+    MAXLOCALS = 7
 
   // access flags 0x9
   public static permutations(Lscala/collection/SeqViewLike;)Lscala/collection/Iterator;

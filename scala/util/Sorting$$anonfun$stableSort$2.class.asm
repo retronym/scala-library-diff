@@ -5,8 +5,8 @@
 public final class scala/util/Sorting$$anonfun$stableSort$2 extends scala/runtime/AbstractFunction2  implements scala/Serializable  {
 
   OUTERCLASS scala/util/Sorting$ stableSort (Lscala/collection/Seq;Lscala/reflect/ClassTag;Lscala/math/Ordering;)Ljava/lang/Object;
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Sorting$$anonfun$stableSort$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/Sorting$$anonfun$stableSort$2 null null
 
   // access flags 0x12
   private final Lscala/math/Ordering; eta$0$2$1

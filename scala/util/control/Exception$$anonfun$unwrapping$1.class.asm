@@ -7,8 +7,8 @@ public final class scala/util/control/Exception$$anonfun$unwrapping$1 extends sc
   OUTERCLASS scala/util/control/Exception$ unwrapping (Lscala/collection/Seq;)Lscala/util/control/Exception$Catch;
   // access flags 0x9
   public static INNERCLASS scala/util/control/Exception$Catch scala/util/control/Exception Catch
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anonfun$unwrapping$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anonfun$unwrapping$1 null null
 
   // access flags 0x12
   private final Lscala/collection/Seq; exceptions$3

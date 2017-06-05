@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2$$anonfun$2 extends scala.runtime.AbstractFunction1<scala.collection.mutable.UnrolledBuffer<java.lang.Object>, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2$$anonfun$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 <init> (Lscala/collection/parallel/mutable/ParHashSetCombiner;)V
+  OUTERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 null null
   // access flags 0x11

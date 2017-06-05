@@ -6,18 +6,18 @@ public final class scala/runtime/Tuple3Zipped$ {
   public final static INNERCLASS scala/runtime/Tuple3Zipped$Ops scala/runtime/Tuple3Zipped Ops
   // access flags 0x9
   public static INNERCLASS scala/runtime/Tuple3Zipped$Ops$ scala/runtime/Tuple3Zipped Ops$
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$map$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$filter$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$exists$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$forall$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$flatMap$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$map$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$filter$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$exists$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$forall$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$flatMap$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 null null
 
   // access flags 0x19
   public final static Lscala/runtime/Tuple3Zipped$; MODULE$

@@ -2,10 +2,8 @@
 // access flags 0x21
 public class scala/io/Codec {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Codec$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/io/Codec$$anonfun$1 scala/io/Codec null
+  public final INNERCLASS scala/io/Codec$$anonfun$1 null null
 
   // access flags 0x2
   private Ljava/lang/String; _decodingReplacement

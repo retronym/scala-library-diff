@@ -3,9 +3,7 @@
 public class scala/concurrent/impl/ExecutionContextImpl implements scala/concurrent/ExecutionContextExecutor  {
 
   // access flags 0x11
-  public final INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$3 scala/concurrent/impl/ExecutionContextImpl null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$1 null null
+  public final INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$3 null null
   // access flags 0x609
   public static abstract INNERCLASS java/lang/Thread$UncaughtExceptionHandler java/lang/Thread UncaughtExceptionHandler
   // access flags 0x609

@@ -5,8 +5,8 @@
 public final class scala/PartialFunction$$anonfun$apply$1 extends scala/runtime/AbstractPartialFunction  implements scala/Serializable  {
 
   OUTERCLASS scala/PartialFunction$ apply (Lscala/Function1;)Lscala/PartialFunction;
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/PartialFunction$$anonfun$apply$1 null null
 
   // access flags 0x12
   private final Lscala/Function1; f$1

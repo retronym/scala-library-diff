@@ -8,8 +8,8 @@ public class scala/util/matching/Regex$Groups$ {
   public static INNERCLASS scala/util/matching/Regex$Groups$ scala/util/matching/Regex Groups$
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Range$Inclusive scala/collection/immutable/Range Inclusive
-  // access flags 0x19
-  public final static INNERCLASS scala/util/matching/Regex$Groups$$anonfun$unapplySeq$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/matching/Regex$Groups$$anonfun$unapplySeq$4 null null
 
   // access flags 0x19
   public final static Lscala/util/matching/Regex$Groups$; MODULE$

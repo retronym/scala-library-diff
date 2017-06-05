@@ -2,8 +2,8 @@
 // access flags 0x31
 public final class scala/sys/ShutdownHookThread$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/ShutdownHookThread$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/ShutdownHookThread$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/sys/ShutdownHookThread$; MODULE$

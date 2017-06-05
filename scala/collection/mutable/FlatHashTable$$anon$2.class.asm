@@ -5,8 +5,8 @@
 public final class scala/collection/mutable/FlatHashTable$$anon$2 extends java/lang/ThreadLocal  {
 
   OUTERCLASS scala/collection/mutable/FlatHashTable$ seedGenerator ()Ljava/lang/ThreadLocal;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/FlatHashTable$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/FlatHashTable$$anon$2 null null
 
   // access flags 0x1
   public <init>()V

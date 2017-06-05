@@ -3,8 +3,8 @@
 public final class scala/io/Source$$anon$1 extends scala/io/Source  {
 
   OUTERCLASS scala/io/Source$ fromIterable (Lscala/collection/Iterable;)Lscala/io/Source;
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anon$1 null null
 
   // access flags 0x12
   // signature Lscala/collection/Iterator<Ljava/lang/Object;>;

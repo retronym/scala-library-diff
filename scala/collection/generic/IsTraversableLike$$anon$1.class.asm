@@ -4,11 +4,11 @@
 // declaration: scala/collection/generic/IsTraversableLike$$anon$1 implements scala.collection.generic.IsTraversableLike<java.lang.String>
 public final class scala/collection/generic/IsTraversableLike$$anon$1 implements scala/collection/generic/IsTraversableLike  {
 
-  OUTERCLASS scala/collection/generic/IsTraversableLike$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1 scala/collection/generic/IsTraversableLike null
+  OUTERCLASS scala/collection/generic/IsTraversableLike$ null
   // access flags 0x11
-  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1$$anonfun$1 scala/collection/generic/IsTraversableLike$$anon$1 null
+  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1$$anonfun$1 null null
 
   // access flags 0x12
   // signature Lscala/Function1<Ljava/lang/String;Lscala/collection/GenTraversableLike<Ljava/lang/Object;Ljava/lang/String;>;>;

@@ -14,10 +14,6 @@ public abstract class scala/collection/immutable/IntMap extends scala/collection
   public static INNERCLASS scala/collection/immutable/IntMap$Tip$ scala/collection/immutable/IntMap Tip$
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/IntMap$Bin$ scala/collection/immutable/IntMap Bin$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/IntMap$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/IntMap$$anonfun$apply$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$toList$1 null null
   // access flags 0x11

@@ -5,8 +5,8 @@
 public final class scala/runtime/ScalaRunTime$$anonfun$arrayToString$1$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/runtime/ScalaRunTime$ arrayToString$1 (Ljava/lang/Object;I)Ljava/lang/String;
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$arrayToString$1$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$arrayToString$1$2 null null
 
   // access flags 0x12
   private final I maxElements$1

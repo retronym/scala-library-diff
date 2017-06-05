@@ -4,8 +4,6 @@
 // declaration: scala/collection/mutable/HashSet$ extends scala.collection.generic.MutableSetFactory<scala.collection.mutable.HashSet> implements scala.Serializable
 public final class scala/collection/mutable/HashSet$ extends scala/collection/generic/MutableSetFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashSet$$anonfun$readObject$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/HashSet$; MODULE$

@@ -52,7 +52,7 @@ public abstract interface scala/collection/mutable/DoubleLinkedListLike implemen
   // signature (TThis;)V
   // declaration: void prev_$eq(This)
   public abstract prev_$eq(Lscala/collection/mutable/Seq;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   public abstract remove()V

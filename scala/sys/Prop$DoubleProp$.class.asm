@@ -6,8 +6,8 @@ public class scala/sys/Prop$DoubleProp$ extends scala/sys/CreatorImpl  {
 
   // access flags 0x9
   public static INNERCLASS scala/sys/Prop$DoubleProp$ scala/sys/Prop DoubleProp$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/Prop$DoubleProp$$anonfun$$lessinit$greater$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/Prop$DoubleProp$$anonfun$$lessinit$greater$4 null null
 
   // access flags 0x19
   public final static Lscala/sys/Prop$DoubleProp$; MODULE$

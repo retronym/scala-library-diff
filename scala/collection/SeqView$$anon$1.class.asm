@@ -5,8 +5,8 @@
 public final class scala/collection/SeqView$$anon$1 implements scala/collection/generic/CanBuildFrom  {
 
   OUTERCLASS scala/collection/SeqView$ canBuildFrom ()Lscala/collection/generic/CanBuildFrom;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqView$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/SeqView$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/TraversableView$NoBuilder scala/collection/TraversableView NoBuilder
 

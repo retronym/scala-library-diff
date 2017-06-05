@@ -2,24 +2,8 @@
 // access flags 0x31
 public final class scala/collection/parallel/immutable/HashMapCombiner$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anon$1 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$CreateTrie scala/collection/parallel/immutable/HashMapCombiner CreateTrie
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anonfun$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anonfun$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anonfun$4 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anonfun$5 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anonfun$6 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$CreateGroupedTrie scala/collection/parallel/immutable/HashMapCombiner CreateGroupedTrie
+  public final INNERCLASS scala/collection/parallel/immutable/HashMapCombiner$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/immutable/HashMapCombiner$; MODULE$

@@ -8,12 +8,6 @@ public abstract interface scala/collection/SeqLike implements scala/collection/I
   public final INNERCLASS scala/collection/SeqLike$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqLike$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqLike$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqLike$$anon$5 null null
   // access flags 0x1
   public INNERCLASS scala/collection/SeqLike$PermutationsItr scala/collection/SeqLike PermutationsItr
   // access flags 0x1

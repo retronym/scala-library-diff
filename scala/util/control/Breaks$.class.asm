@@ -2,10 +2,6 @@
 // access flags 0x31
 public final class scala/util/control/Breaks$ extends scala/util/control/Breaks  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Breaks$$anon$1 null null
-  // access flags 0x601
-  public abstract INNERCLASS scala/util/control/Breaks$TryBlock scala/util/control/Breaks TryBlock
 
   // access flags 0x19
   public final static Lscala/util/control/Breaks$; MODULE$

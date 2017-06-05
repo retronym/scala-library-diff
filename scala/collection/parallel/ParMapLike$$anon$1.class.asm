@@ -1394,7 +1394,7 @@ public final class scala/collection/parallel/ParMapLike$$anon$1 implements scala
 
   // access flags 0x1
   public scala$collection$parallel$ParIterableLike$$_tasksupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/ParMapLike$$anon$1.scala$collection$parallel$ParIterableLike$$_tasksupport : Lscala/collection/parallel/TaskSupport;

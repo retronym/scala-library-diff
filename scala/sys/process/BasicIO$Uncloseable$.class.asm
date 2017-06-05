@@ -4,10 +4,10 @@ public class scala/sys/process/BasicIO$Uncloseable$ {
 
   // access flags 0x9
   public static INNERCLASS scala/sys/process/BasicIO$Uncloseable$ scala/sys/process/BasicIO Uncloseable$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/sys/process/BasicIO$Uncloseable$; MODULE$

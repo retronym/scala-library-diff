@@ -4,16 +4,10 @@
 // declaration: scala/collection/immutable/ListMap$ extends scala.collection.generic.ImmutableMapFactory<scala.collection.immutable.ListMap> implements scala.Serializable
 public final class scala/collection/immutable/ListMap$ extends scala/collection/generic/ImmutableMapFactory  implements scala/Serializable  {
 
-  // access flags 0x1
-  public INNERCLASS scala/collection/immutable/ListMap$Node scala/collection/immutable/ListMap Node
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/ListMap$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/ListMap$EmptyListMap$ scala/collection/immutable/ListMap EmptyListMap$
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/ListMap$$anonfun$$plus$plus$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/ListMap$; MODULE$

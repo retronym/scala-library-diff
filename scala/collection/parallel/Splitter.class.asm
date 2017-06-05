@@ -4,8 +4,6 @@
 // declaration: scala/collection/parallel/Splitter<T> extends scala.collection.Iterator<T>
 public abstract interface scala/collection/parallel/Splitter implements scala/collection/Iterator  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/Splitter$$anon$1 null null
 
   // access flags 0x401
   // signature ()Lscala/collection/Seq<Lscala/collection/parallel/Splitter<TT;>;>;

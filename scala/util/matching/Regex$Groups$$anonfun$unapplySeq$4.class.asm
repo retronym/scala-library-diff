@@ -9,8 +9,8 @@ public final class scala/util/matching/Regex$Groups$$anonfun$unapplySeq$4 extend
   public static INNERCLASS scala/util/matching/Regex$Match scala/util/matching/Regex Match
   // access flags 0x9
   public static INNERCLASS scala/util/matching/Regex$Groups$ scala/util/matching/Regex Groups$
-  // access flags 0x19
-  public final static INNERCLASS scala/util/matching/Regex$Groups$$anonfun$unapplySeq$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/matching/Regex$Groups$$anonfun$unapplySeq$4 null null
 
   // access flags 0x12
   private final Lscala/util/matching/Regex$Match; m$4

@@ -5,8 +5,6 @@
 // declaration: scala/collection/mutable/DoubleLinkedList<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.LinearSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.DoubleLinkedList>, scala.collection.mutable.DoubleLinkedListLike<A, scala.collection.mutable.DoubleLinkedList<A>>, scala.Serializable
 public class scala/collection/mutable/DoubleLinkedList extends scala/collection/mutable/AbstractSeq  implements scala/collection/mutable/LinearSeq scala/collection/mutable/DoubleLinkedListLike scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/DoubleLinkedList$$anon$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

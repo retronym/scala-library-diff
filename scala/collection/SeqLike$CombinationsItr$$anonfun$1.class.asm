@@ -2,11 +2,11 @@
 // access flags 0x31
 public final class scala/collection/SeqLike$CombinationsItr$$anonfun$1 extends scala/runtime/AbstractFunction2$mcIII$sp  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/SeqLike$CombinationsItr <init> (Lscala/collection/SeqLike;I)V
+  OUTERCLASS scala/collection/SeqLike$CombinationsItr null
   // access flags 0x1
   public INNERCLASS scala/collection/SeqLike$CombinationsItr scala/collection/SeqLike CombinationsItr
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$1 scala/collection/SeqLike$CombinationsItr null
+  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$1 null null
 
   // access flags 0x1
   // signature (Lscala/collection/SeqLike<TA;TRepr;>.CombinationsItr;)V

@@ -4,6 +4,4 @@
 // declaration: scala/collection/IterableView<A, Coll> extends scala.collection.IterableViewLike<A, Coll, scala.collection.IterableView<A, Coll>>
 public abstract interface scala/collection/IterableView implements scala/collection/IterableViewLike  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/IterableView$$anon$1 null null
 }

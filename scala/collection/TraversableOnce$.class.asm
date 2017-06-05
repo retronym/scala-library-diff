@@ -6,44 +6,12 @@ public final class scala/collection/TraversableOnce$ {
   public static INNERCLASS scala/collection/TraversableOnce$MonadOps scala/collection/TraversableOnce MonadOps
   // access flags 0x9
   public static INNERCLASS scala/collection/TraversableOnce$FlattenOps scala/collection/TraversableOnce FlattenOps
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$sum$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$min$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$max$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$size$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/TraversableOnce$OnceCanBuildFrom scala/collection/TraversableOnce OnceCanBuildFrom
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$count$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$maxBy$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$minBy$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$toMap$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$product$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$reversed$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$foldLeft$1 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/TraversableOnce$BufferedCanBuildFrom scala/collection/TraversableOnce BufferedCanBuildFrom
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$foldRight$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$addString$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$reduceLeft$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/TraversableOnce$ForceImplicitAmbiguity scala/collection/TraversableOnce ForceImplicitAmbiguity
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$reduceRight$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/TraversableOnce$$anonfun$collectFirst$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/TraversableOnce$; MODULE$

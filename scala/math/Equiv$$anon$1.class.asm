@@ -5,8 +5,8 @@
 public final class scala/math/Equiv$$anon$1 implements scala/math/Equiv  {
 
   OUTERCLASS scala/math/Equiv$ reference ()Lscala/math/Equiv;
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anon$1 null null
 
   // access flags 0x1
   public <init>()V

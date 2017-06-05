@@ -7,8 +7,8 @@ public final class scala/math/Ordering$$anon$3 implements scala/math/Ordering$Op
   OUTERCLASS scala/math/Ordering$ Option (Lscala/math/Ordering;)Lscala/math/Ordering;
   // access flags 0x1
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$3 null null
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$OptionOrdering scala/math/Ordering OptionOrdering
   // access flags 0x409

@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/collection/immutable/WrappedString$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/WrappedString$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/WrappedString$$anonfun$newBuilder$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/WrappedString$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/WrappedString$$anonfun$newBuilder$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/WrappedString$; MODULE$

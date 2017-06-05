@@ -4,26 +4,16 @@
 // declaration: scala/concurrent/Future<T> extends scala.concurrent.Awaitable<T>
 public abstract interface scala/concurrent/Future implements scala/concurrent/Awaitable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$2 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$map$1 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$zip$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$find$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$fold$1 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$mapTo$1 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$failed$1 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$filter$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$reduce$1 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$foreach$1 null null
   // access flags 0x11
@@ -34,14 +24,6 @@ public abstract interface scala/concurrent/Future implements scala/concurrent/Aw
   public final INNERCLASS scala/concurrent/Future$$anonfun$recover$1 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$andThen$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$sequence$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$sequence$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$traverse$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$traverse$2 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/Future$$anonfun$onSuccess$1 null null
   // access flags 0x11
@@ -54,8 +36,6 @@ public abstract interface scala/concurrent/Future implements scala/concurrent/Aw
   public final INNERCLASS scala/concurrent/Future$$anonfun$recoverWith$1 null null
   // access flags 0x9
   public static INNERCLASS scala/concurrent/Future$InternalCallbackExecutor$ scala/concurrent/Future InternalCallbackExecutor$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$firstCompletedOf$1 null null
 
   // access flags 0x401
   // signature <U:Ljava/lang/Object;>(Lscala/PartialFunction<Lscala/util/Try<TT;>;TU;>;Lscala/concurrent/ExecutionContext;)Lscala/concurrent/Future<TT;>;

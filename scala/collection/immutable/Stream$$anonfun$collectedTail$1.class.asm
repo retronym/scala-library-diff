@@ -7,8 +7,8 @@ public final class scala/collection/immutable/Stream$$anonfun$collectedTail$1 ex
   OUTERCLASS scala/collection/immutable/Stream$ collectedTail (Ljava/lang/Object;Lscala/collection/immutable/Stream;Lscala/PartialFunction;Lscala/collection/generic/CanBuildFrom;)Lscala/collection/immutable/Stream$Cons;
   // access flags 0x19
   public final static INNERCLASS scala/collection/immutable/Stream$Cons scala/collection/immutable/Stream Cons
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$collectedTail$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$collectedTail$1 null null
 
   // access flags 0x12
   private final Lscala/collection/generic/CanBuildFrom; bf$1

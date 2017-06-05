@@ -42,16 +42,6 @@ public final class scala/collection/mutable/ArrayOps$ {
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofBoolean scala/collection/mutable/ArrayOps ofBoolean
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/ArrayOps$ofBoolean$ scala/collection/mutable/ArrayOps ofBoolean$
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ArrayOps$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ArrayOps$$anonfun$flatten$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ArrayOps$$anonfun$flatten$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ArrayOps$$anonfun$transpose$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ArrayOps$$anonfun$transpose$2 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/ArrayOps$; MODULE$

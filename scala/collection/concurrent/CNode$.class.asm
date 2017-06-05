@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/collection/concurrent/CNode$ {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/concurrent/CNode$$anonfun$string$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/concurrent/CNode$$anonfun$collectLocalElems$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/concurrent/CNode$$anonfun$scala$collection$concurrent$CNode$$collectElems$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/concurrent/CNode$; MODULE$

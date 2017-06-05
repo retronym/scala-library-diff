@@ -4,9 +4,9 @@
 // declaration: scala/reflect/ManifestFactory$$anon$5 extends scala.reflect.ManifestFactory$PhantomManifest<scala.runtime.Nothing$>
 public final class scala/reflect/ManifestFactory$$anon$5 extends scala/reflect/ManifestFactory$PhantomManifest  {
 
-  OUTERCLASS scala/reflect/ManifestFactory$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ManifestFactory$$anon$5 scala/reflect/ManifestFactory null
+  OUTERCLASS scala/reflect/ManifestFactory$ null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ManifestFactory$$anon$5 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/reflect/ManifestFactory$PhantomManifest scala/reflect/ManifestFactory PhantomManifest
 

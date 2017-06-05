@@ -5,8 +5,8 @@
 public final class scala/collection/parallel/mutable/ResizableParArrayCombiner$$anon$1 implements scala/collection/parallel/mutable/ResizableParArrayCombiner  {
 
   OUTERCLASS scala/collection/parallel/mutable/ResizableParArrayCombiner$ apply (Lscala/collection/mutable/ArrayBuffer;)Lscala/collection/parallel/mutable/ResizableParArrayCombiner;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ResizableParArrayCombiner$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/mutable/ResizableParArrayCombiner$$anon$1 null null
 
   // access flags 0xC2
   private volatile transient Lscala/collection/parallel/TaskSupport; _combinerTaskSupport
@@ -105,7 +105,7 @@ public final class scala/collection/parallel/mutable/ResizableParArrayCombiner$$
 
   // access flags 0x1
   public _combinerTaskSupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ResizableParArrayCombiner$$anon$1._combinerTaskSupport : Lscala/collection/parallel/TaskSupport;

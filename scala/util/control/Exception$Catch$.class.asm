@@ -5,21 +5,7 @@ public class scala/util/control/Exception$Catch$ {
   // access flags 0x9
   public static INNERCLASS scala/util/control/Exception$Catch$ scala/util/control/Exception Catch$
   // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$Catch$$anon$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$opt$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$toTry$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$either$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$withTry$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$toOption$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$toEither$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$Catch$$anonfun$$lessinit$greater$default$3$1 null null
+  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$$lessinit$greater$default$3$1 null null
 
   // access flags 0x19
   public final static Lscala/util/control/Exception$Catch$; MODULE$

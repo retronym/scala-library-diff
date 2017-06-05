@@ -5,8 +5,8 @@
 public final class scala/util/hashing/Hashing$$anon$1 implements scala/util/hashing/Hashing  {
 
   OUTERCLASS scala/util/hashing/Hashing$ fromFunction (Lscala/Function1;)Lscala/util/hashing/Hashing;
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/Hashing$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/Hashing$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/Function1; f$1

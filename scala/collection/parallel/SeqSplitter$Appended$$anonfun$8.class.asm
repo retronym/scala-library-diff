@@ -4,11 +4,11 @@
 // declaration: scala/collection/parallel/SeqSplitter$Appended$$anonfun$8 extends scala.runtime.AbstractFunction1<scala.Tuple2<java.lang.Object, java.lang.Object>, java.lang.Object> implements scala.Serializable
 public final class scala/collection/parallel/SeqSplitter$Appended$$anonfun$8 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/parallel/SeqSplitter$Appended <init> (Lscala/collection/parallel/SeqSplitter;Lscala/collection/parallel/SeqSplitter;)V
+  OUTERCLASS scala/collection/parallel/SeqSplitter$Appended psplit (Lscala/collection/Seq;)Lscala/collection/Seq;
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/SeqSplitter$Appended scala/collection/parallel/SeqSplitter Appended
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$8 scala/collection/parallel/SeqSplitter$Appended null
+  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$8 null null
 
   // access flags 0x12
   private final I selfrem$1

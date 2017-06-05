@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/util/Random$ extends scala/util/Random  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/util/Random$$anonfun$nextString$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/Random$$anonfun$alphanumeric$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/Random$$anonfun$alphanumeric$2 null null
 
   // access flags 0x19
   public final static Lscala/util/Random$; MODULE$

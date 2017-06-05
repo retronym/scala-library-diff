@@ -4,8 +4,6 @@
 // declaration: scala/collection/mutable/Queue<A> extends scala.collection.mutable.MutableList<A> implements scala.collection.LinearSeqOptimized<A, scala.collection.mutable.Queue<A>>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.Queue>, scala.collection.mutable.Cloneable<scala.collection.mutable.Queue<A>>, scala.Serializable
 public class scala/collection/mutable/Queue extends scala/collection/mutable/MutableList  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/Queue$$anonfun$newBuilder$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/sys/process/processInternal {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/processInternal$$anonfun$ioFailure$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/processInternal$$anonfun$onInterrupt$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/processInternal$$anonfun$ioFailure$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/processInternal$$anonfun$onInterrupt$1 null null
 
   // access flags 0x9
   // signature (Lscala/collection/Seq<Ljava/lang/Object;>;)V

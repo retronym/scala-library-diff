@@ -1274,7 +1274,7 @@ public abstract class scala/collection/parallel/mutable/ParFlatHashTable$ParFlat
 
   // access flags 0x1
   public signalDelegate_$eq(Lscala/collection/generic/Signalling;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParFlatHashTable$ParFlatHashTableIterator.signalDelegate : Lscala/collection/generic/Signalling;

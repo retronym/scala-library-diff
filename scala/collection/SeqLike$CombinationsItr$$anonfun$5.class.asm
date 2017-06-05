@@ -4,11 +4,11 @@
 // declaration: scala/collection/SeqLike$CombinationsItr$$anonfun$5 extends scala.runtime.AbstractFunction1<scala.Tuple2<A, java.lang.Object>, java.lang.Object> implements scala.Serializable
 public final class scala/collection/SeqLike$CombinationsItr$$anonfun$5 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/SeqLike$CombinationsItr <init> (Lscala/collection/SeqLike;I)V
+  OUTERCLASS scala/collection/SeqLike$CombinationsItr init ()Lscala/Tuple3;
   // access flags 0x1
   public INNERCLASS scala/collection/SeqLike$CombinationsItr scala/collection/SeqLike CombinationsItr
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$5 scala/collection/SeqLike$CombinationsItr null
+  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$5 null null
 
   // access flags 0x1
   // signature (Lscala/collection/SeqLike<TA;TRepr;>.CombinationsItr;)V

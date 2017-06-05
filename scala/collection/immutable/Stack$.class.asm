@@ -6,9 +6,7 @@
 public final class scala/collection/immutable/Stack$ extends scala/collection/generic/SeqFactory  implements scala/Serializable  {
 
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stack$$anonfun$pushAll$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stack$$anonfun$newBuilder$1 null null
+  public final INNERCLASS scala/collection/immutable/Stack$$anonfun$newBuilder$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

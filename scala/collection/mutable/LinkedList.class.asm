@@ -5,8 +5,6 @@
 // declaration: scala/collection/mutable/LinkedList<A> extends scala.collection.mutable.AbstractSeq<A> implements scala.collection.mutable.LinearSeq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.mutable.LinkedList>, scala.collection.mutable.LinkedListLike<A, scala.collection.mutable.LinkedList<A>>, scala.Serializable
 public class scala/collection/mutable/LinkedList extends scala/collection/mutable/AbstractSeq  implements scala/collection/mutable/LinearSeq scala/collection/mutable/LinkedListLike scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LinkedList$$anonfun$newBuilder$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

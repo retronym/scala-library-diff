@@ -11,9 +11,9 @@ public class scala/collection/SeqLike$PermutationsItr extends scala/collection/A
   // access flags 0x409
   public static abstract INNERCLASS scala/Predef$$less$colon$less scala/Predef $less$colon$less
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2 scala/collection/SeqLike$PermutationsItr null
+  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$3 scala/collection/SeqLike$PermutationsItr null
+  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$3 null null
 
   // access flags 0x1011
   public final synthetic Lscala/collection/SeqLike; $outer

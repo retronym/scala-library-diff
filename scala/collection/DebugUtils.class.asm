@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/collection/DebugUtils {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/DebugUtils$$anonfun$buildString$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/DebugUtils$$anonfun$arrayString$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/DebugUtils$$anonfun$buildString$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/DebugUtils$$anonfun$arrayString$1 null null
 
   // access flags 0x9
   // signature <T:Ljava/lang/Object;>(Ljava/lang/Object;II)Ljava/lang/String;

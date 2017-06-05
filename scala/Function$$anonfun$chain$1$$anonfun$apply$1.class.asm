@@ -5,8 +5,8 @@
 public final class scala/Function$$anonfun$chain$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction2  implements scala/Serializable  {
 
   OUTERCLASS scala/Function$$anonfun$chain$1 apply (Ljava/lang/Object;)Ljava/lang/Object;
-  // access flags 0x19
-  public final static INNERCLASS scala/Function$$anonfun$chain$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Function$$anonfun$chain$1 null null
   // access flags 0x11
   public final INNERCLASS scala/Function$$anonfun$chain$1$$anonfun$apply$1 null null
 

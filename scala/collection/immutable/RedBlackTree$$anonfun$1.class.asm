@@ -7,8 +7,8 @@ public final class scala/collection/immutable/RedBlackTree$$anonfun$1 extends sc
   OUTERCLASS scala/collection/immutable/RedBlackTree$ rebalance (Lscala/collection/immutable/RedBlackTree$Tree;Lscala/collection/immutable/RedBlackTree$Tree;Lscala/collection/immutable/RedBlackTree$Tree;)Lscala/collection/immutable/RedBlackTree$Tree;
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/immutable/RedBlackTree$Tree scala/collection/immutable/RedBlackTree Tree
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/RedBlackTree$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/RedBlackTree$$anonfun$1 null null
 
   // access flags 0x12
   private final Z leftMost$1

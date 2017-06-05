@@ -5,5 +5,5 @@ final class ArrayCharSequence extends java.lang.Object with java.lang.CharSequen
   def length(): scala.Int = { /* compiled code */ }
   def charAt(index: scala.Int): scala.Char = { /* compiled code */ }
   def subSequence(start0: scala.Int, end0: scala.Int): java.lang.CharSequence = { /* compiled code */ }
-  override def toString(): scala.Predef.String = { /* compiled code */ }
+  override def toString(): java.lang.String = { /* compiled code */ }
 }

@@ -2,20 +2,6 @@
 // access flags 0x31
 public final class scala/collection/immutable/StringLike$ {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/StringLike$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$lines$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$format$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$stripMargin$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$formatLocal$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/StringLike$$anonfun$linesIterator$1 null null
 
   // access flags 0x12
   private final I CR

@@ -15,11 +15,11 @@ public class scala/collection/SeqLike$CombinationsItr extends scala/collection/A
   // access flags 0x409
   public static abstract INNERCLASS scala/Predef$$less$colon$less scala/Predef $less$colon$less
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$4 scala/collection/SeqLike$CombinationsItr null
+  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$4 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$5 scala/collection/SeqLike$CombinationsItr null
+  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$5 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$1 scala/collection/SeqLike$CombinationsItr null
+  public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$CombinationsItr$$anonfun$next$1 null null
   // access flags 0x11

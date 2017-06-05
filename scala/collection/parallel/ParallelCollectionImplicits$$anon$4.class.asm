@@ -7,8 +7,8 @@ public final class scala/collection/parallel/ParallelCollectionImplicits$$anon$4
   OUTERCLASS scala/collection/parallel/ParallelCollectionImplicits$ factory2ops (Lscala/collection/generic/CanBuildFrom;)Lscala/collection/parallel/FactoryOps;
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/FactoryOps$Otherwise scala/collection/parallel/FactoryOps Otherwise
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$4 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$4$$anon$5 null null
 

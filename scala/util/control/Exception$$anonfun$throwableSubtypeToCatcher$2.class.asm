@@ -5,8 +5,8 @@
 public final class scala/util/control/Exception$$anonfun$throwableSubtypeToCatcher$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/util/control/Exception$ throwableSubtypeToCatcher (Lscala/PartialFunction;Lscala/reflect/ClassTag;)Lscala/PartialFunction;
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anonfun$throwableSubtypeToCatcher$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anonfun$throwableSubtypeToCatcher$2 null null
 
   // access flags 0x12
   private final Lscala/PartialFunction; pf$1

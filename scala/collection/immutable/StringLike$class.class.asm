@@ -137,30 +137,45 @@ public abstract class scala/collection/immutable/StringLike$class {
     LDC ""
     GOTO L1
    L2
-    ALOAD 0
-    INVOKEINTERFACE scala/collection/immutable/StringLike.toString ()Ljava/lang/String;
-    INVOKEVIRTUAL java/lang/String.toCharArray ()[C
-    ASTORE 3
-    ALOAD 3
-    ICONST_0
     GETSTATIC scala/runtime/RichChar$.MODULE$ : Lscala/runtime/RichChar$;
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ALOAD 3
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/immutable/StringLike.toString ()Ljava/lang/String;
     ICONST_0
-    CALOAD
+    INVOKEVIRTUAL java/lang/String.charAt (I)C
     ISTORE 2
     ASTORE 1
     ILOAD 2
+    INVOKEVIRTUAL scala/runtime/RichChar$.isUpper$extension (C)Z
+    IFEQ L3
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/immutable/StringLike.toString ()Ljava/lang/String;
+    GOTO L1
+   L3
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/immutable/StringLike.toString ()Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/String.toCharArray ()[C
+    ASTORE 5
+    ALOAD 5
+    ICONST_0
+    GETSTATIC scala/runtime/RichChar$.MODULE$ : Lscala/runtime/RichChar$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ALOAD 5
+    ICONST_0
+    CALOAD
+    ISTORE 4
+    ASTORE 3
+    ILOAD 4
     INVOKEVIRTUAL scala/runtime/RichChar$.toUpper$extension (C)C
     CASTORE
     NEW java/lang/String
     DUP
-    ALOAD 3
+    ALOAD 5
     INVOKESPECIAL java/lang/String.<init> ([C)V
    L1
     ARETURN
     MAXSTACK = 6
-    MAXLOCALS = 4
+    MAXLOCALS = 6
 
   // access flags 0x9
   public static compare(Lscala/collection/immutable/StringLike;Ljava/lang/String;)I

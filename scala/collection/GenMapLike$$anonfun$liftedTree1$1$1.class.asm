@@ -4,7 +4,7 @@
 // declaration: scala/collection/GenMapLike$$anonfun$liftedTree1$1$1 extends scala.runtime.AbstractFunction1<scala.Tuple2<A, B>, java.lang.Object> implements scala.Serializable
 public final class scala/collection/GenMapLike$$anonfun$liftedTree1$1$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/GenMapLike$class liftedTree1$1 (Lscala/collection/GenMapLike;Lscala/collection/GenMap;)Z
+  OUTERCLASS scala/collection/GenMapLike liftedTree1$1 (Lscala/collection/GenMapLike;Lscala/collection/GenMap;)Z
   // access flags 0x11
   public final INNERCLASS scala/collection/GenMapLike$$anonfun$liftedTree1$1$1 null null
 

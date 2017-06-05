@@ -2,8 +2,6 @@
 // access flags 0x601
 public abstract interface scala/sys/process/ProcessLogger {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessLogger$$anon$1 null null
 
   // access flags 0x401
   // signature <T:Ljava/lang/Object;>(Lscala/Function0<TT;>;)TT;

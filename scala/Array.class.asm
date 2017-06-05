@@ -4,56 +4,8 @@
 // declaration: scala/Array<T> implements java.io.Serializable, java.lang.Cloneable
 public final class scala/Array {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anon$2 null null
   // access flags 0x9
   public static INNERCLASS scala/Predef$DummyImplicit scala/Predef DummyImplicit
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$5 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$6 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$7 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$8 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$9 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$ofDim$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$ofDim$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$ofDim$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$10 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$concat$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$concat$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$4 null null
 
   // access flags 0x1
   // signature (I)V

@@ -5,8 +5,8 @@
 public final class scala/collection/immutable/Stack$$anonfun$newBuilder$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/immutable/Stack$ newBuilder ()Lscala/collection/mutable/Builder;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stack$$anonfun$newBuilder$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Stack$$anonfun$newBuilder$1 null null
 
   // access flags 0x1
   public <init>()V

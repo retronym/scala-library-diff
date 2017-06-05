@@ -14,10 +14,6 @@ public abstract class scala/collection/immutable/LongMap extends scala/collectio
   public static INNERCLASS scala/collection/immutable/LongMap$Tip$ scala/collection/immutable/LongMap Tip$
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/LongMap$Bin$ scala/collection/immutable/LongMap Bin$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/LongMap$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/LongMap$$anonfun$apply$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/LongMap$$anonfun$toList$1 null null
   // access flags 0x11

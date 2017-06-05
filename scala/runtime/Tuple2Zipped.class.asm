@@ -8,18 +8,6 @@ public final class scala/runtime/Tuple2Zipped implements scala/runtime/ZippedTra
   public final static INNERCLASS scala/runtime/Tuple2Zipped$Ops scala/runtime/Tuple2Zipped Ops
   // access flags 0x9
   public static INNERCLASS scala/runtime/Tuple2Zipped$Ops$ scala/runtime/Tuple2Zipped Ops$
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$map$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$filter$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$exists$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$forall$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$flatMap$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$foreach$extension$1 null null
 
   // access flags 0x12
   // signature Lscala/Tuple2<Lscala/collection/TraversableLike<TEl1;TRepr1;>;Lscala/collection/IterableLike<TEl2;TRepr2;>;>;

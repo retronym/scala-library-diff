@@ -4,7 +4,7 @@
 // declaration: scala/collection/mutable/MapProxy$$anon$1 implements scala.collection.mutable.MapProxy<A, java.lang.Object>
 public final class scala/collection/mutable/MapProxy$$anon$1 implements scala/collection/mutable/MapProxy  {
 
-  OUTERCLASS scala/collection/mutable/MapProxy$class newProxy (Lscala/collection/mutable/MapProxy;Lscala/collection/mutable/Map;)Lscala/collection/mutable/MapProxy;
+  OUTERCLASS scala/collection/mutable/MapProxy newProxy (Lscala/collection/mutable/MapProxy;Lscala/collection/mutable/Map;)Lscala/collection/mutable/MapProxy;
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/MapProxy$$anon$1 null null
   // access flags 0x409
@@ -1022,6 +1022,16 @@ public final class scala/collection/mutable/MapProxy$$anon$1 implements scala/co
     ARETURN
     MAXSTACK = 2
     MAXLOCALS = 2
+
+  // access flags 0x1
+  public filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    INVOKESTATIC scala/collection/TraversableLike$class.filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
 
   // access flags 0x1
   // signature (Lscala/Function1<TA;Ljava/lang/Object;>;)Lscala/collection/Map<TA;Ljava/lang/Object;>;

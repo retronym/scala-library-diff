@@ -2,9 +2,9 @@
 // access flags 0x31
 public final class scala/collection/convert/package$$anon$6 implements scala/collection/convert/WrapAsScala  {
 
-  OUTERCLASS scala/collection/convert/package$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/convert/package$$anon$6 scala/collection/convert/package null
+  OUTERCLASS scala/collection/convert/package$ null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/convert/package$$anon$6 null null
 
   // access flags 0x1
   public <init>()V

@@ -4,6 +4,4 @@
 // declaration: scala/collection/SeqView<A, Coll> extends scala.collection.SeqViewLike<A, Coll, scala.collection.SeqView<A, Coll>>
 public abstract interface scala/collection/SeqView implements scala/collection/SeqViewLike  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqView$$anon$1 null null
 }

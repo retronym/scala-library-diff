@@ -4,11 +4,11 @@
 // declaration: scala/collection/generic/IsTraversableLike$$anon$1$$anonfun$1 extends scala.runtime.AbstractFunction1<java.lang.String, java.lang.String> implements scala.Serializable
 public final class scala/collection/generic/IsTraversableLike$$anon$1$$anonfun$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/generic/IsTraversableLike$$anon$1 <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1 scala/collection/generic/IsTraversableLike null
+  OUTERCLASS scala/collection/generic/IsTraversableLike$$anon$1 null
   // access flags 0x11
-  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1$$anonfun$1 scala/collection/generic/IsTraversableLike$$anon$1 null
+  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1$$anonfun$1 null null
 
   // access flags 0x1
   public <init>(Lscala/collection/generic/IsTraversableLike$$anon$1;)V

@@ -5,8 +5,8 @@
 public final class scala/runtime/ScalaRunTime$$anon$1 extends scala/collection/AbstractIterator  {
 
   OUTERCLASS scala/runtime/ScalaRunTime$ typedProductIterator (Lscala/Product;)Lscala/collection/Iterator;
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anon$1 null null
 
   // access flags 0x2
   private I c

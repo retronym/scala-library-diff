@@ -5,8 +5,8 @@
 public final class scala/sys/SystemProperties$$anonfun$help$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/SystemProperties$ help (Ljava/lang/String;)Ljava/lang/String;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/SystemProperties$$anonfun$help$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/SystemProperties$$anonfun$help$1 null null
 
   // access flags 0x1
   public <init>()V

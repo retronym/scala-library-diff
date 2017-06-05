@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/math/Numeric$ implements scala/Serializable  {
 
-  // access flags 0x1
-  public INNERCLASS scala/math/Numeric$Ops scala/math/Numeric Ops
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$Implicits$ scala/math/Numeric Implicits$
   // access flags 0x609

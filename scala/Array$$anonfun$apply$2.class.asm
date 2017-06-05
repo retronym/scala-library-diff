@@ -3,8 +3,8 @@
 public final class scala/Array$$anonfun$apply$2 extends scala/runtime/AbstractFunction1$mcVJ$sp  implements scala/Serializable  {
 
   OUTERCLASS scala/Array$ apply (JLscala/collection/Seq;)[J
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$2 null null
 
   // access flags 0x12
   private final [J array$7

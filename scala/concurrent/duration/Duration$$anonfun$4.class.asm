@@ -4,9 +4,9 @@
 // declaration: scala/concurrent/duration/Duration$$anonfun$4 extends scala.runtime.AbstractFunction1<scala.Tuple2<java.util.concurrent.TimeUnit, java.lang.String>, scala.collection.immutable.List<scala.Tuple2<java.lang.String, java.util.concurrent.TimeUnit>>> implements scala.Serializable
 public final class scala/concurrent/duration/Duration$$anonfun$4 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/duration/Duration$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/Duration$$anonfun$4 scala/concurrent/duration/Duration null
+  OUTERCLASS scala/concurrent/duration/Duration$ null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$4 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$1 null null
 

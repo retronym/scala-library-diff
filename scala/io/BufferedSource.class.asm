@@ -2,8 +2,8 @@
 // access flags 0x21
 public class scala/io/BufferedSource extends scala/io/Source  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$9 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/Iterator$$anon$9 null null
   // access flags 0x11
   public final INNERCLASS scala/io/BufferedSource$$anonfun$iter$1 null null
   // access flags 0x11

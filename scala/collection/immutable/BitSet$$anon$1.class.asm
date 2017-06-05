@@ -5,8 +5,8 @@
 public final class scala/collection/immutable/BitSet$$anon$1 implements scala/collection/mutable/Builder  {
 
   OUTERCLASS scala/collection/immutable/BitSet$ newBuilder ()Lscala/collection/mutable/Builder;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/BitSet$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/BitSet$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/collection/mutable/BitSet; b

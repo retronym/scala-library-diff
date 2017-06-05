@@ -2,16 +2,6 @@
 // access flags 0x31
 public final class scala/collection/convert/Decorators$ implements scala/collection/convert/Decorators  {
 
-  // access flags 0x1
-  public INNERCLASS scala/collection/convert/Decorators$AsJava scala/collection/convert/Decorators AsJava
-  // access flags 0x1
-  public INNERCLASS scala/collection/convert/Decorators$AsScala scala/collection/convert/Decorators AsScala
-  // access flags 0x1
-  public INNERCLASS scala/collection/convert/Decorators$AsJavaCollection scala/collection/convert/Decorators AsJavaCollection
-  // access flags 0x1
-  public INNERCLASS scala/collection/convert/Decorators$AsJavaDictionary scala/collection/convert/Decorators AsJavaDictionary
-  // access flags 0x1
-  public INNERCLASS scala/collection/convert/Decorators$AsJavaEnumeration scala/collection/convert/Decorators AsJavaEnumeration
 
   // access flags 0x19
   public final static Lscala/collection/convert/Decorators$; MODULE$

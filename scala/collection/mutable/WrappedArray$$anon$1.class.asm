@@ -5,8 +5,8 @@
 public final class scala/collection/mutable/WrappedArray$$anon$1 implements scala/collection/generic/CanBuildFrom  {
 
   OUTERCLASS scala/collection/mutable/WrappedArray$ canBuildFrom (Lscala/reflect/ClassTag;)Lscala/collection/generic/CanBuildFrom;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/WrappedArray$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/WrappedArray$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/WrappedArray$$anon$1$$anonfun$apply$1 null null
   // access flags 0x11

@@ -5,10 +5,10 @@
 public final class scala/runtime/ZippedTraversable2$$anon$1 extends scala/collection/AbstractTraversable  {
 
   OUTERCLASS scala/runtime/ZippedTraversable2$ zippedTraversable2ToTraversable (Lscala/runtime/ZippedTraversable2;)Lscala/collection/Traversable;
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ZippedTraversable2$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Function$$anonfun$untupled$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ZippedTraversable2$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Function$$anonfun$untupled$1 null null
 
   // access flags 0x12
   private final Lscala/runtime/ZippedTraversable2; zz$1

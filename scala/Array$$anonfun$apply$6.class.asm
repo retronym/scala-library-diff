@@ -5,8 +5,8 @@
 public final class scala/Array$$anonfun$apply$6 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Array$ apply (ZLscala/collection/Seq;)[Z
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$6 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$6 null null
 
   // access flags 0x12
   private final [Z array$2

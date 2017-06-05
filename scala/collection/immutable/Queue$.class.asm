@@ -6,8 +6,8 @@ public final class scala/collection/immutable/Queue$ extends scala/collection/ge
 
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Queue$EmptyQueue$ scala/collection/immutable/Queue EmptyQueue$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Queue$$anonfun$newBuilder$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Queue$$anonfun$newBuilder$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

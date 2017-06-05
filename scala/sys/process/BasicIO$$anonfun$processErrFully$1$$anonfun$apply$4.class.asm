@@ -5,8 +5,8 @@
 public final class scala/sys/process/BasicIO$$anonfun$processErrFully$1$$anonfun$apply$4 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/process/BasicIO$$anonfun$processErrFully$1 apply (Ljava/lang/String;)V
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$$anonfun$processErrFully$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$$anonfun$processErrFully$1 null null
   // access flags 0x11
   public final INNERCLASS scala/sys/process/BasicIO$$anonfun$processErrFully$1$$anonfun$apply$4 null null
 

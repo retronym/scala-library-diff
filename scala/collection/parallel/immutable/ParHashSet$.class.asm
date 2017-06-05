@@ -5,8 +5,6 @@
 public final class scala/collection/parallel/immutable/ParHashSet$ extends scala/collection/generic/ParSetFactory  implements scala/Serializable  {
 
   // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/ParHashSet$ParHashSetIterator scala/collection/parallel/immutable/ParHashSet ParHashSetIterator
-  // access flags 0x1
   public INNERCLASS scala/collection/generic/ParSetFactory$GenericCanCombineFrom scala/collection/generic/ParSetFactory GenericCanCombineFrom
 
   // access flags 0x19

@@ -4,9 +4,9 @@
 // declaration: scala/util/DynamicVariable$$anon$1 extends java.lang.InheritableThreadLocal<T>
 public final class scala/util/DynamicVariable$$anon$1 extends java/lang/InheritableThreadLocal  {
 
-  OUTERCLASS scala/util/DynamicVariable <init> (Ljava/lang/Object;)V
+  OUTERCLASS scala/util/DynamicVariable null
   // access flags 0x11
-  public final INNERCLASS scala/util/DynamicVariable$$anon$1 scala/util/DynamicVariable null
+  public final INNERCLASS scala/util/DynamicVariable$$anon$1 null null
 
   // access flags 0x1012
   private final synthetic Lscala/util/DynamicVariable; $outer

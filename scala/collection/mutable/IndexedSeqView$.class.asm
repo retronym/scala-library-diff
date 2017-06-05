@@ -2,46 +2,10 @@
 // access flags 0x31
 public final class scala/collection/mutable/IndexedSeqView$ {
 
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Sliced scala/collection/mutable/IndexedSeqView Sliced
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$6 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$7 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$1 null null
+  public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$6 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$4 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$5 null null
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Filtered scala/collection/mutable/IndexedSeqView Filtered
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Reversed scala/collection/mutable/IndexedSeqView Reversed
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$TakenWhile scala/collection/mutable/IndexedSeqView TakenWhile
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Transformed scala/collection/mutable/IndexedSeqView Transformed
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$DroppedWhile scala/collection/mutable/IndexedSeqView DroppedWhile
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Sliced$class scala/collection/mutable/IndexedSeqView Sliced$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Filtered$class scala/collection/mutable/IndexedSeqView Filtered$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Reversed$class scala/collection/mutable/IndexedSeqView Reversed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$TakenWhile$class scala/collection/mutable/IndexedSeqView TakenWhile$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$Transformed$class scala/collection/mutable/IndexedSeqView Transformed$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$DroppedWhile$class scala/collection/mutable/IndexedSeqView DroppedWhile$class
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/mutable/IndexedSeqView$AbstractTransformed scala/collection/mutable/IndexedSeqView AbstractTransformed
+  public final INNERCLASS scala/collection/mutable/IndexedSeqView$$anon$7 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/IndexedSeqView$; MODULE$

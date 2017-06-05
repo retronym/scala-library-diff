@@ -4,14 +4,6 @@
 // declaration: scala/collection/mutable/TreeSet$ extends scala.collection.generic.MutableSortedSetFactory<scala.collection.mutable.TreeSet> implements scala.Serializable
 public final class scala/collection/mutable/TreeSet$ extends scala/collection/generic/MutableSortedSetFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/TreeSet$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/TreeSet$$anonfun$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/TreeSet$$anonfun$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/TreeSet$$anonfun$iteratorFrom$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/TreeSet$; MODULE$

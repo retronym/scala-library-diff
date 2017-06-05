@@ -4,10 +4,6 @@ public abstract interface scala/sys/process/BasicIO$Uncloseable implements java/
 
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/BasicIO$Uncloseable scala/sys/process/BasicIO Uncloseable
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$1 null null
 
   // access flags 0x401
   public abstract close()V

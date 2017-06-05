@@ -7,8 +7,8 @@ public final class scala/collection/immutable/HashMap$$anon$2 extends scala/coll
   OUTERCLASS scala/collection/immutable/HashMap$ liftMerger0 (Lscala/Function2;)Lscala/collection/immutable/HashMap$Merger;
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/immutable/HashMap$Merger scala/collection/immutable/HashMap Merger
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/HashMap$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/HashMap$$anon$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/HashMap$$anon$2$$anon$3 null null
 

@@ -8,24 +8,24 @@ public abstract class scala/sys/process/ProcessImpl$CompoundProcess extends scal
   public INNERCLASS scala/sys/process/ProcessImpl$Future$ scala/sys/process/ProcessImpl Future$
   // access flags 0x401
   public abstract INNERCLASS scala/sys/process/ProcessImpl$BasicProcess scala/sys/process/ProcessImpl BasicProcess
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
   // access flags 0x401
   public abstract INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess scala/sys/process/ProcessImpl CompoundProcess
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessImpl$Future$$anonfun$apply$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessImpl$Future$$anonfun$apply$4 null null
   // access flags 0x11
-  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$1 scala/sys/process/ProcessImpl$CompoundProcess null
+  public final INNERCLASS scala/sys/process/ProcessImpl$Future$$anonfun$apply$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$3 scala/sys/process/ProcessImpl$CompoundProcess null
+  public final INNERCLASS scala/sys/process/ProcessImpl$Future$$anonfun$apply$4 null null
   // access flags 0x11
-  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$2 scala/sys/process/ProcessImpl$CompoundProcess null
+  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$2 null null
   // access flags 0x11
   public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/processInternal$$anonfun$onInterrupt$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/processInternal$$anonfun$onInterrupt$1 null null
 
   // access flags 0x42
   private volatile B bitmap$0

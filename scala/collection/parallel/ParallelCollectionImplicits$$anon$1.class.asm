@@ -3,8 +3,8 @@
 public final class scala/collection/parallel/ParallelCollectionImplicits$$anon$1 implements scala/collection/parallel/ThrowableOps  {
 
   OUTERCLASS scala/collection/parallel/ParallelCollectionImplicits$ throwable2ops (Ljava/lang/Throwable;)Lscala/collection/parallel/ThrowableOps;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/ParallelCollectionImplicits$$anon$1 null null
 
   // access flags 0x12
   private final Ljava/lang/Throwable; self$1

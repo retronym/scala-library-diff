@@ -5,8 +5,8 @@
 public final class scala/io/Source$$anonfun$3 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
   OUTERCLASS scala/io/Source$ fromInputStream (Ljava/io/InputStream;Lscala/io/Codec;)Lscala/io/BufferedSource;
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Source$$anonfun$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Source$$anonfun$3 null null
 
   // access flags 0x12
   private final Lscala/io/Codec; codec$1

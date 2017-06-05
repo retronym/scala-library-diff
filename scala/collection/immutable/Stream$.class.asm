@@ -12,74 +12,30 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
   public static INNERCLASS scala/collection/immutable/Stream$Empty$ scala/collection/immutable/Stream Empty$
   // access flags 0x1
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$2 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Stream$ConsWrapper scala/collection/immutable/Stream ConsWrapper
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Stream$StreamBuilder scala/collection/immutable/Stream StreamBuilder
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$map$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$from$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$zip$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$from$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$fill$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$fill$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$take$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$take$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$init$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$range$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$StreamWithFilter scala/collection/immutable/Stream StreamWithFilter
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$range$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Stream$$hash$colon$colon$ scala/collection/immutable/Stream $hash$colon$colon$
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$append$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Stream$StreamCanBuildFrom scala/collection/immutable/Stream StreamCanBuildFrom
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$iterate$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$flatMap$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$iterate$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$flatten$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$continually$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scanLeft$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$filteredTail$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$partition$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$partition$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$takeWhile$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$$plus$plus$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$continually$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$$plus$colon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$filteredTail$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$collectedTail$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$6$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$collectedTail$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$4$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$advance$1$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/Stream$; MODULE$
@@ -248,9 +204,9 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
     MAXLOCALS = 3
 
   // access flags 0x1
-  // signature <A:Ljava/lang/Object;>(Lscala/collection/immutable/Stream<TA;>;Lscala/Function1<TA;Ljava/lang/Object;>;)Lscala/collection/immutable/Stream$Cons<TA;>;
-  // declaration: scala.collection.immutable.Stream$Cons<A> filteredTail<A>(scala.collection.immutable.Stream<A>, scala.Function1<A, java.lang.Object>)
-  public filteredTail(Lscala/collection/immutable/Stream;Lscala/Function1;)Lscala/collection/immutable/Stream$Cons;
+  // signature <A:Ljava/lang/Object;>(Lscala/collection/immutable/Stream<TA;>;Lscala/Function1<TA;Ljava/lang/Object;>;Z)Lscala/collection/immutable/Stream$Cons<TA;>;
+  // declaration: scala.collection.immutable.Stream$Cons<A> filteredTail<A>(scala.collection.immutable.Stream<A>, scala.Function1<A, java.lang.Object>, boolean)
+  public filteredTail(Lscala/collection/immutable/Stream;Lscala/Function1;Z)Lscala/collection/immutable/Stream$Cons;
     GETSTATIC scala/collection/immutable/Stream$cons$.MODULE$ : Lscala/collection/immutable/Stream$cons$;
     ALOAD 1
     INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
@@ -258,18 +214,19 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
     DUP
     ALOAD 1
     ALOAD 2
-    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$filteredTail$1.<init> (Lscala/collection/immutable/Stream;Lscala/Function1;)V
+    ILOAD 3
+    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$filteredTail$1.<init> (Lscala/collection/immutable/Stream;Lscala/Function1;Z)V
+    ASTORE 6
     ASTORE 5
     ASTORE 4
-    ASTORE 3
     NEW scala/collection/immutable/Stream$Cons
     DUP
-    ALOAD 4
     ALOAD 5
+    ALOAD 6
     INVOKESPECIAL scala/collection/immutable/Stream$Cons.<init> (Ljava/lang/Object;Lscala/Function0;)V
     ARETURN
-    MAXSTACK = 6
-    MAXLOCALS = 6
+    MAXSTACK = 7
+    MAXLOCALS = 7
 
   // access flags 0x1
   // signature (II)Lscala/collection/immutable/Stream<Ljava/lang/Object;>;
@@ -438,7 +395,7 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
     MAXLOCALS = 1
 
   // access flags 0x11
-  public final scala$collection$immutable$Stream$$loop$6(IILscala/Function1;)Lscala/collection/immutable/Stream;
+  public final scala$collection$immutable$Stream$$loop$4(IILscala/Function1;)Lscala/collection/immutable/Stream;
     ILOAD 1
     ILOAD 2
     IF_ICMPLT L0
@@ -450,12 +407,12 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
     ILOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToInteger (I)Ljava/lang/Integer;
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$6$1
+    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$4$1
     DUP
     ILOAD 2
     ALOAD 3
     ILOAD 1
-    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$6$1.<init> (ILscala/Function1;I)V
+    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$4$1.<init> (ILscala/Function1;I)V
     ASTORE 6
     ASTORE 5
     ASTORE 4
@@ -477,7 +434,7 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
     ICONST_0
     ILOAD 1
     ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream$.scala$collection$immutable$Stream$$loop$6 (IILscala/Function1;)Lscala/collection/immutable/Stream;
+    INVOKEVIRTUAL scala/collection/immutable/Stream$.scala$collection$immutable$Stream$$loop$4 (IILscala/Function1;)Lscala/collection/immutable/Stream;
     ARETURN
     MAXSTACK = 4
     MAXLOCALS = 3

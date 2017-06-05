@@ -4,9 +4,9 @@
 // declaration: scala/beans/ScalaBeanInfo$$anonfun$1 extends scala.runtime.AbstractFunction1<java.lang.reflect.Method, java.lang.Object> implements scala.Serializable
 public final class scala/beans/ScalaBeanInfo$$anonfun$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/beans/ScalaBeanInfo <init> (Ljava/lang/Class;[Ljava/lang/String;[Ljava/lang/String;)V
+  OUTERCLASS scala/beans/ScalaBeanInfo null
   // access flags 0x11
-  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 scala/beans/ScalaBeanInfo null
+  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 null null
   // access flags 0x11
   public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1$$anonfun$apply$1 null null
 

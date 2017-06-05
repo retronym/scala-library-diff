@@ -4,11 +4,11 @@
 // declaration: scala/collection/SeqLike$PermutationsItr$$anonfun$2 extends scala.runtime.AbstractFunction1<A, scala.Tuple2<A, java.lang.Object>> implements scala.Serializable
 public final class scala/collection/SeqLike$PermutationsItr$$anonfun$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/SeqLike$PermutationsItr <init> (Lscala/collection/SeqLike;)V
+  OUTERCLASS scala/collection/SeqLike$PermutationsItr init ()Lscala/Tuple2;
   // access flags 0x1
   public INNERCLASS scala/collection/SeqLike$PermutationsItr scala/collection/SeqLike PermutationsItr
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2 scala/collection/SeqLike$PermutationsItr null
+  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2$$anonfun$apply$1 null null
 

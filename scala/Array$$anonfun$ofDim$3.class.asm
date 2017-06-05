@@ -5,8 +5,8 @@
 public final class scala/Array$$anonfun$ofDim$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Array$ ofDim (IIIILscala/reflect/ClassTag;)[[[Ljava/lang/Object;
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$ofDim$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$ofDim$3 null null
 
   // access flags 0x12
   private final Lscala/reflect/ClassTag; evidence$6$1

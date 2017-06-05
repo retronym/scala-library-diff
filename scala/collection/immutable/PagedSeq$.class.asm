@@ -3,15 +3,13 @@
 public final class scala/collection/immutable/PagedSeq$ {
 
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$toString$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromLines$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromReader$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromStrings$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromIterator$1 null null
+  public final INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromLines$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromReader$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromStrings$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/PagedSeq$$anonfun$fromIterator$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/PagedSeq$; MODULE$

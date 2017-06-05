@@ -4,8 +4,6 @@
 // declaration: scala/reflect/ClassTag<T> extends scala.reflect.ClassManifestDeprecatedApis<T>, scala.Equals, scala.Serializable
 public abstract interface scala/reflect/ClassTag implements scala/reflect/ClassManifestDeprecatedApis scala/Equals  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ClassTag$$anon$1 null null
 
   // access flags 0x401
   public abstract canEqual(Ljava/lang/Object;)Z

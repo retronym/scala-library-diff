@@ -14,8 +14,6 @@ public abstract class scala/collection/parallel/mutable/ParHashMapCombiner exten
   public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$table$2$ null table$2$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$4 null null
   // access flags 0x1

@@ -4,11 +4,14 @@
 // declaration: scala/collection/immutable/Stream$$anonfun$filteredTail$1 extends scala.runtime.AbstractFunction0<scala.collection.immutable.Stream<A>> implements scala.Serializable
 public final class scala/collection/immutable/Stream$$anonfun$filteredTail$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/immutable/Stream$ filteredTail (Lscala/collection/immutable/Stream;Lscala/Function1;)Lscala/collection/immutable/Stream$Cons;
+  OUTERCLASS scala/collection/immutable/Stream$ filteredTail (Lscala/collection/immutable/Stream;Lscala/Function1;Z)Lscala/collection/immutable/Stream$Cons;
   // access flags 0x19
   public final static INNERCLASS scala/collection/immutable/Stream$Cons scala/collection/immutable/Stream Cons
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$filteredTail$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$filteredTail$1 null null
+
+  // access flags 0x12
+  private final Z isFlipped$1
 
   // access flags 0x12
   private final Lscala/Function1; p$1
@@ -17,7 +20,7 @@ public final class scala/collection/immutable/Stream$$anonfun$filteredTail$1 ext
   private final Lscala/collection/immutable/Stream; stream$2
 
   // access flags 0x1
-  public <init>(Lscala/collection/immutable/Stream;Lscala/Function1;)V
+  public <init>(Lscala/collection/immutable/Stream;Lscala/Function1;Z)V
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/immutable/Stream$$anonfun$filteredTail$1.stream$2 : Lscala/collection/immutable/Stream;
@@ -25,10 +28,13 @@ public final class scala/collection/immutable/Stream$$anonfun$filteredTail$1 ext
     ALOAD 2
     PUTFIELD scala/collection/immutable/Stream$$anonfun$filteredTail$1.p$1 : Lscala/Function1;
     ALOAD 0
+    ILOAD 3
+    PUTFIELD scala/collection/immutable/Stream$$anonfun$filteredTail$1.isFlipped$1 : Z
+    ALOAD 0
     INVOKESPECIAL scala/runtime/AbstractFunction0.<init> ()V
     RETURN
     MAXSTACK = 2
-    MAXLOCALS = 3
+    MAXLOCALS = 4
 
   // access flags 0x11
   // signature ()Lscala/collection/immutable/Stream<TA;>;
@@ -40,9 +46,11 @@ public final class scala/collection/immutable/Stream$$anonfun$filteredTail$1 ext
     CHECKCAST scala/collection/immutable/Stream
     ALOAD 0
     GETFIELD scala/collection/immutable/Stream$$anonfun$filteredTail$1.p$1 : Lscala/Function1;
-    INVOKEVIRTUAL scala/collection/immutable/Stream.filter (Lscala/Function1;)Lscala/collection/immutable/Stream;
+    ALOAD 0
+    GETFIELD scala/collection/immutable/Stream$$anonfun$filteredTail$1.isFlipped$1 : Z
+    INVOKEVIRTUAL scala/collection/immutable/Stream.filterImpl (Lscala/Function1;Z)Lscala/collection/immutable/Stream;
     ARETURN
-    MAXSTACK = 2
+    MAXSTACK = 3
     MAXLOCALS = 1
 
   // access flags 0x1051

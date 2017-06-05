@@ -3,17 +3,7 @@
 public final class scala/sys/SystemProperties$ {
 
   // access flags 0x11
-  public final INNERCLASS scala/sys/SystemProperties$$anonfun$get$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/SystemProperties$$anonfun$help$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/sys/SystemProperties$$anonfun$iterator$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/sys/SystemProperties$$anonfun$contains$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/sys/SystemProperties$$anonfun$$plus$eq$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/sys/SystemProperties$$anonfun$$minus$eq$1 null null
+  public final INNERCLASS scala/sys/SystemProperties$$anonfun$help$1 null null
 
   // access flags 0x19
   public final static Lscala/sys/SystemProperties$; MODULE$

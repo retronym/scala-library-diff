@@ -5,8 +5,8 @@
 public final class scala/concurrent/Future$$anonfun$traverse$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/concurrent/Future$ traverse (Lscala/collection/TraversableOnce;Lscala/Function1;Lscala/collection/generic/CanBuildFrom;Lscala/concurrent/ExecutionContext;)Lscala/concurrent/Future;
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$traverse$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/Future$$anonfun$traverse$2 null null
 
   // access flags 0x1
   public <init>()V

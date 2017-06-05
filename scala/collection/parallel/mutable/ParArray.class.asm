@@ -32,8 +32,6 @@ public class scala/collection/parallel/mutable/ParArray implements scala/collect
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$ResultMapping scala/collection/parallel/ParIterableLike ResultMapping
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/ParIterableLike$CreateScanTree scala/collection/parallel/ParIterableLike CreateScanTree
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ParArray$$anonfun$fromTraversables$1 null null
   // access flags 0x601
   public abstract INNERCLASS scala/collection/parallel/ParIterableLike$StrictSplitterCheckTask scala/collection/parallel/ParIterableLike StrictSplitterCheckTask
   // access flags 0x1
@@ -1712,7 +1710,7 @@ public class scala/collection/parallel/mutable/ParArray implements scala/collect
 
   // access flags 0x1
   public scala$collection$parallel$ParIterableLike$$_tasksupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParArray.scala$collection$parallel$ParIterableLike$$_tasksupport : Lscala/collection/parallel/TaskSupport;

@@ -5,8 +5,8 @@
 public final class scala/Responder$$anon$1 extends scala/Responder  {
 
   OUTERCLASS scala/Responder$ constant (Ljava/lang/Object;)Lscala/Responder;
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Responder$$anon$1 null null
 
   // access flags 0x12
   private final Ljava/lang/Object; x$1

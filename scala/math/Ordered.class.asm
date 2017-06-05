@@ -4,8 +4,6 @@
 // declaration: scala/math/Ordered<A> extends java.lang.Comparable<A>
 public abstract interface scala/math/Ordered implements java/lang/Comparable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordered$$anon$1 null null
 
   // access flags 0x401
   // signature (TA;)Z

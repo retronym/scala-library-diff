@@ -5,19 +5,9 @@
 public final class scala/collection/parallel/mutable/ParArray$ extends scala/collection/generic/ParFactory  implements scala/Serializable  {
 
   // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParArray$Map scala/collection/parallel/mutable/ParArray Map
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParArray$ScanToArray scala/collection/parallel/mutable/ParArray ScanToArray
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$$anonfun$scan$1 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator scala/collection/parallel/mutable/ParArray ParArrayIterator
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$ scala/collection/parallel/mutable/ParArray ParArrayIterator$
-  // access flags 0x1
   public INNERCLASS scala/collection/generic/ParFactory$GenericCanCombineFrom scala/collection/generic/ParFactory GenericCanCombineFrom
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ParArray$$anonfun$fromTraversables$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/mutable/ParArray$$anonfun$fromTraversables$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/mutable/ParArray$; MODULE$

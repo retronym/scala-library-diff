@@ -2,22 +2,22 @@
 // access flags 0x31
 public final class scala/runtime/ScalaRunTime$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$toArray$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$arrayToString$1$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$arrayToString$1$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$toArray$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$arrayToString$1$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$arrayToString$1$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ScalaRunTime$$anonfun$scala$runtime$ScalaRunTime$$inner$1$4 null null
 
   // access flags 0x19
   public final static Lscala/runtime/ScalaRunTime$; MODULE$

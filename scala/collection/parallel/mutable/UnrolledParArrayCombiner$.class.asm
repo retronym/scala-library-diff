@@ -2,10 +2,8 @@
 // access flags 0x31
 public final class scala/collection/parallel/mutable/UnrolledParArrayCombiner$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/UnrolledParArrayCombiner$$anon$1 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/UnrolledParArrayCombiner$CopyUnrolledToArray scala/collection/parallel/mutable/UnrolledParArrayCombiner CopyUnrolledToArray
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/mutable/UnrolledParArrayCombiner$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/mutable/UnrolledParArrayCombiner$; MODULE$

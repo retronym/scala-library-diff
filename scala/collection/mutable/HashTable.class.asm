@@ -10,15 +10,13 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
   public static INNERCLASS scala/collection/mutable/HashTable$Contents scala/collection/mutable/HashTable Contents
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils scala/collection/mutable/HashTable HashUtils
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/mutable/HashTable$HashUtils$class scala/collection/mutable/HashTable HashUtils$class
 
   // access flags 0x401
   public abstract _loadFactor()I
 
   // access flags 0x401
   public abstract _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature (TEntry;)V
@@ -110,7 +108,7 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
 
   // access flags 0x401
   public abstract seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature (Ljava/io/ObjectOutputStream;Lscala/Function1<TEntry;Lscala/runtime/BoxedUnit;>;)V
@@ -131,7 +129,7 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
 
   // access flags 0x401
   public abstract sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature ()[Lscala/collection/mutable/HashEntry<TA;TEntry;>;
@@ -146,20 +144,20 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
 
   // access flags 0x401
   public abstract tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature ([Lscala/collection/mutable/HashEntry<TA;TEntry;>;)V
   // declaration: void table_$eq(scala.collection.mutable.HashEntry<A, Entry>[])
   public abstract table_$eq([Lscala/collection/mutable/HashEntry;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   public abstract threshold()I
 
   // access flags 0x401
   public abstract threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   public abstract totalSizeMapBuckets()I

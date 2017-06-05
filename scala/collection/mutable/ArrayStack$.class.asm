@@ -5,11 +5,7 @@
 public final class scala/collection/mutable/ArrayStack$ extends scala/collection/generic/SeqFactory  implements scala/Serializable  {
 
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ArrayStack$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$$plus$plus$eq$1 null null
+  public final INNERCLASS scala/collection/mutable/ArrayStack$$anonfun$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

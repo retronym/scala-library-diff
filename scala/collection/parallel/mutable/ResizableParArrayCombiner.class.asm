@@ -4,8 +4,6 @@
 // declaration: scala/collection/parallel/mutable/ResizableParArrayCombiner<T> extends scala.collection.parallel.mutable.LazyCombiner<T, scala.collection.parallel.mutable.ParArray<T>, scala.collection.parallel.mutable.ExposedArrayBuffer<T>>
 public abstract interface scala/collection/parallel/mutable/ResizableParArrayCombiner implements scala/collection/parallel/mutable/LazyCombiner  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ResizableParArrayCombiner$$anon$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/mutable/ResizableParArrayCombiner$CopyChainToArray scala/collection/parallel/mutable/ResizableParArrayCombiner CopyChainToArray
 

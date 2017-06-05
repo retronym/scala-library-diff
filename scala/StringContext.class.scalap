@@ -5,7 +5,7 @@ case class StringContext(parts: scala.Predef.String*) extends scala.AnyRef with 
   def s(args: scala.Any*): scala.Predef.String = { /* compiled code */ }
   def raw(args: scala.Any*): scala.Predef.String = { /* compiled code */ }
   def standardInterpolator(process: scala.Function1[scala.Predef.String, scala.Predef.String], args: scala.Seq[scala.Any]): scala.Predef.String = { /* compiled code */ }
-  def f(args: scala.Any*): scala.Predef.String = { /* compiled code */ }
+  def f[A >: scala.Any](args: A*): scala.Predef.String = { /* compiled code */ }
   override def productPrefix: java.lang.String = { /* compiled code */ }
   def productArity: scala.Int = { /* compiled code */ }
   def productElement(x$1: scala.Int): scala.Any = { /* compiled code */ }

@@ -4,9 +4,9 @@
 // declaration: scala/concurrent/duration/Duration$$anonfun$3 extends scala.runtime.AbstractFunction1<java.lang.String, java.lang.String> implements scala.Serializable
 public final class scala/concurrent/duration/Duration$$anonfun$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/concurrent/duration/Duration$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/Duration$$anonfun$3 scala/concurrent/duration/Duration null
+  OUTERCLASS scala/concurrent/duration/Duration$ null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$3 null null
 
   // access flags 0x1
   public <init>()V

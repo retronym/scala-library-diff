@@ -25,7 +25,7 @@ public abstract interface scala/App implements scala/DelayedInit  {
 
   // access flags 0x401
   public abstract scala$App$$_args_$eq([Ljava/lang/String;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature ()Lscala/collection/mutable/ListBuffer<Lscala/Function0<Lscala/runtime/BoxedUnit;>;>;

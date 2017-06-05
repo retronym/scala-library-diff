@@ -4,20 +4,6 @@ public class scala/collection/parallel/mutable/ParArray$ParArrayIterator$ {
 
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$ scala/collection/parallel/mutable/ParArray ParArrayIterator$
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$psplit$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$copy2builder$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$copy2builder$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$reverse2combiner$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParArray$ParArrayIterator$$anonfun$reverse2combiner$1 null null
 
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/mutable/ParArray; $outer

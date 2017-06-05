@@ -4,10 +4,6 @@
 // declaration: scala/collection/immutable/ListSet$ extends scala.collection.generic.ImmutableSetFactory<scala.collection.immutable.ListSet> implements scala.Serializable
 public final class scala/collection/immutable/ListSet$ extends scala/collection/generic/ImmutableSetFactory  implements scala/Serializable  {
 
-  // access flags 0x1
-  public INNERCLASS scala/collection/immutable/ListSet$Node scala/collection/immutable/ListSet Node
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/ListSet$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/ListSet$EmptyListSet$ scala/collection/immutable/ListSet EmptyListSet$
   // access flags 0x9

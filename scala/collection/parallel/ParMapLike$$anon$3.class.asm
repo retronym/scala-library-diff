@@ -4,7 +4,7 @@
 // declaration: scala/collection/parallel/ParMapLike$$anon$3 implements scala.collection.parallel.IterableSplitter<K>
 public final class scala/collection/parallel/ParMapLike$$anon$3 implements scala/collection/parallel/IterableSplitter  {
 
-  OUTERCLASS scala/collection/parallel/ParMapLike$class scala$collection$parallel$ParMapLike$$keysIterator (Lscala/collection/parallel/ParMapLike;Lscala/collection/parallel/IterableSplitter;)Lscala/collection/parallel/IterableSplitter;
+  OUTERCLASS scala/collection/parallel/ParMapLike scala$collection$parallel$ParMapLike$$keysIterator (Lscala/collection/parallel/ParMapLike;Lscala/collection/parallel/IterableSplitter;)Lscala/collection/parallel/IterableSplitter;
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/ParMapLike$$anon$3 null null
   // access flags 0x1

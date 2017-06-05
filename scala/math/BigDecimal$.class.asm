@@ -4,20 +4,6 @@ public final class scala/math/BigDecimal$ implements scala/Serializable  {
 
   // access flags 0x9
   public static INNERCLASS scala/math/BigDecimal$RoundingMode$ scala/math/BigDecimal RoundingMode$
-  // access flags 0x11
-  public final INNERCLASS scala/math/BigDecimal$$anonfun$to$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/math/BigDecimal$$anonfun$until$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/math/BigDecimal$$anonfun$equals$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/math/BigDecimal$$anonfun$isValidInt$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/math/BigDecimal$$anonfun$isValidByte$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/math/BigDecimal$$anonfun$isValidLong$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/math/BigDecimal$$anonfun$isValidShort$1 null null
 
   // access flags 0x19
   public final static Lscala/math/BigDecimal$; MODULE$

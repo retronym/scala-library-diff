@@ -12,12 +12,12 @@ public abstract class scala/sys/process/ProcessBuilderImpl$AbstractBuilder imple
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Sink scala/sys/process/ProcessBuilder Sink
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source scala/sys/process/ProcessBuilder Source
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$$anonfun$input$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$$anonfun$input$1 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Sink$class scala/sys/process/ProcessBuilder Sink$class
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source$class scala/sys/process/ProcessBuilder Source$class
   // access flags 0x1
@@ -26,8 +26,8 @@ public abstract class scala/sys/process/ProcessBuilderImpl$AbstractBuilder imple
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$AndBuilder scala/sys/process/ProcessBuilderImpl AndBuilder
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$PipedBuilder scala/sys/process/ProcessBuilderImpl PipedBuilder
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$$anonfun$processFully$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$$anonfun$processFully$1 null null
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessBuilderImpl$DaemonBuilder scala/sys/process/ProcessBuilderImpl DaemonBuilder
   // access flags 0x401

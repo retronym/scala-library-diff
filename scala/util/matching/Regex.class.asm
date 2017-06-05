@@ -20,10 +20,6 @@ public class scala/util/matching/Regex implements scala/Serializable  {
   public static abstract INNERCLASS scala/util/matching/Regex$Replacement scala/util/matching/Regex Replacement
   // access flags 0x9
   public static INNERCLASS scala/util/matching/Regex$MatchIterator scala/util/matching/Regex MatchIterator
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$MatchData$class scala/util/matching/Regex MatchData$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/util/matching/Regex$Replacement$class scala/util/matching/Regex Replacement$class
   // access flags 0x11
   public final INNERCLASS scala/util/matching/Regex$$anonfun$unapplySeq$1 null null
   // access flags 0x11
@@ -381,6 +377,12 @@ public class scala/util/matching/Regex implements scala/Serializable  {
   // signature (Ljava/lang/CharSequence;)Lscala/Option<Lscala/collection/immutable/List<Ljava/lang/String;>;>;
   // declaration: scala.Option<scala.collection.immutable.List<java.lang.String>> unapplySeq(java.lang.CharSequence)
   public unapplySeq(Ljava/lang/CharSequence;)Lscala/Option;
+    ALOAD 1
+    IFNONNULL L0
+    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
+    ASTORE 4
+    GOTO L1
+   L0
     ALOAD 0
     INVOKEVIRTUAL scala/util/matching/Regex.pattern ()Ljava/util/regex/Pattern;
     ALOAD 1
@@ -389,7 +391,7 @@ public class scala/util/matching/Regex implements scala/Serializable  {
     ALOAD 0
     ALOAD 3
     INVOKEVIRTUAL scala/util/matching/Regex.runMatcher (Ljava/util/regex/Matcher;)Z
-    IFEQ L0
+    IFEQ L2
     NEW scala/Some
     DUP
     GETSTATIC scala/runtime/RichInt$.MODULE$ : Lscala/runtime/RichInt$;
@@ -409,13 +411,16 @@ public class scala/util/matching/Regex implements scala/Serializable  {
     INVOKEVIRTUAL scala/collection/immutable/List$.canBuildFrom ()Lscala/collection/generic/CanBuildFrom;
     INVOKEVIRTUAL scala/collection/immutable/List.map (Lscala/Function1;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;
     INVOKESPECIAL scala/Some.<init> (Ljava/lang/Object;)V
-    GOTO L1
-   L0
+    GOTO L3
+   L2
     GETSTATIC scala/None$.MODULE$ : Lscala/None$;
+   L3
+    ASTORE 4
    L1
+    ALOAD 4
     ARETURN
     MAXSTACK = 7
-    MAXLOCALS = 4
+    MAXLOCALS = 5
 
   // access flags 0x1
   // signature (C)Lscala/Option<Lscala/collection/immutable/List<Ljava/lang/Object;>;>;
@@ -469,11 +474,14 @@ public class scala/util/matching/Regex implements scala/Serializable  {
   // declaration: scala.Option<scala.collection.immutable.List<java.lang.String>> unapplySeq(scala.util.matching.Regex$Match)
   public unapplySeq(Lscala/util/matching/Regex$Match;)Lscala/Option;
     ALOAD 1
+    IFNULL L0
+    ALOAD 1
     INVOKEVIRTUAL scala/util/matching/Regex$Match.matched ()Ljava/lang/String;
-    IFNONNULL L0
-    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
-    GOTO L1
+    IFNONNULL L1
    L0
+    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
+    GOTO L2
+   L1
     ALOAD 1
     INVOKEVIRTUAL scala/util/matching/Regex$Match.matcher ()Ljava/util/regex/Matcher;
     INVOKEVIRTUAL java/util/regex/Matcher.pattern ()Ljava/util/regex/Pattern;
@@ -481,16 +489,16 @@ public class scala/util/matching/Regex implements scala/Serializable  {
     INVOKEVIRTUAL scala/util/matching/Regex.pattern ()Ljava/util/regex/Pattern;
     ASTORE 2
     DUP
-    IFNONNULL L2
+    IFNONNULL L3
     POP
     ALOAD 2
-    IFNULL L3
-    GOTO L4
-   L2
+    IFNULL L4
+    GOTO L5
+   L3
     ALOAD 2
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-    IFEQ L4
-   L3
+    IFEQ L5
+   L4
     NEW scala/Some
     DUP
     GETSTATIC scala/runtime/RichInt$.MODULE$ : Lscala/runtime/RichInt$;
@@ -510,13 +518,13 @@ public class scala/util/matching/Regex implements scala/Serializable  {
     INVOKEVIRTUAL scala/collection/immutable/List$.canBuildFrom ()Lscala/collection/generic/CanBuildFrom;
     INVOKEVIRTUAL scala/collection/immutable/List.map (Lscala/Function1;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;
     INVOKESPECIAL scala/Some.<init> (Ljava/lang/Object;)V
-    GOTO L1
-   L4
+    GOTO L2
+   L5
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL scala/util/matching/Regex$Match.matched ()Ljava/lang/String;
     INVOKEVIRTUAL scala/util/matching/Regex.unapplySeq (Ljava/lang/CharSequence;)Lscala/Option;
-   L1
+   L2
     ARETURN
     MAXSTACK = 7
     MAXLOCALS = 4

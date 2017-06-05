@@ -2,16 +2,16 @@
 // access flags 0x31
 public final class scala/math/Equiv$ implements scala/math/LowPriorityEquiv scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anonfun$by$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anon$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anon$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anonfun$by$1 null null
 
   // access flags 0x19
   public final static Lscala/math/Equiv$; MODULE$

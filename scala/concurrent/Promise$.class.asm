@@ -6,10 +6,6 @@ public final class scala/concurrent/Promise$ {
   public final static INNERCLASS scala/concurrent/impl/Promise$KeptPromise scala/concurrent/impl/Promise KeptPromise
   // access flags 0x9
   public static INNERCLASS scala/concurrent/impl/Promise$DefaultPromise scala/concurrent/impl/Promise DefaultPromise
-  // access flags 0x11
-  public final INNERCLASS scala/concurrent/Promise$$anonfun$completeWith$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/concurrent/Promise$$anonfun$tryCompleteWith$1 null null
 
   // access flags 0x19
   public final static Lscala/concurrent/Promise$; MODULE$

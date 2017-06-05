@@ -4,13 +4,13 @@
 // declaration: scala/reflect/ManifestFactory$$anon$11 extends scala.reflect.AnyValManifest<java.lang.Object>
 public final class scala/reflect/ManifestFactory$$anon$11 extends scala/reflect/AnyValManifest  {
 
-  OUTERCLASS scala/reflect/ManifestFactory$ <init> ()V
+  OUTERCLASS scala/reflect/ManifestFactory$ null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofFloat scala/collection/mutable/WrappedArray ofFloat
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/ArrayBuilder$ofFloat scala/collection/mutable/ArrayBuilder ofFloat
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ManifestFactory$$anon$11 scala/reflect/ManifestFactory null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ManifestFactory$$anon$11 null null
 
   // access flags 0x1
   public <init>()V

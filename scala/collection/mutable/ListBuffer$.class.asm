@@ -4,8 +4,6 @@
 // declaration: scala/collection/mutable/ListBuffer$ extends scala.collection.generic.SeqFactory<scala.collection.mutable.ListBuffer> implements scala.Serializable
 public final class scala/collection/mutable/ListBuffer$ extends scala/collection/generic/SeqFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ListBuffer$$anon$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

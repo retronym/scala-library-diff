@@ -2,14 +2,12 @@
 // access flags 0x31
 public final class scala/collection/mutable/AnyRefMap$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$$anon$2 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/AnyRefMap$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$1 scala/collection/mutable/AnyRefMap null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$apply$1 null null
+  public final INNERCLASS scala/collection/mutable/AnyRefMap$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$apply$1 null null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/AnyRefMap$AnyRefMapBuilder scala/collection/mutable/AnyRefMap AnyRefMapBuilder
 

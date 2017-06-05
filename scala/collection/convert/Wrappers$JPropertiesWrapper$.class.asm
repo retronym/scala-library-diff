@@ -8,8 +8,6 @@ public class scala/collection/convert/Wrappers$JPropertiesWrapper$ extends scala
   public INNERCLASS scala/collection/convert/Wrappers$JPropertiesWrapper$ scala/collection/convert/Wrappers JPropertiesWrapper$
   // access flags 0x1
   public INNERCLASS scala/collection/convert/Wrappers$JPropertiesWrapper scala/collection/convert/Wrappers JPropertiesWrapper
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/Wrappers$JPropertiesWrapper$$anon$3 null null
 
   // access flags 0x1012
   private final synthetic Lscala/collection/convert/Wrappers; $outer

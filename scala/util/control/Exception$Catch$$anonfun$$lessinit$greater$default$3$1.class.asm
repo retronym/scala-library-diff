@@ -7,8 +7,8 @@ public final class scala/util/control/Exception$Catch$$anonfun$$lessinit$greater
   OUTERCLASS scala/util/control/Exception$Catch$ $lessinit$greater$default$3 ()Lscala/Function1;
   // access flags 0x9
   public static INNERCLASS scala/util/control/Exception$Catch$ scala/util/control/Exception Catch$
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$Catch$$anonfun$$lessinit$greater$default$3$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$$lessinit$greater$default$3$1 null null
 
   // access flags 0x1
   public <init>()V

@@ -7,13 +7,7 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/LongMap$$anon$1 null null
   // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anonfun$1 scala/collection/mutable/LongMap null
-  // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/LongMap$LongMapBuilder scala/collection/mutable/LongMap LongMapBuilder
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anonfun$apply$1 null null
 
   // access flags 0x2
   private I _size
@@ -681,32 +675,72 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
   // signature <A:Ljava/lang/Object;>(Lscala/Function1<Lscala/Tuple2<Ljava/lang/Object;TV;>;TA;>;)V
   // declaration: void foreach<A>(scala.Function1<scala.Tuple2<java.lang.Object, V>, A>)
   public foreach(Lscala/Function1;)V
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_1
+    IAND
+    ICONST_1
+    IF_ICMPNE L0
+    ALOAD 1
+    NEW scala/Tuple2
+    DUP
+    LCONST_0
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
+    INVOKESPECIAL scala/Tuple2.<init> (Ljava/lang/Object;Ljava/lang/Object;)V
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L1
+   L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L1
+    POP
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_2
+    IAND
+    ICONST_2
+    IF_ICMPNE L2
+    ALOAD 1
+    NEW scala/Tuple2
+    DUP
+    LDC -9223372036854775808
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
+    INVOKESPECIAL scala/Tuple2.<init> (Ljava/lang/Object;Ljava/lang/Object;)V
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L3
+   L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L3
+    POP
     ICONST_0
     ISTORE 5
     ICONST_0
     ISTORE 2
-   L0
+   L4
     ILOAD 5
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ARRAYLENGTH
-    IF_ICMPGE L1
+    IF_ICMPGE L5
     ICONST_1
-    GOTO L2
-   L1
+    GOTO L6
+   L5
     ICONST_0
-   L2
+   L6
     ILOAD 2
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap._size : I
-    IF_ICMPGE L3
+    IF_ICMPGE L7
     ICONST_1
-    GOTO L4
-   L3
+    GOTO L8
+   L7
     ICONST_0
-   L4
+   L8
     IAND
-    IFEQ L5
+    IFEQ L9
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ILOAD 5
@@ -716,7 +750,7 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     LLOAD 3
     LNEG
     LCMP
-    IFEQ L6
+    IFEQ L10
     ILOAD 2
     ICONST_1
     IADD
@@ -732,54 +766,17 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     AALOAD
     INVOKESPECIAL scala/Tuple2.<init> (Ljava/lang/Object;Ljava/lang/Object;)V
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L7
-   L6
+    GOTO L11
+   L10
     GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
-   L7
+   L11
     POP
     ILOAD 5
     ICONST_1
     IADD
     ISTORE 5
-    GOTO L0
-   L5
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_1
-    IAND
-    ICONST_1
-    IF_ICMPNE L8
-    ALOAD 1
-    NEW scala/Tuple2
-    DUP
-    LCONST_0
-    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
-    INVOKESPECIAL scala/Tuple2.<init> (Ljava/lang/Object;Ljava/lang/Object;)V
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L9
-   L8
-    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L4
    L9
-    POP
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_2
-    IAND
-    ICONST_2
-    IF_ICMPNE L10
-    ALOAD 1
-    NEW scala/Tuple2
-    DUP
-    LDC -9223372036854775808
-    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
-    INVOKESPECIAL scala/Tuple2.<init> (Ljava/lang/Object;Ljava/lang/Object;)V
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    POP
-   L10
     RETURN
     MAXSTACK = 6
     MAXLOCALS = 6
@@ -788,32 +785,62 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
   // signature <A:Ljava/lang/Object;>(Lscala/Function1<Ljava/lang/Object;TA;>;)V
   // declaration: void foreachKey<A>(scala.Function1<java.lang.Object, A>)
   public foreachKey(Lscala/Function1;)V
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_1
+    IAND
+    ICONST_1
+    IF_ICMPNE L0
+    ALOAD 1
+    LCONST_0
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L1
+   L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L1
+    POP
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_2
+    IAND
+    ICONST_2
+    IF_ICMPNE L2
+    ALOAD 1
+    LDC -9223372036854775808
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L3
+   L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L3
+    POP
     ICONST_0
     ISTORE 5
     ICONST_0
     ISTORE 2
-   L0
+   L4
     ILOAD 5
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ARRAYLENGTH
-    IF_ICMPGE L1
+    IF_ICMPGE L5
     ICONST_1
-    GOTO L2
-   L1
+    GOTO L6
+   L5
     ICONST_0
-   L2
+   L6
     ILOAD 2
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap._size : I
-    IF_ICMPGE L3
+    IF_ICMPGE L7
     ICONST_1
-    GOTO L4
-   L3
+    GOTO L8
+   L7
     ICONST_0
-   L4
+   L8
     IAND
-    IFEQ L5
+    IFEQ L9
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ILOAD 5
@@ -823,7 +850,7 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     LLOAD 3
     LNEG
     LCMP
-    IFEQ L6
+    IFEQ L10
     ILOAD 2
     ICONST_1
     IADD
@@ -832,44 +859,17 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     LLOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L7
-   L6
+    GOTO L11
+   L10
     GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
-   L7
+   L11
     POP
     ILOAD 5
     ICONST_1
     IADD
     ISTORE 5
-    GOTO L0
-   L5
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_1
-    IAND
-    ICONST_1
-    IF_ICMPNE L8
-    ALOAD 1
-    LCONST_0
-    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L9
-   L8
-    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L4
    L9
-    POP
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_2
-    IAND
-    ICONST_2
-    IF_ICMPNE L10
-    ALOAD 1
-    LDC -9223372036854775808
-    INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    POP
-   L10
     RETURN
     MAXSTACK = 4
     MAXLOCALS = 6
@@ -878,32 +878,62 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
   // signature <A:Ljava/lang/Object;>(Lscala/Function1<TV;TA;>;)V
   // declaration: void foreachValue<A>(scala.Function1<V, A>)
   public foreachValue(Lscala/Function1;)V
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_1
+    IAND
+    ICONST_1
+    IF_ICMPNE L0
+    ALOAD 1
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L1
+   L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L1
+    POP
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_2
+    IAND
+    ICONST_2
+    IF_ICMPNE L2
+    ALOAD 1
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L3
+   L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L3
+    POP
     ICONST_0
     ISTORE 2
     ICONST_0
     ISTORE 3
-   L0
+   L4
     ILOAD 2
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ARRAYLENGTH
-    IF_ICMPGE L1
+    IF_ICMPGE L5
     ICONST_1
-    GOTO L2
-   L1
+    GOTO L6
+   L5
     ICONST_0
-   L2
+   L6
     ILOAD 3
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap._size : I
-    IF_ICMPGE L3
+    IF_ICMPGE L7
     ICONST_1
-    GOTO L4
-   L3
+    GOTO L8
+   L7
     ICONST_0
-   L4
+   L8
     IAND
-    IFEQ L5
+    IFEQ L9
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ILOAD 2
@@ -913,7 +943,7 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     LLOAD 4
     LNEG
     LCMP
-    IFEQ L6
+    IFEQ L10
     ILOAD 3
     ICONST_1
     IADD
@@ -924,44 +954,17 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     ILOAD 2
     AALOAD
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L7
-   L6
+    GOTO L11
+   L10
     GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
-   L7
+   L11
     POP
     ILOAD 2
     ICONST_1
     IADD
     ISTORE 2
-    GOTO L0
-   L5
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_1
-    IAND
-    ICONST_1
-    IF_ICMPNE L8
-    ALOAD 1
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L9
-   L8
-    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L4
    L9
-    POP
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_2
-    IAND
-    ICONST_2
-    IF_ICMPNE L10
-    ALOAD 1
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    POP
-   L10
     RETURN
     MAXSTACK = 4
     MAXLOCALS = 6
@@ -1446,6 +1449,36 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
   // signature <V1:Ljava/lang/Object;>(Lscala/Function1<TV;TV1;>;)Lscala/collection/mutable/LongMap<TV1;>;
   // declaration: scala.collection.mutable.LongMap<V1> mapValuesNow<V1>(scala.Function1<V, V1>)
   public mapValuesNow(Lscala/Function1;)Lscala/collection/mutable/LongMap;
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_1
+    IAND
+    ICONST_1
+    IF_ICMPNE L0
+    ALOAD 1
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L1
+   L0
+    ACONST_NULL
+   L1
+    ASTORE 2
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_2
+    IAND
+    ICONST_2
+    IF_ICMPNE L2
+    ALOAD 1
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L3
+   L2
+    ACONST_NULL
+   L3
+    ASTORE 3
     NEW scala/collection/mutable/LongMap
     DUP
     GETSTATIC scala/collection/mutable/LongMap$.MODULE$ : Lscala/collection/mutable/LongMap$;
@@ -1453,120 +1486,90 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     ICONST_1
     ICONST_0
     INVOKESPECIAL scala/collection/mutable/LongMap.<init> (Lscala/Function1;IZ)V
-    ASTORE 2
+    ASTORE 4
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ARRAYLENGTH
     INVOKESTATIC java/util/Arrays.copyOf ([JI)[J
-    ASTORE 3
+    ASTORE 5
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_values : [Ljava/lang/Object;
     ARRAYLENGTH
     ANEWARRAY java/lang/Object
-    ASTORE 4
+    ASTORE 6
     ICONST_0
-    ISTORE 5
+    ISTORE 7
     ICONST_0
-    ISTORE 6
-   L0
-    ILOAD 5
+    ISTORE 8
+   L4
+    ILOAD 7
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ARRAYLENGTH
-    IF_ICMPGE L1
+    IF_ICMPGE L5
     ICONST_1
-    GOTO L2
-   L1
+    GOTO L6
+   L5
     ICONST_0
-   L2
-    ILOAD 6
+   L6
+    ILOAD 8
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap._size : I
-    IF_ICMPGE L3
+    IF_ICMPGE L7
     ICONST_1
-    GOTO L4
-   L3
+    GOTO L8
+   L7
     ICONST_0
-   L4
+   L8
     IAND
-    IFEQ L5
+    IFEQ L9
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
-    ILOAD 5
+    ILOAD 7
     LALOAD
-    LSTORE 7
-    LLOAD 7
-    LLOAD 7
+    LSTORE 9
+    LLOAD 9
+    LLOAD 9
     LNEG
     LCMP
-    IFEQ L6
-    ILOAD 6
+    IFEQ L10
+    ILOAD 8
     ICONST_1
     IADD
-    ISTORE 6
-    ALOAD 4
-    ILOAD 5
+    ISTORE 8
+    ALOAD 6
+    ILOAD 7
     ALOAD 1
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_values : [Ljava/lang/Object;
-    ILOAD 5
+    ILOAD 7
     AALOAD
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
     AASTORE
-   L6
-    ILOAD 5
+   L10
+    ILOAD 7
     ICONST_1
     IADD
-    ISTORE 5
-    GOTO L0
-   L5
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_1
-    IAND
-    ICONST_1
-    IF_ICMPNE L7
-    ALOAD 1
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L8
-   L7
-    ACONST_NULL
-   L8
-    ASTORE 9
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_2
-    IAND
-    ICONST_2
-    IF_ICMPNE L9
-    ALOAD 1
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    GOTO L10
+    ISTORE 7
+    GOTO L4
    L9
-    ACONST_NULL
-   L10
-    ASTORE 10
-    ALOAD 2
+    ALOAD 4
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.mask : I
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ALOAD 9
-    ALOAD 10
+    ALOAD 2
+    ALOAD 3
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap._size : I
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap._vacant : I
-    ALOAD 3
-    ALOAD 4
+    ALOAD 5
+    ALOAD 6
     INVOKEVIRTUAL scala/collection/mutable/LongMap.initializeTo (IILjava/lang/Object;Ljava/lang/Object;II[J[Ljava/lang/Object;)V
-    ALOAD 2
+    ALOAD 4
     ARETURN
     MAXSTACK = 9
     MAXLOCALS = 11
@@ -2187,32 +2190,58 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
   // signature (Lscala/Function1<TV;TV;>;)Lscala/collection/mutable/LongMap<TV;>;
   // declaration: scala.collection.mutable.LongMap<V> transformValues(scala.Function1<V, V>)
   public transformValues(Lscala/Function1;)Lscala/collection/mutable/LongMap;
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_1
+    IAND
+    ICONST_1
+    IF_ICMPNE L0
+    ALOAD 0
+    ALOAD 1
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    PUTFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
+   L0
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
+    ICONST_2
+    IAND
+    ICONST_2
+    IF_ICMPNE L1
+    ALOAD 0
+    ALOAD 1
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    PUTFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
+   L1
     ICONST_0
     ISTORE 2
     ICONST_0
     ISTORE 3
-   L0
+   L2
     ILOAD 2
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ARRAYLENGTH
-    IF_ICMPGE L1
-    ICONST_1
-    GOTO L2
-   L1
-    ICONST_0
-   L2
-    ILOAD 3
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap._size : I
     IF_ICMPGE L3
     ICONST_1
     GOTO L4
    L3
     ICONST_0
    L4
+    ILOAD 3
+    ALOAD 0
+    GETFIELD scala/collection/mutable/LongMap._size : I
+    IF_ICMPGE L5
+    ICONST_1
+    GOTO L6
+   L5
+    ICONST_0
+   L6
     IAND
-    IFEQ L5
+    IFEQ L7
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$_keys : [J
     ILOAD 2
@@ -2222,7 +2251,7 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     LLOAD 4
     LNEG
     LCMP
-    IFEQ L6
+    IFEQ L8
     ILOAD 3
     ICONST_1
     IADD
@@ -2237,39 +2266,13 @@ public final class scala/collection/mutable/LongMap extends scala/collection/mut
     AALOAD
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
     AASTORE
-   L6
+   L8
     ILOAD 2
     ICONST_1
     IADD
     ISTORE 2
-    GOTO L0
-   L5
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_1
-    IAND
-    ICONST_1
-    IF_ICMPNE L7
-    ALOAD 0
-    ALOAD 1
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    PUTFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$zeroValue : Ljava/lang/Object;
+    GOTO L2
    L7
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$extraKeys : I
-    ICONST_2
-    IAND
-    ICONST_2
-    IF_ICMPNE L8
-    ALOAD 0
-    ALOAD 1
-    ALOAD 0
-    GETFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    PUTFIELD scala/collection/mutable/LongMap.scala$collection$mutable$LongMap$$minValue : Ljava/lang/Object;
-   L8
     ALOAD 0
     ARETURN
     MAXSTACK = 5

@@ -18,8 +18,6 @@ public final class scala/collection/immutable/Map$ extends scala/collection/gene
   public static INNERCLASS scala/collection/immutable/Map$WithDefault scala/collection/immutable/Map WithDefault
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Map$$anonfun$withDefaultValue$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/Map$; MODULE$

@@ -3,8 +3,8 @@
 public final class scala/io/Codec$$anon$1 extends scala/io/Codec  {
 
   OUTERCLASS scala/io/Codec$ apply (Ljava/nio/charset/CharsetDecoder;)Lscala/io/Codec;
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Codec$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/io/Codec$$anon$1 null null
 
   // access flags 0x12
   private final Ljava/nio/charset/CharsetDecoder; _decoder$1

@@ -4,9 +4,9 @@
 // declaration: scala/collection/generic/GenTraversableFactory$$anon$1 extends scala.collection.generic.GenTraversableFactory<CC>.GenericCanBuildFrom<scala.runtime.Nothing$>
 public final class scala/collection/generic/GenTraversableFactory$$anon$1 extends scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom  {
 
-  OUTERCLASS scala/collection/generic/GenTraversableFactory <init> ()V
+  OUTERCLASS scala/collection/generic/GenTraversableFactory null
   // access flags 0x11
-  public final INNERCLASS scala/collection/generic/GenTraversableFactory$$anon$1 scala/collection/generic/GenTraversableFactory null
+  public final INNERCLASS scala/collection/generic/GenTraversableFactory$$anon$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

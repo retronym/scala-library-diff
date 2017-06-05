@@ -5,8 +5,8 @@
 public final class scala/concurrent/ExecutionContext$$anonfun$defaultReporter$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/concurrent/ExecutionContext$ defaultReporter ()Lscala/Function1;
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/ExecutionContext$$anonfun$defaultReporter$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/ExecutionContext$$anonfun$defaultReporter$1 null null
 
   // access flags 0x1
   public <init>()V

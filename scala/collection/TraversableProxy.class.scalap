@@ -1,3 +1,4 @@
 package scala.collection
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
 trait TraversableProxy[+A] extends scala.AnyRef with scala.collection.Traversable[A] with scala.collection.TraversableProxyLike[A, scala.collection.Traversable[A]] {
 }

@@ -4,11 +4,9 @@
 // declaration: scala/collection/SeqViewLike$Reversed$$anonfun$createReversedIterator$1 extends scala.runtime.AbstractFunction1<A, scala.runtime.BoxedUnit> implements scala.Serializable
 public final class scala/collection/SeqViewLike$Reversed$$anonfun$createReversedIterator$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/SeqViewLike$Reversed$class createReversedIterator (Lscala/collection/SeqViewLike$Reversed;)Lscala/collection/Iterator;
+  OUTERCLASS scala/collection/SeqViewLike$Reversed createReversedIterator (Lscala/collection/SeqViewLike$Reversed;)Lscala/collection/Iterator;
   // access flags 0x601
   public abstract INNERCLASS scala/collection/SeqViewLike$Reversed scala/collection/SeqViewLike Reversed
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/SeqViewLike$Reversed$class scala/collection/SeqViewLike Reversed$class
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqViewLike$Reversed$$anonfun$createReversedIterator$1 null null
 

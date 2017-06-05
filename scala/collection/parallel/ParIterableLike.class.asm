@@ -564,7 +564,7 @@ public abstract interface scala/collection/parallel/ParIterableLike implements s
 
   // access flags 0x401
   public abstract scala$collection$parallel$ParIterableLike$$_tasksupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature <U:Ljava/lang/Object;That:Ljava/lang/Object;>(TU;Lscala/Function2<TU;TU;TU;>;Lscala/collection/generic/CanBuildFrom<TRepr;TU;TThat;>;)TThat;

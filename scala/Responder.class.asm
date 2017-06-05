@@ -11,14 +11,6 @@ public abstract class scala/Responder implements scala/Serializable  {
   public final INNERCLASS scala/Responder$$anon$2 null null
   // access flags 0x11
   public final INNERCLASS scala/Responder$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$run$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$loop$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$loopWhile$1 null null
 
   // access flags 0x1
   // signature ()V

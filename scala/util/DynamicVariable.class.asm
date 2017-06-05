@@ -5,7 +5,7 @@
 public class scala/util/DynamicVariable {
 
   // access flags 0x11
-  public final INNERCLASS scala/util/DynamicVariable$$anon$1 scala/util/DynamicVariable null
+  public final INNERCLASS scala/util/DynamicVariable$$anon$1 null null
 
   // access flags 0x11
   // signature TT;

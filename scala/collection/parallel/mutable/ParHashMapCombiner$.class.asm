@@ -2,18 +2,8 @@
 // access flags 0x31
 public final class scala/collection/parallel/mutable/ParHashMapCombiner$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$$anon$1 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$table$2$ null table$2$
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$FillBlocks scala/collection/parallel/mutable/ParHashMapCombiner FillBlocks
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$4 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable scala/collection/parallel/mutable/ParHashMapCombiner AddingHashTable
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$result$1 null null
+  public final INNERCLASS scala/collection/parallel/mutable/ParHashMapCombiner$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/mutable/ParHashMapCombiner$; MODULE$

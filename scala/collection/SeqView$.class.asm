@@ -2,8 +2,8 @@
 // access flags 0x31
 public final class scala/collection/SeqView$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqView$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/SeqView$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/SeqView$; MODULE$

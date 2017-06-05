@@ -24,8 +24,6 @@ public final class scala/collection/immutable/NumericRange$ implements scala/Ser
   public static INNERCLASS scala/Predef$ArrowAssoc$ scala/Predef ArrowAssoc$
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$BigDecimal$ scala/math/Ordering BigDecimal$
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/NumericRange$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$IntIsIntegral$ scala/math/Numeric IntIsIntegral$
   // access flags 0x9

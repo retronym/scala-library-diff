@@ -4,9 +4,9 @@
 // declaration: scala/collection/mutable/LongMap$$anonfun$1 extends scala.runtime.AbstractFunction1<java.lang.Object, scala.runtime.Nothing$> implements scala.Serializable
 public final class scala/collection/mutable/LongMap$$anonfun$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/mutable/LongMap$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anonfun$1 scala/collection/mutable/LongMap null
+  OUTERCLASS scala/collection/mutable/LongMap$ null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/LongMap$$anonfun$1 null null
 
   // access flags 0x1
   public <init>()V

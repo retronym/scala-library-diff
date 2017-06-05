@@ -12,14 +12,14 @@ public class scala/sys/process/BasicIO$Streamed$ {
   public static INNERCLASS scala/sys/process/BasicIO$Streamed$ scala/sys/process/BasicIO Streamed$
   // access flags 0x19
   public final static INNERCLASS scala/sys/process/BasicIO$Streamed scala/sys/process/BasicIO Streamed
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$scala$sys$process$BasicIO$Streamed$$next$1$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$scala$sys$process$BasicIO$Streamed$$next$1$1 null null
 
   // access flags 0x19
   public final static Lscala/sys/process/BasicIO$Streamed$; MODULE$

@@ -3,20 +3,14 @@
 // access flags 0x20031
 public final class scala/Responder$ implements scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/Responder$$anon$3 null null
+  public final INNERCLASS scala/Responder$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/Responder$$anon$2 null null
+  public final INNERCLASS scala/Responder$$anonfun$run$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/Responder$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$run$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$loop$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Responder$$anonfun$loopWhile$1 null null
+  public final INNERCLASS scala/Responder$$anonfun$loop$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Responder$$anonfun$loopWhile$1 null null
 
   // access flags 0x19
   public final static Lscala/Responder$; MODULE$

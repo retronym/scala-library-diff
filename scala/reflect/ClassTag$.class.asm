@@ -2,8 +2,8 @@
 // access flags 0x31
 public final class scala/reflect/ClassTag$ implements scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ClassTag$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ClassTag$$anon$1 null null
 
   // access flags 0x12
   // signature Lscala/reflect/ClassTag<Ljava/lang/Object;>;

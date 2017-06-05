@@ -7,8 +7,8 @@ public final class scala/collection/DebugUtils$$anonfun$buildString$1 extends sc
   OUTERCLASS scala/collection/DebugUtils$ buildString (Lscala/Function1;)Ljava/lang/String;
   // access flags 0x9
   public static INNERCLASS scala/Predef$any2stringadd$ scala/Predef any2stringadd$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/DebugUtils$$anonfun$buildString$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/DebugUtils$$anonfun$buildString$1 null null
 
   // access flags 0x12
   private final Lscala/runtime/ObjectRef; output$1

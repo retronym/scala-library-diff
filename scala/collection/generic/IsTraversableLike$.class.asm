@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/collection/generic/IsTraversableLike$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableLike$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1 scala/collection/generic/IsTraversableLike null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsTraversableLike$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/generic/IsTraversableLike$; MODULE$

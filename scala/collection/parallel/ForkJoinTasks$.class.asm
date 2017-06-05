@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/collection/parallel/ForkJoinTasks$ {
 
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/parallel/ForkJoinTasks$WrappedTask scala/collection/parallel/ForkJoinTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ForkJoinTasks$WrappedTask$class scala/collection/parallel/ForkJoinTasks WrappedTask$class
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/ForkJoinTasks$$anonfun$execute$2 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/ForkJoinTasks$; MODULE$

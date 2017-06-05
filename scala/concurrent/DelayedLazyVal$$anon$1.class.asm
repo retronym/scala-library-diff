@@ -2,7 +2,7 @@
 // access flags 0x31
 public final class scala/concurrent/DelayedLazyVal$$anon$1 implements java/lang/Runnable  {
 
-  OUTERCLASS scala/concurrent/DelayedLazyVal <init> (Lscala/Function0;Lscala/Function0;Lscala/concurrent/ExecutionContext;)V
+  OUTERCLASS scala/concurrent/DelayedLazyVal null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/DelayedLazyVal$$anon$1 null null
 

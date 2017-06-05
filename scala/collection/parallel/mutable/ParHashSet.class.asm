@@ -462,7 +462,7 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
 
   // access flags 0x1
   public _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSet._loadFactor : I
@@ -1923,7 +1923,7 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
 
   // access flags 0x1
   public scala$collection$parallel$ParIterableLike$$_tasksupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.scala$collection$parallel$ParIterableLike$$_tasksupport : Lscala/collection/parallel/TaskSupport;
@@ -1988,7 +1988,7 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
 
   // access flags 0x1
   public seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.seedvalue : I
@@ -2144,7 +2144,7 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
 
   // access flags 0x1
   public sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.sizemap : [I
@@ -2275,7 +2275,7 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
 
   // access flags 0x1
   public tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.tableSize : I
@@ -2285,7 +2285,7 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
 
   // access flags 0x1
   public table_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.table : [Ljava/lang/Object;
@@ -2383,7 +2383,7 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
 
   // access flags 0x1
   public threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.threshold : I

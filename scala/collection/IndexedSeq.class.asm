@@ -4,8 +4,6 @@
 // declaration: scala/collection/IndexedSeq<A> extends scala.collection.Seq<A>, scala.collection.generic.GenericTraversableTemplate<A, scala.collection.IndexedSeq>, scala.collection.IndexedSeqLike<A, scala.collection.IndexedSeq<A>>
 public abstract interface scala/collection/IndexedSeq implements scala/collection/Seq scala/collection/IndexedSeqLike  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/IndexedSeq$$anon$1 scala/collection/IndexedSeq null
 
   // access flags 0x401
   // signature ()Lscala/collection/generic/GenericCompanion<Lscala/collection/IndexedSeq;>;

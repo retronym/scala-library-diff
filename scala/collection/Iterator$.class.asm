@@ -2,76 +2,28 @@
 // access flags 0x31
 public final class scala/collection/Iterator$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$5 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$6 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$7 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$8 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$9 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$2 scala/collection/Iterator null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$24 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$3 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$10 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$4 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$11 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$5 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$12 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$6 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$13 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$7 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$14 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$8 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$15 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$9 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$16 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$2 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$17 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$18 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$19 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$20 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$21 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$22 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anon$23 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/Iterator$Leading$1 null Leading$1
-  // access flags 0x1
-  public INNERCLASS scala/collection/Iterator$Partner$1 null Partner$1
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anonfun$1 null null
+  public final INNERCLASS scala/collection/Iterator$$anon$24 null null
   // access flags 0x19
   public final static INNERCLASS scala/collection/Iterator$JoinIterator scala/collection/Iterator JoinIterator
   // access flags 0x19
   public final static INNERCLASS scala/collection/Iterator$ConcatIterator scala/collection/Iterator ConcatIterator
-  // access flags 0x1
-  public INNERCLASS scala/collection/Iterator$GroupedIterator scala/collection/Iterator GroupedIterator
-  // access flags 0x1
-  public INNERCLASS scala/collection/Iterator$PartitionIterator$1 null PartitionIterator$1
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anonfun$contains$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anonfun$toStream$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anonfun$filterNot$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/Iterator$$anonfun$copyToArray$1 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/TraversableOnce$BufferedCanBuildFrom scala/collection/TraversableOnce BufferedCanBuildFrom
 

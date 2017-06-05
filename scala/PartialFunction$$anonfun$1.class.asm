@@ -4,9 +4,9 @@
 // declaration: scala/PartialFunction$$anonfun$1 extends scala.runtime.AbstractPartialFunction<java.lang.Object, java.lang.Object> implements scala.Serializable
 public final class scala/PartialFunction$$anonfun$1 extends scala/runtime/AbstractPartialFunction  implements scala/Serializable  {
 
-  OUTERCLASS scala/PartialFunction$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$1 scala/PartialFunction null
+  OUTERCLASS scala/PartialFunction$ null
+  // access flags 0x11
+  public final INNERCLASS scala/PartialFunction$$anonfun$1 null null
 
   // access flags 0x1
   public <init>()V

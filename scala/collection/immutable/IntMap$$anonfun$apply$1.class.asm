@@ -5,8 +5,8 @@
 public final class scala/collection/immutable/IntMap$$anonfun$apply$1 extends scala/runtime/AbstractFunction2  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/immutable/IntMap$ apply (Lscala/collection/Seq;)Lscala/collection/immutable/IntMap;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/IntMap$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$apply$1 null null
 
   // access flags 0x1
   public <init>()V

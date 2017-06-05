@@ -5,8 +5,8 @@
 public final class scala/Function$$anonfun$tupled$3 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Function$ tupled (Lscala/Function4;)Lscala/Function1;
-  // access flags 0x19
-  public final static INNERCLASS scala/Function$$anonfun$tupled$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Function$$anonfun$tupled$3 null null
 
   // access flags 0x12
   private final Lscala/Function4; f$7

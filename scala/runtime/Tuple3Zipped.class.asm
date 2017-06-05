@@ -8,18 +8,6 @@ public final class scala/runtime/Tuple3Zipped implements scala/runtime/ZippedTra
   public final static INNERCLASS scala/runtime/Tuple3Zipped$Ops scala/runtime/Tuple3Zipped Ops
   // access flags 0x9
   public static INNERCLASS scala/runtime/Tuple3Zipped$Ops$ scala/runtime/Tuple3Zipped Ops$
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$map$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$filter$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$exists$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$forall$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$flatMap$extension$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple3Zipped$$anonfun$foreach$extension$1 null null
 
   // access flags 0x12
   // signature Lscala/Tuple3<Lscala/collection/TraversableLike<TEl1;TRepr1;>;Lscala/collection/IterableLike<TEl2;TRepr2;>;Lscala/collection/IterableLike<TEl3;TRepr3;>;>;

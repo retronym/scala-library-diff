@@ -5,8 +5,8 @@
 public final class scala/collection/concurrent/Debug$$anonfun$flush$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/concurrent/Debug$ flush ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/concurrent/Debug$$anonfun$flush$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/concurrent/Debug$$anonfun$flush$1 null null
 
   // access flags 0x1
   public <init>()V

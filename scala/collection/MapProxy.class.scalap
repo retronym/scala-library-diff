@@ -1,3 +1,4 @@
 package scala.collection
+@scala.deprecated("Proxying is deprecated due to lack of use and compiler-level support.")
 trait MapProxy[A, +B] extends scala.AnyRef with scala.collection.Map[A, B] with scala.collection.MapProxyLike[A, B, scala.collection.Map[A, B]] {
 }

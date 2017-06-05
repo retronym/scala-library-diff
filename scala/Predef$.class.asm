@@ -10,12 +10,12 @@ public final class scala/Predef$ extends scala/LowPriorityImplicits  implements 
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofInt scala/collection/mutable/ArrayOps ofInt
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofRef scala/collection/mutable/ArrayOps ofRef
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$3 scala/Predef null
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$1 scala/Predef null
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$2 scala/Predef null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$2 null null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/ArrayOps$ofByte scala/collection/mutable/ArrayOps ofByte
   // access flags 0x19

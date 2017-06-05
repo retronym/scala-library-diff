@@ -10,7 +10,7 @@ public abstract interface scala/collection/parallel/Combiner implements scala/co
 
   // access flags 0x401
   public abstract _combinerTaskSupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   public abstract canBeShared()Z

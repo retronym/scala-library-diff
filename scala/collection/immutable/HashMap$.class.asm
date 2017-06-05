@@ -6,14 +6,14 @@ public final class scala/collection/immutable/HashMap$ extends scala/collection/
 
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/immutable/HashMap$Merger scala/collection/immutable/HashMap Merger
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/HashMap$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/HashMap$$anon$2 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/HashMap$HashMap1 scala/collection/immutable/HashMap HashMap1
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/generic/BitOperations$Int scala/collection/generic/BitOperations Int
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/HashMap$$anonfun$1 scala/collection/immutable/HashMap null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/HashMap$$anonfun$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/HashMap$HashTrieMap scala/collection/immutable/HashMap HashTrieMap
   // access flags 0x9

@@ -5,8 +5,8 @@
 public final class scala/Array$$anonfun$tabulate$4 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/Array$ tabulate (IIIIILscala/Function5;Lscala/reflect/ClassTag;)[[[[Ljava/lang/Object;
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$tabulate$4 null null
   // access flags 0x11
   public final INNERCLASS scala/Array$$anonfun$tabulate$4$$anonfun$apply$14 null null
 

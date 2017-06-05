@@ -10,16 +10,8 @@ public abstract interface scala/PartialFunction implements scala/Function1  {
   public static INNERCLASS scala/PartialFunction$Lifted scala/PartialFunction Lifted
   // access flags 0x9
   public static INNERCLASS scala/PartialFunction$AndThen scala/PartialFunction AndThen
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anon$1 scala/PartialFunction null
   // access flags 0x9
   public static INNERCLASS scala/PartialFunction$Unlifted scala/PartialFunction Unlifted
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$1 scala/PartialFunction null
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$2 scala/PartialFunction null
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$apply$1 null null
   // access flags 0x11
   public final INNERCLASS scala/PartialFunction$$anonfun$runWith$1 null null
 

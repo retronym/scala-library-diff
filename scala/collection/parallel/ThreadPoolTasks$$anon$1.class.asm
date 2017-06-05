@@ -2,9 +2,9 @@
 // access flags 0x31
 public final class scala/collection/parallel/ThreadPoolTasks$$anon$1 implements java/util/concurrent/ThreadFactory  {
 
-  OUTERCLASS scala/collection/parallel/ThreadPoolTasks$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anon$1 scala/collection/parallel/ThreadPoolTasks null
+  OUTERCLASS scala/collection/parallel/ThreadPoolTasks$ null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anon$1 null null
 
   // access flags 0x1
   public <init>()V

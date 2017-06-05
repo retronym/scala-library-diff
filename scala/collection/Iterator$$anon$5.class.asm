@@ -5,8 +5,8 @@
 public final class scala/collection/Iterator$$anon$5 extends scala/collection/AbstractIterator  {
 
   OUTERCLASS scala/collection/Iterator$ tabulate (ILscala/Function1;)Lscala/collection/Iterator;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$5 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/Iterator$$anon$5 null null
 
   // access flags 0x12
   private final I end$1

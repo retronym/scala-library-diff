@@ -4,8 +4,6 @@ public final class scala/math/Ordering$ implements scala/math/LowPriorityOrderin
 
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$Int$ scala/math/Ordering Int$
-  // access flags 0x1
-  public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$Unit$ scala/math/Ordering Unit$
   // access flags 0x9
@@ -24,34 +22,30 @@ public final class scala/math/Ordering$ implements scala/math/LowPriorityOrderin
   public static INNERCLASS scala/math/Ordering$BigInt$ scala/math/Ordering BigInt$
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$String$ scala/math/Ordering String$
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$9 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$9 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$3 null null
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$Boolean$ scala/math/Ordering Boolean$
   // access flags 0x11
-  public final INNERCLASS scala/math/Ordering$$anon$4 null null
+  public final INNERCLASS scala/math/Ordering$$anon$10 null null
   // access flags 0x11
-  public final INNERCLASS scala/math/Ordering$$anon$5 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$10 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$11 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$12 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$13 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$14 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$15 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$16 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$17 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$18 null null
+  public final INNERCLASS scala/math/Ordering$$anon$11 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$12 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$13 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$14 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$15 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$16 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$17 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$18 null null
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$Implicits$ scala/math/Ordering Implicits$
   // access flags 0x9
@@ -66,8 +60,8 @@ public final class scala/math/Ordering$ implements scala/math/LowPriorityOrderin
   public static abstract INNERCLASS scala/math/Ordering$CharOrdering scala/math/Ordering CharOrdering
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$LongOrdering scala/math/Ordering LongOrdering
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anonfun$by$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anonfun$by$1 null null
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$ShortOrdering scala/math/Ordering ShortOrdering
   // access flags 0x609

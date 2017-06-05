@@ -4,8 +4,6 @@
 // declaration: scala/collection/mutable/ListMap$ extends scala.collection.generic.MutableMapFactory<scala.collection.mutable.ListMap> implements scala.Serializable
 public final class scala/collection/mutable/ListMap$ extends scala/collection/generic/MutableMapFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/ListMap$$anonfun$get$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
 

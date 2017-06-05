@@ -1066,6 +1066,16 @@ public class scala/collection/immutable/TreeMap implements scala/collection/immu
     MAXLOCALS = 2
 
   // access flags 0x1
+  public filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    INVOKESTATIC scala/collection/TraversableLike$class.filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
   // signature (Lscala/Function1<TA;Ljava/lang/Object;>;)Lscala/collection/immutable/SortedMap<TA;TB;>;
   // declaration: scala.collection.immutable.SortedMap<A, B> filterKeys(scala.Function1<A, java.lang.Object>)
   public filterKeys(Lscala/Function1;)Lscala/collection/immutable/SortedMap;

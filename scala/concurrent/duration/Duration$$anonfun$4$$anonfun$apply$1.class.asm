@@ -7,8 +7,8 @@ public final class scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$
   OUTERCLASS scala/concurrent/duration/Duration$$anonfun$4 apply (Lscala/Tuple2;)Lscala/collection/immutable/List;
   // access flags 0x9
   public static INNERCLASS scala/Predef$ArrowAssoc$ scala/Predef ArrowAssoc$
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/Duration$$anonfun$4 scala/concurrent/duration/Duration null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$4 null null
   // access flags 0x11
   public final INNERCLASS scala/concurrent/duration/Duration$$anonfun$4$$anonfun$apply$1 null null
 

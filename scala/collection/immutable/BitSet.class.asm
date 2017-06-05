@@ -10,8 +10,6 @@ public abstract class scala/collection/immutable/BitSet extends scala/collection
   public static INNERCLASS scala/collection/immutable/BitSet$BitSet2 scala/collection/immutable/BitSet BitSet2
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/BitSet$BitSetN scala/collection/immutable/BitSet BitSetN
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/BitSet$$anon$1 null null
 
   // access flags 0x19
   public final static J serialVersionUID = 1611436763290191562

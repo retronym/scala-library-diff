@@ -4,11 +4,11 @@
 // declaration: scala/collection/generic/IsTraversableOnce$$anon$1 implements scala.collection.generic.IsTraversableOnce<java.lang.String>
 public final class scala/collection/generic/IsTraversableOnce$$anon$1 implements scala/collection/generic/IsTraversableOnce  {
 
-  OUTERCLASS scala/collection/generic/IsTraversableOnce$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsTraversableOnce$$anon$1 scala/collection/generic/IsTraversableOnce null
+  OUTERCLASS scala/collection/generic/IsTraversableOnce$ null
   // access flags 0x11
-  public final INNERCLASS scala/collection/generic/IsTraversableOnce$$anon$1$$anonfun$1 scala/collection/generic/IsTraversableOnce$$anon$1 null
+  public final INNERCLASS scala/collection/generic/IsTraversableOnce$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsTraversableOnce$$anon$1$$anonfun$1 null null
 
   // access flags 0x12
   // signature Lscala/Function1<Ljava/lang/String;Lscala/collection/GenTraversableOnce<Ljava/lang/Object;>;>;

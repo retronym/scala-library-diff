@@ -4,8 +4,8 @@ public final class scala/util/hashing/Hashing$ implements scala/Serializable  {
 
   // access flags 0x19
   public final static INNERCLASS scala/util/hashing/Hashing$Default scala/util/hashing/Hashing Default
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/Hashing$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/Hashing$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/util/hashing/Hashing$; MODULE$

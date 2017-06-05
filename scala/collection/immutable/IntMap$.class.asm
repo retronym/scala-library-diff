@@ -12,20 +12,10 @@ public final class scala/collection/immutable/IntMap$ {
   public static INNERCLASS scala/collection/immutable/IntMap$Bin scala/collection/immutable/IntMap Bin
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/IntMap$Bin$ scala/collection/immutable/IntMap Bin$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/IntMap$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/IntMap$$anonfun$apply$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$toList$1 null null
+  public final INNERCLASS scala/collection/immutable/IntMap$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$unionWith$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$unionWith$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$$plus$plus$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$intersection$1 null null
+  public final INNERCLASS scala/collection/immutable/IntMap$$anonfun$apply$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/IntMap$; MODULE$

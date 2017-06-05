@@ -4,24 +4,8 @@
 // declaration: scala/collection/mutable/HashMap$ extends scala.collection.generic.MutableMapFactory<scala.collection.mutable.HashMap> implements scala.Serializable
 public final class scala/collection/mutable/HashMap$ extends scala/collection/generic/MutableMapFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anon$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anon$3 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anon$4 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anonfun$foreach$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anonfun$iterator$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anonfun$readObject$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/HashMap$$anonfun$writeObject$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/HashMap$; MODULE$

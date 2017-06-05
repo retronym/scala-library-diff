@@ -5,8 +5,8 @@
 public final class scala/collection/SeqLike$$anon$4 extends scala/collection/AbstractSeq  implements scala/collection/IndexedSeq  {
 
   OUTERCLASS scala/collection/SeqLike$ kmpOptimizeWord (Lscala/collection/Seq;IIZ)Lscala/collection/IndexedSeq;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqLike$$anon$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/SeqLike$$anon$4 null null
 
   // access flags 0x12
   private final I n0$1

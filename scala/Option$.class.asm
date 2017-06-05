@@ -2,10 +2,6 @@
 // access flags 0x31
 public final class scala/Option$ implements scala/Serializable  {
 
-  // access flags 0x1
-  public INNERCLASS scala/Option$WithFilter scala/Option WithFilter
-  // access flags 0x11
-  public final INNERCLASS scala/Option$$anonfun$orNull$1 null null
 
   // access flags 0x19
   public final static Lscala/Option$; MODULE$

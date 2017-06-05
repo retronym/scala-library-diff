@@ -5,8 +5,8 @@
 public final class scala/sys/BooleanProp$$anonfun$valueIsTrue$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/BooleanProp$ valueIsTrue (Ljava/lang/String;)Lscala/sys/BooleanProp;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/BooleanProp$$anonfun$valueIsTrue$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/BooleanProp$$anonfun$valueIsTrue$1 null null
 
   // access flags 0x1
   public <init>()V

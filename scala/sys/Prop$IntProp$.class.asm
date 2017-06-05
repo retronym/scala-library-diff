@@ -6,8 +6,8 @@ public class scala/sys/Prop$IntProp$ extends scala/sys/CreatorImpl  {
 
   // access flags 0x9
   public static INNERCLASS scala/sys/Prop$IntProp$ scala/sys/Prop IntProp$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/Prop$IntProp$$anonfun$$lessinit$greater$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/Prop$IntProp$$anonfun$$lessinit$greater$3 null null
 
   // access flags 0x19
   public final static Lscala/sys/Prop$IntProp$; MODULE$

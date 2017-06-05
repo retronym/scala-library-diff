@@ -4,8 +4,6 @@
 // declaration: scala/collection/immutable/TreeMap$ extends scala.collection.generic.ImmutableSortedMapFactory<scala.collection.immutable.TreeMap> implements scala.Serializable
 public final class scala/collection/immutable/TreeMap$ extends scala/collection/generic/ImmutableSortedMapFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/TreeMap$$anonfun$$plus$plus$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/SortedMapFactory$SortedMapCanBuildFrom scala/collection/generic/SortedMapFactory SortedMapCanBuildFrom
 

@@ -4,10 +4,10 @@ public final class scala/util/Sorting$ {
 
   // access flags 0x1
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Sorting$$anonfun$stableSort$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Sorting$$anonfun$stableSort$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/Sorting$$anonfun$stableSort$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/Sorting$$anonfun$stableSort$2 null null
 
   // access flags 0x19
   public final static Lscala/util/Sorting$; MODULE$

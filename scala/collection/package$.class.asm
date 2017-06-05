@@ -2,8 +2,8 @@
 // access flags 0x31
 public final class scala/collection/package$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/package$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/package$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/package$; MODULE$

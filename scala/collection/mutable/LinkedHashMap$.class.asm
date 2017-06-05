@@ -4,24 +4,8 @@
 // declaration: scala/collection/mutable/LinkedHashMap$ extends scala.collection.generic.MutableMapFactory<scala.collection.mutable.LinkedHashMap> implements scala.Serializable
 public final class scala/collection/mutable/LinkedHashMap$ extends scala/collection/generic/MutableMapFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashMap$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashMap$$anon$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashMap$$anon$3 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/mutable/LinkedHashMap$FilteredKeys scala/collection/mutable/LinkedHashMap FilteredKeys
-  // access flags 0x1
-  public INNERCLASS scala/collection/mutable/LinkedHashMap$MappedValues scala/collection/mutable/LinkedHashMap MappedValues
-  // access flags 0x1
-  public INNERCLASS scala/collection/mutable/LinkedHashMap$DefaultKeySet scala/collection/mutable/LinkedHashMap DefaultKeySet
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenMapFactory$MapCanBuildFrom scala/collection/generic/GenMapFactory MapCanBuildFrom
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashMap$$anonfun$readObject$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashMap$$anonfun$writeObject$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/LinkedHashMap$; MODULE$

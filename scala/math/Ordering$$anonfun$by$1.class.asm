@@ -5,8 +5,8 @@
 public final class scala/math/Ordering$$anonfun$by$1 extends scala/runtime/AbstractFunction2  implements scala/Serializable  {
 
   OUTERCLASS scala/math/Ordering$ by (Lscala/Function1;Lscala/math/Ordering;)Lscala/math/Ordering;
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anonfun$by$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anonfun$by$1 null null
 
   // access flags 0x12
   private final Lscala/Function1; f$1

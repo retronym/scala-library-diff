@@ -6,8 +6,8 @@ public abstract class scala/collection/SeqLike$class {
   public final INNERCLASS scala/collection/SeqLike$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$9 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$9 null null
   // access flags 0x1
   public INNERCLASS scala/collection/SeqLike$PermutationsItr scala/collection/SeqLike PermutationsItr
   // access flags 0x1

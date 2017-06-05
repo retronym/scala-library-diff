@@ -4,9 +4,9 @@
 // declaration: scala/Predef$$anon$3 implements scala.collection.generic.CanBuildFrom<java.lang.String, java.lang.Object, java.lang.String>
 public final class scala/Predef$$anon$3 implements scala/collection/generic/CanBuildFrom  {
 
-  OUTERCLASS scala/Predef$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$3 scala/Predef null
+  OUTERCLASS scala/Predef$ null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$3 null null
 
   // access flags 0x1
   public <init>()V

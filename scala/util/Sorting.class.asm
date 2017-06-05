@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/util/Sorting {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Sorting$$anonfun$stableSort$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/Sorting$$anonfun$stableSort$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/Sorting$$anonfun$stableSort$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/Sorting$$anonfun$stableSort$2 null null
 
   // access flags 0x9
   public static quickSort([F)V

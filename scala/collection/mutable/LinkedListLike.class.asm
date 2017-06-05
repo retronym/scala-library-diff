@@ -41,7 +41,7 @@ public abstract interface scala/collection/mutable/LinkedListLike implements sca
   // signature (TA;)V
   // declaration: void elem_$eq(A)
   public abstract elem_$eq(Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature <B:Ljava/lang/Object;>(Lscala/Function1<TA;TB;>;)V
@@ -83,7 +83,7 @@ public abstract interface scala/collection/mutable/LinkedListLike implements sca
   // signature (TThis;)V
   // declaration: void next_$eq(This)
   public abstract next_$eq(Lscala/collection/mutable/Seq;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
 
   // access flags 0x401
   // signature ()TThis;

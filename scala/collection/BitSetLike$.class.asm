@@ -2,12 +2,6 @@
 // access flags 0x31
 public final class scala/collection/BitSetLike$ {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/BitSetLike$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/BitSetLike$$anonfun$isEmpty$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/BitSetLike$$anonfun$subsetOf$1 null null
 
   // access flags 0x12
   private final I LogWL

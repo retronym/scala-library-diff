@@ -5,8 +5,8 @@
 public final class scala/math/Equiv$$anon$4 implements scala/math/Equiv  {
 
   OUTERCLASS scala/math/Equiv$ fromFunction (Lscala/Function2;)Lscala/math/Equiv;
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anon$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anon$4 null null
 
   // access flags 0x12
   private final Lscala/Function2; cmp$2

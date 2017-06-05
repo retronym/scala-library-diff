@@ -9,8 +9,8 @@ public final class scala/sys/process/BasicIO$Uncloseable$$anon$1 extends java/io
   public static abstract INNERCLASS scala/sys/process/BasicIO$Uncloseable scala/sys/process/BasicIO Uncloseable
   // access flags 0x409
   public static abstract INNERCLASS scala/sys/process/BasicIO$Uncloseable$class scala/sys/process/BasicIO Uncloseable$class
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$Uncloseable$$anon$1 null null
 
   // access flags 0x1
   public <init>(Ljava/io/OutputStream;)V

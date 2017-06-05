@@ -4,9 +4,9 @@
 // declaration: scala/collection/Iterator$$anon$2 extends scala.collection.AbstractIterator<scala.runtime.Nothing$>
 public final class scala/collection/Iterator$$anon$2 extends scala/collection/AbstractIterator  {
 
-  OUTERCLASS scala/collection/Iterator$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$2 scala/collection/Iterator null
+  OUTERCLASS scala/collection/Iterator$ null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/Iterator$$anon$2 null null
 
   // access flags 0x1
   public <init>()V

@@ -4,8 +4,6 @@ public class scala/collection/parallel/immutable/ParRange$ParRangeIterator$ {
 
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/immutable/ParRange$ParRangeIterator$ scala/collection/parallel/immutable/ParRange ParRangeIterator$
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/ParRange$ParRangeIterator$$anonfun$psplit$1 null null
 
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/immutable/ParRange; $outer

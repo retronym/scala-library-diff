@@ -2,42 +2,12 @@
 // access flags 0x31
 public final class scala/collection/SeqLike$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqLike$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqLike$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/SeqLike$$anon$5 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anon$1 null null
+  public final INNERCLASS scala/collection/SeqLike$$anon$3 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anon$2 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/SeqLike$PermutationsItr scala/collection/SeqLike PermutationsItr
-  // access flags 0x1
-  public INNERCLASS scala/collection/SeqLike$CombinationsItr scala/collection/SeqLike CombinationsItr
+  public final INNERCLASS scala/collection/SeqLike$$anon$4 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$diff$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$sorted$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$sorted$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$reverse$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$reverse$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$contains$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$distinct$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$intersect$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$occCounts$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$reverseMap$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$$anonfun$reverseMap$2 null null
+  public final INNERCLASS scala/collection/SeqLike$$anon$5 null null
 
   // access flags 0x19
   public final static Lscala/collection/SeqLike$; MODULE$

@@ -8,10 +8,6 @@ public class scala/collection/generic/BitOperations$Long$ implements scala/colle
   public static abstract INNERCLASS scala/collection/generic/BitOperations$Long scala/collection/generic/BitOperations Long
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/generic/BitOperations$Long$class scala/collection/generic/BitOperations Long$class
-  // access flags 0x11
-  public final INNERCLASS scala/collection/generic/BitOperations$Long$$anonfun$bits$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/generic/BitOperations$Long$$anonfun$bitString$2 null null
 
   // access flags 0x19
   public final static Lscala/collection/generic/BitOperations$Long$; MODULE$

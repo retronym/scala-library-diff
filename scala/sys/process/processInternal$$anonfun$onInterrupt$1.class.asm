@@ -5,8 +5,8 @@
 public final class scala/sys/process/processInternal$$anonfun$onInterrupt$1 extends scala/runtime/AbstractPartialFunction  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/process/processInternal$ onInterrupt (Lscala/Function0;)Lscala/PartialFunction;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/processInternal$$anonfun$onInterrupt$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/processInternal$$anonfun$onInterrupt$1 null null
 
   // access flags 0x12
   private final Lscala/Function0; handler$1

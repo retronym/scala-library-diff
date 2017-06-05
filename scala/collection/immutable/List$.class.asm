@@ -4,16 +4,10 @@
 // declaration: scala/collection/immutable/List$ extends scala.collection.generic.SeqFactory<scala.collection.immutable.List> implements scala.Serializable
 public final class scala/collection/immutable/List$ extends scala/collection/generic/SeqFactory  implements scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/List$$anon$1 scala/collection/immutable/List null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/List$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/List$SerializationProxy scala/collection/immutable/List SerializationProxy
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/List$$anonfun$flatMap$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/List$$anonfun$toStream$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/List$$anonfun$foldRight$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

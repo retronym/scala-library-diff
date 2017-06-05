@@ -2,36 +2,8 @@
 // access flags 0x21
 public class scala/util/hashing/MurmurHash3 {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$5 null null
   // access flags 0x9
   public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing scala/util/hashing/MurmurHash3 ArrayHashing
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcZ$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcZ$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcB$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcB$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcC$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcC$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcD$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcD$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcF$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcF$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcI$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcI$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcJ$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcJ$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcS$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcS$sp
-  // access flags 0x9
-  public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcV$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcV$sp
   // access flags 0x11
   public final INNERCLASS scala/util/hashing/MurmurHash3$$anonfun$orderedHash$1 null null
   // access flags 0x11

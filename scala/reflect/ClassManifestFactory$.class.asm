@@ -2,10 +2,10 @@
 // access flags 0x31
 public final class scala/reflect/ClassManifestFactory$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ClassManifestFactory$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ClassManifestFactory$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ClassManifestFactory$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ClassManifestFactory$$anon$2 null null
 
   // access flags 0x12
   // signature Lscala/reflect/Manifest<Ljava/lang/Object;>;

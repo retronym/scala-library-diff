@@ -5,8 +5,6 @@
 // declaration: scala/collection/parallel/CompositeThrowable$ extends scala.runtime.AbstractFunction1<scala.collection.Set<java.lang.Throwable>, scala.collection.parallel.CompositeThrowable> implements scala.Serializable
 public final class scala/collection/parallel/CompositeThrowable$ extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/CompositeThrowable$$anonfun$$lessinit$greater$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/CompositeThrowable$; MODULE$

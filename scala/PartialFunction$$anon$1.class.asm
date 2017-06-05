@@ -4,11 +4,11 @@
 // declaration: scala/PartialFunction$$anon$1 implements scala.PartialFunction<java.lang.Object, scala.runtime.Nothing$>
 public final class scala/PartialFunction$$anon$1 implements scala/PartialFunction  {
 
-  OUTERCLASS scala/PartialFunction$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anon$1 scala/PartialFunction null
+  OUTERCLASS scala/PartialFunction$ null
   // access flags 0x11
-  public final INNERCLASS scala/PartialFunction$$anon$1$$anonfun$3 scala/PartialFunction$$anon$1 null
+  public final INNERCLASS scala/PartialFunction$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/PartialFunction$$anon$1$$anonfun$3 null null
 
   // access flags 0x12
   // signature Lscala/Function1<Ljava/lang/Object;Lscala/None$;>;

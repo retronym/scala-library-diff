@@ -2,11 +2,11 @@
 // access flags 0x31
 public final class scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$2 extends scala/runtime/AbstractFunction0$mcV$sp  implements scala/Serializable  {
 
-  OUTERCLASS scala/sys/process/ProcessImpl$CompoundProcess <init> (Lscala/sys/process/Process$;)V
+  OUTERCLASS scala/sys/process/ProcessImpl$CompoundProcess x$4 ()Lscala/Tuple2;
   // access flags 0x401
   public abstract INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess scala/sys/process/ProcessImpl CompoundProcess
   // access flags 0x11
-  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$2 scala/sys/process/ProcessImpl$CompoundProcess null
+  public final INNERCLASS scala/sys/process/ProcessImpl$CompoundProcess$$anonfun$2 null null
 
   // access flags 0x11
   public final Ljava/lang/Thread; thread$1

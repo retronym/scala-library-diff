@@ -6,12 +6,12 @@ public final class scala/Predef {
   public static INNERCLASS scala/Predef$Pair$ scala/Predef Pair$
   // access flags 0x9
   public static INNERCLASS scala/Predef$Triple$ scala/Predef Triple$
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$3 scala/Predef null
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$1 scala/Predef null
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$2 scala/Predef null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$2 null null
   // access flags 0x19
   public final static INNERCLASS scala/Predef$Ensuring scala/Predef Ensuring
   // access flags 0x9

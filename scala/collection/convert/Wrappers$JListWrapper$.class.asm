@@ -6,8 +6,6 @@ public class scala/collection/convert/Wrappers$JListWrapper$ implements scala/Se
   public INNERCLASS scala/collection/convert/Wrappers$JListWrapper$ scala/collection/convert/Wrappers JListWrapper$
   // access flags 0x1
   public INNERCLASS scala/collection/convert/Wrappers$JListWrapper scala/collection/convert/Wrappers JListWrapper
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/Wrappers$JListWrapper$$anonfun$insertAll$1 null null
 
   // access flags 0x1012
   private final synthetic Lscala/collection/convert/Wrappers; $outer

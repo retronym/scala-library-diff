@@ -6,22 +6,6 @@ public abstract interface scala/collection/Iterator implements scala/collection/
 
   // access flags 0x11
   public final INNERCLASS scala/collection/Iterator$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$2 scala/collection/Iterator null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$5 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$6 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$7 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$8 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$9 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/Iterator$$anon$10 null null
   // access flags 0x11
@@ -50,8 +34,6 @@ public abstract interface scala/collection/Iterator implements scala/collection/
   public final INNERCLASS scala/collection/Iterator$$anon$22 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/Iterator$$anon$23 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$24 null null
   // access flags 0x1
   public INNERCLASS scala/collection/Iterator$Leading$1 null Leading$1
   // access flags 0x1

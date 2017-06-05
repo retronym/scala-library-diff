@@ -4,12 +4,6 @@ public class scala/collection/parallel/immutable/Repetition$ParIterator$ {
 
   // access flags 0x1
   public INNERCLASS scala/collection/parallel/immutable/Repetition$ParIterator$ scala/collection/parallel/immutable/Repetition ParIterator$
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/Repetition$ParIterator$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/Repetition$ParIterator$$anonfun$psplit$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/Repetition$ParIterator$$anonfun$psplit$2 null null
 
   // access flags 0x1012
   private final synthetic Lscala/collection/parallel/immutable/Repetition; $outer

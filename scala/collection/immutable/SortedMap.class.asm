@@ -10,8 +10,6 @@ public abstract interface scala/collection/immutable/SortedMap implements scala/
   public final INNERCLASS scala/collection/immutable/SortedMap$$anon$2 null null
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/immutable/SortedMap$Default scala/collection/immutable/SortedMap Default
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/immutable/SortedMap$Default$class scala/collection/immutable/SortedMap Default$class
   // access flags 0x1
   public INNERCLASS scala/collection/immutable/SortedMap$DefaultKeySortedSet scala/collection/immutable/SortedMap DefaultKeySortedSet
   // access flags 0x11

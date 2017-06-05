@@ -6,20 +6,18 @@ public final class scala/PartialFunction$ {
   public static INNERCLASS scala/PartialFunction$Lifted scala/PartialFunction Lifted
   // access flags 0x9
   public static INNERCLASS scala/PartialFunction$OrElse scala/PartialFunction OrElse
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anon$1 scala/PartialFunction null
+  // access flags 0x11
+  public final INNERCLASS scala/PartialFunction$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS scala/PartialFunction$AndThen scala/PartialFunction AndThen
   // access flags 0x9
   public static INNERCLASS scala/PartialFunction$Unlifted scala/PartialFunction Unlifted
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$1 scala/PartialFunction null
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$2 scala/PartialFunction null
-  // access flags 0x19
-  public final static INNERCLASS scala/PartialFunction$$anonfun$apply$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/PartialFunction$$anonfun$runWith$1 null null
+  public final INNERCLASS scala/PartialFunction$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/PartialFunction$$anonfun$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/PartialFunction$$anonfun$apply$1 null null
 
   // access flags 0x19
   public final static Lscala/PartialFunction$; MODULE$

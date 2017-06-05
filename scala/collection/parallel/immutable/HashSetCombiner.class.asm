@@ -8,8 +8,6 @@ public abstract class scala/collection/parallel/immutable/HashSetCombiner extend
   public static INNERCLASS scala/collection/immutable/HashSet$HashTrieSet scala/collection/immutable/HashSet HashTrieSet
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled scala/collection/mutable/UnrolledBuffer Unrolled
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anonfun$1 null null
   // access flags 0x11

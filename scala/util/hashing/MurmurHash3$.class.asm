@@ -2,16 +2,16 @@
 // access flags 0x31
 public final class scala/util/hashing/MurmurHash3$ extends scala/util/hashing/MurmurHash3  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$5 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/MurmurHash3$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/MurmurHash3$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/MurmurHash3$$anon$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/MurmurHash3$$anon$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/MurmurHash3$$anon$5 null null
   // access flags 0x9
   public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing scala/util/hashing/MurmurHash3 ArrayHashing
   // access flags 0x9
@@ -32,10 +32,6 @@ public final class scala/util/hashing/MurmurHash3$ extends scala/util/hashing/Mu
   public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcS$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcS$sp
   // access flags 0x9
   public static INNERCLASS scala/util/hashing/MurmurHash3$ArrayHashing$mcV$sp scala/util/hashing/MurmurHash3 ArrayHashing$mcV$sp
-  // access flags 0x11
-  public final INNERCLASS scala/util/hashing/MurmurHash3$$anonfun$orderedHash$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/hashing/MurmurHash3$$anonfun$unorderedHash$1 null null
 
   // access flags 0x19
   public final static Lscala/util/hashing/MurmurHash3$; MODULE$

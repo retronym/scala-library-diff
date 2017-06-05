@@ -4,10 +4,6 @@ public final class scala/collection/parallel/immutable/ParRange$ implements scal
 
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Range$Inclusive scala/collection/immutable/Range Inclusive
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/ParRange$ParRangeIterator scala/collection/parallel/immutable/ParRange ParRangeIterator
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/ParRange$ParRangeIterator$ scala/collection/parallel/immutable/ParRange ParRangeIterator$
 
   // access flags 0x19
   public final static Lscala/collection/parallel/immutable/ParRange$; MODULE$

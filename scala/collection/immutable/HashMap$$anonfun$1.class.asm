@@ -4,9 +4,9 @@
 // declaration: scala/collection/immutable/HashMap$$anonfun$1 extends scala.runtime.AbstractFunction2<scala.Tuple2<java.lang.Object, java.lang.Object>, scala.Tuple2<java.lang.Object, java.lang.Object>, scala.Tuple2<java.lang.Object, java.lang.Object>> implements scala.Serializable
 public final class scala/collection/immutable/HashMap$$anonfun$1 extends scala/runtime/AbstractFunction2  implements scala/Serializable  {
 
-  OUTERCLASS scala/collection/immutable/HashMap$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/HashMap$$anonfun$1 scala/collection/immutable/HashMap null
+  OUTERCLASS scala/collection/immutable/HashMap$ null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/HashMap$$anonfun$1 null null
 
   // access flags 0x1
   public <init>()V

@@ -10,8 +10,6 @@ public abstract class scala/collection/parallel/mutable/ParHashSetCombiner exten
   public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils scala/collection/mutable/FlatHashTable HashUtils
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/mutable/ParHashSetCombiner$$anon$1 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/collection/mutable/FlatHashTable$HashUtils$class scala/collection/mutable/FlatHashTable HashUtils$class
   // access flags 0x1

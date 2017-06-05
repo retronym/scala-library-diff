@@ -5,8 +5,8 @@
 public final class scala/reflect/ManifestFactory$$anon$16 implements scala/reflect/Manifest  {
 
   OUTERCLASS scala/reflect/ManifestFactory$ wildcardType (Lscala/reflect/Manifest;Lscala/reflect/Manifest;)Lscala/reflect/Manifest;
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ManifestFactory$$anon$16 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ManifestFactory$$anon$16 null null
 
   // access flags 0x12
   private final Lscala/reflect/Manifest; lowerBound$1

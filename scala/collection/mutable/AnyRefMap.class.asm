@@ -7,13 +7,7 @@ public final class scala/collection/mutable/AnyRefMap extends scala/collection/m
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/AnyRefMap$$anon$1 null null
   // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$$anon$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$1 scala/collection/mutable/AnyRefMap null
-  // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/AnyRefMap$AnyRefMapBuilder scala/collection/mutable/AnyRefMap AnyRefMapBuilder
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$apply$1 null null
 
   // access flags 0x2
   private I _size

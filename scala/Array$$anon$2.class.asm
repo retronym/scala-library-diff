@@ -5,8 +5,8 @@
 public final class scala/Array$$anon$2 implements scala/collection/generic/CanBuildFrom  {
 
   OUTERCLASS scala/Array$ canBuildFrom (Lscala/reflect/ClassTag;)Lscala/collection/generic/CanBuildFrom;
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anon$2 null null
 
   // access flags 0x12
   private final Lscala/reflect/ClassTag; t$1

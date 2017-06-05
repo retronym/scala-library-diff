@@ -5,13 +5,13 @@ public abstract class scala/util/PropertiesTrait$class {
   // access flags 0x1
   public INNERCLASS scala/Option$WithFilter scala/Option WithFilter
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$1 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$2 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$2 null null
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$3 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$3 null null
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$4 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$4 null null
   // access flags 0x11
   public final INNERCLASS scala/util/PropertiesTrait$$anonfun$envOrElse$1 null null
   // access flags 0x11
@@ -20,6 +20,8 @@ public abstract class scala/util/PropertiesTrait$class {
   public final INNERCLASS scala/util/PropertiesTrait$$anonfun$scalaProps$1 null null
   // access flags 0x11
   public final INNERCLASS scala/util/PropertiesTrait$$anonfun$scalaProps$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$scalaPropOrElse$1 null null
 
   // access flags 0x9
   public static $init$(Lscala/util/PropertiesTrait;)V
@@ -716,13 +718,29 @@ public abstract class scala/util/PropertiesTrait$class {
   // access flags 0x9
   public static scalaPropOrElse(Lscala/util/PropertiesTrait;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     ALOAD 0
-    INVOKEINTERFACE scala/util/PropertiesTrait.scalaProps ()Ljava/util/Properties;
     ALOAD 1
+    INVOKEINTERFACE scala/util/PropertiesTrait.scalaPropOrNone (Ljava/lang/String;)Lscala/Option;
+    NEW scala/util/PropertiesTrait$$anonfun$scalaPropOrElse$1
+    DUP
+    ALOAD 0
     ALOAD 2
-    INVOKEVIRTUAL java/util/Properties.getProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    INVOKESPECIAL scala/util/PropertiesTrait$$anonfun$scalaPropOrElse$1.<init> (Lscala/util/PropertiesTrait;Ljava/lang/String;)V
+    ASTORE 3
+    DUP
+    ASTORE 4
+    INVOKEVIRTUAL scala/Option.isEmpty ()Z
+    IFEQ L0
+    ALOAD 3
+    GETFIELD scala/util/PropertiesTrait$$anonfun$scalaPropOrElse$1.alt$3 : Ljava/lang/String;
+    GOTO L1
+   L0
+    ALOAD 4
+    INVOKEVIRTUAL scala/Option.get ()Ljava/lang/Object;
+   L1
+    CHECKCAST java/lang/String
     ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 3
+    MAXSTACK = 5
+    MAXLOCALS = 5
 
   // access flags 0x9
   public static scalaPropOrEmpty(Lscala/util/PropertiesTrait;Ljava/lang/String;)Ljava/lang/String;
@@ -742,9 +760,28 @@ public abstract class scala/util/PropertiesTrait$class {
     ALOAD 1
     INVOKEVIRTUAL java/util/Properties.getProperty (Ljava/lang/String;)Ljava/lang/String;
     INVOKEVIRTUAL scala/Option$.apply (Ljava/lang/Object;)Lscala/Option;
+    DUP
+    ASTORE 2
+    INVOKEVIRTUAL scala/Option.isEmpty ()Z
+    IFEQ L0
+    ALOAD 0
+    NEW scala/collection/mutable/StringBuilder
+    DUP
+    INVOKESPECIAL scala/collection/mutable/StringBuilder.<init> ()V
+    LDC "scala."
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+    ALOAD 1
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.toString ()Ljava/lang/String;
+    INVOKEINTERFACE scala/util/PropertiesTrait.propOrNone (Ljava/lang/String;)Lscala/Option;
+    CHECKCAST scala/Option
+    GOTO L1
+   L0
+    ALOAD 2
+   L1
     ARETURN
     MAXSTACK = 3
-    MAXLOCALS = 2
+    MAXLOCALS = 3
 
   // access flags 0x9
   public static scalaProps(Lscala/util/PropertiesTrait;)Ljava/util/Properties;

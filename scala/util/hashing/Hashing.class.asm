@@ -6,8 +6,6 @@ public abstract interface scala/util/hashing/Hashing implements scala/Serializab
 
   // access flags 0x19
   public final static INNERCLASS scala/util/hashing/Hashing$Default scala/util/hashing/Hashing Default
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/Hashing$$anon$1 null null
 
   // access flags 0x401
   // signature (TT;)I

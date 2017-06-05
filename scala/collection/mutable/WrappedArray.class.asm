@@ -21,8 +21,6 @@ public abstract class scala/collection/mutable/WrappedArray extends scala/collec
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofFloat scala/collection/mutable/WrappedArray ofFloat
   // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/WrappedArray$$anon$1 null null
-  // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofDouble scala/collection/mutable/WrappedArray ofDouble
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofBoolean scala/collection/mutable/WrappedArray ofBoolean

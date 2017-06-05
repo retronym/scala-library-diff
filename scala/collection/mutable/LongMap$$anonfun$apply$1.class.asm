@@ -5,8 +5,8 @@
 public final class scala/collection/mutable/LongMap$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/mutable/LongMap$ apply (Lscala/collection/Seq;)Lscala/collection/mutable/LongMap;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/LongMap$$anonfun$apply$1 null null
 
   // access flags 0x12
   private final Lscala/collection/mutable/LongMap; lm$1

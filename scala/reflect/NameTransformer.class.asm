@@ -4,10 +4,10 @@ public final class scala/reflect/NameTransformer {
 
   // access flags 0x9
   public static INNERCLASS scala/reflect/NameTransformer$OpCodes scala/reflect/NameTransformer OpCodes
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/NameTransformer$$anonfun$1 scala/reflect/NameTransformer null
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/NameTransformer$$anonfun$2 scala/reflect/NameTransformer null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/NameTransformer$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/NameTransformer$$anonfun$2 null null
 
   // access flags 0x9
   public static LOCAL_SUFFIX_STRING()Ljava/lang/String;

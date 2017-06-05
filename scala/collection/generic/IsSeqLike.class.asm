@@ -4,10 +4,6 @@
 // declaration: scala/collection/generic/IsSeqLike<Repr>
 public abstract interface scala/collection/generic/IsSeqLike {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsSeqLike$$anon$1 scala/collection/generic/IsSeqLike null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsSeqLike$$anon$2 null null
 
   // access flags 0x401
   // signature ()Lscala/Function1<TRepr;Lscala/collection/SeqLike<Ljava/lang/Object;TRepr;>;>;

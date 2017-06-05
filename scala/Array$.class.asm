@@ -2,56 +2,56 @@
 // access flags 0x31
 public final class scala/Array$ extends scala/FallbackArrayBuilding  implements scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anon$2 null null
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$IntIsIntegral$ scala/math/Numeric IntIsIntegral$
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$fill$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$5 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$6 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$7 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$8 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$9 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$ofDim$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$ofDim$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$ofDim$4 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$apply$10 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$concat$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$concat$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Array$$anonfun$tabulate$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$fill$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$fill$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$fill$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$fill$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$5 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$6 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$7 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$8 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$9 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$ofDim$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$ofDim$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$ofDim$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$apply$10 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$concat$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$concat$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$tabulate$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$tabulate$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$tabulate$3 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Array$$anonfun$tabulate$4 null null
 
   // access flags 0x19
   public final static Lscala/Array$; MODULE$

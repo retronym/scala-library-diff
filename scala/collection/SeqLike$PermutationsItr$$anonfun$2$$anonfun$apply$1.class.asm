@@ -6,7 +6,7 @@ public final class scala/collection/SeqLike$PermutationsItr$$anonfun$2$$anonfun$
   // access flags 0x1
   public INNERCLASS scala/collection/SeqLike$PermutationsItr scala/collection/SeqLike PermutationsItr
   // access flags 0x11
-  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2 scala/collection/SeqLike$PermutationsItr null
+  public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/SeqLike$PermutationsItr$$anonfun$2$$anonfun$apply$1 null null
 

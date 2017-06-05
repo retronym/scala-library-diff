@@ -2,10 +2,8 @@
 // access flags 0x31
 public final class scala/io/Codec$ implements scala/io/LowPriorityCodecImplicits  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/io/Codec$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/io/Codec$$anonfun$1 scala/io/Codec null
+  public final INNERCLASS scala/io/Codec$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/io/Codec; ISO8859

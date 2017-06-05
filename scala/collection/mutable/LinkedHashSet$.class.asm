@@ -6,12 +6,6 @@ public final class scala/collection/mutable/LinkedHashSet$ extends scala/collect
 
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/LinkedHashSet$Entry scala/collection/mutable/LinkedHashSet Entry
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashSet$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashSet$$anonfun$readObject$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LinkedHashSet$$anonfun$writeObject$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/LinkedHashSet$; MODULE$

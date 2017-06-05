@@ -6,7 +6,7 @@ public final class scala/beans/ScalaBeanInfo$$anonfun$1$$anonfun$apply$1 extends
 
   OUTERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 apply (Ljava/lang/reflect/Method;)Z
   // access flags 0x11
-  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 scala/beans/ScalaBeanInfo null
+  public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1 null null
   // access flags 0x11
   public final INNERCLASS scala/beans/ScalaBeanInfo$$anonfun$1$$anonfun$apply$1 null null
 

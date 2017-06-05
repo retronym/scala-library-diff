@@ -8,12 +8,8 @@ public abstract interface scala/sys/process/ProcessBuilder implements scala/sys/
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source scala/sys/process/ProcessBuilder Source
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$URLBuilder scala/sys/process/ProcessBuilder URLBuilder
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Sink$class scala/sys/process/ProcessBuilder Sink$class
   // access flags 0x609
   public static abstract INNERCLASS scala/sys/process/ProcessBuilder$FileBuilder scala/sys/process/ProcessBuilder FileBuilder
-  // access flags 0x409
-  public static abstract INNERCLASS scala/sys/process/ProcessBuilder$Source$class scala/sys/process/ProcessBuilder Source$class
 
   // access flags 0x401
   public abstract $bang()I

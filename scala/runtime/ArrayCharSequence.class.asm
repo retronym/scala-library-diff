@@ -127,27 +127,41 @@ public final class scala/runtime/ArrayCharSequence implements java/lang/CharSequ
 
   // access flags 0x1
   public toString()Ljava/lang/String;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ALOAD 0
-    INVOKEVIRTUAL scala/runtime/ArrayCharSequence.xs ()[C
-    INVOKEVIRTUAL scala/Predef$.charArrayOps ([C)Lscala/collection/mutable/ArrayOps;
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ALOAD 0
     GETFIELD scala/runtime/ArrayCharSequence.start : I
-    INVOKEINTERFACE scala/collection/mutable/ArrayOps.drop (I)Ljava/lang/Object;
-    CHECKCAST [C
-    INVOKEVIRTUAL scala/Predef$.charArrayOps ([C)Lscala/collection/mutable/ArrayOps;
+    ICONST_0
+    INVOKEVIRTUAL scala/math/package$.max (II)I
+    ISTORE 1
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
+    ALOAD 0
+    INVOKEVIRTUAL scala/runtime/ArrayCharSequence.xs ()[C
+    ARRAYLENGTH
+    ILOAD 1
     ALOAD 0
     INVOKEVIRTUAL scala/runtime/ArrayCharSequence.length ()I
-    INVOKEINTERFACE scala/collection/mutable/ArrayOps.take (I)Ljava/lang/Object;
-    CHECKCAST [C
-    INVOKEVIRTUAL scala/Predef$.charArrayOps ([C)Lscala/collection/mutable/ArrayOps;
+    IADD
+    INVOKEVIRTUAL scala/math/package$.min (II)I
+    ISTORE 2
+    ILOAD 1
+    ILOAD 2
+    IF_ICMPLT L0
     LDC ""
-    INVOKEINTERFACE scala/collection/mutable/ArrayOps.mkString (Ljava/lang/String;)Ljava/lang/String;
+    GOTO L1
+   L0
+    NEW java/lang/String
+    DUP
+    ALOAD 0
+    INVOKEVIRTUAL scala/runtime/ArrayCharSequence.xs ()[C
+    ILOAD 1
+    ILOAD 2
+    ILOAD 1
+    ISUB
+    INVOKESPECIAL java/lang/String.<init> ([CII)V
+   L1
     ARETURN
-    MAXSTACK = 4
-    MAXLOCALS = 1
+    MAXSTACK = 6
+    MAXLOCALS = 3
 
   // access flags 0x1
   public xs()[C

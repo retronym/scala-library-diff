@@ -5,8 +5,6 @@
 public final class scala/collection/parallel/immutable/ParHashMap$ extends scala/collection/generic/ParMapFactory  implements scala/Serializable  {
 
   // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/ParHashMap$ParHashMapIterator scala/collection/parallel/immutable/ParHashMap ParHashMapIterator
-  // access flags 0x1
   public INNERCLASS scala/collection/generic/ParMapFactory$CanCombineFromMap scala/collection/generic/ParMapFactory CanCombineFromMap
 
   // access flags 0x19

@@ -7,11 +7,11 @@ public final class scala/collection/immutable/Stream$$anonfun$range$1 extends sc
   OUTERCLASS scala/collection/immutable/Stream$ range (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Lscala/math/Integral;)Lscala/collection/immutable/Stream;
   // access flags 0x1
   public INNERCLASS scala/math/Integral$IntegralOps scala/math/Integral IntegralOps
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$range$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$range$1 null null
 
   // access flags 0x12
-  private final Ljava/lang/Object; end$2
+  private final Ljava/lang/Object; end$1
 
   // access flags 0x12
   private final Lscala/math/Integral; evidence$1$1
@@ -32,7 +32,7 @@ public final class scala/collection/immutable/Stream$$anonfun$range$1 extends sc
     PUTFIELD scala/collection/immutable/Stream$$anonfun$range$1.start$3 : Ljava/lang/Object;
     ALOAD 0
     ALOAD 2
-    PUTFIELD scala/collection/immutable/Stream$$anonfun$range$1.end$2 : Ljava/lang/Object;
+    PUTFIELD scala/collection/immutable/Stream$$anonfun$range$1.end$1 : Ljava/lang/Object;
     ALOAD 0
     ALOAD 3
     PUTFIELD scala/collection/immutable/Stream$$anonfun$range$1.step$2 : Ljava/lang/Object;
@@ -62,7 +62,7 @@ public final class scala/collection/immutable/Stream$$anonfun$range$1 extends sc
     GETFIELD scala/collection/immutable/Stream$$anonfun$range$1.step$2 : Ljava/lang/Object;
     INVOKEVIRTUAL scala/math/Integral$IntegralOps.$plus (Ljava/lang/Object;)Ljava/lang/Object;
     ALOAD 0
-    GETFIELD scala/collection/immutable/Stream$$anonfun$range$1.end$2 : Ljava/lang/Object;
+    GETFIELD scala/collection/immutable/Stream$$anonfun$range$1.end$1 : Ljava/lang/Object;
     ALOAD 0
     GETFIELD scala/collection/immutable/Stream$$anonfun$range$1.step$2 : Ljava/lang/Object;
     ALOAD 0

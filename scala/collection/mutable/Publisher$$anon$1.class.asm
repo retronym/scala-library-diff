@@ -4,8 +4,9 @@
 // declaration: scala/collection/mutable/Publisher$$anon$1 extends scala.collection.mutable.HashMap<scala.collection.mutable.Subscriber<Evt, scala.collection.mutable.Publisher>, scala.collection.mutable.Set<scala.Function1<Evt, java.lang.Object>>> implements scala.collection.mutable.MultiMap<scala.collection.mutable.Subscriber<Evt, scala.collection.mutable.Publisher>, scala.Function1<Evt, java.lang.Object>>
 public final class scala/collection/mutable/Publisher$$anon$1 extends scala/collection/mutable/HashMap  implements scala/collection/mutable/MultiMap  {
 
+  OUTERCLASS scala/collection/mutable/Publisher null
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/Publisher$$anon$1 scala/collection/mutable/Publisher null
+  public final INNERCLASS scala/collection/mutable/Publisher$$anon$1 null null
 
   // access flags 0x1
   // signature (Lscala/collection/mutable/Publisher$class;)V

@@ -120,7 +120,7 @@ public class scala/collection/parallel/immutable/LazyParVectorCombiner implement
 
   // access flags 0x1
   public _combinerTaskSupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/immutable/LazyParVectorCombiner._combinerTaskSupport : Lscala/collection/parallel/TaskSupport;

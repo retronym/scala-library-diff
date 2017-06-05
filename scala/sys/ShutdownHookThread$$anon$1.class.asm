@@ -3,8 +3,8 @@
 public final class scala/sys/ShutdownHookThread$$anon$1 extends scala/sys/ShutdownHookThread  {
 
   OUTERCLASS scala/sys/ShutdownHookThread$ apply (Lscala/Function0;)Lscala/sys/ShutdownHookThread;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/ShutdownHookThread$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/ShutdownHookThread$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/Function0; body$1

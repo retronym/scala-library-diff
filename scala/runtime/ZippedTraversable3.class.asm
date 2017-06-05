@@ -4,8 +4,6 @@
 // declaration: scala/runtime/ZippedTraversable3<El1, El2, El3>
 public abstract interface scala/runtime/ZippedTraversable3 {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ZippedTraversable3$$anon$1 null null
 
   // access flags 0x401
   // signature <U:Ljava/lang/Object;>(Lscala/Function3<TEl1;TEl2;TEl3;TU;>;)V

@@ -5,8 +5,8 @@
 public final class scala/concurrent/Await$$anonfun$ready$1 extends scala/runtime/AbstractFunction0  implements scala/Serializable  {
 
   OUTERCLASS scala/concurrent/Await$ ready (Lscala/concurrent/Awaitable;Lscala/concurrent/duration/Duration;)Lscala/concurrent/Awaitable;
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Await$$anonfun$ready$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/Await$$anonfun$ready$1 null null
 
   // access flags 0x12
   private final Lscala/concurrent/duration/Duration; atMost$2

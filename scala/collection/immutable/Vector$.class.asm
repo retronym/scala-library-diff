@@ -4,10 +4,6 @@
 // declaration: scala/collection/immutable/Vector$ extends scala.collection.generic.IndexedSeqFactory<scala.collection.immutable.Vector> implements scala.Serializable
 public final class scala/collection/immutable/Vector$ extends scala/collection/generic/IndexedSeqFactory  implements scala/Serializable  {
 
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Vector$$anon$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Vector$$anonfun$$plus$plus$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

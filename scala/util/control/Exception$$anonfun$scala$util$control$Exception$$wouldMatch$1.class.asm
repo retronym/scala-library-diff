@@ -5,8 +5,8 @@
 public final class scala/util/control/Exception$$anonfun$scala$util$control$Exception$$wouldMatch$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/util/control/Exception$ scala$util$control$Exception$$wouldMatch (Ljava/lang/Throwable;Lscala/collection/Seq;)Z
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anonfun$scala$util$control$Exception$$wouldMatch$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anonfun$scala$util$control$Exception$$wouldMatch$1 null null
 
   // access flags 0x12
   private final Ljava/lang/Throwable; x$15

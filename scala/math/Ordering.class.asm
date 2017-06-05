@@ -32,28 +32,6 @@ public abstract interface scala/math/Ordering implements java/util/Comparator sc
   public final INNERCLASS scala/math/Ordering$$anon$5 null null
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$Boolean$ scala/math/Ordering Boolean$
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$9 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$10 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$11 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$12 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$13 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$14 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$15 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$16 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$17 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$18 null null
   // access flags 0x9
   public static INNERCLASS scala/math/Ordering$Implicits$ scala/math/Ordering Implicits$
   // access flags 0x9
@@ -72,8 +50,6 @@ public abstract interface scala/math/Ordering implements java/util/Comparator sc
   public static abstract INNERCLASS scala/math/Ordering$ShortOrdering scala/math/Ordering ShortOrdering
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$FloatOrdering scala/math/Ordering FloatOrdering
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anonfun$by$1 null null
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits scala/math/Ordering ExtraImplicits
   // access flags 0x609
@@ -86,36 +62,8 @@ public abstract interface scala/math/Ordering implements java/util/Comparator sc
   public static abstract INNERCLASS scala/math/Ordering$OptionOrdering scala/math/Ordering OptionOrdering
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering scala/math/Ordering BooleanOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$IntOrdering$class scala/math/Ordering IntOrdering$class
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering scala/math/Ordering BigDecimalOrdering
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ByteOrdering$class scala/math/Ordering ByteOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$CharOrdering$class scala/math/Ordering CharOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$LongOrdering$class scala/math/Ordering LongOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$UnitOrdering$class scala/math/Ordering UnitOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ShortOrdering$class scala/math/Ordering ShortOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$FloatOrdering$class scala/math/Ordering FloatOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$StringOrdering$class scala/math/Ordering StringOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigIntOrdering$class scala/math/Ordering BigIntOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$DoubleOrdering$class scala/math/Ordering DoubleOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$ExtraImplicits$class scala/math/Ordering ExtraImplicits$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$OptionOrdering$class scala/math/Ordering OptionOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BooleanOrdering$class scala/math/Ordering BooleanOrdering$class
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Ordering$BigDecimalOrdering$class scala/math/Ordering BigDecimalOrdering$class
 
   // access flags 0x401
   // signature (TT;TT;)I

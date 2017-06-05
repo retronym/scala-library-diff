@@ -5,8 +5,8 @@
 public final class scala/concurrent/Future$$anonfun$fold$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/concurrent/Future$ fold (Lscala/collection/TraversableOnce;Ljava/lang/Object;Lscala/Function2;Lscala/concurrent/ExecutionContext;)Lscala/concurrent/Future;
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$fold$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/Future$$anonfun$fold$1 null null
 
   // access flags 0x12
   private final Lscala/Function2; op$1

@@ -5,8 +5,8 @@
 public final class scala/concurrent/Future$$anonfun$reduce$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/concurrent/Future$ reduce (Lscala/collection/TraversableOnce;Lscala/Function2;Lscala/concurrent/ExecutionContext;)Lscala/concurrent/Future;
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/Future$$anonfun$reduce$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/Future$$anonfun$reduce$1 null null
 
   // access flags 0x12
   private final Lscala/Function2; op$2

@@ -12,12 +12,12 @@ public class scala/collection/immutable/Range$Double$ {
   public static INNERCLASS scala/collection/immutable/NumericRange$Inclusive scala/collection/immutable/NumericRange Inclusive
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$DoubleAsIfIntegral$ scala/math/Numeric DoubleAsIfIntegral$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Range$Double$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Range$Double$$anonfun$apply$1 null null
   // access flags 0x9
   public static INNERCLASS scala/math/Numeric$BigDecimalAsIfIntegral$ scala/math/Numeric BigDecimalAsIfIntegral$
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Range$Double$$anonfun$inclusive$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Range$Double$$anonfun$inclusive$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/immutable/Range$Double$; MODULE$

@@ -6,14 +6,6 @@ public final class scala/sys/process/BasicIO$Streamed {
 
   // access flags 0x19
   public final static INNERCLASS scala/sys/process/BasicIO$Streamed scala/sys/process/BasicIO Streamed
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$apply$3 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$Streamed$$anonfun$scala$sys$process$BasicIO$Streamed$$next$1$1 null null
 
   // access flags 0x12
   // signature Lscala/Function1<Ljava/lang/Object;Lscala/runtime/BoxedUnit;>;

@@ -6,10 +6,6 @@ public class scala/util/matching/Regex$Match$ {
   public static INNERCLASS scala/util/matching/Regex$Match$ scala/util/matching/Regex Match$
   // access flags 0x9
   public static INNERCLASS scala/util/matching/Regex$Match scala/util/matching/Regex Match
-  // access flags 0x11
-  public final INNERCLASS scala/util/matching/Regex$Match$$anonfun$ends$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/util/matching/Regex$Match$$anonfun$starts$1 null null
 
   // access flags 0x19
   public final static Lscala/util/matching/Regex$Match$; MODULE$

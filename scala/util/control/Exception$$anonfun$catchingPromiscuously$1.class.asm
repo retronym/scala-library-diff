@@ -7,8 +7,8 @@ public final class scala/util/control/Exception$$anonfun$catchingPromiscuously$1
   OUTERCLASS scala/util/control/Exception$ catchingPromiscuously (Lscala/PartialFunction;)Lscala/util/control/Exception$Catch;
   // access flags 0x9
   public static INNERCLASS scala/util/control/Exception$Catch scala/util/control/Exception Catch
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anonfun$catchingPromiscuously$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anonfun$catchingPromiscuously$1 null null
 
   // access flags 0x1
   public <init>()V

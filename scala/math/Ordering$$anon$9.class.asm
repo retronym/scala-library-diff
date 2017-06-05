@@ -7,8 +7,8 @@ public final class scala/math/Ordering$$anon$9 implements scala/math/Ordering  {
   OUTERCLASS scala/math/Ordering$ fromLessThan (Lscala/Function2;)Lscala/math/Ordering;
   // access flags 0x1
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$9 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$9 null null
 
   // access flags 0x12
   private final Lscala/Function2; cmp$1

@@ -5,8 +5,8 @@
 public final class scala/math/Equiv$$anonfun$by$1 extends scala/runtime/AbstractFunction2  implements scala/Serializable  {
 
   OUTERCLASS scala/math/Equiv$ by (Lscala/Function1;Lscala/math/Equiv;)Lscala/math/Equiv;
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Equiv$$anonfun$by$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Equiv$$anonfun$by$1 null null
 
   // access flags 0x12
   private final Lscala/math/Equiv; evidence$1$1

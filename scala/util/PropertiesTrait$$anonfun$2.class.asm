@@ -4,8 +4,9 @@
 // declaration: scala/util/PropertiesTrait$$anonfun$2 extends scala.runtime.AbstractFunction1<java.lang.String, java.lang.String> implements scala.Serializable
 public final class scala/util/PropertiesTrait$$anonfun$2 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
+  OUTERCLASS scala/util/PropertiesTrait null
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$2 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$2 null null
 
   // access flags 0x1
   public <init>(Lscala/util/PropertiesTrait;)V

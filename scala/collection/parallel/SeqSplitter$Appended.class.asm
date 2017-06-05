@@ -31,11 +31,11 @@ public class scala/collection/parallel/SeqSplitter$Appended extends scala/collec
   // access flags 0x11
   public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$7 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$8 scala/collection/parallel/SeqSplitter$Appended null
+  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$8 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$9 scala/collection/parallel/SeqSplitter$Appended null
+  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$9 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$10 scala/collection/parallel/SeqSplitter$Appended null
+  public final INNERCLASS scala/collection/parallel/SeqSplitter$Appended$$anonfun$10 null null
 
   // access flags 0x1
   // signature (Lscala/collection/parallel/SeqSplitter<TT;>;TPI;)V

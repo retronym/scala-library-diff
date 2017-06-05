@@ -5,8 +5,8 @@ public final class scala/sys/process/ProcessImpl$Spawn$$anon$1 extends java/lang
   OUTERCLASS scala/sys/process/ProcessImpl$Spawn$ apply (Lscala/Function0;Z)Ljava/lang/Thread;
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessImpl$Spawn$ scala/sys/process/ProcessImpl Spawn$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/Function0; f$1

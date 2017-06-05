@@ -5,8 +5,8 @@
 public final class scala/util/control/Exception$$anon$1 implements scala/PartialFunction  {
 
   OUTERCLASS scala/util/control/Exception$ mkCatcher (Lscala/Function1;Lscala/Function1;Lscala/reflect/ClassTag;)Lscala/PartialFunction;
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/reflect/ClassTag; evidence$1$1

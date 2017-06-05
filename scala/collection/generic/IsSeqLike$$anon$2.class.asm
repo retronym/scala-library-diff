@@ -5,8 +5,8 @@
 public final class scala/collection/generic/IsSeqLike$$anon$2 implements scala/collection/generic/IsSeqLike  {
 
   OUTERCLASS scala/collection/generic/IsSeqLike$ seqLikeRepr (Lscala/Function1;)Lscala/collection/generic/IsSeqLike;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/generic/IsSeqLike$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/generic/IsSeqLike$$anon$2 null null
 
   // access flags 0x12
   // signature Lscala/Function1<TC;Lscala/collection/SeqLike<TA0;TC;>;>;

@@ -11,8 +11,8 @@ public final class scala/Enumeration$ValueSet$$anon$1 implements scala/collectio
   public INNERCLASS scala/Enumeration$ValueSet$ scala/Enumeration ValueSet$
   // access flags 0x1
   public INNERCLASS scala/Enumeration$ValueSet scala/Enumeration ValueSet
-  // access flags 0x19
-  public final static INNERCLASS scala/Enumeration$ValueSet$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/Enumeration$ValueSet$$anon$1 null null
 
   // access flags 0x1012
   private final synthetic Lscala/Enumeration$ValueSet$; $outer

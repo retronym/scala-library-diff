@@ -2,14 +2,10 @@
 // access flags 0x31
 public final class scala/concurrent/impl/ExecutionContextImpl$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$3 scala/concurrent/impl/ExecutionContextImpl null
+  public final INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$1 null null
   // access flags 0x19
   public final static INNERCLASS scala/concurrent/impl/ExecutionContextImpl$AdaptedForkJoinTask scala/concurrent/impl/ExecutionContextImpl AdaptedForkJoinTask
-  // access flags 0x1
-  public INNERCLASS scala/concurrent/impl/ExecutionContextImpl$DefaultThreadFactory scala/concurrent/impl/ExecutionContextImpl DefaultThreadFactory
 
   // access flags 0x19
   public final static Lscala/concurrent/impl/ExecutionContextImpl$; MODULE$

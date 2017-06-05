@@ -4,13 +4,13 @@
 // declaration: scala/reflect/ManifestFactory$$anon$14 extends scala.reflect.AnyValManifest<scala.runtime.BoxedUnit>
 public final class scala/reflect/ManifestFactory$$anon$14 extends scala/reflect/AnyValManifest  {
 
-  OUTERCLASS scala/reflect/ManifestFactory$ <init> ()V
+  OUTERCLASS scala/reflect/ManifestFactory$ null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/WrappedArray$ofUnit scala/collection/mutable/WrappedArray ofUnit
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/ArrayBuilder$ofUnit scala/collection/mutable/ArrayBuilder ofUnit
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ManifestFactory$$anon$14 scala/reflect/ManifestFactory null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ManifestFactory$$anon$14 null null
 
   // access flags 0x1
   public <init>()V

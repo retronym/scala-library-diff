@@ -2,9 +2,9 @@
 // access flags 0x31
 public final class scala/concurrent/duration/Duration$$anon$3 extends scala/concurrent/duration/Duration$Infinite  {
 
-  OUTERCLASS scala/concurrent/duration/Duration$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/duration/Duration$$anon$3 scala/concurrent/duration/Duration null
+  OUTERCLASS scala/concurrent/duration/Duration$ null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/duration/Duration$$anon$3 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/concurrent/duration/Duration$Infinite scala/concurrent/duration/Duration Infinite
 

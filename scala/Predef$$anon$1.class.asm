@@ -4,9 +4,9 @@
 // declaration: scala/Predef$$anon$1 extends scala.Predef$$less$colon$less<java.lang.Object, java.lang.Object>
 public final class scala/Predef$$anon$1 extends scala/Predef$$less$colon$less  {
 
-  OUTERCLASS scala/Predef$ <init> ()V
-  // access flags 0x19
-  public final static INNERCLASS scala/Predef$$anon$1 scala/Predef null
+  OUTERCLASS scala/Predef$ null
+  // access flags 0x11
+  public final INNERCLASS scala/Predef$$anon$1 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/Predef$$less$colon$less scala/Predef $less$colon$less
 

@@ -2,8 +2,6 @@
 // access flags 0x21
 public class scala/sys/ShutdownHookThread extends java/lang/Thread  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/ShutdownHookThread$$anon$1 null null
 
   // access flags 0x1
   public <init>(Ljava/lang/String;)V

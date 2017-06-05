@@ -5,8 +5,8 @@
 public final class scala/collection/mutable/DoubleLinkedList$$anon$1 implements scala/collection/mutable/Builder  {
 
   OUTERCLASS scala/collection/mutable/DoubleLinkedList$ newBuilder ()Lscala/collection/mutable/Builder;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/DoubleLinkedList$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/DoubleLinkedList$$anon$1 null null
 
   // access flags 0x2
   // signature Lscala/collection/mutable/DoubleLinkedList<TA;>;

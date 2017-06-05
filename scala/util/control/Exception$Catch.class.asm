@@ -26,8 +26,6 @@ public class scala/util/control/Exception$Catch implements scala/util/control/Ex
   public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$toOption$1 null null
   // access flags 0x11
   public final INNERCLASS scala/util/control/Exception$Catch$$anonfun$toEither$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$Catch$$anonfun$$lessinit$greater$default$3$1 null null
 
   // access flags 0x12
   // signature Lscala/Option<Lscala/util/control/Exception$Finally;>;
@@ -349,7 +347,7 @@ public class scala/util/control/Exception$Catch implements scala/util/control/Ex
 
   // access flags 0x1
   public scala$util$control$Exception$Described$$_desc_$eq(Ljava/lang/String;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/util/control/Exception$Catch.scala$util$control$Exception$Described$$_desc : Ljava/lang/String;

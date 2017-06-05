@@ -5,8 +5,8 @@
 public final class scala/reflect/ClassManifestFactory$$anon$1 implements scala/reflect/ClassTag  {
 
   OUTERCLASS scala/reflect/ClassManifestFactory$ abstractType (Lscala/reflect/OptManifest;Ljava/lang/String;Ljava/lang/Class;Lscala/collection/Seq;)Lscala/reflect/ClassTag;
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ClassManifestFactory$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ClassManifestFactory$$anon$1 null null
 
   // access flags 0x12
   private final Ljava/lang/Class; clazz$1

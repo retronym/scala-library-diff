@@ -2,8 +2,8 @@
 // access flags 0x31
 public final class scala/math/Ordered$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordered$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordered$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/math/Ordered$; MODULE$

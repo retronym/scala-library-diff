@@ -3,13 +3,13 @@
 public abstract interface scala/util/PropertiesTrait {
 
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$1 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$2 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$2 null null
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$3 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$3 null null
   // access flags 0x11
-  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$4 scala/util/PropertiesTrait null
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$4 null null
   // access flags 0x11
   public final INNERCLASS scala/util/PropertiesTrait$$anonfun$envOrElse$1 null null
   // access flags 0x11
@@ -18,6 +18,8 @@ public abstract interface scala/util/PropertiesTrait {
   public final INNERCLASS scala/util/PropertiesTrait$$anonfun$scalaProps$1 null null
   // access flags 0x11
   public final INNERCLASS scala/util/PropertiesTrait$$anonfun$scalaProps$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/PropertiesTrait$$anonfun$scalaPropOrElse$1 null null
 
   // access flags 0x401
   public abstract clearProp(Ljava/lang/String;)Ljava/lang/String;

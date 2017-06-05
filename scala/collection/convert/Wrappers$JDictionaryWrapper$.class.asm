@@ -6,8 +6,6 @@ public class scala/collection/convert/Wrappers$JDictionaryWrapper$ implements sc
   public INNERCLASS scala/collection/convert/Wrappers$JDictionaryWrapper$ scala/collection/convert/Wrappers JDictionaryWrapper$
   // access flags 0x1
   public INNERCLASS scala/collection/convert/Wrappers$JDictionaryWrapper scala/collection/convert/Wrappers JDictionaryWrapper
-  // access flags 0x11
-  public final INNERCLASS scala/collection/convert/Wrappers$JDictionaryWrapper$$anonfun$iterator$1 null null
 
   // access flags 0x1012
   private final synthetic Lscala/collection/convert/Wrappers; $outer

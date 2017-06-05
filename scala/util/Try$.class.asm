@@ -2,8 +2,6 @@
 // access flags 0x31
 public final class scala/util/Try$ {
 
-  // access flags 0x1
-  public INNERCLASS scala/util/Try$WithFilter scala/util/Try WithFilter
 
   // access flags 0x19
   public final static Lscala/util/Try$; MODULE$

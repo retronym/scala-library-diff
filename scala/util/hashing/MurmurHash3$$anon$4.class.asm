@@ -5,8 +5,8 @@
 public final class scala/util/hashing/MurmurHash3$$anon$4 implements scala/util/hashing/Hashing  {
 
   OUTERCLASS scala/util/hashing/MurmurHash3$ stringHashing ()Lscala/util/hashing/Hashing;
-  // access flags 0x19
-  public final static INNERCLASS scala/util/hashing/MurmurHash3$$anon$4 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/hashing/MurmurHash3$$anon$4 null null
 
   // access flags 0x1
   public <init>()V

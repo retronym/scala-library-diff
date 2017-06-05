@@ -4,9 +4,9 @@
 // declaration: scala/io/Codec$$anonfun$1 extends scala.runtime.AbstractFunction1<java.nio.charset.CharacterCodingException, scala.runtime.Nothing$> implements scala.Serializable
 public final class scala/io/Codec$$anonfun$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
-  OUTERCLASS scala/io/Codec <init> (Ljava/nio/charset/Charset;)V
+  OUTERCLASS scala/io/Codec null
   // access flags 0x11
-  public final INNERCLASS scala/io/Codec$$anonfun$1 scala/io/Codec null
+  public final INNERCLASS scala/io/Codec$$anonfun$1 null null
 
   // access flags 0x1
   public <init>(Lscala/io/Codec;)V

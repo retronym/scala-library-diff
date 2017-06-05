@@ -5,8 +5,8 @@
 public final class scala/runtime/Tuple2Zipped$$anonfun$flatMap$extension$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/runtime/Tuple2Zipped$ flatMap$extension (Lscala/Tuple2;Lscala/Function2;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$flatMap$extension$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/Tuple2Zipped$$anonfun$flatMap$extension$1 null null
 
   // access flags 0x12
   private final Lscala/collection/mutable/Builder; b$2

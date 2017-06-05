@@ -4,8 +4,8 @@ public class scala/sys/process/ProcessImpl$Spawn$ {
 
   // access flags 0x1
   public INNERCLASS scala/sys/process/ProcessImpl$Spawn$ scala/sys/process/ProcessImpl Spawn$
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/ProcessImpl$Spawn$$anon$1 null null
 
   // access flags 0x1
   public <init>(Lscala/sys/process/Process$;)V

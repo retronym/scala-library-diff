@@ -2,8 +2,8 @@
 // access flags 0x31
 public final class scala/runtime/ZippedTraversable2$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/runtime/ZippedTraversable2$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/runtime/ZippedTraversable2$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/runtime/ZippedTraversable2$; MODULE$

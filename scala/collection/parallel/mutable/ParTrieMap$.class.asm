@@ -5,8 +5,6 @@
 public final class scala/collection/parallel/mutable/ParTrieMap$ extends scala/collection/generic/ParMapFactory  implements scala/Serializable  {
 
   // access flags 0x1
-  public INNERCLASS scala/collection/parallel/mutable/ParTrieMap$Size scala/collection/parallel/mutable/ParTrieMap Size
-  // access flags 0x1
   public INNERCLASS scala/collection/generic/ParMapFactory$CanCombineFromMap scala/collection/generic/ParMapFactory CanCombineFromMap
 
   // access flags 0x19

@@ -2,16 +2,8 @@
 // access flags 0x31
 public final class scala/collection/parallel/immutable/HashSetCombiner$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anon$1 null null
-  // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$CreateTrie scala/collection/parallel/immutable/HashSetCombiner CreateTrie
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anonfun$1 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anonfun$2 null null
-  // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anonfun$3 null null
+  public final INNERCLASS scala/collection/parallel/immutable/HashSetCombiner$$anon$1 null null
 
   // access flags 0x19
   public final static Lscala/collection/parallel/immutable/HashSetCombiner$; MODULE$

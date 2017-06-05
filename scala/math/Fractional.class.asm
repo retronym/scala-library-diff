@@ -10,8 +10,6 @@ public abstract interface scala/math/Fractional implements scala/math/Numeric  {
   public INNERCLASS scala/math/Fractional$FractionalOps scala/math/Fractional FractionalOps
   // access flags 0x609
   public static abstract INNERCLASS scala/math/Fractional$ExtraImplicits scala/math/Fractional ExtraImplicits
-  // access flags 0x409
-  public static abstract INNERCLASS scala/math/Fractional$ExtraImplicits$class scala/math/Fractional ExtraImplicits$class
 
   // access flags 0x401
   // signature (TT;TT;)TT;

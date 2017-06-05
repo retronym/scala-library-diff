@@ -3,14 +3,8 @@
 // access flags 0x20031
 public final class scala/collection/parallel/ThreadPoolTasks$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anon$1 scala/collection/parallel/ThreadPoolTasks null
-  // access flags 0x601
-  public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask scala/collection/parallel/ThreadPoolTasks WrappedTask
-  // access flags 0x401
-  public abstract INNERCLASS scala/collection/parallel/ThreadPoolTasks$WrappedTask$class scala/collection/parallel/ThreadPoolTasks WrappedTask$class
   // access flags 0x11
-  public final INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anonfun$execute$1 null null
+  public final INNERCLASS scala/collection/parallel/ThreadPoolTasks$$anon$1 null null
   // access flags 0x9
   public static INNERCLASS java/util/concurrent/ThreadPoolExecutor$CallerRunsPolicy java/util/concurrent/ThreadPoolExecutor CallerRunsPolicy
 

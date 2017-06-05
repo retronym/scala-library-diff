@@ -5,8 +5,6 @@
 public final class scala/collection/parallel/immutable/ParVector$ extends scala/collection/generic/ParFactory  implements scala/Serializable  {
 
   // access flags 0x1
-  public INNERCLASS scala/collection/parallel/immutable/ParVector$ParVectorIterator scala/collection/parallel/immutable/ParVector ParVectorIterator
-  // access flags 0x1
   public INNERCLASS scala/collection/generic/ParFactory$GenericCanCombineFrom scala/collection/generic/ParFactory GenericCanCombineFrom
 
   // access flags 0x19

@@ -5,8 +5,8 @@
 public final class scala/collection/parallel/Splitter$$anon$1 implements scala/collection/parallel/Splitter  {
 
   OUTERCLASS scala/collection/parallel/Splitter$ empty ()Lscala/collection/parallel/Splitter;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/parallel/Splitter$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/parallel/Splitter$$anon$1 null null
   // access flags 0x409
   public static abstract INNERCLASS scala/Predef$$less$colon$less scala/Predef $less$colon$less
   // access flags 0x1

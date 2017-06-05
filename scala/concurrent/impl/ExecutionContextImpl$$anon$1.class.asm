@@ -3,8 +3,8 @@
 public final class scala/concurrent/impl/ExecutionContextImpl$$anon$1 extends scala/concurrent/impl/ExecutionContextImpl  implements scala/concurrent/ExecutionContextExecutorService  {
 
   OUTERCLASS scala/concurrent/impl/ExecutionContextImpl$ fromExecutorService (Ljava/util/concurrent/ExecutorService;Lscala/Function1;)Lscala/concurrent/impl/ExecutionContextImpl;
-  // access flags 0x19
-  public final static INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/concurrent/impl/ExecutionContextImpl$$anon$1 null null
 
   // access flags 0x1
   public <init>(Ljava/util/concurrent/ExecutorService;Lscala/Function1;)V

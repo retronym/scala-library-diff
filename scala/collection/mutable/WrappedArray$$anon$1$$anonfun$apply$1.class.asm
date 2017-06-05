@@ -5,8 +5,8 @@
 public final class scala/collection/mutable/WrappedArray$$anon$1$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/mutable/WrappedArray$$anon$1 apply (Lscala/collection/mutable/WrappedArray;)Lscala/collection/mutable/Builder;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/WrappedArray$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/WrappedArray$$anon$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/WrappedArray$$anon$1$$anonfun$apply$1 null null
 

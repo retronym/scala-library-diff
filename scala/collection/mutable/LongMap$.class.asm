@@ -2,16 +2,14 @@
 // access flags 0x31
 public final class scala/collection/mutable/LongMap$ implements scala/Serializable  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anon$2 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/LongMap$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anonfun$1 scala/collection/mutable/LongMap null
+  public final INNERCLASS scala/collection/mutable/LongMap$$anon$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/LongMap$$anonfun$1 null null
   // access flags 0x19
   public final static INNERCLASS scala/collection/mutable/LongMap$LongMapBuilder scala/collection/mutable/LongMap LongMapBuilder
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/LongMap$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/LongMap$$anonfun$apply$1 null null
 
   // access flags 0x12
   private final I IndexMask

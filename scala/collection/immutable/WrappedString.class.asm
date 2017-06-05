@@ -4,10 +4,6 @@
 // declaration: scala/collection/immutable/WrappedString extends scala.collection.AbstractSeq<java.lang.Object> implements scala.collection.immutable.IndexedSeq<java.lang.Object>, scala.collection.immutable.StringLike<scala.collection.immutable.WrappedString>
 public class scala/collection/immutable/WrappedString extends scala/collection/AbstractSeq  implements scala/collection/immutable/IndexedSeq scala/collection/immutable/StringLike  {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/WrappedString$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/WrappedString$$anonfun$newBuilder$1 null null
 
   // access flags 0x12
   private final Ljava/lang/String; self

@@ -6,8 +6,6 @@ public final class scala/collection/mutable/Stack$ extends scala/collection/gene
 
   // access flags 0x9
   public static INNERCLASS scala/collection/mutable/Stack$StackBuilder scala/collection/mutable/Stack StackBuilder
-  // access flags 0x11
-  public final INNERCLASS scala/collection/mutable/Stack$$anonfun$pushAll$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

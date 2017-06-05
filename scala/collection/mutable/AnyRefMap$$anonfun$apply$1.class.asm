@@ -5,8 +5,8 @@
 public final class scala/collection/mutable/AnyRefMap$$anonfun$apply$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/collection/mutable/AnyRefMap$ apply (Lscala/collection/Seq;)Lscala/collection/mutable/AnyRefMap;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$apply$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/AnyRefMap$$anonfun$apply$1 null null
 
   // access flags 0x12
   private final Lscala/collection/mutable/AnyRefMap; arm$1

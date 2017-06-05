@@ -3,14 +3,14 @@
 // access flags 0x20031
 public final class scala/util/MurmurHash$ {
 
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/Iterator$$anon$7 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/MurmurHash$$anonfun$1 scala/util/MurmurHash null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/MurmurHash$$anonfun$2 scala/util/MurmurHash null
-  // access flags 0x19
-  public final static INNERCLASS scala/util/MurmurHash$$anonfun$symmetricHash$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/Iterator$$anon$7 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/MurmurHash$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/MurmurHash$$anonfun$2 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/MurmurHash$$anonfun$symmetricHash$1 null null
 
   // access flags 0x19
   public final static Lscala/util/MurmurHash$; MODULE$

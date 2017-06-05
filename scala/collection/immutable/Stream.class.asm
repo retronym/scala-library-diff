@@ -30,14 +30,10 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$take$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$init$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$fill$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$from$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$fill$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$StreamWithFilter scala/collection/immutable/Stream StreamWithFilter
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$range$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$append$1 null null
   // access flags 0x9
@@ -48,8 +44,6 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$flatten$1 null null
   // access flags 0x9
   public static INNERCLASS scala/collection/immutable/Stream$StreamCanBuildFrom scala/collection/immutable/Stream StreamCanBuildFrom
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$iterate$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scanLeft$1 null null
   // access flags 0x11
@@ -62,22 +56,14 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$$plus$plus$1 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$$plus$colon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$continually$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$filteredTail$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$collectedTail$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$4$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$2$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$3$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$2 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$6$1 null null
+  public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$3$2 null null
   // access flags 0x11
   public final INNERCLASS scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$advance$1$1 null null
 
@@ -199,16 +185,184 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
     POP
     ALOAD 0
-    LDC ""
-    ALOAD 0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L1
+   L0
     ALOAD 1
-    ALOAD 3
+    ALOAD 0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+    POP
+    ALOAD 0
+    ASTORE 8
+    ALOAD 0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L2
+    ALOAD 0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 7
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L3
+    ALOAD 1
     ALOAD 4
-    INVOKESPECIAL scala/collection/immutable/Stream.loop$3 (Ljava/lang/String;Lscala/collection/immutable/Stream;Lscala/collection/mutable/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    POP
     ALOAD 1
     ARETURN
-    MAXSTACK = 6
-    MAXLOCALS = 5
+   L3
+    ALOAD 0
+    ALOAD 7
+    IF_ACMPEQ L4
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L4
+    ALOAD 7
+    ASTORE 8
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 7
+   L5
+    ALOAD 8
+    ALOAD 7
+    IF_ACMPEQ L4
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L4
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+    POP
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 8
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    DUP
+    ASTORE 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L5
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 7
+    GOTO L5
+   L4
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L6
+    ALOAD 0
+    ASTORE 5
+    ICONST_0
+    ISTORE 6
+   L7
+    ALOAD 5
+    ALOAD 7
+    IF_ACMPEQ L8
+    ALOAD 5
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 5
+    ALOAD 7
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 7
+    ILOAD 6
+    ICONST_1
+    IADD
+    ISTORE 6
+    GOTO L7
+   L8
+    ALOAD 8
+    ALOAD 7
+    IF_ACMPNE L9
+    ILOAD 6
+    ICONST_0
+    IF_ICMPLE L9
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+    POP
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 8
+   L9
+    ALOAD 8
+    ALOAD 7
+    IF_ACMPEQ L2
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+    POP
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 8
+    GOTO L9
+   L6
+    ALOAD 8
+    ALOAD 7
+    IF_ACMPEQ L2
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+    POP
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 8
+    GOTO L6
+   L2
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L10
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L1
+   L10
+    ALOAD 8
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L11
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    LDC "..."
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    GOTO L1
+   L11
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    LDC "?"
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+   L1
+    POP
+    ALOAD 1
+    ALOAD 4
+    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
+    POP
+    ALOAD 1
+    ARETURN
+    MAXSTACK = 2
+    MAXLOCALS = 9
 
   // access flags 0x1
   // signature <B:Ljava/lang/Object;>(Lscala/Function0<Lscala/collection/TraversableOnce<TB;>;>;)Lscala/collection/immutable/Stream<TB;>;
@@ -411,7 +565,7 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     INVOKEVIRTUAL scala/collection/immutable/Set$.apply (Lscala/collection/Seq;)Lscala/collection/GenTraversable;
     CHECKCAST scala/collection/immutable/Set
     ALOAD 0
-    INVOKEVIRTUAL scala/collection/immutable/Stream.scala$collection$immutable$Stream$$loop$4 (Lscala/collection/immutable/Set;Lscala/collection/immutable/Stream;)Lscala/collection/immutable/Stream;
+    INVOKEVIRTUAL scala/collection/immutable/Stream.scala$collection$immutable$Stream$$loop$2 (Lscala/collection/immutable/Set;Lscala/collection/immutable/Stream;)Lscala/collection/immutable/Stream;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 1
@@ -654,38 +808,12 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
   // declaration: scala.collection.immutable.Stream<A> filter(scala.Function1<A, java.lang.Object>)
   public filter(Lscala/Function1;)Lscala/collection/immutable/Stream;
     ALOAD 0
-    ASTORE 2
-   L0
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
-    IFNE L1
     ALOAD 1
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToBoolean (Ljava/lang/Object;)Z
-    IFEQ L2
-   L1
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.nonEmpty ()Z
-    IFEQ L3
-    GETSTATIC scala/collection/immutable/Stream$.MODULE$ : Lscala/collection/immutable/Stream$;
-    ALOAD 2
-    ALOAD 1
-    INVOKEVIRTUAL scala/collection/immutable/Stream$.filteredTail (Lscala/collection/immutable/Stream;Lscala/Function1;)Lscala/collection/immutable/Stream$Cons;
-    GOTO L4
-   L3
-    GETSTATIC scala/collection/immutable/Stream$Empty$.MODULE$ : Lscala/collection/immutable/Stream$Empty$;
-   L4
+    ICONST_0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.filterImpl (Lscala/Function1;Z)Lscala/collection/immutable/Stream;
     ARETURN
-   L2
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
-    CHECKCAST scala/collection/immutable/Stream
-    ASTORE 2
-    GOTO L0
     MAXSTACK = 3
-    MAXLOCALS = 3
+    MAXLOCALS = 2
 
   // access flags 0x1041
   public synthetic bridge filter(Lscala/Function1;)Ljava/lang/Object;
@@ -695,6 +823,55 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     ARETURN
     MAXSTACK = 2
     MAXLOCALS = 2
+
+  // access flags 0x1
+  // signature (Lscala/Function1<TA;Ljava/lang/Object;>;Z)Lscala/collection/immutable/Stream<TA;>;
+  // declaration: scala.collection.immutable.Stream<A> filterImpl(scala.Function1<A, java.lang.Object>, boolean)
+  public filterImpl(Lscala/Function1;Z)Lscala/collection/immutable/Stream;
+    ALOAD 0
+    ASTORE 3
+   L0
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFNE L1
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToBoolean (Ljava/lang/Object;)Z
+    ILOAD 2
+    IF_ICMPNE L1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 3
+    GOTO L0
+   L1
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/immutable/Stream.nonEmpty ()Z
+    IFEQ L2
+    GETSTATIC scala/collection/immutable/Stream$.MODULE$ : Lscala/collection/immutable/Stream$;
+    ALOAD 3
+    ALOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream$.filteredTail (Lscala/collection/immutable/Stream;Lscala/Function1;Z)Lscala/collection/immutable/Stream$Cons;
+    GOTO L3
+   L2
+    GETSTATIC scala/collection/immutable/Stream$Empty$.MODULE$ : Lscala/collection/immutable/Stream$Empty$;
+   L3
+    ARETURN
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x1041
+  public synthetic bridge filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.filterImpl (Lscala/Function1;Z)Lscala/collection/immutable/Stream;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 3
 
   // access flags 0x1
   // signature (Lscala/Function1<TA;Ljava/lang/Object;>;)Lscala/Option<TA;>;
@@ -918,20 +1095,55 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
   public force()Lscala/collection/immutable/Stream;
     ALOAD 0
     ASTORE 1
-   L0
-    ALOAD 1
-    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
-    IFEQ L1
     ALOAD 0
-    ARETURN
-   L1
-    ALOAD 1
+    ASTORE 2
+    ALOAD 0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFNE L0
+    ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/Stream
     ASTORE 1
+   L0
+    ALOAD 2
+    ALOAD 1
+    IF_ACMPEQ L1
+    ALOAD 1
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L2
+    ALOAD 0
+    ARETURN
+   L2
+    ALOAD 1
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    DUP
+    ASTORE 1
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L3
+    ALOAD 0
+    ARETURN
+   L3
+    ALOAD 1
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    DUP
+    ASTORE 1
+    ALOAD 2
+    IF_ACMPNE L4
+    ALOAD 0
+    ARETURN
+   L4
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 2
     GOTO L0
-    MAXSTACK = 1
-    MAXLOCALS = 2
+   L1
+    ALOAD 0
+    ARETURN
+    MAXSTACK = 2
+    MAXLOCALS = 3
 
   // access flags 0x11
   // signature <B:Ljava/lang/Object;>(Lscala/Function1<TA;TB;>;)V
@@ -993,11 +1205,73 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
   // access flags 0x1
   public hasDefiniteSize()Z
     ALOAD 0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L0
+    ICONST_1
+    GOTO L1
+   L0
     ALOAD 0
-    INVOKESPECIAL scala/collection/immutable/Stream.loop$2 (Lscala/collection/immutable/Stream;)Z
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L2
+    ALOAD 0
+    ASTORE 1
+    ALOAD 0
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 2
+   L3
+    ALOAD 1
+    ALOAD 2
+    IF_ACMPEQ L2
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L4
+    ICONST_1
+    IRETURN
+   L4
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L5
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    DUP
+    ASTORE 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFEQ L6
+    ICONST_1
+    IRETURN
+   L6
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
+    IFEQ L7
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 2
+    ALOAD 1
+    ALOAD 2
+    IF_ACMPNE L8
+    ICONST_0
+    IRETURN
+   L8
+    ALOAD 1
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 1
+    GOTO L3
+   L7
+    ICONST_0
+    IRETURN
+   L5
+    ICONST_0
+    IRETURN
+   L2
+    ICONST_0
+   L1
     IRETURN
     MAXSTACK = 2
-    MAXLOCALS = 1
+    MAXLOCALS = 3
 
   // access flags 0x1
   public hashCode()I
@@ -1228,76 +1502,6 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     MAXSTACK = 2
     MAXLOCALS = 4
 
-  // access flags 0x12
-  private final loop$2(Lscala/collection/immutable/Stream;)Z
-   L0
-    ALOAD 1
-    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
-    IFEQ L1
-    ICONST_1
-    GOTO L2
-   L1
-    ALOAD 1
-    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
-    IFEQ L3
-    ALOAD 1
-    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
-    CHECKCAST scala/collection/immutable/Stream
-    ASTORE 1
-    GOTO L0
-   L3
-    ICONST_0
-   L2
-    IRETURN
-    MAXSTACK = 1
-    MAXLOCALS = 2
-
-  // access flags 0x12
-  private final loop$3(Ljava/lang/String;Lscala/collection/immutable/Stream;Lscala/collection/mutable/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
-   L0
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
-    IFEQ L1
-    ALOAD 3
-    ALOAD 5
-    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
-    POP
-    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
-    GOTO L2
-   L1
-    ALOAD 3
-    ALOAD 1
-    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
-    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
-    POP
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.tailDefined ()Z
-    IFEQ L3
-    ALOAD 4
-    ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
-    CHECKCAST scala/collection/immutable/Stream
-    ASTORE 2
-    ASTORE 1
-    GOTO L0
-   L3
-    ALOAD 3
-    ALOAD 4
-    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
-    LDC "?"
-    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
-    ALOAD 5
-    INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
-    POP
-    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
-   L2
-    POP
-    RETURN
-    MAXSTACK = 2
-    MAXLOCALS = 6
-
   // access flags 0x11
   // signature <B:Ljava/lang/Object;That:Ljava/lang/Object;>(Lscala/Function1<TA;TB;>;Lscala/collection/generic/CanBuildFrom<Lscala/collection/immutable/Stream<TA;>;TB;TThat;>;)TThat;
   // declaration: That map<B, That>(scala.Function1<A, B>, scala.collection.generic.CanBuildFrom<scala.collection.immutable.Stream<A>, B, That>)
@@ -1391,7 +1595,7 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     ILOAD 1
     ALOAD 0
     ALOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.scala$collection$immutable$Stream$$loop$5 (ILscala/collection/immutable/Stream;Ljava/lang/Object;)Lscala/collection/immutable/Stream;
+    INVOKEVIRTUAL scala/collection/immutable/Stream.scala$collection$immutable$Stream$$loop$3 (ILscala/collection/immutable/Stream;Ljava/lang/Object;)Lscala/collection/immutable/Stream;
     GOTO L1
    L0
     ALOAD 0
@@ -1701,7 +1905,7 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     MAXLOCALS = 2
 
   // access flags 0x11
-  public final scala$collection$immutable$Stream$$loop$4(Lscala/collection/immutable/Set;Lscala/collection/immutable/Stream;)Lscala/collection/immutable/Stream;
+  public final scala$collection$immutable$Stream$$loop$2(Lscala/collection/immutable/Set;Lscala/collection/immutable/Stream;)Lscala/collection/immutable/Stream;
    L0
     ALOAD 2
     INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
@@ -1725,12 +1929,12 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     GETSTATIC scala/collection/immutable/Stream$cons$.MODULE$ : Lscala/collection/immutable/Stream$cons$;
     ALOAD 2
     INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
-    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$4$1
+    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$2$1
     DUP
     ALOAD 0
     ALOAD 1
     ALOAD 2
-    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$4$1.<init> (Lscala/collection/immutable/Stream;Lscala/collection/immutable/Set;Lscala/collection/immutable/Stream;)V
+    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$2$1.<init> (Lscala/collection/immutable/Stream;Lscala/collection/immutable/Set;Lscala/collection/immutable/Stream;)V
     ASTORE 5
     ASTORE 4
     ASTORE 3
@@ -1745,16 +1949,16 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     MAXLOCALS = 6
 
   // access flags 0x11
-  public final scala$collection$immutable$Stream$$loop$5(ILscala/collection/immutable/Stream;Ljava/lang/Object;)Lscala/collection/immutable/Stream;
+  public final scala$collection$immutable$Stream$$loop$3(ILscala/collection/immutable/Stream;Ljava/lang/Object;)Lscala/collection/immutable/Stream;
     ALOAD 2
     INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
     IFEQ L0
     GETSTATIC scala/collection/immutable/Stream$.MODULE$ : Lscala/collection/immutable/Stream$;
-    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$1
+    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$3$1
     DUP
     ALOAD 0
     ALOAD 3
-    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$1.<init> (Lscala/collection/immutable/Stream;Ljava/lang/Object;)V
+    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$3$1.<init> (Lscala/collection/immutable/Stream;Ljava/lang/Object;)V
     ASTORE 5
     ASTORE 4
     ILOAD 1
@@ -1765,7 +1969,7 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
    L1
     GETSTATIC scala/collection/immutable/Stream$cons$.MODULE$ : Lscala/collection/immutable/Stream$cons$;
     ALOAD 5
-    GETFIELD scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$1.elem$1 : Ljava/lang/Object;
+    GETFIELD scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$3$1.elem$1 : Ljava/lang/Object;
     NEW scala/collection/immutable/Stream$$anonfun$fill$1
     DUP
     ILOAD 1
@@ -1784,13 +1988,13 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     GETSTATIC scala/collection/immutable/Stream$cons$.MODULE$ : Lscala/collection/immutable/Stream$cons$;
     ALOAD 2
     INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
-    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$2
+    NEW scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$3$2
     DUP
     ALOAD 0
     ALOAD 3
     ILOAD 1
     ALOAD 2
-    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$5$2.<init> (Lscala/collection/immutable/Stream;Ljava/lang/Object;ILscala/collection/immutable/Stream;)V
+    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$scala$collection$immutable$Stream$$loop$3$2.<init> (Lscala/collection/immutable/Stream;Ljava/lang/Object;ILscala/collection/immutable/Stream;)V
     ASTORE 11
     ASTORE 10
     ASTORE 9

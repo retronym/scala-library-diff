@@ -5,8 +5,8 @@
 public final class scala/sys/process/BasicIO$$anonfun$input$1 extends scala/runtime/AbstractFunction1  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/process/BasicIO$ input (Z)Lscala/Function1;
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$$anonfun$input$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$$anonfun$input$1 null null
 
   // access flags 0x12
   private final Z connect$1

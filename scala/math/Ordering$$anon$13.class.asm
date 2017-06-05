@@ -7,8 +7,8 @@ public final class scala/math/Ordering$$anon$13 implements scala/math/Ordering  
   OUTERCLASS scala/math/Ordering$ Tuple4 (Lscala/math/Ordering;Lscala/math/Ordering;Lscala/math/Ordering;Lscala/math/Ordering;)Lscala/math/Ordering;
   // access flags 0x1
   public INNERCLASS scala/math/Ordering$Ops scala/math/Ordering Ops
-  // access flags 0x19
-  public final static INNERCLASS scala/math/Ordering$$anon$13 null null
+  // access flags 0x11
+  public final INNERCLASS scala/math/Ordering$$anon$13 null null
 
   // access flags 0x12
   private final Lscala/math/Ordering; ord1$6

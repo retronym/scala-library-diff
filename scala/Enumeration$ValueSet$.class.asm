@@ -6,14 +6,10 @@ public class scala/Enumeration$ValueSet$ implements scala/Serializable  {
   public INNERCLASS scala/Enumeration$ValueSet$ scala/Enumeration ValueSet$
   // access flags 0x1
   public INNERCLASS scala/Enumeration$ValueSet scala/Enumeration ValueSet
-  // access flags 0x19
-  public final static INNERCLASS scala/Enumeration$ValueSet$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/Enumeration$ValueSet$$anon$2 null null
   // access flags 0x11
-  public final INNERCLASS scala/Enumeration$ValueSet$$anonfun$iterator$1 null null
+  public final INNERCLASS scala/Enumeration$ValueSet$$anon$1 null null
   // access flags 0x11
-  public final INNERCLASS scala/Enumeration$ValueSet$$anonfun$keysIteratorFrom$1 null null
+  public final INNERCLASS scala/Enumeration$ValueSet$$anon$2 null null
 
   // access flags 0x1012
   private final synthetic Lscala/Enumeration; $outer

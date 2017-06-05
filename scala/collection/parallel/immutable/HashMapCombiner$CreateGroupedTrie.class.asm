@@ -522,7 +522,7 @@ public class scala/collection/parallel/immutable/HashMapCombiner$CreateGroupedTr
 
   // access flags 0x1
   public throwable_$eq(Ljava/lang/Throwable;)V
-  @Lscala/runtime/TraitSetter;()
+  @Lscala/runtime/TraitSetter;() // invisible
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/immutable/HashMapCombiner$CreateGroupedTrie.throwable : Ljava/lang/Throwable;

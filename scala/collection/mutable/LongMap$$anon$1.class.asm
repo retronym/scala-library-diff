@@ -682,7 +682,12 @@ public final class scala/collection/mutable/LongMap$$anon$1 implements scala/col
     ASTORE 1
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap$$anon$1.anotherPair : Lscala/Tuple2;
-    IFNULL L1
+    IFNONNULL L1
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD scala/collection/mutable/LongMap$$anon$1.nextPair : Lscala/Tuple2;
+    GOTO L2
+   L1
     ALOAD 0
     ALOAD 0
     GETFIELD scala/collection/mutable/LongMap$$anon$1.anotherPair : Lscala/Tuple2;
@@ -690,10 +695,7 @@ public final class scala/collection/mutable/LongMap$$anon$1 implements scala/col
     ALOAD 0
     ACONST_NULL
     PUTFIELD scala/collection/mutable/LongMap$$anon$1.anotherPair : Lscala/Tuple2;
-   L1
-    ALOAD 0
-    ACONST_NULL
-    PUTFIELD scala/collection/mutable/LongMap$$anon$1.nextPair : Lscala/Tuple2;
+   L2
     ALOAD 1
     ARETURN
     MAXSTACK = 3

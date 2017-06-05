@@ -6,8 +6,6 @@ public class scala/collection/mutable/ArraySeq extends scala/collection/mutable/
 
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/ArraySeq$$anon$1 null null
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/mutable/ArraySeq$$anonfun$newBuilder$1 null null
   // access flags 0x1
   public INNERCLASS scala/collection/generic/GenTraversableFactory$GenericCanBuildFrom scala/collection/generic/GenTraversableFactory GenericCanBuildFrom
 

@@ -6,8 +6,6 @@ public abstract interface scala/collection/SortedMap implements scala/collection
 
   // access flags 0x609
   public static abstract INNERCLASS scala/collection/SortedMap$Default scala/collection/SortedMap Default
-  // access flags 0x409
-  public static abstract INNERCLASS scala/collection/SortedMap$Default$class scala/collection/SortedMap Default$class
 
   // access flags 0x401
   // signature ()Lscala/collection/SortedMap<TA;TB;>;

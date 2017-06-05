@@ -5,8 +5,8 @@
 public final class scala/reflect/ClassTag$$anon$1 implements scala/reflect/ClassTag  {
 
   OUTERCLASS scala/reflect/ClassTag$ apply (Ljava/lang/Class;)Lscala/reflect/ClassTag;
-  // access flags 0x19
-  public final static INNERCLASS scala/reflect/ClassTag$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/reflect/ClassTag$$anon$1 null null
 
   // access flags 0x12
   private final Ljava/lang/Class; runtimeClass1$1

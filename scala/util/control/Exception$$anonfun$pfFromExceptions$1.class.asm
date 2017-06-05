@@ -5,8 +5,8 @@
 public final class scala/util/control/Exception$$anonfun$pfFromExceptions$1 extends scala/runtime/AbstractPartialFunction  implements scala/Serializable  {
 
   OUTERCLASS scala/util/control/Exception$ pfFromExceptions (Lscala/collection/Seq;)Lscala/PartialFunction;
-  // access flags 0x19
-  public final static INNERCLASS scala/util/control/Exception$$anonfun$pfFromExceptions$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/util/control/Exception$$anonfun$pfFromExceptions$1 null null
 
   // access flags 0x12
   private final Lscala/collection/Seq; exceptions$1

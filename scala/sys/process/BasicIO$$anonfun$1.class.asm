@@ -3,8 +3,8 @@
 public final class scala/sys/process/BasicIO$$anonfun$1 extends scala/runtime/AbstractFunction0$mcV$sp  implements scala/Serializable  {
 
   OUTERCLASS scala/sys/process/BasicIO$ transferFully (Ljava/io/InputStream;Ljava/io/OutputStream;)V
-  // access flags 0x19
-  public final static INNERCLASS scala/sys/process/BasicIO$$anonfun$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/sys/process/BasicIO$$anonfun$1 null null
 
   // access flags 0x1
   public <init>()V

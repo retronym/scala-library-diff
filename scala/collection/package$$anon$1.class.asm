@@ -5,8 +5,8 @@
 public final class scala/collection/package$$anon$1 implements scala/collection/generic/CanBuildFrom  {
 
   OUTERCLASS scala/collection/package$ breakOut (Lscala/collection/generic/CanBuildFrom;)Lscala/collection/generic/CanBuildFrom;
-  // access flags 0x19
-  public final static INNERCLASS scala/collection/package$$anon$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/package$$anon$1 null null
 
   // access flags 0x12
   private final Lscala/collection/generic/CanBuildFrom; b$1
