@@ -14,5 +14,5 @@ public abstract interface scala/collection/generic/VolatileAbort implements scal
 
   // access flags 0x401
   public abstract scala$collection$generic$VolatileAbort$$abortflag_$eq(Z)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 }

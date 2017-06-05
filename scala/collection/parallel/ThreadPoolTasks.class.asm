@@ -44,5 +44,5 @@ public abstract interface scala/collection/parallel/ThreadPoolTasks implements s
 
   // access flags 0x401
   public abstract totaltasks_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 }

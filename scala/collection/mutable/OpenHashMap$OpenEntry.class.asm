@@ -74,7 +74,7 @@ public final class scala/collection/mutable/OpenHashMap$OpenEntry implements sca
 
   // access flags 0x1
   public next_$eq(Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/mutable/OpenHashMap$OpenEntry.next : Ljava/lang/Object;

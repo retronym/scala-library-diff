@@ -95,7 +95,7 @@ public final class scala/collection/parallel/mutable/UnrolledParArrayCombiner$$a
 
   // access flags 0x1
   public _combinerTaskSupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/UnrolledParArrayCombiner$$anon$1._combinerTaskSupport : Lscala/collection/parallel/TaskSupport;

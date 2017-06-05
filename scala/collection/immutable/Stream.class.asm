@@ -808,12 +808,38 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
   // declaration: scala.collection.immutable.Stream<A> filter(scala.Function1<A, java.lang.Object>)
   public filter(Lscala/Function1;)Lscala/collection/immutable/Stream;
     ALOAD 0
+    ASTORE 2
+   L0
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
+    IFNE L1
     ALOAD 1
-    ICONST_0
-    INVOKEVIRTUAL scala/collection/immutable/Stream.filterImpl (Lscala/Function1;Z)Lscala/collection/immutable/Stream;
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
+    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToBoolean (Ljava/lang/Object;)Z
+    IFEQ L2
+   L1
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.nonEmpty ()Z
+    IFEQ L3
+    GETSTATIC scala/collection/immutable/Stream$.MODULE$ : Lscala/collection/immutable/Stream$;
+    ALOAD 2
+    ALOAD 1
+    INVOKEVIRTUAL scala/collection/immutable/Stream$.filteredTail (Lscala/collection/immutable/Stream;Lscala/Function1;)Lscala/collection/immutable/Stream$Cons;
+    GOTO L4
+   L3
+    GETSTATIC scala/collection/immutable/Stream$Empty$.MODULE$ : Lscala/collection/immutable/Stream$Empty$;
+   L4
     ARETURN
+   L2
+    ALOAD 2
+    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Stream
+    ASTORE 2
+    GOTO L0
     MAXSTACK = 3
-    MAXLOCALS = 2
+    MAXLOCALS = 3
 
   // access flags 0x1041
   public synthetic bridge filter(Lscala/Function1;)Ljava/lang/Object;
@@ -823,55 +849,6 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     ARETURN
     MAXSTACK = 2
     MAXLOCALS = 2
-
-  // access flags 0x1
-  // signature (Lscala/Function1<TA;Ljava/lang/Object;>;Z)Lscala/collection/immutable/Stream<TA;>;
-  // declaration: scala.collection.immutable.Stream<A> filterImpl(scala.Function1<A, java.lang.Object>, boolean)
-  public filterImpl(Lscala/Function1;Z)Lscala/collection/immutable/Stream;
-    ALOAD 0
-    ASTORE 3
-   L0
-    ALOAD 3
-    INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
-    IFNE L1
-    ALOAD 1
-    ALOAD 3
-    INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
-    INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
-    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToBoolean (Ljava/lang/Object;)Z
-    ILOAD 2
-    IF_ICMPNE L1
-    ALOAD 3
-    INVOKEVIRTUAL scala/collection/immutable/Stream.tail ()Ljava/lang/Object;
-    CHECKCAST scala/collection/immutable/Stream
-    ASTORE 3
-    GOTO L0
-   L1
-    ALOAD 3
-    INVOKEVIRTUAL scala/collection/immutable/Stream.nonEmpty ()Z
-    IFEQ L2
-    GETSTATIC scala/collection/immutable/Stream$.MODULE$ : Lscala/collection/immutable/Stream$;
-    ALOAD 3
-    ALOAD 1
-    ILOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream$.filteredTail (Lscala/collection/immutable/Stream;Lscala/Function1;Z)Lscala/collection/immutable/Stream$Cons;
-    GOTO L3
-   L2
-    GETSTATIC scala/collection/immutable/Stream$Empty$.MODULE$ : Lscala/collection/immutable/Stream$Empty$;
-   L3
-    ARETURN
-    MAXSTACK = 4
-    MAXLOCALS = 4
-
-  // access flags 0x1041
-  public synthetic bridge filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
-    ALOAD 0
-    ALOAD 1
-    ILOAD 2
-    INVOKEVIRTUAL scala/collection/immutable/Stream.filterImpl (Lscala/Function1;Z)Lscala/collection/immutable/Stream;
-    ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 3
 
   // access flags 0x1
   // signature (Lscala/Function1<TA;Ljava/lang/Object;>;)Lscala/Option<TA;>;

@@ -230,7 +230,7 @@ public class scala/collection/mutable/HashSet extends scala/collection/mutable/A
 
   // access flags 0x1
   public _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/HashSet._loadFactor : I
@@ -715,7 +715,7 @@ public class scala/collection/mutable/HashSet extends scala/collection/mutable/A
 
   // access flags 0x1
   public seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/HashSet.seedvalue : I
@@ -817,7 +817,7 @@ public class scala/collection/mutable/HashSet extends scala/collection/mutable/A
 
   // access flags 0x1
   public sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/mutable/HashSet.sizemap : [I
@@ -851,7 +851,7 @@ public class scala/collection/mutable/HashSet extends scala/collection/mutable/A
 
   // access flags 0x1
   public tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/HashSet.tableSize : I
@@ -861,7 +861,7 @@ public class scala/collection/mutable/HashSet extends scala/collection/mutable/A
 
   // access flags 0x1
   public table_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/mutable/HashSet.table : [Ljava/lang/Object;
@@ -887,7 +887,7 @@ public class scala/collection/mutable/HashSet extends scala/collection/mutable/A
 
   // access flags 0x1
   public threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/HashSet.threshold : I

@@ -363,7 +363,7 @@ public class scala/collection/parallel/immutable/HashMapCombiner$CreateTrie impl
 
   // access flags 0x1
   public throwable_$eq(Ljava/lang/Throwable;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/immutable/HashMapCombiner$CreateTrie.throwable : Ljava/lang/Throwable;

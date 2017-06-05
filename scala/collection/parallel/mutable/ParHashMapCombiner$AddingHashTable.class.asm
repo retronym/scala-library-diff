@@ -101,7 +101,7 @@ public class scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTabl
 
   // access flags 0x1
   public _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable._loadFactor : I
@@ -453,7 +453,7 @@ public class scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTabl
 
   // access flags 0x1
   public seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable.seedvalue : I
@@ -533,7 +533,7 @@ public class scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTabl
 
   // access flags 0x1
   public sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable.sizemap : [I
@@ -569,7 +569,7 @@ public class scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTabl
 
   // access flags 0x1
   public tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable.tableSize : I
@@ -581,7 +581,7 @@ public class scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTabl
   // signature ([Lscala/collection/mutable/HashEntry<TK;Lscala/collection/mutable/DefaultEntry<TK;TV;>;>;)V
   // declaration: void table_$eq(scala.collection.mutable.HashEntry<K, scala.collection.mutable.DefaultEntry<K, V>>[])
   public table_$eq([Lscala/collection/mutable/HashEntry;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable.table : [Lscala/collection/mutable/HashEntry;
@@ -599,7 +599,7 @@ public class scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTabl
 
   // access flags 0x1
   public threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMapCombiner$AddingHashTable.threshold : I

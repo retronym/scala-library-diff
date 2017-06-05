@@ -309,13 +309,13 @@ public abstract class scala/collection/TraversableLike$class {
     ALOAD 0
     ALOAD 1
     ICONST_0
-    INVOKEINTERFACE scala/collection/TraversableLike.filterImpl (Lscala/Function1;Z)Ljava/lang/Object;
+    INVOKESTATIC scala/collection/TraversableLike$class.filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
 
-  // access flags 0x9
-  public static filterImpl(Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
+  // access flags 0xA
+  private static filterImpl(Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
     ALOAD 0
     INVOKEINTERFACE scala/collection/TraversableLike.newBuilder ()Lscala/collection/mutable/Builder;
     ASTORE 3
@@ -323,10 +323,10 @@ public abstract class scala/collection/TraversableLike$class {
     NEW scala/collection/TraversableLike$$anonfun$filterImpl$1
     DUP
     ALOAD 0
-    ALOAD 3
     ALOAD 1
     ILOAD 2
-    INVOKESPECIAL scala/collection/TraversableLike$$anonfun$filterImpl$1.<init> (Lscala/collection/TraversableLike;Lscala/collection/mutable/Builder;Lscala/Function1;Z)V
+    ALOAD 3
+    INVOKESPECIAL scala/collection/TraversableLike$$anonfun$filterImpl$1.<init> (Lscala/collection/TraversableLike;Lscala/Function1;ZLscala/collection/mutable/Builder;)V
     INVOKEINTERFACE scala/collection/TraversableLike.foreach (Lscala/Function1;)V
     ALOAD 3
     INVOKEINTERFACE scala/collection/mutable/Builder.result ()Ljava/lang/Object;
@@ -339,7 +339,7 @@ public abstract class scala/collection/TraversableLike$class {
     ALOAD 0
     ALOAD 1
     ICONST_1
-    INVOKEINTERFACE scala/collection/TraversableLike.filterImpl (Lscala/Function1;Z)Ljava/lang/Object;
+    INVOKESTATIC scala/collection/TraversableLike$class.filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2

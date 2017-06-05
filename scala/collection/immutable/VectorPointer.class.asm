@@ -19,49 +19,49 @@ public abstract interface scala/collection/immutable/VectorPointer {
 
   // access flags 0x401
   public abstract depth_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract display0()[Ljava/lang/Object;
 
   // access flags 0x401
   public abstract display0_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract display1()[Ljava/lang/Object;
 
   // access flags 0x401
   public abstract display1_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract display2()[Ljava/lang/Object;
 
   // access flags 0x401
   public abstract display2_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract display3()[Ljava/lang/Object;
 
   // access flags 0x401
   public abstract display3_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract display4()[Ljava/lang/Object;
 
   // access flags 0x401
   public abstract display4_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract display5()[Ljava/lang/Object;
 
   // access flags 0x401
   public abstract display5_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   // signature (II)TT;

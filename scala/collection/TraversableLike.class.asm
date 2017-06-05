@@ -115,11 +115,6 @@ public abstract interface scala/collection/TraversableLike implements scala/coll
   public abstract filter(Lscala/Function1;)Ljava/lang/Object;
 
   // access flags 0x401
-  // signature (Lscala/Function1<TA;Ljava/lang/Object;>;Z)TRepr;
-  // declaration: Repr filterImpl(scala.Function1<A, java.lang.Object>, boolean)
-  public abstract filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
-
-  // access flags 0x401
   // signature (Lscala/Function1<TA;Ljava/lang/Object;>;)TRepr;
   // declaration: Repr filterNot(scala.Function1<A, java.lang.Object>)
   public abstract filterNot(Lscala/Function1;)Ljava/lang/Object;

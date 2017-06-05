@@ -22,7 +22,7 @@ public abstract interface scala/collection/mutable/FlatHashTable implements scal
 
   // access flags 0x401
   public abstract _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   // signature (TA;)Z
@@ -111,7 +111,7 @@ public abstract interface scala/collection/mutable/FlatHashTable implements scal
 
   // access flags 0x401
   public abstract seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract serializeTo(Ljava/io/ObjectOutputStream;)V
@@ -130,7 +130,7 @@ public abstract interface scala/collection/mutable/FlatHashTable implements scal
 
   // access flags 0x401
   public abstract sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract table()[Ljava/lang/Object;
@@ -143,18 +143,18 @@ public abstract interface scala/collection/mutable/FlatHashTable implements scal
 
   // access flags 0x401
   public abstract tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract table_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract threshold()I
 
   // access flags 0x401
   public abstract threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract totalSizeMapBuckets()I

@@ -21,7 +21,6 @@ abstract class Stream[+A] extends scala.collection.AbstractSeq[A] with scala.col
   final override def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
   final override def collect[B, That](pf: scala.PartialFunction[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
   final override def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): That = { /* compiled code */ }
-  private[scala] override def filterImpl(p: scala.Function1[A, scala.Boolean], isFlipped: scala.Boolean): scala.collection.immutable.Stream[A] = { /* compiled code */ }
   override def filter(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
   final override def withFilter(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream.StreamWithFilter = { /* compiled code */ }
   final class StreamWithFilter extends scala.collection.TraversableLike.WithFilter {
@@ -113,6 +112,6 @@ object Stream extends scala.collection.generic.SeqFactory[scala.collection.immut
   override def fill[A](n: scala.Int)(elem: => A): scala.collection.immutable.Stream[A] = { /* compiled code */ }
   override def tabulate[A](n: scala.Int)(f: scala.Function1[scala.Int, A]): scala.collection.immutable.Stream[A] = { /* compiled code */ }
   override def range[T](start: T, end: T, step: T)(implicit evidence$1: scala.Integral[T]): scala.collection.immutable.Stream[T] = { /* compiled code */ }
-  private[immutable] def filteredTail[A](stream: scala.collection.immutable.Stream[A], p: scala.Function1[A, scala.Boolean], isFlipped: scala.Boolean): scala.collection.immutable.Stream.Cons[A] = { /* compiled code */ }
+  private[immutable] def filteredTail[A](stream: scala.collection.immutable.Stream[A], p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.Stream.Cons[A] = { /* compiled code */ }
   private[immutable] def collectedTail[A, B, That](head: B, stream: scala.collection.immutable.Stream[A], pf: scala.PartialFunction[A, B], bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.Stream[A], B, That]): scala.collection.immutable.Stream.Cons[B] = { /* compiled code */ }
 }

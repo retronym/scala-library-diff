@@ -16,7 +16,7 @@ public abstract interface scala/util/control/Exception$Described {
 
   // access flags 0x401
   public abstract scala$util$control$Exception$Described$$_desc_$eq(Ljava/lang/String;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract toString()Ljava/lang/String;

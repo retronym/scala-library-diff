@@ -14,14 +14,14 @@ public abstract interface scala/collection/parallel/ThreadPoolTasks$WrappedTask 
 
   // access flags 0x401
   public abstract completed_$eq(Z)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract owned()Z
 
   // access flags 0x401
   public abstract owned_$eq(Z)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract release()V

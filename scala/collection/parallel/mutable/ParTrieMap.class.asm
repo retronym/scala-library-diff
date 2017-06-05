@@ -432,7 +432,7 @@ public final class scala/collection/parallel/mutable/ParTrieMap implements scala
 
   // access flags 0x1
   public _combinerTaskSupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParTrieMap._combinerTaskSupport : Lscala/collection/parallel/TaskSupport;
@@ -1596,7 +1596,7 @@ public final class scala/collection/parallel/mutable/ParTrieMap implements scala
 
   // access flags 0x1
   public scala$collection$parallel$ParIterableLike$$_tasksupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParTrieMap.scala$collection$parallel$ParIterableLike$$_tasksupport : Lscala/collection/parallel/TaskSupport;

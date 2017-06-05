@@ -19,5 +19,5 @@ public abstract interface scala/collection/mutable/HashEntry {
   // signature (TE;)V
   // declaration: void next_$eq(E)
   public abstract next_$eq(Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 }

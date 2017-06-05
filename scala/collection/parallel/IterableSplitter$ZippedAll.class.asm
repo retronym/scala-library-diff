@@ -1158,7 +1158,7 @@ public class scala/collection/parallel/IterableSplitter$ZippedAll implements sca
 
   // access flags 0x1
   public signalDelegate_$eq(Lscala/collection/generic/Signalling;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/IterableSplitter$ZippedAll.signalDelegate : Lscala/collection/generic/Signalling;

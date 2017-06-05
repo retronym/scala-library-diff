@@ -327,16 +327,6 @@ public abstract class scala/collection/TraversableViewLike$AbstractTransformed i
     MAXLOCALS = 2
 
   // access flags 0x1
-  public filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
-    ALOAD 0
-    ALOAD 1
-    ILOAD 2
-    INVOKESTATIC scala/collection/TraversableLike$class.filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
-    ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 3
-
-  // access flags 0x1
   // signature (Lscala/Function1<TB;Ljava/lang/Object;>;)Lscala/collection/TraversableView<TB;TColl;>;
   // declaration: scala.collection.TraversableView<B, Coll> filterNot(scala.Function1<B, java.lang.Object>)
   public filterNot(Lscala/Function1;)Lscala/collection/TraversableView;

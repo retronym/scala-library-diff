@@ -16,7 +16,7 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
 
   // access flags 0x401
   public abstract _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   // signature (TEntry;)V
@@ -108,7 +108,7 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
 
   // access flags 0x401
   public abstract seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   // signature (Ljava/io/ObjectOutputStream;Lscala/Function1<TEntry;Lscala/runtime/BoxedUnit;>;)V
@@ -129,7 +129,7 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
 
   // access flags 0x401
   public abstract sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   // signature ()[Lscala/collection/mutable/HashEntry<TA;TEntry;>;
@@ -144,20 +144,20 @@ public abstract interface scala/collection/mutable/HashTable implements scala/co
 
   // access flags 0x401
   public abstract tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   // signature ([Lscala/collection/mutable/HashEntry<TA;TEntry;>;)V
   // declaration: void table_$eq(scala.collection.mutable.HashEntry<A, Entry>[])
   public abstract table_$eq([Lscala/collection/mutable/HashEntry;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract threshold()I
 
   // access flags 0x401
   public abstract threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract totalSizeMapBuckets()I

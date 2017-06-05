@@ -12,7 +12,6 @@ trait TraversableLike[+A, +Repr] extends scala.Any with scala.collection.generic
   def ++:[B >: A, That](that: scala.collection.Traversable[B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
   def map[B, That](f: scala.Function1[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
   def flatMap[B, That](f: scala.Function1[A, scala.collection.GenTraversableOnce[B]])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }
-  private[scala] def filterImpl(p: scala.Function1[A, scala.Boolean], isFlipped: scala.Boolean): Repr = { /* compiled code */ }
   def filter(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
   def filterNot(p: scala.Function1[A, scala.Boolean]): Repr = { /* compiled code */ }
   def collect[B, That](pf: scala.PartialFunction[A, B])(implicit bf: scala.collection.generic.CanBuildFrom[Repr, B, That]): That = { /* compiled code */ }

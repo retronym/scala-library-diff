@@ -251,7 +251,7 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
 
   // access flags 0x1
   public _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/LinkedHashMap._loadFactor : I
@@ -920,7 +920,7 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
 
   // access flags 0x1
   public seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/LinkedHashMap.seedvalue : I
@@ -1007,7 +1007,7 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
 
   // access flags 0x1
   public sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/mutable/LinkedHashMap.sizemap : [I
@@ -1043,7 +1043,7 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
 
   // access flags 0x1
   public tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/LinkedHashMap.tableSize : I
@@ -1055,7 +1055,7 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
   // signature ([Lscala/collection/mutable/HashEntry<TA;Lscala/collection/mutable/LinkedEntry<TA;TB;>;>;)V
   // declaration: void table_$eq(scala.collection.mutable.HashEntry<A, scala.collection.mutable.LinkedEntry<A, B>>[])
   public table_$eq([Lscala/collection/mutable/HashEntry;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/mutable/LinkedHashMap.table : [Lscala/collection/mutable/HashEntry;
@@ -1081,7 +1081,7 @@ public class scala/collection/mutable/LinkedHashMap extends scala/collection/mut
 
   // access flags 0x1
   public threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/mutable/LinkedHashMap.threshold : I

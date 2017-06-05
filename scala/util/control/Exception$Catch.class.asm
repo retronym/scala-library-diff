@@ -347,7 +347,7 @@ public class scala/util/control/Exception$Catch implements scala/util/control/Ex
 
   // access flags 0x1
   public scala$util$control$Exception$Described$$_desc_$eq(Ljava/lang/String;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/util/control/Exception$Catch.scala$util$control$Exception$Described$$_desc : Ljava/lang/String;

@@ -15,7 +15,7 @@ public abstract interface scala/collection/mutable/ResizableArray implements sca
 
   // access flags 0x401
   public abstract array_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   // signature ()Lscala/collection/generic/GenericCompanion<Lscala/collection/mutable/ResizableArray;>;
@@ -52,7 +52,7 @@ public abstract interface scala/collection/mutable/ResizableArray implements sca
 
   // access flags 0x401
   public abstract size0_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
 
   // access flags 0x401
   public abstract swap(II)V

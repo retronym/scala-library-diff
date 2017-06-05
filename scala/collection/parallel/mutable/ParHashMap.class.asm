@@ -464,7 +464,7 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
 
   // access flags 0x1
   public _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMap._loadFactor : I
@@ -1993,7 +1993,7 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
 
   // access flags 0x1
   public scala$collection$parallel$ParIterableLike$$_tasksupport_$eq(Lscala/collection/parallel/TaskSupport;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMap.scala$collection$parallel$ParIterableLike$$_tasksupport : Lscala/collection/parallel/TaskSupport;
@@ -2161,7 +2161,7 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
 
   // access flags 0x1
   public seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMap.seedvalue : I
@@ -2310,7 +2310,7 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
 
   // access flags 0x1
   public sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMap.sizemap : [I
@@ -2437,7 +2437,7 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
 
   // access flags 0x1
   public tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMap.tableSize : I
@@ -2449,7 +2449,7 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
   // signature ([Lscala/collection/mutable/HashEntry<TK;Lscala/collection/mutable/DefaultEntry<TK;TV;>;>;)V
   // declaration: void table_$eq(scala.collection.mutable.HashEntry<K, scala.collection.mutable.DefaultEntry<K, V>>[])
   public table_$eq([Lscala/collection/mutable/HashEntry;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMap.table : [Lscala/collection/mutable/HashEntry;
@@ -2547,7 +2547,7 @@ public class scala/collection/parallel/mutable/ParHashMap implements scala/colle
 
   // access flags 0x1
   public threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashMap.threshold : I

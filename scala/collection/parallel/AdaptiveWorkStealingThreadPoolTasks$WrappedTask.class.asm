@@ -90,7 +90,7 @@ public class scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$Wrapp
 
   // access flags 0x1
   public completed_$eq(Z)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$WrappedTask.completed : Z
@@ -128,7 +128,7 @@ public class scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$Wrapp
   // signature (Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask<TR;TTp;>;)V
   // declaration: void next_$eq(scala.collection.parallel.AdaptiveWorkStealingTasks$WrappedTask<R, Tp>)
   public next_$eq(Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$WrappedTask.next : Lscala/collection/parallel/AdaptiveWorkStealingTasks$WrappedTask;
@@ -146,7 +146,7 @@ public class scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$Wrapp
 
   // access flags 0x1
   public owned_$eq(Z)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$WrappedTask.owned : Z
@@ -220,7 +220,7 @@ public class scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$Wrapp
 
   // access flags 0x1
   public shouldWaitFor_$eq(Z)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/AdaptiveWorkStealingThreadPoolTasks$WrappedTask.shouldWaitFor : Z

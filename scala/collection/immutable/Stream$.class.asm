@@ -204,9 +204,9 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
     MAXLOCALS = 3
 
   // access flags 0x1
-  // signature <A:Ljava/lang/Object;>(Lscala/collection/immutable/Stream<TA;>;Lscala/Function1<TA;Ljava/lang/Object;>;Z)Lscala/collection/immutable/Stream$Cons<TA;>;
-  // declaration: scala.collection.immutable.Stream$Cons<A> filteredTail<A>(scala.collection.immutable.Stream<A>, scala.Function1<A, java.lang.Object>, boolean)
-  public filteredTail(Lscala/collection/immutable/Stream;Lscala/Function1;Z)Lscala/collection/immutable/Stream$Cons;
+  // signature <A:Ljava/lang/Object;>(Lscala/collection/immutable/Stream<TA;>;Lscala/Function1<TA;Ljava/lang/Object;>;)Lscala/collection/immutable/Stream$Cons<TA;>;
+  // declaration: scala.collection.immutable.Stream$Cons<A> filteredTail<A>(scala.collection.immutable.Stream<A>, scala.Function1<A, java.lang.Object>)
+  public filteredTail(Lscala/collection/immutable/Stream;Lscala/Function1;)Lscala/collection/immutable/Stream$Cons;
     GETSTATIC scala/collection/immutable/Stream$cons$.MODULE$ : Lscala/collection/immutable/Stream$cons$;
     ALOAD 1
     INVOKEVIRTUAL scala/collection/immutable/Stream.head ()Ljava/lang/Object;
@@ -214,19 +214,18 @@ public final class scala/collection/immutable/Stream$ extends scala/collection/g
     DUP
     ALOAD 1
     ALOAD 2
-    ILOAD 3
-    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$filteredTail$1.<init> (Lscala/collection/immutable/Stream;Lscala/Function1;Z)V
-    ASTORE 6
+    INVOKESPECIAL scala/collection/immutable/Stream$$anonfun$filteredTail$1.<init> (Lscala/collection/immutable/Stream;Lscala/Function1;)V
     ASTORE 5
     ASTORE 4
+    ASTORE 3
     NEW scala/collection/immutable/Stream$Cons
     DUP
+    ALOAD 4
     ALOAD 5
-    ALOAD 6
     INVOKESPECIAL scala/collection/immutable/Stream$Cons.<init> (Ljava/lang/Object;Lscala/Function0;)V
     ARETURN
-    MAXSTACK = 7
-    MAXLOCALS = 7
+    MAXSTACK = 6
+    MAXLOCALS = 6
 
   // access flags 0x1
   // signature (II)Lscala/collection/immutable/Stream<Ljava/lang/Object;>;

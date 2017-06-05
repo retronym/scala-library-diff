@@ -116,7 +116,7 @@ public final class scala/collection/mutable/LinkedEntry implements scala/collect
 
   // access flags 0x1
   public next_$eq(Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/mutable/LinkedEntry.next : Ljava/lang/Object;

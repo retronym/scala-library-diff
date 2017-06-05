@@ -84,7 +84,7 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 
 
   // access flags 0x1
   public _loadFactor_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2._loadFactor : I
@@ -340,7 +340,7 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 
 
   // access flags 0x1
   public seedvalue_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2.seedvalue : I
@@ -408,7 +408,7 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 
 
   // access flags 0x1
   public sizemap_$eq([I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2.sizemap : [I
@@ -442,7 +442,7 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 
 
   // access flags 0x1
   public tableSize_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2.tableSize : I
@@ -452,7 +452,7 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 
 
   // access flags 0x1
   public table_$eq([Ljava/lang/Object;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2.table : [Ljava/lang/Object;
@@ -470,7 +470,7 @@ public final class scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2 
 
   // access flags 0x1
   public threshold_$eq(I)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ILOAD 1
     PUTFIELD scala/collection/parallel/mutable/ParHashSetCombiner$$anon$2.threshold : I

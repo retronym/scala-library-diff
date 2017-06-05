@@ -1170,7 +1170,7 @@ public class scala/collection/parallel/immutable/ParHashSet$ParHashSetIterator i
 
   // access flags 0x1
   public signalDelegate_$eq(Lscala/collection/generic/Signalling;)V
-  @Lscala/runtime/TraitSetter;() // invisible
+  @Lscala/runtime/TraitSetter;()
     ALOAD 0
     ALOAD 1
     PUTFIELD scala/collection/parallel/immutable/ParHashSet$ParHashSetIterator.signalDelegate : Lscala/collection/generic/Signalling;

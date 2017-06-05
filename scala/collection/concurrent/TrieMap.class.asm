@@ -1301,16 +1301,6 @@ public final class scala/collection/concurrent/TrieMap implements scala/collecti
     MAXLOCALS = 2
 
   // access flags 0x1
-  public filterImpl(Lscala/Function1;Z)Ljava/lang/Object;
-    ALOAD 0
-    ALOAD 1
-    ILOAD 2
-    INVOKESTATIC scala/collection/TraversableLike$class.filterImpl (Lscala/collection/TraversableLike;Lscala/Function1;Z)Ljava/lang/Object;
-    ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 3
-
-  // access flags 0x1
   // signature (Lscala/Function1<TK;Ljava/lang/Object;>;)Lscala/collection/Map<TK;TV;>;
   // declaration: scala.collection.Map<K, V> filterKeys(scala.Function1<K, java.lang.Object>)
   public filterKeys(Lscala/Function1;)Lscala/collection/Map;
