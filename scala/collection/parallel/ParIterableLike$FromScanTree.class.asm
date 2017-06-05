@@ -147,6 +147,8 @@ public class scala/collection/parallel/ParIterableLike$FromScanTree implements s
     ALOAD 2
     INVOKEINTERFACE scala/collection/parallel/IterableSplitter.scanToCombiner (ILjava/lang/Object;Lscala/Function2;Lscala/collection/parallel/Combiner;)Lscala/collection/parallel/Combiner;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L2
     ILOAD 5
@@ -172,7 +174,11 @@ public class scala/collection/parallel/ParIterableLike$FromScanTree implements s
     ALOAD 2
     INVOKEINTERFACE scala/collection/parallel/IterableSplitter.scanToCombiner (ILjava/lang/Object;Lscala/Function2;Lscala/collection/parallel/Combiner;)Lscala/collection/parallel/Combiner;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L4
     NEW scala/MatchError

@@ -109,6 +109,8 @@ public final class scala/MatchError extends java/lang/RuntimeException  {
     ICONST_1
     PUTFIELD scala/MatchError.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

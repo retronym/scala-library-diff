@@ -35,6 +35,8 @@ public abstract class scala/collection/generic/Growable$class {
     ALOAD 0
     ALOAD 2
     INVOKESTATIC scala/collection/generic/Growable$class.loop$1 (Lscala/collection/generic/Growable;Lscala/collection/LinearSeq;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L0
     ALOAD 1
@@ -43,6 +45,8 @@ public abstract class scala/collection/generic/Growable$class {
     ALOAD 0
     INVOKESPECIAL scala/collection/generic/Growable$$anonfun$$plus$plus$eq$1.<init> (Lscala/collection/generic/Growable;)V
     INVOKEINTERFACE scala/collection/TraversableOnce.foreach (Lscala/Function1;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L1
     ALOAD 0
     ARETURN
@@ -68,6 +72,8 @@ public abstract class scala/collection/generic/Growable$class {
     ASTORE 0
     GOTO L0
    L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
     MAXSTACK = 2
     MAXLOCALS = 2

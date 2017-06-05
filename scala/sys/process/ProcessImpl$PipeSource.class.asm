@@ -74,6 +74,10 @@ public class scala/sys/process/ProcessImpl$PipeSource extends scala/sys/process/
     ALOAD 0
     GETFIELD scala/sys/process/ProcessImpl$PipeSource.pipe : Ljava/io/PipedOutputStream;
     INVOKEVIRTUAL scala/sys/process/BasicIO$.close (Ljava/io/Closeable;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L5
     NEW scala/MatchError

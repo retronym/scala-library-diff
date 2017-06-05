@@ -187,6 +187,8 @@ public final class scala/collection/immutable/StreamViewLike$$anon$7 extends sca
     ICONST_1
     PUTFIELD scala/collection/immutable/StreamViewLike$$anon$7.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

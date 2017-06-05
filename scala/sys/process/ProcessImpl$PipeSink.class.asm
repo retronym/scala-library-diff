@@ -70,6 +70,10 @@ public class scala/sys/process/ProcessImpl$PipeSink extends scala/sys/process/Pr
     ALOAD 0
     GETFIELD scala/sys/process/ProcessImpl$PipeSink.currentSink : Lscala/concurrent/SyncVar;
     INVOKEVIRTUAL scala/concurrent/SyncVar.unset ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L5
     NEW scala/MatchError

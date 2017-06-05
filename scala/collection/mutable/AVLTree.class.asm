@@ -1,5 +1,6 @@
 // class version 50.0 (50)
-// access flags 0x601
+// DEPRECATED
+// access flags 0x20601
 // signature <A:Ljava/lang/Object;>Ljava/lang/Object;Lscala/Serializable;
 // declaration: scala/collection/mutable/AVLTree<A> extends scala.Serializable
 public abstract interface scala/collection/mutable/AVLTree implements scala/Serializable  {

@@ -251,6 +251,8 @@ public class scala/collection/parallel/immutable/ParHashSet implements scala/col
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanLeaf$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/immutable/ParHashSet.ScanLeaf$module : Lscala/collection/parallel/ParIterableLike$ScanLeaf$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -302,6 +304,8 @@ public class scala/collection/parallel/immutable/ParHashSet implements scala/col
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanNode$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/immutable/ParHashSet.ScanNode$module : Lscala/collection/parallel/ParIterableLike$ScanNode$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -191,6 +191,8 @@ public class scala/util/matching/Regex$Match implements scala/util/matching/Rege
     I2B
     PUTFIELD scala/util/matching/Regex$Match.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -319,6 +321,8 @@ public class scala/util/matching/Regex$Match implements scala/util/matching/Rege
     I2B
     PUTFIELD scala/util/matching/Regex$Match.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -422,6 +426,8 @@ public class scala/util/matching/Regex$Match implements scala/util/matching/Rege
     I2B
     PUTFIELD scala/util/matching/Regex$Match.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -42,6 +42,10 @@ public class scala/collection/mutable/RevertibleHistory extends scala/collection
     INVOKEVIRTUAL scala/Tuple2._2 ()Ljava/lang/Object;
     CHECKCAST scala/collection/mutable/Undoable
     INVOKEINTERFACE scala/collection/mutable/Undoable.undo ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List

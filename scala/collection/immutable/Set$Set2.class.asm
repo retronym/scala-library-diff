@@ -599,7 +599,6 @@ public class scala/collection/immutable/Set$Set2 extends scala/collection/Abstra
   // declaration: scala.collection.immutable.Set<B> toSet<B>()
   public toSet()Lscala/collection/immutable/Set;
     ALOAD 0
-    INVOKESTATIC scala/collection/immutable/Set$class.toSet (Lscala/collection/immutable/Set;)Lscala/collection/immutable/Set;
     ARETURN
     MAXSTACK = 1
     MAXLOCALS = 1

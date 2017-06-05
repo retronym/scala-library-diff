@@ -276,14 +276,6 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     ILOAD 1
     INVOKESPECIAL scala/collection/Iterator$GroupedIterator.takeDestructively (I)Lscala/collection/Seq;
     ASTORE 3
-    ALOAD 0
-    GETFIELD scala/collection/Iterator$GroupedIterator.scala$collection$Iterator$GroupedIterator$$pad : Lscala/Option;
-    INVOKEVIRTUAL scala/Option.isDefined ()Z
-    IFEQ L0
-    ALOAD 0
-    GETFIELD scala/collection/Iterator$GroupedIterator.self : Lscala/collection/Iterator;
-    INVOKEINTERFACE scala/collection/Iterator.hasNext ()Z
-    IFNE L0
     ILOAD 1
     ALOAD 3
     INVOKEINTERFACE scala/collection/Seq.length ()I
@@ -291,7 +283,11 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     ISTORE 2
     ILOAD 2
     ICONST_0
-    IF_ICMPLE L1
+    IF_ICMPLE L0
+    ALOAD 0
+    GETFIELD scala/collection/Iterator$GroupedIterator.scala$collection$Iterator$GroupedIterator$$pad : Lscala/Option;
+    INVOKEVIRTUAL scala/Option.isDefined ()Z
+    IFEQ L0
     ALOAD 3
     ALOAD 0
     ILOAD 2
@@ -300,23 +296,20 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     INVOKEVIRTUAL scala/collection/Seq$.canBuildFrom ()Lscala/collection/generic/CanBuildFrom;
     INVOKEINTERFACE scala/collection/Seq.$plus$plus (Lscala/collection/GenTraversableOnce;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;
     CHECKCAST scala/collection/Seq
-    GOTO L2
-   L1
-    ALOAD 3
-    GOTO L2
+    GOTO L1
    L0
     ALOAD 3
-   L2
+   L1
     ASTORE 10
     ALOAD 10
     INVOKEINTERFACE scala/collection/Seq.isEmpty ()Z
-    IFEQ L3
+    IFEQ L2
     ICONST_0
-    GOTO L4
-   L3
+    GOTO L3
+   L2
     ALOAD 0
     GETFIELD scala/collection/Iterator$GroupedIterator._partial : Z
-    IFEQ L5
+    IFEQ L4
     ALOAD 0
     GETSTATIC scala/runtime/RichInt$.MODULE$ : Lscala/runtime/RichInt$;
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -336,8 +329,8 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     ALOAD 11
     ALOAD 12
     INVOKESPECIAL scala/collection/Iterator$GroupedIterator.deliver$1 (IILscala/collection/Seq;Lscala/runtime/IntRef;Lscala/runtime/VolatileByteRef;)Z
-    GOTO L4
-   L5
+    GOTO L3
+   L4
     ALOAD 0
     ILOAD 1
     ALOAD 10
@@ -345,14 +338,14 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     ALOAD 6
     ALOAD 12
     INVOKESPECIAL scala/collection/Iterator$GroupedIterator.incomplete$1 (ILscala/collection/Seq;Lscala/runtime/IntRef;Lscala/runtime/BooleanRef;Lscala/runtime/VolatileByteRef;)Z
-    IFEQ L6
+    IFEQ L5
     ICONST_0
-    GOTO L4
-   L6
+    GOTO L3
+   L5
     ALOAD 0
     ILOAD 9
     INVOKESPECIAL scala/collection/Iterator$GroupedIterator.isFirst$1 (I)Z
-    IFEQ L7
+    IFEQ L6
     ALOAD 0
     ALOAD 0
     ALOAD 10
@@ -364,8 +357,8 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     ALOAD 11
     ALOAD 12
     INVOKESPECIAL scala/collection/Iterator$GroupedIterator.deliver$1 (IILscala/collection/Seq;Lscala/runtime/IntRef;Lscala/runtime/VolatileByteRef;)Z
-    GOTO L4
-   L7
+    GOTO L3
+   L6
     ALOAD 0
     GETSTATIC scala/runtime/RichInt$.MODULE$ : Lscala/runtime/RichInt$;
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -382,7 +375,7 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     ALOAD 11
     ALOAD 12
     INVOKESPECIAL scala/collection/Iterator$GroupedIterator.deliver$1 (IILscala/collection/Seq;Lscala/runtime/IntRef;Lscala/runtime/VolatileByteRef;)Z
-   L4
+   L3
     IRETURN
     MAXSTACK = 7
     MAXLOCALS = 13
@@ -467,6 +460,8 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     I2B
     PUTFIELD scala/runtime/VolatileByteRef.elem : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -544,6 +539,8 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     I2B
     PUTFIELD scala/runtime/VolatileByteRef.elem : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -563,14 +560,18 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
   public next()Lscala/collection/immutable/List;
     ALOAD 0
     GETFIELD scala/collection/Iterator$GroupedIterator.filled : Z
-    IFNE L0
-    ALOAD 0
-    INVOKESPECIAL scala/collection/Iterator$GroupedIterator.fill ()Z
-    POP
+    IFEQ L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L1
    L0
     ALOAD 0
+    INVOKESPECIAL scala/collection/Iterator$GroupedIterator.fill ()Z
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToBoolean (Z)Ljava/lang/Boolean;
+   L1
+    POP
+    ALOAD 0
     GETFIELD scala/collection/Iterator$GroupedIterator.filled : Z
-    IFEQ L1
+    IFEQ L2
     ALOAD 0
     ICONST_0
     PUTFIELD scala/collection/Iterator$GroupedIterator.filled : Z
@@ -578,7 +579,7 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     GETFIELD scala/collection/Iterator$GroupedIterator.buffer : Lscala/collection/mutable/ArrayBuffer;
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.toList ()Lscala/collection/immutable/List;
     ARETURN
-   L1
+   L2
     NEW java/util/NoSuchElementException
     DUP
     LDC "next on empty iterator"
@@ -630,13 +631,13 @@ public class scala/collection/Iterator$GroupedIterator extends scala/collection/
     ICONST_0
     ISTORE 3
    L0
+    ILOAD 3
+    ILOAD 1
+    IF_ICMPGE L1
     ALOAD 0
     GETFIELD scala/collection/Iterator$GroupedIterator.self : Lscala/collection/Iterator;
     INVOKEINTERFACE scala/collection/Iterator.hasNext ()Z
     IFEQ L1
-    ILOAD 3
-    ILOAD 1
-    IF_ICMPGE L1
     ALOAD 2
     ALOAD 0
     GETFIELD scala/collection/Iterator$GroupedIterator.self : Lscala/collection/Iterator;

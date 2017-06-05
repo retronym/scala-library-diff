@@ -567,13 +567,19 @@ public abstract class scala/collection/immutable/LongMap extends scala/collectio
     INVOKESPECIAL scala/Tuple2.<init> (Ljava/lang/Object;Ljava/lang/Object;)V
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L2
     GETSTATIC scala/collection/immutable/LongMap$Nil$.MODULE$ : Lscala/collection/immutable/LongMap$Nil$;
     ALOAD 0
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
     IFEQ L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L4
     NEW scala/MatchError
@@ -614,13 +620,19 @@ public abstract class scala/collection/immutable/LongMap extends scala/collectio
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/LongMap$Tip.key ()J
     INVOKEINTERFACE scala/Function1.apply$mcVJ$sp (J)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L2
     GETSTATIC scala/collection/immutable/LongMap$Nil$.MODULE$ : Lscala/collection/immutable/LongMap$Nil$;
     ALOAD 0
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
     IFEQ L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L4
     NEW scala/MatchError
@@ -669,7 +681,11 @@ public abstract class scala/collection/immutable/LongMap extends scala/collectio
     ALOAD 0
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
     IFEQ L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L4
     NEW scala/MatchError

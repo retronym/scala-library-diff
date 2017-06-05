@@ -869,6 +869,8 @@ public abstract class scala/collection/TraversableLike$class {
     ALOAD 15
     INVOKESPECIAL scala/collection/immutable/$colon$colon.<init> (Ljava/lang/Object;Lscala/collection/immutable/List;)V
     PUTFIELD scala/runtime/ObjectRef.elem : Ljava/lang/Object;
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 16
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List

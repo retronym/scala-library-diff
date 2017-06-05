@@ -2787,6 +2787,8 @@ public final class scala/collection/immutable/Stream$$anon$1 implements scala/co
     ICONST_1
     PUTFIELD scala/collection/immutable/Stream$$anon$1.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -264,7 +264,11 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     ALOAD 1
     ALOAD 2
     INVOKEVIRTUAL scala/concurrent/impl/Promise$DefaultPromise.tryComplete (Lscala/util/Try;)Z
-    IFNE L1
+    IFEQ L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L4
+   L3
     NEW java/lang/IllegalStateException
     DUP
     LDC "Cannot link completed promises together"
@@ -273,15 +277,15 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
    L2
     ALOAD 7
     INSTANCEOF scala/concurrent/impl/Promise$DefaultPromise
-    IFEQ L3
+    IFEQ L5
     ALOAD 0
     INVOKESPECIAL scala/concurrent/impl/Promise$DefaultPromise.compressedRoot ()Lscala/concurrent/impl/Promise$DefaultPromise;
     ASTORE 0
     GOTO L0
-   L3
+   L5
     ALOAD 7
     INSTANCEOF scala/collection/immutable/List
-    IFEQ L4
+    IFEQ L6
     ALOAD 7
     CHECKCAST scala/collection/immutable/List
     ASTORE 3
@@ -292,13 +296,23 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     IFEQ L0
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.isEmpty ()Z
-    IFNE L1
+    IFEQ L7
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L4
+   L7
     ALOAD 3
     ASTORE 6
-   L5
+   L8
     ALOAD 6
     INVOKEVIRTUAL scala/collection/immutable/List.isEmpty ()Z
-    IFNE L1
+    IFEQ L9
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L10
+   L9
     ALOAD 6
     INVOKEVIRTUAL scala/collection/immutable/List.head ()Ljava/lang/Object;
     CHECKCAST scala/concurrent/impl/CallbackRunnable
@@ -306,18 +320,23 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     ALOAD 1
     ALOAD 5
     INVOKEVIRTUAL scala/concurrent/impl/Promise$DefaultPromise.scala$concurrent$impl$Promise$DefaultPromise$$dispatchOrAddCallback (Lscala/concurrent/impl/CallbackRunnable;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 6
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List
     ASTORE 6
-    GOTO L5
-   L4
+    GOTO L8
+   L6
     NEW scala/MatchError
     DUP
     ALOAD 7
     INVOKESPECIAL scala/MatchError.<init> (Ljava/lang/Object;)V
     ATHROW
    L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L10
+    POP
     RETURN
     MAXSTACK = 3
     MAXLOCALS = 8
@@ -519,6 +538,8 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     ALOAD 1
     ALOAD 2
     INVOKEVIRTUAL scala/concurrent/impl/CallbackRunnable.executeWithValue (Lscala/util/Try;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L2
    L1
     ALOAD 4
@@ -542,7 +563,11 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     INVOKEVIRTUAL scala/collection/immutable/List.$colon$colon (Ljava/lang/Object;)Lscala/collection/immutable/List;
     INVOKEVIRTUAL scala/concurrent/impl/Promise$DefaultPromise.updateState (Ljava/lang/Object;Ljava/lang/Object;)Z
     IFEQ L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L4
     NEW scala/MatchError
@@ -619,6 +644,8 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     ALOAD 2
     ICONST_1
     INVOKEVIRTUAL scala/concurrent/impl/Promise$CompletionLatch.acquireSharedInterruptibly (I)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L6
    L5
     GETSTATIC scala/concurrent/duration/Duration$.MODULE$ : Lscala/concurrent/duration/Duration$;
@@ -627,16 +654,20 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     IFNONNULL L7
     POP
     ALOAD 1
-    IFNULL L6
-    GOTO L8
+    IFNULL L8
+    GOTO L9
    L7
     ALOAD 1
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-    IFNE L6
+    IFEQ L9
    L8
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L6
+   L9
     ALOAD 1
     INSTANCEOF scala/concurrent/duration/FiniteDuration
-    IFEQ L9
+    IFEQ L10
     ALOAD 1
     CHECKCAST scala/concurrent/duration/FiniteDuration
     ASTORE 4
@@ -644,7 +675,7 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     GETSTATIC scala/concurrent/duration/Duration$.MODULE$ : Lscala/concurrent/duration/Duration$;
     INVOKEVIRTUAL scala/concurrent/duration/Duration$.Zero ()Lscala/concurrent/duration/FiniteDuration;
     INVOKEVIRTUAL scala/concurrent/duration/FiniteDuration.$greater (Ljava/lang/Object;)Z
-    IFEQ L6
+    IFEQ L11
     NEW scala/concurrent/impl/Promise$CompletionLatch
     DUP
     INVOKESPECIAL scala/concurrent/impl/Promise$CompletionLatch.<init> ()V
@@ -659,12 +690,16 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     INVOKEVIRTUAL scala/concurrent/duration/FiniteDuration.toNanos ()J
     INVOKEVIRTUAL scala/concurrent/impl/Promise$CompletionLatch.tryAcquireSharedNanos (IJ)Z
     POP
+    GOTO L6
+   L11
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L6
     ALOAD 0
     INVOKEVIRTUAL scala/concurrent/impl/Promise$DefaultPromise.isCompleted ()Z
    L1
     IRETURN
-   L9
+   L10
     NEW scala/MatchError
     DUP
     ALOAD 1
@@ -715,6 +750,8 @@ public class scala/concurrent/impl/Promise$DefaultPromise extends scala/concurre
     CHECKCAST scala/concurrent/impl/CallbackRunnable
     ALOAD 6
     INVOKEVIRTUAL scala/concurrent/impl/CallbackRunnable.executeWithValue (Lscala/util/Try;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 7
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List

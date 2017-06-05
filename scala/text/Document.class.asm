@@ -390,7 +390,10 @@ public abstract class scala/text/Document {
     ICONST_0
     INVOKEINTERFACE scala/collection/LinearSeqOptimized.lengthCompare (I)I
     ICONST_0
-    IF_ICMPEQ L2
+    IF_ICMPNE L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L2
    L1
     ALOAD 2
     INSTANCEOF scala/collection/immutable/$colon$colon
@@ -623,16 +626,16 @@ public abstract class scala/text/Document {
     GOTO L0
    L8
     ILOAD 12
-    IFEQ L2
+    IFEQ L9
     ALOAD 16
     INVOKEVIRTUAL scala/collection/immutable/$colon$colon.head ()Ljava/lang/Object;
-    IFNULL L2
+    IFNULL L9
     ALOAD 16
     INVOKEVIRTUAL scala/collection/immutable/$colon$colon.head ()Ljava/lang/Object;
     CHECKCAST scala/Tuple3
     INVOKEVIRTUAL scala/Tuple3._3 ()Ljava/lang/Object;
     INSTANCEOF scala/text/DocGroup
-    IFEQ L2
+    IFEQ L9
     ALOAD 16
     INVOKEVIRTUAL scala/collection/immutable/$colon$colon.head ()Ljava/lang/Object;
     CHECKCAST scala/Tuple3
@@ -669,12 +672,12 @@ public abstract class scala/text/Document {
     CHECKCAST scala/Tuple3
     INVOKEVIRTUAL scala/Tuple3._1 ()Ljava/lang/Object;
     ILOAD 14
-    IFEQ L9
+    IFEQ L10
     ICONST_0
-    GOTO L10
-   L9
-    ICONST_1
+    GOTO L11
    L10
+    ICONST_1
+   L11
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToBoolean (Z)Ljava/lang/Boolean;
     ALOAD 15
     INVOKEVIRTUAL scala/text/DocGroup.doc ()Lscala/text/Document;
@@ -687,7 +690,12 @@ public abstract class scala/text/Document {
     ASTORE 2
     ISTORE 1
     GOTO L0
+   L9
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
     MAXSTACK = 7
     MAXLOCALS = 18

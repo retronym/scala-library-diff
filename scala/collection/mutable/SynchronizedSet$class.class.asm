@@ -21,6 +21,8 @@ public abstract class scala/collection/mutable/SynchronizedSet$class {
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/SynchronizedSet.scala$collection$mutable$SynchronizedSet$$super$$less$less (Lscala/collection/script/Message;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -166,6 +168,8 @@ public abstract class scala/collection/mutable/SynchronizedSet$class {
    L0
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/SynchronizedSet.scala$collection$mutable$SynchronizedSet$$super$clear ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -236,6 +240,8 @@ public abstract class scala/collection/mutable/SynchronizedSet$class {
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/SynchronizedSet.scala$collection$mutable$SynchronizedSet$$super$foreach (Lscala/Function1;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -330,6 +336,8 @@ public abstract class scala/collection/mutable/SynchronizedSet$class {
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/SynchronizedSet.scala$collection$mutable$SynchronizedSet$$super$retain (Lscala/Function1;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -448,6 +456,8 @@ public abstract class scala/collection/mutable/SynchronizedSet$class {
     ALOAD 1
     ILOAD 2
     INVOKEINTERFACE scala/collection/mutable/SynchronizedSet.scala$collection$mutable$SynchronizedSet$$super$update (Ljava/lang/Object;Z)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

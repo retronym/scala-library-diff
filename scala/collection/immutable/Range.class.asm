@@ -689,49 +689,61 @@ public class scala/collection/immutable/Range extends scala/collection/AbstractS
     IFEQ L1
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Range.isEmpty ()Z
-    IFNE L2
+    IFEQ L2
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/immutable/Range.isEmpty ()Z
+    GOTO L3
+   L2
+    ALOAD 3
+    INVOKEVIRTUAL scala/collection/immutable/Range.nonEmpty ()Z
+    IFEQ L4
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Range.start ()I
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/Range.start ()I
-    IF_ICMPNE L1
+    IF_ICMPNE L4
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Range.last ()I
     ISTORE 2
     ILOAD 2
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/Range.last ()I
-    IF_ICMPNE L3
+    IF_ICMPNE L5
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Range.start ()I
     ILOAD 2
-    IF_ICMPEQ L4
+    IF_ICMPEQ L6
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Range.step ()I
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/Range.step ()I
-    IF_ICMPNE L3
-   L4
+    IF_ICMPNE L5
+   L6
     ICONST_1
-    GOTO L5
-   L3
-    ICONST_0
+    GOTO L7
    L5
-    IFEQ L1
-   L2
+    ICONST_0
+   L7
+    IFEQ L4
     ICONST_1
-    GOTO L6
+    GOTO L3
+   L4
+    ICONST_0
+   L3
+    IFEQ L1
+    ICONST_1
+    GOTO L8
    L1
     ICONST_0
-   L6
+   L8
     ISTORE 4
-    GOTO L7
+    GOTO L9
    L0
     ALOAD 0
     ALOAD 1
     INVOKESTATIC scala/collection/GenSeqLike$class.equals (Lscala/collection/GenSeqLike;Ljava/lang/Object;)Z
     ISTORE 4
-   L7
+   L9
     ILOAD 4
     IRETURN
     MAXSTACK = 2

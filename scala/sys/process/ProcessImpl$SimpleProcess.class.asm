@@ -77,6 +77,8 @@ public class scala/sys/process/ProcessImpl$SimpleProcess implements scala/sys/pr
     ASTORE 3
     ALOAD 3
     INVOKEVIRTUAL java/lang/Thread.interrupt ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 4
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List
@@ -120,6 +122,8 @@ public class scala/sys/process/ProcessImpl$SimpleProcess implements scala/sys/pr
     INVOKEVIRTUAL scala/collection/immutable/List.head ()Ljava/lang/Object;
     CHECKCAST java/lang/Thread
     INVOKEVIRTUAL java/lang/Thread.join ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 3
     INVOKEVIRTUAL scala/collection/immutable/List.tail ()Ljava/lang/Object;
     CHECKCAST scala/collection/immutable/List

@@ -63,6 +63,8 @@ public abstract class scala/concurrent/BatchingExecutor$class {
     INVOKEVIRTUAL scala/collection/immutable/List$.apply (Lscala/collection/Seq;)Lscala/collection/immutable/List;
     INVOKESPECIAL scala/concurrent/BatchingExecutor$Batch.<init> (Lscala/concurrent/BatchingExecutor;Lscala/collection/immutable/List;)V
     INVOKEINTERFACE scala/concurrent/BatchingExecutor.unbatchedExecute (Ljava/lang/Runnable;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L2
    L1
     ALOAD 0
@@ -71,6 +73,8 @@ public abstract class scala/concurrent/BatchingExecutor$class {
     ALOAD 1
     INVOKEVIRTUAL scala/collection/immutable/List.$colon$colon (Ljava/lang/Object;)Lscala/collection/immutable/List;
     INVOKEVIRTUAL java/lang/ThreadLocal.set (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L2
    L0
     ALOAD 0

@@ -14,6 +14,8 @@ class ListSet[A] extends scala.collection.AbstractSet[A] with scala.collection.i
   override def head: A = { /* compiled code */ }
   override def tail: scala.collection.immutable.ListSet[A] = { /* compiled code */ }
   override def stringPrefix: java.lang.String = { /* compiled code */ }
+  @scala.deprecatedOverriding("Immutable sets should do nothing on toSet but return themselves cast as a Set.")
+  override def toSet[B >: A]: scala.collection.immutable.Set[B] = { /* compiled code */ }
   protected class Node extends scala.collection.immutable.ListSet[A] with scala.Serializable {
     override val head: A = { /* compiled code */ }
     def this(head: A) = { /* compiled code */ }

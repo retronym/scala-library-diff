@@ -189,6 +189,8 @@ public abstract class scala/Enumeration implements scala/Serializable  {
     INVOKESPECIAL scala/Enumeration$ValueOrdering$.<init> (Lscala/Enumeration;)V
     PUTFIELD scala/Enumeration.ValueOrdering$module : Lscala/Enumeration$ValueOrdering$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -236,6 +238,8 @@ public abstract class scala/Enumeration implements scala/Serializable  {
     INVOKESPECIAL scala/Enumeration$ValueSet$.<init> (Lscala/Enumeration;)V
     PUTFIELD scala/Enumeration.ValueSet$module : Lscala/Enumeration$ValueSet$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

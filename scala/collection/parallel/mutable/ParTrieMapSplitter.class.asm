@@ -744,6 +744,8 @@ public class scala/collection/parallel/mutable/ParTrieMapSplitter extends scala/
     ICONST_1
     PUTFIELD scala/collection/parallel/mutable/ParTrieMapSplitter.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -38,8 +38,6 @@ public class scala/collection/Searching$SearchImpl {
    L0
     ILOAD 3
     ILOAD 2
-    ISUB
-    ICONST_1
     IF_ICMPNE L1
     NEW scala/collection/Searching$InsertionPoint
     DUP
@@ -50,6 +48,8 @@ public class scala/collection/Searching$SearchImpl {
     ILOAD 2
     ILOAD 3
     ILOAD 2
+    ISUB
+    ICONST_1
     ISUB
     ICONST_2
     IDIV
@@ -80,6 +80,8 @@ public class scala/collection/Searching$SearchImpl {
    L4
     ALOAD 1
     ILOAD 6
+    ICONST_1
+    IADD
     ISTORE 2
     ASTORE 1
     GOTO L0
@@ -139,8 +141,6 @@ public class scala/collection/Searching$SearchImpl {
     NEW scala/collection/Searching$InsertionPoint
     DUP
     ILOAD 5
-    ICONST_1
-    ISUB
     INVOKESPECIAL scala/collection/Searching$InsertionPoint.<init> (I)V
     ARETURN
    L3
@@ -155,7 +155,7 @@ public class scala/collection/Searching$SearchImpl {
     ILOAD 5
     INVOKESPECIAL scala/collection/Searching$InsertionPoint.<init> (I)V
     ARETURN
-    MAXSTACK = 4
+    MAXSTACK = 3
     MAXLOCALS = 8
 
   // access flags 0x11
@@ -170,7 +170,7 @@ public class scala/collection/Searching$SearchImpl {
     IFEQ L0
     ALOAD 0
     ALOAD 1
-    ICONST_M1
+    ICONST_0
     ALOAD 0
     INVOKEVIRTUAL scala/collection/Searching$SearchImpl.coll ()Lscala/collection/SeqLike;
     INVOKEINTERFACE scala/collection/SeqLike.length ()I
@@ -207,8 +207,6 @@ public class scala/collection/Searching$SearchImpl {
     ALOAD 0
     ALOAD 1
     ILOAD 2
-    ICONST_1
-    ISUB
     ILOAD 3
     ALOAD 4
     INVOKESPECIAL scala/collection/Searching$SearchImpl.binarySearch (Ljava/lang/Object;IILscala/math/Ordering;)Lscala/collection/Searching$SearchResult;

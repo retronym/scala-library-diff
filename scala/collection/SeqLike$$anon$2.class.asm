@@ -2668,6 +2668,8 @@ public final class scala/collection/SeqLike$$anon$2 implements scala/collection/
     ICONST_1
     PUTFIELD scala/collection/SeqLike$$anon$2.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

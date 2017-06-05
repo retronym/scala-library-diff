@@ -198,6 +198,8 @@ public final class scala/collection/immutable/NumericRange$$anon$1 extends scala
     ICONST_1
     PUTFIELD scala/collection/immutable/NumericRange$$anon$1.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

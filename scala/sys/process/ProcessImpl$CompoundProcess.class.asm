@@ -114,6 +114,8 @@ public abstract class scala/sys/process/ProcessImpl$CompoundProcess extends scal
     I2B
     PUTFIELD scala/sys/process/ProcessImpl$CompoundProcess.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -203,6 +205,8 @@ public abstract class scala/sys/process/ProcessImpl$CompoundProcess extends scal
     I2B
     PUTFIELD scala/sys/process/ProcessImpl$CompoundProcess.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -425,6 +429,8 @@ public abstract class scala/sys/process/ProcessImpl$CompoundProcess extends scal
     I2B
     PUTFIELD scala/sys/process/ProcessImpl$CompoundProcess.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

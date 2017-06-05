@@ -72,6 +72,8 @@ public class scala/language$experimental$ {
     ICONST_1
     PUTFIELD scala/language$experimental$.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

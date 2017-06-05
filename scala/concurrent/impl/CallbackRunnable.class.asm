@@ -79,6 +79,8 @@ public class scala/concurrent/impl/CallbackRunnable implements java/lang/Runnabl
     INVOKEVIRTUAL scala/Option.get ()Ljava/lang/Object;
     CHECKCAST java/lang/Throwable
     INVOKEINTERFACE scala/concurrent/ExecutionContext.reportFailure (Ljava/lang/Throwable;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L4
     RETURN
     MAXSTACK = 2
@@ -141,6 +143,8 @@ public class scala/concurrent/impl/CallbackRunnable implements java/lang/Runnabl
     INVOKEVIRTUAL scala/Option.get ()Ljava/lang/Object;
     CHECKCAST java/lang/Throwable
     INVOKEINTERFACE scala/concurrent/ExecutionContext.reportFailure (Ljava/lang/Throwable;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L4
     RETURN
     MAXSTACK = 2

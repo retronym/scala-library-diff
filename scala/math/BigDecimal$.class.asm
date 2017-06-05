@@ -458,6 +458,8 @@ public final class scala/math/BigDecimal$ implements scala/Serializable  {
     ICONST_1
     PUTFIELD scala/math/BigDecimal$.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

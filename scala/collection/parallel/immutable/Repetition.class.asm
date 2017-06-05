@@ -193,6 +193,8 @@ public class scala/collection/parallel/immutable/Repetition implements scala/col
     INVOKESPECIAL scala/collection/parallel/immutable/Repetition$ParIterator$.<init> (Lscala/collection/parallel/immutable/Repetition;)V
     PUTFIELD scala/collection/parallel/immutable/Repetition.ParIterator$module : Lscala/collection/parallel/immutable/Repetition$ParIterator$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -244,6 +246,8 @@ public class scala/collection/parallel/immutable/Repetition implements scala/col
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanLeaf$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/immutable/Repetition.ScanLeaf$module : Lscala/collection/parallel/ParIterableLike$ScanLeaf$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -295,6 +299,8 @@ public class scala/collection/parallel/immutable/Repetition implements scala/col
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanNode$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/immutable/Repetition.ScanNode$module : Lscala/collection/parallel/ParIterableLike$ScanNode$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

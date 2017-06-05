@@ -260,7 +260,13 @@ public final class scala/collection/concurrent/INode extends scala/collection/co
     ALOAD 2
     INVOKEVIRTUAL scala/collection/concurrent/INode.GCAS (Lscala/collection/concurrent/MainNode;Lscala/collection/concurrent/MainNode;Lscala/collection/concurrent/TrieMap;)Z
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L1
    L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L1
     RETURN
     MAXSTACK = 6
     MAXLOCALS = 6
@@ -297,7 +303,11 @@ public final class scala/collection/concurrent/INode extends scala/collection/co
     ILOAD 10
     IAND
     ICONST_0
-    IF_ICMPEQ L1
+    IF_ICMPNE L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L3
+   L2
     ILOAD 9
     ILOAD 10
     ICONST_1
@@ -312,10 +322,10 @@ public final class scala/collection/concurrent/INode extends scala/collection/co
     ASTORE 11
     ALOAD 11
     ALOAD 0
-    IF_ACMPNE L1
+    IF_ACMPNE L4
     ALOAD 1
     INSTANCEOF scala/collection/concurrent/TNode
-    IFEQ L2
+    IFEQ L5
     ALOAD 1
     CHECKCAST scala/collection/concurrent/TNode
     ASTORE 13
@@ -336,30 +346,49 @@ public final class scala/collection/concurrent/INode extends scala/collection/co
     ALOAD 15
     ALOAD 6
     INVOKEVIRTUAL scala/collection/concurrent/INode.GCAS (Lscala/collection/concurrent/MainNode;Lscala/collection/concurrent/MainNode;Lscala/collection/concurrent/TrieMap;)Z
-    IFNE L1
+    IFEQ L6
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L7
+   L6
     ALOAD 6
     ALOAD 6
     INVOKEVIRTUAL scala/collection/concurrent/TrieMap.readRoot$default$1 ()Z
     INVOKEVIRTUAL scala/collection/concurrent/TrieMap.readRoot (Z)Lscala/collection/concurrent/INode;
     GETFIELD scala/collection/concurrent/INode.gen : Lscala/collection/concurrent/Gen;
     DUP
-    IFNONNULL L3
+    IFNONNULL L8
     POP
     ALOAD 5
     IFNULL L0
-    GOTO L1
-   L3
+    GOTO L9
+   L8
     ALOAD 5
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
     IFNE L0
-    GOTO L1
-   L2
+   L9
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L7
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L3
+   L5
     NEW scala/MatchError
     DUP
     ALOAD 1
     INVOKESPECIAL scala/MatchError.<init> (Ljava/lang/Object;)V
     ATHROW
+   L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L3
    L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
     MAXSTACK = 4
     MAXLOCALS = 16

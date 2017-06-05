@@ -178,8 +178,11 @@ public class scala/collection/parallel/ParIterableLike$CopyToArray implements sc
 
   // access flags 0x1
   public result()V
+    ALOAD 0
+    GETFIELD scala/collection/parallel/ParIterableLike$CopyToArray.result : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
-    MAXSTACK = 0
+    MAXSTACK = 1
     MAXLOCALS = 1
 
   // access flags 0x1041

@@ -1,5 +1,6 @@
 // class version 50.0 (50)
-// access flags 0x21
+// DEPRECATED
+// access flags 0x20021
 public class scala/concurrent/Lock {
 
 

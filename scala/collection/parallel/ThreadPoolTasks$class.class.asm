@@ -93,6 +93,8 @@ public abstract class scala/collection/parallel/ThreadPoolTasks$class {
     ICONST_1
     ISUB
     INVOKEINTERFACE scala/collection/parallel/ThreadPoolTasks.totaltasks_$eq (I)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -118,6 +120,8 @@ public abstract class scala/collection/parallel/ThreadPoolTasks$class {
     ICONST_1
     IADD
     INVOKEINTERFACE scala/collection/parallel/ThreadPoolTasks.totaltasks_$eq (I)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -260,6 +260,8 @@ public class scala/reflect/ManifestFactory$SingletonTypeManifest implements scal
     I2B
     PUTFIELD scala/reflect/ManifestFactory$SingletonTypeManifest.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -328,6 +330,8 @@ public class scala/reflect/ManifestFactory$SingletonTypeManifest implements scal
     I2B
     PUTFIELD scala/reflect/ManifestFactory$SingletonTypeManifest.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

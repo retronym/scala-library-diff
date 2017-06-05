@@ -130,8 +130,12 @@ public class scala/collection/Iterator$Leading$1 extends scala/collection/Abstra
     IFEQ L0
     ALOAD 0
     INVOKEVIRTUAL scala/collection/Iterator$Leading$1.advance ()Z
-    POP
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToBoolean (Z)Ljava/lang/Boolean;
+    GOTO L1
    L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L1
+    POP
     ALOAD 0
     INVOKEVIRTUAL scala/collection/Iterator$Leading$1.lookahead ()Lscala/collection/mutable/Queue;
     INVOKEVIRTUAL scala/collection/mutable/Queue.dequeue ()Ljava/lang/Object;

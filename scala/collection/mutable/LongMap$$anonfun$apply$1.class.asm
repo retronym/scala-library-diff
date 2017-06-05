@@ -35,6 +35,8 @@ public final class scala/collection/mutable/LongMap$$anonfun$apply$1 extends sca
     ALOAD 1
     INVOKEVIRTUAL scala/Tuple2._2 ()Ljava/lang/Object;
     INVOKEVIRTUAL scala/collection/mutable/LongMap.update (JLjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L0
     NEW scala/MatchError

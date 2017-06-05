@@ -42,6 +42,8 @@ public final class scala/collection/immutable/HashMap$SerializationProxy$$anonfu
     ALOAD 1
     INVOKEVIRTUAL scala/Tuple2._2 ()Ljava/lang/Object;
     INVOKEVIRTUAL java/io/ObjectOutputStream.writeObject (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L0
     NEW scala/MatchError

@@ -153,6 +153,8 @@ public final class scala/sys/SystemProperties$ {
     I2B
     PUTFIELD scala/sys/SystemProperties$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -229,6 +231,8 @@ public final class scala/sys/SystemProperties$ {
     I2B
     PUTFIELD scala/sys/SystemProperties$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -291,6 +295,8 @@ public final class scala/sys/SystemProperties$ {
     I2B
     PUTFIELD scala/sys/SystemProperties$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -353,6 +359,8 @@ public final class scala/sys/SystemProperties$ {
     I2B
     PUTFIELD scala/sys/SystemProperties$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -417,6 +425,8 @@ public final class scala/sys/SystemProperties$ {
     I2B
     PUTFIELD scala/sys/SystemProperties$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

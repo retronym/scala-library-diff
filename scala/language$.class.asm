@@ -117,6 +117,8 @@ public final class scala/language$ {
     I2B
     PUTFIELD scala/language$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -176,6 +178,8 @@ public final class scala/language$ {
     I2B
     PUTFIELD scala/language$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -235,6 +239,8 @@ public final class scala/language$ {
     I2B
     PUTFIELD scala/language$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -294,6 +300,8 @@ public final class scala/language$ {
     I2B
     PUTFIELD scala/language$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -353,6 +361,8 @@ public final class scala/language$ {
     I2B
     PUTFIELD scala/language$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -412,6 +422,8 @@ public final class scala/language$ {
     I2B
     PUTFIELD scala/language$.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

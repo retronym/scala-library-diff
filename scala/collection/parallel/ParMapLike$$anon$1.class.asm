@@ -231,6 +231,8 @@ public final class scala/collection/parallel/ParMapLike$$anon$1 implements scala
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanLeaf$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/ParMapLike$$anon$1.ScanLeaf$module : Lscala/collection/parallel/ParIterableLike$ScanLeaf$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -282,6 +284,8 @@ public final class scala/collection/parallel/ParMapLike$$anon$1 implements scala
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanNode$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/ParMapLike$$anon$1.ScanNode$module : Lscala/collection/parallel/ParIterableLike$ScanNode$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -698,6 +702,8 @@ public final class scala/collection/parallel/ParMapLike$$anon$1 implements scala
     ICONST_1
     PUTFIELD scala/collection/parallel/ParMapLike$$anon$1.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

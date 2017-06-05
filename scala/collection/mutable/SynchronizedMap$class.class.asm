@@ -93,6 +93,8 @@ public abstract class scala/collection/mutable/SynchronizedMap$class {
    L0
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/SynchronizedMap.scala$collection$mutable$SynchronizedMap$$super$clear ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -163,6 +165,8 @@ public abstract class scala/collection/mutable/SynchronizedMap$class {
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/SynchronizedMap.scala$collection$mutable$SynchronizedMap$$super$foreach (Lscala/Function1;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -503,6 +507,8 @@ public abstract class scala/collection/mutable/SynchronizedMap$class {
     ALOAD 1
     ALOAD 2
     INVOKEINTERFACE scala/collection/mutable/SynchronizedMap.scala$collection$mutable$SynchronizedMap$$super$update (Ljava/lang/Object;Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

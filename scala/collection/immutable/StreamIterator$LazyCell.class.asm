@@ -89,6 +89,8 @@ public class scala/collection/immutable/StreamIterator$LazyCell {
     ICONST_1
     PUTFIELD scala/collection/immutable/StreamIterator$LazyCell.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

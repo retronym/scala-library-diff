@@ -149,6 +149,8 @@ public final class scala/collection/mutable/IndexedSeqView$$anon$4 extends scala
     ICONST_1
     PUTFIELD scala/collection/mutable/IndexedSeqView$$anon$4.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

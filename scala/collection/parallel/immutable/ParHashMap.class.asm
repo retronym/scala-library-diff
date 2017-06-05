@@ -239,6 +239,8 @@ public class scala/collection/parallel/immutable/ParHashMap implements scala/col
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanLeaf$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/immutable/ParHashMap.ScanLeaf$module : Lscala/collection/parallel/ParIterableLike$ScanLeaf$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -290,6 +292,8 @@ public class scala/collection/parallel/immutable/ParHashMap implements scala/col
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanNode$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/immutable/ParHashMap.ScanNode$module : Lscala/collection/parallel/ParIterableLike$ScanNode$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -1315,11 +1319,15 @@ public class scala/collection/parallel/immutable/ParHashMap implements scala/col
     INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
     INVOKEVIRTUAL scala/collection/mutable/StringBuilder.toString ()Ljava/lang/String;
     INVOKEVIRTUAL scala/Predef$.println (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L0
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
     LDC "other kind of node"
     INVOKEVIRTUAL scala/Predef$.println (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L1
     RETURN
     MAXSTACK = 4

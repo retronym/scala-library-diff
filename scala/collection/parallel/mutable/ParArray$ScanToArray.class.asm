@@ -138,6 +138,8 @@ public class scala/collection/parallel/mutable/ParArray$ScanToArray implements s
     CHECKCAST scala/collection/parallel/ParIterableLike$ScanLeaf
     INVOKEVIRTUAL scala/collection/parallel/ParIterableLike$ScanLeaf.acc ()Ljava/lang/Object;
     INVOKESPECIAL scala/collection/parallel/mutable/ParArray$ScanToArray.scanLeaf ([Ljava/lang/Object;[Ljava/lang/Object;IILjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L2
     ILOAD 4
@@ -160,7 +162,11 @@ public class scala/collection/parallel/mutable/ParArray$ScanToArray implements s
     ALOAD 0
     GETFIELD scala/collection/parallel/mutable/ParArray$ScanToArray.z : Ljava/lang/Object;
     INVOKESPECIAL scala/collection/parallel/mutable/ParArray$ScanToArray.scanLeaf ([Ljava/lang/Object;[Ljava/lang/Object;IILjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L4
     NEW scala/MatchError
@@ -213,8 +219,11 @@ public class scala/collection/parallel/mutable/ParArray$ScanToArray implements s
 
   // access flags 0x1
   public result()V
+    ALOAD 0
+    GETFIELD scala/collection/parallel/mutable/ParArray$ScanToArray.result : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
-    MAXSTACK = 0
+    MAXSTACK = 1
     MAXLOCALS = 1
 
   // access flags 0x1041

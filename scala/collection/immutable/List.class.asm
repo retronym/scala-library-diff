@@ -91,12 +91,9 @@ public abstract class scala/collection/immutable/List extends scala/collection/A
   // declaration: That $plus$plus<B, That>(scala.collection.GenTraversableOnce<B>, scala.collection.generic.CanBuildFrom<scala.collection.immutable.List<A>, B, That>)
   public $plus$plus(Lscala/collection/GenTraversableOnce;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;
     ALOAD 2
-    ALOAD 0
-    INVOKEINTERFACE scala/collection/generic/CanBuildFrom.apply (Ljava/lang/Object;)Lscala/collection/mutable/Builder;
-    ASTORE 3
-    ALOAD 3
-    INSTANCEOF scala/collection/mutable/ListBuffer
-    IFEQ L0
+    GETSTATIC scala/collection/immutable/List$.MODULE$ : Lscala/collection/immutable/List$;
+    INVOKEVIRTUAL scala/collection/immutable/List$.ReusableCBF ()Lscala/collection/generic/GenTraversableFactory$GenericCanBuildFrom;
+    IF_ACMPNE L0
     ALOAD 1
     INVOKEINTERFACE scala/collection/GenTraversableOnce.seq ()Lscala/collection/TraversableOnce;
     INVOKEINTERFACE scala/collection/TraversableOnce.toList ()Lscala/collection/immutable/List;
@@ -111,7 +108,7 @@ public abstract class scala/collection/immutable/List extends scala/collection/A
    L1
     ARETURN
     MAXSTACK = 3
-    MAXLOCALS = 4
+    MAXLOCALS = 3
 
   // access flags 0x1
   // signature ()V

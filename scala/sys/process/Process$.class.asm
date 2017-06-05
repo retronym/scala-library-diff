@@ -78,6 +78,8 @@ public final class scala/sys/process/Process$ implements scala/sys/process/Proce
     INVOKESPECIAL scala/sys/process/ProcessImpl$Future$.<init> (Lscala/sys/process/Process$;)V
     PUTFIELD scala/sys/process/Process$.Future$module : Lscala/sys/process/ProcessImpl$Future$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -125,6 +127,8 @@ public final class scala/sys/process/Process$ implements scala/sys/process/Proce
     INVOKESPECIAL scala/sys/process/ProcessImpl$Spawn$.<init> (Lscala/sys/process/Process$;)V
     PUTFIELD scala/sys/process/Process$.Spawn$module : Lscala/sys/process/ProcessImpl$Spawn$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

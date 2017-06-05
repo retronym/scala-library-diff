@@ -658,6 +658,39 @@ public abstract class scala/util/PropertiesTrait$class {
     MAXLOCALS = 4
 
   // access flags 0x9
+  public static scala$util$PropertiesTrait$$versionFor(Lscala/util/PropertiesTrait;Ljava/lang/String;)Ljava/lang/String;
+    ALOAD 0
+    INVOKEINTERFACE scala/util/PropertiesTrait.versionString ()Ljava/lang/String;
+    ASTORE 2
+    ALOAD 0
+    INVOKEINTERFACE scala/util/PropertiesTrait.copyrightString ()Ljava/lang/String;
+    ASTORE 3
+    NEW scala/collection/immutable/StringOps
+    DUP
+    LDC "Scala %s %s -- %s"
+    INVOKESPECIAL scala/collection/immutable/StringOps.<init> (Ljava/lang/String;)V
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ICONST_3
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 1
+    AASTORE
+    DUP
+    ICONST_1
+    ALOAD 2
+    AASTORE
+    DUP
+    ICONST_2
+    ALOAD 3
+    AASTORE
+    INVOKEVIRTUAL scala/Predef$.genericWrapArray (Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;
+    INVOKEVIRTUAL scala/collection/immutable/StringOps.format (Lscala/collection/Seq;)Ljava/lang/String;
+    ARETURN
+    MAXSTACK = 6
+    MAXLOCALS = 4
+
+  // access flags 0x9
   public static scalaCmd(Lscala/util/PropertiesTrait;)Ljava/lang/String;
     ALOAD 0
     INVOKEINTERFACE scala/util/PropertiesTrait.isWin ()Z
@@ -827,35 +860,13 @@ public abstract class scala/util/PropertiesTrait$class {
 
   // access flags 0x9
   public static versionMsg(Lscala/util/PropertiesTrait;)Ljava/lang/String;
-    NEW scala/collection/immutable/StringOps
-    DUP
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 1
-    LDC "Scala %s %s -- %s"
-    INVOKESPECIAL scala/collection/immutable/StringOps.<init> (Ljava/lang/String;)V
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ICONST_3
-    ANEWARRAY java/lang/Object
-    DUP
-    ICONST_0
+    ALOAD 0
     ALOAD 0
     INVOKEINTERFACE scala/util/PropertiesTrait.propCategory ()Ljava/lang/String;
-    AASTORE
-    DUP
-    ICONST_1
-    ALOAD 0
-    INVOKEINTERFACE scala/util/PropertiesTrait.versionString ()Ljava/lang/String;
-    AASTORE
-    DUP
-    ICONST_2
-    ALOAD 0
-    INVOKEINTERFACE scala/util/PropertiesTrait.copyrightString ()Ljava/lang/String;
-    AASTORE
-    INVOKEVIRTUAL scala/Predef$.genericWrapArray (Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;
-    INVOKEVIRTUAL scala/collection/immutable/StringOps.format (Lscala/collection/Seq;)Ljava/lang/String;
+    INVOKESTATIC scala/util/PropertiesTrait$class.scala$util$PropertiesTrait$$versionFor (Lscala/util/PropertiesTrait;Ljava/lang/String;)Ljava/lang/String;
     ARETURN
-    MAXSTACK = 6
-    MAXLOCALS = 2
+    MAXSTACK = 2
+    MAXLOCALS = 1
 
   // access flags 0x9
   public static versionNumberString(Lscala/util/PropertiesTrait;)Ljava/lang/String;

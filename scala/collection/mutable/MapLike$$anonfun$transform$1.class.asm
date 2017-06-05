@@ -53,6 +53,8 @@ public final class scala/collection/mutable/MapLike$$anonfun$transform$1 extends
     INVOKEVIRTUAL scala/Tuple2._2 ()Ljava/lang/Object;
     INVOKEINTERFACE scala/Function2.apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/MapLike.update (Ljava/lang/Object;Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L0
     NEW scala/MatchError

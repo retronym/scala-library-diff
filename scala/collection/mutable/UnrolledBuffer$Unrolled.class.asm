@@ -8,6 +8,8 @@ public class scala/collection/mutable/UnrolledBuffer$Unrolled {
   public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled scala/collection/mutable/UnrolledBuffer Unrolled
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled$$anonfun$insertAll$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled$$anonfun$insertAll$2 null null
 
   // access flags 0x2
   // signature Ljava/lang/Object;
@@ -357,9 +359,31 @@ public class scala/collection/mutable/UnrolledBuffer$Unrolled {
     GETFIELD scala/runtime/ObjectRef.elem : Ljava/lang/Object;
     CHECKCAST scala/collection/mutable/UnrolledBuffer$Unrolled
     INVOKEVIRTUAL scala/collection/mutable/UnrolledBuffer.lastPtr_$eq (Lscala/collection/mutable/UnrolledBuffer$Unrolled;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L3
    L2
-    RETURN
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L3
    L1
+    ILOAD 1
+    ALOAD 0
+    INVOKEVIRTUAL scala/collection/mutable/UnrolledBuffer$Unrolled.size ()I
+    IF_ICMPNE L4
+    ALOAD 0
+    INVOKESTATIC scala/runtime/ObjectRef.create (Ljava/lang/Object;)Lscala/runtime/ObjectRef;
+    ASTORE 6
+    ALOAD 2
+    NEW scala/collection/mutable/UnrolledBuffer$Unrolled$$anonfun$insertAll$2
+    DUP
+    ALOAD 0
+    ALOAD 6
+    INVOKESPECIAL scala/collection/mutable/UnrolledBuffer$Unrolled$$anonfun$insertAll$2.<init> (Lscala/collection/mutable/UnrolledBuffer$Unrolled;Lscala/runtime/ObjectRef;)V
+    INVOKEINTERFACE scala/collection/Traversable.foreach (Lscala/Function1;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L3
+    POP
+    RETURN
+   L4
     ILOAD 1
     ALOAD 0
     INVOKEVIRTUAL scala/collection/mutable/UnrolledBuffer$Unrolled.size ()I
@@ -367,7 +391,7 @@ public class scala/collection/mutable/UnrolledBuffer$Unrolled {
     ISTORE 1
     GOTO L0
     MAXSTACK = 7
-    MAXLOCALS = 6
+    MAXLOCALS = 7
 
   // access flags 0x11
   // signature (I)Lscala/collection/mutable/UnrolledBuffer$Unrolled<TT;>;
@@ -771,6 +795,8 @@ public class scala/collection/mutable/UnrolledBuffer$Unrolled {
     ILOAD 1
     ALOAD 2
     INVOKEVIRTUAL scala/runtime/ScalaRunTime$.array_update (Ljava/lang/Object;ILjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L1
     ALOAD 0

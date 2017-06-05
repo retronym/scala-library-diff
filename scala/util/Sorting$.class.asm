@@ -498,6 +498,9 @@ public final class scala/util/Sorting$ {
     IADD
     ISTORE 6
     GOTO L2
+   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L6
    L1
     ILOAD 1
     ILOAD 2
@@ -507,7 +510,7 @@ public final class scala/util/Sorting$ {
     ISTORE 10
     ILOAD 2
     BIPUSH 7
-    IF_ICMPLE L6
+    IF_ICMPLE L7
     ILOAD 1
     ISTORE 8
     ILOAD 1
@@ -518,7 +521,7 @@ public final class scala/util/Sorting$ {
     ISTORE 9
     ILOAD 2
     BIPUSH 40
-    IF_ICMPLE L7
+    IF_ICMPLE L8
     ILOAD 2
     BIPUSH 8
     IDIV
@@ -563,7 +566,7 @@ public final class scala/util/Sorting$ {
     ALOAD 4
     INVOKESPECIAL scala/util/Sorting$.med3$1 (IIILjava/lang/Object;Lscala/math/Ordering;)I
     ISTORE 9
-   L7
+   L8
     ALOAD 0
     ILOAD 8
     ILOAD 10
@@ -572,7 +575,7 @@ public final class scala/util/Sorting$ {
     ALOAD 4
     INVOKESPECIAL scala/util/Sorting$.med3$1 (IIILjava/lang/Object;Lscala/math/Ordering;)I
     ISTORE 10
-   L6
+   L7
     GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 3
     ILOAD 10
@@ -592,9 +595,9 @@ public final class scala/util/Sorting$ {
     ISTORE 15
     ICONST_0
     ISTORE 16
-   L8
+   L9
     ILOAD 16
-    IFEQ L9
+    IFEQ L10
     ILOAD 1
     ILOAD 2
     IADD
@@ -641,21 +644,21 @@ public final class scala/util/Sorting$ {
     DUP
     ISTORE 12
     ICONST_1
-    IF_ICMPLE L10
+    IF_ICMPLE L11
     ALOAD 0
     ILOAD 1
     ILOAD 12
     ALOAD 3
     ALOAD 4
     INVOKESPECIAL scala/util/Sorting$.sort2$1 (IILjava/lang/Object;Lscala/math/Ordering;)V
-   L10
+   L11
     ILOAD 15
     ILOAD 17
     ISUB
     DUP
     ISTORE 12
     ICONST_1
-    IF_ICMPLE L3
+    IF_ICMPLE L12
     ILOAD 11
     ILOAD 12
     ISUB
@@ -663,12 +666,15 @@ public final class scala/util/Sorting$ {
     ISTORE 2
     ISTORE 1
     GOTO L0
-   L3
+   L12
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L6
+    POP
     RETURN
-   L9
+   L10
     ILOAD 18
     ILOAD 17
-    IF_ICMPGT L11
+    IF_ICMPGT L13
     ALOAD 4
     GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 3
@@ -677,7 +683,7 @@ public final class scala/util/Sorting$ {
     INVOKEINTERFACE scala/math/Ordering.mkOrderingOps (Ljava/lang/Object;)Lscala/math/Ordering$Ops;
     ALOAD 14
     INVOKEVIRTUAL scala/math/Ordering$Ops.$less$eq (Ljava/lang/Object;)Z
-    IFEQ L11
+    IFEQ L13
     ALOAD 4
     GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 3
@@ -686,7 +692,7 @@ public final class scala/util/Sorting$ {
     INVOKEINTERFACE scala/math/Ordering.mkOrderingOps (Ljava/lang/Object;)Lscala/math/Ordering$Ops;
     ALOAD 14
     INVOKEVIRTUAL scala/math/Ordering$Ops.equiv (Ljava/lang/Object;)Z
-    IFEQ L12
+    IFEQ L14
     ALOAD 0
     ILOAD 13
     ILOAD 18
@@ -696,16 +702,16 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 13
-   L12
+   L14
     ILOAD 18
     ICONST_1
     IADD
     ISTORE 18
-    GOTO L9
-   L11
+    GOTO L10
+   L13
     ILOAD 17
     ILOAD 18
-    IF_ICMPLT L13
+    IF_ICMPLT L15
     ALOAD 4
     GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 3
@@ -714,7 +720,7 @@ public final class scala/util/Sorting$ {
     INVOKEINTERFACE scala/math/Ordering.mkOrderingOps (Ljava/lang/Object;)Lscala/math/Ordering$Ops;
     ALOAD 14
     INVOKEVIRTUAL scala/math/Ordering$Ops.$greater$eq (Ljava/lang/Object;)Z
-    IFEQ L13
+    IFEQ L15
     ALOAD 4
     GETSTATIC scala/runtime/ScalaRunTime$.MODULE$ : Lscala/runtime/ScalaRunTime$;
     ALOAD 3
@@ -723,7 +729,7 @@ public final class scala/util/Sorting$ {
     INVOKEINTERFACE scala/math/Ordering.mkOrderingOps (Ljava/lang/Object;)Lscala/math/Ordering$Ops;
     ALOAD 14
     INVOKEVIRTUAL scala/math/Ordering$Ops.equiv (Ljava/lang/Object;)Z
-    IFEQ L14
+    IFEQ L16
     ALOAD 0
     ILOAD 17
     ILOAD 15
@@ -733,20 +739,20 @@ public final class scala/util/Sorting$ {
     ICONST_1
     ISUB
     ISTORE 15
-   L14
+   L16
     ILOAD 17
     ICONST_1
     ISUB
     ISTORE 17
-    GOTO L11
-   L13
+    GOTO L13
+   L15
     ILOAD 18
     ILOAD 17
-    IF_ICMPLE L15
+    IF_ICMPLE L17
     ICONST_1
     ISTORE 16
-    GOTO L8
-   L15
+    GOTO L9
+   L17
     ALOAD 0
     ILOAD 18
     ILOAD 17
@@ -760,7 +766,7 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 18
-    GOTO L8
+    GOTO L9
     MAXSTACK = 6
     MAXLOCALS = 19
 
@@ -811,6 +817,9 @@ public final class scala/util/Sorting$ {
     IADD
     ISTORE 5
     GOTO L2
+   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L6
    L1
     ILOAD 1
     ILOAD 2
@@ -820,7 +829,7 @@ public final class scala/util/Sorting$ {
     ISTORE 9
     ILOAD 2
     BIPUSH 7
-    IF_ICMPLE L6
+    IF_ICMPLE L7
     ILOAD 1
     ISTORE 7
     ILOAD 1
@@ -831,7 +840,7 @@ public final class scala/util/Sorting$ {
     ISTORE 8
     ILOAD 2
     BIPUSH 40
-    IF_ICMPLE L7
+    IF_ICMPLE L8
     ILOAD 2
     BIPUSH 8
     IDIV
@@ -873,7 +882,7 @@ public final class scala/util/Sorting$ {
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.med3$2 (III[I)I
     ISTORE 8
-   L7
+   L8
     ALOAD 0
     ILOAD 7
     ILOAD 9
@@ -881,7 +890,7 @@ public final class scala/util/Sorting$ {
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.med3$2 (III[I)I
     ISTORE 9
-   L6
+   L7
     ALOAD 3
     ILOAD 9
     IALOAD
@@ -900,9 +909,9 @@ public final class scala/util/Sorting$ {
     ISTORE 14
     ICONST_0
     ISTORE 15
-   L8
+   L9
     ILOAD 15
-    IFEQ L9
+    IFEQ L10
     ILOAD 1
     ILOAD 2
     IADD
@@ -949,20 +958,20 @@ public final class scala/util/Sorting$ {
     DUP
     ISTORE 11
     ICONST_1
-    IF_ICMPLE L10
+    IF_ICMPLE L11
     ALOAD 0
     ILOAD 1
     ILOAD 11
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.sort2$2 (II[I)V
-   L10
+   L11
     ILOAD 14
     ILOAD 16
     ISUB
     DUP
     ISTORE 11
     ICONST_1
-    IF_ICMPLE L3
+    IF_ICMPLE L12
     ILOAD 10
     ILOAD 11
     ISUB
@@ -970,22 +979,25 @@ public final class scala/util/Sorting$ {
     ISTORE 2
     ISTORE 1
     GOTO L0
-   L3
+   L12
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L6
+    POP
     RETURN
-   L9
+   L10
     ILOAD 17
     ILOAD 16
-    IF_ICMPGT L11
+    IF_ICMPGT L13
     ALOAD 3
     ILOAD 17
     IALOAD
     ILOAD 13
-    IF_ICMPGT L11
+    IF_ICMPGT L13
     ALOAD 3
     ILOAD 17
     IALOAD
     ILOAD 13
-    IF_ICMPNE L12
+    IF_ICMPNE L14
     ALOAD 0
     ILOAD 12
     ILOAD 17
@@ -995,26 +1007,26 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 12
-   L12
+   L14
     ILOAD 17
     ICONST_1
     IADD
     ISTORE 17
-    GOTO L9
-   L11
+    GOTO L10
+   L13
     ILOAD 16
     ILOAD 17
-    IF_ICMPLT L13
+    IF_ICMPLT L15
     ALOAD 3
     ILOAD 16
     IALOAD
     ILOAD 13
-    IF_ICMPLT L13
+    IF_ICMPLT L15
     ALOAD 3
     ILOAD 16
     IALOAD
     ILOAD 13
-    IF_ICMPNE L14
+    IF_ICMPNE L16
     ALOAD 0
     ILOAD 16
     ILOAD 14
@@ -1024,20 +1036,20 @@ public final class scala/util/Sorting$ {
     ICONST_1
     ISUB
     ISTORE 14
-   L14
+   L16
     ILOAD 16
     ICONST_1
     ISUB
     ISTORE 16
-    GOTO L11
-   L13
+    GOTO L13
+   L15
     ILOAD 17
     ILOAD 16
-    IF_ICMPLE L15
+    IF_ICMPLE L17
     ICONST_1
     ISTORE 15
-    GOTO L8
-   L15
+    GOTO L9
+   L17
     ALOAD 0
     ILOAD 17
     ILOAD 16
@@ -1051,7 +1063,7 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 17
-    GOTO L8
+    GOTO L9
     MAXSTACK = 6
     MAXLOCALS = 18
 
@@ -1112,6 +1124,9 @@ public final class scala/util/Sorting$ {
     IADD
     ISTORE 8
     GOTO L2
+   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L6
    L1
     ILOAD 1
     ILOAD 2
@@ -1121,7 +1136,7 @@ public final class scala/util/Sorting$ {
     ISTORE 12
     ILOAD 2
     BIPUSH 7
-    IF_ICMPLE L6
+    IF_ICMPLE L7
     ILOAD 1
     ISTORE 10
     ILOAD 1
@@ -1132,7 +1147,7 @@ public final class scala/util/Sorting$ {
     ISTORE 11
     ILOAD 2
     BIPUSH 40
-    IF_ICMPLE L7
+    IF_ICMPLE L8
     ILOAD 2
     BIPUSH 8
     IDIV
@@ -1174,7 +1189,7 @@ public final class scala/util/Sorting$ {
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.med3$3 (III[D)I
     ISTORE 11
-   L7
+   L8
     ALOAD 0
     ILOAD 10
     ILOAD 12
@@ -1182,7 +1197,7 @@ public final class scala/util/Sorting$ {
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.med3$3 (III[D)I
     ISTORE 12
-   L6
+   L7
     ALOAD 3
     ILOAD 12
     DALOAD
@@ -1201,9 +1216,9 @@ public final class scala/util/Sorting$ {
     ISTORE 26
     ICONST_0
     ISTORE 33
-   L8
+   L9
     ILOAD 33
-    IFEQ L9
+    IFEQ L10
     ILOAD 1
     ILOAD 2
     IADD
@@ -1250,20 +1265,20 @@ public final class scala/util/Sorting$ {
     DUP
     ISTORE 14
     ICONST_1
-    IF_ICMPLE L10
+    IF_ICMPLE L11
     ALOAD 0
     ILOAD 1
     ILOAD 14
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.sort2$3 (II[D)V
-   L10
+   L11
     ILOAD 26
     ILOAD 34
     ISUB
     DUP
     ISTORE 14
     ICONST_1
-    IF_ICMPLE L3
+    IF_ICMPLE L12
     ILOAD 13
     ILOAD 14
     ISUB
@@ -1271,9 +1286,12 @@ public final class scala/util/Sorting$ {
     ISTORE 2
     ISTORE 1
     GOTO L0
-   L3
+   L12
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L6
+    POP
     RETURN
-   L9
+   L10
     NEW scala/runtime/RichDouble
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1288,16 +1306,16 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToDouble (D)Ljava/lang/Double;
     INVOKEVIRTUAL scala/runtime/RichDouble.compare (Ljava/lang/Object;)I
     ISTORE 22
-   L11
+   L13
     ILOAD 35
     ILOAD 34
-    IF_ICMPGT L12
+    IF_ICMPGT L14
     ILOAD 22
     ICONST_0
-    IF_ICMPGT L12
+    IF_ICMPGT L14
     ILOAD 22
     ICONST_0
-    IF_ICMPNE L13
+    IF_ICMPNE L15
     ALOAD 0
     ILOAD 18
     ILOAD 35
@@ -1307,14 +1325,14 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 18
-   L13
+   L15
     ILOAD 35
     ICONST_1
     IADD
     DUP
     ISTORE 35
     ILOAD 34
-    IF_ICMPGT L11
+    IF_ICMPGT L13
     NEW scala/runtime/RichDouble
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1329,8 +1347,8 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToDouble (D)Ljava/lang/Double;
     INVOKEVIRTUAL scala/runtime/RichDouble.compare (Ljava/lang/Object;)I
     ISTORE 22
-    GOTO L11
-   L12
+    GOTO L13
+   L14
     NEW scala/runtime/RichDouble
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1345,16 +1363,16 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToDouble (D)Ljava/lang/Double;
     INVOKEVIRTUAL scala/runtime/RichDouble.compare (Ljava/lang/Object;)I
     ISTORE 32
-   L14
+   L16
     ILOAD 34
     ILOAD 35
-    IF_ICMPLT L15
+    IF_ICMPLT L17
     ILOAD 32
     ICONST_0
-    IF_ICMPLT L15
+    IF_ICMPLT L17
     ILOAD 32
     ICONST_0
-    IF_ICMPNE L16
+    IF_ICMPNE L18
     ALOAD 0
     ILOAD 34
     ILOAD 26
@@ -1364,14 +1382,14 @@ public final class scala/util/Sorting$ {
     ICONST_1
     ISUB
     ISTORE 26
-   L16
+   L18
     ILOAD 34
     ICONST_1
     ISUB
     DUP
     ISTORE 34
     ILOAD 35
-    IF_ICMPLT L14
+    IF_ICMPLT L16
     NEW scala/runtime/RichDouble
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1386,15 +1404,15 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToDouble (D)Ljava/lang/Double;
     INVOKEVIRTUAL scala/runtime/RichDouble.compare (Ljava/lang/Object;)I
     ISTORE 32
-    GOTO L14
-   L15
+    GOTO L16
+   L17
     ILOAD 35
     ILOAD 34
-    IF_ICMPLE L17
+    IF_ICMPLE L19
     ICONST_1
     ISTORE 33
-    GOTO L8
-   L17
+    GOTO L9
+   L19
     ALOAD 0
     ILOAD 35
     ILOAD 34
@@ -1408,7 +1426,7 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 35
-    GOTO L8
+    GOTO L9
     MAXSTACK = 6
     MAXLOCALS = 36
 
@@ -1469,6 +1487,9 @@ public final class scala/util/Sorting$ {
     IADD
     ISTORE 7
     GOTO L2
+   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L6
    L1
     ILOAD 1
     ILOAD 2
@@ -1478,7 +1499,7 @@ public final class scala/util/Sorting$ {
     ISTORE 11
     ILOAD 2
     BIPUSH 7
-    IF_ICMPLE L6
+    IF_ICMPLE L7
     ILOAD 1
     ISTORE 9
     ILOAD 1
@@ -1489,7 +1510,7 @@ public final class scala/util/Sorting$ {
     ISTORE 10
     ILOAD 2
     BIPUSH 40
-    IF_ICMPLE L7
+    IF_ICMPLE L8
     ILOAD 2
     BIPUSH 8
     IDIV
@@ -1531,7 +1552,7 @@ public final class scala/util/Sorting$ {
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.med3$4 (III[F)I
     ISTORE 10
-   L7
+   L8
     ALOAD 0
     ILOAD 9
     ILOAD 11
@@ -1539,7 +1560,7 @@ public final class scala/util/Sorting$ {
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.med3$4 (III[F)I
     ISTORE 11
-   L6
+   L7
     ALOAD 3
     ILOAD 11
     FALOAD
@@ -1558,9 +1579,9 @@ public final class scala/util/Sorting$ {
     ISTORE 22
     ICONST_0
     ISTORE 27
-   L8
+   L9
     ILOAD 27
-    IFEQ L9
+    IFEQ L10
     ILOAD 1
     ILOAD 2
     IADD
@@ -1607,20 +1628,20 @@ public final class scala/util/Sorting$ {
     DUP
     ISTORE 13
     ICONST_1
-    IF_ICMPLE L10
+    IF_ICMPLE L11
     ALOAD 0
     ILOAD 1
     ILOAD 13
     ALOAD 3
     INVOKESPECIAL scala/util/Sorting$.sort2$4 (II[F)V
-   L10
+   L11
     ILOAD 22
     ILOAD 28
     ISUB
     DUP
     ISTORE 13
     ICONST_1
-    IF_ICMPLE L3
+    IF_ICMPLE L12
     ILOAD 12
     ILOAD 13
     ISUB
@@ -1628,9 +1649,12 @@ public final class scala/util/Sorting$ {
     ISTORE 2
     ISTORE 1
     GOTO L0
-   L3
+   L12
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L6
+    POP
     RETURN
-   L9
+   L10
     NEW scala/runtime/RichFloat
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1645,16 +1669,16 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToFloat (F)Ljava/lang/Float;
     INVOKEVIRTUAL scala/runtime/RichFloat.compare (Ljava/lang/Object;)I
     ISTORE 19
-   L11
+   L13
     ILOAD 29
     ILOAD 28
-    IF_ICMPGT L12
+    IF_ICMPGT L14
     ILOAD 19
     ICONST_0
-    IF_ICMPGT L12
+    IF_ICMPGT L14
     ILOAD 19
     ICONST_0
-    IF_ICMPNE L13
+    IF_ICMPNE L15
     ALOAD 0
     ILOAD 16
     ILOAD 29
@@ -1664,14 +1688,14 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 16
-   L13
+   L15
     ILOAD 29
     ICONST_1
     IADD
     DUP
     ISTORE 29
     ILOAD 28
-    IF_ICMPGT L11
+    IF_ICMPGT L13
     NEW scala/runtime/RichFloat
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1686,8 +1710,8 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToFloat (F)Ljava/lang/Float;
     INVOKEVIRTUAL scala/runtime/RichFloat.compare (Ljava/lang/Object;)I
     ISTORE 19
-    GOTO L11
-   L12
+    GOTO L13
+   L14
     NEW scala/runtime/RichFloat
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1702,16 +1726,16 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToFloat (F)Ljava/lang/Float;
     INVOKEVIRTUAL scala/runtime/RichFloat.compare (Ljava/lang/Object;)I
     ISTORE 26
-   L14
+   L16
     ILOAD 28
     ILOAD 29
-    IF_ICMPLT L15
+    IF_ICMPLT L17
     ILOAD 26
     ICONST_0
-    IF_ICMPLT L15
+    IF_ICMPLT L17
     ILOAD 26
     ICONST_0
-    IF_ICMPNE L16
+    IF_ICMPNE L18
     ALOAD 0
     ILOAD 28
     ILOAD 22
@@ -1721,14 +1745,14 @@ public final class scala/util/Sorting$ {
     ICONST_1
     ISUB
     ISTORE 22
-   L16
+   L18
     ILOAD 28
     ICONST_1
     ISUB
     DUP
     ISTORE 28
     ILOAD 29
-    IF_ICMPLT L14
+    IF_ICMPLT L16
     NEW scala/runtime/RichFloat
     DUP
     GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
@@ -1743,15 +1767,15 @@ public final class scala/util/Sorting$ {
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToFloat (F)Ljava/lang/Float;
     INVOKEVIRTUAL scala/runtime/RichFloat.compare (Ljava/lang/Object;)I
     ISTORE 26
-    GOTO L14
-   L15
+    GOTO L16
+   L17
     ILOAD 29
     ILOAD 28
-    IF_ICMPLE L17
+    IF_ICMPLE L19
     ICONST_1
     ISTORE 27
-    GOTO L8
-   L17
+    GOTO L9
+   L19
     ALOAD 0
     ILOAD 29
     ILOAD 28
@@ -1765,7 +1789,7 @@ public final class scala/util/Sorting$ {
     ICONST_1
     IADD
     ISTORE 29
-    GOTO L8
+    GOTO L9
     MAXSTACK = 6
     MAXLOCALS = 30
 

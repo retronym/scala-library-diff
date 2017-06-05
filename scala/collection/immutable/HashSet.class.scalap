@@ -22,6 +22,8 @@ class HashSet[A] extends scala.collection.AbstractSet[A] with scala.collection.i
   private[immutable] def intersect0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
   private[immutable] def diff0(that: scala.collection.immutable.HashSet[A], level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
   def -(e: A): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
+  @scala.deprecatedOverriding("Immutable sets should do nothing on toSet but return themselves cast as a Set.")
+  override def toSet[B >: A]: scala.collection.immutable.Set[B] = { /* compiled code */ }
   override def filter(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
   override def filterNot(p: scala.Function1[A, scala.Boolean]): scala.collection.immutable.HashSet[A] = { /* compiled code */ }
   protected def filter0(p: scala.Function1[A, scala.Boolean], negate: scala.Boolean, level: scala.Int, buffer: scala.Array[scala.collection.immutable.HashSet[A]], offset0: scala.Int): scala.collection.immutable.HashSet[A] = { /* compiled code */ }

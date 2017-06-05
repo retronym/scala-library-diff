@@ -661,6 +661,8 @@ public abstract class scala/collection/parallel/ParIterableLike$class {
     ALOAD 0
     INVOKEINTERFACE scala/collection/parallel/ParIterableLike.debugBuffer ()Lscala/collection/mutable/ArrayBuffer;
     INVOKEVIRTUAL scala/collection/mutable/ArrayBuffer.clear ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

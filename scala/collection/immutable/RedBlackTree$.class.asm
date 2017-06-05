@@ -80,6 +80,8 @@ public final class scala/collection/immutable/RedBlackTree$ {
     ASTORE 1
     GOTO L0
    L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
     MAXSTACK = 5
     MAXLOCALS = 3
@@ -111,6 +113,8 @@ public final class scala/collection/immutable/RedBlackTree$ {
     ASTORE 1
     GOTO L0
    L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
     MAXSTACK = 3
     MAXLOCALS = 3

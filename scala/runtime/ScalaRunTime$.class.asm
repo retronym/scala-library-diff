@@ -692,6 +692,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ILOAD 2
     ALOAD 3
     AASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L0
     ALOAD 1
@@ -705,6 +707,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToInt (Ljava/lang/Object;)I
     IASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L2
     ALOAD 1
@@ -718,6 +722,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToDouble (Ljava/lang/Object;)D
     DASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L3
     ALOAD 1
@@ -731,6 +737,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToLong (Ljava/lang/Object;)J
     LASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L4
     ALOAD 1
@@ -744,6 +752,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToFloat (Ljava/lang/Object;)F
     FASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L5
     ALOAD 1
@@ -757,6 +767,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToChar (Ljava/lang/Object;)C
     CASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L6
     ALOAD 1
@@ -770,6 +782,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToByte (Ljava/lang/Object;)B
     BASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L7
     ALOAD 1
@@ -783,6 +797,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToShort (Ljava/lang/Object;)S
     SASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L8
     ALOAD 1
@@ -796,6 +812,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToBoolean (Ljava/lang/Object;)Z
     BASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L9
     ALOAD 1
@@ -809,6 +827,8 @@ public final class scala/runtime/ScalaRunTime$ {
     ALOAD 3
     CHECKCAST scala/runtime/BoxedUnit
     AASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L1
     RETURN
    L10

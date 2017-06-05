@@ -519,6 +519,8 @@ public final class scala/util/Properties$ implements scala/util/PropertiesTrait 
     ICONST_1
     PUTFIELD scala/util/Properties$.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

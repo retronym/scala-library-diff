@@ -174,6 +174,8 @@ public abstract class scala/io/Source implements scala/collection/Iterator  {
     INVOKESPECIAL scala/io/Source$NoPositioner$.<init> (Lscala/io/Source;)V
     PUTFIELD scala/io/Source.NoPositioner$module : Lscala/io/Source$NoPositioner$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -221,6 +223,8 @@ public abstract class scala/io/Source implements scala/collection/Iterator  {
     INVOKESPECIAL scala/io/Source$RelaxedPosition$.<init> (Lscala/io/Source;)V
     PUTFIELD scala/io/Source.RelaxedPosition$module : Lscala/io/Source$RelaxedPosition$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -268,6 +272,8 @@ public abstract class scala/io/Source implements scala/collection/Iterator  {
     INVOKESPECIAL scala/io/Source$RelaxedPositioner$.<init> (Lscala/io/Source;)V
     PUTFIELD scala/io/Source.RelaxedPositioner$module : Lscala/io/Source$RelaxedPositioner$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

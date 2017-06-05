@@ -477,7 +477,13 @@ public abstract class scala/collection/IndexedSeqOptimized$class {
 
   // access flags 0x9
   public static lastIndexWhere(Lscala/collection/IndexedSeqOptimized;Lscala/Function1;I)I
+    GETSTATIC scala/math/package$.MODULE$ : Lscala/math/package$;
     ILOAD 2
+    ALOAD 0
+    INVOKEINTERFACE scala/collection/IndexedSeqOptimized.length ()I
+    ICONST_1
+    ISUB
+    INVOKEVIRTUAL scala/math/package$.min (II)I
     ISTORE 3
    L0
     ILOAD 3
@@ -498,7 +504,7 @@ public abstract class scala/collection/IndexedSeqOptimized$class {
    L1
     ILOAD 3
     IRETURN
-    MAXSTACK = 3
+    MAXSTACK = 4
     MAXLOCALS = 4
 
   // access flags 0x9

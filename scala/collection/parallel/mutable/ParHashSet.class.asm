@@ -384,6 +384,8 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanLeaf$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.ScanLeaf$module : Lscala/collection/parallel/ParIterableLike$ScanLeaf$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -435,6 +437,8 @@ public class scala/collection/parallel/mutable/ParHashSet implements scala/colle
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanNode$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/mutable/ParHashSet.ScanNode$module : Lscala/collection/parallel/ParIterableLike$ScanNode$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

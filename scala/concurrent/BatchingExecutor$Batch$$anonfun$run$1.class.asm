@@ -99,6 +99,10 @@ public final class scala/concurrent/BatchingExecutor$Batch$$anonfun$run$1 extend
     ALOAD 1
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
     IFEQ L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L4
     ALOAD 1

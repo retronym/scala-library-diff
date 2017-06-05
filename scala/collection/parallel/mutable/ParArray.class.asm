@@ -235,6 +235,8 @@ public class scala/collection/parallel/mutable/ParArray implements scala/collect
     INVOKESPECIAL scala/collection/parallel/mutable/ParArray$ParArrayIterator$.<init> (Lscala/collection/parallel/mutable/ParArray;)V
     PUTFIELD scala/collection/parallel/mutable/ParArray.ParArrayIterator$module : Lscala/collection/parallel/mutable/ParArray$ParArrayIterator$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -296,6 +298,8 @@ public class scala/collection/parallel/mutable/ParArray implements scala/collect
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanLeaf$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/mutable/ParArray.ScanLeaf$module : Lscala/collection/parallel/ParIterableLike$ScanLeaf$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -347,6 +351,8 @@ public class scala/collection/parallel/mutable/ParArray implements scala/collect
     INVOKESPECIAL scala/collection/parallel/ParIterableLike$ScanNode$.<init> (Lscala/collection/parallel/ParIterableLike;)V
     PUTFIELD scala/collection/parallel/mutable/ParArray.ScanNode$module : Lscala/collection/parallel/ParIterableLike$ScanNode$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

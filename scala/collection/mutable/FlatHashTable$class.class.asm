@@ -534,12 +534,16 @@ public abstract class scala/collection/mutable/FlatHashTable$class {
     AALOAD
     ASTORE 2
     ALOAD 2
-    IFNULL L2
+    IFNONNULL L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L3
+   L2
     ALOAD 0
     ALOAD 2
     INVOKEINTERFACE scala/collection/mutable/FlatHashTable.addEntry (Ljava/lang/Object;)Z
+    INVOKESTATIC scala/runtime/BoxesRunTime.boxToBoolean (Z)Ljava/lang/Boolean;
+   L3
     POP
-   L2
     ILOAD 3
     ICONST_1
     IADD
@@ -548,10 +552,10 @@ public abstract class scala/collection/mutable/FlatHashTable$class {
    L1
     ALOAD 0
     INVOKESTATIC scala/collection/mutable/FlatHashTable$class.tableDebug (Lscala/collection/mutable/FlatHashTable;)Z
-    IFEQ L3
+    IFEQ L4
     ALOAD 0
     INVOKESTATIC scala/collection/mutable/FlatHashTable$class.checkConsistent (Lscala/collection/mutable/FlatHashTable;)V
-   L3
+   L4
     RETURN
     MAXSTACK = 4
     MAXLOCALS = 4

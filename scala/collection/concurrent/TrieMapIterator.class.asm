@@ -199,6 +199,8 @@ public class scala/collection/concurrent/TrieMapIterator implements scala/collec
     ALOAD 0
     ALOAD 2
     INVOKESPECIAL scala/collection/concurrent/TrieMapIterator.current_$eq (Lscala/collection/concurrent/KVNode;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L2
     ALOAD 4
@@ -210,6 +212,8 @@ public class scala/collection/concurrent/TrieMapIterator implements scala/collec
     ALOAD 0
     ALOAD 3
     INVOKESPECIAL scala/collection/concurrent/TrieMapIterator.readin (Lscala/collection/concurrent/INode;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L4
     NEW scala/MatchError
@@ -1044,6 +1048,8 @@ public class scala/collection/concurrent/TrieMapIterator implements scala/collec
     IASTORE
     ALOAD 0
     INVOKEVIRTUAL scala/collection/concurrent/TrieMapIterator.advance ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L0
     ALOAD 5
@@ -1055,6 +1061,8 @@ public class scala/collection/concurrent/TrieMapIterator implements scala/collec
     ALOAD 0
     ALOAD 3
     INVOKESPECIAL scala/collection/concurrent/TrieMapIterator.current_$eq (Lscala/collection/concurrent/KVNode;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L2
     ALOAD 5
@@ -1070,6 +1078,8 @@ public class scala/collection/concurrent/TrieMapIterator implements scala/collec
     INVOKESPECIAL scala/collection/concurrent/TrieMapIterator.subiter_$eq (Lscala/collection/Iterator;)V
     ALOAD 0
     INVOKESPECIAL scala/collection/concurrent/TrieMapIterator.checkSubiter ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L3
     ALOAD 5
@@ -1077,6 +1087,8 @@ public class scala/collection/concurrent/TrieMapIterator implements scala/collec
     ALOAD 0
     ACONST_NULL
     INVOKESPECIAL scala/collection/concurrent/TrieMapIterator.current_$eq (Lscala/collection/concurrent/KVNode;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L1
     RETURN
    L4

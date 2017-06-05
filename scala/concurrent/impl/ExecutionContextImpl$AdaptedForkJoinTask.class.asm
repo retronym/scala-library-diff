@@ -41,12 +41,18 @@ public final class scala/concurrent/impl/ExecutionContextImpl$AdaptedForkJoinTas
     INVOKEVIRTUAL java/lang/Thread.getUncaughtExceptionHandler ()Ljava/lang/Thread$UncaughtExceptionHandler;
     ASTORE 1
     ALOAD 1
-    IFNULL L3
+    IFNONNULL L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L4
+   L3
     ALOAD 1
     ALOAD 2
     ALOAD 3
     INVOKEINTERFACE java/lang/Thread$UncaughtExceptionHandler.uncaughtException (Ljava/lang/Thread;Ljava/lang/Throwable;)V
-   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L4
     ALOAD 3
     ATHROW
     MAXSTACK = 3

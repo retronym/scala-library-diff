@@ -89,6 +89,8 @@ public final class scala/concurrent/Future$$anonfun$flatMap$1 extends scala/runt
     ALOAD 0
     GETFIELD scala/concurrent/Future$$anonfun$flatMap$1.p$4 : Lscala/concurrent/impl/Promise$DefaultPromise;
     INVOKEVIRTUAL scala/concurrent/impl/Promise$DefaultPromise.linkRootOf (Lscala/concurrent/impl/Promise$DefaultPromise;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L6
    L5
     ALOAD 5
@@ -100,6 +102,8 @@ public final class scala/concurrent/Future$$anonfun$flatMap$1 extends scala/runt
     GETFIELD scala/concurrent/Future$$anonfun$flatMap$1.$outer : Lscala/concurrent/Future;
     INVOKESTATIC scala/concurrent/Future$class.scala$concurrent$Future$$internalExecutor (Lscala/concurrent/Future;)Lscala/concurrent/Future$InternalCallbackExecutor$;
     INVOKEINTERFACE scala/concurrent/Future.onComplete (Lscala/Function1;Lscala/concurrent/ExecutionContext;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L6
     GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     GOTO L7

@@ -1676,6 +1676,8 @@ public abstract class scala/collection/IterableViewLike$AbstractTransformed impl
     ICONST_1
     PUTFIELD scala/collection/IterableViewLike$AbstractTransformed.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

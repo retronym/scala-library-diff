@@ -256,7 +256,7 @@ public final class scala/sys/process/BasicIO$ {
     ISTORE 4
     ILOAD 4
     IFNE L3
-    GOTO L1
+    GOTO L6
    L4
     ALOAD 2
     ALOAD 3
@@ -269,6 +269,12 @@ public final class scala/sys/process/BasicIO$ {
     ICONST_1
     GOTO L5
    L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L7
+   L6
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L7
+    POP
     RETURN
     MAXSTACK = 4
     MAXLOCALS = 6
@@ -380,7 +386,10 @@ public final class scala/sys/process/BasicIO$ {
    L7
     ASTORE 3
     ALOAD 3
-    IFNULL L1
+    IFNONNULL L8
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L9
+   L8
     ALOAD 1
     ALOAD 3
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
@@ -392,6 +401,9 @@ public final class scala/sys/process/BasicIO$ {
     CHECKCAST java/lang/String
     GOTO L7
    L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L9
+    POP
     RETURN
    L6
     ALOAD 4

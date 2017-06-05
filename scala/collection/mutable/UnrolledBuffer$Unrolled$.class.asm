@@ -6,6 +6,8 @@ public class scala/collection/mutable/UnrolledBuffer$Unrolled$ {
   public static INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled$ scala/collection/mutable/UnrolledBuffer Unrolled$
   // access flags 0x11
   public final INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled$$anonfun$insertAll$1 null null
+  // access flags 0x11
+  public final INNERCLASS scala/collection/mutable/UnrolledBuffer$Unrolled$$anonfun$insertAll$2 null null
 
   // access flags 0x19
   public final static Lscala/collection/mutable/UnrolledBuffer$Unrolled$; MODULE$

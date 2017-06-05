@@ -30,6 +30,8 @@ public abstract class scala/collection/mutable/MultiMap$class {
     ALOAD 1
     ALOAD 3
     INVOKEINTERFACE scala/collection/mutable/MultiMap.update (Ljava/lang/Object;Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L0
     ALOAD 5
@@ -112,10 +114,14 @@ public abstract class scala/collection/mutable/MultiMap$class {
     GETSTATIC scala/None$.MODULE$ : Lscala/None$;
     ALOAD 4
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-    IFNE L0
+    IFEQ L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L1
+   L0
     ALOAD 4
     INSTANCEOF scala/Some
-    IFEQ L1
+    IFEQ L2
     ALOAD 4
     CHECKCAST scala/Some
     ASTORE 3
@@ -129,15 +135,19 @@ public abstract class scala/collection/mutable/MultiMap$class {
     INVOKEVIRTUAL scala/Some.x ()Ljava/lang/Object;
     CHECKCAST scala/collection/SetLike
     INVOKEINTERFACE scala/collection/SetLike.isEmpty ()Z
-    IFEQ L0
+    IFEQ L3
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/MultiMap.$minus$eq (Ljava/lang/Object;)Lscala/collection/mutable/MapLike;
     POP
-   L0
+    GOTO L1
+   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L1
     ALOAD 0
     ARETURN
-   L1
+   L2
     NEW scala/MatchError
     DUP
     ALOAD 4

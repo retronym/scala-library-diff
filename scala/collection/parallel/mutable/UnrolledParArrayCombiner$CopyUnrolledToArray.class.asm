@@ -222,8 +222,11 @@ public class scala/collection/parallel/mutable/UnrolledParArrayCombiner$CopyUnro
 
   // access flags 0x1
   public result()V
+    ALOAD 0
+    GETFIELD scala/collection/parallel/mutable/UnrolledParArrayCombiner$CopyUnrolledToArray.result : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
-    MAXSTACK = 0
+    MAXSTACK = 1
     MAXLOCALS = 1
 
   // access flags 0x1041

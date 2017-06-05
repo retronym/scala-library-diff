@@ -110,6 +110,8 @@ public class scala/concurrent/DelayedLazyVal {
     ICONST_1
     PUTFIELD scala/concurrent/DelayedLazyVal.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -803,6 +803,7 @@ public abstract class scala/collection/immutable/RedBlackTree$TreeIterator imple
     ICONST_1
     IADD
     PUTFIELD scala/collection/immutable/RedBlackTree$TreeIterator.index : I
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     GOTO L2
    L1
     POP
@@ -834,6 +835,7 @@ public abstract class scala/collection/immutable/RedBlackTree$TreeIterator imple
     PUTFIELD scala/collection/immutable/RedBlackTree$TreeIterator.stackOfNexts : [Lscala/collection/immutable/RedBlackTree$Tree;
     GOTO L0
    L2
+    POP
     RETURN
     MAXSTACK = 5
     MAXLOCALS = 2

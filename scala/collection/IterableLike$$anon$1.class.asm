@@ -1657,6 +1657,8 @@ public final class scala/collection/IterableLike$$anon$1 implements scala/collec
     ICONST_1
     PUTFIELD scala/collection/IterableLike$$anon$1.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

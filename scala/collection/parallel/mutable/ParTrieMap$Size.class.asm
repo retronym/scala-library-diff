@@ -96,6 +96,8 @@ public class scala/collection/parallel/mutable/ParTrieMap$Size implements scala/
     ICONST_1
     IADD
     ISTORE 6
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L2
     ALOAD 5
@@ -112,6 +114,8 @@ public class scala/collection/parallel/mutable/ParTrieMap$Size implements scala/
     INVOKEVIRTUAL scala/collection/concurrent/INode.cachedSize (Lscala/collection/concurrent/TrieMap;)I
     IADD
     ISTORE 6
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L3
     ILOAD 4
     ICONST_1

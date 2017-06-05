@@ -247,6 +247,8 @@ public class scala/collection/mutable/AVLIterator implements scala/collection/It
     INVOKEVIRTUAL scala/collection/mutable/Node.left ()Lscala/collection/mutable/AVLTree;
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
     IFEQ L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L1
     ALOAD 0

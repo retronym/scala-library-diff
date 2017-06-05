@@ -50,6 +50,8 @@ public abstract class scala/collection/mutable/BufferLike$class {
     AASTORE
     INVOKEVIRTUAL scala/Predef$.genericWrapArray (Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;
     INVOKEINTERFACE scala/collection/mutable/Buffer.prepend (Lscala/collection/Seq;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L0
     ILOAD 3
@@ -70,6 +72,8 @@ public abstract class scala/collection/mutable/BufferLike$class {
     AASTORE
     INVOKEVIRTUAL scala/Predef$.genericWrapArray (Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;
     INVOKEINTERFACE scala/collection/mutable/Buffer.append (Lscala/collection/Seq;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L2
     ILOAD 3
@@ -95,6 +99,8 @@ public abstract class scala/collection/mutable/BufferLike$class {
     AASTORE
     INVOKEVIRTUAL scala/Predef$.genericWrapArray (Ljava/lang/Object;)Lscala/collection/mutable/WrappedArray;
     INVOKEINTERFACE scala/collection/mutable/Buffer.insert (ILscala/collection/Seq;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L3
     ILOAD 3
@@ -108,6 +114,8 @@ public abstract class scala/collection/mutable/BufferLike$class {
     ALOAD 4
     INVOKEVIRTUAL scala/collection/script/Include.elem ()Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/Buffer.$plus$eq (Ljava/lang/Object;)Lscala/collection/mutable/Buffer;
+    POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     POP
     GOTO L1
    L4
@@ -129,6 +137,8 @@ public abstract class scala/collection/mutable/BufferLike$class {
     ALOAD 7
     INVOKEVIRTUAL scala/collection/script/Update.elem ()Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/Buffer.update (ILjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L5
     ILOAD 5
@@ -146,6 +156,8 @@ public abstract class scala/collection/mutable/BufferLike$class {
     ALOAD 7
     INVOKEVIRTUAL scala/collection/script/Update.elem ()Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/Buffer.update (ILjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L6
     ILOAD 5
@@ -164,6 +176,8 @@ public abstract class scala/collection/mutable/BufferLike$class {
     ALOAD 7
     INVOKEVIRTUAL scala/collection/script/Update.elem ()Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/Buffer.update (ILjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L7
     ALOAD 1
@@ -220,20 +234,26 @@ public abstract class scala/collection/mutable/BufferLike$class {
     ALOAD 9
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
    L10
-    IFEQ L1
+    IFEQ L14
     ALOAD 0
     ICONST_0
     INVOKEINTERFACE scala/collection/mutable/Buffer.remove (I)Ljava/lang/Object;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L1
+   L14
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L8
     ILOAD 15
-    IFEQ L14
+    IFEQ L15
     GETSTATIC scala/collection/script/End$.MODULE$ : Lscala/collection/script/End$;
     ALOAD 16
     INVOKEVIRTUAL scala/collection/script/Remove.location ()Lscala/collection/script/Location;
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-    IFEQ L14
+    IFEQ L15
     ALOAD 0
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/Buffer.length ()I
@@ -247,38 +267,38 @@ public abstract class scala/collection/mutable/BufferLike$class {
     DUP
     ASTORE 10
     ALOAD 11
-    IF_ACMPNE L15
+    IF_ACMPNE L16
     ICONST_1
-    GOTO L16
-   L15
+    GOTO L17
+   L16
     ALOAD 10
-    IFNONNULL L17
+    IFNONNULL L18
     ICONST_0
-    GOTO L16
-   L17
+    GOTO L17
+   L18
     ALOAD 10
     INSTANCEOF java/lang/Number
-    IFEQ L18
+    IFEQ L19
     ALOAD 10
     CHECKCAST java/lang/Number
     ALOAD 11
     INVOKESTATIC scala/runtime/BoxesRunTime.equalsNumObject (Ljava/lang/Number;Ljava/lang/Object;)Z
-    GOTO L16
-   L18
+    GOTO L17
+   L19
     ALOAD 10
     INSTANCEOF java/lang/Character
-    IFEQ L19
+    IFEQ L20
     ALOAD 10
     CHECKCAST java/lang/Character
     ALOAD 11
     INVOKESTATIC scala/runtime/BoxesRunTime.equalsCharObject (Ljava/lang/Character;Ljava/lang/Object;)Z
-    GOTO L16
-   L19
+    GOTO L17
+   L20
     ALOAD 10
     ALOAD 11
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-   L16
-    IFEQ L1
+   L17
+    IFEQ L21
     ALOAD 0
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/Buffer.length ()I
@@ -286,14 +306,20 @@ public abstract class scala/collection/mutable/BufferLike$class {
     ISUB
     INVOKEINTERFACE scala/collection/mutable/Buffer.remove (I)Ljava/lang/Object;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
-   L14
+   L21
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L1
+   L15
     ILOAD 15
-    IFEQ L20
+    IFEQ L22
     ALOAD 16
     INVOKEVIRTUAL scala/collection/script/Remove.location ()Lscala/collection/script/Location;
     INSTANCEOF scala/collection/script/Index
-    IFEQ L20
+    IFEQ L22
     ALOAD 16
     INVOKEVIRTUAL scala/collection/script/Remove.location ()Lscala/collection/script/Location;
     CHECKCAST scala/collection/script/Index
@@ -309,69 +335,79 @@ public abstract class scala/collection/mutable/BufferLike$class {
     DUP
     ASTORE 12
     ALOAD 13
-    IF_ACMPNE L21
+    IF_ACMPNE L23
     ICONST_1
-    GOTO L22
-   L21
-    ALOAD 12
-    IFNONNULL L23
-    ICONST_0
-    GOTO L22
+    GOTO L24
    L23
     ALOAD 12
+    IFNONNULL L25
+    ICONST_0
+    GOTO L24
+   L25
+    ALOAD 12
     INSTANCEOF java/lang/Number
-    IFEQ L24
+    IFEQ L26
     ALOAD 12
     CHECKCAST java/lang/Number
     ALOAD 13
     INVOKESTATIC scala/runtime/BoxesRunTime.equalsNumObject (Ljava/lang/Number;Ljava/lang/Object;)Z
-    GOTO L22
-   L24
+    GOTO L24
+   L26
     ALOAD 12
     INSTANCEOF java/lang/Character
-    IFEQ L25
+    IFEQ L27
     ALOAD 12
     CHECKCAST java/lang/Character
     ALOAD 13
     INVOKESTATIC scala/runtime/BoxesRunTime.equalsCharObject (Ljava/lang/Character;Ljava/lang/Object;)Z
-    GOTO L22
-   L25
+    GOTO L24
+   L27
     ALOAD 12
     ALOAD 13
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-   L22
-    IFEQ L1
+   L24
+    IFEQ L28
     ALOAD 0
     ALOAD 14
     INVOKEVIRTUAL scala/collection/script/Index.n ()I
     INVOKEINTERFACE scala/collection/mutable/Buffer.remove (I)Ljava/lang/Object;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
-   L20
+   L28
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L1
+   L22
     ILOAD 15
-    IFEQ L26
+    IFEQ L29
     GETSTATIC scala/collection/script/NoLo$.MODULE$ : Lscala/collection/script/NoLo$;
     ALOAD 16
     INVOKEVIRTUAL scala/collection/script/Remove.location ()Lscala/collection/script/Location;
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-    IFEQ L26
+    IFEQ L29
     ALOAD 0
     ALOAD 16
     INVOKEVIRTUAL scala/collection/script/Remove.elem ()Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/Buffer.$minus$eq (Ljava/lang/Object;)Lscala/collection/mutable/Buffer;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
-   L26
+   L29
     ALOAD 1
     INSTANCEOF scala/collection/script/Reset
-    IFEQ L27
+    IFEQ L30
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/Buffer.clear ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
-   L27
+   L30
     ALOAD 1
     INSTANCEOF scala/collection/script/Script
-    IFEQ L28
+    IFEQ L31
     ALOAD 1
     CHECKCAST scala/collection/script/Script
     ASTORE 17
@@ -382,9 +418,11 @@ public abstract class scala/collection/mutable/BufferLike$class {
     ALOAD 0
     INVOKESPECIAL scala/collection/mutable/BufferLike$$anonfun$$less$less$1.<init> (Lscala/collection/mutable/Buffer;)V
     INVOKEINTERFACE scala/collection/Iterator.foreach (Lscala/Function1;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L1
     RETURN
-   L28
+   L31
     NEW java/lang/UnsupportedOperationException
     DUP
     NEW scala/collection/mutable/StringBuilder

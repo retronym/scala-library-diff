@@ -1028,6 +1028,8 @@ public final class scala/collection/concurrent/TrieMap implements scala/collecti
     INVOKEVIRTUAL scala/collection/concurrent/INode$.newRootNode ()Lscala/collection/concurrent/INode;
     INVOKESPECIAL scala/collection/concurrent/TrieMap.RDCSS_ROOT (Lscala/collection/concurrent/INode;Lscala/collection/concurrent/MainNode;Lscala/collection/concurrent/INode;)Z
     IFEQ L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
     MAXSTACK = 4
     MAXLOCALS = 2
@@ -1623,6 +1625,8 @@ public final class scala/collection/concurrent/TrieMap implements scala/collecti
     ALOAD 0
     INVOKEVIRTUAL scala/collection/concurrent/INode.rec_insert (Ljava/lang/Object;Ljava/lang/Object;IILscala/collection/concurrent/INode;Lscala/collection/concurrent/Gen;Lscala/collection/concurrent/TrieMap;)Z
     IFEQ L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
     MAXSTACK = 8
     MAXLOCALS = 5

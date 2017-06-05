@@ -82,6 +82,8 @@ public class scala/concurrent/ExecutionContext$Implicits$ {
     ICONST_1
     PUTFIELD scala/concurrent/ExecutionContext$Implicits$.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -941,6 +941,8 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
     IFEQ L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L1
     ALOAD 1
@@ -1208,6 +1210,8 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     GETSTATIC scala/Console$.MODULE$ : Lscala/Console$;
     LDC "empty"
     INVOKEVIRTUAL scala/Console$.print (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L1
     GETSTATIC scala/Console$.MODULE$ : Lscala/Console$;
@@ -1258,6 +1262,7 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     ALOAD 5
     INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     GOTO L2
    L1
     ALOAD 3
@@ -1286,7 +1291,9 @@ public abstract class scala/collection/immutable/Stream extends scala/collection
     ALOAD 5
     INVOKEVIRTUAL scala/collection/mutable/StringBuilder.append (Ljava/lang/String;)Lscala/collection/mutable/StringBuilder;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
    L2
+    POP
     RETURN
     MAXSTACK = 2
     MAXLOCALS = 6

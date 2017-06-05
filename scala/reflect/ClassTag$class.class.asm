@@ -271,6 +271,42 @@ public abstract class scala/reflect/ClassTag$class {
     MAXLOCALS = 2
 
   // access flags 0x9
+  public static scala$reflect$ClassTag$$unapplyImpl(Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
+    ALOAD 0
+    INVOKEINTERFACE scala/reflect/ClassTag.runtimeClass ()Ljava/lang/Class;
+    ALOAD 1
+    INVOKEVIRTUAL java/lang/Object.getClass ()Ljava/lang/Class;
+    INVOKEVIRTUAL java/lang/Class.isAssignableFrom (Ljava/lang/Class;)Z
+    IFNE L0
+    ALOAD 2
+    IFNULL L1
+    ALOAD 0
+    INVOKEINTERFACE scala/reflect/ClassTag.runtimeClass ()Ljava/lang/Class;
+    ALOAD 2
+    INVOKEVIRTUAL java/lang/Class.isAssignableFrom (Ljava/lang/Class;)Z
+    IFEQ L1
+   L0
+    ICONST_1
+    GOTO L2
+   L1
+    ICONST_0
+   L2
+    ISTORE 3
+    ILOAD 3
+    IFEQ L3
+    NEW scala/Some
+    DUP
+    ALOAD 1
+    INVOKESPECIAL scala/Some.<init> (Ljava/lang/Object;)V
+    GOTO L4
+   L3
+    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
+   L4
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 4
+
+  // access flags 0x9
   public static toString(Lscala/reflect/ClassTag;)Ljava/lang/String;
     ALOAD 0
     ALOAD 0
@@ -282,23 +318,148 @@ public abstract class scala/reflect/ClassTag$class {
 
   // access flags 0x9
   public static unapply(Lscala/reflect/ClassTag;Ljava/lang/Object;)Lscala/Option;
+    ALOAD 1
+    IFNONNULL L0
+    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
+    ASTORE 13
+    GOTO L1
+   L0
+    ALOAD 1
+    INSTANCEOF java/lang/Byte
+    IFEQ L2
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToByte (Ljava/lang/Object;)B
+    ISTORE 2
+    ALOAD 0
+    ILOAD 2
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (B)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L2
+    ALOAD 1
+    INSTANCEOF java/lang/Short
+    IFEQ L3
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToShort (Ljava/lang/Object;)S
+    ISTORE 3
+    ALOAD 0
+    ILOAD 3
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (S)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L3
+    ALOAD 1
+    INSTANCEOF java/lang/Character
+    IFEQ L4
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToChar (Ljava/lang/Object;)C
+    ISTORE 4
+    ALOAD 0
+    ILOAD 4
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (C)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L4
+    ALOAD 1
+    INSTANCEOF java/lang/Integer
+    IFEQ L5
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToInt (Ljava/lang/Object;)I
+    ISTORE 5
+    ALOAD 0
+    ILOAD 5
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (I)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L5
+    ALOAD 1
+    INSTANCEOF java/lang/Long
+    IFEQ L6
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToLong (Ljava/lang/Object;)J
+    LSTORE 6
+    ALOAD 0
+    LLOAD 6
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (J)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L6
+    ALOAD 1
+    INSTANCEOF java/lang/Float
+    IFEQ L7
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToFloat (Ljava/lang/Object;)F
+    FSTORE 8
+    ALOAD 0
+    FLOAD 8
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (F)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L7
+    ALOAD 1
+    INSTANCEOF java/lang/Double
+    IFEQ L8
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToDouble (Ljava/lang/Object;)D
+    DSTORE 9
+    ALOAD 0
+    DLOAD 9
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (D)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L8
+    ALOAD 1
+    INSTANCEOF java/lang/Boolean
+    IFEQ L9
+    ALOAD 1
+    INVOKESTATIC scala/runtime/BoxesRunTime.unboxToBoolean (Ljava/lang/Object;)Z
+    ISTORE 11
+    ALOAD 0
+    ILOAD 11
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (Z)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L9
+    ALOAD 1
+    INSTANCEOF scala/runtime/BoxedUnit
+    IFEQ L10
+    ALOAD 1
+    CHECKCAST scala/runtime/BoxedUnit
+    ASTORE 12
+    ALOAD 0
+    ALOAD 12
+    INVOKEINTERFACE scala/reflect/ClassTag.unapply (Lscala/runtime/BoxedUnit;)Lscala/Option;
+    ASTORE 13
+    GOTO L1
+   L10
+    ALOAD 1
+    INSTANCEOF java/lang/Object
+    IFEQ L11
     ALOAD 0
     ALOAD 1
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Any ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    ALOAD 0
+    INVOKESTATIC scala/reflect/ClassTag$class.unapplyImpl$default$2 (Lscala/reflect/ClassTag;)Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
+    ASTORE 13
+   L1
+    ALOAD 13
     ARETURN
+   L11
+    NEW scala/MatchError
+    DUP
+    ALOAD 1
+    INVOKESPECIAL scala/MatchError.<init> (Ljava/lang/Object;)V
+    ATHROW
     MAXSTACK = 3
-    MAXLOCALS = 2
+    MAXLOCALS = 14
 
   // access flags 0x9
   public static unapply(Lscala/reflect/ClassTag;B)Lscala/Option;
     ALOAD 0
     ILOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToByte (B)Ljava/lang/Byte;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Byte ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Byte.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
@@ -308,9 +469,8 @@ public abstract class scala/reflect/ClassTag$class {
     ALOAD 0
     ILOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToShort (S)Ljava/lang/Short;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Short ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Short.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
@@ -320,9 +480,8 @@ public abstract class scala/reflect/ClassTag$class {
     ALOAD 0
     ILOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToCharacter (C)Ljava/lang/Character;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Char ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Character.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
@@ -332,9 +491,8 @@ public abstract class scala/reflect/ClassTag$class {
     ALOAD 0
     ILOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToInteger (I)Ljava/lang/Integer;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Int ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Integer.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
@@ -344,9 +502,8 @@ public abstract class scala/reflect/ClassTag$class {
     ALOAD 0
     LLOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToLong (J)Ljava/lang/Long;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Long ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Long.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 3
@@ -356,9 +513,8 @@ public abstract class scala/reflect/ClassTag$class {
     ALOAD 0
     FLOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToFloat (F)Ljava/lang/Float;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Float ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Float.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
@@ -368,9 +524,8 @@ public abstract class scala/reflect/ClassTag$class {
     ALOAD 0
     DLOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToDouble (D)Ljava/lang/Double;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Double ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Double.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 3
@@ -380,9 +535,8 @@ public abstract class scala/reflect/ClassTag$class {
     ALOAD 0
     ILOAD 1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToBoolean (Z)Ljava/lang/Boolean;
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Boolean ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC java/lang/Boolean.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
@@ -391,55 +545,18 @@ public abstract class scala/reflect/ClassTag$class {
   public static unapply(Lscala/reflect/ClassTag;Lscala/runtime/BoxedUnit;)Lscala/Option;
     ALOAD 0
     ALOAD 1
-    GETSTATIC scala/reflect/ClassTag$.MODULE$ : Lscala/reflect/ClassTag$;
-    INVOKEVIRTUAL scala/reflect/ClassTag$.Unit ()Lscala/reflect/ClassTag;
-    INVOKESTATIC scala/reflect/ClassTag$class.unapply_impl (Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
+    GETSTATIC scala/runtime/BoxedUnit.TYPE : Ljava/lang/Class;
+    INVOKESTATIC scala/reflect/ClassTag$class.scala$reflect$ClassTag$$unapplyImpl (Lscala/reflect/ClassTag;Ljava/lang/Object;Ljava/lang/Class;)Lscala/Option;
     ARETURN
     MAXSTACK = 3
     MAXLOCALS = 2
 
   // access flags 0xA
-  private static unapply_impl(Lscala/reflect/ClassTag;Ljava/lang/Object;Lscala/reflect/ClassTag;)Lscala/Option;
-    ALOAD 1
-    IFNONNULL L0
-    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
-    GOTO L1
-   L0
-    GETSTATIC scala/reflect/package$.MODULE$ : Lscala/reflect/package$;
-    ALOAD 2
-    INVOKEVIRTUAL scala/reflect/package$.classTag (Lscala/reflect/ClassTag;)Lscala/reflect/ClassTag;
-    INVOKEINTERFACE scala/reflect/ClassTag.runtimeClass ()Ljava/lang/Class;
-    ASTORE 3
-    ALOAD 1
-    INVOKEVIRTUAL java/lang/Object.getClass ()Ljava/lang/Class;
-    ASTORE 4
-    ALOAD 3
-    INVOKEVIRTUAL java/lang/Class.isPrimitive ()Z
-    IFEQ L2
-    ALOAD 3
-    GOTO L3
-   L2
-    ALOAD 4
-   L3
-    ASTORE 5
-    ALOAD 0
-    INVOKEINTERFACE scala/reflect/ClassTag.runtimeClass ()Ljava/lang/Class;
-    ALOAD 5
-    INVOKEVIRTUAL java/lang/Class.isAssignableFrom (Ljava/lang/Class;)Z
-    ISTORE 6
-    ILOAD 6
-    IFEQ L4
-    NEW scala/Some
-    DUP
-    ALOAD 1
-    INVOKESPECIAL scala/Some.<init> (Ljava/lang/Object;)V
-    GOTO L1
-   L4
-    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
-   L1
+  private static unapplyImpl$default$2(Lscala/reflect/ClassTag;)Ljava/lang/Class;
+    ACONST_NULL
     ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 7
+    MAXSTACK = 1
+    MAXLOCALS = 1
 
   // access flags 0x9
   public static wrap(Lscala/reflect/ClassTag;)Lscala/reflect/ClassTag;

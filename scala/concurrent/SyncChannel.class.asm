@@ -110,6 +110,7 @@ public class scala/concurrent/SyncChannel {
     ALOAD 1
     INVOKEVIRTUAL scala/collection/immutable/List.$colon$colon$colon (Lscala/collection/immutable/List;)Lscala/collection/immutable/List;
     INVOKESPECIAL scala/concurrent/SyncChannel.pendingReads_$eq (Lscala/collection/immutable/List;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     GOTO L6
    L5
     ALOAD 0
@@ -147,7 +148,9 @@ public class scala/concurrent/SyncChannel {
     ALOAD 5
     ALOAD 4
     INVOKEVIRTUAL scala/concurrent/SyncVar.set (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
    L6
+    POP
     ALOAD 0
     MONITOREXIT
    L4
@@ -210,6 +213,7 @@ public class scala/concurrent/SyncChannel {
     ALOAD 2
     INVOKEVIRTUAL scala/collection/immutable/List.$colon$colon$colon (Lscala/collection/immutable/List;)Lscala/collection/immutable/List;
     INVOKESPECIAL scala/concurrent/SyncChannel.pendingWrites_$eq (Lscala/collection/immutable/List;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     GOTO L4
    L3
     ALOAD 0
@@ -230,7 +234,9 @@ public class scala/concurrent/SyncChannel {
     ICONST_1
     INVOKESTATIC scala/runtime/BoxesRunTime.boxToBoolean (Z)Ljava/lang/Boolean;
     INVOKEVIRTUAL scala/concurrent/SyncVar.set (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
    L4
+    POP
     ALOAD 0
     MONITOREXIT
    L1

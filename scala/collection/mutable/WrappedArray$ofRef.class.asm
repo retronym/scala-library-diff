@@ -115,6 +115,8 @@ public final class scala/collection/mutable/WrappedArray$ofRef extends scala/col
     ICONST_1
     PUTFIELD scala/collection/mutable/WrappedArray$ofRef.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

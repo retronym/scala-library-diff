@@ -34,7 +34,11 @@ public abstract class scala/collection/immutable/Set$class {
   // access flags 0x9
   public static toSet(Lscala/collection/immutable/Set;)Lscala/collection/immutable/Set;
     ALOAD 0
+    GETSTATIC scala/collection/immutable/Set$.MODULE$ : Lscala/collection/immutable/Set$;
+    INVOKEVIRTUAL scala/collection/immutable/Set$.canBuildFrom ()Lscala/collection/generic/CanBuildFrom;
+    INVOKEINTERFACE scala/collection/immutable/Set.to (Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;
+    CHECKCAST scala/collection/immutable/Set
     ARETURN
-    MAXSTACK = 1
+    MAXSTACK = 2
     MAXLOCALS = 1
 }

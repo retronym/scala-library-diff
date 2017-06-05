@@ -1,4 +1,5 @@
 package scala.collection.mutable
+@scala.deprecated("AVLTree and its related classes are being removed from the standard library since they're not different enough from RedBlackTree to justify keeping them.")
 private[mutable] sealed trait AVLTree[+A] extends scala.AnyRef with scala.Serializable {
   def $init$(): scala.Unit = { /* compiled code */ }
   def balance: scala.Int

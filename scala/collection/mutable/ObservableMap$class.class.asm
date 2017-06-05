@@ -26,10 +26,14 @@ public abstract class scala/collection/mutable/ObservableMap$class {
     GETSTATIC scala/None$.MODULE$ : Lscala/None$;
     ALOAD 3
     INVOKEVIRTUAL java/lang/Object.equals (Ljava/lang/Object;)Z
-    IFNE L0
+    IFEQ L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L1
+   L0
     ALOAD 3
     INSTANCEOF scala/Some
-    IFEQ L1
+    IFEQ L2
     ALOAD 3
     CHECKCAST scala/Some
     ASTORE 2
@@ -45,10 +49,12 @@ public abstract class scala/collection/mutable/ObservableMap$class {
     ALOAD 1
     INVOKESPECIAL scala/collection/mutable/ObservableMap$$anon$3.<init> (Lscala/collection/mutable/ObservableMap;Lscala/Some;Ljava/lang/Object;)V
     INVOKEINTERFACE scala/collection/mutable/ObservableMap.publish (Ljava/lang/Object;)V
-   L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L1
     ALOAD 0
     ARETURN
-   L1
+   L2
     NEW scala/MatchError
     DUP
     ALOAD 3
@@ -95,6 +101,8 @@ public abstract class scala/collection/mutable/ObservableMap$class {
     ALOAD 4
     INVOKESPECIAL scala/collection/mutable/ObservableMap$$anon$1.<init> (Lscala/collection/mutable/ObservableMap;Ljava/lang/Object;Ljava/lang/Object;)V
     INVOKEINTERFACE scala/collection/mutable/ObservableMap.publish (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L2
    L1
     ALOAD 6
@@ -116,6 +124,8 @@ public abstract class scala/collection/mutable/ObservableMap$class {
     ALOAD 5
     INVOKESPECIAL scala/collection/mutable/ObservableMap$$anon$2.<init> (Lscala/collection/mutable/ObservableMap;Ljava/lang/Object;Ljava/lang/Object;Lscala/Some;)V
     INVOKEINTERFACE scala/collection/mutable/ObservableMap.publish (Ljava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L2
     ALOAD 0
     ARETURN

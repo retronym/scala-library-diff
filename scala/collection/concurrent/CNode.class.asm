@@ -169,6 +169,8 @@ public final class scala/collection/concurrent/CNode extends scala/collection/co
     ICONST_1
     IADD
     ISTORE 7
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L5
    L4
     ALOAD 6
@@ -183,6 +185,8 @@ public final class scala/collection/concurrent/CNode extends scala/collection/co
     INVOKEVIRTUAL scala/collection/concurrent/INode.cachedSize (Lscala/collection/concurrent/TrieMap;)I
     IADD
     ISTORE 7
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L5
     ILOAD 5
     ICONST_1
@@ -361,6 +365,8 @@ public final class scala/collection/concurrent/CNode extends scala/collection/co
     ALOAD 2
     INVOKEVIRTUAL scala/collection/concurrent/INode.copyToGen (Lscala/collection/concurrent/Gen;Lscala/collection/concurrent/TrieMap;)Lscala/collection/concurrent/INode;
     AASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L3
    L2
     ALOAD 7
@@ -369,6 +375,8 @@ public final class scala/collection/concurrent/CNode extends scala/collection/co
     ILOAD 6
     ALOAD 7
     AASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L3
     ILOAD 6
     ICONST_1
@@ -537,6 +545,8 @@ public final class scala/collection/concurrent/CNode extends scala/collection/co
     ALOAD 6
     INVOKESPECIAL scala/collection/concurrent/CNode.resurrect (Lscala/collection/concurrent/INode;Ljava/lang/Object;)Lscala/collection/concurrent/BasicNode;
     AASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L5
    L2
     ALOAD 9
@@ -549,6 +559,8 @@ public final class scala/collection/concurrent/CNode extends scala/collection/co
     ILOAD 8
     ALOAD 7
     AASTORE
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L5
     ILOAD 8
     ICONST_1

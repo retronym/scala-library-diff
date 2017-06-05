@@ -42,7 +42,7 @@ public final class scala/concurrent/Future$$anonfun$2 extends scala/runtime/Abst
    L0
     ALOAD 1
     INSTANCEOF scala/util/Success
-    IFEQ L1
+    IFEQ L3
     ALOAD 1
     CHECKCAST scala/util/Success
     ASTORE 2
@@ -52,7 +52,7 @@ public final class scala/concurrent/Future$$anonfun$2 extends scala/runtime/Abst
     INVOKEVIRTUAL scala/util/Success.value ()Ljava/lang/Object;
     INVOKEINTERFACE scala/Function1.apply (Ljava/lang/Object;)Ljava/lang/Object;
     INVOKESTATIC scala/runtime/BoxesRunTime.unboxToBoolean (Ljava/lang/Object;)Z
-    IFEQ L1
+    IFEQ L3
     ALOAD 0
     GETFIELD scala/concurrent/Future$$anonfun$2.result$1 : Lscala/concurrent/Promise;
     NEW scala/util/Success
@@ -65,24 +65,13 @@ public final class scala/concurrent/Future$$anonfun$2 extends scala/runtime/Abst
     INVOKESPECIAL scala/util/Success.<init> (Ljava/lang/Object;)V
     INVOKEINTERFACE scala/concurrent/Promise.tryComplete (Lscala/util/Try;)Z
     POP
-   L1
-    ALOAD 0
-    GETFIELD scala/concurrent/Future$$anonfun$2.ref$1 : Ljava/util/concurrent/atomic/AtomicInteger;
-    INVOKEVIRTUAL java/util/concurrent/atomic/AtomicInteger.decrementAndGet ()I
-    ICONST_0
-    IF_ICMPNE L3
-    ALOAD 0
-    GETFIELD scala/concurrent/Future$$anonfun$2.result$1 : Lscala/concurrent/Promise;
-    NEW scala/util/Success
-    DUP
-    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
-    INVOKESPECIAL scala/util/Success.<init> (Ljava/lang/Object;)V
-    INVOKEINTERFACE scala/concurrent/Promise.tryComplete (Lscala/util/Try;)Z
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     POP
+    GOTO L1
    L3
-    RETURN
-   L2
-    ASTORE 3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L1
     ALOAD 0
     GETFIELD scala/concurrent/Future$$anonfun$2.ref$1 : Ljava/util/concurrent/atomic/AtomicInteger;
     INVOKEVIRTUAL java/util/concurrent/atomic/AtomicInteger.decrementAndGet ()I
@@ -97,6 +86,23 @@ public final class scala/concurrent/Future$$anonfun$2 extends scala/runtime/Abst
     INVOKEINTERFACE scala/concurrent/Promise.tryComplete (Lscala/util/Try;)Z
     POP
    L4
+    RETURN
+   L2
+    ASTORE 3
+    ALOAD 0
+    GETFIELD scala/concurrent/Future$$anonfun$2.ref$1 : Ljava/util/concurrent/atomic/AtomicInteger;
+    INVOKEVIRTUAL java/util/concurrent/atomic/AtomicInteger.decrementAndGet ()I
+    ICONST_0
+    IF_ICMPNE L5
+    ALOAD 0
+    GETFIELD scala/concurrent/Future$$anonfun$2.result$1 : Lscala/concurrent/Promise;
+    NEW scala/util/Success
+    DUP
+    GETSTATIC scala/None$.MODULE$ : Lscala/None$;
+    INVOKESPECIAL scala/util/Success.<init> (Ljava/lang/Object;)V
+    INVOKEINTERFACE scala/concurrent/Promise.tryComplete (Lscala/util/Try;)Z
+    POP
+   L5
     ALOAD 3
     ATHROW
     MAXSTACK = 6

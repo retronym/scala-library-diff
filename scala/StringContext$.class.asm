@@ -43,97 +43,237 @@ public final class scala/StringContext$ implements scala/Serializable  {
     MAXLOCALS = 2
 
   // access flags 0x12
-  private final bldr$1(Lscala/runtime/ObjectRef;Lscala/runtime/VolatileByteRef;)Ljava/lang/StringBuilder;
-    ALOAD 2
-    GETFIELD scala/runtime/VolatileByteRef.elem : B
-    ICONST_1
-    IAND
-    I2B
-    ICONST_0
-    IF_ICMPNE L0
-    ALOAD 0
-    ALOAD 1
-    ALOAD 2
-    INVOKESPECIAL scala/StringContext$.bldr$lzycompute$1 (Lscala/runtime/ObjectRef;Lscala/runtime/VolatileByteRef;)Ljava/lang/StringBuilder;
-    GOTO L1
+  private final loop$1(IILjava/lang/String;ZILjava/lang/StringBuilder;)Ljava/lang/String;
    L0
-    ALOAD 1
-    GETFIELD scala/runtime/ObjectRef.elem : Ljava/lang/Object;
-    CHECKCAST java/lang/StringBuilder
-   L1
-    ARETURN
-    MAXSTACK = 3
-    MAXLOCALS = 3
-
-  // access flags 0x12
-  private final bldr$lzycompute$1(Lscala/runtime/ObjectRef;Lscala/runtime/VolatileByteRef;)Ljava/lang/StringBuilder;
-    TRYCATCHBLOCK L0 L1 L2 null
-    ALOAD 0
-    DUP
-    ASTORE 3
-    MONITORENTER
-   L0
-    ALOAD 2
-    GETFIELD scala/runtime/VolatileByteRef.elem : B
-    ICONST_1
-    IAND
-    I2B
+    ILOAD 2
     ICONST_0
-    IF_ICMPNE L3
-    ALOAD 1
-    NEW java/lang/StringBuilder
-    DUP
-    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
-    PUTFIELD scala/runtime/ObjectRef.elem : Ljava/lang/Object;
-    ALOAD 2
-    ALOAD 2
-    GETFIELD scala/runtime/VolatileByteRef.elem : B
-    ICONST_1
-    IOR
-    I2B
-    PUTFIELD scala/runtime/VolatileByteRef.elem : B
-   L3
-    ALOAD 0
-    MONITOREXIT
-   L1
-    ALOAD 1
-    GETFIELD scala/runtime/ObjectRef.elem : Ljava/lang/Object;
-    CHECKCAST java/lang/StringBuilder
-    ARETURN
-   L2
-    ALOAD 3
-    MONITOREXIT
-    ATHROW
-    MAXSTACK = 3
-    MAXLOCALS = 4
-
-  // access flags 0x12
-  private final output$1(CLjava/lang/String;Lscala/runtime/ObjectRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/VolatileByteRef;)V
-    ALOAD 0
-    ALOAD 3
-    ALOAD 7
-    INVOKESPECIAL scala/StringContext$.bldr$1 (Lscala/runtime/ObjectRef;Lscala/runtime/VolatileByteRef;)Ljava/lang/StringBuilder;
-    ALOAD 2
-    ALOAD 4
-    GETFIELD scala/runtime/IntRef.elem : I
-    ALOAD 5
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
-    POP
-    ALOAD 0
-    ALOAD 3
-    ALOAD 7
-    INVOKESPECIAL scala/StringContext$.bldr$1 (Lscala/runtime/ObjectRef;Lscala/runtime/VolatileByteRef;)Ljava/lang/StringBuilder;
+    IF_ICMPLT L1
+    ILOAD 2
     ILOAD 1
+    IF_ICMPLE L2
+    ALOAD 6
+    ALOAD 3
+    ILOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
+    GOTO L3
+   L2
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L3
+    POP
+    ILOAD 2
+    ICONST_1
+    IADD
+    ISTORE 19
+    ILOAD 19
+    ILOAD 5
+    IF_ICMPLT L4
+    NEW scala/StringContext$InvalidEscapeException
+    DUP
+    ALOAD 3
+    ILOAD 2
+    INVOKESPECIAL scala/StringContext$InvalidEscapeException.<init> (Ljava/lang/String;I)V
+    ATHROW
+   L4
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 7
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    ISTORE 8
+    ILOAD 8
+    LOOKUPSWITCH
+      34: L5
+      39: L6
+      92: L7
+      98: L8
+      102: L9
+      110: L10
+      114: L11
+      116: L12
+      default: L13
+   L13
+    BIPUSH 48
+    ILOAD 8
+    IF_ICMPGT L14
+    ILOAD 8
+    BIPUSH 55
+    IF_ICMPGT L14
+    ILOAD 4
+    IFEQ L15
+    NEW scala/StringContext$InvalidEscapeException
+    DUP
+    ALOAD 3
+    ILOAD 2
+    INVOKESPECIAL scala/StringContext$InvalidEscapeException.<init> (Ljava/lang/String;I)V
+    ATHROW
+   L15
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 9
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    ISTORE 13
+    ILOAD 13
+    BIPUSH 48
+    ISUB
+    ISTORE 17
+    ILOAD 19
+    ICONST_1
+    IADD
+    DUP
+    ISTORE 19
+    ILOAD 5
+    IF_ICMPGE L16
+    BIPUSH 48
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 10
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    IF_ICMPGT L16
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 11
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    BIPUSH 55
+    IF_ICMPGT L16
+    ILOAD 17
+    BIPUSH 8
+    IMUL
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 12
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    IADD
+    BIPUSH 48
+    ISUB
+    ISTORE 17
+    ILOAD 19
+    ICONST_1
+    IADD
+    DUP
+    ISTORE 19
+    ILOAD 5
+    IF_ICMPGE L16
+    ILOAD 13
+    BIPUSH 51
+    IF_ICMPGT L16
+    BIPUSH 48
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 14
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    IF_ICMPGT L16
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 15
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    BIPUSH 55
+    IF_ICMPGT L16
+    ILOAD 17
+    BIPUSH 8
+    IMUL
+    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
+    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
+    ASTORE 16
+    ALOAD 3
+    ILOAD 19
+    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
+    IADD
+    BIPUSH 48
+    ISUB
+    ISTORE 17
+    ILOAD 19
+    ICONST_1
+    IADD
+    ISTORE 19
+   L16
+    ILOAD 19
+    ICONST_1
+    ISUB
+    ISTORE 19
+    ILOAD 17
+    I2C
+    GOTO L17
+   L14
+    NEW scala/StringContext$InvalidEscapeException
+    DUP
+    ALOAD 3
+    ILOAD 2
+    INVOKESPECIAL scala/StringContext$InvalidEscapeException.<init> (Ljava/lang/String;I)V
+    ATHROW
+   L7
+    BIPUSH 92
+    GOTO L17
+   L6
+    BIPUSH 39
+    GOTO L17
+   L5
+    BIPUSH 34
+    GOTO L17
+   L11
+    BIPUSH 13
+    GOTO L17
+   L9
+    BIPUSH 12
+    GOTO L17
+   L10
+    BIPUSH 10
+    GOTO L17
+   L12
+    BIPUSH 9
+    GOTO L17
+   L8
+    BIPUSH 8
+   L17
+    ISTORE 18
+    ILOAD 19
+    ICONST_1
+    IADD
+    ISTORE 19
+    ALOAD 6
+    ILOAD 18
     INVOKEVIRTUAL java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;
     POP
-    ALOAD 4
+    ILOAD 19
+    ALOAD 3
+    BIPUSH 92
+    ILOAD 19
+    INVOKEVIRTUAL java/lang/String.indexOf (II)I
+    ISTORE 2
+    ISTORE 1
+    GOTO L0
+   L1
+    ILOAD 1
+    ILOAD 5
+    IF_ICMPGE L18
     ALOAD 6
-    GETFIELD scala/runtime/IntRef.elem : I
-    PUTFIELD scala/runtime/IntRef.elem : I
-    RETURN
+    ALOAD 3
+    ILOAD 1
+    ILOAD 5
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
+    GOTO L19
+   L18
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L19
+    POP
+    ALOAD 6
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    ARETURN
     MAXSTACK = 4
-    MAXLOCALS = 8
+    MAXLOCALS = 20
 
   // access flags 0x1
   public processEscapes(Ljava/lang/String;)Ljava/lang/String;
@@ -152,6 +292,24 @@ public final class scala/StringContext$ implements scala/Serializable  {
     MAXSTACK = 1
     MAXLOCALS = 1
 
+  // access flags 0x12
+  private final replace$1(ILjava/lang/String;ZI)Ljava/lang/String;
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    ASTORE 5
+    ALOAD 0
+    ICONST_0
+    ILOAD 1
+    ALOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 5
+    INVOKESPECIAL scala/StringContext$.loop$1 (IILjava/lang/String;ZILjava/lang/StringBuilder;)Ljava/lang/String;
+    ARETURN
+    MAXSTACK = 7
+    MAXLOCALS = 6
+
   // access flags 0x1
   public treatEscapes(Ljava/lang/String;)Ljava/lang/String;
     ALOAD 0
@@ -164,302 +322,31 @@ public final class scala/StringContext$ implements scala/Serializable  {
 
   // access flags 0x2
   private treatEscapes0(Ljava/lang/String;Z)Ljava/lang/String;
-    INVOKESTATIC scala/runtime/ObjectRef.zero ()Lscala/runtime/ObjectRef;
-    ASTORE 19
-    ICONST_0
-    INVOKESTATIC scala/runtime/VolatileByteRef.create (B)Lscala/runtime/VolatileByteRef;
-    ASTORE 20
     ALOAD 1
     INVOKEVIRTUAL java/lang/String.length ()I
-    ISTORE 10
-    ICONST_0
-    INVOKESTATIC scala/runtime/IntRef.create (I)Lscala/runtime/IntRef;
-    ASTORE 21
-    ICONST_0
-    INVOKESTATIC scala/runtime/IntRef.create (I)Lscala/runtime/IntRef;
-    ASTORE 18
-    ICONST_0
-    INVOKESTATIC scala/runtime/IntRef.create (I)Lscala/runtime/IntRef;
-    ASTORE 22
-   L0
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ILOAD 10
-    IF_ICMPGE L1
-    ALOAD 18
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    PUTFIELD scala/runtime/IntRef.elem : I
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 3
+    ISTORE 3
     ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
     BIPUSH 92
-    IF_ICMPNE L2
-    ALOAD 22
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ICONST_1
-    IADD
-    PUTFIELD scala/runtime/IntRef.elem : I
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ILOAD 10
-    IF_ICMPLT L3
-    NEW scala/StringContext$InvalidEscapeException
-    DUP
-    ALOAD 1
-    ALOAD 18
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKESPECIAL scala/StringContext$InvalidEscapeException.<init> (Ljava/lang/String;I)V
-    ATHROW
-   L3
-    BIPUSH 48
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 4
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    IF_ICMPGT L4
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 5
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    BIPUSH 55
-    IF_ICMPGT L4
-    ILOAD 2
-    IFEQ L5
-    NEW scala/StringContext$InvalidEscapeException
-    DUP
-    ALOAD 1
-    ALOAD 18
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKESPECIAL scala/StringContext$InvalidEscapeException.<init> (Ljava/lang/String;I)V
-    ATHROW
-   L5
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 6
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    ISTORE 11
-    ILOAD 11
-    BIPUSH 48
-    ISUB
-    ISTORE 15
-    ALOAD 22
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ICONST_1
-    IADD
-    PUTFIELD scala/runtime/IntRef.elem : I
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ILOAD 10
-    IF_ICMPGE L6
-    BIPUSH 48
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 7
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    IF_ICMPGT L6
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 8
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    BIPUSH 55
-    IF_ICMPGT L6
-    ILOAD 15
-    BIPUSH 8
-    IMUL
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 9
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    IADD
-    BIPUSH 48
-    ISUB
-    ISTORE 15
-    ALOAD 22
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ICONST_1
-    IADD
-    PUTFIELD scala/runtime/IntRef.elem : I
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ILOAD 10
-    IF_ICMPGE L6
-    ILOAD 11
-    BIPUSH 51
-    IF_ICMPGT L6
-    BIPUSH 48
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 12
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    IF_ICMPGT L6
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 13
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    BIPUSH 55
-    IF_ICMPGT L6
-    ILOAD 15
-    BIPUSH 8
-    IMUL
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 14
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    IADD
-    BIPUSH 48
-    ISUB
-    ISTORE 15
-    ALOAD 22
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ICONST_1
-    IADD
-    PUTFIELD scala/runtime/IntRef.elem : I
-   L6
-    ALOAD 0
-    ILOAD 15
-    I2C
-    ALOAD 1
-    ALOAD 19
-    ALOAD 21
-    ALOAD 18
-    ALOAD 22
-    ALOAD 20
-    INVOKESPECIAL scala/StringContext$.output$1 (CLjava/lang/String;Lscala/runtime/ObjectRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/VolatileByteRef;)V
-    GOTO L0
-   L4
-    GETSTATIC scala/collection/immutable/StringOps$.MODULE$ : Lscala/collection/immutable/StringOps$;
-    GETSTATIC scala/Predef$.MODULE$ : Lscala/Predef$;
-    ASTORE 16
-    ALOAD 1
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL scala/collection/immutable/StringOps$.apply$extension (Ljava/lang/String;I)C
-    ISTORE 17
-    ALOAD 22
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ICONST_1
-    IADD
-    PUTFIELD scala/runtime/IntRef.elem : I
-    ALOAD 0
-    ILOAD 17
-    LOOKUPSWITCH
-      34: L7
-      39: L8
-      92: L9
-      98: L10
-      102: L11
-      110: L12
-      114: L13
-      116: L14
-      default: L15
-   L15
-    NEW scala/StringContext$InvalidEscapeException
-    DUP
-    ALOAD 1
-    ALOAD 18
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKESPECIAL scala/StringContext$InvalidEscapeException.<init> (Ljava/lang/String;I)V
-    ATHROW
-   L9
-    BIPUSH 92
-    GOTO L16
-   L8
-    BIPUSH 39
-    GOTO L16
-   L7
-    BIPUSH 34
-    GOTO L16
-   L13
-    BIPUSH 13
-    GOTO L16
-   L11
-    BIPUSH 12
-    GOTO L16
-   L12
-    BIPUSH 10
-    GOTO L16
-   L14
-    BIPUSH 9
-    GOTO L16
-   L10
-    BIPUSH 8
-   L16
-    ALOAD 1
-    ALOAD 19
-    ALOAD 21
-    ALOAD 18
-    ALOAD 22
-    ALOAD 20
-    INVOKESPECIAL scala/StringContext$.output$1 (CLjava/lang/String;Lscala/runtime/ObjectRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/IntRef;Lscala/runtime/VolatileByteRef;)V
-    GOTO L0
-   L2
-    ALOAD 22
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    ICONST_1
-    IADD
-    PUTFIELD scala/runtime/IntRef.elem : I
-    GOTO L0
+    INVOKEVIRTUAL java/lang/String.indexOf (I)I
+    ISTORE 4
+    ILOAD 4
+    TABLESWITCH
+      -1: L0
+      default: L1
    L1
-    ALOAD 21
-    GETFIELD scala/runtime/IntRef.elem : I
-    ICONST_0
-    IF_ICMPNE L17
-    ALOAD 1
-    GOTO L18
-   L17
     ALOAD 0
-    ALOAD 19
-    ALOAD 20
-    INVOKESPECIAL scala/StringContext$.bldr$1 (Lscala/runtime/ObjectRef;Lscala/runtime/VolatileByteRef;)Ljava/lang/StringBuilder;
+    ILOAD 4
     ALOAD 1
-    ALOAD 21
-    GETFIELD scala/runtime/IntRef.elem : I
-    ALOAD 22
-    GETFIELD scala/runtime/IntRef.elem : I
-    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
-    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
-   L18
+    ILOAD 2
+    ILOAD 3
+    INVOKESPECIAL scala/StringContext$.replace$1 (ILjava/lang/String;ZI)Ljava/lang/String;
+    GOTO L2
+   L0
+    ALOAD 1
+   L2
     ARETURN
-    MAXSTACK = 8
-    MAXLOCALS = 23
+    MAXSTACK = 5
+    MAXLOCALS = 5
 
   // access flags 0x1
   // signature (Lscala/StringContext;)Lscala/Option<Lscala/collection/Seq<Ljava/lang/String;>;>;

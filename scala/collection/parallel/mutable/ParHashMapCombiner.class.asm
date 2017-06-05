@@ -332,6 +332,8 @@ public abstract class scala/collection/parallel/mutable/ParHashMapCombiner exten
     INVOKESPECIAL scala/collection/parallel/mutable/ParHashMapCombiner$table$2$.<init> (Lscala/collection/parallel/mutable/ParHashMapCombiner;)V
     PUTFIELD scala/runtime/VolatileObjectRef.elem : Ljava/lang/Object;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

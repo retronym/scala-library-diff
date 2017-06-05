@@ -307,6 +307,8 @@ public class scala/util/matching/Regex$MatchIterator extends scala/collection/Ab
     ICONST_1
     PUTFIELD scala/util/matching/Regex$MatchIterator.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

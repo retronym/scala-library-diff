@@ -186,6 +186,8 @@ public class scala/io/BufferedSource extends scala/io/Source  {
     I2B
     PUTFIELD scala/io/BufferedSource.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -203,33 +205,32 @@ public class scala/io/BufferedSource extends scala/io/Source  {
   public mkString()Ljava/lang/String;
     ALOAD 0
     INVOKEVIRTUAL scala/io/BufferedSource.scala$io$BufferedSource$$decachedReader ()Ljava/io/BufferedReader;
-    POP
+    ASTORE 1
     NEW scala/collection/mutable/StringBuilder
     DUP
     INVOKESPECIAL scala/collection/mutable/StringBuilder.<init> ()V
-    ASTORE 3
+    ASTORE 2
     ALOAD 0
     GETFIELD scala/io/BufferedSource.bufferSize : I
     NEWARRAY T_CHAR
-    ASTORE 1
+    ASTORE 3
     ICONST_0
-    ISTORE 2
+    ISTORE 4
    L0
-    ILOAD 2
+    ILOAD 4
     ICONST_M1
     IF_ICMPEQ L1
-    ALOAD 0
-    INVOKEVIRTUAL scala/io/BufferedSource.scala$io$BufferedSource$$charReader ()Ljava/io/BufferedReader;
     ALOAD 1
+    ALOAD 3
     INVOKEVIRTUAL java/io/BufferedReader.read ([C)I
     DUP
-    ISTORE 2
+    ISTORE 4
     ICONST_0
     IF_ICMPLE L2
+    ALOAD 2
     ALOAD 3
-    ALOAD 1
     ICONST_0
-    ILOAD 2
+    ILOAD 4
     INVOKEVIRTUAL scala/collection/mutable/StringBuilder.appendAll ([CII)Lscala/collection/mutable/StringBuilder;
     GOTO L3
    L2
@@ -238,11 +239,11 @@ public class scala/io/BufferedSource extends scala/io/Source  {
     POP
     GOTO L0
    L1
-    ALOAD 3
+    ALOAD 2
     INVOKEVIRTUAL scala/collection/mutable/StringBuilder.result ()Ljava/lang/String;
     ARETURN
     MAXSTACK = 4
-    MAXLOCALS = 4
+    MAXLOCALS = 5
 
   // access flags 0x1
   public reader()Ljava/io/InputStreamReader;
@@ -308,6 +309,8 @@ public class scala/io/BufferedSource extends scala/io/Source  {
     I2B
     PUTFIELD scala/io/BufferedSource.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

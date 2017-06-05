@@ -147,7 +147,13 @@ public final class scala/collection/parallel/package$ {
     CHECKCAST scala/collection/parallel/ParIterableLike
     ALOAD 2
     INVOKEINTERFACE scala/collection/parallel/ParIterableLike.tasksupport_$eq (Lscala/collection/parallel/TaskSupport;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L1
    L0
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L1
     ALOAD 1
     ARETURN
     MAXSTACK = 2

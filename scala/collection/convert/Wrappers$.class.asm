@@ -205,6 +205,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$DictionaryWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.DictionaryWrapper$module : Lscala/collection/convert/Wrappers$DictionaryWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -252,6 +254,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$IterableWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.IterableWrapper$module : Lscala/collection/convert/Wrappers$IterableWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -299,6 +303,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$IteratorWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.IteratorWrapper$module : Lscala/collection/convert/Wrappers$IteratorWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -346,6 +352,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JCollectionWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JCollectionWrapper$module : Lscala/collection/convert/Wrappers$JCollectionWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -393,6 +401,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JConcurrentMapWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JConcurrentMapWrapper$module : Lscala/collection/convert/Wrappers$JConcurrentMapWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -440,6 +450,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JDictionaryWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JDictionaryWrapper$module : Lscala/collection/convert/Wrappers$JDictionaryWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -487,6 +499,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JEnumerationWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JEnumerationWrapper$module : Lscala/collection/convert/Wrappers$JEnumerationWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -534,6 +548,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JIterableWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JIterableWrapper$module : Lscala/collection/convert/Wrappers$JIterableWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -581,6 +597,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JIteratorWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JIteratorWrapper$module : Lscala/collection/convert/Wrappers$JIteratorWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -628,6 +646,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JListWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JListWrapper$module : Lscala/collection/convert/Wrappers$JListWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -675,6 +695,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JMapWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JMapWrapper$module : Lscala/collection/convert/Wrappers$JMapWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -722,6 +744,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JPropertiesWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JPropertiesWrapper$module : Lscala/collection/convert/Wrappers$JPropertiesWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -769,6 +793,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$JSetWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.JSetWrapper$module : Lscala/collection/convert/Wrappers$JSetWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -816,6 +842,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$MutableBufferWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.MutableBufferWrapper$module : Lscala/collection/convert/Wrappers$MutableBufferWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -863,6 +891,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$MutableMapWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.MutableMapWrapper$module : Lscala/collection/convert/Wrappers$MutableMapWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -910,6 +940,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$MutableSeqWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.MutableSeqWrapper$module : Lscala/collection/convert/Wrappers$MutableSeqWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -957,6 +989,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$MutableSetWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.MutableSetWrapper$module : Lscala/collection/convert/Wrappers$MutableSetWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -1004,6 +1038,8 @@ public final class scala/collection/convert/Wrappers$ implements scala/collectio
     INVOKESPECIAL scala/collection/convert/Wrappers$SeqWrapper$.<init> (Lscala/collection/convert/Wrappers;)V
     PUTFIELD scala/collection/convert/Wrappers$.SeqWrapper$module : Lscala/collection/convert/Wrappers$SeqWrapper$;
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

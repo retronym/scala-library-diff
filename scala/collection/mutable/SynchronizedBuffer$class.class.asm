@@ -21,6 +21,8 @@ public abstract class scala/collection/mutable/SynchronizedBuffer$class {
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/SynchronizedBuffer.scala$collection$mutable$SynchronizedBuffer$$super$$less$less (Lscala/collection/script/Message;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -191,6 +193,8 @@ public abstract class scala/collection/mutable/SynchronizedBuffer$class {
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/SynchronizedBuffer.scala$collection$mutable$SynchronizedBuffer$$super$appendAll (Lscala/collection/TraversableOnce;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -236,6 +240,8 @@ public abstract class scala/collection/mutable/SynchronizedBuffer$class {
    L0
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/SynchronizedBuffer.scala$collection$mutable$SynchronizedBuffer$$super$clear ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -306,6 +312,8 @@ public abstract class scala/collection/mutable/SynchronizedBuffer$class {
     ILOAD 1
     ALOAD 2
     INVOKEINTERFACE scala/collection/mutable/SynchronizedBuffer.scala$collection$mutable$SynchronizedBuffer$$super$insertAll (ILscala/collection/Traversable;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -329,6 +337,8 @@ public abstract class scala/collection/mutable/SynchronizedBuffer$class {
     ILOAD 1
     ALOAD 2
     INVOKEINTERFACE scala/collection/mutable/SynchronizedBuffer.scala$collection$mutable$SynchronizedBuffer$$super$insertAll (ILscala/collection/Traversable;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -407,6 +417,8 @@ public abstract class scala/collection/mutable/SynchronizedBuffer$class {
     ALOAD 0
     ALOAD 1
     INVOKEINTERFACE scala/collection/mutable/SynchronizedBuffer.scala$collection$mutable$SynchronizedBuffer$$super$prependAll (Lscala/collection/TraversableOnce;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -454,6 +466,8 @@ public abstract class scala/collection/mutable/SynchronizedBuffer$class {
     ILOAD 1
     ALOAD 2
     INVOKEINTERFACE scala/collection/mutable/SynchronizedBuffer.scala$collection$mutable$SynchronizedBuffer$$super$update (ILjava/lang/Object;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

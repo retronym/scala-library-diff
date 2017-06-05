@@ -109,6 +109,8 @@ public final class scala/collection/concurrent/Debug$ {
     ICONST_1
     PUTFIELD scala/collection/concurrent/Debug$.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

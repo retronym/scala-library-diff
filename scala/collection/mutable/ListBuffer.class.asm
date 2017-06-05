@@ -1549,6 +1549,7 @@ public final class scala/collection/mutable/ListBuffer extends scala/collection/
     ALOAD 0
     ACONST_NULL
     INVOKESPECIAL scala/collection/mutable/ListBuffer.last0_$eq (Lscala/collection/immutable/$colon$colon;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
     GOTO L2
    L1
     NEW scala/collection/immutable/$colon$colon
@@ -1578,7 +1579,10 @@ public final class scala/collection/mutable/ListBuffer extends scala/collection/
     ALOAD 0
     ALOAD 4
     INVOKESPECIAL scala/collection/mutable/ListBuffer.last0_$eq (Lscala/collection/immutable/$colon$colon;)V
+    ALOAD 0
+    INVOKEVIRTUAL scala/collection/mutable/ListBuffer.scala$collection$mutable$ListBuffer$$start ()Lscala/collection/immutable/List;
    L2
+    POP
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL java/io/ObjectInputStream.readBoolean ()Z

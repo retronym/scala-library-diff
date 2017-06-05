@@ -531,6 +531,8 @@ public abstract class scala/collection/immutable/NumericRange extends scala/coll
     I2B
     PUTFIELD scala/collection/immutable/NumericRange.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -733,6 +735,8 @@ public abstract class scala/collection/immutable/NumericRange extends scala/coll
     I2B
     PUTFIELD scala/collection/immutable/NumericRange.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1
@@ -934,6 +938,8 @@ public abstract class scala/collection/immutable/NumericRange extends scala/coll
     I2B
     PUTFIELD scala/collection/immutable/NumericRange.bitmap$0 : B
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

@@ -1,4 +1,5 @@
 package scala.concurrent
+@scala.deprecated("Use java.util.concurrent.locks.Lock")
 class Lock extends scala.AnyRef {
   def this() = { /* compiled code */ }
   var available: scala.Boolean = { /* compiled code */ }

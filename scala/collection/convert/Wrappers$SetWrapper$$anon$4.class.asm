@@ -127,6 +127,10 @@ public final class scala/collection/convert/Wrappers$SetWrapper$$anon$4 implemen
     ALOAD 0
     GETSTATIC scala/None$.MODULE$ : Lscala/None$;
     INVOKESPECIAL scala/collection/convert/Wrappers$SetWrapper$$anon$4.prev_$eq (Lscala/Option;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L1
     NEW java/lang/UnsupportedOperationException

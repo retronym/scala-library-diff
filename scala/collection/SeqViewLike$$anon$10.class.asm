@@ -199,6 +199,8 @@ public final class scala/collection/SeqViewLike$$anon$10 extends scala/collectio
     ICONST_1
     PUTFIELD scala/collection/SeqViewLike$$anon$10.bitmap$0 : Z
    L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L1

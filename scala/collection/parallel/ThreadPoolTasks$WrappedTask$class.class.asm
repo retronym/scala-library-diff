@@ -42,11 +42,15 @@ public abstract class scala/collection/parallel/ThreadPoolTasks$WrappedTask$clas
     ALOAD 0
     INVOKEINTERFACE scala/collection/parallel/ThreadPoolTasks$WrappedTask.scala$collection$parallel$ThreadPoolTasks$WrappedTask$$$outer ()Lscala/collection/parallel/ThreadPoolTasks;
     INVOKESTATIC scala/collection/parallel/ThreadPoolTasks$class.scala$collection$parallel$ThreadPoolTasks$$decrTasks (Lscala/collection/parallel/ThreadPoolTasks;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 2
     MONITOREXIT
    L1
     ALOAD 0
     INVOKEVIRTUAL java/lang/Object.notifyAll ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L5
@@ -78,21 +82,26 @@ public abstract class scala/collection/parallel/ThreadPoolTasks$WrappedTask$clas
    L0
     ALOAD 0
     INVOKEINTERFACE scala/collection/parallel/ThreadPoolTasks$WrappedTask.owned ()Z
-    IFNE L3
+    IFEQ L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L4
+   L3
     ALOAD 0
     ICONST_1
     INVOKEINTERFACE scala/collection/parallel/ThreadPoolTasks$WrappedTask.owned_$eq (Z)V
     ICONST_1
     ISTORE 1
-   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L4
+    POP
     ALOAD 0
     MONITOREXIT
    L1
     ILOAD 1
-    IFEQ L4
+    IFEQ L5
     ALOAD 0
     INVOKEINTERFACE scala/collection/parallel/ThreadPoolTasks$WrappedTask.compute ()V
-   L4
+   L5
     RETURN
    L2
     ALOAD 2
@@ -183,13 +192,20 @@ public abstract class scala/collection/parallel/ThreadPoolTasks$WrappedTask$clas
     ICONST_1
     IADD
     INVOKEVIRTUAL java/util/concurrent/ThreadPoolExecutor.setCorePoolSize (I)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L8
    L7
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L8
+    POP
     ALOAD 2
     MONITOREXIT
    L1
     ALOAD 0
     INVOKEINTERFACE scala/collection/parallel/ThreadPoolTasks$WrappedTask.completed ()Z
     IFEQ L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     ALOAD 0
     MONITOREXIT
    L6
@@ -201,12 +217,12 @@ public abstract class scala/collection/parallel/ThreadPoolTasks$WrappedTask$clas
    L2
     ALOAD 2
     MONITOREXIT
-    GOTO L8
+    GOTO L9
    L4
     ALOAD 1
     MONITOREXIT
     ATHROW
-   L8
+   L9
     ALOAD 1
     MONITOREXIT
     ATHROW

@@ -27,6 +27,8 @@ public abstract class scala/collection/mutable/SetLike$class {
     INVOKEVIRTUAL scala/collection/script/Include.elem ()Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/SetLike.$plus$eq (Ljava/lang/Object;)Lscala/collection/mutable/SetLike;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L0
     ALOAD 1
@@ -40,6 +42,8 @@ public abstract class scala/collection/mutable/SetLike$class {
     INVOKEVIRTUAL scala/collection/script/Remove.elem ()Ljava/lang/Object;
     INVOKEINTERFACE scala/collection/mutable/SetLike.$minus$eq (Ljava/lang/Object;)Lscala/collection/mutable/SetLike;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L2
     ALOAD 1
@@ -47,6 +51,8 @@ public abstract class scala/collection/mutable/SetLike$class {
     IFEQ L3
     ALOAD 0
     INVOKEINTERFACE scala/collection/mutable/SetLike.clear ()V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L1
    L3
     ALOAD 1
@@ -62,6 +68,8 @@ public abstract class scala/collection/mutable/SetLike$class {
     ALOAD 0
     INVOKESPECIAL scala/collection/mutable/SetLike$$anonfun$$less$less$1.<init> (Lscala/collection/mutable/SetLike;)V
     INVOKEINTERFACE scala/collection/Iterator.foreach (Lscala/Function1;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
    L1
     RETURN
    L4

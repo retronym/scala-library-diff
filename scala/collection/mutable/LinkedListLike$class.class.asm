@@ -296,6 +296,8 @@ public abstract class scala/collection/mutable/LinkedListLike$class {
     CHECKCAST scala/collection/mutable/LinkedListLike
     ALOAD 2
     INVOKEINTERFACE scala/collection/mutable/LinkedListLike.next_$eq (Lscala/collection/mutable/Seq;)V
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L1
     ALOAD 0

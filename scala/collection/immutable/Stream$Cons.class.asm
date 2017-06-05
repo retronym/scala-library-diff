@@ -65,7 +65,10 @@ public final class scala/collection/immutable/Stream$Cons extends scala/collecti
     TRYCATCHBLOCK L0 L1 L2 null
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Stream$Cons.tailDefined ()Z
-    IFNE L1
+    IFEQ L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L4
+   L3
     ALOAD 0
     DUP
     ASTORE 1
@@ -73,7 +76,10 @@ public final class scala/collection/immutable/Stream$Cons extends scala/collecti
    L0
     ALOAD 0
     INVOKEVIRTUAL scala/collection/immutable/Stream$Cons.tailDefined ()Z
-    IFNE L3
+    IFEQ L5
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    GOTO L6
+   L5
     ALOAD 0
     ALOAD 0
     GETFIELD scala/collection/immutable/Stream$Cons.tlGen : Lscala/Function0;
@@ -83,10 +89,15 @@ public final class scala/collection/immutable/Stream$Cons extends scala/collecti
     ALOAD 0
     ACONST_NULL
     PUTFIELD scala/collection/immutable/Stream$Cons.tlGen : Lscala/Function0;
-   L3
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+   L6
+    ASTORE 2
     ALOAD 0
     MONITOREXIT
    L1
+    ALOAD 2
+   L4
+    POP
     ALOAD 0
     GETFIELD scala/collection/immutable/Stream$Cons.tlVal : Lscala/collection/immutable/Stream;
     ARETURN
@@ -95,7 +106,7 @@ public final class scala/collection/immutable/Stream$Cons extends scala/collecti
     MONITOREXIT
     ATHROW
     MAXSTACK = 2
-    MAXLOCALS = 2
+    MAXLOCALS = 3
 
   // access flags 0x1041
   public synthetic bridge tail()Lscala/collection/LinearSeqOptimized;

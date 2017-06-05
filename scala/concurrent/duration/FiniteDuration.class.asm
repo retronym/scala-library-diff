@@ -123,6 +123,7 @@ public final class scala/concurrent/duration/FiniteDuration extends scala/concur
     GOTO L1
    L0
     ALOAD 1
+    INVOKEVIRTUAL scala/concurrent/duration/Duration.unary_$minus ()Lscala/concurrent/duration/Duration;
     ASTORE 3
    L1
     ALOAD 3

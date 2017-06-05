@@ -177,17 +177,26 @@ public class scala/concurrent/impl/ExecutionContextImpl implements scala/concurr
     ALOAD 6
     INVOKEVIRTUAL scala/concurrent/forkjoin/ForkJoinTask.fork ()Lscala/concurrent/forkjoin/ForkJoinTask;
     POP
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     GOTO L4
    L3
     ALOAD 5
     ALOAD 6
     INVOKEVIRTUAL scala/concurrent/forkjoin/ForkJoinPool.execute (Lscala/concurrent/forkjoin/ForkJoinTask;)V
-    GOTO L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+    GOTO L5
    L0
     ALOAD 7
     ALOAD 1
     INVOKEINTERFACE java/util/concurrent/Executor.execute (Ljava/lang/Runnable;)V
-   L4
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
+   L5
     RETURN
     MAXSTACK = 3
     MAXLOCALS = 8

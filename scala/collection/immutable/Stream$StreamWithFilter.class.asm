@@ -95,6 +95,8 @@ public final class scala/collection/immutable/Stream$StreamWithFilter extends sc
     ALOAD 4
     INVOKEVIRTUAL scala/collection/immutable/Stream.isEmpty ()Z
     IFEQ L1
+    GETSTATIC scala/runtime/BoxedUnit.UNIT : Lscala/runtime/BoxedUnit;
+    POP
     RETURN
    L1
     ALOAD 4
